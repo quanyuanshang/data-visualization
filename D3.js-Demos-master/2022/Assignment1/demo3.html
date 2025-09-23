@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <svg width="2000" height="1000"></svg>
+    <script>
+        // The following code is the typical routine of my d3.js code. 
+        // The following code is the typical routine of my d3.js code. 
+        const svg = d3.select('svg');
+        const width = +svg.attr('width');
+        const height = +svg.attr('height');
+        const margin = { top: 60, right: 30, bottom: 70, left: 150 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const mainGroup = svg.append('g')
+            .attr('transform', `translate(${margin.left}, ${margin.top})`)
+        mainGroup.append('text').attr('fill', 'black').attr('font-size', '2em').attr('text-anchor', 'end').attr('alignment-baseline', 'middle')
+            .attr('x', 1640).attr('y', 850).attr('font-weight', 'bolder').attr('font-size', '5em').attr('id', 'platText').attr('opacity', 0);
+        const xValue = d => d.globalsale;
+        const yValue = d => d.platform;
+        const xScale = d3.scaleLinear();
+        const yScale = d3.scaleBand();
+        const yScaleYear = d3.scaleOrdinal();
+        const colorScale = d3.scaleOrdinal();
+        let yearData = undefined;
+        let yAxisMethod;
+        let thisPlatData;
+        const xInterValue = d => xScale(thisPlatData.filter(dd => d.year > dd.year).reduce((p, c) => p + c.globalsale, 0));
+        const t0 = 500;
+
+        const onRectClick = async function (e, datum) {
+            e.stopPropagation();
+            if (yearData === undefined) { return; }
+            let originRect = d3.select(e.target);
+            thisPlatData = yearData.filter(d => d.platform === datum.platform);
+            let maxYear = thisPlatData.reduce((p, c) => (c.globalsale > 0 && c.year > p) ? c.year : p, 1970)
+            thisPlatData = thisPlatData.filter(d => d.year <= maxYear);
+            let minYear = thisPlatData.reduce((p, c) => (c.globalsale > 0 && c.year < p) ? c.year : p, 2020)
+            thisPlatData = thisPlatData.filter(d => d.year >= minYear);
+            // yScaleYear.domain(thisPlatData.map(d => d.year)).range([...Array(thisPlatData.length).keys()]);
+            mainGroup.selectAll('.yearRect').data(thisPlatData).join('rect').attr('class', 'yearRect')
+                .attr('width', d => xScale(xValue(d)))
+                .attr('height', yScale.bandwidth())
+                .attr('x', xInterValue)
+                .attr('y', yScale(yValue(datum))).attr('opacity', 1)
+                .attr('fill', colorScale(yValue(datum)));
+            mainGroup.selectAll('yearText').data(thisPlatData).join('text').attr('class', 'yearText')
+                .attr('x', xInterValue)
+                .attr('y', yScale(yValue(datum))).attr('font-size', '1.6em').attr('dy', yScale.bandwidth() / 2).attr('dx', -10)
+                .attr('text-anchor', 'end').attr('alignment-baseline', 'middle').attr('opacity', 0.5)
+                .text(d => d.year)
+            mainGroup.select('#rect-' + yValue(datum)).attr('opacity', 0.0);
+            let transition1 = d3.transition().duration(t0);
+            mainGroup.selectAll('.rect-platforms').transition(transition1).attr('opacity', 0.0);
+            d3.selectAll('#yAxisGroup .tick text').transition(transition1).attr('opacity', 0.0);
+            d3.select('#yAxisTitle').transition(transition1).attr('opacity', 0.0)
+                .transition().text('Years').attr('opacity', 1.0) // the second transition. 
+            d3.select('#platText').text(datum.platform).raise().transition(transition1).attr('opacity', 1);
+            await transition1.end();
+            let transition2 = d3.transition().duration(t0)
+            mainGroup.selectAll('.yearRect, .yearText').transition(transition2).attr('opacity', 1)
+                .attr('y', d => (yScaleYear(d.year) - (((minYear < 1990) ? 1990 - minYear : 0))) * yScale.step() + yScale.step() * 0.1)
+                .transition().attr('x', 0) // the third transition. 
+            d3.select('#yAxisTitle')
+            await transition2.end();
+        }
+
+        const onRectDeClick = async function (e, datum) {
+            let transition3 = d3.transition().duration(t0);
+            mainGroup.selectAll('.yearRect, .yearText').transition(transition3)
+                .attr('x', xInterValue);
+            d3.select('#yAxisTitle').transition(transition3).attr('opacity', 0.0)
+            await transition3.end();
+            let transition2 = d3.transition().duration(t0);
+            mainGroup.selectAll('.yearRect, .yearText').transition(transition2)
+                .attr('y', d => yScale(yValue(d)));
+            mainGroup.selectAll('.yearText').transition(transition2).attr('opacity', 0.0);
+            d3.select('#yAxisTitle').text('Platform').transition(transition2).attr('opacity', 1.0)
+            await transition2.end();
+            let transition1 = d3.transition().duration(t0);
+            mainGroup.selectAll('.rect-platforms').transition(transition1).attr('opacity', 1.0);
+            d3.selectAll('#yAxisGroup .tick text').transition(transition1).attr('opacity', 1.0);
+            d3.select('#platText').raise().transition(transition1).attr('opacity', 0);
+            await transition1.end();
+            mainGroup.selectAll('.yearRect, .yearText').remove();
+        }
+
+        /* 
+            Loading data and preprocessing data. 
+            Note that you can also preprocessing data in your own way using your prefered language, e.g., Python. 
+        */
+        d3.csv('platform_globalsale.csv').then(data => {
+            // document.getElementsByTagName('svg')[0].addEventListener('click', onRectDeClick, false);
+            data.forEach(d => {
+                d.globalsale = +(d.globalsale);
+            })
+            d3.select('svg').on('click', onRectDeClick)
+            // calculationg scales: 
+            data.sort((a, b) => b.globalsale - a.globalsale);
+            yScale.domain(data.map(yValue)).range([0, innerHeight]).padding(0.1);
+            xScale.domain([0, d3.max(data, xValue)]).range([0, innerWidth]);
+            // colors:
+            colorScale.domain(data.map(yValue));
+            const sp = d3.scalePoint().domain(data.map(yValue)).range([0, 1]);
+            colorScale.range(data.map(d => d3.interpolateSpectral(sp(yValue(d)))));
+            // data-join for rectangles: 
+            mainGroup.selectAll('rect').data(data).join('rect')
+                .attr('id', d => `rect-${yValue(d)}`)
+                .attr('class', `rect-platforms`)
+                .attr('height', yScale.bandwidth())
+                .attr('x', 0).attr('y', d => yScale(yValue(d)))
+                .attr('fill', d => colorScale(yValue(d)))
+                .attr('opacity', 1.0);//.attr('fill', (d, i) => d3.interpolateSpectral(i * 1/(data.length-1)))
+            // adding axes: 
+            const xAxisMethod = d3.axisBottom(xScale);
+            yAxisMethod = d3.axisLeft(yScale);
+            const xAxisGroup = mainGroup.append('g').call(xAxisMethod);
+            const yAxisGroup = mainGroup.append('g').attr('id', 'yAxisGroup').call(yAxisMethod);
+            xAxisGroup.attr('transform', `translate(${0}, ${innerHeight})`);
+            // font-size of texts of axes: 
+            d3.selectAll('.tick text').attr('font-size', '2.5em');
+            d3.selectAll('#yAxisGroup .tick text').attr('opacity', 1.0);
+            // titles of axes: 
+            xAxisGroup.append('text').attr('class', 'axisTitle').text('Global Sale')
+                .attr('x', innerWidth / 2).attr('y', 60);
+            yAxisGroup.append('text').attr('class', 'axisTitle').attr('id', 'yAxisTitle').text('Platform')
+                .attr('transform', 'rotate(-90)').attr('x', -innerHeight / 2).attr('y', -100).attr('opacity', 1.0);
+            d3.selectAll('#yAxisGroup .tick text').data(data).on('click', onRectClick)
+            d3.selectAll('.axisTitle').attr('font-weight', 'bolder').attr('text-anchor', "middle").attr('fill', 'black').attr('font-size', '3em');
+            // animation: 
+            mainGroup.selectAll('rect').on('click', onRectClick)
+                .transition().duration(2000).attr('width', d => xScale(xValue(d)));
+            d3.csv('pgy2022.csv').then(data => {
+                yearData = data;
+                yearData.forEach(d => {
+                    d.globalsale = parseFloat(d.globalsale);
+                    d.year = parseInt(d.year);
+                });
+                yearData.sort((a, b) => b.year - a.year);
+                yScaleYear.domain(yearData.map(d => d.year)).range([...Array(yearData.length).keys()]);
+                console.log(Array.from(new Set(yearData.map(d => d.year))).length);
+            });
+        })
+    </script>
+</body>
+
+</html>

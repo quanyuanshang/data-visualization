@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <svg width="2000" height="1000"></svg>
+    <script>
+        const svg = d3.select('svg');
+        const width = +svg.attr("width");   // 把 <svg> 标签里的宽度取出来
+        const height = +svg.attr("height");
+        const margin = { top: 60, right: 30, bottom: 70, left: 150 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const mainGroup = svg.append('g')
+            .attr('transform', `translate(${margin.left}, ${margin.top})`)
+
+        const xValue = d => d.globalsale;
+        const yValue = d => d.platform;
+        const xScale = d3.scaleLinear();
+        const yScale = d3.scaleBand();
+        const yScaleYear = d3.scaleOrdinal();
+        const colorScale = d3.scaleOrdinal();
+        const xInterValue = d => xScale(thisPlatData.filter(dd => d.year > dd.year).reduce((p, c) => p + c.globalsale, 0));
+
+        let thisPlatData;
+        let yearData = undefined;
+
+
+
+        const onRectClick = async function (e, datum) {
+            e.stopPropagation();
+            //筛选数据
+            let originRect = d3.select(e.target);
+            thisPlatData = yearData.filter(d => d.platform === datum.platform);
+            let maxYear = thisPlatData.reduce((pre, cur) => (cur.globalsale > 0 && cur.year > pre) ? cur.year : pre, 1970)
+            thisPlatData = thisPlatData.filter(d => d.year <= maxYear);
+            let minYear = thisPlatData.reduce((pre, cur) => (cur.globalsale > 0 && cur.year < pre) ? cur.year : pre, 2020)
+            thisPlatData = thisPlatData.filter(d => d.year >= minYear);
+            // const yScalenew=.domain(thisPlatData.map(d => d.year)).range([0, innerHeight]).padding(0.1);
+            //绘制
+            mainGroup.selectAll('.yearRect').data(thisPlatData).join('rect').attr('class', 'yearRect')
+                .attr('width', d => xScale(xValue(d)))
+                .attr('height', yScale.bandwidth())
+                .attr('x', xInterValue)
+                .attr('y', yScale(yValue(datum))).attr('opacity', 1)
+                .attr('fill', colorScale(yValue(datum)));
+            mainGroup.selectAll('yearText').data(thisPlatData).join('text').attr('class', 'yearText')
+                .attr('x', xInterValue)
+                .attr('y', yScale(yValue(datum))).attr('font-size', '1.6em')
+                .attr('dy', yScale.bandwidth() / 2)
+                .attr('text-anchor', 'end')
+                .attr('alignment-baseline', 'middle')
+                .attr('opacity', 0.0)
+                .text(d => d.year);
+            mainGroup.selectAll('#rect-' + yValue(datum)).attr('opacity', 0.0);
+            let transition1 = d3.transition().duration(500);
+            mainGroup.selectAll('.rect-platforms').transition(transition1).attr('opacity', 0.0);
+            d3.selectAll('#yAxisGroup .tick text').transition(transition1).attr('opacity', 0.0);
+
+
+
+            await transition1.end();
+            let transition2 = d3.transition().duration(500);
+            mainGroup.selectAll('.yearRect, .yearText').transition(transition2).attr('opacity', 1)
+                .attr('y', d =>
+                    (yScaleYear(d.year) - (((minYear < 1990) ? 1990 - minYear : 0))) * yScale.step()
+                    + yScale.step() * 0.1
+                ).transition().attr('x', 0)
+            await transition2.end();
+
+
+        }
+
+
+
+        const onRectDeClick = async function (e, datum) {
+            let transition3 = d3.transition().duration(500);
+            mainGroup.selectAll('.yearRect, .yearText').transition(transition3)
+                .attr('x', xInterValue);
+            await transition3.end();
+            let transition2 = d3.transition().duration(500);
+            mainGroup.selectAll('.yearRect, .yearText').transition(transition2)
+                .attr('y', d => yScale(yValue(d)));
+            mainGroup.selectAll('.yearText').transition(transition2).attr('opacity', 0.0);
+            await transition2.end();
+            let transition1 = d3.transition().duration(500);
+            mainGroup.selectAll('.rect-platforms').transition(transition1).attr('opacity', 1.0);
+            d3.selectAll('#yAxisGroup .tick text').transition(transition1).attr('opacity', 1.0);
+            await transition1.end();
+            mainGroup.selectAll('.yearRect, .yearText').remove();
+        }
+        d3.csv('platform_globalsale.csv').then(data => {
+            data.forEach(d => {
+                d.globalsale = +(d.globalsale);
+            });
+            d3.select('svg').on('click', onRectDeClick);
+            data.sort((a, b) => b.globalsale - a.globalsale);
+            xScale.domain([0, d3.max(data, xValue)]).range([0, innerWidth]);
+            yScale.domain(data.map(yValue)).range([0, innerHeight]).padding(0.1);
+            colorScale.domain(data.map(yValue));
+
+            const xAxis = d3.axisBottom(xScale);
+            const yAxis = d3.axisLeft(yScale);
+            const yAxisGroup = mainGroup.append('g').attr('id', 'yAxisGroup').attr('class', 'y-axis').call(yAxis);
+            const xAxisGroup = mainGroup.append('g').attr('class', 'x-axis').call(xAxis).attr('transform', `translate(0, ${innerHeight})`);
+
+            // d3.selectAll('#yAxisGroup .tick text').attr('opacity', 1.0);
+            d3.selectAll('.tick text').attr('font-size', '2.5em');
+
+            //color
+            colorScale.domain(data.map(yValue));
+            const sp = d3.scalePoint().domain(data.map(yValue)).range([0, 1]);
+            colorScale.range(data.map(d => d3.interpolateSpectral(sp(yValue(d)))));
+
+
+
+            mainGroup.selectAll('rect').data(data).join('rect')
+                .attr('id', d => `rect-${yValue(d)}`)
+                .attr('class', `rect-platforms`)
+                .attr('y', d => yScale(yValue(d))).attr('x', 0)
+                .attr('height', yScale.bandwidth())
+                // .attr('width', 0)
+                // .attr('width', d => xScale(xValue(d)))
+                .attr('fill', d => colorScale(yValue(d)))
+                .attr('opacity', 1);
+
+            // animation: 
+            mainGroup.selectAll('rect').on('click', onRectClick).transition().duration(2000).attr('width', d => xScale(xValue(d)));
+            d3.csv('pgy2022.csv').then(data => {
+                yearData = data;
+                yearData.forEach(d => {
+                    d.globalsale = parseFloat(d.globalsale);
+                    d.year = parseInt(d.year);
+                })
+                yearData.sort((a, b) => b.year - a.year);
+                yScaleYear.domain(yearData.map(d => d.year)).range([...Array(yearData.length).keys()]);;
+
+            });
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>

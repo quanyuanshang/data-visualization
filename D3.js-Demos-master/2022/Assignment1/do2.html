@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <svg width="2000" height="1000"></svg>
+    <script src="https://d3js.org/d3.v7.min.js">
+
+
+
+    </script>
+    <script>
+        //创建比例尺
+        // const data = [
+        //     { platform: "PS4", globalsale: 100, year: 2018 },
+        //     { platform: "PS4", globalsale: 700, year: 2019 },
+        //     { platform: "PS4", globalsale: 900, year: 2020 },
+        //     { platform: "XOne", globalsale: 300, year: 2018 },
+        //     { platform: "XOne", globalsale: 700, year: 2019 },
+        //     { platform: "XOne", globalsale: 600, year: 2020 },
+        //     { platform: "PC", globalsale: 200, year: 2018 },
+        //     { platform: "PC", globalsale: 500, year: 2019 },
+        //     { platform: "PC", globalsale: 400, year: 2020 },
+        //     { platform: "3DS", globalsale: 100, year: 2018 },
+        //     { platform: "3DS", globalsale: 300, year: 2019 },
+        //     { platform: "3DS", globalsale: 200, year: 2020 }
+        // ];
+        const colorscale = d3.scaleOrdinal()
+            .domain(data.map(d => d.platform))
+            .range(d3.schemeSet2);
+
+        const svg = d3.select('svg');
+        const margin = { top: 100, right: 50, bottom: 200, left: 200 };
+        const innerWidth = +svg.attr('width') - margin.left - margin.right;
+        const innerHeight = +svg.attr('height') - margin.top - margin.bottom;
+
+        const xValue = d => d.globalsale;
+        const yValue = d => d.platform;
+        const xScale = d3.scaleLinear();
+        const yScale = d3.scaleBand();
+        const maingroup = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+        let xAxis, yAxis;
+        let xAxisGroup, yAxisGroup;
+
+        maingroup.append('text')
+            .attr('class', 'yeartitle')
+            .attr('x', 800)
+            .attr('y', 700)
+            .attr('id', 'yeartext')
+            .attr('font-size', '4em')
+            .attr('fill', 'black');
+
+
+
+        const render = function (data) {
+            //绘制条形
+
+            // data.sort(d => d.globalsale);
+            xScale.domain([0, d3.max(data, xValue)]).range([0, innerWidth]);
+            yScale.domain(data.map(yValue)).range([0, innerHeight]).padding(0.1);
+
+            //这是数字
+
+
+
+            // maingroup.selectAll('rect').data(data).enter().append('rect').attr('x', 0)
+            //     .attr('y', d => yScale(d.platform))
+            //     .attr('width', d => xScale(d.globalsale))//xScale是个函数！
+            //     .attr('height', yScale.bandwidth())
+            //     .attr('fill', d => colorscale(d.platform));
+            //添加文字标签
+            //添加时间变化
+
+            d3.select('#yeartext').text(data[0].year).raise();
+            //添加动画
+            const transition = d3.transition()
+                .duration(1000)
+                .ease(d3.easeLinear);
+
+            let enter =
+                maingroup.selectAll('rect')
+                    .data(data, d => d.platform)
+                    .enter().append('rect')
+                    .attr('height', yScale.bandwidth())
+                    .attr('x', 0).attr('y', d => yScale(yValue(d)))
+                    .attr('fill', d => colorscale(yValue(d)))
+
+            let entertext =
+                maingroup.selectAll('.datatext')
+                    .data(data)
+                    .enter().append('text')
+                    .attr('x', 3).attr('y', d => yScale(yValue(d)) + yScale.bandwidth() / 2);
+
+
+            maingroup.selectAll('rect').merge(enter).transition(transition)
+                .attr('y', d => yScale(yValue(d)))
+                .attr('width', d => xScale(xValue(d)))
+                .attr('height', yScale.bandwidth());
+
+
+
+            maingroup.selectAll('.datatext').merge(entertext).transition(transition)
+                .attr('y', d => yScale(yValue(d)) + yScale.bandwidth() / 2)
+                .attr('x', d => xScale(xValue(d)) + 3)
+                .tween("text", function (d) {
+                    const i = d3.interpolateNumber(0, d.globalsale);
+                    return function (t) {
+                        this.textContent = i(t).toFixed(2);
+                    };
+                })
+            xAxis = d3.axisBottom(xScale);
+            yAxis = d3.axisLeft(yScale);
+            xAxisGroup.transition(transition).call(xAxis);
+            yAxisGroup.transition(transition).call(yAxis);
+
+
+
+        }
+
+        d3.csv('pgy2022.csv').then(data => {
+            data.forEach(d => {
+                d.globalsale = +d.globalsale;
+                d.year = +d.year;
+            });
+            const years = Array.from(new Set(data.map(d => d.year))).sort();
+            const platforms = Array.from(new Set(data.map(d => d.platform)));
+            colorscale.domain(platforms);
+            const sp = d3.scalePoint().domain(platforms).range([0, 1]);
+            colorscale.range(platforms.map(d => d3.interpolateSpectral(sp(d))));
+            xScale.range([0, innerWidth]);
+            yScale.range([0, innerHeight]).padding(0.1);
+            xAxis = d3.axisBottom(xScale);
+            yAxis = d3.axisLeft(yScale);
+
+            xAxisGroup = maingroup.append('g').call(xAxis)
+                .attr('transform', `translate(0,${innerHeight})`);
+            yAxisGroup = maingroup.append('g').call(yAxis);
+
+            maingroup.append('text')
+                .attr('x', 800)
+                .attr('y', -20)
+                .text('各游戏平台销量对比')
+                .attr('font-size', '20px')
+                .attr('fill', 'black');
+
+            xAxisGroup.append('text')
+                .attr('class', 'axisTitle')
+                .text('Global Sales (in millions)')
+                .attr('x', innerWidth / 2)
+                .attr('y', 50)
+                .attr('fill', 'black')
+                .attr('font-size', '20px')
+                .attr('text-anchor', 'middle');
+            yAxisGroup.append('text').attr('class', 'axisTitle').text('Platform')
+                .attr('transform', 'rotate(-90)').attr('x', -innerHeight / 2).attr('y', -60);
+
+            d3.selectAll('.axisTitle').attr('text-anchor', "middle").attr('fill', 'black').attr('font-size', '2em');
+            data.sort((a, b) => b.globalsale - a.globalsale)
+            let yearIndex = 0;
+            const timer = setInterval(() => {
+                render(data.filter(d => d.year === years[yearIndex]));
+                yearIndex = (yearIndex + 1);
+                if (yearIndex >= years.length) {
+                    clearInterval(timer); // 遍历完所有年份后停止
+                }
+            }, 1000);
+        });
+        // const years = [2018, 2019, 2020];
+        // let yearIndex = 0;
+        // const timer = setInterval(() => {
+        //     render(data.filter(d => d.year === years[yearIndex]));
+        //     yearIndex = (yearIndex + 1);
+        //     if (yearIndex >= years.length) {
+        //         clearInterval(timer); // 遍历完所有年份后停止
+        //     }
+        // }, 1000);
+
+
+    </script>
+
+
+
+</body>
+
+</html>
