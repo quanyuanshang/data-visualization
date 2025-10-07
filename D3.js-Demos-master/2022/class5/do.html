@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render the earth2</title>
+    <link rel="stylesheet" href="earth.css">
+    <link rel="stylesheet" href="d3-tip.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="topojson.min.js"></script>
+    <script src="d3-v6-tip.js"></script>
+    <script src="d3-geo-projection.min.js"></script>
+
+</head>
+
+<body>
+    <svg width="2550" height="1260" id="mainsvg" class="svgs" style='display: block; margin: 0 auto;'></svg>
+    <script>
+
+        let svg = d3.select('svg');
+        const width = +svg.attr('width');
+        const height = +svg.attr('height');
+        const margin = { top: 0, right: 0, bottom: 0, left: 0 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const g = svg.append('g').attr('id', 'maingroup')
+            .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+        // convert dataPath to svgPath; 
+        // go to
+        const projection = d3.geoEquirectangular(); // Plate Carrée投影（等距）
+        const pathGenerator = d3.geoPath().projection(projection);
+        // setting up the tip tool;
+        const tip = d3.tip()
+            .attr('class', 'd3-tip').html(function (event, d) { return d.properties.name });
+        svg.call(tip);
+
+        let worldData;
+        let lastid = undefined;
+        let count = 1;
+
+        d3.json('countries-110m.json').then(function (data) {
+            // convert topo-json to geo-json; 
+            worldData = topojson.feature(data, data.objects.countries);
+            projection.fitSize([innerWidth, innerHeight], worldData);
+            //data join
+            const paths = g.selectAll('path')
+                .data(worldData.features, d => d.properties.name)
+                .enter().append('path')
+                .attr('d', pathGenerator)
+                .attr('stroke', 'black')
+                .attr('stroke-width', 1)
+                .on('mouseover', function (d) {
+                    d3.select(this).
+                        attr('fill', 'orange').
+                        attr('opacity', 0.5).
+                        attr("stroke", "red").
+                        attr("stroke-width", 7);
+
+                })
+                .on('mouseout', function (d) {
+                    d3.select(this).
+                        attr('opacity', 1.0).attr("stroke", "black").attr("stroke-width", 1)
+                        .attr('stroke-width', 1);
+
+                })
+                .on('contextmenu', function (event, d) {
+                    event.preventDefault();
+                    if (lastid !== d.properties.name) {
+                        tip.show(event, d)
+                        lastid = d.properties.name;
+                    }
+                    else {
+                        tip.hide(event, d);
+                        lastid = undefined;
+
+
+                    }
+                    const tipNode = d3.select('.d3-tip').node();
+                    const tipWidth = tipNode.offsetWidth;
+
+                    d3.select('.d3-tip')
+                        .style('left', (event.pageX - tipWidth / 2) + 'px')
+                        .style('top', (event.pageY - 80) + 'px');
+
+                });
+        });
+
+    </script>
+</body>
+
+</html>

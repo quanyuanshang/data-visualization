@@ -37,15 +37,20 @@
             const yAxis = d3.axisLeft(yScale);
             const xAxisGroup = mainGroup.append('g').attr('id', 'xAxisGroup').call(xAxis).attr('transform', `translate(0, ${innerHeight})`);
             const yAxisGroup = mainGroup.append('g').attr('id', 'yAxisGroup').call(yAxis);
-            
+
             const line = d3.line().x(d => xScale(d.day)).y(d => yScale(d.sale));
             // line.curve(d3.curveCardinal.tension(0.5)); // the line is guaranteed to pass through points; 
             // line.curve(d3.curveBasis); // the line is NOT guaranteed to pass through points; 
-            // line.curve(d3.curveStep); 
-            // line.curve(d3.curveNatural); 
+            const line2 = d3.line().x(d => xScale(d.day)).y(d => yScale(d.sale)).curve(d3.curveStep);
+            const line3 = d3.line().x(d => xScale(d.day)).y(d => yScale(d.sale)).curve(d3.curveCardinal.tension(0.5));
+            line.curve(d3.curveNatural);
             line.curve(d3.curveLinear); // default
             mainGroup.append('path').datum(data).attr('fill', 'none')
-            .attr('d', line).attr('stroke', 'black').attr('stroke-width', '5px');
+                .attr('d', line).attr('stroke', 'black').attr('stroke-width', '5px');
+            mainGroup.append('path').datum(data).attr('fill', 'none')
+                .attr('d', line2).attr('stroke', 'red').attr('stroke-width', '5px');
+            mainGroup.append('path').datum(data).attr('fill', 'none')
+                .attr('d', line3).attr('stroke', 'blue').attr('stroke-width', '5px');
         })
 
     </script>

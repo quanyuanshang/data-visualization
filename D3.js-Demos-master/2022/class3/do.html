@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="d3.min.js"></script>
+
+</head>
+
+<body>
+    <script>
+        d3.select('body')
+            .append('div')
+            .attr('id', 'tooltip')
+            .style('position', 'absolute')
+            .style('background', 'rgba(255,255,255,0.95)')
+            .style('border', '1px solid #999')
+            .style('padding', '8px 12px')
+            .style('border-radius', '4px')
+            .style('pointer-events', 'none')
+            .style('font-size', '16px')
+            .style('color', '#222')
+            .style('display', 'none');
+    </script>
+    <svg width="1600" height="800" id="mainsvg" class="svgs"></svg>
+    <script>
+
+        const svg = d3.select('#mainsvg');
+        const width = +svg.attr('width');
+        const height = +svg.attr('height');
+        const margin = { top: 100, right: 120, bottom: 100, left: 120 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const xValue = d => Math.log(d['确诊人数'] + 1);
+        const yValue = d => Math.log(d['新增确诊'] + 1);
+        const rValue = d => Math.sqrt(d['感染率'] * 600) * 0.8;
+        const keyValue = d => d['地区'];
+        let xScale, yScale;
+        let maxX, maxY;
+        let aduration = 1000;
+
+        const xAxisLabel = '累计确诊人数（对数）';
+        const yAxisLabel = '新增人数（对数）';
+        const colorScale = d3.scaleOrdinal(d3.schemeCategory10).domain(["武汉", "黄石", "十堰", "荆州", "宜昌", "襄阳", "鄂州", "荆门", "孝感", "黄冈", "咸宁", "恩施州", "随州", "仙桃", "天门", "潜江", "神农架"]);
+        const renderinit = function (data, seq) {
+            xScale = d3.scaleLinear()
+                .domain(d3.extent(data, xValue)) // "extent" is equivalent to [d3.min(data, xValue), d3.max(data, xValue)]; 
+                .range([0, innerWidth])
+                .nice();
+
+            yScale = d3.scaleLinear()
+                .domain(d3.extent(data, yValue).reverse()) // remember to use reverse() to make y-axis start from the bottom;
+                .range([0, innerHeight])
+                .nice();
+
+            maxX = xScale(d3.max(data, xValue));
+            maxY = yScale(d3.max(data, yValue));
+
+            const mainGroup = svg.append('g')
+                .attr('transform', `translate(${margin.left}, ${margin.top})`)
+                .attr('id', 'mainGroup');
+
+            const yAxis = d3.axisLeft(yScale)
+                .tickSize(-innerWidth)
+                .tickPadding(10);
+            const xAxis = d3.axisBottom(xScale)
+                .tickSize(-innerHeight)
+                .tickPadding(10);
+
+            const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+                .domain(["武汉", "黄石", "十堰", "荆州", "宜昌", "襄阳", "鄂州", "荆门", "孝感", "黄冈", "咸宁", "恩施州", "随州", "仙桃", "天门", "潜江", "神农架"]);
+
+            const yAxisGroup = mainGroup.append('g').attr('class', 'yaxis').call(yAxis);
+            yAxisGroup.append('text').attr('class', 'axis-label').attr('y', -60).attr('x', -innerHeight / 2)
+                .attr('fill', 'black').attr('transform', `rotate(-90)`).attr('text-anchor', 'middle')
+                .text(yAxisLabel);
+            const xAxisGroup = mainGroup.append('g').attr('class', 'xaxis')
+                .attr('transform', `translate(0, ${innerHeight})`)
+                .call(xAxis);
+            xAxisGroup.append('text').attr('class', 'axis-label').attr('y', 70).attr('x', innerWidth / 2)
+                .attr('fill', 'black').attr('text-anchor', 'middle')
+
+            const legend_text = ["武汉", "黄石", "十堰", "荆州", "宜昌", "襄阳", "鄂州", "荆门", "孝感", "黄冈", "咸宁", "恩施州", "随州", "仙桃", "天门", "潜江", "神农架"];
+            const legend = d3.select('#mainGroup').selectAll('.legend')
+                .data(legend_text).join('g')
+                .attr('class', 'legend')
+                .attr('transform', function (d, i) { return `translate(${innerWidth + 10}, ${i * 25})`; });
+
+            legend.append('rect').attr('width', 18).attr('height', 18).attr("x", 0).attr("y", 0)
+                .attr('fill', d => colorScale(d));
+            legend.append('text').attr('x', 24).attr('y', 9).attr('dy', '0.35em')
+                .text(d => d);//dy 表示“相对于当前文本位置的垂直偏移”。
+            mainGroup.append('text').attr("x", innerWidth / 4 + 30)
+                .attr("y", innerHeight / 10 - 20)
+                .attr("dy", ".5em")
+                .attr('text-anchor', 'middle').attr('font-size', '6em').attr('fill', 'black')
+                .attr('font-size', '6em')
+                .attr('font-weight', 'bold')
+                .text(' ')
+                .attr('id', 'data_text');
+        };
+        const renderupdate = async function (seq) {
+            const g = d3.select('#mainGroup');
+            d3.select('#data_text').text(seq[0]['日期']);
+            let transition = d3.transition().duration(aduration).ease(d3.easeLinear);
+            let circleupdates = g.selectAll('circle').data(seq).join('circle')
+
+                .attr('fill', d => colorScale(keyValue(d)))
+                .attr('opacity', 0.75)
+                .on('mouseover', function (event, d) {
+                    d3.select('#tooltip')
+                        .style('display', 'block')
+                        .html(`
+                    <div>地区：${d['地区']}</div>
+                    <div>确诊人数：${d['确诊人数']}</div>
+                    <div>新增确诊：${d['新增确诊']}</div>
+                    <div>感染率：${(d['感染率'] * 100).toFixed(2)}‰</div>
+                    <div>日期：${d['日期']}</div>
+                    `);
+                    d3.select(this).attr('stroke', '#222').attr('stroke-width', 3);
+
+                })
+                .on('mousemove', function (event) {
+                    d3.select('#tooltip')
+                        .style('left', (event.pageX + 20) + 'px')
+                        .style('top', (event.pageY - 20) + 'px');
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').style('display', 'none');
+                    d3.select(this).attr('stroke', null).attr('stroke-width', null);
+                })
+
+                .transition(transition)
+                .attr('cx', d => xScale(xValue(d)))
+                .attr('cy', d => yScale(yValue(d)))
+                .attr('r', d => rValue(d));
+
+
+            let circleexits = g.selectAll('.province_text').data(seq).join('text')
+                .attr('class', 'province_text')
+                .attr('text-anchor', 'middle')
+                .attr('fill', '#333333')
+                .text(d => keyValue(d))
+                .transition(transition)
+                .attr('x', d => xScale(xValue(d)))
+                .attr('y', d => yScale(yValue(d)));
+
+            await transition.end();
+
+        }
+        d3.csv('hubei_day14.csv').then(async function (data) {
+            data = data.filter(d => { return keyValue(d) != '总计' });
+            data.forEach(d => {
+                d['确诊人数'] = +d['确诊人数'];
+                d['新增确诊'] = +d['新增确诊'];
+                if (d['新增确诊'] < 0) {
+                    d['新增确诊'] = 0;
+                }
+                d['感染率'] = +d['确诊人数'] / 1000;
+            });
+            alldates = Array.from(new Set(data.map(datum => datum['日期']))); // get all the dates;
+            alldates = alldates.sort(function (a, b) {
+                return new Date(b) - new Date(a);
+            })
+
+            sequential = [];
+            alldates.forEach(datum => {
+                sequential.push([]);
+            });
+            data.forEach(datum => {
+                sequential[alldates.indexOf(datum['日期'])].push(datum);
+            });
+            renderinit(data, sequential[0]);
+            for (let i = 0; i < sequential.length; i++) {
+                await renderupdate(sequential[i]);
+            }
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>
