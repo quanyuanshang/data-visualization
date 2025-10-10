@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>D3 Force + Pack Sample</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            background: #fafafa;
+            margin: 0;
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <svg id="mainsvg" width="100%" height="100%"></svg>
+    <script>
+
+        // ======= 简单的模拟数据 =======
+        const data = {
+            "nodes": [
+                { "index": 0, "word": "Apple", "freq": 10 },
+                { "index": 1, "word": "Banana", "freq": 6 },
+                { "index": 2, "word": "Cherry", "freq": 8 },
+                { "index": 3, "word": "Durian", "freq": 4 },
+                { "index": 4, "word": "Elderberry", "freq": 5 }
+            ],
+            "links": [
+                { "source": 0, "target": 1, "coo": 20 },
+                { "source": 0, "target": 2, "coo": 10 },
+                { "source": 1, "target": 3, "coo": 5 },
+                { "source": 2, "target": 4, "coo": 8 },
+                { "source": 3, "target": 4, "coo": 15 }
+            ]
+        };
+
+        // ======= 基本初始化 =======
+        const svg = d3.select("#mainsvg");
+
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        svg.attr("viewBox", `0 0 ${width} ${height}`);
+
+        const maingroup = svg.append("g")
+            .attr("id", "maingroup")
+            .attr("transform", "translate(0,0)");
+
+        let onClicked = false;
+        let onDragging = false
+        let simulation;
+        let circles, lines;
+
+        const radius = d => Math.sqrt(d.freq) * 8;
+        const color = d3.scaleOrdinal(d3.schemeTableau10);
+        const linkStrength = d => d.coo / 100;
+
+        // ======= 初始化渲染 =======
+        function init(data) {
+            lines = maingroup.selectAll(".dataline")
+                .data(data.links)
+                .join("line")
+                .attr("class", "dataline")
+                .attr("stroke", "#888")
+                .attr("stroke-width", 1)
+                .attr("opacity", 0)
+                .attr('stroke-dasharray', d => d.coo * 2)
+                .attr('stroke-dashoffset', 0);
+
+            circles = maingroup.selectAll(".datacircle")
+                .data(data.nodes)
+                .join("circle")
+                .attr("class", "datacircle")
+                .attr("r", radius)
+                .attr("fill", (d, i) => color(i))
+                .attr("stroke", "#333")
+                .attr("cx", width / 2)
+                .attr("cy", height / 2)
+                .on("mouseover", (event, d) => {
+                    if (onDragging || onClicked) { return; }
+                    let t = d3.transition().duration(500);
+                    let relatedLinks = data.links.filter(l => l.source.index === d.index || l.target.index === d.index);
+                    // 相关线条高亮并加动画
+                    relatedLinks = relatedLinks.map(l => l.source.index).concat(relatedLinks.map(l => l.target.index));
+                    relatedLinks = [...new Set(relatedLinks)]
+                    d3.selectAll('.dataline').filter(l => l.source.index === d.index || l.target.index === d.index)
+                        .transition().duration(500).ease(d3.easeLinear).attr('opacity', l => Math.pow(l.coo / MAXCOO, 2)).on('start', function repeat() {
+                            d3.select(this).attr('stroke-dashoffset', 0);
+                            d3.active(this).attr('stroke-dashoffset', l => l.coo * 4).transition().on('start', repeat);
+                        });
+
+                    // 其他线条淡出
+                    d3.selectAll('.dataline')
+                        .filter(l => l.source.index !== d.index && l.target.index !== d.index)
+                        .transition(t)
+                        .attr('opacity', 0.1);
+
+                    // 其他线淡出
+                    d3.selectAll('.dataline').filter(l => l.source.index !== d.index && l.target.index !== d.index)
+                        .transition(t)
+                        .attr('opacity', 0);
+
+                    d3.selectAll('.dataline').filter(l => l.source.index === d.index || l.target.index === d.index)
+                        .transition(t)
+                        .attr('opacity', l => Math.pow(l.coo / MAXCOO, 2));
+                })
+
+                .on("mouseout", () => {
+                    if (onClicked) return;
+                    lines.attr("opacity", 0);
+                })
+                .on("click", (event, d) => handleClick(event, d, data));
+
+            const texts = maingroup.selectAll(".datatext")
+                .data(data.nodes)
+                .join("text")
+                .attr("class", "datatext")
+                .attr("font-size", 12)
+                .attr("text-anchor", "middle")
+                .attr("dy", -10)
+                .attr("fill", "#333")
+                .text(d => d.word);
+
+
+
+            // 力导向仿真
+            simulation = d3.forceSimulation(data.nodes)
+                .force("link", d3.forceLink(data.links).id(d => d.index).distance(150).strength(linkStrength))
+                .force("charge", d3.forceManyBody().strength(-100))
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .on("tick", () => {
+                    lines
+                        .attr("x1", d => d.source.x)
+                        .attr("y1", d => d.source.y)
+                        .attr("x2", d => d.target.x)
+                        .attr("y2", d => d.target.y)
+
+                    circles
+                        .attr("cx", d => d.x)
+                        .attr("cy", d => d.y);
+                    texts
+                        .attr("x", d => d.x)
+                        .attr("y", d => d.y);
+                });
+
+
+
+
+        }
+
+        // ======= 子节点展开 (pack layout) =======
+
+        // ======= 点击气泡后放大显示子气泡 =======
+        function handleClick(event, d, data) {
+            const n = d3.select(event.currentTarget);
+            const transition = d3.transition().duration(800).ease(d3.easeCubicOut);
+
+            if (!onClicked) {
+                // 1️⃣ 点击进入状态
+                onClicked = true;
+                clickedNode = d;
+
+                // 其他气泡与文字淡出
+                svg.selectAll(".datacircle")
+                    .filter(dd => dd.index !== d.index)
+                    .transition(transition)
+                    .attr("opacity", 0);
+
+                svg.selectAll(".datatext")
+
+                    .transition(transition)
+                    .attr("opacity", 0);
+
+                svg.selectAll(".dataline")
+                    .transition(transition)
+                    .attr("opacity", 0);
+
+                // 当前节点放大
+                const thisNode = n;
+                n.raise().transition(transition)
+                    .attr("r", radius(d) * 4)
+                    .attr("opacity", 0.8)
+                    .on("end", () => generatePacking(n, d, data));
+
+            } else if (clickedNode && clickedNode.index === d.index) {
+                // 2️⃣ 再次点击同一节点：恢复
+                onClicked = false;
+                clickedNode = null;
+
+                // 删除 pack 图
+                svg.selectAll(".packcircles, .packtexts")
+                    .transition(transition)
+                    .attr("opacity", 0)
+                    .remove();
+
+                // 恢复所有节点
+                svg.selectAll(".datacircle")
+                    .transition(transition)
+                    .attr("r", dd => radius(dd))
+                    .attr("opacity", 1);
+
+                svg.selectAll(".datatext")
+                    .transition(transition)
+                    .attr("opacity", 1);
+                svg.selectAll(".datatext").raise(); // 确保文字层级高于圆
+
+
+                svg.selectAll(".dataline")
+                    .transition(transition)
+                    .attr("opacity", 0.3);
+            }
+        }
+
+        // ======= 生成内部 pack 布局 =======
+        function generatePacking(n, d, data) {
+            const R = +n.attr("r");
+
+            // 找出相连节点
+            let relatedLinks = data.links.filter(l => l.source.index === d.index || l.target.index === d.index);
+            let children = relatedLinks.map(l => {
+                let idx = l.source.index === d.index ? l.target.index : l.source.index;
+                return { "name": data.nodes[idx].word, "value": l.coo };
+            });
+
+            if (children.length === 0) return;
+
+            // pack layout
+            let root = d3.hierarchy({ "children": children }).sum(d => d.value);
+            let pack = d3.pack().size([R * 2, R * 2]).padding(5)(root);
+
+            // 绘制子圆
+            svg.selectAll(".packcircles")
+                .data(pack.descendants().slice(1))
+                .join("circle")
+                .attr("class", "packcircles")
+                .attr("r", p => p.r)
+                .attr("cx", p => p.x + +n.attr("cx") - R)
+                .attr("cy", p => p.y + +n.attr("cy") - R)
+                .attr("fill", n.attr("fill"))
+                .attr("opacity", 0)
+                .transition().duration(600)
+                .attr("opacity", 0.6);
+
+            // 绘制子文本
+            svg.selectAll(".packtexts")
+                .data(pack.descendants().slice(1))
+                .join("text")
+                .attr("class", "packtexts")
+                .attr("font-size", p => p.r / 2)
+                .attr("text-anchor", "middle")
+                .attr("alignment-baseline", "middle")
+                .attr("x", p => p.x + +n.attr("cx") - R)
+                .attr("y", p => p.y + +n.attr("cy") - R)
+                .attr("opacity", 0)
+                .text(p => p.data.name)
+                .transition().duration(600)
+                .attr("opacity", 1);
+        }
+        // ======= 启动 =======
+        MAXCOO = d3.max(data.links, d => d.coo)
+        init(data);
+        function dragstarted(event) {
+            if (onClicked) { return; }
+            onDragging = true;
+            if (!event.active) simulation.alphaTarget(0.99).restart();
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
+        }
+        function dragged(event) {
+            if (onClicked) { return; }
+            event.subject.fx = event.x;
+            event.subject.fy = event.y;
+        }
+        function dragended(event) {
+            if (onClicked) { return; }
+            onDragging = false;
+            if (!event.active) simulation.alphaTarget(0);
+            event.subject.fx = null;
+            event.subject.fy = null;
+        }
+        //         simulation.alphaTarget(0) 是 D3 力导向图仿真的一个参数设置，用于控制仿真的“活跃度”或冷却速度。
+
+        // alpha 是仿真的能量（活跃度），值越大，节点移动越剧烈，值越小，仿真越快收敛、停止。
+        // alphaTarget(0) 表示目标能量为 0，仿真会逐渐冷却并停止节点移动。
+        // 通常在拖拽结束时设置为 0，让力导向图稳定下来。
+
+        let drag = d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended);
+        circles.call(drag);
+
+    </script>
+</body>
+
+</html>

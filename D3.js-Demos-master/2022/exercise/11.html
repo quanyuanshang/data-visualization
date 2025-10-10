@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>let svg = d3.select('#mainsvg');
+        svg.attr('viewBox', '0 0 1920 1080');
+        let maingroup = svg.append('g').attr('id', 'maingroup').attr('transform', 'translate(0, 0) scale(1)');
+        let color;
+        let circles, texts, lines;
+        let onDragging = false, onClicked = false;
+        let MAXCOO = 9999;
+        let simulation;
+        const radius = d => Math.sqrt(d.freq) * 100;
+        const linkStrength = d => d.coo / 100
+        const generatePacking = (event, d, data) => {
+            let relatedLinks = data.links.filter(l => l.source.index === d.index || l.target.index === d.index);
+            root = relatedLinks.map(l => { return { 'value': l['coo'], 'index': l.source.index === d.index ? l.target.index : l.source.index } })
+            root.forEach(rt => {
+                rt.name = data.nodes.filter(l => l.index === rt.index)[0].word;
+            });
+            root = { 'children': root, 'name': d.word };
+            let n = d3.select(event.currentTarget);
+            root = d3.pack().size([n.attr('r') * 2, n.attr('r') * 2]).padding(0.1)(
+                d3.hierarchy(root)
+                    .sum(d => d.value)
+                    .sort((a, b) => b.value - a.value)
+            );
+            let transition = d3.transition().duration(1000);
+            svg.selectAll('.packcircles').data(root.descendants().slice(1)).join('circle').attr('class', 'packcircles').attr("pointer-events", "none")
+                .attr('r', l => l.r).attr('cx', l => l.x + d.x - n.attr('r')).attr('cy', l => l.y + d.y - n.attr('r'))
+                .attr('fill', n.attr('fill')).attr('opacity', 0).transition(transition).attr('opacity', 1);
+            d3.selectAll('.dataline').transition(transition).attr('opacity', 0);
+            svg.selectAll('.packtexts').data(root.descendants().slice(1)).join('text').attr('class', 'packtexts').attr("pointer-events", "none")
+                .attr('font-size', l => l.r / 2).attr('x', l => l.x + d.x - n.attr('r')).attr('y', l => l.y + d.y - n.attr('r'))
+                .text(l => l.data.name).attr('text-anchor', 'middle').attr('alignment-baseline', 'middle')
+                .attr('opacity', 0).transition(transition).attr('opacity', 1);
+            n.transition(transition).attr('opacity', 0.2);
+        }
+        const init = (data) => {
+            lines = maingroup.selectAll('.dataline').data(data.links).join('line').attr('class', 'dataline')
+                .attr('stroke', 'black').attr('opacity', 0).attr('stroke-width', 1)
+                .attr('stroke-dasharray', d => d.coo * 2).attr('stroke-dashoffset', 0)
+            circles = maingroup.selectAll('.datacircle').data(data.nodes).join('circle').attr('class', 'datacircle').attr('opacity', 1)
+                .attr('r', radius).attr('cx', d => d.x).attr('cy', d => d.y)
+                .attr('fill', (d, i) => color(i))
+                .on('mouseover', (event, d) => {
+                    if (onDragging || onClicked) { return; }
+                    let t = d3.transition().duration(500)
+                    let relatedLinks = data.links.filter(l => l.source.index === d.index || l.target.index === d.index);
+                    relatedLinks = relatedLinks.map(l => l.source.index).concat(relatedLinks.map(l => l.target.index));
+                    relatedLinks = [...new Set(relatedLinks)]
+                    d3.selectAll('.dataline').filter(l => l.source.index === d.index || l.target.index === d.index)
+                        .transition().duration(500).ease(d3.easeLinear).attr('opacity', l => Math.pow(l.coo / MAXCOO, 2)).on('start', function repeat() {
+                            d3.select(this).attr('stroke-dashoffset', 0);
+                            d3.active(this).attr('stroke-dashoffset', l => l.coo * 4).transition().on('start', repeat);
+                        });
+                    d3.selectAll('.dataline').filter(l => l.source.index != d.index && l.target.index != d.index).transition(t).attr('opacity', 0);
+                    d3.selectAll('.datacircle, .datatext').filter(l => relatedLinks.includes(l.index)).transition(t).attr('opacity', 1);
+                    d3.selectAll('.datacircle, .datatext').filter(l => !relatedLinks.includes(l.index)).transition(t).attr('opacity', 0);
+                })
+                .on('mouseout', (event, d) => {
+                    if (onDragging || onClicked) { return; }
+                    let t = d3.transition().duration(500)
+                    d3.selectAll('.dataline').transition(t).attr('opacity', 0);
+                    d3.selectAll('.datacircle, .datatext').transition(t).attr('opacity', 1);
+                })
+                .on('click', (event, d) => {
+                    simulation.alpha(0.001);
+                    let n = d3.select(event.currentTarget);
+                    let vb = svg.attr('viewBox').split(' '); // svg.attr('viewBox') is null
+                    vb = vb.map(l => +(l));
+                    let i;
+                    if (onClicked) {
+                        i = d3.interpolateZoom(
+                            [vb[0] + vb[2] / 2, vb[1] + vb[3] / 2, width > height ? vb[3] : vb[2]],
+                            [width / 2, height / 2, height]
+                        );
+                        svg.selectAll('.packcircles, .packtexts').transition().duration(1000).attr('opacity', 0)
+                    } else {
+                        i = d3.interpolateZoom(
+                            [vb[0] + vb[2] / 2, vb[1] + vb[3] / 2, width > height ? vb[3] : vb[2]],
+                            [n.attr('cx'), n.attr('cy'), n.attr('r') * 2]
+                        );
+                        generatePacking(event, d, data);
+                    }
+                    svg.transition().duration(1000).attrTween('viewBox', function () {
+                        return viewTransform = (t) => {
+                            let v = i(t);
+                            return `${v[0] - v[2] / 2} ${v[1] - v[2] / 2} ${v[2]} ${v[2]}`;
+                        }
+                    });
+                    onClicked = !onClicked;
+                })
+            texts = maingroup.selectAll('.datatext').data(data.nodes).join('text').attr('class', 'datatext').attr('opacity', 1)
+                .attr('x', d => d.x).attr('y', d => d.y).attr('font-size', d => radius(d) > 15 ? radius(d) : 15)
+                .attr('text-anchor', 'middle').attr('dy', d => -radius(d) - 1).attr("pointer-events", "none")
+                .attr('fill', (d, i) => color(i)).text(d => d.word)
+        }
+
+        const ticked = () => {
+            lines
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+            circles.attr('cx', d => d.x).attr('cy', d => d.y)
+            texts.attr('x', d => d.x).attr('y', d => d.y)
+        }
+
+        d3.json('data/20v3.json').then(data => {
+            MAXCOO = d3.max(data.links, d => d.coo);
+            color = d3.scaleSequential(d3.interpolateRainbow).domain([0, data.nodes.length - 1]);
+            data.nodes.forEach(n => {
+                n.x = width / 2 + Math.random() * 10;
+                n.y = height / 2 + Math.random() * 10;
+            })
+            init(data);
+            const forceNode = d3.forceManyBody();
+            forceNode.strength(-30).distanceMax(50);
+            const forceLink = d3.forceLink(data.links).id(d => d.index)
+                .strength(linkStrength).distance(400);
+            //if (linkStrength !== undefined) forceLink.strength(linkStrength);
+            simulation = d3.forceSimulation(data.nodes)
+                .force("link", forceLink)
+                .force("charge", forceNode)
+                .on("tick", ticked);
+
+            function dragstarted(event) {
+                if (onClicked) { return; }
+                onDragging = true;
+                if (!event.active) simulation.alphaTarget(0.99).restart();
+                event.subject.fx = event.subject.x;
+                event.subject.fy = event.subject.y;
+            }
+            function dragged(event) {
+                if (onClicked) { return; }
+                event.subject.fx = event.x;
+                event.subject.fy = event.y;
+            }
+            function dragended(event) {
+                if (onClicked) { return; }
+                onDragging = false;
+                if (!event.active) simulation.alphaTarget(0);
+                event.subject.fx = null;
+                event.subject.fy = null;
+                // simulation.alpha(0.001)
+            }
+            let drag = d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended);
+            circles.call(drag);
+        });</script>
+</body>
+
+</html>
