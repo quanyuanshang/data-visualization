@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>适配原理</title>
+    <style>
+        .box1 {
+            width: 5rem;
+            /*5被fontsize*/
+            height: 3rem;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <script>
+        //根据设备宽度计算html标签的fontsize的值，1/10
+        function setFontSize() {
+            document.documentElement.style.fontSize = screen.width / 10 + "px";
+        }
+        setFontSize();
+
+        //绑定事件
+        window.onresize = setFontSize;
+    </script>
+</body>
+
+</html>

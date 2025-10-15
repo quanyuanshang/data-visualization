@@ -1,5 +1,5 @@
 // 柱状图1模块
-(function() {
+(function () {
   // 实例化对象
   var myChart = echarts.init(document.querySelector(".bar .chart"));
   // 指定配置和数据
@@ -83,7 +83,7 @@
 
   // 把配置给实例对象
   myChart.setOption(option);
-  window.addEventListener("resize", function() {
+  window.addEventListener("resize", function () {
     myChart.resize();
   });
 
@@ -93,14 +93,14 @@
     { year: "2020", data: [300, 400, 350, 800, 1800, 1400, 700] }
   ];
 
-  $(".bar h2 ").on("click", "a", function() {
+  $(".bar h2 ").on("click", "a", function () {
     option.series[0].data = dataAll[$(this).index()].data;
     myChart.setOption(option);
   });
 })();
 
 // 折线图定制
-(function() {
+(function () {
   // 基于准备好的dom，初始化echarts实例
   var myChart = echarts.init(document.querySelector(".line .chart"));
 
@@ -209,14 +209,14 @@
 
   // 重新把配置好的新数据给实例对象
   myChart.setOption(option);
-  window.addEventListener("resize", function() {
+  window.addEventListener("resize", function () {
     myChart.resize();
   });
 })();
 
 // 饼形图定制
 // 折线图定制
-(function() {
+(function () {
   // 基于准备好的dom，初始化echarts实例
   var myChart = echarts.init(document.querySelector(".pie .chart"));
 
@@ -224,7 +224,7 @@
     tooltip: {
       trigger: "item",
       formatter: "{a} <br/>{b}: {c} ({d}%)",
-      position: function(p) {
+      position: function (p) {
         //其中p为当前鼠标的位置
         return [p[0] + 10, p[1] - 10];
       }
@@ -271,12 +271,12 @@
 
   // 使用刚指定的配置项和数据显示图表。
   myChart.setOption(option);
-  window.addEventListener("resize", function() {
+  window.addEventListener("resize", function () {
     myChart.resize();
   });
 })();
 // 学习进度柱状图模块
-(function() {
+(function () {
   // 基于准备好的dom，初始化echarts实例
   var myChart = echarts.init(document.querySelector(".bar1 .chart"));
 
@@ -347,7 +347,7 @@
         itemStyle: {
           normal: {
             barBorderRadius: 20,
-            color: function(params) {
+            color: function (params) {
               var num = myColor.length;
               return myColor[params.dataIndex % num];
             }
@@ -382,12 +382,12 @@
 
   // 使用刚指定的配置项和数据显示图表。
   myChart.setOption(option);
-  window.addEventListener("resize", function() {
+  window.addEventListener("resize", function () {
     myChart.resize();
   });
 })();
 // 折线图 优秀作品
-(function() {
+(function () {
   // 基于准备好的dom，初始化echarts实例
   var myChart = echarts.init(document.querySelector(".line1 .chart"));
 
@@ -651,13 +651,13 @@
 
   // 使用刚指定的配置项和数据显示图表。
   myChart.setOption(option);
-  window.addEventListener("resize", function() {
+  window.addEventListener("resize", function () {
     myChart.resize();
   });
 })();
 
 // 点位分布统计模块
-(function() {
+(function () {
   // 1. 实例化对象
   var myChart = echarts.init(document.querySelector(".pie1  .chart"));
   // 2. 指定配置项和数据
@@ -722,7 +722,7 @@
   // 3. 配置项和数据给我们的实例化对象
   myChart.setOption(option);
   // 4. 当我们浏览器缩放的时候，图表也等比例缩放
-  window.addEventListener("resize", function() {
+  window.addEventListener("resize", function () {
     // 让我们的图表调用 resize这个方法
     myChart.resize();
   });

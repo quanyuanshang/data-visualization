@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatting room</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .navbar {
+            background-color: #91c7f5;
+            color: rgb(1, 27, 54);
+            font-weight: bold;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .chat-area {
+            flex-grow: 1;
+            padding: 20px;
+            margin-top: 60px;
+            margin-bottom: 80px;
+            overflow-y: auto;
+            background-color: #ffffff;
+        }
+
+
+        .messageContainer {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .message.left {
+            justify-content: flex-start;
+
+        }
+
+        .message.right {
+            justify-content: flex-end;
+
+
+        }
+
+        .message.left .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+
+        .message.right .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: 10px;
+        }
+
+        .bubble {
+            max-width: 70%;
+            word-wrap: break-word;
+            /* 单词内部换行 */
+            overflow-wrap: break-word;
+
+            padding: 10px 15px;
+            border-radius: 10px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .message.left .bubble {
+            /* background-color: #e0e0e0; */
+            background-color: #ececec;
+            padding: 10px 15px;
+            border-bottom-left-radius: 2px;
+        }
+
+        .message.right .bubble {
+            /* background-color: #e0e0e0; */
+            background-color: #91c7f5;
+            padding: 10px 15px;
+            border-bottom-right-radius: 2px;
+        }
+
+
+        .input-area {
+            display: flex;
+            padding: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .input-area textarea {
+            flex-grow: 1;
+            /* 文本框占据大部分空间 */
+            border: 1px solid #ced4da;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 1em;
+            height: 40px;
+
+        }
+
+        .input-area button {
+            background-color: #91c7f5;
+            color: rgb(4, 40, 78);
+            border: none;
+            width: 8rem;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .input-area button:hover {
+            background-color: #116dd0;
+            color: white;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">Chatting Room</nav>
+    <div class="chat-area" id="chatArea">
+        <div class="messageContainer message left">
+
+            <img class="avatar" src="../images/he.png" alt="he">
+
+            <div class="bubble">
+                Hello!
+            </div>
+        </div>
+
+        <div class="messageContainer message right">
+            <div class="bubble">
+                Hi!
+            </div>
+
+            <img class="avatar" src="../images/me.webp" alt="you">
+
+
+        </div>
+
+
+        <div class="messageContainer message left">
+
+            <img class="avatar" src="../images/he.png" alt="he">
+
+            <div class="bubble">
+                How is everthing going?
+            </div>
+        </div>
+
+    </div>
+
+    <div class="input-area">
+        <textarea id="messageInput" placeholder="input your message"></textarea>
+        <button onclick="sendMessage()"> send</button>
+    </div>
+
+
+
+
+    <script>
+        document.getElementById('messageInput').addEventListener('keydown', function (event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault(); // 防止换行
+                sendMessage();
+            }
+        });
+
+        const autoRely = {
+            "miss": ["I miss you too."],
+            "unhappy": ["Tell me what happened.", "Who made you unhappy?", "Tell me and I will help you solve it."],
+            "hello": ["Hi there!"],
+            "hi": ["Hello!"],
+        }
+        function sendMessage() {
+            const inputmessage = document.getElementById('messageInput');
+            const chatArea = document.getElementById('chatArea');
+            const messageText = inputmessage.value.trim();
+            if (messageText === '') {
+                return;
+            }
+            //create message container
+            console.log("send message:", messageText);
+            const messageContainer = document.createElement('div');
+            messageContainer.classList.add('messageContainer', 'message', 'right');
+
+            //create bubble
+            const bubble = document.createElement('div');
+            bubble.classList.add('bubble');
+            bubble.textContent = messageText;
+
+            //create avator
+            const avatar = document.createElement('img');
+            avatar.classList.add('avatar');
+
+            avatar.src = "../images/me.webp";
+            avatar.alt = "you";
+
+            //append child
+            messageContainer.appendChild(bubble);
+            messageContainer.appendChild(avatar);
+            chatArea.appendChild(messageContainer);
+
+            const lowerText = messageText.toLowerCase();
+            for (let key in autoRely) {
+                if (lowerText.includes(key)) {
+
+                    autoRely[key].forEach((reply, index) => {
+                        setTimeout(() => {
+                            receivemessage(reply);
+                        }, 1000 * (index + 1));
+                    })
+
+                    break; // only reply once per message
+                }
+            }
+
+            //clear input
+            inputmessage.value = '';
+            //scroll to bottom
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        function receivemessage(messageText) {
+            const chatArea = document.getElementById('chatArea');
+            const messageContainer = document.createElement('div');
+            messageContainer.classList.add('messageContainer', 'message', 'left');
+            const avatar = document.createElement('img');
+            avatar.classList.add('avatar');
+            avatar.src = "../images/he.png";
+            avatar.alt = 'he';
+
+            const bubble = document.createElement('div');
+            bubble.classList.add('bubble');
+            bubble.textContent = messageText;
+
+
+
+            messageContainer.appendChild(avatar);
+            messageContainer.appendChild(bubble);
+
+            chatArea.appendChild(messageContainer);
+            chatArea.scrollTop = chatArea.scrollHeight;
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>

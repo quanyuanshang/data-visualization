@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js函数</title>
+</head>
+
+<body>
+    <script>
+        function hello() {
+            console.log("hello");
+        }
+        hello();
+        function hello_with_return() {
+            return "hello-返回值";
+        }
+        console.log(hello_with_return());
+
+        function withparams(name) {
+            console.log("hello," + name);
+        }
+        withparams("张三");
+
+
+        //作用域
+        let a = 10; //全局变量
+        function test() {
+            let b = 20; //局部变量
+            console.log(a);
+            console.log(b);
+        }
+        test();
+
+    </script>
+</body>
+
+</html>

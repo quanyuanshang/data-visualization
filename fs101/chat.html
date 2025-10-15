@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天页面</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            /* 使body占据整个视口高度 */
+            background-color: #f0f2f5;
+            overflow: hidden;
+            /* 防止body滚动，让聊天区域单独滚动 */
+        }
+
+        /* 导航栏 */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 1.2em;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            /* 确保在最上层 */
+            box-sizing: border-box;
+            /* 包含padding在内的宽度 */
+        }
+
+        /* 聊天消息区域 */
+        .chat-area {
+            flex-grow: 1;
+            /* 占据剩余空间 */
+            padding: 20px;
+            padding-top: 70px;
+            /* 留出导航栏的高度 */
+            padding-bottom: 90px;
+            /* 留出输入区域的高度 */
+            overflow-y: auto;
+            /* 允许聊天消息区域滚动 */
+            -webkit-overflow-scrolling: touch;
+            /* 改善iOS上的滚动体验 */
+            scroll-behavior: smooth;
+            /* 平滑滚动 */
+        }
+
+        /* 单条消息容器 */
+        .message-container {
+            display: flex;
+            align-items: flex-start;
+            /* 头像和气泡顶部对齐 */
+            margin-bottom: 15px;
+        }
+
+        /* 左侧消息 (对方) */
+        .message.left {
+            justify-content: flex-start;
+            /* 消息靠左 */
+        }
+
+        /* 右侧消息 (自己) */
+        .message.right {
+            justify-content: flex-end;
+            /* 消息靠右 */
+        }
+
+        /* 头像 */
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            /* 圆形头像 */
+            object-fit: cover;
+            /* 确保图片填充 */
+            flex-shrink: 0;
+            /* 防止头像被压缩 */
+        }
+
+        .message.left .avatar {
+            margin-right: 10px;
+        }
+
+        .message.right .avatar {
+            margin-left: 10px;
+        }
+
+        /* 聊天气泡 */
+        .bubble {
+            max-width: 70%;
+            /* 气泡最大宽度，防止过宽 */
+            padding: 12px 15px;
+            border-radius: 18px;
+            line-height: 1.5;
+            word-wrap: break-word;
+            /* 单词内部换行 */
+            overflow-wrap: break-word;
+            /* 更好的换行支持 */
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 左侧气泡样式 (对方) */
+        .message.left .bubble {
+            background-color: #ffffff;
+            color: #333;
+            border-bottom-left-radius: 4px;
+            /* 左侧气泡左下角直角 */
+        }
+
+        /* 右侧气泡样式 (自己) */
+        .message.right .bubble {
+            background-color: #007bff;
+            color: white;
+            border-bottom-right-radius: 4px;
+            /* 右侧气泡右下角直角 */
+        }
+
+        /* 底部输入区域 */
+        .input-area {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #e0e0e0;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+            z-index: 1000;
+            /* 确保在最上层 */
+            box-sizing: border-box;
+        }
+
+        .input-area textarea {
+            flex-grow: 1;
+            /* 文本框占据大部分空间 */
+            border: 1px solid #ced4da;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 1em;
+            resize: none;
+            /* 禁止手动调整大小 */
+            max-height: 100px;
+            /* 限制文本框最大高度 */
+            overflow-y: auto;
+            /* 文本过多时内部滚动 */
+            margin-right: 10px;
+            box-sizing: border-box;
+        }
+
+        .input-area button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            flex-shrink: 0;
+            /* 防止按钮被压缩 */
+        }
+
+        .input-area button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        聊天室
+    </nav>
+
+    <!-- 聊天消息区域 -->
+    <div class="chat-area" id="chatArea">
+        <!-- 示例消息：对方 -->
+        <div class="message-container message left">
+            <img class="avatar" src="https://via.placeholder.com/40/FF5733/FFFFFF?text=O" alt="对方头像">
+            <div class="bubble">
+                你好！
+            </div>
+        </div>
+
+        <!-- 示例消息：自己 -->
+        <div class="message-container message right">
+            <div class="bubble">
+                你好，有什么可以帮助你的吗？
+            </div>
+            <img class="avatar" src="https://via.placeholder.com/40/3366FF/FFFFFF?text=我" alt="我的头像">
+        </div>
+
+        <!-- 示例消息：对方 (长文本测试换行) -->
+        <div class="message-container message left">
+            <img class="avatar" src="https://via.placeholder.com/40/FF5733/FFFFFF?text=O" alt="对方头像">
+            <div class="bubble">
+                我正在寻找一个能自动换行并且不溢出的聊天界面，这个文本有点长，看看它能不能正确显示。
+            </div>
+        </div>
+
+        <!-- 示例消息：自己 (长文本测试换行) -->
+        <div class="message-container message right">
+            <div class="bubble">
+                没问题，这个设计已经考虑了文本的自动换行和防溢出处理，可以很好地适应长消息内容。
+            </div>
+            <img class="avatar" src="https://via.placeholder.com/40/3366FF/FFFFFF?text=我" alt="我的头像">
+        </div>
+
+        <!-- 更多示例消息 -->
+        <div class="message-container message left">
+            <img class="avatar" src="https://via.placeholder.com/40/FF5733/FFFFFF?text=O" alt="对方头像">
+            <div class="bubble">
+                太棒了！
+            </div>
+        </div>
+        <div class="message-container message right">
+            <div class="bubble">
+                很高兴能帮到你。
+            </div>
+            <img class="avatar" src="https://via.placeholder.com/40/3366FF/FFFFFF?text=我" alt="我的头像">
+        </div>
+    </div>
+
+    <!-- 底部输入区域 -->
+    <div class="input-area">
+        <textarea id="messageInput" placeholder="输入消息..."></textarea>
+        <button onclick="sendMessage()">发送</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const messageInput = document.getElementById('messageInput');
+
+            const chatArea = document.getElementById('chatArea');
+            const messageText = messageInput.value.trim();
+
+            if (messageText === '') {
+                return; // 不发送空消息
+            }
+
+            // 创建消息容器
+            const messageContainer = document.createElement('div');
+            messageContainer.classList.add('message-container', 'message', 'right'); // 默认发送方是自己 (right)
+
+            // 创建气泡
+            const bubble = document.createElement('div');
+            bubble.classList.add('bubble');
+            bubble.textContent = messageText;
+
+            // 创建头像
+            const avatar = document.createElement('img');
+            avatar.classList.add('avatar');
+            avatar.src = 'https://via.placeholder.com/40/3366FF/FFFFFF?text=我'; // 我的头像
+            avatar.alt = '我的头像';
+
+            // 组合消息元素
+            messageContainer.appendChild(bubble);
+            messageContainer.appendChild(avatar);
+
+            // 添加到聊天区域
+            chatArea.appendChild(messageContainer);
+
+            // 清空输入框
+            messageInput.value = '';
+
+            // 自动滚动到底部
+            chatArea.scrollTop = chatArea.scrollHeight;
+
+            // 模拟对方回复 (可选，用于演示)
+            setTimeout(() => {
+                receiveMessage("收到你的消息了。");
+            }, 1000);
+        }
+
+        function receiveMessage(text) {
+            const chatArea = document.getElementById('chatArea');
+
+            const messageContainer = document.createElement('div');
+            messageContainer.classList.add('message-container', 'message', 'left'); // 接收方是对方 (left)
+
+            const avatar = document.createElement('img');
+            avatar.classList.add('avatar');
+            avatar.src = 'https://via.placeholder.com/40/FF5733/FFFFFF?text=O'; // 对方头像
+            avatar.alt = '对方头像';
+
+            const bubble = document.createElement('div');
+            bubble.classList.add('bubble');
+            bubble.textContent = text;
+
+            messageContainer.appendChild(avatar);
+            messageContainer.appendChild(bubble);
+
+            chatArea.appendChild(messageContainer);
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        // 绑定回车键发送消息
+        document.getElementById('messageInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter' && !e.shiftKey) { // 阻止默认换行，除非按Shift+Enter
+                e.preventDefault(); // 阻止默认的回车行为
+                sendMessage();
+            }
+        });
+
+        // 页面加载后自动滚动到底部，确保看到最新消息
+        window.onload = function () {
+            const chatArea = document.getElementById('chatArea');
+            chatArea.scrollTop = chatArea.scrollHeight;
+        };
+    </script>
+</body>
+
+</html>

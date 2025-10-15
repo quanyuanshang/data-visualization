@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DV Homework
+    </title>
+    <script src="https://d3js.org/d3.v7.min.js">   </script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            padding: 5px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Task 1: Radar Chart</h2>
+    <svg width="600" height="600" id="radar"></svg>
+    <script>
+        d3.csv("coffee_country_statistics.csv").then(function (data) {
+            console.log(data);
+            let chosen_regions = ["Philippines", "Uganda"];
+            let radarData = chosen_regions.map(country => {
+                filtered_data = data.find(d => d["Country.of.Origin"] == country);
+                return {
+                    country: country,
+                    aroma: +filtered_data["Aroma"],
+                    flavor: +filtered_data["Flavor"],
+                    aftertaste: +filtered_data["Aftertaste"],
+                    acidity: +filtered_data["Acidity"],
+                    balance: +filtered_data["Balance"],
+                    sweeteness: +filtered_data["Sweetness"]
+                };//chosen_regions.map(...)：对 chosen_regions 数组中的每个国家执行一次回调函数，返回一个新数组。
+            });
+            let dimensions = ["aroma", "flavor", "aftertaste", "acidity", "balance", "sweeteness"];
+            let radarsvg = d3.select("#radar"),
+                width = +radarsvg.attr("width"),
+                height = +radarsvg.attr("height"),
+                radius = Math.min(width, height) / 2 - 50;
+
+            let g = radarsvg.append("g")
+                .attr("transform", `translate(${width / 2},${height / 2})`);
+            let angleSlice = Math.PI * 2 / dimensions.length;
+            let rScale = d3.scaleLinear()
+                .domain([0, 10])
+                .range([0, radius]);
+
+            dimensions.forEach((dim, i) => {
+                let angle = i * angleSlice - Math.PI / 2;
+                let lineX = rScale(10) * Math.cos(angle);
+                let lineY = rScale(10) * Math.sin(angle);
+
+                let levels = 5; // 圈数
+                for (let i = 1; i <= levels; i++) {
+                    g.append("circle")
+                        .attr("cx", 0)
+                        .attr("cy", 0)
+                        .attr("r", radius * i / levels)
+                        .attr("fill", "none")
+                        .attr("stroke", "#ccc")
+                        .attr("stroke-dasharray", "2,2");
+                    g.append("text")
+                        .attr("x", radius * i / levels + 10) // 稍微偏右，避免和圆重叠
+                        .attr("y", 4)      // 垂直居中
+                        .attr("font-size", "12px")
+                        .attr("fill", "#666")
+                        .text((10 * i / levels).toFixed(1)); // 假设最大值为10
+                }
+
+                g.append("line")
+                    .attr("x1", 0)
+                    .attr("y1", 0)
+                    .attr("x2", lineX)
+                    .attr("y2", lineY)
+                    .attr("stroke", "gray")
+                    .attr("stroke-width", 1);
+
+                g.append("text")
+                    .attr("x", lineX * 1.1)
+                    .attr("y", lineY * 1.1)
+                    .attr("text-anchor", "middle")
+                    .attr("font-size", "12px")
+                    .text(dim).attr("font-weight", "bold");
+
+
+            });
+            let radarLine = d3.lineRadial()
+                .radius((d, i) => rScale(d.value))//i 是当前点的索引
+                .angle((d, i) => i * angleSlice);
+
+            radarData.forEach((d, idx) => {
+                let values = dimensions.map(dim => ({ axis: dim, value: d[dim] }));
+                values.push(values[0]);
+                g.append("path")
+                    .datum(values)
+                    .attr("d", radarLine)
+                    .attr("fill", idx === 0 ? "steelblue" : "orange")
+                    .attr("fill-opacity", 0.3)
+                    .attr("stroke", idx === 0 ? "steelblue" : "orange")
+                    .attr("stroke-width", 2);
+                values.forEach((point, i) => {
+                    let angle = i * angleSlice - Math.PI / 2;
+                    let r = rScale(point.value);
+                    let x = r * Math.cos(angle);
+                    let y = r * Math.sin(angle);
+                    g.append("circle")
+                        .attr("cx", x)
+                        .attr("cy", y)
+                        .attr("r", 5)
+                        .attr("fill", idx === 0 ? "steelblue" : "orange")
+                        .attr("stroke", "#fff")
+                        .attr("stroke-width", 1.5);
+                });
+
+            });
+            const legendColors = ["steelblue", "orange"];
+            const legendNames = ["Philippines", "Uganda"];
+            const legendY = 580; // 距离SVG顶部的像素
+            const legendXStart = 120; // 起始x坐标
+            const legendGap = 160; // 每个legend之间的间隔
+
+            const legendGroup = radarsvg.append("g")
+                .attr("id", "svg-legend");
+
+            legendNames.forEach((name, i) => {
+                let group = legendGroup.append("g")
+                    .attr("transform", `translate(${legendXStart + i * legendGap}, ${legendY})`);
+                group.append("rect")
+                    .attr("width", 16)
+                    .attr("height", 16)
+                    .attr("fill", legendColors[i])
+                    .attr("fill-opacity", 0.5)
+                    .attr("stroke", "#333");
+                group.append("text")
+                    .attr("x", 22)
+                    .attr("y", 13)
+                    .text(name)
+                    .attr("font-size", "15px")
+                    .attr("fill", "#222");
+            });
+
+
+        }); // <-- Close the d3.csv().then(function (data) { ... });
+    </script>
+
+
+    <h2>Task 2: Scatter Plot</h2>
+    <svg width="1000" height="500" id="scatter"></svg>
+    <script>
+        d3.csv("coffee_country_statistics.csv").then(function (data) {
+            let scatterSvg = d3.select("#scatter"),
+                sw = +scatterSvg.attr("width"),
+                sh = +scatterSvg.attr("height"),
+                margin = { top: 60, right: 130, bottom: 60, left: 60 },
+                innerWidth = sw - margin.left - margin.right,
+                innerHeight = sh - margin.top - margin.bottom;
+            let g2 = scatterSvg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            let x = d3.scaleLinear()
+                .domain(d3.extent(data, d => +d.Sweetness))
+                .range([0, innerWidth]).nice();
+
+            let y = d3.scaleLinear()
+                .domain(d3.extent(data, d => +d.Aroma))
+                .range([innerHeight, 0]).nice();
+
+            let altitudeExtent = d3.extent(data, d => +d.altitude_mean_meters);
+            let color = d3.scaleSequential(d3.interpolateReds)
+                .domain(altitudeExtent)
+
+            g2.append("g")
+                .attr("transform", `translate(0,${innerHeight})`).call(d3.axisBottom(x));
+            g2.append("g").call(d3.axisLeft(y));
+            g2.append("text")
+                .attr("x", innerWidth / 2)
+                .attr("y", innerHeight + 35)
+                .attr("text-anchor", "middle")
+                .attr("font-size", "14px")
+                .text("Sweetness").attr("font-weight", "bold");
+            g2.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -innerHeight / 2)
+                .attr("y", -30)
+                .attr("text-anchor", "middle")
+                .attr("font-size", "14px")
+                .text("Aroma").attr("font-weight", "bold");
+
+            let tooltip = d3.select("body").append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
+
+            g2.selectAll("circle")
+                .data(data)
+                .enter().append("circle")
+                .attr("cx", d => x(+d.Sweetness))
+                .attr("cy", d => y(+d.Acidity))
+                .attr("r", 5)
+                .attr("fill", d => color(+d.altitude_mean_meters))
+                .on("mouseover", function (event, d) {
+                    d3.select(this).attr("stroke", "#222")
+                        .attr("stroke-width", 3); // 加粗边缘r
+                    tooltip.transition().style("opacity", 0.7);
+                    tooltip.html(
+                        `<strong>Country:</strong> ${d["Country.of.Origin"]}<br>
+                        <strong>Altitude:</strong> ${d.altitude_mean_meters}<br>
+                        <strong>sweetness:</strong>${d.Sweetness}<br>
+                        <strong>acidity:</strong>${d.Acidity}`
+                    )
+                        .style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 20) + "px");
+
+                })
+                .on("mouseout", function () {
+                    tooltip.transition().style("opacity", 0);
+                    d3.select(this)
+                        .attr("stroke", null)
+                        .attr("stroke-width", null); // 恢复原样
+                });
+
+            let legend = g2.append("g").attr("transform", `translate(${innerWidth + 20},20)`)
+            let legendScale = d3.scaleLinear().domain(altitudeExtent).range([300, 0]);
+            let legendAxis = d3.axisRight(legendScale).ticks(5).tickFormat(d => d + " m");
+            let gradient = scatterSvg.append("defs")
+                .append("linearGradient")
+                .attr("id", "legend-gradient")
+                .attr("x1", "0%").attr("y1", "100%")
+                .attr("x2", "0%").attr("y2", "0%");
+            for (let i = 0; i <= 10; i++) {
+                let t = i / 10;
+                gradient.append("stop")
+                    .attr("offset", `${t * 100}%`)
+                    .attr("stop-color", color(altitudeExtent[0] * (1 - t) + altitudeExtent[1] * t));
+            }
+            legend.append("rect")
+                .attr("width", 20)
+                .attr("height", 300)
+                .style("fill", "url(#legend-gradient)");
+
+            legend.append("g")
+                .attr("transform", "translate(20,0)")
+                .call(legendAxis);
+            // 添加色条标题
+            legend.append("text")
+                .attr("x", 80) // 色条右侧，20为色条宽度，45为右侧空隙
+                .attr("y", 150) // 色条高度一半（垂直居中）
+                .attr("text-anchor", "middle")
+                .attr("font-size", "14px")
+                .attr("fill", color(altitudeExtent[1]))
+                .attr("transform", "rotate(-90,80,150)") // 以(45,150)为中心逆时针旋转90度
+                .text("Average Altitude")
+                .attr("font-weight", "bold");
+
+
+        });
+
+    </script>
+
+
+
+
+</body>
+
+</html>

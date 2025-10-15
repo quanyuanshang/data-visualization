@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box1">这是一个id选择器标签</div>
+    <div class="box2">这是一个class选择器标签</div>
+    <div>普通的div标签</div>
+    <button>click</button>
+    <script>
+
+        var element_id = document.getElementById("box1");
+        console.log(element_id);
+        var element_class = document.getElementsByClassName("box2")[0];
+        console.log(element_class);
+
+        var element_tag = document.getElementsByTagName("div")[2];
+        console.log(element_tag);
+
+
+        element_id.innerHTML = '<a href="#">修改后的内容</a>';//html可以修改类型
+        element_class.innerText = "修改后的内容-text";
+
+        element_tag.style.color = "red";
+        element_tag.style.fontSize = "30px";
+
+        //绑定事件
+        var button_element = document.getElementsByTagName("button")[0];
+        // button_element.onclick = function () {
+        //     alert("按钮被点击了");
+        // }//匿名函数，不需要在其他地方调用
+
+        button_element.addEventListener("click", function () {
+            alert("按钮被点击了");
+        });//推荐使用这种方式绑定事件,也可以外面单独写一个函数
+
+
+    </script>
+</body>
+
+</html>
