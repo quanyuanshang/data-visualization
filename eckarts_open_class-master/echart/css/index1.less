@@ -68,9 +68,10 @@ header {
     }
 
     .panel {
+
         .chart {
             height: 3rem;
-            background-color: #02a6b5;
+            //background-color: #02a6b5;
         }
 
         h2 {
@@ -88,7 +89,7 @@ header {
         height: 3.875rem;
         border: 1px solid rgba(25, 186, 139, 0.17);
         background: url(../images/line.png) rgba(255, 255, 255, 0.04);
-        padding: 0 .9375rem 2.5rem; //padding是内部的内容和边框的距离
+        padding: 0 .9375rem 0.5rem; //padding是内部的内容和边框的距离
         margin-bottom: .9375rem;
 
         &::before {
@@ -233,6 +234,16 @@ header {
     .map {
         height: 10.125rem;
         position: relative;
+
+        .chart {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            height: 10.125rem;
+            width: 100%;
+        }
 
         .map1 {
             width: 6.475rem;
