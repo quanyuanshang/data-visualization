@@ -1,0 +1,252 @@
+{
+  "tsne": {
+    "reduction_meta": {
+      "method": "tsne",
+      "perplexity": 30,
+      "init": "pca"
+    },
+    "clusterings": [
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 5
+        },
+        "silhouette": 0.11778481380383295,
+        "n_clusters": 5,
+        "plot": "tsne_kmeans_k5.png"
+      },
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 8
+        },
+        "silhouette": 0.27277818920884267,
+        "n_clusters": 8,
+        "plot": "tsne_kmeans_k8.png"
+      },
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 12
+        },
+        "silhouette": 0.4298053989434024,
+        "n_clusters": 12,
+        "plot": "tsne_kmeans_k12.png"
+      },
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 15
+        },
+        "silhouette": 0.5093399217085806,
+        "n_clusters": 15,
+        "plot": "tsne_kmeans_k15.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 5
+        },
+        "silhouette": 0.20991553322503853,
+        "n_clusters": 5,
+        "plot": "tsne_agg_k5.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 8
+        },
+        "silhouette": 0.3143646168432045,
+        "n_clusters": 8,
+        "plot": "tsne_agg_k8.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 12
+        },
+        "silhouette": 0.42839964529526287,
+        "n_clusters": 12,
+        "plot": "tsne_agg_k12.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 15
+        },
+        "silhouette": 0.5114003909581367,
+        "n_clusters": 15,
+        "plot": "tsne_agg_k15.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.05,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "tsne_dbscan_eps0.05_ms5.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.08,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "tsne_dbscan_eps0.08_ms5.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.1,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "tsne_dbscan_eps0.1_ms5.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.12,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "tsne_dbscan_eps0.12_ms5.png"
+      }
+    ]
+  },
+  "umap": {
+    "reduction_meta": {
+      "method": "umap",
+      "n_neighbors": 15,
+      "min_dist": 0.1
+    },
+    "clusterings": [
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 5
+        },
+        "silhouette": 0.11778481380383295,
+        "n_clusters": 5,
+        "plot": "umap_kmeans_k5.png"
+      },
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 8
+        },
+        "silhouette": 0.27277818920884267,
+        "n_clusters": 8,
+        "plot": "umap_kmeans_k8.png"
+      },
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 12
+        },
+        "silhouette": 0.4298053989434024,
+        "n_clusters": 12,
+        "plot": "umap_kmeans_k12.png"
+      },
+      {
+        "method": "kmeans",
+        "params": {
+          "n_clusters": 15
+        },
+        "silhouette": 0.5093399217085806,
+        "n_clusters": 15,
+        "plot": "umap_kmeans_k15.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 5
+        },
+        "silhouette": 0.20991553322503853,
+        "n_clusters": 5,
+        "plot": "umap_agg_k5.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 8
+        },
+        "silhouette": 0.3143646168432045,
+        "n_clusters": 8,
+        "plot": "umap_agg_k8.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 12
+        },
+        "silhouette": 0.42839964529526287,
+        "n_clusters": 12,
+        "plot": "umap_agg_k12.png"
+      },
+      {
+        "method": "agglomerative",
+        "params": {
+          "n_clusters": 15
+        },
+        "silhouette": 0.5114003909581367,
+        "n_clusters": 15,
+        "plot": "umap_agg_k15.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.05,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "umap_dbscan_eps0.05_ms5.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.08,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "umap_dbscan_eps0.08_ms5.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.1,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "umap_dbscan_eps0.1_ms5.png"
+      },
+      {
+        "method": "dbscan",
+        "params": {
+          "eps": 0.12,
+          "min_samples": 5
+        },
+        "silhouette": 0.9042122013392021,
+        "n_clusters": 83,
+        "n_noise": 688,
+        "plot": "umap_dbscan_eps0.12_ms5.png"
+      }
+    ]
+  }
+}

@@ -17,7 +17,12 @@
       v-if="currentView === 'artists'"
       :genre="selectedGenre"
       :artists="selectedArtists"
+      :total-artists="totalArtists"
+      :current-page="currentPage"
+      :page-size="pageSize"
+      :all-genres="genresData?.genres ?? []"
       @go-back="handleGoBack"
+      @page-change="handlePageChange"
     />
   </div>
 </template>
@@ -32,8 +37,15 @@ import ArtistView from './components/ArtistView.vue'
 const currentView = ref('genres')
 // 选中的流派名称
 const selectedGenre = ref(null)
-// 选中流派的音乐人列表
+// 当前页展示的音乐人列表
 const selectedArtists = ref([])
+// 当前流派的全部音乐人（满足筛选条件）
+const selectedArtistsAll = ref([])
+// 当前流派音乐人总数
+const totalArtists = ref(0)
+// 分页信息
+const currentPage = ref(1)
+const pageSize = 100
 // 所有流派的数据
 const genresData = ref(null)
 
@@ -67,19 +79,39 @@ onMounted(async () => {
 function handleGenreSelect(genre) {
   if (!genresData.value) return
   
-  // 获取该流派的音乐人数据（最多50名）
   const genreData = genresData.value.genres_data[genre]
   if (!genreData || !genreData.artists) {
     console.warn(`[App] 流派 ${genre} 没有音乐人数据`)
     return
   }
   
-  // 只取前50名（数据已经预处理过，但这里再确认一下）
-  selectedArtists.value = genreData.artists.slice(0, 50)
+  // 过滤出 genre_share >= 0.3 的音乐人，并按分数从高到低排序
+  const filtered = (genreData.artists || [])
+    .filter(artist => (artist.genre_share ?? 0) >= 0.3)
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+  
+  selectedArtistsAll.value = filtered
+  totalArtists.value = filtered.length
+  currentPage.value = 1
+  selectedArtists.value = filtered.slice(0, pageSize)
   selectedGenre.value = genre
   currentView.value = 'artists'
   
-  console.log(`[App] 切换到音乐人视图，流派: ${genre}, 音乐人数量: ${selectedArtists.value.length}`)
+  console.log(`[App] 切换到音乐人视图，流派: ${genre}, 音乐人总数: ${totalArtists.value}`)
+}
+
+/**
+ * 处理分页变化
+ * @param {number} page - 新的页码
+ */
+function handlePageChange(page) {
+  if (page < 1) return
+  const maxPage = Math.max(1, Math.ceil(totalArtists.value / pageSize))
+  if (page > maxPage) return
+  currentPage.value = page
+  const start = (page - 1) * pageSize
+  selectedArtists.value = selectedArtistsAll.value.slice(start, start + pageSize)
+  console.log(`[App] 切换到第 ${page} 页，当前展示 ${selectedArtists.value.length} 位音乐人`)
 }
 
 /**
@@ -90,6 +122,9 @@ function handleGoBack() {
   currentView.value = 'genres'
   selectedGenre.value = null
   selectedArtists.value = []
+  selectedArtistsAll.value = []
+  totalArtists.value = 0
+  currentPage.value = 1
   console.log('[App] 返回到流派视图')
 }
 </script>

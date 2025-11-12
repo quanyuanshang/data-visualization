@@ -7,7 +7,10 @@
       </button>
       <div class="title-info">
         <h1>{{ genre }}</h1>
-        <p class="subtitle">共 {{ artists.length }} 位音乐人（显示前50名）</p>
+        <p class="subtitle">
+          共 {{ props.totalArtists }} 位音乐人
+          <span v-if="totalPages > 1">｜每页 {{ props.pageSize }} 位｜第 {{ props.currentPage }} / {{ totalPages }} 页</span>
+        </p>
       </div>
     </header>
     
@@ -24,59 +27,58 @@
         
         <!-- 音乐人圆圈组 -->
         <g class="artists-group">
-          <circle
-            v-for="(node, index) in artistNodes"
-            :key="node.artist.person_id"
-            :cx="node.x"
-            :cy="node.y"
-            :r="node.radius"
-            fill="url(#artist-gradient)"
-            :stroke="genreColor"
-            :stroke-width="1.5"
-            class="artist-circle"
-            :class="{ 'hovered': hoveredArtist === node.artist.person_id }"
-            @click="handleArtistClick(node.artist)"
-            @mouseenter="hoveredArtist = node.artist.person_id"
-            @mouseleave="hoveredArtist = null"
-          />
-          
-          <!-- 音乐人名称标签（只在悬停时显示） -->
           <g
             v-for="node in artistNodes"
-            :key="`label-${node.artist.person_id}`"
-            v-show="hoveredArtist === node.artist.person_id"
-            class="artist-label-group"
+            :key="node.artist.person_id"
+            class="artist-node"
+            :transform="`translate(${node.x},${node.y})`"
           >
-            <rect
-              :x="node.x - node.labelWidth / 2 - 4"
-              :y="node.y - node.radius - 25"
-              :width="node.labelWidth + 8"
-              :height="20"
-              fill="rgba(0, 0, 0, 0.8)"
-              rx="4"
+            <circle
+              :r="node.radius"
+              fill="url(#artist-gradient)"
+              :stroke="genreColor"
+              :stroke-width="1.5"
+              class="artist-circle"
+              :class="{ 'hovered': hoveredArtist === node.artist.person_id }"
+              @click="handleArtistClick(node.artist)"
+              @mouseenter="hoveredArtist = node.artist.person_id"
+              @mouseleave="hoveredArtist = null"
             />
-            <text
-              :x="node.x"
-              :y="node.y - node.radius - 12"
-              fill="white"
-              text-anchor="middle"
-              dominant-baseline="middle"
-              class="artist-label"
-              font-size="12"
+            
+            <!-- 音乐人名称标签（只在悬停时显示） -->
+            <g
+              v-show="hoveredArtist === node.artist.person_id"
+              class="artist-label-group"
             >
-              {{ node.artist.name }}
-            </text>
-            <text
-              :x="node.x"
-              :y="node.y - node.radius - 2"
-              fill="white"
-              text-anchor="middle"
-              dominant-baseline="middle"
-              class="artist-score"
-              font-size="10"
-            >
-              分数: {{ node.artist.score.toFixed(1) }}
-            </text>
+              <rect
+                :x="-node.labelWidth / 2 - 4"
+                :y="-node.radius - 25"
+                :width="node.labelWidth + 8"
+                :height="20"
+                fill="rgba(0, 0, 0, 0.8)"
+                rx="4"
+              />
+              <text
+                :y="-node.radius - 12"
+                fill="white"
+                text-anchor="middle"
+                dominant-baseline="middle"
+                class="artist-label"
+                font-size="12"
+              >
+                {{ node.artist.name }}
+              </text>
+              <text
+                :y="-node.radius - 2"
+                fill="white"
+                text-anchor="middle"
+                dominant-baseline="middle"
+                class="artist-score"
+                font-size="10"
+              >
+                分数: {{ node.artist.score.toFixed(1) }}
+              </text>
+            </g>
           </g>
         </g>
       </svg>
@@ -91,12 +93,19 @@
           <span>悬停查看详细信息</span>
         </div>
       </div>
+      
+      <!-- 分页控件 -->
+      <div class="pagination" v-if="totalPages > 1">
+        <button class="page-btn" :disabled="props.currentPage <= 1" @click="changePage(props.currentPage - 1)">上一页</button>
+        <span class="page-info">第 {{ props.currentPage }} / {{ totalPages }} 页</span>
+        <button class="page-btn" :disabled="props.currentPage >= totalPages" @click="changePage(props.currentPage + 1)">下一页</button>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch, nextTick } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import * as d3 from 'd3'
 
 // ==================== Props ====================
@@ -108,11 +117,27 @@ const props = defineProps({
   artists: {
     type: Array,
     required: true
+  },
+  totalArtists: {
+    type: Number,
+    required: true
+  },
+  currentPage: {
+    type: Number,
+    required: true
+  },
+  pageSize: {
+    type: Number,
+    required: true
+  },
+  allGenres: {
+    type: Array,
+    default: () => []
   }
 })
 
 // ==================== Emits ====================
-const emit = defineEmits(['go-back'])
+const emit = defineEmits(['go-back', 'page-change'])
 
 // ==================== 响应式数据 ====================
 const containerRef = ref(null)
@@ -120,41 +145,66 @@ const svgRef = ref(null)
 const width = ref(1200)
 const height = ref(800)
 const hoveredArtist = ref(null)
+// 力导向图模拟器
+let simulation = null
+// 节点数据（响应式，用于动画）
+const artistNodes = ref([])
 
 // ==================== 计算属性 ====================
 /**
  * 获取流派的颜色（与 GenreView 中的颜色保持一致）
  */
+const palette = [
+  '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
+  '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
+  '#aec7e8', '#ffbb78', '#98df8a', '#ff9896', '#c5b0d5',
+  '#c49c94', '#f7b6d3', '#c7c7c7', '#dbdb8d', '#9edae5',
+  '#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7',
+  '#dda15e'
+]
+
+function hashToColorIndex(name) {
+  let hash = 0
+  for (let i = 0; i < name.length; i++) {
+    hash = (hash << 5) - hash + name.charCodeAt(i)
+    hash |= 0
+  }
+  return Math.abs(hash) % palette.length
+}
+
 const genreColor = computed(() => {
-  // 使用与 GenreView 相同的颜色生成逻辑
-  const genres = [
-    "Acoustic Folk", "Alternative Rock", "Americana", "Avant-Garde Folk",
-    "Blues Rock", "Celtic Folk", "Darkwave", "Desert Rock", "Doom Metal",
-    "Dream Pop", "Emo/Pop Punk", "Indie Folk", "Indie Pop", "Indie Rock",
-    "Jazz Surf Rock", "Lo-Fi Electronica", "Oceanus Folk", "Post-Apocalyptic Folk",
-    "Psychedelic Rock", "Sea Shanties", "Southern Gothic Rock", "Space Rock",
-    "Speed Metal", "Symphonic Metal", "Synthpop", "Synthwave"
-  ]
-  const index = genres.indexOf(props.genre)
-  // 使用与 GenreView 相同的颜色数组
-  const colors = [
-    '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
-    '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
-    '#aec7e8', '#ffbb78', '#98df8a', '#ff9896', '#c5b0d5',
-    '#c49c94', '#f7b6d3', '#c7c7c7', '#dbdb8d', '#9edae5',
-    '#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7',
-    '#dda15e'
-  ]
-  return colors[index % colors.length]
+  const available = Array.isArray(props.allGenres) && props.allGenres.length
+    ? props.allGenres
+    : []
+  const index = available.indexOf(props.genre)
+  if (index >= 0) {
+    return palette[index % palette.length]
+  }
+  return palette[hashToColorIndex(props.genre)]
 })
 
 /**
- * 计算音乐人节点的位置和大小
- * 使用力导向图布局，确保圆圈不重叠
- * 圆圈半径基于音乐人的分数
+ * 总页数
  */
-const artistNodes = computed(() => {
-  if (!props.artists || props.artists.length === 0) return []
+const totalPages = computed(() => {
+  if (!props.pageSize) return 1
+  return Math.max(1, Math.ceil((props.totalArtists || 0) / props.pageSize))
+})
+
+/**
+ * 初始化力导向图
+ * 创建动态的力导向图模拟，让音乐人圆圈有引力和斥力效果，均匀分布
+ */
+function initForceSimulation() {
+  if (!props.artists || props.artists.length === 0) {
+    artistNodes.value = []
+    return
+  }
+  
+  // 停止之前的模拟（如果存在）
+  if (simulation) {
+    simulation.stop()
+  }
   
   // 准备节点数据
   const nodes = props.artists.map(artist => ({
@@ -174,37 +224,97 @@ const artistNodes = computed(() => {
     .domain([minScore, maxScore])
     .range([minRadius, maxRadius])
   
-  // 为每个节点设置半径
-  nodes.forEach(node => {
+  // 为每个节点设置半径、初始位置和标签宽度
+  nodes.forEach((node, i) => {
     node.radius = radiusScale(node.score)
     // 计算标签宽度（用于悬停提示框）
     node.labelWidth = Math.max(
       node.artist.name.length * 7,
       (`分数: ${node.artist.score.toFixed(1)}`).length * 6
     )
+    // 初始位置：围绕中心均匀分布
+    const angle = (i / nodes.length) * 2 * Math.PI
+    const initialRadius = Math.min(width.value, height.value) * 0.3
+    node.x = width.value / 2 + Math.cos(angle) * initialRadius
+    node.y = height.value / 2 + Math.sin(angle) * initialRadius
+    node.vx = 0
+    node.vy = 0
   })
   
-  // 使用力导向图布局算法计算位置
-  // 创建力模拟器
-  const simulation = d3.forceSimulation(nodes)
-    .force('charge', d3.forceManyBody().strength(-50)) // 排斥力
-    .force('center', d3.forceCenter(width.value / 2, height.value / 2)) // 中心力
-    .force('collision', d3.forceCollide().radius(d => d.radius + 5)) // 碰撞检测，确保不重叠
-    .stop()
+  // 更新响应式节点数据
+  artistNodes.value = nodes
   
-  // 运行模拟直到稳定
-  for (let i = 0; i < 300; i++) {
-    simulation.tick()
-  }
+  // 创建力导向图模拟器
+  simulation = d3.forceSimulation(nodes)
+    // 排斥力：节点之间相互排斥，避免重叠
+    // strength 为负值表示排斥，绝对值越大排斥力越强
+    .force('charge', d3.forceManyBody()
+      .strength(d => {
+        // 根据节点大小调整排斥力，大节点排斥力更强
+        // 音乐人节点较小，使用较小的排斥力
+        return -d.radius * 1.5
+      })
+      .distanceMax(300) // 最大作用距离
+    )
+    // 中心力：将节点拉向画布中心，保持整体布局
+    .force('center', d3.forceCenter(width.value / 2, height.value / 2)
+      .strength(0.08) // 中心力强度，稍大于流派视图，让节点更集中
+    )
+    // 碰撞检测：确保节点之间保持最小距离，不会重叠
+    .force('collision', d3.forceCollide()
+      .radius(d => d.radius + 8) // 碰撞半径 = 节点半径 + 间距
+      .strength(0.9) // 碰撞力强度，确保不重叠
+    )
+    // 边界约束：将节点保持在画布范围内
+    .force('boundary', () => {
+      nodes.forEach(node => {
+        // 计算边界，留出一些边距
+        const margin = node.radius + 5
+        if (node.x < margin) {
+          node.x = margin
+          node.vx = 0
+        } else if (node.x > width.value - margin) {
+          node.x = width.value - margin
+          node.vx = 0
+        }
+        if (node.y < margin) {
+          node.y = margin
+          node.vy = 0
+        } else if (node.y > height.value - margin) {
+          node.y = height.value - margin
+          node.vy = 0
+        }
+      })
+    })
+    // 设置模拟参数
+    .alphaDecay(0.025) // 衰减率，值越小模拟运行越久
+    .velocityDecay(0.5) // 速度衰减，模拟摩擦力，稍大于流派视图让节点更快稳定
+    .alpha(1) // 初始能量，1表示完全激活
   
-  // 确保所有节点都在画布范围内
-  nodes.forEach(node => {
-    node.x = Math.max(node.radius, Math.min(width.value - node.radius, node.x))
-    node.y = Math.max(node.radius, Math.min(height.value - node.radius, node.y))
+  // 监听模拟的 tick 事件，更新节点位置
+  simulation.on('tick', () => {
+    // 应用边界约束
+    nodes.forEach(node => {
+      const margin = node.radius + 5
+      node.x = Math.max(margin, Math.min(width.value - margin, node.x))
+      node.y = Math.max(margin, Math.min(height.value - margin, node.y))
+    })
+    // 触发响应式更新（Vue 3 需要手动触发）
+    artistNodes.value = [...nodes]
   })
   
-  return nodes
-})
+  // 模拟结束后，确保所有节点都在边界内
+  simulation.on('end', () => {
+    nodes.forEach(node => {
+      const margin = node.radius + 5
+      node.x = Math.max(margin, Math.min(width.value - margin, node.x))
+      node.y = Math.max(margin, Math.min(height.value - margin, node.y))
+    })
+    artistNodes.value = [...nodes]
+  })
+  
+  console.log('[ArtistView] 力导向图初始化完成，音乐人数量:', nodes.length)
+}
 
 // ==================== 方法 ====================
 /**
@@ -220,6 +330,14 @@ function handleArtistClick(artist) {
  */
 function handleGoBack() {
   emit('go-back')
+}
+
+/**
+ * 处理分页切换
+ */
+function changePage(page) {
+  if (page === props.currentPage) return
+  emit('page-change', page)
 }
 
 /**
@@ -239,17 +357,54 @@ onMounted(() => {
   // 监听窗口大小变化
   window.addEventListener('resize', () => {
     initCanvasSize()
+    // 窗口大小变化时，重新初始化力导向图
+    if (props.artists && props.artists.length > 0) {
+      nextTick(() => {
+        initForceSimulation()
+      })
+    }
   })
-})
-
-// 当数据变化时，重新计算布局
-watch(() => [props.artists, props.genre], () => {
+  
+  // 数据加载后初始化力导向图
   if (props.artists && props.artists.length > 0) {
     nextTick(() => {
-      console.log(`[ArtistView] 数据更新，重新计算布局，音乐人数量: ${props.artists.length}`)
+      initForceSimulation()
     })
   }
+})
+
+// 当数据变化时，重新初始化力导向图
+watch(() => [props.artists, props.genre, props.currentPage], () => {
+  if (props.artists && props.artists.length > 0) {
+    nextTick(() => {
+      console.log(`[ArtistView] 数据更新，重新初始化力导向图，音乐人数量: ${props.artists.length}`)
+      initForceSimulation()
+    })
+  } else {
+    artistNodes.value = []
+    if (simulation) {
+      simulation.stop()
+      simulation = null
+    }
+  }
 }, { deep: true })
+
+// 当画布尺寸变化时，重新初始化力导向图
+watch([width, height], () => {
+  if (props.artists && props.artists.length > 0 && artistNodes.value.length > 0) {
+    nextTick(() => {
+      initForceSimulation()
+    })
+  }
+})
+
+// 组件卸载时停止模拟
+onBeforeUnmount(() => {
+  if (simulation) {
+    simulation.stop()
+    simulation = null
+  }
+})
 </script>
 
 <style scoped>
@@ -262,7 +417,7 @@ watch(() => [props.artists, props.genre], () => {
 }
 
 .header {
-  padding: 20px;
+  padding: 3px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -313,9 +468,13 @@ svg {
   height: 100%;
 }
 
+.artist-node {
+  transition: transform 0.1s ease-out;
+}
+
 .artist-circle {
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: stroke-width 0.3s ease, filter 0.3s ease;
 }
 
 .artist-circle:hover {
@@ -342,7 +501,7 @@ svg {
 
 .legend {
   position: absolute;
-  bottom: 20px;
+  bottom: 70px;
   right: 20px;
   background: rgba(255, 255, 255, 0.9);
   padding: 12px 16px;
@@ -367,6 +526,44 @@ svg {
   height: 16px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 8px 16px;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+.page-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 12px;
+  background: #667eea;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.page-btn:disabled {
+  background: rgba(102, 126, 234, 0.4);
+  cursor: not-allowed;
+}
+
+.page-btn:not(:disabled):hover {
+  background: #4c51bf;
+}
+
+.page-info {
+  color: #333;
 }
 </style>
 
