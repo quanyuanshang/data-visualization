@@ -1,0 +1,110 @@
+{
+  "person_id": 8643,
+  "name": "Tao Ren",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8640",
+      "song_id": 8640,
+      "title": "Sacred Soil's Lament",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 8643,
+      "artist_name": "Tao Ren",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:210",
+      "song_id": 210,
+      "title": "Luminous Path",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 211,
+      "artist_name": "Jing Han",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:590",
+      "song_id": 590,
+      "title": "Clockwork Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 591,
+      "artist_name": "Jun Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:11415",
+      "song_id": 11415,
+      "title": "Barnyard Boulevard",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 11416,
+      "artist_name": "Gang Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:590",
+      "target": "song:8640",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:210",
+      "target": "song:8640",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:11415",
+      "target": "song:8640",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

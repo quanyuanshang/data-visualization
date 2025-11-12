@@ -23,14 +23,38 @@
       :all-genres="genresData?.genres ?? []"
       @go-back="handleGoBack"
       @page-change="handlePageChange"
+      @view-tracks="handleViewTracks"
     />
+
+    <!-- 第三层视图：显示音乐人的单曲网络 -->
+    <div v-if="currentView === 'tracks'" class="track-view-wrapper">
+      <div v-if="trackLoading" class="loading">
+        <p>正在加载该音乐人的单曲网络...</p>
+      </div>
+      <div v-else-if="trackError" class="error">
+        <p>单曲数据加载失败：{{ trackError }}</p>
+        <div class="error-actions">
+          <button @click="reloadTrackData">重试</button>
+          <button @click="handleTrackGoBack">返回上一层</button>
+        </div>
+      </div>
+      <TrackView
+        v-else
+        :artist="selectedArtist"
+        :nodes="trackData?.nodes ?? []"
+        :links="trackData?.links ?? []"
+        :genre-color-map="genreColorMap"
+        @go-back="handleTrackGoBack"
+      />
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import GenreView from './components/GenreView.vue'
 import ArtistView from './components/ArtistView.vue'
+import TrackView from './components/TrackView.vue'
 
 // ==================== 状态管理 ====================
 // 当前视图状态：'genres' 表示流派视图，'artists' 表示音乐人视图
@@ -48,6 +72,32 @@ const currentPage = ref(1)
 const pageSize = 100
 // 所有流派的数据
 const genresData = ref(null)
+// 选中的音乐人信息（第三层视图使用）
+const selectedArtist = ref(null)
+// 音乐人单曲网络
+const trackData = ref(null)
+const trackLoading = ref(false)
+const trackError = ref('')
+
+// 与 GenreView / ArtistView 保持一致的颜色序列
+const palette = [
+  '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
+  '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
+  '#aec7e8', '#ffbb78', '#98df8a', '#ff9896', '#c5b0d5',
+  '#c49c94', '#f7b6d3', '#c7c7c7', '#dbdb8d', '#9edae5',
+  '#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7',
+  '#dda15e'
+]
+
+const genreColorMap = computed(() => {
+  // 生成一个 {genre: color} 映射，让所有视图使用同一套颜色
+  const map = {}
+  const list = genresData.value?.genres ?? []
+  list.forEach((genre, index) => {
+    map[genre] = palette[index % palette.length]
+  })
+  return map
+})
 
 // ==================== 数据加载 ====================
 /**
@@ -78,6 +128,8 @@ onMounted(async () => {
  */
 function handleGenreSelect(genre) {
   if (!genresData.value) return
+  // 切换流派前，先清空潜在的第三层状态
+  resetTrackState()
   
   const genreData = genresData.value.genres_data[genre]
   if (!genreData || !genreData.artists) {
@@ -125,7 +177,78 @@ function handleGoBack() {
   selectedArtistsAll.value = []
   totalArtists.value = 0
   currentPage.value = 1
+  resetTrackState()
   console.log('[App] 返回到流派视图')
+}
+
+/**
+ * 处理音乐人点击事件，加载第三层视图
+ */
+async function handleViewTracks(artist) {
+  if (!artist || !artist.person_id) {
+    console.warn('[App] 无法识别音乐人信息，取消加载单曲视图')
+    return
+  }
+
+  // 保存基础信息（得分、流派等），文件加载后再补充 name/stage_name
+  selectedArtist.value = {
+    id: artist.person_id,
+    name: artist.name,
+    stage_name: artist.stage_name ?? null,
+    score: artist.score ?? null,
+    genre: selectedGenre.value
+  }
+  currentView.value = 'tracks'
+  await fetchTrackData(artist.person_id)
+}
+
+async function fetchTrackData(personId) {
+  if (!personId) return
+  trackLoading.value = true
+  trackError.value = ''
+  trackData.value = null
+
+  try {
+    // 第三层数据按 person_id 切片存放
+    const response = await fetch(`/data/person_tracks/${personId}.json`)
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`)
+    }
+    const data = await response.json()
+    trackData.value = data
+    if (data?.name) {
+      selectedArtist.value = {
+        ...selectedArtist.value,
+        name: data.name ?? selectedArtist.value?.name,
+        stage_name: data.stage_name ?? selectedArtist.value?.stage_name
+      }
+    }
+    console.log('[App] 成功加载单曲网络，节点数:', data?.nodes?.length ?? 0)
+  } catch (error) {
+    console.error('[App] 单曲数据加载失败:', error)
+    trackError.value = error.message || '未知错误'
+  } finally {
+    trackLoading.value = false
+  }
+}
+
+function reloadTrackData() {
+  if (selectedArtist.value?.id) {
+    fetchTrackData(selectedArtist.value.id)
+  }
+}
+
+function handleTrackGoBack() {
+  // 返回音乐人层级，保留列表页状态
+  currentView.value = 'artists'
+}
+
+function resetTrackState() {
+  // 清空第三层所有状态，避免旧数据残留
+  selectedArtist.value = null
+  trackData.value = null
+  trackError.value = ''
+  trackLoading.value = false
 }
 </script>
 
@@ -145,6 +268,45 @@ function handleGoBack() {
   font-size: 18px;
   color: #666;
   background: #f5f5f5;
+}
+
+.track-view-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.8), rgba(214, 48, 49, 0.9));
+}
+
+.error-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.error-actions button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #d63031;
+  transition: all 0.2s ease;
+}
+
+.error-actions button:hover {
+  transform: translateY(-1px);
+  background: #fff;
 }
 </style>
 

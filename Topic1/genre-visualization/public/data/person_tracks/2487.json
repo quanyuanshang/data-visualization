@@ -1,0 +1,83 @@
+{
+  "person_id": 2487,
+  "name": "Christoph Hermann",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2486",
+      "song_id": 2486,
+      "title": "Ethereal Cascade",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 2487,
+      "artist_name": "Christoph Hermann",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5113",
+      "song_id": 5113,
+      "title": "Gravity of Collapse",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 622,
+      "artist_name": "Andrew Snyder",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:10505",
+      "song_id": 10505,
+      "title": "Leave Everything Untouched",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1093,
+      "artist_name": "Li Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5113",
+      "target": "song:2486",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10505",
+      "target": "song:2486",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

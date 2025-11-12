@@ -1,0 +1,83 @@
+{
+  "person_id": 10015,
+  "name": "Wei Yu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10010",
+      "song_id": 10010,
+      "title": "Nightmares of Retribution",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 10015,
+      "artist_name": "Wei Yu",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3282",
+      "song_id": 3282,
+      "title": "Scarlet Promise",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 3283,
+      "artist_name": "Brittany Simon ( Hart)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:14477",
+      "song_id": 14477,
+      "title": "Hands Out",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 14479,
+      "artist_name": "Timothy Moore",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3282",
+      "target": "song:10010",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14477",
+      "target": "song:10010",
+      "type": "CoverOf"
+    }
+  ]
+}

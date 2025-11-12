@@ -1,0 +1,56 @@
+{
+  "person_id": 12688,
+  "name": "Linda Burns",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12685",
+      "song_id": 12685,
+      "title": "Coastal Whispers of Biscay",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": true,
+      "artist_id": 12688,
+      "artist_name": "Linda Burns",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17290",
+      "song_id": 17290,
+      "title": "Fog & Fiddle",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2036,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17290",
+      "target": "song:12685",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

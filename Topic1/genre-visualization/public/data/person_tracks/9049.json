@@ -1,0 +1,86 @@
+{
+  "person_id": 9049,
+  "name": "Stephen Obrien",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14124",
+      "song_id": 14124,
+      "title": "Welded Dreams",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1986,
+      "single": true,
+      "own": true,
+      "artist_id": 9049,
+      "artist_name": "Stephen Obrien",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9048",
+      "song_id": 9048,
+      "title": "Crossroads at Sunset",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1984,
+      "single": true,
+      "own": true,
+      "artist_id": 9049,
+      "artist_name": "Stephen Obrien",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7128",
+      "song_id": 7128,
+      "title": "Anguish Unfolding",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1992,
+      "single": true,
+      "own": false,
+      "artist_id": 2109,
+      "artist_name": "Marcia Davis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7128",
+      "target": "song:9048",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7128",
+      "target": "song:14124",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14124",
+      "target": "song:9048",
+      "type": "CoverOf"
+    }
+  ]
+}

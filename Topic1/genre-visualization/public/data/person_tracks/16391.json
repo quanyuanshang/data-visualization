@@ -1,0 +1,110 @@
+{
+  "person_id": 16391,
+  "name": "Anaya Butala",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16389",
+      "song_id": 16389,
+      "title": "Silent Resilience",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1992,
+      "single": true,
+      "own": true,
+      "artist_id": 16391,
+      "artist_name": "Anaya Butala",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12923",
+      "song_id": 12923,
+      "title": "Clan of Shadows",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2002,
+      "single": true,
+      "own": false,
+      "artist_id": 12925,
+      "artist_name": "Alex Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:16001",
+      "song_id": 16001,
+      "title": "The Unbound Forgiver",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1996,
+      "single": true,
+      "own": false,
+      "artist_id": 16002,
+      "artist_name": "Michael Hartman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:16589",
+      "song_id": 16589,
+      "title": "Machine Learning Melody",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 5765,
+      "artist_name": "Amanda Marquez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16001",
+      "target": "song:16389",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16589",
+      "target": "song:16389",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:12923",
+      "target": "song:16389",
+      "type": "InStyleOf"
+    }
+  ]
+}

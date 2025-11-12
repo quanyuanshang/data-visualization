@@ -1,0 +1,56 @@
+{
+  "person_id": 6394,
+  "name": "Robert Stephens",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6393",
+      "song_id": 6393,
+      "title": "Infected by Your Absence",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 6394,
+      "artist_name": "Robert Stephens",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4827",
+      "song_id": 4827,
+      "title": "The Freedom of Silence",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 4829,
+      "artist_name": "Sotaro Ito",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4827",
+      "target": "song:6393",
+      "type": "CoverOf"
+    }
+  ]
+}

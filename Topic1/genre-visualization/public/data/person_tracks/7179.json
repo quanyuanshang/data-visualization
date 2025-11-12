@@ -1,0 +1,130 @@
+{
+  "person_id": 7179,
+  "name": "Tina Raymond",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7177",
+      "song_id": 7177,
+      "title": "Transatlantic Wingspan",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 7179,
+      "artist_name": "Tina Raymond",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15841",
+      "song_id": 15841,
+      "title": "Transformed Tonight",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 7179,
+      "artist_name": "Tina Raymond",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13535",
+      "song_id": 13535,
+      "title": "Thirteen Stars Rising",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 1952,
+      "artist_name": "Yang Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:15217",
+      "song_id": 15217,
+      "title": "Lifting Horizons",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 2268,
+      "artist_name": "Xia Hu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12602",
+      "song_id": 12602,
+      "title": "Moonlight on Mishka's Tears",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 8851,
+      "artist_name": "Jun Xiang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15217",
+      "target": "song:7177",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13535",
+      "target": "song:7177",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12602",
+      "target": "song:15841",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

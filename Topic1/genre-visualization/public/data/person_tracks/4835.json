@@ -1,0 +1,83 @@
+{
+  "person_id": 4835,
+  "name": "Kari Miranda",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4834",
+      "song_id": 4834,
+      "title": "Whispers from the Dundonian Highway",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 4835,
+      "artist_name": "Kari Miranda",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3332",
+      "song_id": 3332,
+      "title": "The Art of Emotional Destruction",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 1499,
+      "artist_name": "Bernfried Stolze",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:16042",
+      "song_id": 16042,
+      "title": "The Simple Truth Between Us",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 16043,
+      "artist_name": "Robin Mayer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16042",
+      "target": "song:4834",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:3332",
+      "target": "song:4834",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

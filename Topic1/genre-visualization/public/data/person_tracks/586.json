@@ -1,0 +1,83 @@
+{
+  "person_id": 586,
+  "name": "John Barnes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:585",
+      "song_id": 585,
+      "title": "Temporal Whispers",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 586,
+      "artist_name": "John Barnes",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4821",
+      "song_id": 4821,
+      "title": "Single-Handed Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 4822,
+      "artist_name": "John Rivera (Hollow Reverberation)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6235",
+      "song_id": 6235,
+      "title": "Sacred Crossroads",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 959,
+      "artist_name": "Qiang Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6235",
+      "target": "song:585",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4821",
+      "target": "song:585",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

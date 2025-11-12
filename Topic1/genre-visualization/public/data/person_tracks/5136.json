@@ -1,0 +1,56 @@
+{
+  "person_id": 5136,
+  "name": "Mieszko Dorna",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5133",
+      "song_id": 5133,
+      "title": "Trash Heap Serenade",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 5136,
+      "artist_name": "Mieszko Dorna",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6896",
+      "song_id": 6896,
+      "title": "Awakening Grace",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 6897,
+      "artist_name": "Crystal Sanders",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6896",
+      "target": "song:5133",
+      "type": "InStyleOf"
+    }
+  ]
+}

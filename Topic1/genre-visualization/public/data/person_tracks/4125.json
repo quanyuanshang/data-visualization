@@ -1,0 +1,128 @@
+{
+  "person_id": 4125,
+  "name": "Tao Zhang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9414",
+      "song_id": 9414,
+      "title": "Whispers of the Blue and Yellow",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 4125,
+      "artist_name": "Tao Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4123",
+      "song_id": 4123,
+      "title": "Whispers of the Virtuoso's Bow",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 4125,
+      "artist_name": "Tao Zhang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9966",
+      "song_id": 9966,
+      "title": "Generations Unborn",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4125,
+      "artist_name": "Tao Zhang",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9644",
+      "song_id": 9644,
+      "title": "Brisk Passage in B Major",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 9645,
+      "artist_name": "Christopher Glover",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6521",
+      "song_id": 6521,
+      "title": "Revolutionary Shadows",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1241,
+      "artist_name": "Fang Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9414",
+      "target": "song:9966",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6521",
+      "target": "song:9966",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9644",
+      "target": "song:4123",
+      "type": "InStyleOf"
+    }
+  ]
+}

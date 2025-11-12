@@ -1,0 +1,56 @@
+{
+  "person_id": 7835,
+  "name": "Ashley Williams",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7830",
+      "song_id": 7830,
+      "title": "Flickering Legends",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": true,
+      "own": true,
+      "artist_id": 7835,
+      "artist_name": "Ashley Williams",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2130",
+      "song_id": 2130,
+      "title": "Positive Pulse",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2131,
+      "artist_name": "Xiuying Gu ( Monroe)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2130",
+      "target": "song:7830",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

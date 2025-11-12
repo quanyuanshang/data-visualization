@@ -1,0 +1,110 @@
+{
+  "person_id": 5391,
+  "name": "Yan Jia",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5389",
+      "song_id": 5389,
+      "title": "If Only You Had Stayed in Your Hometown",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 5391,
+      "artist_name": "Yan Jia",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1830",
+      "song_id": 1830,
+      "title": "Trouble's Favorite Son",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1650,
+      "artist_name": "Daniel Lyons",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:2402",
+      "song_id": 2402,
+      "title": "Unsung Boulevard",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1081,
+      "artist_name": "Ping He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:2567",
+      "song_id": 2567,
+      "title": "Ballad of the Noble Wanderer",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2569,
+      "artist_name": "Juan Mo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2402",
+      "target": "song:5389",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:2567",
+      "target": "song:5389",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:1830",
+      "target": "song:5389",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

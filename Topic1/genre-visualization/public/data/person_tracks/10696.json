@@ -1,0 +1,162 @@
+{
+  "person_id": 10696,
+  "name": "David Moore",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10694",
+      "song_id": 10694,
+      "title": "Midnight in Moravia",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 10696,
+      "artist_name": "David Moore",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12865",
+      "song_id": 12865,
+      "title": "Festive Footsteps",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 10696,
+      "artist_name": "David Moore",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10666",
+      "song_id": 10666,
+      "title": "Velvet Shadows: A Deer's Journey",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 304,
+      "artist_name": "Belinda Knappe",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:11423",
+      "song_id": 11423,
+      "title": "Pigpen Postcards",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7069,
+      "artist_name": "Chao Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:16078",
+      "song_id": 16078,
+      "title": "Strings of Salvador",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 16080,
+      "artist_name": "Na Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:10903",
+      "song_id": 10903,
+      "title": "Parallel Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 10905,
+      "artist_name": "Tao Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10903",
+      "target": "song:12865",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10666",
+      "target": "song:10694",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11423",
+      "target": "song:10694",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10694",
+      "target": "song:12865",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16078",
+      "target": "song:10694",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 9931,
+  "name": "Shayak Chakraborty",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9928",
+      "song_id": 9928,
+      "title": "Gledens Stillegte Sang (The Silent Song of Joy)",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 9931,
+      "artist_name": "Shayak Chakraborty",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5559",
+      "song_id": 5559,
+      "title": "Infused Intentions",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 5562,
+      "artist_name": "Mitchell Mcdonald",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5559",
+      "target": "song:9928",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

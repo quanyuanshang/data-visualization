@@ -1,0 +1,135 @@
+{
+  "person_id": 3535,
+  "name": "Reginald Wallace",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3531",
+      "song_id": 3531,
+      "title": "Fence Line Whispers",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 3535,
+      "artist_name": "Reginald Wallace",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16158",
+      "song_id": 16158,
+      "title": "Whispers Along the Thames",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 3535,
+      "artist_name": "Reginald Wallace",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16323",
+      "song_id": 16323,
+      "title": "Sacrifice My Heart",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 9374,
+      "artist_name": "Keya Kota",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:13763",
+      "song_id": 13763,
+      "title": "Tidal Memoir",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 13764,
+      "artist_name": "Konrad Szpyt ( Luna Rey)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:17103",
+      "song_id": 17103,
+      "title": "The Notes You Left Behind",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2033,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17103",
+      "target": "song:16158",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13763",
+      "target": "song:16158",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3531",
+      "target": "song:16158",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16323",
+      "target": "song:3531",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

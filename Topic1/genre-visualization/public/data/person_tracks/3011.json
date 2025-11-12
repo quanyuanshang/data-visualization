@@ -1,0 +1,108 @@
+{
+  "person_id": 3011,
+  "name": "Shannon Smith",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3008",
+      "song_id": 3008,
+      "title": "Resonance Between Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 3011,
+      "artist_name": "Shannon Smith",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13873",
+      "song_id": 13873,
+      "title": "Iron Tracks",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2016,
+      "single": true,
+      "own": true,
+      "artist_id": 3011,
+      "artist_name": "Shannon Smith",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7971",
+      "song_id": 7971,
+      "title": "Blind to the Truth",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 1941,
+      "artist_name": "Yang Tang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:12393",
+      "song_id": 12393,
+      "title": "Everywhere But Home",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 592,
+      "artist_name": "Xiulan Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7971",
+      "target": "song:3008",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3008",
+      "target": "song:13873",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12393",
+      "target": "song:13873",
+      "type": "InStyleOf"
+    }
+  ]
+}

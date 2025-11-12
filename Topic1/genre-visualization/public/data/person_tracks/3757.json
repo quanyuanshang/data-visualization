@@ -1,0 +1,56 @@
+{
+  "person_id": 3757,
+  "name": "Klaus-Werner Gierschner",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3756",
+      "song_id": 3756,
+      "title": "Come Closer",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 3757,
+      "artist_name": "Klaus-Werner Gierschner",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17015",
+      "song_id": 17015,
+      "title": "Sacrificial Dawn",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2038,
+      "single": true,
+      "own": false,
+      "artist_id": 17012,
+      "artist_name": "Sienna Fox",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17015",
+      "target": "song:3756",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

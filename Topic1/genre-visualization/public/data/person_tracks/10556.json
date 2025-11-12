@@ -1,0 +1,56 @@
+{
+  "person_id": 10556,
+  "name": "Juan Cao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10552",
+      "song_id": 10552,
+      "title": "Whispers of Sorrow",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 10556,
+      "artist_name": "Juan Cao",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6564",
+      "song_id": 6564,
+      "title": "Dados del Destino (Dice of Destiny)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": false,
+      "artist_id": 6566,
+      "artist_name": "Lei Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6564",
+      "target": "song:10552",
+      "type": "DirectlySamples"
+    }
+  ]
+}

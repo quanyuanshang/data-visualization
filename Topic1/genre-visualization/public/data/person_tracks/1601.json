@@ -1,0 +1,56 @@
+{
+  "person_id": 1601,
+  "name": "Caleb Long",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1600",
+      "song_id": 1600,
+      "title": "Pawns and Prophets",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 1601,
+      "artist_name": "Caleb Long",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1208",
+      "song_id": 1208,
+      "title": "Springtime Sonata",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1210,
+      "artist_name": "Guiying Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1208",
+      "target": "song:1600",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

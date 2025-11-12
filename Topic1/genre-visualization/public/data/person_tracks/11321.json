@@ -1,0 +1,87 @@
+{
+  "person_id": 11321,
+  "name": "Lucas Potter",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11941",
+      "song_id": 11941,
+      "title": "Embrace and Erase",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 11321,
+      "artist_name": "Lucas Potter",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12611",
+      "song_id": 12611,
+      "title": "Forgotten Lullaby of the North",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 11321,
+      "artist_name": "Lucas Potter",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11249",
+      "song_id": 11249,
+      "title": "Silence Between Departures",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1873,
+      "artist_name": "Li Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11249",
+      "target": "song:12611",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11249",
+      "target": "song:11941",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11941",
+      "target": "song:12611",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

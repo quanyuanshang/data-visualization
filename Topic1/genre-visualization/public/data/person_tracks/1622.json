@@ -1,0 +1,83 @@
+{
+  "person_id": 1622,
+  "name": "Qiang Fan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9337",
+      "song_id": 9337,
+      "title": "Rhythm of Her Steps",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 1622,
+      "artist_name": "Qiang Fan",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9043",
+      "song_id": 9043,
+      "title": "Highway Horizon Spell",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 9044,
+      "artist_name": "Qiang Xiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:11839",
+      "song_id": 11839,
+      "title": "Pilgrims of Hope",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 11841,
+      "artist_name": "Hanna Aelftrud van Wessex",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11839",
+      "target": "song:9337",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9043",
+      "target": "song:9337",
+      "type": "InStyleOf"
+    }
+  ]
+}

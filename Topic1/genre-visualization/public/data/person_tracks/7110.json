@@ -1,0 +1,56 @@
+{
+  "person_id": 7110,
+  "name": "Lei Qiu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7107",
+      "song_id": 7107,
+      "title": "Traces of Yesterday",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 7110,
+      "artist_name": "Lei Qiu",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17238",
+      "song_id": 17238,
+      "title": "Ocean Breeze",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 17235,
+      "artist_name": "Genevieve Bell (Lux Ravenna)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17238",
+      "target": "song:7107",
+      "type": "CoverOf"
+    }
+  ]
+}

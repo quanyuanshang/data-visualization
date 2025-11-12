@@ -1,0 +1,56 @@
+{
+  "person_id": 7076,
+  "name": "Benjamin Mercer",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7074",
+      "song_id": 7074,
+      "title": "Fractured Expressions",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 7076,
+      "artist_name": "Benjamin Mercer",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4890",
+      "song_id": 4890,
+      "title": "Naked Spectrum",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 1953,
+      "artist_name": "Xiuying Dai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4890",
+      "target": "song:7074",
+      "type": "CoverOf"
+    }
+  ]
+}

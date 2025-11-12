@@ -1,0 +1,83 @@
+{
+  "person_id": 7682,
+  "name": "Amber Franklin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7680",
+      "song_id": 7680,
+      "title": "Earthen Resonance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 7682,
+      "artist_name": "Amber Franklin",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2906",
+      "song_id": 2906,
+      "title": "Whispers to the Divine",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 936,
+      "artist_name": "Fang Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16360",
+      "song_id": 16360,
+      "title": "Dissonant Symmetries",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 16361,
+      "artist_name": "Juan Hou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16360",
+      "target": "song:7680",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2906",
+      "target": "song:7680",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

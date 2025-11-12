@@ -1,0 +1,56 @@
+{
+  "person_id": 7420,
+  "name": "Shannon Oneill",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7417",
+      "song_id": 7417,
+      "title": "Reveal the Unspoken",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 7420,
+      "artist_name": "Shannon Oneill",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8845",
+      "song_id": 8845,
+      "title": "Whispers in the Christmas Lights",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 5784,
+      "artist_name": "Mary Brooks",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8845",
+      "target": "song:7417",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

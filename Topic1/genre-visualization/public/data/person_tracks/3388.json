@@ -1,0 +1,110 @@
+{
+  "person_id": 3388,
+  "name": "Li Fang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3387",
+      "song_id": 3387,
+      "title": "Echoes Out of Time",
+      "genre": "Lo-Fi Electronica",
+      "notable": false,
+      "release_year": 2016,
+      "single": true,
+      "own": true,
+      "artist_id": 3388,
+      "artist_name": "Li Fang",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5",
+      "song_id": 5,
+      "title": "Unshackled Heart",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:5804",
+      "song_id": 5804,
+      "title": "Settler's Crossing",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 5805,
+      "artist_name": "Yan Yin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:14497",
+      "song_id": 14497,
+      "title": "Decoding Silence",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 8880,
+      "artist_name": "Tao Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5804",
+      "target": "song:3387",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14497",
+      "target": "song:3387",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5",
+      "target": "song:3387",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

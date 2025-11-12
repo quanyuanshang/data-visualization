@@ -1,0 +1,76 @@
+{
+  "person_id": 4124,
+  "name": "Yang Zhao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4123",
+      "song_id": 4123,
+      "title": "Whispers of the Virtuoso's Bow",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 4124,
+      "artist_name": "Yang Zhao",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14606",
+      "song_id": 14606,
+      "title": "The Number That Haunts Me",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 4124,
+      "artist_name": "Yang Zhao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9644",
+      "song_id": 9644,
+      "title": "Brisk Passage in B Major",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 9645,
+      "artist_name": "Christopher Glover",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9644",
+      "target": "song:4123",
+      "type": "InStyleOf"
+    }
+  ]
+}

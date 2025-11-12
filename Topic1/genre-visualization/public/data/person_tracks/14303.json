@@ -1,0 +1,103 @@
+{
+  "person_id": 14303,
+  "name": "Hansjürgen Pechel",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16397",
+      "song_id": 16397,
+      "title": "Depths Beyond Memory",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 14303,
+      "artist_name": "Hansjürgen Pechel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14300",
+      "song_id": 14300,
+      "title": "Echoes of Sacrifice",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 14303,
+      "artist_name": "Hansjürgen Pechel",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:365",
+      "song_id": 365,
+      "title": "Footprints Beyond Tomorrow",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 366,
+      "artist_name": "Juan Meng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:365",
+      "target": "song:14300",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3362",
+      "target": "song:14300",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 14492,
+  "name": "Rodney Hurst",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14491",
+      "song_id": 14491,
+      "title": "Lost in Translation",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2002,
+      "single": true,
+      "own": true,
+      "artist_id": 14492,
+      "artist_name": "Rodney Hurst",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9308",
+      "song_id": 9308,
+      "title": "Ancestral Melodies of the Plains",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 388,
+      "artist_name": "Jun Song",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9308",
+      "target": "song:14491",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

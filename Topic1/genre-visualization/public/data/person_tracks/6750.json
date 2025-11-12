@@ -1,0 +1,56 @@
+{
+  "person_id": 6750,
+  "name": "Momoko Tanaka",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6746",
+      "song_id": 6746,
+      "title": "Sunset Continuum",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 6750,
+      "artist_name": "Momoko Tanaka",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15789",
+      "song_id": 15789,
+      "title": "Speak Between The Lines",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 82,
+      "artist_name": "Min Ye",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15789",
+      "target": "song:6746",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

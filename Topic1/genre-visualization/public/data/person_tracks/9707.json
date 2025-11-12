@@ -1,0 +1,103 @@
+{
+  "person_id": 9707,
+  "name": "Jason Underwood",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13256",
+      "song_id": 13256,
+      "title": "Capricious Melody",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 9707,
+      "artist_name": "Jason Underwood",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9706",
+      "song_id": 9706,
+      "title": "Unwritten Monologues",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 9707,
+      "artist_name": "Jason Underwood",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9706",
+      "song_id": 9706,
+      "title": "Unwritten Monologues",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4356,
+      "artist_name": "Xia Jia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:12322",
+      "song_id": 12322,
+      "title": "The Vision of Maria",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1227,
+      "artist_name": "Jun Xia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9706",
+      "target": "song:13256",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12322",
+      "target": "song:13256",
+      "type": "InStyleOf"
+    }
+  ]
+}

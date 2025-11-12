@@ -1,0 +1,56 @@
+{
+  "person_id": 12873,
+  "name": "Ludger Ladeck",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12867",
+      "song_id": 12867,
+      "title": "Pulse of Desire",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 12873,
+      "artist_name": "Ludger Ladeck",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17342",
+      "song_id": 17342,
+      "title": "Beneath the Whispering Waves",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 17340,
+      "artist_name": "Orla Seabloom",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17342",
+      "target": "song:12867",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

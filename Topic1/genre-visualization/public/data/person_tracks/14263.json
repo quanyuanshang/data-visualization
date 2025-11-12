@@ -1,0 +1,110 @@
+{
+  "person_id": 14263,
+  "name": "Ping Zhu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14262",
+      "song_id": 14262,
+      "title": "Mediterranean Blood",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 14263,
+      "artist_name": "Ping Zhu",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8209",
+      "song_id": 8209,
+      "title": "Pale Silhouettes",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:10521",
+      "song_id": 10521,
+      "title": "Uncork My Heart",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:11878",
+      "song_id": 11878,
+      "title": "Glowing Connection",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 5362,
+      "artist_name": "Yong Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10521",
+      "target": "song:14262",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11878",
+      "target": "song:14262",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:8209",
+      "target": "song:14262",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

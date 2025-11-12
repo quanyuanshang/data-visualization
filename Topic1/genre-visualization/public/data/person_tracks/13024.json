@@ -1,0 +1,83 @@
+{
+  "person_id": 13024,
+  "name": "Kristen Edwards",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13023",
+      "song_id": 13023,
+      "title": "Mandible Fluidity",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 13024,
+      "artist_name": "Kristen Edwards",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10837",
+      "song_id": 10837,
+      "title": "Who's That Girl Named Mariele?",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 7156,
+      "artist_name": "Michaela Kelley",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:14435",
+      "song_id": 14435,
+      "title": "Echoes of Ancestral Soil",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 7155,
+      "artist_name": "Jacqueline Fields",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14435",
+      "target": "song:13023",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10837",
+      "target": "song:13023",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

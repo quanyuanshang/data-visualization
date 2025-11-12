@@ -1,0 +1,110 @@
+{
+  "person_id": 3744,
+  "name": "Kimberly Weaver",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3743",
+      "song_id": 3743,
+      "title": "Denim Diary",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1985,
+      "single": false,
+      "own": true,
+      "artist_id": 3744,
+      "artist_name": "Kimberly Weaver",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1596",
+      "song_id": 1596,
+      "title": "The King's Last Move",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": false,
+      "artist_id": 1598,
+      "artist_name": "Nikolas Naser",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6300",
+      "song_id": 6300,
+      "title": "Fading Strength, Rising Insight",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 1597,
+      "artist_name": "Walentina Ernst-Klingelhöfer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6339",
+      "song_id": 6339,
+      "title": "Glitz and Glamour",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 6340,
+      "artist_name": "Matthew Sanchez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1596",
+      "target": "song:3743",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6339",
+      "target": "song:3743",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6300",
+      "target": "song:3743",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

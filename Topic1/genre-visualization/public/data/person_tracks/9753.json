@@ -1,0 +1,103 @@
+{
+  "person_id": 9753,
+  "name": "Yan Gong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13735",
+      "song_id": 13735,
+      "title": "Echoes in the Silent North",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 9753,
+      "artist_name": "Yan Gong",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12347",
+      "song_id": 12347,
+      "title": "Broken Generation",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 9753,
+      "artist_name": "Yan Gong",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12347",
+      "song_id": 12347,
+      "title": "Broken Generation",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2861,
+      "artist_name": "Jie Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:12535",
+      "song_id": 12535,
+      "title": "Whispers from the Fifty States",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 12536,
+      "artist_name": "Monica Coleman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12347",
+      "target": "song:13735",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:12535",
+      "target": "song:12347",
+      "type": "InStyleOf"
+    }
+  ]
+}

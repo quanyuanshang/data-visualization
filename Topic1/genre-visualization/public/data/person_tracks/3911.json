@@ -1,0 +1,56 @@
+{
+  "person_id": 3911,
+  "name": "Kaori Kobayashi",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3909",
+      "song_id": 3909,
+      "title": "Everything's Alright",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 3911,
+      "artist_name": "Kaori Kobayashi",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12490",
+      "song_id": 12490,
+      "title": "Celestial Praise",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 6579,
+      "artist_name": "Lei Qian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12490",
+      "target": "song:3909",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 1151,
+  "name": "Fritz Schuster",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1145",
+      "song_id": 1145,
+      "title": "Unattached",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 1151,
+      "artist_name": "Fritz Schuster",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6064",
+      "song_id": 6064,
+      "title": "Willpower Wins",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 1152,
+      "artist_name": "George Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6064",
+      "target": "song:1145",
+      "type": "CoverOf"
+    }
+  ]
+}

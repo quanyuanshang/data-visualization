@@ -1,0 +1,56 @@
+{
+  "person_id": 15213,
+  "name": "Tao Xiang",
+  "stage_name": " Velvet Rook",
+  "nodes": [
+    {
+      "id": "song:15212",
+      "song_id": 15212,
+      "title": "Whispers of the Crane",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 15213,
+      "artist_name": "Tao Xiang ( Velvet Rook)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15144",
+      "song_id": 15144,
+      "title": "The Last Wave from Number 42",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 15147,
+      "artist_name": "Tao Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15144",
+      "target": "song:15212",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

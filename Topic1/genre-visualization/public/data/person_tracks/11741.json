@@ -1,0 +1,83 @@
+{
+  "person_id": 11741,
+  "name": "Lori Gregory",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11740",
+      "song_id": 11740,
+      "title": "Guenerina's Lament",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2011,
+      "single": false,
+      "own": true,
+      "artist_id": 11741,
+      "artist_name": "Lori Gregory",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:705",
+      "song_id": 705,
+      "title": "Midnight Visions",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 706,
+      "artist_name": "Karl-Josef Reinhardt",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12867",
+      "song_id": 12867,
+      "title": "Pulse of Desire",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 12868,
+      "artist_name": "Ninetta Spinelli",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:705",
+      "target": "song:11740",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12867",
+      "target": "song:11740",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 7995,
+  "name": "Guiying Qin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7994",
+      "song_id": 7994,
+      "title": "Shout Into Silence",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 7995,
+      "artist_name": "Guiying Qin",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12535",
+      "song_id": 12535,
+      "title": "Whispers from the Fifty States",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 12536,
+      "artist_name": "Monica Coleman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:13735",
+      "song_id": 13735,
+      "title": "Echoes in the Silent North",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 9751,
+      "artist_name": "Xiulan Yuan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12535",
+      "target": "song:7994",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13735",
+      "target": "song:7994",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

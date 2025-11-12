@@ -1,0 +1,56 @@
+{
+  "person_id": 7470,
+  "name": "Douglas Stout",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7469",
+      "song_id": 7469,
+      "title": "Liquid Desire",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 7470,
+      "artist_name": "Douglas Stout",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4105",
+      "song_id": 4105,
+      "title": "Whispers of Sacred Introspection",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 1441,
+      "artist_name": "Astrid Lecoq",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4105",
+      "target": "song:7469",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

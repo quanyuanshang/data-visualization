@@ -1,0 +1,141 @@
+{
+  "person_id": 8100,
+  "name": "Marc-Raymond Durand",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11525",
+      "song_id": 11525,
+      "title": "Shadows of the Forgotten Meadow",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 8100,
+      "artist_name": "Marc-Raymond Durand",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12072",
+      "song_id": 12072,
+      "title": "Božské Tajemství v Rukou Času",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 8100,
+      "artist_name": "Marc-Raymond Durand",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4843",
+      "song_id": 4843,
+      "title": "Wanderer's Path to the City of Jute",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 4844,
+      "artist_name": "Capucine Pasquier",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples",
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:10944",
+      "song_id": 10944,
+      "title": "Homebound Heart",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 10945,
+      "artist_name": "Pamela Moran (Seraphine)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:13224",
+      "song_id": 13224,
+      "title": "Lullaby of Elsinore",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 13225,
+      "artist_name": "Ryan Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4843",
+      "target": "song:11525",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:4843",
+      "target": "song:12072",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13224",
+      "target": "song:12072",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10944",
+      "target": "song:11525",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11525",
+      "target": "song:12072",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "person_id": 8008,
+  "name": "Shlok Desai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15188",
+      "song_id": 15188,
+      "title": "Solomon's Sorrow",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 8008,
+      "artist_name": "Shlok Desai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8006",
+      "song_id": 8006,
+      "title": "Scream Between Whispers",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 8008,
+      "artist_name": "Shlok Desai",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8636",
+      "song_id": 8636,
+      "title": "Roots of Rhythm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 8638,
+      "artist_name": "Shelby Grimes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8636",
+      "target": "song:8006",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15188",
+      "target": "song:8006",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

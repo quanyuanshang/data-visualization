@@ -1,0 +1,110 @@
+{
+  "person_id": 13189,
+  "name": "Qiang Pan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13188",
+      "song_id": 13188,
+      "title": "Hymnal Resonance",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 13189,
+      "artist_name": "Qiang Pan",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:970",
+      "song_id": 970,
+      "title": "Wooden Heart",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 972,
+      "artist_name": "Robin Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6482",
+      "song_id": 6482,
+      "title": "Daydream's Descent",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 6483,
+      "artist_name": "Yan Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12190",
+      "song_id": 12190,
+      "title": "Sonic Whispers",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 12191,
+      "artist_name": "Michael Baker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:970",
+      "target": "song:13188",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6482",
+      "target": "song:13188",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12190",
+      "target": "song:13188",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

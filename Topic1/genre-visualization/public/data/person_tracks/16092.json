@@ -1,0 +1,83 @@
+{
+  "person_id": 16092,
+  "name": "Ping Lai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16090",
+      "song_id": 16090,
+      "title": "Neon Midnight Groove",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 16092,
+      "artist_name": "Ping Lai",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1136",
+      "song_id": 1136,
+      "title": "Solo Flight",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 1139,
+      "artist_name": "Crystal Cruz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:8722",
+      "song_id": 8722,
+      "title": "Whispers of Divine Stillness",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 8723,
+      "artist_name": "Wesley Ford ( Treasure)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1136",
+      "target": "song:16090",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:8722",
+      "target": "song:16090",
+      "type": "CoverOf"
+    }
+  ]
+}

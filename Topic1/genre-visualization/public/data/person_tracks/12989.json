@@ -1,0 +1,56 @@
+{
+  "person_id": 12989,
+  "name": "Sarah Galloway",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12986",
+      "song_id": 12986,
+      "title": "Broken Plea",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 12989,
+      "artist_name": "Sarah Galloway",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12963",
+      "song_id": 12963,
+      "title": "Resonance of Solitude",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 12964,
+      "artist_name": "Li Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12963",
+      "target": "song:12986",
+      "type": "DirectlySamples"
+    }
+  ]
+}

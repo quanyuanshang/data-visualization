@@ -1,0 +1,83 @@
+{
+  "person_id": 16648,
+  "name": "Haley Williams",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16646",
+      "song_id": 16646,
+      "title": "Sunlit Whispers",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 16648,
+      "artist_name": "Haley Williams",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12131",
+      "song_id": 12131,
+      "title": "Walls of Infinite Grace",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 12132,
+      "artist_name": "Ashley Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:16339",
+      "song_id": 16339,
+      "title": "Celestial Metamorphosis",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 16340,
+      "artist_name": "Brian Mitchell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12131",
+      "target": "song:16646",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:16339",
+      "target": "song:16646",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 5748,
+  "name": "Sarah Harrison",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5746",
+      "song_id": 5746,
+      "title": "Roadmap to Myself",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 5748,
+      "artist_name": "Sarah Harrison",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5958",
+      "song_id": 5958,
+      "title": "Mending Pieces",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 1818,
+      "artist_name": "Sarah James",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5958",
+      "target": "song:5746",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

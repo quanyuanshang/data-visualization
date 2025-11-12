@@ -1,0 +1,56 @@
+{
+  "person_id": 2371,
+  "name": "Tao Zhou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2369",
+      "song_id": 2369,
+      "title": "Silence Where My Heart Used To Be",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 2371,
+      "artist_name": "Tao Zhou",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11706",
+      "song_id": 11706,
+      "title": "Quantum Woodwind",
+      "genre": "Space Rock",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 11707,
+      "artist_name": "Lei Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11706",
+      "target": "song:2369",
+      "type": "CoverOf"
+    }
+  ]
+}

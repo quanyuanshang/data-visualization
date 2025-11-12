@@ -1,0 +1,56 @@
+{
+  "person_id": 12853,
+  "name": "Jun Mao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12852",
+      "song_id": 12852,
+      "title": "Postcards from Nowhere",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 12853,
+      "artist_name": "Jun Mao",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11851",
+      "song_id": 11851,
+      "title": "Sunrise at the Sacred Gathering",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2032,
+      "single": true,
+      "own": false,
+      "artist_id": 11853,
+      "artist_name": "Xia Tang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11851",
+      "target": "song:12852",
+      "type": "DirectlySamples"
+    }
+  ]
+}

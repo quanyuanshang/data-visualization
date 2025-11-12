@@ -1,0 +1,83 @@
+{
+  "person_id": 16401,
+  "name": "Steven Goodman",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16400",
+      "song_id": 16400,
+      "title": "Aquatic Rebirth (1983)",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 16401,
+      "artist_name": "Steven Goodman",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10903",
+      "song_id": 10903,
+      "title": "Parallel Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 10905,
+      "artist_name": "Tao Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14220",
+      "song_id": 14220,
+      "title": "Grip of Memory",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 11338,
+      "artist_name": "Ming Xiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14220",
+      "target": "song:16400",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10903",
+      "target": "song:16400",
+      "type": "InStyleOf"
+    }
+  ]
+}

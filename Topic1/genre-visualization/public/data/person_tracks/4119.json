@@ -1,0 +1,83 @@
+{
+  "person_id": 4119,
+  "name": "Jun Luo",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4117",
+      "song_id": 4117,
+      "title": "Walking Away",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 4119,
+      "artist_name": "Jun Luo",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10576",
+      "song_id": 10576,
+      "title": "Competing Courtships",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2011,
+      "single": true,
+      "own": false,
+      "artist_id": 10577,
+      "artist_name": "Gang Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12266",
+      "song_id": 12266,
+      "title": "Manuela's Silent Passage",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 2757,
+      "artist_name": "Wei Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10576",
+      "target": "song:4117",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12266",
+      "target": "song:4117",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

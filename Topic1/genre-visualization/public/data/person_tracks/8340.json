@@ -1,0 +1,83 @@
+{
+  "person_id": 8340,
+  "name": "Kelly Johnson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8339",
+      "song_id": 8339,
+      "title": "Echoes of Childhood Walls",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 8340,
+      "artist_name": "Kelly Johnson",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14489",
+      "song_id": 14489,
+      "title": "Cryptic Whispers",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3122,
+      "artist_name": "Jing Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15267",
+      "song_id": 15267,
+      "title": "Heartbeats Intertwined",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 4418,
+      "artist_name": "Jun Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15267",
+      "target": "song:8339",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14489",
+      "target": "song:8339",
+      "type": "CoverOf"
+    }
+  ]
+}

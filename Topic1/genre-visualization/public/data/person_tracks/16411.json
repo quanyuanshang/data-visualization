@@ -1,0 +1,56 @@
+{
+  "person_id": 16411,
+  "name": "Nicholas Patel",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16409",
+      "song_id": 16409,
+      "title": "Lumière Immortelle",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 16411,
+      "artist_name": "Nicholas Patel",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15857",
+      "song_id": 15857,
+      "title": "The Forgotten Shrine",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 15858,
+      "artist_name": "Yang Tang ( Shadow)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15857",
+      "target": "song:16409",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

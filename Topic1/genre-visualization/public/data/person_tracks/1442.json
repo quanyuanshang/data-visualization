@@ -1,0 +1,129 @@
+{
+  "person_id": 1442,
+  "name": "Élodie Albert",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4105",
+      "song_id": 4105,
+      "title": "Whispers of Sacred Introspection",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 1442,
+      "artist_name": "Élodie Albert",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12821",
+      "song_id": 12821,
+      "title": "Droplets of Memory",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 1442,
+      "artist_name": "Élodie Albert",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14128",
+      "song_id": 14128,
+      "title": "Factory Floor Symphony",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1994,
+      "single": true,
+      "own": true,
+      "artist_id": 1442,
+      "artist_name": "Élodie Albert",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2794",
+      "song_id": 2794,
+      "title": "Lost Compass",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 1444,
+      "artist_name": "Martine Normand",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples",
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:14128",
+      "song_id": 14128,
+      "title": "Factory Floor Symphony",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1994,
+      "single": true,
+      "own": true,
+      "artist_id": 1442,
+      "artist_name": "Élodie Albert",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14128",
+      "target": "song:12821",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:2794",
+      "target": "song:14128",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:2794",
+      "target": "song:12821",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

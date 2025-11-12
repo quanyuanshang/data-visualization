@@ -1,0 +1,56 @@
+{
+  "person_id": 1479,
+  "name": "Zara Anand",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1476",
+      "song_id": 1476,
+      "title": "Whispers of a Washed Continent",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 1479,
+      "artist_name": "Zara Anand",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3110",
+      "song_id": 3110,
+      "title": "Flanders' Requiem",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 1477,
+      "artist_name": "Jivika Mahal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3110",
+      "target": "song:1476",
+      "type": "CoverOf"
+    }
+  ]
+}

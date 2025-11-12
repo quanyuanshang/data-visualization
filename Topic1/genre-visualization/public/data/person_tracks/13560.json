@@ -1,0 +1,56 @@
+{
+  "person_id": 13560,
+  "name": "Vitus Heinz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13558",
+      "song_id": 13558,
+      "title": "Personal Compass",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 13560,
+      "artist_name": "Vitus Heinz",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14884",
+      "song_id": 14884,
+      "title": "Echoes from the Shipwreck's Heart",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 7252,
+      "artist_name": "Zachary Harris",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14884",
+      "target": "song:13558",
+      "type": "CoverOf"
+    }
+  ]
+}

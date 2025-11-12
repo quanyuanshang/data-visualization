@@ -1,0 +1,56 @@
+{
+  "person_id": 7767,
+  "name": "Xiulan Gong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7763",
+      "song_id": 7763,
+      "title": "Saltwater Serenade",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 7767,
+      "artist_name": "Xiulan Gong",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12418",
+      "song_id": 12418,
+      "title": "Echoes of My Inner Voice",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 12420,
+      "artist_name": "Martha Patrick",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12418",
+      "target": "song:7763",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

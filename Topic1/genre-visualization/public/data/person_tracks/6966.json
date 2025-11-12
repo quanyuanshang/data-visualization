@@ -1,0 +1,110 @@
+{
+  "person_id": 6966,
+  "name": "Qiang Qiao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6960",
+      "song_id": 6960,
+      "title": "Diamonds and Shadows: A Harlequin's Tale",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 6966,
+      "artist_name": "Qiang Qiao",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7278",
+      "song_id": 7278,
+      "title": "Requiem for a Fading Self",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:8837",
+      "song_id": 8837,
+      "title": "The Unfolding: Thirty Breaths",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 8839,
+      "artist_name": "Lori Schmidt",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:12469",
+      "song_id": 12469,
+      "title": "Confetti and Goodbyes",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 4259,
+      "artist_name": "Jie Tao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8837",
+      "target": "song:6960",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:7278",
+      "target": "song:6960",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12469",
+      "target": "song:6960",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

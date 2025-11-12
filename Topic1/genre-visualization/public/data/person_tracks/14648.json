@@ -1,0 +1,56 @@
+{
+  "person_id": 14648,
+  "name": "Gang Yang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14647",
+      "song_id": 14647,
+      "title": "Spelling Rebellion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 14648,
+      "artist_name": "Gang Yang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7045",
+      "song_id": 7045,
+      "title": "Shadows of Sanctuary",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 7047,
+      "artist_name": "Yong Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7045",
+      "target": "song:14647",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

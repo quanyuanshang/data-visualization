@@ -1,0 +1,56 @@
+{
+  "person_id": 14403,
+  "name": "Tracy Bennett",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14401",
+      "song_id": 14401,
+      "title": "Floor Fever",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 14403,
+      "artist_name": "Tracy Bennett",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8640",
+      "song_id": 8640,
+      "title": "Sacred Soil's Lament",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 7398,
+      "artist_name": "Charles Vazquez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8640",
+      "target": "song:14401",
+      "type": "DirectlySamples"
+    }
+  ]
+}

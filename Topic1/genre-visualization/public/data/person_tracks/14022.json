@@ -1,0 +1,83 @@
+{
+  "person_id": 14022,
+  "name": "Fang Yi",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14021",
+      "song_id": 14021,
+      "title": "The Quiet Spark",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 14022,
+      "artist_name": "Fang Yi",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3773",
+      "song_id": 3773,
+      "title": "Kindred OdysseyFragile Lola",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 3774,
+      "artist_name": "Jun Yin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6376",
+      "song_id": 6376,
+      "title": "Temptation's Edge",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 3774,
+      "artist_name": "Jun Yin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3773",
+      "target": "song:14021",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6376",
+      "target": "song:14021",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

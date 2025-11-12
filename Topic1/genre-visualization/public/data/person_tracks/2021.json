@@ -1,0 +1,56 @@
+{
+  "person_id": 2021,
+  "name": "Xiuying Xiang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2019",
+      "song_id": 2019,
+      "title": "Detonation Point",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 2021,
+      "artist_name": "Xiuying Xiang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17161",
+      "song_id": 17161,
+      "title": "Glass Towers, Broken Hearts",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2032,
+      "single": true,
+      "own": false,
+      "artist_id": 17155,
+      "artist_name": "Claire Holmes (Jaye Finch)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17161",
+      "target": "song:2019",
+      "type": "CoverOf"
+    }
+  ]
+}

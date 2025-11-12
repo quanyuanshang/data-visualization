@@ -1,0 +1,56 @@
+{
+  "person_id": 11004,
+  "name": "Franciszek Wieja",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11002",
+      "song_id": 11002,
+      "title": "The Maestro's Unsung Wisdom",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 11004,
+      "artist_name": "Franciszek Wieja",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13229",
+      "song_id": 13229,
+      "title": "Throne and Tears",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 4401,
+      "artist_name": "Malwina Penar",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13229",
+      "target": "song:11002",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

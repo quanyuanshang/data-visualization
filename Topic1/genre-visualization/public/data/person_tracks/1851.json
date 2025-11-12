@@ -1,0 +1,133 @@
+{
+  "person_id": 1851,
+  "name": "Gang Pan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1849",
+      "song_id": 1849,
+      "title": "Waves Beneath My Feet",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 1851,
+      "artist_name": "Gang Pan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3931",
+      "song_id": 3931,
+      "title": "Wrinkles and Wisdom",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 1851,
+      "artist_name": "Gang Pan",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16632",
+      "song_id": 16632,
+      "title": "Surrender to My Heart",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 1851,
+      "artist_name": "Gang Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16632",
+      "song_id": 16632,
+      "title": "Surrender to My Heart",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1519,
+      "artist_name": "Min Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:3438",
+      "song_id": 3438,
+      "title": "Justice Rides Alone",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3439,
+      "artist_name": "Fang Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16632",
+      "target": "song:3931",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16632",
+      "target": "song:1849",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1849",
+      "target": "song:3931",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3438",
+      "target": "song:3931",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

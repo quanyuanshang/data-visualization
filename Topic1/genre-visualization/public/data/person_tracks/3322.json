@@ -1,0 +1,135 @@
+{
+  "person_id": 3322,
+  "name": "Wei Yu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3316",
+      "song_id": 3316,
+      "title": "Degrees of Freedom",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 3322,
+      "artist_name": "Wei Yu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4890",
+      "song_id": 4890,
+      "title": "Naked Spectrum",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 3322,
+      "artist_name": "Wei Yu",
+      "influence": 14,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 3,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3485",
+      "song_id": 3485,
+      "title": "Through Every Storm We Rise",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1785,
+      "artist_name": "Ping Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:9204",
+      "song_id": 9204,
+      "title": "Spin Cycle Serenade",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 564,
+      "artist_name": "Yan Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:15512",
+      "song_id": 15512,
+      "title": "Tropical Daydream in Frost",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 495,
+      "artist_name": "Qiang Wu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9204",
+      "target": "song:4890",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3316",
+      "target": "song:4890",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15512",
+      "target": "song:4890",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3485",
+      "target": "song:4890",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 3155,
+  "name": "Lei Bai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3154",
+      "song_id": 3154,
+      "title": "Delusion's Embrace",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 3155,
+      "artist_name": "Lei Bai",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8862",
+      "song_id": 8862,
+      "title": "Harmonic Deconstruction No. 7",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 2325,
+      "artist_name": "Chao Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8862",
+      "target": "song:3154",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

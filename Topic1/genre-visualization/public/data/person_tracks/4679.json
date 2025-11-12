@@ -1,0 +1,103 @@
+{
+  "person_id": 4679,
+  "name": "Kristin Floyd",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4675",
+      "song_id": 4675,
+      "title": "Wha?",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4679,
+      "artist_name": "Kristin Floyd",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10443",
+      "song_id": 10443,
+      "title": "Breaking Through",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 4679,
+      "artist_name": "Kristin Floyd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1797",
+      "song_id": 1797,
+      "title": "Scandinavian Dreams",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1798,
+      "artist_name": "Ping Xia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:10443",
+      "song_id": 10443,
+      "title": "Breaking Through",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 4676,
+      "artist_name": "Nicholas Garcia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1797",
+      "target": "song:4675",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10443",
+      "target": "song:4675",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

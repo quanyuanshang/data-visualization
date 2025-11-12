@@ -1,0 +1,83 @@
+{
+  "person_id": 5585,
+  "name": "Manon Diaz",
+  "stage_name": " Kira Wolf",
+  "nodes": [
+    {
+      "id": "song:5584",
+      "song_id": 5584,
+      "title": "Unwritten Maps",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 5585,
+      "artist_name": "Manon Diaz ( Kira Wolf)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4900",
+      "song_id": 4900,
+      "title": "Raw Palette",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3504,
+      "artist_name": "Zacharie Martins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:5952",
+      "song_id": 5952,
+      "title": "Rebuild",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 5953,
+      "artist_name": "Emily Johnson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5952",
+      "target": "song:5584",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4900",
+      "target": "song:5584",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

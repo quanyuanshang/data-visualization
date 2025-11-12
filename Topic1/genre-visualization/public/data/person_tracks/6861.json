@@ -1,0 +1,83 @@
+{
+  "person_id": 6861,
+  "name": "Tao Wu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6860",
+      "song_id": 6860,
+      "title": "Twilight's Spectral Embrace",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 6861,
+      "artist_name": "Tao Wu",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1208",
+      "song_id": 1208,
+      "title": "Springtime Sonata",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1210,
+      "artist_name": "Guiying Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:17081",
+      "song_id": 17081,
+      "title": "Devil’s Overtime",
+      "genre": "Blues Rock",
+      "notable": false,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 17077,
+      "artist_name": "Ashen Valor (Lena Nightingale)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17081",
+      "target": "song:6860",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1208",
+      "target": "song:6860",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

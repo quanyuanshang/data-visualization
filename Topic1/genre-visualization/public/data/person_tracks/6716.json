@@ -1,0 +1,56 @@
+{
+  "person_id": 6716,
+  "name": "Yong Cao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6714",
+      "song_id": 6714,
+      "title": "Never Alone",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 6716,
+      "artist_name": "Yong Cao",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9420",
+      "song_id": 9420,
+      "title": "Echoes of the Violin's Solitude",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 6371,
+      "artist_name": "Jun Hao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9420",
+      "target": "song:6714",
+      "type": "InStyleOf"
+    }
+  ]
+}

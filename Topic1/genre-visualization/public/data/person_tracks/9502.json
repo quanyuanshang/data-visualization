@@ -1,0 +1,56 @@
+{
+  "person_id": 9502,
+  "name": "Kristen Porter",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9500",
+      "song_id": 9500,
+      "title": "Courage Unbroken",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 9502,
+      "artist_name": "Kristen Porter",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10035",
+      "song_id": 10035,
+      "title": "Whispers from the Ecclesiastical Shadows",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4465,
+      "artist_name": "Qiang Song",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10035",
+      "target": "song:9500",
+      "type": "InStyleOf"
+    }
+  ]
+}

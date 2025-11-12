@@ -1,0 +1,130 @@
+{
+  "person_id": 9307,
+  "name": "Cristina Williams",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9305",
+      "song_id": 9305,
+      "title": "Tribal Rhythms of the Wind",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 9307,
+      "artist_name": "Cristina Williams",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15984",
+      "song_id": 15984,
+      "title": "Muscle Marathon",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 9307,
+      "artist_name": "Cristina Williams",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9204",
+      "song_id": 9204,
+      "title": "Spin Cycle Serenade",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 564,
+      "artist_name": "Yan Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:15984",
+      "song_id": 15984,
+      "title": "Muscle Marathon",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 3377,
+      "artist_name": "Ming Qiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:11957",
+      "song_id": 11957,
+      "title": "Tender Roots, Unfurling Dreams",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 11960,
+      "artist_name": "Stephanie Hanson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11957",
+      "target": "song:15984",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9204",
+      "target": "song:9305",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15984",
+      "target": "song:9305",
+      "type": "CoverOf"
+    }
+  ]
+}

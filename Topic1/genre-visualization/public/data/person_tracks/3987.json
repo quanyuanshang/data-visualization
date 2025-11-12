@@ -1,0 +1,103 @@
+{
+  "person_id": 3987,
+  "name": "Xiulan Fang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3986",
+      "song_id": 3986,
+      "title": "Altitude of Mistakes",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 3987,
+      "artist_name": "Xiulan Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11568",
+      "song_id": 11568,
+      "title": "Unhinged Emotion",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 3987,
+      "artist_name": "Xiulan Fang",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5394",
+      "song_id": 5394,
+      "title": "Echoes of a Road Not Taken",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1275,
+      "artist_name": "Gang Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:17015",
+      "song_id": 17015,
+      "title": "Sacrificial Dawn",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2038,
+      "single": true,
+      "own": false,
+      "artist_id": 17012,
+      "artist_name": "Sienna Fox",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17015",
+      "target": "song:11568",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5394",
+      "target": "song:11568",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

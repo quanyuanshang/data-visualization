@@ -1,0 +1,56 @@
+{
+  "person_id": 5803,
+  "name": "Kathleen Cunningham",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5802",
+      "song_id": 5802,
+      "title": "Tribal Waters",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1984,
+      "single": true,
+      "own": true,
+      "artist_id": 5803,
+      "artist_name": "Kathleen Cunningham",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2331",
+      "song_id": 2331,
+      "title": "Primavera's Whisper",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2011,
+      "single": true,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2331",
+      "target": "song:5802",
+      "type": "InStyleOf"
+    }
+  ]
+}

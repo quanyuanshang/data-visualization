@@ -1,0 +1,110 @@
+{
+  "person_id": 976,
+  "name": "Wendy Porter",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:974",
+      "song_id": 974,
+      "title": "Choreographed Echoes",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 976,
+      "artist_name": "Wendy Porter",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10919",
+      "song_id": 10919,
+      "title": "Echoes of the Unseen",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 10920,
+      "artist_name": "Guiying Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:15235",
+      "song_id": 15235,
+      "title": "Ljus Vår-Svit (Light Spring Suite)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 2566,
+      "artist_name": "Xiuying Yin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:15310",
+      "song_id": 15310,
+      "title": "Barrio Nights",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 6093,
+      "artist_name": "Na Cao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10919",
+      "target": "song:974",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15310",
+      "target": "song:974",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15235",
+      "target": "song:974",
+      "type": "DirectlySamples"
+    }
+  ]
+}

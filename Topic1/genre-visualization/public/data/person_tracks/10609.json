@@ -1,0 +1,83 @@
+{
+  "person_id": 10609,
+  "name": "Kathleen Carroll",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10608",
+      "song_id": 10608,
+      "title": "Sovereign Heartbeat",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 10609,
+      "artist_name": "Kathleen Carroll",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7278",
+      "song_id": 7278,
+      "title": "Requiem for a Fading Self",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:10116",
+      "song_id": 10116,
+      "title": "Gateway to Infinity",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 10118,
+      "artist_name": "Miss Kathleen Price",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7278",
+      "target": "song:10608",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10116",
+      "target": "song:10608",
+      "type": "InStyleOf"
+    }
+  ]
+}

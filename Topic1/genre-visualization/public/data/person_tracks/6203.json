@@ -1,0 +1,56 @@
+{
+  "person_id": 6203,
+  "name": "Kimberly Cain",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6201",
+      "song_id": 6201,
+      "title": "Whispers of Winter's Embrace",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 6203,
+      "artist_name": "Kimberly Cain",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13260",
+      "song_id": 13260,
+      "title": "Whispers of Harvest Stillness",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1073,
+      "artist_name": "Xiulan Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13260",
+      "target": "song:6201",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

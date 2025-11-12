@@ -1,0 +1,110 @@
+{
+  "person_id": 15965,
+  "name": "Qiang Wang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15964",
+      "song_id": 15964,
+      "title": "Counterpoint of Silence",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 15965,
+      "artist_name": "Qiang Wang",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4774",
+      "song_id": 4774,
+      "title": "Title of Power",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2363,
+      "artist_name": "Daniël Reijers",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:10727",
+      "song_id": 10727,
+      "title": "Innocence Untouched",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 9809,
+      "artist_name": "Guiying Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:14675",
+      "song_id": 14675,
+      "title": "Whispers of the Classical Strings",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14675",
+      "target": "song:15964",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4774",
+      "target": "song:15964",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10727",
+      "target": "song:15964",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

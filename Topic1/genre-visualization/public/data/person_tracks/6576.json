@@ -1,0 +1,56 @@
+{
+  "person_id": 6576,
+  "name": "Arsenio Saraceno-Mercati",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6575",
+      "song_id": 6575,
+      "title": "Riverbanks of Memory",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 6576,
+      "artist_name": "Arsenio Saraceno-Mercati",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5254",
+      "song_id": 5254,
+      "title": "Sunset on Asphalt",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 236,
+      "artist_name": "Kimberly Castillo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5254",
+      "target": "song:6575",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

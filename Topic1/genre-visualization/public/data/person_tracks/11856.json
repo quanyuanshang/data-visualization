@@ -1,0 +1,56 @@
+{
+  "person_id": 11856,
+  "name": "Xiulan Fu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11855",
+      "song_id": 11855,
+      "title": "The Ballad of Fred Titmus",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 11856,
+      "artist_name": "Xiulan Fu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4172",
+      "song_id": 4172,
+      "title": "Echoes of Recognition",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 4173,
+      "artist_name": "Fang Chen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4172",
+      "target": "song:11855",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "person_id": 4426,
+  "name": "Thierry Labbé",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4425",
+      "song_id": 4425,
+      "title": "The Sweetest Citrus",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 4426,
+      "artist_name": "Thierry Labbé",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11830",
+      "song_id": 11830,
+      "title": "Verses from a Silent Room",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 4426,
+      "artist_name": "Thierry Labbé",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17233",
+      "song_id": 17233,
+      "title": "Sunset Harmony",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14567",
+      "song_id": 14567,
+      "title": "Whispers of the Nordic Meadow",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 9558,
+      "artist_name": "Larry Walters",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:15642",
+      "song_id": 15642,
+      "title": "Breathe Through the Storm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 7867,
+      "artist_name": "Frank Bonilla",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17233",
+      "target": "song:4425",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15642",
+      "target": "song:11830",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4425",
+      "target": "song:11830",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14567",
+      "target": "song:11830",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

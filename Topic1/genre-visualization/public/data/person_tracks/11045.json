@@ -1,0 +1,56 @@
+{
+  "person_id": 11045,
+  "name": "Jie Feng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11042",
+      "song_id": 11042,
+      "title": "Amor's Victorious March",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 11045,
+      "artist_name": "Jie Feng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6675",
+      "song_id": 6675,
+      "title": "Vägen hem (The Way Home)",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 6676,
+      "artist_name": "Anthony Salas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6675",
+      "target": "song:11042",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

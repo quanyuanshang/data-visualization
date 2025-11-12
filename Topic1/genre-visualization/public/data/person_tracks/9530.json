@@ -1,0 +1,56 @@
+{
+  "person_id": 9530,
+  "name": "Brianna Logan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9528",
+      "song_id": 9528,
+      "title": "Kaleidoscope Cadence",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 9530,
+      "artist_name": "Brianna Logan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14223",
+      "song_id": 14223,
+      "title": "Anchored Hearts",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 9531,
+      "artist_name": "John Gray",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14223",
+      "target": "song:9528",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

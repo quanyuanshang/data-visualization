@@ -1,0 +1,130 @@
+{
+  "person_id": 13442,
+  "name": "Jun Pan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13438",
+      "song_id": 13438,
+      "title": "Whispers of Forever",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 13442,
+      "artist_name": "Jun Pan",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16289",
+      "song_id": 16289,
+      "title": "Calibrated Pulse",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 13442,
+      "artist_name": "Jun Pan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15415",
+      "song_id": 15415,
+      "title": "Pale Light of Farewell",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 15416,
+      "artist_name": "Ming Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:9488",
+      "song_id": 9488,
+      "title": "Imperial Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 8594,
+      "artist_name": "Yolanda Barroso Pineda",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15415",
+      "target": "song:13438",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3362",
+      "target": "song:13438",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9488",
+      "target": "song:16289",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

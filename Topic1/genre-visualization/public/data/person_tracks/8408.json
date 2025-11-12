@@ -1,0 +1,56 @@
+{
+  "person_id": 8408,
+  "name": "Jocelyn Hall",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8407",
+      "song_id": 8407,
+      "title": "Unraveling Alibis",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 8408,
+      "artist_name": "Jocelyn Hall",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9054",
+      "song_id": 9054,
+      "title": "Moonlit Willow's Gentle Sway",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 9055,
+      "artist_name": "Margot Becker-Striebitz (Zenith)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9054",
+      "target": "song:8407",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

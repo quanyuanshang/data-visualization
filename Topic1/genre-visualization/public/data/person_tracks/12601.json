@@ -1,0 +1,56 @@
+{
+  "person_id": 12601,
+  "name": "Andrew Barnes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12599",
+      "song_id": 12599,
+      "title": "Whispers of the Siberian Pines",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2011,
+      "single": true,
+      "own": true,
+      "artist_id": 12601,
+      "artist_name": "Andrew Barnes",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14609",
+      "song_id": 14609,
+      "title": "Protocol 212",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2016,
+      "single": true,
+      "own": false,
+      "artist_id": 10251,
+      "artist_name": "Fang Mao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14609",
+      "target": "song:12599",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

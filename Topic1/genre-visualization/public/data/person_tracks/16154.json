@@ -1,0 +1,56 @@
+{
+  "person_id": 16154,
+  "name": "Cesar Nguyen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16153",
+      "song_id": 16153,
+      "title": "Celestial Chorus",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 16154,
+      "artist_name": "Cesar Nguyen",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12703",
+      "song_id": 12703,
+      "title": "Borderlands: A Karelian Saga",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 12704,
+      "artist_name": "Audrey Huff",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12703",
+      "target": "song:16153",
+      "type": "InStyleOf"
+    }
+  ]
+}

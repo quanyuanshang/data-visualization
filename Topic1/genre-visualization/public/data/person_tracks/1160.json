@@ -1,0 +1,81 @@
+{
+  "person_id": 1160,
+  "name": "Jie Wen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1156",
+      "song_id": 1156,
+      "title": "Loving Myself First",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 1160,
+      "artist_name": "Jie Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12650",
+      "song_id": 12650,
+      "title": "Untamed Verdict",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 1160,
+      "artist_name": "Jie Wen",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3362",
+      "target": "song:12650",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:1156",
+      "target": "song:12650",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

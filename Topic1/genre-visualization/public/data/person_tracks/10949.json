@@ -1,0 +1,56 @@
+{
+  "person_id": 10949,
+  "name": "Daniel Bluszcz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10948",
+      "song_id": 10948,
+      "title": "Whispers of Your Phantom",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 10949,
+      "artist_name": "Daniel Bluszcz",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7448",
+      "song_id": 7448,
+      "title": "Whispers of Moonlit Reverie",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7449,
+      "artist_name": "Konrad Koźlak",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7448",
+      "target": "song:10948",
+      "type": "DirectlySamples"
+    }
+  ]
+}

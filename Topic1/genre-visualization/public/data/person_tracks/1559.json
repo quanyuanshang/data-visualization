@@ -1,0 +1,56 @@
+{
+  "person_id": 1559,
+  "name": "Stilla Seifert",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1557",
+      "song_id": 1557,
+      "title": "Echoes of Ancient Modes",
+      "genre": "Doom Metal",
+      "notable": false,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 1559,
+      "artist_name": "Stilla Seifert",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6729",
+      "song_id": 6729,
+      "title": "Nasreddin's Riddle",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 6730,
+      "artist_name": "Michael Mann ( Theo Knight)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6729",
+      "target": "song:1557",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

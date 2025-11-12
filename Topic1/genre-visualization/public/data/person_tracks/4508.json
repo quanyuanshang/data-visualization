@@ -1,0 +1,114 @@
+{
+  "person_id": 4508,
+  "name": "Edward Siering",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8894",
+      "song_id": 8894,
+      "title": "Picnic Vessel Memories",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 4508,
+      "artist_name": "Edward Siering",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13214",
+      "song_id": 13214,
+      "title": "Catalog of My Existence",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 4508,
+      "artist_name": "Edward Siering",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4920",
+      "song_id": 4920,
+      "title": "Comedic Conflict",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 4923,
+      "artist_name": "Jennifer Allen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples",
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:1024",
+      "song_id": 1024,
+      "title": "Whispers from the Gold Rush",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 145,
+      "artist_name": "Adrien Charles",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8894",
+      "target": "song:13214",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4920",
+      "target": "song:8894",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4920",
+      "target": "song:13214",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:1024",
+      "target": "song:13214",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

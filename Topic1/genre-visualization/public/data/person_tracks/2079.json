@@ -1,0 +1,56 @@
+{
+  "person_id": 2079,
+  "name": "Jason Mendoza",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2078",
+      "song_id": 2078,
+      "title": "Dawning Breaths",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 2079,
+      "artist_name": "Jason Mendoza",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13799",
+      "song_id": 13799,
+      "title": "Bread and Misery",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 6948,
+      "artist_name": "Lori Hall",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13799",
+      "target": "song:2078",
+      "type": "CoverOf"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 1536,
+  "name": "Ronnie Rodriguez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1533",
+      "song_id": 1533,
+      "title": "Rastgele (Randomly)",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1999,
+      "single": true,
+      "own": true,
+      "artist_id": 1536,
+      "artist_name": "Ronnie Rodriguez",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3748",
+      "song_id": 3748,
+      "title": "Threadbare Thursdays",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3749,
+      "artist_name": "Paul Contreras",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:7034",
+      "song_id": 7034,
+      "title": "Identidad Privada",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 7035,
+      "artist_name": "Matthew Carter ( The Saint)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7034",
+      "target": "song:1533",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3748",
+      "target": "song:1533",
+      "type": "InStyleOf"
+    }
+  ]
+}

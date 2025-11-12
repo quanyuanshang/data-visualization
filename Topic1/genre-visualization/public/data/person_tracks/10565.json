@@ -1,0 +1,56 @@
+{
+  "person_id": 10565,
+  "name": "Susan Garcia",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10562",
+      "song_id": 10562,
+      "title": "Unheard Lamentations",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 10565,
+      "artist_name": "Susan Garcia",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10818",
+      "song_id": 10818,
+      "title": "Echoes of the Drumline",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 10564,
+      "artist_name": "Daniel Aubert-Brunet",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10818",
+      "target": "song:10562",
+      "type": "DirectlySamples"
+    }
+  ]
+}

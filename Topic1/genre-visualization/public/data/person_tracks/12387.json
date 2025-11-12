@@ -1,0 +1,56 @@
+{
+  "person_id": 12387,
+  "name": "Fang He",
+  "stage_name": "Requiem",
+  "nodes": [
+    {
+      "id": "song:12386",
+      "song_id": 12386,
+      "title": "Wilderness Echoes: Sámi Violin Chronicles",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 12387,
+      "artist_name": "Fang He (Requiem)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11957",
+      "song_id": 11957,
+      "title": "Tender Roots, Unfurling Dreams",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 11960,
+      "artist_name": "Stephanie Hanson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11957",
+      "target": "song:12386",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

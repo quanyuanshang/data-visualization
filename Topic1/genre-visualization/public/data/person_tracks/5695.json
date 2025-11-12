@@ -1,0 +1,83 @@
+{
+  "person_id": 5695,
+  "name": "Ann Schmidt",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5694",
+      "song_id": 5694,
+      "title": "Stolen Horizons",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 5695,
+      "artist_name": "Ann Schmidt",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7543",
+      "song_id": 7543,
+      "title": "Carpathian Blood Requiem",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 7544,
+      "artist_name": "Jason Mayer (GHOSTHUNNIT)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12213",
+      "song_id": 12213,
+      "title": "Unbound Waters",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 12214,
+      "artist_name": "Heather Kennedy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7543",
+      "target": "song:5694",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12213",
+      "target": "song:5694",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

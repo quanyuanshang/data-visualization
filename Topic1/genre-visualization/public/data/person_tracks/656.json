@@ -1,0 +1,130 @@
+{
+  "person_id": 656,
+  "name": "Yang Cui",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9378",
+      "song_id": 9378,
+      "title": "The Space Between Landmarks",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 656,
+      "artist_name": "Yang Cui",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12759",
+      "song_id": 12759,
+      "title": "Feathered Journeys to Izmir",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 656,
+      "artist_name": "Yang Cui",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1797",
+      "song_id": 1797,
+      "title": "Scandinavian Dreams",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1798,
+      "artist_name": "Ping Xia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:4038",
+      "song_id": 4038,
+      "title": "Bananal's Gentle Whispers",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 1952,
+      "artist_name": "Yang Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:4639",
+      "song_id": 4639,
+      "title": "Intricate Landscapes of Microscopic Kingdoms",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4640,
+      "artist_name": "Ashley Huang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1797",
+      "target": "song:9378",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4038",
+      "target": "song:12759",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:4639",
+      "target": "song:12759",
+      "type": "InStyleOf"
+    }
+  ]
+}

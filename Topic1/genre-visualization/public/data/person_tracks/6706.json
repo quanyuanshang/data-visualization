@@ -1,0 +1,56 @@
+{
+  "person_id": 6706,
+  "name": "Cipriano Navone",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6702",
+      "song_id": 6702,
+      "title": "Holding Hands",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 6706,
+      "artist_name": "Cipriano Navone",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5146",
+      "song_id": 5146,
+      "title": "Waste Management Waltz",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 5147,
+      "artist_name": "Yong Xia (Neon Solstice)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5146",
+      "target": "song:6702",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

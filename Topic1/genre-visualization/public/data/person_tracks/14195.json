@@ -1,0 +1,56 @@
+{
+  "person_id": 14195,
+  "name": "Min Guo",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14191",
+      "song_id": 14191,
+      "title": "Viento y Marea",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 14195,
+      "artist_name": "Min Guo",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8081",
+      "song_id": 8081,
+      "title": "The Droplet's Lament",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 8082,
+      "artist_name": "Cindy Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8081",
+      "target": "song:14191",
+      "type": "CoverOf"
+    }
+  ]
+}

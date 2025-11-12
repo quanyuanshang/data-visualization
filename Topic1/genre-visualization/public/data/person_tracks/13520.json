@@ -1,0 +1,56 @@
+{
+  "person_id": 13520,
+  "name": "Kimaya Aggarwal",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13519",
+      "song_id": 13519,
+      "title": "Commitment's Embrace",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1987,
+      "single": true,
+      "own": true,
+      "artist_id": 13520,
+      "artist_name": "Kimaya Aggarwal",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16720",
+      "song_id": 16720,
+      "title": "Silent Movements Unresolved",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 16721,
+      "artist_name": "Andrea Hamilton",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16720",
+      "target": "song:13519",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 6980,
+  "name": "Guiying Shao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6979",
+      "song_id": 6979,
+      "title": "Wilting Love's Garden",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 6980,
+      "artist_name": "Guiying Shao",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3228",
+      "song_id": 3228,
+      "title": "Adriatic Hearts",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 3229,
+      "artist_name": "Yong Liang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:10008",
+      "song_id": 10008,
+      "title": "The Vengeful Slumber",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 4633,
+      "artist_name": "Juan Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3228",
+      "target": "song:6979",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10008",
+      "target": "song:6979",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 8309,
+  "name": "Cynthia Robbins",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8307",
+      "song_id": 8307,
+      "title": "Mother's Celestial Embrace",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 8309,
+      "artist_name": "Cynthia Robbins",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:321",
+      "song_id": 321,
+      "title": "Soil of My Soul",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 322,
+      "artist_name": "Kelly Long",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:321",
+      "target": "song:8307",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

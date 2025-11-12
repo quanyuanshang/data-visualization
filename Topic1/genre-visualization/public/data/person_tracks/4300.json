@@ -1,0 +1,103 @@
+{
+  "person_id": 4300,
+  "name": "Pamela Johnson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4299",
+      "song_id": 4299,
+      "title": "Último intento (Last attempt)",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 4300,
+      "artist_name": "Pamela Johnson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5660",
+      "song_id": 5660,
+      "title": "Vacant Brain Waves",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 4300,
+      "artist_name": "Pamela Johnson",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9808",
+      "song_id": 9808,
+      "title": "Lawn Mower Lament",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:11249",
+      "song_id": 11249,
+      "title": "Silence Between Departures",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1873,
+      "artist_name": "Li Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11249",
+      "target": "song:5660",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9808",
+      "target": "song:5660",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "person_id": 1131,
+  "name": "Reinhild Krein",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1130",
+      "song_id": 1130,
+      "title": "Whispers from a Child's Step",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 1131,
+      "artist_name": "Reinhild Krein",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11813",
+      "song_id": 11813,
+      "title": "Voltage Celebration",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": false,
+      "own": true,
+      "artist_id": 1131,
+      "artist_name": "Reinhild Krein",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9844",
+      "song_id": 9844,
+      "title": "Cavalry of the Revolution",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 9845,
+      "artist_name": "Ming Dai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:11359",
+      "song_id": 11359,
+      "title": "Cutting Through Romance",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 11361,
+      "artist_name": "Ryan King",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11359",
+      "target": "song:11813",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1130",
+      "target": "song:11813",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9844",
+      "target": "song:11813",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "person_id": 7775,
+  "name": "Veronica Bell",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7773",
+      "song_id": 7773,
+      "title": "Sunset Whispers",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 7775,
+      "artist_name": "Veronica Bell",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8766",
+      "song_id": 8766,
+      "title": "Echoes of a Name",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 5422,
+      "artist_name": "Yan Qiu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:10142",
+      "song_id": 10142,
+      "title": "Harmony of Heartache",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 7774,
+      "artist_name": "Claudia Lee",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:15817",
+      "song_id": 15817,
+      "title": "Ridges of Romance",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 6424,
+      "artist_name": "Cheryl Carter",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15817",
+      "target": "song:7773",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10142",
+      "target": "song:7773",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8766",
+      "target": "song:7773",
+      "type": "InStyleOf"
+    }
+  ]
+}

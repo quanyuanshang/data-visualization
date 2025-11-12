@@ -1,0 +1,135 @@
+{
+  "person_id": 5048,
+  "name": "Dennis Bush",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8785",
+      "song_id": 8785,
+      "title": "Waiting in the Wings",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 5048,
+      "artist_name": "Dennis Bush",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13062",
+      "song_id": 13062,
+      "title": "Rhythmic Undertow",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 5048,
+      "artist_name": "Dennis Bush",
+      "influence": 16,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 2,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1869",
+      "song_id": 1869,
+      "title": "Echoes from the Dark Chord",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 1871,
+      "artist_name": "Jie Cai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:3697",
+      "song_id": 3697,
+      "title": "Whispers at Sunset",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 3698,
+      "artist_name": "Ming Zhao ( FVDE)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:10941",
+      "song_id": 10941,
+      "title": "Familiar Strangers",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 10942,
+      "artist_name": "Gang Cai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8785",
+      "target": "song:13062",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:1869",
+      "target": "song:13062",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10941",
+      "target": "song:13062",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3697",
+      "target": "song:13062",
+      "type": "DirectlySamples"
+    }
+  ]
+}

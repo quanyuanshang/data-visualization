@@ -1,0 +1,83 @@
+{
+  "person_id": 9521,
+  "name": "Qiang Tan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9516",
+      "song_id": 9516,
+      "title": "Neural Network Blues",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 9521,
+      "artist_name": "Qiang Tan",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8667",
+      "song_id": 8667,
+      "title": "Humble Heart's Echo",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 3496,
+      "artist_name": "Xiulan Deng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:12434",
+      "song_id": 12434,
+      "title": "Harmony's Horizon",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 12437,
+      "artist_name": "Liesbeth Köhler",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8667",
+      "target": "song:9516",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12434",
+      "target": "song:9516",
+      "type": "CoverOf"
+    }
+  ]
+}

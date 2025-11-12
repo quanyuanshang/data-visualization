@@ -1,0 +1,83 @@
+{
+  "person_id": 9291,
+  "name": "Jun Duan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9290",
+      "song_id": 9290,
+      "title": "Granite Whispers",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 9291,
+      "artist_name": "Jun Duan",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7414",
+      "song_id": 7414,
+      "title": "Whispers Nobody Heard",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4710,
+      "artist_name": "Qiang Tian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:17134",
+      "song_id": 17134,
+      "title": "The Dance of the Forgotten",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": 17126,
+      "artist_name": "Cassian Storm (Seraphina Vale)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17134",
+      "target": "song:9290",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7414",
+      "target": "song:9290",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

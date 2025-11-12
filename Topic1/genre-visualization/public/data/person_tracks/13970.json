@@ -1,0 +1,56 @@
+{
+  "person_id": 13970,
+  "name": "Jerzy Ksel",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13969",
+      "song_id": 13969,
+      "title": "Copper and Silver Whispers",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 13970,
+      "artist_name": "Jerzy Ksel",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4085",
+      "song_id": 4085,
+      "title": "Balcony Heartbreak",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 4087,
+      "artist_name": "Theresa Johnson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4085",
+      "target": "song:13969",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

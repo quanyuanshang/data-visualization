@@ -1,0 +1,56 @@
+{
+  "person_id": 4999,
+  "name": "Megan Mcclure",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4996",
+      "song_id": 4996,
+      "title": "Seven Tones of Twilight",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2001,
+      "single": true,
+      "own": true,
+      "artist_id": 4999,
+      "artist_name": "Megan Mcclure",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4965",
+      "song_id": 4965,
+      "title": "Moonlit Melancholy",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4966,
+      "artist_name": "Larry Bailey",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4965",
+      "target": "song:4996",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

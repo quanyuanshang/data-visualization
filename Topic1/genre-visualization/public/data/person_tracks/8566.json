@@ -1,0 +1,83 @@
+{
+  "person_id": 8566,
+  "name": "Daan VI-Cadefau",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8561",
+      "song_id": 8561,
+      "title": "Stranger in My Own Ambition",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 8566,
+      "artist_name": "Daan VI-Cadefau",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4900",
+      "song_id": 4900,
+      "title": "Raw Palette",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3504,
+      "artist_name": "Zacharie Martins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:10439",
+      "song_id": 10439,
+      "title": "Silent Interference",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 8565,
+      "artist_name": "Salomón Miró Olivé",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10439",
+      "target": "song:8561",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4900",
+      "target": "song:8561",
+      "type": "InStyleOf"
+    }
+  ]
+}

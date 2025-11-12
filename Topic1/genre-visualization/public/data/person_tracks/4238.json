@@ -1,0 +1,56 @@
+{
+  "person_id": 4238,
+  "name": "Jing Tang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4233",
+      "song_id": 4233,
+      "title": "Currents of Memory",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 4238,
+      "artist_name": "Jing Tang",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13240",
+      "song_id": 13240,
+      "title": "Ignorance Is an Open Door",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 4236,
+      "artist_name": "Jun Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13240",
+      "target": "song:4233",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 8108,
+  "name": "Xiulan Dong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8107",
+      "song_id": 8107,
+      "title": "Reckless Hearts",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 8108,
+      "artist_name": "Xiulan Dong",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6661",
+      "song_id": 6661,
+      "title": "Magnolia Nights, Southern Lights",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 1976,
+      "artist_name": "Jun Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6661",
+      "target": "song:8107",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 6445,
+  "name": "Drishya Setty",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6443",
+      "song_id": 6443,
+      "title": "Radiant Hope",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 6445,
+      "artist_name": "Drishya Setty",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5178",
+      "song_id": 5178,
+      "title": "Rhythm of Seven Steps",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 5179,
+      "artist_name": "Haley Silva",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5178",
+      "target": "song:6443",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 14033,
+  "name": "Fernanda Carocci",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14030",
+      "song_id": 14030,
+      "title": "Echoes Between Water and Height",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 14033,
+      "artist_name": "Fernanda Carocci",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17344",
+      "song_id": 17344,
+      "title": "Riding the Moon's Reflection",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 17340,
+      "artist_name": "Orla Seabloom",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17344",
+      "target": "song:14030",
+      "type": "DirectlySamples"
+    }
+  ]
+}

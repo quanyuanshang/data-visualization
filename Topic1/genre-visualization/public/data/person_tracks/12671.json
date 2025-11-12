@@ -1,0 +1,56 @@
+{
+  "person_id": 12671,
+  "name": "Jing Tian",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12668",
+      "song_id": 12668,
+      "title": "When Cosmos Collapses",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 12671,
+      "artist_name": "Jing Tian",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16462",
+      "song_id": 16462,
+      "title": "Halo of Grace",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 16463,
+      "artist_name": "Chao Wan (The Lost Vanguard)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16462",
+      "target": "song:12668",
+      "type": "CoverOf"
+    }
+  ]
+}

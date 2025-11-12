@@ -1,0 +1,56 @@
+{
+  "person_id": 10401,
+  "name": "Lei Yao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10398",
+      "song_id": 10398,
+      "title": "Shadows of Mistaken Identity",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 10401,
+      "artist_name": "Lei Yao",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1902",
+      "song_id": 1902,
+      "title": "Özgürlük Şarkısı (Song of Freedom)",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 1903,
+      "artist_name": "Brandon Horton",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1902",
+      "target": "song:10398",
+      "type": "InStyleOf"
+    }
+  ]
+}

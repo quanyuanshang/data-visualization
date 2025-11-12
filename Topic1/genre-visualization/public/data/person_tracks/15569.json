@@ -1,0 +1,56 @@
+{
+  "person_id": 15569,
+  "name": "Wei Cheng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15565",
+      "song_id": 15565,
+      "title": "Spiral Staircase to Mercury",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 15569,
+      "artist_name": "Wei Cheng",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6024",
+      "song_id": 6024,
+      "title": "Unsilenced Whispers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 6025,
+      "artist_name": "Xia Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6024",
+      "target": "song:15565",
+      "type": "CoverOf"
+    }
+  ]
+}

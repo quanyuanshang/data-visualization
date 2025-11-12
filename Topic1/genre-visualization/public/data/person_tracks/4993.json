@@ -1,0 +1,130 @@
+{
+  "person_id": 4993,
+  "name": "Hans-Eberhard Schleich",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4992",
+      "song_id": 4992,
+      "title": "Carnival's Pulse",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 4993,
+      "artist_name": "Hans-Eberhard Schleich",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6113",
+      "song_id": 6113,
+      "title": "The Mystery Remains",
+      "genre": "Alternative Rock",
+      "notable": false,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4993,
+      "artist_name": "Hans-Eberhard Schleich",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13727",
+      "song_id": 13727,
+      "title": "Indiana Heartache",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 10917,
+      "artist_name": "Bryan Garcia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:15135",
+      "song_id": 15135,
+      "title": "Martyrdom's Embrace",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 4940,
+      "artist_name": "Alicia Heinz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:9549",
+      "song_id": 9549,
+      "title": "Right Path Ahead",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7993,
+      "artist_name": "Qiang Cheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9549",
+      "target": "song:6113",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13727",
+      "target": "song:4992",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15135",
+      "target": "song:4992",
+      "type": "CoverOf"
+    }
+  ]
+}

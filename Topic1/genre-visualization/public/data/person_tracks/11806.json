@@ -1,0 +1,56 @@
+{
+  "person_id": 11806,
+  "name": "Maite Cuevas Caballero",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11805",
+      "song_id": 11805,
+      "title": "The Go-Between",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 1990,
+      "single": true,
+      "own": true,
+      "artist_id": 11806,
+      "artist_name": "Maite Cuevas Caballero",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6022",
+      "song_id": 6022,
+      "title": "Melody of My Soul",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2016,
+      "single": true,
+      "own": false,
+      "artist_id": 1418,
+      "artist_name": "Baudelio Anglada-Valenzuela",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6022",
+      "target": "song:11805",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 12738,
+  "name": "Wei Wan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12732",
+      "song_id": 12732,
+      "title": "Premier Souffle du Matin",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 12738,
+      "artist_name": "Wei Wan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6780",
+      "song_id": 6780,
+      "title": "Rolling Destiny",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 6782,
+      "artist_name": "Xiulan Tao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6780",
+      "target": "song:12732",
+      "type": "InStyleOf"
+    }
+  ]
+}

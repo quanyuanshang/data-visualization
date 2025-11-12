@@ -1,0 +1,56 @@
+{
+  "person_id": 7735,
+  "name": "Joseph Jackson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7733",
+      "song_id": 7733,
+      "title": "The Price of Belonging",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 7735,
+      "artist_name": "Joseph Jackson",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6205",
+      "song_id": 6205,
+      "title": "Candlelight Memories",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 6207,
+      "artist_name": "Chao Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6205",
+      "target": "song:7733",
+      "type": "InStyleOf"
+    }
+  ]
+}

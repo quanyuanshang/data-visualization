@@ -1,0 +1,103 @@
+{
+  "person_id": 6485,
+  "name": "Juan Jin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12395",
+      "song_id": 12395,
+      "title": "Wandering Horizons",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 6485,
+      "artist_name": "Juan Jin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6482",
+      "song_id": 6482,
+      "title": "Daydream's Descent",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 6485,
+      "artist_name": "Juan Jin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6482",
+      "song_id": 6482,
+      "title": "Daydream's Descent",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 6483,
+      "artist_name": "Yan Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:12190",
+      "song_id": 12190,
+      "title": "Sonic Whispers",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 12191,
+      "artist_name": "Michael Baker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12190",
+      "target": "song:12395",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6482",
+      "target": "song:12395",
+      "type": "InStyleOf"
+    }
+  ]
+}

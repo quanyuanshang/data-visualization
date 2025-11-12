@@ -1,0 +1,83 @@
+{
+  "person_id": 13200,
+  "name": "Maaya Tanaka",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13197",
+      "song_id": 13197,
+      "title": "Crystalline Pirouette",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 13200,
+      "artist_name": "Maaya Tanaka",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2679",
+      "song_id": 2679,
+      "title": "Wingless Dreams",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2681,
+      "artist_name": "Kazuya Aoki",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:14378",
+      "song_id": 14378,
+      "title": "Cash and Promises",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2680,
+      "artist_name": "Satomi Kobayashi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2679",
+      "target": "song:13197",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14378",
+      "target": "song:13197",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

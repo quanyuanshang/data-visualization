@@ -1,0 +1,110 @@
+{
+  "person_id": 2812,
+  "name": "Bart Wensen-Kof",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2807",
+      "song_id": 2807,
+      "title": "Roadmap to Nowhere",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1984,
+      "single": true,
+      "own": true,
+      "artist_id": 2812,
+      "artist_name": "Bart Wensen-Kof",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2350",
+      "song_id": 2350,
+      "title": "The Silence Between Sentences",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2351,
+      "artist_name": "Li Cheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:4992",
+      "song_id": 4992,
+      "title": "Carnival's Pulse",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 4995,
+      "artist_name": "Carmine Harloff",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:7036",
+      "song_id": 7036,
+      "title": "Voz Sin Eco",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1987,
+      "single": false,
+      "own": false,
+      "artist_id": 7037,
+      "artist_name": "Geneviève Duhamel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2350",
+      "target": "song:2807",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7036",
+      "target": "song:2807",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4992",
+      "target": "song:2807",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

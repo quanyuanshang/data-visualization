@@ -1,0 +1,87 @@
+{
+  "person_id": 8510,
+  "name": "Cilly Säuberlich",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8509",
+      "song_id": 8509,
+      "title": "Venom and Rhythm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 8510,
+      "artist_name": "Cilly Säuberlich",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12162",
+      "song_id": 12162,
+      "title": "Whispers from the Highlands",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 8510,
+      "artist_name": "Cilly Säuberlich",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:705",
+      "song_id": 705,
+      "title": "Midnight Visions",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 706,
+      "artist_name": "Karl-Josef Reinhardt",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8509",
+      "target": "song:12162",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:705",
+      "target": "song:8509",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:705",
+      "target": "song:12162",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

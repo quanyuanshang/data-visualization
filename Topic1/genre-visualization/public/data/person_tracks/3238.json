@@ -1,0 +1,56 @@
+{
+  "person_id": 3238,
+  "name": "Melissa Avila",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3237",
+      "song_id": 3237,
+      "title": "Warriors of the Checkered Shield",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 3238,
+      "artist_name": "Melissa Avila",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10185",
+      "song_id": 10185,
+      "title": "Le Chemin des Mélodies",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 10186,
+      "artist_name": "Amanda Peterson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10185",
+      "target": "song:3237",
+      "type": "InStyleOf"
+    }
+  ]
+}

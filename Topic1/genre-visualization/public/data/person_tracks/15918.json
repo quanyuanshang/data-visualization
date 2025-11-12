@@ -1,0 +1,56 @@
+{
+  "person_id": 15918,
+  "name": "Chao Zhang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15913",
+      "song_id": 15913,
+      "title": "Secrets of the Sixth Form",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 15918,
+      "artist_name": "Chao Zhang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13202",
+      "song_id": 13202,
+      "title": "Blizzard's Ballroom",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1270,
+      "artist_name": "Fang Liang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13202",
+      "target": "song:15913",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

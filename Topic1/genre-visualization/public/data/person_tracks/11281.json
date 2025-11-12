@@ -1,0 +1,110 @@
+{
+  "person_id": 11281,
+  "name": "Kevin Davidson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11280",
+      "song_id": 11280,
+      "title": "Euphoria's Overflow",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 11281,
+      "artist_name": "Kevin Davidson",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7006",
+      "song_id": 7006,
+      "title": "Vernal Procession Pulse",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 7007,
+      "artist_name": "David Gibson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:10767",
+      "song_id": 10767,
+      "title": "Fragments of an Unwritten Letter",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 10768,
+      "artist_name": "Dean Stevens",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14732",
+      "song_id": 14732,
+      "title": "Vermilion Scroll of Mescalero Memory",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 14733,
+      "artist_name": "Nicole Lamb",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7006",
+      "target": "song:11280",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:14732",
+      "target": "song:11280",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10767",
+      "target": "song:11280",
+      "type": "InStyleOf"
+    }
+  ]
+}

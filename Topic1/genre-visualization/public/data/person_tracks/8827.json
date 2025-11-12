@@ -1,0 +1,110 @@
+{
+  "person_id": 8827,
+  "name": "Fang Qiu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8823",
+      "song_id": 8823,
+      "title": "Thirty Dawns, Thirty Shadows",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 8827,
+      "artist_name": "Fang Qiu",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5053",
+      "song_id": 5053,
+      "title": "Sunlit Serenade",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 5054,
+      "artist_name": "Ping Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:7133",
+      "song_id": 7133,
+      "title": "Flicker's Last Breath",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:15779",
+      "song_id": 15779,
+      "title": "Whisper Your Truth",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 15780,
+      "artist_name": "Ming Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5053",
+      "target": "song:8823",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15779",
+      "target": "song:8823",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7133",
+      "target": "song:8823",
+      "type": "DirectlySamples"
+    }
+  ]
+}

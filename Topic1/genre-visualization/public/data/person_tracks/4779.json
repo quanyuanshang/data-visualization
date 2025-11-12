@@ -1,0 +1,103 @@
+{
+  "person_id": 4779,
+  "name": "Patricia-Julie Lopes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12369",
+      "song_id": 12369,
+      "title": "Fallout Shelter Lullaby",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 4779,
+      "artist_name": "Patricia-Julie Lopes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4777",
+      "song_id": 4777,
+      "title": "Autumno's Golden Whispers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": true,
+      "artist_id": 4779,
+      "artist_name": "Patricia-Julie Lopes",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2863",
+      "song_id": 2863,
+      "title": "Whirling Whispers",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 317,
+      "artist_name": "Gang Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:7838",
+      "song_id": 7838,
+      "title": "Frames of Remembrance",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 317,
+      "artist_name": "Gang Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7838",
+      "target": "song:4777",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2863",
+      "target": "song:4777",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

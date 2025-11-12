@@ -1,0 +1,83 @@
+{
+  "person_id": 15471,
+  "name": "Wei Peng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15469",
+      "song_id": 15469,
+      "title": "Chromatic Memory",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 15471,
+      "artist_name": "Wei Peng",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6844",
+      "song_id": 6844,
+      "title": "Rhythm of the Alleyways",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 6845,
+      "artist_name": "Guiying Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:11130",
+      "song_id": 11130,
+      "title": "Denali's Whisper",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 11131,
+      "artist_name": "Li Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6844",
+      "target": "song:15469",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11130",
+      "target": "song:15469",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

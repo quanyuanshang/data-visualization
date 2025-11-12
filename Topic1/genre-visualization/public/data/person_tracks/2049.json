@@ -1,0 +1,56 @@
+{
+  "person_id": 2049,
+  "name": "Mitchell Flowers",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2048",
+      "song_id": 2048,
+      "title": "Rare Kind of Grace",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 1995,
+      "single": true,
+      "own": true,
+      "artist_id": 2049,
+      "artist_name": "Mitchell Flowers",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5238",
+      "song_id": 5238,
+      "title": "Shadows of Forgotten Myths",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": true,
+      "own": false,
+      "artist_id": 5240,
+      "artist_name": "Gokul Konda",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5238",
+      "target": "song:2048",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

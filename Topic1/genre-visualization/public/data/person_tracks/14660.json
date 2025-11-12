@@ -1,0 +1,110 @@
+{
+  "person_id": 14660,
+  "name": "Yong Ding",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14659",
+      "song_id": 14659,
+      "title": "Chasing Shadows of Us",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 14660,
+      "artist_name": "Yong Ding",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12973",
+      "song_id": 12973,
+      "title": "Shadows Where You Used to Be",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 12974,
+      "artist_name": "Jonathan Thompson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14497",
+      "song_id": 14497,
+      "title": "Decoding Silence",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 8880,
+      "artist_name": "Tao Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15722",
+      "song_id": 15722,
+      "title": "Unexpected Landing",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2011,
+      "single": false,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15722",
+      "target": "song:14659",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14497",
+      "target": "song:14659",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12973",
+      "target": "song:14659",
+      "type": "InStyleOf"
+    }
+  ]
+}

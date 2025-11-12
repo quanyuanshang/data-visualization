@@ -1,0 +1,56 @@
+{
+  "person_id": 13590,
+  "name": "Wei Zhao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13589",
+      "song_id": 13589,
+      "title": "Silent Steps in the Forest's Embrace",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 13590,
+      "artist_name": "Wei Zhao",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17287",
+      "song_id": 17287,
+      "title": "Moon Over the Tide",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17287",
+      "target": "song:13589",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 9881,
+  "name": "Fang Yi",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9877",
+      "song_id": 9877,
+      "title": "Zamansız Tercihler (Timeless Choices)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 9881,
+      "artist_name": "Fang Yi",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7769",
+      "song_id": 7769,
+      "title": "Horizon's Embrace",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 7770,
+      "artist_name": "Yan Wu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7769",
+      "target": "song:9877",
+      "type": "CoverOf"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "person_id": 10455,
+  "name": "Nathaniel Craig",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10453",
+      "song_id": 10453,
+      "title": "Whispers of Devotion",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 10455,
+      "artist_name": "Nathaniel Craig",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12042",
+      "song_id": 12042,
+      "title": "Gentle Heart's Embrace",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2014,
+      "single": true,
+      "own": true,
+      "artist_id": 10455,
+      "artist_name": "Nathaniel Craig",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2972",
+      "song_id": 2972,
+      "title": "Shadows of an Unfinished Love",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2032,
+      "single": true,
+      "own": false,
+      "artist_id": 2973,
+      "artist_name": "Jun Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2972",
+      "target": "song:12042",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10453",
+      "target": "song:12042",
+      "type": "InStyleOf"
+    }
+  ]
+}

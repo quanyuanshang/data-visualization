@@ -1,0 +1,83 @@
+{
+  "person_id": 6819,
+  "name": "Na Qian",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6818",
+      "song_id": 6818,
+      "title": "Paradise Parallel",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 6819,
+      "artist_name": "Na Qian",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13538",
+      "song_id": 13538,
+      "title": "Summer of '76",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 3089,
+      "artist_name": "Ping Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16192",
+      "song_id": 16192,
+      "title": "The Question That Lingers",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 16193,
+      "artist_name": "Wei Yao (XANOVA)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16192",
+      "target": "song:6818",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13538",
+      "target": "song:6818",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

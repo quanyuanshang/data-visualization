@@ -1,0 +1,110 @@
+{
+  "person_id": 16050,
+  "name": "Min Xia",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16048",
+      "song_id": 16048,
+      "title": "Tender Expectations",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 16050,
+      "artist_name": "Min Xia",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 3,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:349",
+      "song_id": 349,
+      "title": "Rhythms of a Lingering Love",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 350,
+      "artist_name": "Michael Williamson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:2454",
+      "song_id": 2454,
+      "title": "Frozen Flame's Last Flicker",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 2456,
+      "artist_name": "Na Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:11608",
+      "song_id": 11608,
+      "title": "Childhood's Horizon",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 4979,
+      "artist_name": "Xiuying Ye",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2454",
+      "target": "song:16048",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11608",
+      "target": "song:16048",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:349",
+      "target": "song:16048",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

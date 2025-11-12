@@ -1,0 +1,56 @@
+{
+  "person_id": 4928,
+  "name": "Gloria Lewis",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4926",
+      "song_id": 4926,
+      "title": "Street Corner Serenade",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 4928,
+      "artist_name": "Gloria Lewis",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5469",
+      "song_id": 5469,
+      "title": "Windowpane Secrets",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4930,
+      "artist_name": "Bianca Weber",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5469",
+      "target": "song:4926",
+      "type": "InStyleOf"
+    }
+  ]
+}

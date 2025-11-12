@@ -1,0 +1,56 @@
+{
+  "person_id": 7643,
+  "name": "Matthew Gibson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7640",
+      "song_id": 7640,
+      "title": "Climbing Uphill",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 7643,
+      "artist_name": "Matthew Gibson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1629",
+      "song_id": 1629,
+      "title": "Legionary's Lament",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 1630,
+      "artist_name": "Nath Henry (Revel)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1629",
+      "target": "song:7640",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 12175,
+  "name": "James Cruz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12173",
+      "song_id": 12173,
+      "title": "Echoes Resonate",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 12175,
+      "artist_name": "James Cruz",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:210",
+      "song_id": 210,
+      "title": "Luminous Path",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 211,
+      "artist_name": "Jing Han",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:210",
+      "target": "song:12173",
+      "type": "DirectlySamples"
+    }
+  ]
+}

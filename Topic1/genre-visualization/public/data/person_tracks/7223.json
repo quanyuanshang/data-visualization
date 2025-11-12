@@ -1,0 +1,76 @@
+{
+  "person_id": 7223,
+  "name": "Robert Norris",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14429",
+      "song_id": 14429,
+      "title": "Sweethearts of the Midwest",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 7223,
+      "artist_name": "Robert Norris",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7222",
+      "song_id": 7222,
+      "title": "Echoes of Julianne",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 7223,
+      "artist_name": "Robert Norris",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3094",
+      "song_id": 3094,
+      "title": "Longing on the Line",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 1327,
+      "artist_name": "Fang Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3094",
+      "target": "song:7222",
+      "type": "InStyleOf"
+    }
+  ]
+}

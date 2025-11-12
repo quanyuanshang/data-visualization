@@ -1,0 +1,56 @@
+{
+  "person_id": 9952,
+  "name": "Craig Ortega",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9951",
+      "song_id": 9951,
+      "title": "Quartet of Quiet Moments",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 9952,
+      "artist_name": "Craig Ortega",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9745",
+      "song_id": 9745,
+      "title": "Echoes in an Empty Room",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 9746,
+      "artist_name": "Loredana Bertolucci",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9745",
+      "target": "song:9951",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

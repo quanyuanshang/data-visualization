@@ -1,0 +1,54 @@
+{
+  "person_id": 13012,
+  "name": "Mary Smith",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13931",
+      "song_id": 13931,
+      "title": "Swift Paths of Linguistic Harmony",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 13012,
+      "artist_name": "Mary Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13010",
+      "song_id": 13010,
+      "title": "Lies That Grow",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 13012,
+      "artist_name": "Mary Smith",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13931",
+      "target": "song:13010",
+      "type": "InStyleOf"
+    }
+  ]
+}

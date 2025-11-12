@@ -1,0 +1,56 @@
+{
+  "person_id": 12810,
+  "name": "Shalv Dass",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12807",
+      "song_id": 12807,
+      "title": "Midnight's Lament in E-flat Major",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 12810,
+      "artist_name": "Shalv Dass",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14347",
+      "song_id": 14347,
+      "title": "Turning Pages",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 14348,
+      "artist_name": "Kabir Dutta",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14347",
+      "target": "song:12807",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

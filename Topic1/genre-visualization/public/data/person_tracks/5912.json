@@ -1,0 +1,81 @@
+{
+  "person_id": 5912,
+  "name": "Xia Xue",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5911",
+      "song_id": 5911,
+      "title": "Sleepless Memories",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 5912,
+      "artist_name": "Xia Xue",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6396",
+      "song_id": 6396,
+      "title": "Contagious Heartache",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 5912,
+      "artist_name": "Xia Xue",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7936",
+      "song_id": 7936,
+      "title": "Olśnienie",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 7937,
+      "artist_name": "Na Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7936",
+      "target": "song:5911",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5911",
+      "target": "song:6396",
+      "type": "CoverOf"
+    }
+  ]
+}

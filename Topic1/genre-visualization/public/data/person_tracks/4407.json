@@ -1,0 +1,56 @@
+{
+  "person_id": 4407,
+  "name": "Kimberly Fernandez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4406",
+      "song_id": 4406,
+      "title": "Staircase to Silence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 4407,
+      "artist_name": "Kimberly Fernandez",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17150",
+      "song_id": 17150,
+      "title": "Signals in the Static",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2035,
+      "single": true,
+      "own": false,
+      "artist_id": 17146,
+      "artist_name": "Julia Carter (Jude Rivers)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17150",
+      "target": "song:4406",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

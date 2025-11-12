@@ -1,0 +1,56 @@
+{
+  "person_id": 426,
+  "name": "Juan Hu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:423",
+      "song_id": 423,
+      "title": "Flames of Descent",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 426,
+      "artist_name": "Juan Hu",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4250",
+      "song_id": 4250,
+      "title": "Melody of Dreams",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": false,
+      "artist_id": 425,
+      "artist_name": "Hazel Kara",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4250",
+      "target": "song:423",
+      "type": "InStyleOf"
+    }
+  ]
+}

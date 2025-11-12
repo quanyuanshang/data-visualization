@@ -1,0 +1,130 @@
+{
+  "person_id": 9761,
+  "name": "Dawn Nelson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9759",
+      "song_id": 9759,
+      "title": "Radiant Spirit",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 9761,
+      "artist_name": "Dawn Nelson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13179",
+      "song_id": 13179,
+      "title": "Ecclesiastical Echoes",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2016,
+      "single": true,
+      "own": true,
+      "artist_id": 9761,
+      "artist_name": "Dawn Nelson",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10259",
+      "song_id": 10259,
+      "title": "Transjordan Twilight",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 10260,
+      "artist_name": "Brent Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:11061",
+      "song_id": 11061,
+      "title": "Echoes of Sisterhood",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 11063,
+      "artist_name": "Kristy Nelson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:17247",
+      "song_id": 17247,
+      "title": "Anchored Love",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 17242,
+      "artist_name": "Ella Parker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17247",
+      "target": "song:13179",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10259",
+      "target": "song:9759",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11061",
+      "target": "song:13179",
+      "type": "InStyleOf"
+    }
+  ]
+}

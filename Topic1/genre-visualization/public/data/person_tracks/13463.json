@@ -1,0 +1,103 @@
+{
+  "person_id": 13463,
+  "name": "Henri Drubin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15214",
+      "song_id": 15214,
+      "title": "Steel Wings, Gentle Soul",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 13463,
+      "artist_name": "Henri Drubin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13459",
+      "song_id": 13459,
+      "title": "Eternal Bloom",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 13463,
+      "artist_name": "Henri Drubin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14705",
+      "song_id": 14705,
+      "title": "Substrate Oscillation",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 1171,
+      "artist_name": "Ivana Vávrová",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:15258",
+      "song_id": 15258,
+      "title": "Sovereign Melody of Britannia",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 15259,
+      "artist_name": "Jacqueline Monroe",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15258",
+      "target": "song:13459",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14705",
+      "target": "song:13459",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

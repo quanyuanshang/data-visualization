@@ -1,0 +1,56 @@
+{
+  "person_id": 12693,
+  "name": "Jennifer Moore",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12692",
+      "song_id": 12692,
+      "title": "Steel and Green: A Biscayan Tale",
+      "genre": "Speed Metal",
+      "notable": false,
+      "release_year": 2016,
+      "single": true,
+      "own": true,
+      "artist_id": 12693,
+      "artist_name": "Jennifer Moore",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11826",
+      "song_id": 11826,
+      "title": "Whispers of Ink and Memory",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 11827,
+      "artist_name": "David Campbell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11826",
+      "target": "song:12692",
+      "type": "InStyleOf"
+    }
+  ]
+}

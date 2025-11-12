@@ -1,0 +1,83 @@
+{
+  "person_id": 10502,
+  "name": "Xiuying Ye",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10499",
+      "song_id": 10499,
+      "title": "Nightingales in Uniform",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 10502,
+      "artist_name": "Xiuying Ye",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10035",
+      "song_id": 10035,
+      "title": "Whispers from the Ecclesiastical Shadows",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4465,
+      "artist_name": "Qiang Song",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:11395",
+      "song_id": 11395,
+      "title": "Fragments of a Distant Memory",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1774,
+      "artist_name": "Paula Wilson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11395",
+      "target": "song:10499",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10035",
+      "target": "song:10499",
+      "type": "InStyleOf"
+    }
+  ]
+}

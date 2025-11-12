@@ -1,0 +1,83 @@
+{
+  "person_id": 11573,
+  "name": "Sarah Patrick",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11572",
+      "song_id": 11572,
+      "title": "Fever Pitch Madness",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 1995,
+      "single": true,
+      "own": true,
+      "artist_id": 11573,
+      "artist_name": "Sarah Patrick",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5546",
+      "song_id": 5546,
+      "title": "Sweet Metabolism",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 3164,
+      "artist_name": "Jeremy Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:14094",
+      "song_id": 14094,
+      "title": "Moonlit Metamorphosis",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 1998,
+      "single": false,
+      "own": false,
+      "artist_id": 3165,
+      "artist_name": "Jamie Ramos",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14094",
+      "target": "song:11572",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5546",
+      "target": "song:11572",
+      "type": "CoverOf"
+    }
+  ]
+}

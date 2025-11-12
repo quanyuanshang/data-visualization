@@ -1,0 +1,56 @@
+{
+  "person_id": 14801,
+  "name": "Elvira Puente Alba",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14800",
+      "song_id": 14800,
+      "title": "Shadows of Stone Walls",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1996,
+      "single": false,
+      "own": true,
+      "artist_id": 14801,
+      "artist_name": "Elvira Puente Alba",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11080",
+      "song_id": 11080,
+      "title": "Echoes of the Holy City",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 11081,
+      "artist_name": "Macaria de Landa",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11080",
+      "target": "song:14800",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 4600,
+  "name": "Xiuying Meng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4596",
+      "song_id": 4596,
+      "title": "Tender Echoes",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 4600,
+      "artist_name": "Xiuying Meng",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3444",
+      "song_id": 3444,
+      "title": "Heartache Without Healing",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 3446,
+      "artist_name": "Jing Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:12564",
+      "song_id": 12564,
+      "title": "Body Electric",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 12565,
+      "artist_name": "Brianna Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3444",
+      "target": "song:4596",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12564",
+      "target": "song:4596",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

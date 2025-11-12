@@ -1,0 +1,110 @@
+{
+  "person_id": 3928,
+  "name": "Jun Mo",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3923",
+      "song_id": 3923,
+      "title": "Acceptance Blues",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 3928,
+      "artist_name": "Jun Mo",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4034",
+      "song_id": 4034,
+      "title": "Heartbeat of a Small Town",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 3686,
+      "artist_name": "Xia Chen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6665",
+      "song_id": 6665,
+      "title": "Backroads and Firefly Tales",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 6667,
+      "artist_name": "Ming Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12441",
+      "song_id": 12441,
+      "title": "Crescendo Cosmos",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 4035,
+      "artist_name": "Fang Ren ( Aria Snow)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4034",
+      "target": "song:3923",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6665",
+      "target": "song:3923",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12441",
+      "target": "song:3923",
+      "type": "CoverOf"
+    }
+  ]
+}

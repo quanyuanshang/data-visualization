@@ -1,0 +1,83 @@
+{
+  "person_id": 6834,
+  "name": "Ping Sun",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6833",
+      "song_id": 6833,
+      "title": "The Last Sweet Moment",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 6834,
+      "artist_name": "Ping Sun",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6065",
+      "song_id": 6065,
+      "title": "Push Through the Doubt",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2355,
+      "artist_name": "Qiang Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:7876",
+      "song_id": 7876,
+      "title": "Falling Without a Parachute",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 7877,
+      "artist_name": "Ming Du",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6065",
+      "target": "song:6833",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7876",
+      "target": "song:6833",
+      "type": "CoverOf"
+    }
+  ]
+}

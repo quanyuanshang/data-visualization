@@ -1,0 +1,103 @@
+{
+  "person_id": 5665,
+  "name": "Paul Bailey",
+  "stage_name": " Knight",
+  "nodes": [
+    {
+      "id": "song:5664",
+      "song_id": 5664,
+      "title": "Temporary Intelligence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 5665,
+      "artist_name": "Paul Bailey ( Knight)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16641",
+      "song_id": 16641,
+      "title": "Soft Embrace, Tender Grace",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 5665,
+      "artist_name": "Paul Bailey ( Knight)",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9974",
+      "song_id": 9974,
+      "title": "Architects of What's Next",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4874,
+      "artist_name": "Paul Castro",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6474",
+      "song_id": 6474,
+      "title": "Midsummer's Melody",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 314,
+      "artist_name": "Cristian Bonilla",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9974",
+      "target": "song:5664",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6474",
+      "target": "song:16641",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 9163,
+  "name": "Ciro Campano",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9161",
+      "song_id": 9161,
+      "title": "Whispers on Platform Seven",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 9163,
+      "artist_name": "Ciro Campano",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8220",
+      "song_id": 8220,
+      "title": "Silk Road Memories",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 8011,
+      "artist_name": "Baccio Muti",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8220",
+      "target": "song:9161",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

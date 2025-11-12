@@ -1,0 +1,56 @@
+{
+  "person_id": 10064,
+  "name": "Nicole Mccormick",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10063",
+      "song_id": 10063,
+      "title": "Seven Year Itch (And I Can't Scratch)",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 10064,
+      "artist_name": "Nicole Mccormick",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1007",
+      "song_id": 1007,
+      "title": "Nicotine Memories",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1008,
+      "artist_name": "Valerio Zapata-Rico",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1007",
+      "target": "song:10063",
+      "type": "CoverOf"
+    }
+  ]
+}

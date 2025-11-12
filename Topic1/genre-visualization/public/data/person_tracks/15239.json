@@ -1,0 +1,56 @@
+{
+  "person_id": 15239,
+  "name": "Kelly Williams",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15235",
+      "song_id": 15235,
+      "title": "Ljus Vår-Svit (Light Spring Suite)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 15239,
+      "artist_name": "Kelly Williams",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17067",
+      "song_id": 17067,
+      "title": "The Getaway Route",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2036,
+      "single": false,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17067",
+      "target": "song:15235",
+      "type": "CoverOf"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "person_id": 8467,
+  "name": "Robert Pham",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8732",
+      "song_id": 8732,
+      "title": "Hymns of the Frozen Dawn",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 8467,
+      "artist_name": "Robert Pham",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10367",
+      "song_id": 10367,
+      "title": "Rhythm of Existence",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 8467,
+      "artist_name": "Robert Pham",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13220",
+      "song_id": 13220,
+      "title": "Glowing Embrace",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 190,
+      "artist_name": "Peter Haering",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16572",
+      "song_id": 16572,
+      "title": "One More Round",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 16573,
+      "artist_name": "Fang Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13220",
+      "target": "song:10367",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16572",
+      "target": "song:10367",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

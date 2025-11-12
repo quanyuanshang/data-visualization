@@ -1,0 +1,56 @@
+{
+  "person_id": 3466,
+  "name": "Leslie Flynn",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3464",
+      "song_id": 3464,
+      "title": "Haunting Your Heart",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2006,
+      "single": true,
+      "own": true,
+      "artist_id": 3466,
+      "artist_name": "Leslie Flynn",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5394",
+      "song_id": 5394,
+      "title": "Echoes of a Road Not Taken",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1275,
+      "artist_name": "Gang Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5394",
+      "target": "song:3464",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

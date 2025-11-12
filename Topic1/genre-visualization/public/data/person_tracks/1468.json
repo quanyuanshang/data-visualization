@@ -1,0 +1,110 @@
+{
+  "person_id": 1468,
+  "name": "Ping Tao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1466",
+      "song_id": 1466,
+      "title": "Waterlogged Memories",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 1468,
+      "artist_name": "Ping Tao",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1140",
+      "song_id": 1140,
+      "title": "Party of One",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 1141,
+      "artist_name": "Tamara Solis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:5088",
+      "song_id": 5088,
+      "title": "Echoes of a Lonely Gaze",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:7054",
+      "song_id": 7054,
+      "title": "Whispers of the Caravan",
+      "genre": "Lo-Fi Electronica",
+      "notable": false,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7054",
+      "target": "song:1466",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5088",
+      "target": "song:1466",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:1140",
+      "target": "song:1466",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

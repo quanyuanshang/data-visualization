@@ -1,0 +1,83 @@
+{
+  "person_id": 14853,
+  "name": "Caleb Williamson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14851",
+      "song_id": 14851,
+      "title": "Golden Horizon",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1986,
+      "single": true,
+      "own": true,
+      "artist_id": 14853,
+      "artist_name": "Caleb Williamson",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7157",
+      "song_id": 7157,
+      "title": "Salt and Silence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 3861,
+      "artist_name": "Matthäus Ladeck",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:11896",
+      "song_id": 11896,
+      "title": "Skyscrapers in Retreat",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 1443,
+      "artist_name": "Sayuri Sato",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11896",
+      "target": "song:14851",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7157",
+      "target": "song:14851",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 16213,
+  "name": "Kevin Parker",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16212",
+      "song_id": 16212,
+      "title": "Ghosts of the Shoreline",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 16213,
+      "artist_name": "Kevin Parker",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12582",
+      "song_id": 12582,
+      "title": "Foundation of Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 3555,
+      "artist_name": "Nicole Godard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12582",
+      "target": "song:16212",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

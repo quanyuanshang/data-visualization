@@ -1,0 +1,103 @@
+{
+  "person_id": 435,
+  "name": "Juan Xu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2424",
+      "song_id": 2424,
+      "title": "Unwind Tonight",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 435,
+      "artist_name": "Juan Xu",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12205",
+      "song_id": 12205,
+      "title": "Riverside Freedom",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 435,
+      "artist_name": "Juan Xu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5647",
+      "song_id": 5647,
+      "title": "The Last Goodbye",
+      "genre": "Darkwave",
+      "notable": false,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 3366,
+      "artist_name": "Xiuying Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16292",
+      "song_id": 16292,
+      "title": "Whispers of Goodbye",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 1074,
+      "artist_name": "Jing Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5647",
+      "target": "song:2424",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16292",
+      "target": "song:2424",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

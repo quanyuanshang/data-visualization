@@ -1,0 +1,130 @@
+{
+  "person_id": 3948,
+  "name": "Melanie Fisher",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3939",
+      "song_id": 3939,
+      "title": "The Slow Fade",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 3948,
+      "artist_name": "Melanie Fisher",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14014",
+      "song_id": 14014,
+      "title": "Microscopic Beginnings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 3948,
+      "artist_name": "Melanie Fisher",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:912",
+      "song_id": 912,
+      "title": "Footsteps of Men",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 914,
+      "artist_name": "Stephanie Wilson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:14014",
+      "song_id": 14014,
+      "title": "Microscopic Beginnings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 3948,
+      "artist_name": "Melanie Fisher",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15674",
+      "song_id": 15674,
+      "title": "Longing's Gentle Embrace",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 15675,
+      "artist_name": "Ryan Carter",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14014",
+      "target": "song:3939",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:912",
+      "target": "song:3939",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15674",
+      "target": "song:14014",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 14519,
+  "name": "William Burton",
+  "stage_name": " PRVISE",
+  "nodes": [
+    {
+      "id": "song:14518",
+      "song_id": 14518,
+      "title": "Symphonic Prologue",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 14519,
+      "artist_name": "William Burton ( PRVISE)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6072",
+      "song_id": 6072,
+      "title": "Whispers of My Homeland",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1998,
+      "single": true,
+      "own": false,
+      "artist_id": 6073,
+      "artist_name": "Agnès de Leroy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6072",
+      "target": "song:14518",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

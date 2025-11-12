@@ -1,0 +1,106 @@
+{
+  "person_id": 6056,
+  "name": "Xiulan Qin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7089",
+      "song_id": 7089,
+      "title": "Divine Restraint",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 6056,
+      "artist_name": "Xiulan Qin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13158",
+      "song_id": 13158,
+      "title": "Whispers of the Parish Boundary",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 6056,
+      "artist_name": "Xiulan Qin",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6054",
+      "song_id": 6054,
+      "title": "Colorful Traditions",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 6056,
+      "artist_name": "Xiulan Qin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12694",
+      "song_id": 12694,
+      "title": "Whispers of Karelian Forests",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 12695,
+      "artist_name": "Xiulan Du",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7089",
+      "target": "song:6054",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12694",
+      "target": "song:13158",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13158",
+      "target": "song:6054",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

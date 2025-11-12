@@ -1,0 +1,56 @@
+{
+  "person_id": 140,
+  "name": "Min Pan",
+  "stage_name": "Oblivion Rhapsody",
+  "nodes": [
+    {
+      "id": "song:139",
+      "song_id": 139,
+      "title": "Whispers from the Rocking Chair",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 140,
+      "artist_name": "Min Pan (Oblivion Rhapsody)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8945",
+      "song_id": 8945,
+      "title": "Emerald Shadows of Her Name",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 8946,
+      "artist_name": "Yang Yi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8945",
+      "target": "song:139",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "person_id": 8377,
+  "name": "Tao Song",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8373",
+      "song_id": 8373,
+      "title": "Gilded Cage Lament",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 8377,
+      "artist_name": "Tao Song",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8676",
+      "song_id": 8676,
+      "title": "Scales of Mercy",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 1465,
+      "artist_name": "Lei Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:11322",
+      "song_id": 11322,
+      "title": "The Unaccompanied Journey",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 11323,
+      "artist_name": "Jing Guo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:13107",
+      "song_id": 13107,
+      "title": "Zenith to Zero",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 2592,
+      "artist_name": "Ping Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11322",
+      "target": "song:8373",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13107",
+      "target": "song:8373",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:8676",
+      "target": "song:8373",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

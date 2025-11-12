@@ -1,0 +1,83 @@
+{
+  "person_id": 9917,
+  "name": "Kimberly Keller",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9916",
+      "song_id": 9916,
+      "title": "Echoes of a Final Embrace",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 9917,
+      "artist_name": "Kimberly Keller",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4959",
+      "song_id": 4959,
+      "title": "Whispers of Minor Keys",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 4960,
+      "artist_name": "Michael Perkins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16494",
+      "song_id": 16494,
+      "title": "Whispers from the Northern Town",
+      "genre": "Indie Rock",
+      "notable": false,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2362,
+      "artist_name": "Kristi Crane",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4959",
+      "target": "song:9916",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16494",
+      "target": "song:9916",
+      "type": "CoverOf"
+    }
+  ]
+}

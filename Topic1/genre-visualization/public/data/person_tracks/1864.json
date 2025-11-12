@@ -1,0 +1,56 @@
+{
+  "person_id": 1864,
+  "name": "Ming Song",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1863",
+      "song_id": 1863,
+      "title": "Whispers of a Forgotten Melody",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 1864,
+      "artist_name": "Ming Song",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8122",
+      "song_id": 8122,
+      "title": "Cordless Connections",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3716,
+      "artist_name": "Qiang Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8122",
+      "target": "song:1863",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

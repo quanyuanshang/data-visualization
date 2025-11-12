@@ -1,0 +1,56 @@
+{
+  "person_id": 11318,
+  "name": "David Smith",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11316",
+      "song_id": 11316,
+      "title": "Echoes of Solitary Streets",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1987,
+      "single": false,
+      "own": true,
+      "artist_id": 11318,
+      "artist_name": "David Smith",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7361",
+      "song_id": 7361,
+      "title": "Resonance Chamber",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 7363,
+      "artist_name": "Michael Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7361",
+      "target": "song:11316",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

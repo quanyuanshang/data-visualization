@@ -1,0 +1,137 @@
+{
+  "person_id": 9512,
+  "name": "Ricky Franklin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9511",
+      "song_id": 9511,
+      "title": "Circuitry of Pulse",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 9512,
+      "artist_name": "Ricky Franklin",
+      "influence": 16,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5992",
+      "song_id": 5992,
+      "title": "Always, Sometimes, Sometimes",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 3135,
+      "artist_name": "Chelsea Martinez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:7052",
+      "song_id": 7052,
+      "title": "Borrowed Time in Bethlehem",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 3135,
+      "artist_name": "Chelsea Martinez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:10140",
+      "song_id": 10140,
+      "title": "Circles Around the Sun",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4682,
+      "artist_name": "Amy Tate",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:10825",
+      "song_id": 10825,
+      "title": "Beats of Celebration",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4682,
+      "artist_name": "Amy Tate",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10825",
+      "target": "song:9511",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5992",
+      "target": "song:9511",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10140",
+      "target": "song:9511",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7052",
+      "target": "song:9511",
+      "type": "CoverOf"
+    }
+  ]
+}

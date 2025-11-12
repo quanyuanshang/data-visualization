@@ -1,0 +1,56 @@
+{
+  "person_id": 16486,
+  "name": "Temistocle Vivaldi-Amato",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16485",
+      "song_id": 16485,
+      "title": "The Sacrificial Script",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 16486,
+      "artist_name": "Temistocle Vivaldi-Amato",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:925",
+      "song_id": 925,
+      "title": "Liminal Passage",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 926,
+      "artist_name": "Gang Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:925",
+      "target": "song:16485",
+      "type": "InStyleOf"
+    }
+  ]
+}

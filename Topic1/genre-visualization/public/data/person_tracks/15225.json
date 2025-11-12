@@ -1,0 +1,76 @@
+{
+  "person_id": 15225,
+  "name": "Guiying Shi",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15222",
+      "song_id": 15222,
+      "title": "The Machinery of Dreams",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 15225,
+      "artist_name": "Guiying Shi",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15369",
+      "song_id": 15369,
+      "title": "Cosmic Cartography",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 15225,
+      "artist_name": "Guiying Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11706",
+      "song_id": 11706,
+      "title": "Quantum Woodwind",
+      "genre": "Space Rock",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 11707,
+      "artist_name": "Lei Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11706",
+      "target": "song:15222",
+      "type": "CoverOf"
+    }
+  ]
+}

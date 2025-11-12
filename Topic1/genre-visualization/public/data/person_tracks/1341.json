@@ -1,0 +1,79 @@
+{
+  "person_id": 1341,
+  "name": "Jessica Stewart",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12031",
+      "song_id": 12031,
+      "title": "Midnight Wings Over Bavarian Towers",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 1341,
+      "artist_name": "Jessica Stewart",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13258",
+      "song_id": 13258,
+      "title": "Spontaneous Sonata",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 1341,
+      "artist_name": "Jessica Stewart",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1340",
+      "song_id": 1340,
+      "title": "Whispers of Forbidden Flight",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 1341,
+      "artist_name": "Jessica Stewart",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13258",
+      "target": "song:1340",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12031",
+      "target": "song:13258",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

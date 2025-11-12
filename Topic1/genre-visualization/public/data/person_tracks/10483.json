@@ -1,0 +1,110 @@
+{
+  "person_id": 10483,
+  "name": "Michelle Moore",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10480",
+      "song_id": 10480,
+      "title": "Bitter Ballad of Electoral Ruin",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 10483,
+      "artist_name": "Michelle Moore",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4926",
+      "song_id": 4926,
+      "title": "Street Corner Serenade",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 4928,
+      "artist_name": "Gloria Lewis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:13010",
+      "song_id": 13010,
+      "title": "Lies That Grow",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 13012,
+      "artist_name": "Mary Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:13931",
+      "song_id": 13931,
+      "title": "Swift Paths of Linguistic Harmony",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 13932,
+      "artist_name": "Mary Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13931",
+      "target": "song:10480",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13010",
+      "target": "song:10480",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4926",
+      "target": "song:10480",
+      "type": "InStyleOf"
+    }
+  ]
+}

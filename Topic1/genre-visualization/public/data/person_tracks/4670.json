@@ -1,0 +1,135 @@
+{
+  "person_id": 4670,
+  "name": "Tony Rhodes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7680",
+      "song_id": 7680,
+      "title": "Earthen Resonance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 4670,
+      "artist_name": "Tony Rhodes",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4666",
+      "song_id": 4666,
+      "title": "Aftermath of a Broken Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 4670,
+      "artist_name": "Tony Rhodes",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2906",
+      "song_id": 2906,
+      "title": "Whispers to the Divine",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 936,
+      "artist_name": "Fang Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16360",
+      "song_id": 16360,
+      "title": "Dissonant Symmetries",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 16361,
+      "artist_name": "Juan Hou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:1286",
+      "song_id": 1286,
+      "title": "They're Not Entirely Sure",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1287,
+      "artist_name": "Justin Ellison",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16360",
+      "target": "song:7680",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2906",
+      "target": "song:7680",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7680",
+      "target": "song:4666",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:1286",
+      "target": "song:4666",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

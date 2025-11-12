@@ -1,0 +1,76 @@
+{
+  "person_id": 10959,
+  "name": "Jason Evans",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10953",
+      "song_id": 10953,
+      "title": "Echoes of an Absent Heart",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 10959,
+      "artist_name": "Jason Evans",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15422",
+      "song_id": 15422,
+      "title": "Svaté Echo Tvého Dechu",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 10959,
+      "artist_name": "Jason Evans",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16624",
+      "song_id": 16624,
+      "title": "Unbreakable Crown",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 15273,
+      "artist_name": "Jing Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16624",
+      "target": "song:15422",
+      "type": "DirectlySamples"
+    }
+  ]
+}

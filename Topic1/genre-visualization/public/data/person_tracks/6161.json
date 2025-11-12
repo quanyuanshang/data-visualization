@@ -1,0 +1,83 @@
+{
+  "person_id": 6161,
+  "name": "Hellmut Graf",
+  "stage_name": "Velora",
+  "nodes": [
+    {
+      "id": "song:6160",
+      "song_id": 6160,
+      "title": "Outsiders By Design",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 6161,
+      "artist_name": "Hellmut Graf (Velora)",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4105",
+      "song_id": 4105,
+      "title": "Whispers of Sacred Introspection",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 1441,
+      "artist_name": "Astrid Lecoq",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:7469",
+      "song_id": 7469,
+      "title": "Liquid Desire",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 7471,
+      "artist_name": "Lisa Lopez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7469",
+      "target": "song:6160",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4105",
+      "target": "song:6160",
+      "type": "InStyleOf"
+    }
+  ]
+}

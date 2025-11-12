@@ -1,0 +1,56 @@
+{
+  "person_id": 1911,
+  "name": "Min Peng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1907",
+      "song_id": 1907,
+      "title": "Echoes of Mirth",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": true,
+      "artist_id": 1911,
+      "artist_name": "Min Peng",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9940",
+      "song_id": 9940,
+      "title": "Nightingale of the Trenches",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 2634,
+      "artist_name": "Chao Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9940",
+      "target": "song:1907",
+      "type": "InStyleOf"
+    }
+  ]
+}

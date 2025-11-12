@@ -1,0 +1,83 @@
+{
+  "person_id": 13806,
+  "name": "Tao Jiang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14024",
+      "song_id": 14024,
+      "title": "Currents of Forgotten Valleys",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 13806,
+      "artist_name": "Tao Jiang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11801",
+      "song_id": 11801,
+      "title": "Commission Junction",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 7976,
+      "artist_name": "Wei Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:12250",
+      "song_id": 12250,
+      "title": "Mediterranean Melody",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 12251,
+      "artist_name": "Min Xu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11801",
+      "target": "song:14024",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12250",
+      "target": "song:14024",
+      "type": "InStyleOf"
+    }
+  ]
+}

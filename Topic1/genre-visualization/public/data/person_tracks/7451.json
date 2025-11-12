@@ -1,0 +1,56 @@
+{
+  "person_id": 7451,
+  "name": "Angela Porter",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7450",
+      "song_id": 7450,
+      "title": "Starlit Summer Phantasm",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 7451,
+      "artist_name": "Angela Porter",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1571",
+      "song_id": 1571,
+      "title": "Twilight's Harmonic Descent",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 1572,
+      "artist_name": "Ryan Kala",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1571",
+      "target": "song:7450",
+      "type": "InStyleOf"
+    }
+  ]
+}

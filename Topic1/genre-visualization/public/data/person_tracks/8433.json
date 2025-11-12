@@ -1,0 +1,56 @@
+{
+  "person_id": 8433,
+  "name": "Jing Duan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8431",
+      "song_id": 8431,
+      "title": "Oceanic Overture",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 8433,
+      "artist_name": "Jing Duan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5053",
+      "song_id": 5053,
+      "title": "Sunlit Serenade",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 5054,
+      "artist_name": "Ping Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5053",
+      "target": "song:8431",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

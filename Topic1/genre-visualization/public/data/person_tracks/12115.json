@@ -1,0 +1,56 @@
+{
+  "person_id": 12115,
+  "name": "Nico Castellanos García",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12109",
+      "song_id": 12109,
+      "title": "Whispers of Fury",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 12115,
+      "artist_name": "Nico Castellanos García",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4288",
+      "song_id": 4288,
+      "title": "Silver Serenade",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4290,
+      "artist_name": "Gang Hu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4288",
+      "target": "song:12109",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

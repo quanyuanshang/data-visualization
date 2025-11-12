@@ -1,0 +1,130 @@
+{
+  "person_id": 9258,
+  "name": "Minoru Nakajima",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9256",
+      "song_id": 9256,
+      "title": "Climbing Higher Ground",
+      "genre": "Symphonic Metal",
+      "notable": false,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 9258,
+      "artist_name": "Minoru Nakajima",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10582",
+      "song_id": 10582,
+      "title": "The Shared Desire",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 9258,
+      "artist_name": "Minoru Nakajima",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:210",
+      "song_id": 210,
+      "title": "Luminous Path",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 211,
+      "artist_name": "Jing Han",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:2406",
+      "song_id": 2406,
+      "title": "The Sovereign's Heart",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1410,
+      "artist_name": "Guiying Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:10582",
+      "song_id": 10582,
+      "title": "The Shared Desire",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 9257,
+      "artist_name": "Chao Ye",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2406",
+      "target": "song:9256",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:10582",
+      "target": "song:9256",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:210",
+      "target": "song:9256",
+      "type": "CoverOf"
+    }
+  ]
+}

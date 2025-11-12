@@ -1,0 +1,56 @@
+{
+  "person_id": 10380,
+  "name": "Elizabeth Hill",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10379",
+      "song_id": 10379,
+      "title": "Steps Through Time",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": true,
+      "artist_id": 10380,
+      "artist_name": "Elizabeth Hill",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15603",
+      "song_id": 15603,
+      "title": "Windswept Memories",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 15604,
+      "artist_name": "Terry Olson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15603",
+      "target": "song:10379",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 9653,
+  "name": "Nancy Dunlap",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9651",
+      "song_id": 9651,
+      "title": "In The Chamber of My Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 9653,
+      "artist_name": "Nancy Dunlap",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12067",
+      "song_id": 12067,
+      "title": "Fragments of Friendship",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 12070,
+      "artist_name": "Gang Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:17002",
+      "song_id": 17002,
+      "title": "Under a Dying Sun",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12067",
+      "target": "song:9651",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:17002",
+      "target": "song:9651",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

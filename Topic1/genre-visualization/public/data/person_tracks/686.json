@@ -1,0 +1,83 @@
+{
+  "person_id": 686,
+  "name": "Yang Zheng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5216",
+      "song_id": 5216,
+      "title": "Twilight's Gypsy Memories",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 686,
+      "artist_name": "Yang Zheng",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4738",
+      "song_id": 4738,
+      "title": "Scent of Desire",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4740,
+      "artist_name": "Victoria Higgins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:16007",
+      "song_id": 16007,
+      "title": "Enlightenment's Whisper",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 16008,
+      "artist_name": "Yong Cai (Veridian)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16007",
+      "target": "song:5216",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:4738",
+      "target": "song:5216",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

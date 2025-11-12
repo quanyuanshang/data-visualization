@@ -1,0 +1,56 @@
+{
+  "person_id": 4230,
+  "name": "Ivana Bains",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4229",
+      "song_id": 4229,
+      "title": "Silent Waters, Singing Paths",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1995,
+      "single": true,
+      "own": true,
+      "artist_id": 4230,
+      "artist_name": "Ivana Bains",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8288",
+      "song_id": 8288,
+      "title": "Ninth Inning Heartbreak",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4632,
+      "artist_name": "Tao Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8288",
+      "target": "song:4229",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

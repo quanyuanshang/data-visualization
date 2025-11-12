@@ -1,0 +1,56 @@
+{
+  "person_id": 13513,
+  "name": "Fang Du",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13511",
+      "song_id": 13511,
+      "title": "Vows in Whispers",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 13513,
+      "artist_name": "Fang Du",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5029",
+      "song_id": 5029,
+      "title": "Landsbyens Drøm (Village's Dream)",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1785,
+      "artist_name": "Ping Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5029",
+      "target": "song:13511",
+      "type": "CoverOf"
+    }
+  ]
+}

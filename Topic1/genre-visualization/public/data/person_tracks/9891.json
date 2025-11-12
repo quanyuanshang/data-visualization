@@ -1,0 +1,83 @@
+{
+  "person_id": 9891,
+  "name": "Jeffrey Ward",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9890",
+      "song_id": 9890,
+      "title": "Lazy Light Cascade",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2008,
+      "single": true,
+      "own": true,
+      "artist_id": 9891,
+      "artist_name": "Jeffrey Ward",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6794",
+      "song_id": 6794,
+      "title": "Whispers of Carmentea",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1650,
+      "artist_name": "Daniel Lyons",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:15396",
+      "song_id": 15396,
+      "title": "Maiden's Footsteps on Soft Grass",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2528,
+      "artist_name": "Larry Fields",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6794",
+      "target": "song:9890",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15396",
+      "target": "song:9890",
+      "type": "InStyleOf"
+    }
+  ]
+}

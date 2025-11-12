@@ -1,0 +1,56 @@
+{
+  "person_id": 11221,
+  "name": "Mehmet Junk",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11219",
+      "song_id": 11219,
+      "title": "The Sixth Symphony of Silence",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 11221,
+      "artist_name": "Mehmet Junk",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16424",
+      "song_id": 16424,
+      "title": "Midnight's Daughter",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 5016,
+      "artist_name": "Feliciana Figuerola Cruz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16424",
+      "target": "song:11219",
+      "type": "CoverOf"
+    }
+  ]
+}

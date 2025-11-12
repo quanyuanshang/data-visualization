@@ -1,0 +1,56 @@
+{
+  "person_id": 12005,
+  "name": "Advik Singh",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12004",
+      "song_id": 12004,
+      "title": "Coronation of Courage",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 12005,
+      "artist_name": "Advik Singh",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1185",
+      "song_id": 1185,
+      "title": "Cobblestone Crown",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1188,
+      "artist_name": "Taylor Poole",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1185",
+      "target": "song:12004",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

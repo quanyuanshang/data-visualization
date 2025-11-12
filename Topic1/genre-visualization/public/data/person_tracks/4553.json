@@ -1,0 +1,83 @@
+{
+  "person_id": 4553,
+  "name": "Tao Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4547",
+      "song_id": 4547,
+      "title": "Concrete Crown",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4553,
+      "artist_name": "Tao Zeng",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8667",
+      "song_id": 8667,
+      "title": "Humble Heart's Echo",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 3496,
+      "artist_name": "Xiulan Deng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:13404",
+      "song_id": 13404,
+      "title": "Voice Beyond the Line",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 13405,
+      "artist_name": "Li Mo ( $PECTRUM)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13404",
+      "target": "song:4547",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8667",
+      "target": "song:4547",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

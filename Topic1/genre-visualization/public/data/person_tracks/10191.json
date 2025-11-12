@@ -1,0 +1,83 @@
+{
+  "person_id": 10191,
+  "name": "Jie Lei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10185",
+      "song_id": 10185,
+      "title": "Le Chemin des Mélodies",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 10191,
+      "artist_name": "Jie Lei",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3174",
+      "song_id": 3174,
+      "title": "Intertwined Free Fall",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3176,
+      "artist_name": "Christine Gonzales",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:7374",
+      "song_id": 7374,
+      "title": "Peak Performance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 3176,
+      "artist_name": "Christine Gonzales",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3174",
+      "target": "song:10185",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7374",
+      "target": "song:10185",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

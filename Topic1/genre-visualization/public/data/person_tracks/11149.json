@@ -1,0 +1,130 @@
+{
+  "person_id": 11149,
+  "name": "Jie Wu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11146",
+      "song_id": 11146,
+      "title": "Mirror of Courage",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 11149,
+      "artist_name": "Jie Wu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14198",
+      "song_id": 14198,
+      "title": "Timón de Esperanza",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 11149,
+      "artist_name": "Jie Wu",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:852",
+      "song_id": 852,
+      "title": "Clarity and Carats",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 853,
+      "artist_name": "Li Kong (Syntara)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:9631",
+      "song_id": 9631,
+      "title": "Fading Echoes of Annabel",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 9632,
+      "artist_name": "Allison Curtis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:9861",
+      "song_id": 9861,
+      "title": "Stalemate",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 9863,
+      "artist_name": "Qiang Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:852",
+      "target": "song:11146",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:9861",
+      "target": "song:14198",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9631",
+      "target": "song:14198",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 5841,
+  "name": "Matthew Garcia",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5840",
+      "song_id": 5840,
+      "title": "Beyond Farewell's Shadow",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 5841,
+      "artist_name": "Matthew Garcia",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17339",
+      "song_id": 17339,
+      "title": "The Sompass Spins",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17339",
+      "target": "song:5840",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

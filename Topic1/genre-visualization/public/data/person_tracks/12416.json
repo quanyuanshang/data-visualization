@@ -1,0 +1,103 @@
+{
+  "person_id": 12416,
+  "name": "Crystal Norman",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12410",
+      "song_id": 12410,
+      "title": "The Unfolding Identity",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 12416,
+      "artist_name": "Crystal Norman",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16641",
+      "song_id": 16641,
+      "title": "Soft Embrace, Tender Grace",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 12416,
+      "artist_name": "Crystal Norman",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12823",
+      "song_id": 12823,
+      "title": "Rainfall's Whisper",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 303,
+      "artist_name": "Corinna Gute",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:6474",
+      "song_id": 6474,
+      "title": "Midsummer's Melody",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 314,
+      "artist_name": "Cristian Bonilla",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12823",
+      "target": "song:12410",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6474",
+      "target": "song:16641",
+      "type": "InStyleOf"
+    }
+  ]
+}

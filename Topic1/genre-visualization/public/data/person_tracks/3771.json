@@ -1,0 +1,110 @@
+{
+  "person_id": 3771,
+  "name": "Baudelio Naranjo Ríos",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3766",
+      "song_id": 3766,
+      "title": "Kompass",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1992,
+      "single": true,
+      "own": true,
+      "artist_id": 3771,
+      "artist_name": "Baudelio Naranjo Ríos",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4859",
+      "song_id": 4859,
+      "title": "Echoes of Marco's Streets",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 4860,
+      "artist_name": "Tao Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15144",
+      "song_id": 15144,
+      "title": "The Last Wave from Number 42",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 15147,
+      "artist_name": "Tao Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:15212",
+      "song_id": 15212,
+      "title": "Whispers of the Crane",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": false,
+      "artist_id": 483,
+      "artist_name": "Wei Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15144",
+      "target": "song:3766",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:4859",
+      "target": "song:3766",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15212",
+      "target": "song:3766",
+      "type": "InStyleOf"
+    }
+  ]
+}

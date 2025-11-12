@@ -1,0 +1,56 @@
+{
+  "person_id": 16318,
+  "name": "Matthew Price",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16317",
+      "song_id": 16317,
+      "title": "Midsummer Gathering on the Farm",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 16318,
+      "artist_name": "Matthew Price",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13808",
+      "song_id": 13808,
+      "title": "Her Way or the Highway",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 13810,
+      "artist_name": "Eric Briggs",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13808",
+      "target": "song:16317",
+      "type": "CoverOf"
+    }
+  ]
+}

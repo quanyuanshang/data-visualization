@@ -1,0 +1,56 @@
+{
+  "person_id": 4224,
+  "name": "Mackenzie Greene",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4222",
+      "song_id": 4222,
+      "title": "Whispers of the Woodland Brook",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 4224,
+      "artist_name": "Mackenzie Greene",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17333",
+      "song_id": 17333,
+      "title": "The Undertow Waltz",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2005,
+      "single": false,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17333",
+      "target": "song:4222",
+      "type": "InStyleOf"
+    }
+  ]
+}

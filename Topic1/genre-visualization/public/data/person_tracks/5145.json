@@ -1,0 +1,56 @@
+{
+  "person_id": 5145,
+  "name": "Tammy Griffin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5142",
+      "song_id": 5142,
+      "title": "Discarded Dreams",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 1996,
+      "single": true,
+      "own": true,
+      "artist_id": 5145,
+      "artist_name": "Tammy Griffin",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9723",
+      "song_id": 9723,
+      "title": "Silence Between Gunfire",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 9725,
+      "artist_name": "Gang Yuan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9723",
+      "target": "song:5142",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

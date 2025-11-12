@@ -1,0 +1,110 @@
+{
+  "person_id": 13221,
+  "name": "Elizabeth Dobes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13220",
+      "song_id": 13220,
+      "title": "Glowing Embrace",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 13221,
+      "artist_name": "Elizabeth Dobes",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6358",
+      "song_id": 6358,
+      "title": "Deluge of Devotion",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 845,
+      "artist_name": "Kläre Schacht-Mielcarek",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14314",
+      "song_id": 14314,
+      "title": "Midnight in the Machine Age",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 14315,
+      "artist_name": "Ernestine Franke-Kade",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:17036",
+      "song_id": 17036,
+      "title": "Summer’s End (Forever)",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17036",
+      "target": "song:13220",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6358",
+      "target": "song:13220",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14314",
+      "target": "song:13220",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

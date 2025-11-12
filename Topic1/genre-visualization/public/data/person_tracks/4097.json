@@ -1,0 +1,83 @@
+{
+  "person_id": 4097,
+  "name": "Courtney Carroll",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4095",
+      "song_id": 4095,
+      "title": "Contemplations of Grace Unbound",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 4097,
+      "artist_name": "Courtney Carroll",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5273",
+      "song_id": 5273,
+      "title": "Concerto for Embouchure and Echo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 4098,
+      "artist_name": "Guiying Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:10469",
+      "song_id": 10469,
+      "title": "Garden of Divided Colors",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 4098,
+      "artist_name": "Guiying Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10469",
+      "target": "song:4095",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:5273",
+      "target": "song:4095",
+      "type": "CoverOf"
+    }
+  ]
+}

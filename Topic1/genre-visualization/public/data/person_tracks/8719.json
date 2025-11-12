@@ -1,0 +1,56 @@
+{
+  "person_id": 8719,
+  "name": "Juan Wei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8717",
+      "song_id": 8717,
+      "title": "Midnight's Sacred Breath",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 8719,
+      "artist_name": "Juan Wei",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16519",
+      "song_id": 16519,
+      "title": "Paired in Solitude",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 16520,
+      "artist_name": "Emily Hudson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16519",
+      "target": "song:8717",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "person_id": 14723,
+  "name": "Qiang Dai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14720",
+      "song_id": 14720,
+      "title": "Crimson Ledger of the Desert Riders",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 14723,
+      "artist_name": "Qiang Dai",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6569",
+      "song_id": 6569,
+      "title": "Whispers of the Lô",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 6570,
+      "artist_name": "Li Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:9446",
+      "song_id": 9446,
+      "title": "Classical Fragments",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 9447,
+      "artist_name": "Jie Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:10270",
+      "song_id": 10270,
+      "title": "Crossing the Promised Boundary",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 3363,
+      "artist_name": "Xiuying Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10270",
+      "target": "song:14720",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6569",
+      "target": "song:14720",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9446",
+      "target": "song:14720",
+      "type": "CoverOf"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 11739,
+  "name": "Marilyn Austin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11737",
+      "song_id": 11737,
+      "title": "Shadows of a Distant Name",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 11739,
+      "artist_name": "Marilyn Austin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6307",
+      "song_id": 6307,
+      "title": "Gaze of Understanding",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 6308,
+      "artist_name": "Li Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:7611",
+      "song_id": 7611,
+      "title": "Blurred Lines of Truth",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 207,
+      "artist_name": "Juan Jia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6307",
+      "target": "song:11737",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7611",
+      "target": "song:11737",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "person_id": 9016,
+  "name": "Jun Meng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9014",
+      "song_id": 9014,
+      "title": "Forever Constant",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 9016,
+      "artist_name": "Jun Meng",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1358",
+      "song_id": 1358,
+      "title": "If Freedom Were an Open Door",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1359,
+      "artist_name": "Yong Chen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6418",
+      "song_id": 6418,
+      "title": "Memories in Harmonic Dust",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 2583,
+      "artist_name": "Jie Liang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:16466",
+      "song_id": 16466,
+      "title": "Whispers from Heaven",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1198,
+      "artist_name": "Qiang He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16466",
+      "target": "song:9014",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6418",
+      "target": "song:9014",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1358",
+      "target": "song:9014",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "person_id": 4883,
+  "name": "Justin Wyatt",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4880",
+      "song_id": 4880,
+      "title": "Soft Sighs, Silent Storms",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": true,
+      "own": true,
+      "artist_id": 4883,
+      "artist_name": "Justin Wyatt",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 2,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2223",
+      "song_id": 2223,
+      "title": "Heartstrings and Promises",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2224,
+      "artist_name": "Ewa Kucz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6279",
+      "song_id": 6279,
+      "title": "Walk Away from Women",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 6280,
+      "artist_name": "Lei Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:14662",
+      "song_id": 14662,
+      "title": "Loving You Hurts (But I Can't Stop)",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 14664,
+      "artist_name": "Yong Dai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14662",
+      "target": "song:4880",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:2223",
+      "target": "song:4880",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6279",
+      "target": "song:4880",
+      "type": "DirectlySamples"
+    }
+  ]
+}

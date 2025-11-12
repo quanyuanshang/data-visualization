@@ -1,0 +1,83 @@
+{
+  "person_id": 10331,
+  "name": "Piotr Smoter",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10319",
+      "song_id": 10319,
+      "title": "Campfire Chronicles",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": true,
+      "artist_id": 10331,
+      "artist_name": "Piotr Smoter",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4038",
+      "song_id": 4038,
+      "title": "Bananal's Gentle Whispers",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 1952,
+      "artist_name": "Yang Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:17253",
+      "song_id": 17253,
+      "title": "Shoreline",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4038",
+      "target": "song:10319",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:17253",
+      "target": "song:10319",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

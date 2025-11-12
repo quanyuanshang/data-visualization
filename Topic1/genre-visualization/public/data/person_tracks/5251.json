@@ -1,0 +1,56 @@
+{
+  "person_id": 5251,
+  "name": "Tao Huang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5247",
+      "song_id": 5247,
+      "title": "Polaroid Memories",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 5251,
+      "artist_name": "Tao Huang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16038",
+      "song_id": 16038,
+      "title": "Just One Promise",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 10578,
+      "artist_name": "Yang Mo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16038",
+      "target": "song:5247",
+      "type": "InStyleOf"
+    }
+  ]
+}

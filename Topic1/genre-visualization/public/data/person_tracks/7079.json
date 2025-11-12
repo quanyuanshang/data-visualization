@@ -1,0 +1,56 @@
+{
+  "person_id": 7079,
+  "name": "Jing Huang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7077",
+      "song_id": 7077,
+      "title": "Mercy Beyond Blades",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 7079,
+      "artist_name": "Jing Huang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11526",
+      "song_id": 11526,
+      "title": "Ballad of the Lone Shepherd",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": false,
+      "artist_id": 2566,
+      "artist_name": "Xiuying Yin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11526",
+      "target": "song:7077",
+      "type": "InStyleOf"
+    }
+  ]
+}

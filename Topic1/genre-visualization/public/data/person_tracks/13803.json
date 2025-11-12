@@ -1,0 +1,83 @@
+{
+  "person_id": 13803,
+  "name": "Yong Wei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13800",
+      "song_id": 13800,
+      "title": "The Artful Dodger's Lament",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 13803,
+      "artist_name": "Yong Wei",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:5438",
+      "song_id": 5438,
+      "title": "Reaper's Rhythm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 5440,
+      "artist_name": "Guiying Lu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3362",
+      "target": "song:13800",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5438",
+      "target": "song:13800",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

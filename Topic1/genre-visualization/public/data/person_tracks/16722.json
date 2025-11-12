@@ -1,0 +1,83 @@
+{
+  "person_id": 16722,
+  "name": "Sandra Hunter",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16720",
+      "song_id": 16720,
+      "title": "Silent Movements Unresolved",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 16722,
+      "artist_name": "Sandra Hunter",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5335",
+      "song_id": 5335,
+      "title": "Cameraman's Lament",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 5336,
+      "artist_name": "Karla Moreno (R3K STRIKKA)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:12947",
+      "song_id": 12947,
+      "title": "Gather, Believers!",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 4625,
+      "artist_name": "Ming Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5335",
+      "target": "song:16720",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12947",
+      "target": "song:16720",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

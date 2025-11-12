@@ -1,0 +1,103 @@
+{
+  "person_id": 10000,
+  "name": "Julie Thompson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9999",
+      "song_id": 9999,
+      "title": "Lessons from the Winter Graveyard",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 10000,
+      "artist_name": "Julie Thompson",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11602",
+      "song_id": 11602,
+      "title": "The Twilight Spiral",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 10000,
+      "artist_name": "Julie Thompson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10142",
+      "song_id": 10142,
+      "title": "Harmony of Heartache",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 7774,
+      "artist_name": "Claudia Lee",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:11602",
+      "song_id": 11602,
+      "title": "The Twilight Spiral",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 7516,
+      "artist_name": "Laura Turner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11602",
+      "target": "song:9999",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10142",
+      "target": "song:9999",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

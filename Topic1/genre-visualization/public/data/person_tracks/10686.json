@@ -1,0 +1,56 @@
+{
+  "person_id": 10686,
+  "name": "Michael Hill",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10685",
+      "song_id": 10685,
+      "title": "Carols from the Forgotten Chapel",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 10686,
+      "artist_name": "Michael Hill",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9165",
+      "song_id": 9165,
+      "title": "Tracks of Forgotten Journeys",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 9166,
+      "artist_name": "Xia Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9165",
+      "target": "song:10685",
+      "type": "InStyleOf"
+    }
+  ]
+}

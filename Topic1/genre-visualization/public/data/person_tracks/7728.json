@@ -1,0 +1,130 @@
+{
+  "person_id": 7728,
+  "name": "Ian Foster",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7727",
+      "song_id": 7727,
+      "title": "Last Call for Heartache",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 7728,
+      "artist_name": "Ian Foster",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13615",
+      "song_id": 13615,
+      "title": "Walls I've Built",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 7728,
+      "artist_name": "Ian Foster",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13615",
+      "song_id": 13615,
+      "title": "Walls I've Built",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 872,
+      "artist_name": "Marina Acedo Montaña",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:871",
+      "song_id": 871,
+      "title": "Confident Whispers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 872,
+      "artist_name": "Marina Acedo Montaña",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:12751",
+      "song_id": 12751,
+      "title": "Echoes of Suffering's Symphony",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 12753,
+      "artist_name": "Jason Robles",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12751",
+      "target": "song:13615",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13615",
+      "target": "song:7727",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:871",
+      "target": "song:13615",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

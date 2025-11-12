@@ -1,0 +1,83 @@
+{
+  "person_id": 10036,
+  "name": "Xiulan Gong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10035",
+      "song_id": 10035,
+      "title": "Whispers from the Ecclesiastical Shadows",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 10036,
+      "artist_name": "Xiulan Gong",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1680",
+      "song_id": 1680,
+      "title": "Riddle of the Frozen Princess",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1683,
+      "artist_name": "Jing Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:7584",
+      "song_id": 7584,
+      "title": "Riverside Echoes of Jaguaribe",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 7587,
+      "artist_name": "Xia Qiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7584",
+      "target": "song:10035",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1680",
+      "target": "song:10035",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 28,
+  "name": "Tracy Simpson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:26",
+      "song_id": 26,
+      "title": "Clean Lungs, Clear Mind",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 28,
+      "artist_name": "Tracy Simpson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11236",
+      "song_id": 11236,
+      "title": "Unbroken Promise",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 30,
+      "artist_name": "Megan Bennett",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11236",
+      "target": "song:26",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

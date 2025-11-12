@@ -1,0 +1,110 @@
+{
+  "person_id": 3170,
+  "name": "Fulvio Comisso",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3168",
+      "song_id": 3168,
+      "title": "Shared Shadows",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 3170,
+      "artist_name": "Fulvio Comisso",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1156",
+      "song_id": 1156,
+      "title": "Loving Myself First",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 1157,
+      "artist_name": "Lei Feng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:2260",
+      "song_id": 2260,
+      "title": "Inherited Arguments",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2261,
+      "artist_name": "Chao Gao (Solar Arcadia)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3362",
+      "target": "song:3168",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1156",
+      "target": "song:3168",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:2260",
+      "target": "song:3168",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 4157,
+  "name": "Sarah Banks",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4155",
+      "song_id": 4155,
+      "title": "Debt's Symphony",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 4157,
+      "artist_name": "Sarah Banks",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:787",
+      "song_id": 787,
+      "title": "Soft Echoes of Comfort",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 789,
+      "artist_name": "Mark Shepard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:787",
+      "target": "song:4155",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

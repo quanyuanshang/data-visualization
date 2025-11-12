@@ -1,0 +1,162 @@
+{
+  "person_id": 5542,
+  "name": "Xiulan Cai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5540",
+      "song_id": 5540,
+      "title": "Quiet Communion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 5542,
+      "artist_name": "Xiulan Cai",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13708",
+      "song_id": 13708,
+      "title": "Charming",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 5542,
+      "artist_name": "Xiulan Cai",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8653",
+      "song_id": 8653,
+      "title": "Lyrical Breath",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 5542,
+      "artist_name": "Xiulan Cai",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8359",
+      "song_id": 8359,
+      "title": "Compulsion's Siren Call",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 3835,
+      "artist_name": "Tao Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples",
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:8653",
+      "song_id": 8653,
+      "title": "Lyrical Breath",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 5542,
+      "artist_name": "Xiulan Cai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:13708",
+      "song_id": 13708,
+      "title": "Charming",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 3835,
+      "artist_name": "Tao Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8359",
+      "target": "song:8653",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:8359",
+      "target": "song:5540",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8653",
+      "target": "song:13708",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13708",
+      "target": "song:5540",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8653",
+      "target": "song:5540",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

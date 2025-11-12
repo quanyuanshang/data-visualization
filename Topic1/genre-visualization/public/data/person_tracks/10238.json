@@ -1,0 +1,83 @@
+{
+  "person_id": 10238,
+  "name": "Erika Austin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10236",
+      "song_id": 10236,
+      "title": "Stämmans Valzer: Intimt med Piano",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 10238,
+      "artist_name": "Erika Austin",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3644",
+      "song_id": 3644,
+      "title": "Back Up Off Me",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": false,
+      "artist_id": 2668,
+      "artist_name": "Ping Tian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:9239",
+      "song_id": 9239,
+      "title": "Horizon's Aftermath",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 30,
+      "artist_name": "Megan Bennett",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9239",
+      "target": "song:10236",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3644",
+      "target": "song:10236",
+      "type": "CoverOf"
+    }
+  ]
+}

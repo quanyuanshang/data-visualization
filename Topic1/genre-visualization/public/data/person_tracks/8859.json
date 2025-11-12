@@ -1,0 +1,83 @@
+{
+  "person_id": 8859,
+  "name": "Ryan Mcguire",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8858",
+      "song_id": 8858,
+      "title": "Chromatic Reflections on a Theme",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 8859,
+      "artist_name": "Ryan Mcguire",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12138",
+      "song_id": 12138,
+      "title": "Unbreakable Divine Shelter",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 9593,
+      "artist_name": "Chao Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:13135",
+      "song_id": 13135,
+      "title": "Spellbound Shadows",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 13137,
+      "artist_name": "Jun Yu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12138",
+      "target": "song:8858",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13135",
+      "target": "song:8858",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

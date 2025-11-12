@@ -1,0 +1,56 @@
+{
+  "person_id": 3564,
+  "name": "Jillian Crane",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3562",
+      "song_id": 3562,
+      "title": "Fragments of Introspection",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 3564,
+      "artist_name": "Jillian Crane",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11369",
+      "song_id": 11369,
+      "title": "Down the Hatch",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 3563,
+      "artist_name": "Robert Lynn ( RVGE)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11369",
+      "target": "song:3562",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "person_id": 3300,
+  "name": "Anthony King",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15458",
+      "song_id": 15458,
+      "title": "Two Dollar Redemption",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 3300,
+      "artist_name": "Anthony King",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3291",
+      "song_id": 3291,
+      "title": "Moham Valai (Desire's Web)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 3300,
+      "artist_name": "Anthony King",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12535",
+      "song_id": 12535,
+      "title": "Whispers from the Fifty States",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 12536,
+      "artist_name": "Monica Coleman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12535",
+      "target": "song:3291",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

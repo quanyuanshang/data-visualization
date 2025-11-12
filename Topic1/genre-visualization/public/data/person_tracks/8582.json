@@ -1,0 +1,56 @@
+{
+  "person_id": 8582,
+  "name": "Manon Voisin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8581",
+      "song_id": 8581,
+      "title": "Sunset on the Tractor Row",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2001,
+      "single": true,
+      "own": true,
+      "artist_id": 8582,
+      "artist_name": "Manon Voisin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8695",
+      "song_id": 8695,
+      "title": "Beyond My Doorstep",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 8585,
+      "artist_name": "Michel Meyer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8695",
+      "target": "song:8581",
+      "type": "CoverOf"
+    }
+  ]
+}

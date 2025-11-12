@@ -1,0 +1,56 @@
+{
+  "person_id": 2730,
+  "name": "Maurycy Bohdanowicz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2729",
+      "song_id": 2729,
+      "title": "No Limits, No Rules",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 2730,
+      "artist_name": "Maurycy Bohdanowicz",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:781",
+      "song_id": 781,
+      "title": "Lullaby of Gentle Hands",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 782,
+      "artist_name": "Sara Seguí Vallés",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:781",
+      "target": "song:2729",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "person_id": 1581,
+  "name": "Alexandra Sauer-Ditschlerin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1571",
+      "song_id": 1571,
+      "title": "Twilight's Harmonic Descent",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 1581,
+      "artist_name": "Alexandra Sauer-Ditschlerin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7517",
+      "song_id": 7517,
+      "title": "Converging Currents of the Heart",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 1581,
+      "artist_name": "Alexandra Sauer-Ditschlerin",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4718",
+      "song_id": 4718,
+      "title": "Twilight's Whisper",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 4719,
+      "artist_name": "Krystal Reese ( Leo III)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6142",
+      "song_id": 6142,
+      "title": "Lunar Lament",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 6144,
+      "artist_name": "Terry Harris",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1571",
+      "target": "song:7517",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6142",
+      "target": "song:7517",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:4718",
+      "target": "song:7517",
+      "type": "InStyleOf"
+    }
+  ]
+}

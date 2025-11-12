@@ -1,0 +1,56 @@
+{
+  "person_id": 12319,
+  "name": "Mary Freeman",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12316",
+      "song_id": 12316,
+      "title": "Rhythm of Us",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 12319,
+      "artist_name": "Mary Freeman",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17010",
+      "song_id": 17010,
+      "title": "Paper Sunsets",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2033,
+      "single": true,
+      "own": false,
+      "artist_id": 17004,
+      "artist_name": "Willow Sage (Horizon Fable)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17010",
+      "target": "song:12316",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

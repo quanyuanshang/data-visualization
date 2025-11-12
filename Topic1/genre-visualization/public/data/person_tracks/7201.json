@@ -1,0 +1,110 @@
+{
+  "person_id": 7201,
+  "name": "Xia Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7197",
+      "song_id": 7197,
+      "title": "Invisible Hands Reaching",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 7201,
+      "artist_name": "Xia Zeng",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12410",
+      "song_id": 12410,
+      "title": "The Unfolding Identity",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 405,
+      "artist_name": "Leyla Graf-Gotthard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:14868",
+      "song_id": 14868,
+      "title": "Whispers in Triplicate",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 14869,
+      "artist_name": "Wei Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:15962",
+      "song_id": 15962,
+      "title": "Harmonic Fragments of Memory",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 15963,
+      "artist_name": "Matthew Tran",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12410",
+      "target": "song:7197",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15962",
+      "target": "song:7197",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14868",
+      "target": "song:7197",
+      "type": "InStyleOf"
+    }
+  ]
+}

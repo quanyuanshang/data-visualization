@@ -1,0 +1,83 @@
+{
+  "person_id": 11867,
+  "name": "Catherine Bolton",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11866",
+      "song_id": 11866,
+      "title": "Tales from the Pavilion",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 11867,
+      "artist_name": "Catherine Bolton",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3559",
+      "song_id": 3559,
+      "title": "Emotional Landscapes",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 3560,
+      "artist_name": "Hans-Joachim Seip",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:10135",
+      "song_id": 10135,
+      "title": "Another Year Unfolding",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 10137,
+      "artist_name": "Olaf Dymarczyk",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3559",
+      "target": "song:11866",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10135",
+      "target": "song:11866",
+      "type": "InStyleOf"
+    }
+  ]
+}

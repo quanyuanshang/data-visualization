@@ -1,0 +1,110 @@
+{
+  "person_id": 7158,
+  "name": "Bartek Krzysiek",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7157",
+      "song_id": 7157,
+      "title": "Salt and Silence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 7158,
+      "artist_name": "Bartek Krzysiek",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3859",
+      "song_id": 3859,
+      "title": "The Eternal Tributary",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 3860,
+      "artist_name": "Folkert Schmidtke (Abyssal Cadence)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:9647",
+      "song_id": 9647,
+      "title": "Vivace: Bright Horizons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": true,
+      "own": false,
+      "artist_id": 2080,
+      "artist_name": "Ellen Ford",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:11363",
+      "song_id": 11363,
+      "title": "Fragile Wounds of Passion",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 6948,
+      "artist_name": "Lori Hall",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3859",
+      "target": "song:7157",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:9647",
+      "target": "song:7157",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:11363",
+      "target": "song:7157",
+      "type": "InStyleOf"
+    }
+  ]
+}

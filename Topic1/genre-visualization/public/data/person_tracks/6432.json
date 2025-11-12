@@ -1,0 +1,83 @@
+{
+  "person_id": 6432,
+  "name": "Yang Dai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6428",
+      "song_id": 6428,
+      "title": "Echoes of Joy",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 6432,
+      "artist_name": "Yang Dai",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11808",
+      "song_id": 11808,
+      "title": "Negotiator's Lament",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 11809,
+      "artist_name": "April Mills (THE MVRK)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:13260",
+      "song_id": 13260,
+      "title": "Whispers of Harvest Stillness",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1073,
+      "artist_name": "Xiulan Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11808",
+      "target": "song:6428",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:13260",
+      "target": "song:6428",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 15842,
+  "name": "Jacob Grimes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15841",
+      "song_id": 15841,
+      "title": "Transformed Tonight",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 15842,
+      "artist_name": "Jacob Grimes",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12602",
+      "song_id": 12602,
+      "title": "Moonlight on Mishka's Tears",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 8851,
+      "artist_name": "Jun Xiang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12602",
+      "target": "song:15841",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

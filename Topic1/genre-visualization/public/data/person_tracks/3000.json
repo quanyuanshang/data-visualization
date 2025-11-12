@@ -1,0 +1,103 @@
+{
+  "person_id": 3000,
+  "name": "Kenan Reichmann",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2996",
+      "song_id": 2996,
+      "title": "Chamber of Forgotten Echoes",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 3000,
+      "artist_name": "Kenan Reichmann",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6560",
+      "song_id": 6560,
+      "title": "Estrategia del Corazón (Strategy of the Heart)",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 3000,
+      "artist_name": "Kenan Reichmann",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4821",
+      "song_id": 4821,
+      "title": "Single-Handed Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 4822,
+      "artist_name": "John Rivera (Hollow Reverberation)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:6560",
+      "song_id": 6560,
+      "title": "Estrategia del Corazón (Strategy of the Heart)",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2998,
+      "artist_name": "Karl-Friedrich auch Schlauchin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6560",
+      "target": "song:2996",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4821",
+      "target": "song:2996",
+      "type": "CoverOf"
+    }
+  ]
+}

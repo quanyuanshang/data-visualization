@@ -1,0 +1,56 @@
+{
+  "person_id": 15232,
+  "name": "Jun Zhou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15230",
+      "song_id": 15230,
+      "title": "Grönskande Gryning (Verdant Dawn)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 15232,
+      "artist_name": "Jun Zhou",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1797",
+      "song_id": 1797,
+      "title": "Scandinavian Dreams",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1798,
+      "artist_name": "Ping Xia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1797",
+      "target": "song:15230",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

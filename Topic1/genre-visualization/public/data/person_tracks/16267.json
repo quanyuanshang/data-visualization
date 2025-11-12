@@ -1,0 +1,56 @@
+{
+  "person_id": 16267,
+  "name": "Tao Zhang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16264",
+      "song_id": 16264,
+      "title": "Ceremonial Footsteps",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 16267,
+      "artist_name": "Tao Zhang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10636",
+      "song_id": 10636,
+      "title": "Prophetic Shadows",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 3089,
+      "artist_name": "Ping Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10636",
+      "target": "song:16264",
+      "type": "CoverOf"
+    }
+  ]
+}

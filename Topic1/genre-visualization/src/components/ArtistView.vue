@@ -137,7 +137,7 @@ const props = defineProps({
 })
 
 // ==================== Emits ====================
-const emit = defineEmits(['go-back', 'page-change'])
+const emit = defineEmits(['go-back', 'page-change', 'view-tracks'])
 
 // ==================== 响应式数据 ====================
 const containerRef = ref(null)
@@ -154,6 +154,7 @@ const artistNodes = ref([])
 /**
  * 获取流派的颜色（与 GenreView 中的颜色保持一致）
  */
+// 与流派视图共用的配色，按 genre 在数组中的索引映射
 const palette = [
   '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
   '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
@@ -173,6 +174,7 @@ function hashToColorIndex(name) {
 }
 
 const genreColor = computed(() => {
+  // 优先用父组件传入的 genre 列表找颜色，fallback 到 hash 颜色
   const available = Array.isArray(props.allGenres) && props.allGenres.length
     ? props.allGenres
     : []
@@ -322,7 +324,8 @@ function initForceSimulation() {
  */
 function handleArtistClick(artist) {
   console.log(`[ArtistView] 点击音乐人: ${artist.name}, 分数: ${artist.score}`)
-  // 可以在这里添加更多交互，比如显示详细信息面板
+  // 通知父组件切换至第三层单曲视图
+  emit('view-tracks', artist)
 }
 
 /**

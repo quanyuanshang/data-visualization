@@ -1,0 +1,56 @@
+{
+  "person_id": 14312,
+  "name": "Beverly Lloyd",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14311",
+      "song_id": 14311,
+      "title": "Silent Monuments",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 14312,
+      "artist_name": "Beverly Lloyd",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6406",
+      "song_id": 6406,
+      "title": "Celestial Whispers: Ninth Ecclesiastical Composition",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 1563,
+      "artist_name": "Michael Snow",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6406",
+      "target": "song:14311",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

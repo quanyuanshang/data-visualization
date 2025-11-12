@@ -1,0 +1,110 @@
+{
+  "person_id": 14991,
+  "name": "Tamara Brown",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14989",
+      "song_id": 14989,
+      "title": "Uh-Huh Uh-Huh",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 14991,
+      "artist_name": "Tamara Brown",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:176",
+      "song_id": 176,
+      "title": "Faded Ribbons and Childhood Dreams",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 177,
+      "artist_name": "Jie Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:7918",
+      "song_id": 7918,
+      "title": "Liberty's Complicated Heartbeat",
+      "genre": "Darkwave",
+      "notable": false,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 178,
+      "artist_name": "Li Mo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15430",
+      "song_id": 15430,
+      "title": "Tangled Hearts in Motion",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 5750,
+      "artist_name": "Dominique Ramos",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:176",
+      "target": "song:14989",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:15430",
+      "target": "song:14989",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7918",
+      "target": "song:14989",
+      "type": "CoverOf"
+    }
+  ]
+}

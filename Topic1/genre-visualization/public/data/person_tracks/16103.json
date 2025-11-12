@@ -1,0 +1,83 @@
+{
+  "person_id": 16103,
+  "name": "Gang Shen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16101",
+      "song_id": 16101,
+      "title": "Borderless Heart",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 16103,
+      "artist_name": "Gang Shen",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10215",
+      "song_id": 10215,
+      "title": "Whispers Across the Water",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 10216,
+      "artist_name": "Gang Sun",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:15776",
+      "song_id": 15776,
+      "title": "Hands of Fragrant Memory",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 1275,
+      "artist_name": "Gang Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10215",
+      "target": "song:16101",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15776",
+      "target": "song:16101",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 15660,
+  "name": "Gabriel Silva",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15658",
+      "song_id": 15658,
+      "title": "The Truth Between the Lines",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2016,
+      "single": true,
+      "own": true,
+      "artist_id": 15660,
+      "artist_name": "Gabriel Silva",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11018",
+      "song_id": 11018,
+      "title": "Echoes of Epochs",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 11019,
+      "artist_name": "James Ellis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11018",
+      "target": "song:15658",
+      "type": "DirectlySamples"
+    }
+  ]
+}

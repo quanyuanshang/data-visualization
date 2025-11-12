@@ -1,0 +1,56 @@
+{
+  "person_id": 11226,
+  "name": "Brandon Griffith",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11225",
+      "song_id": 11225,
+      "title": "Beethoven's Unheard Conversation",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 11226,
+      "artist_name": "Brandon Griffith",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8604",
+      "song_id": 8604,
+      "title": "Radiant Silhouette",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1716,
+      "artist_name": "Kimberly Snyder ( Slate)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8604",
+      "target": "song:11225",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

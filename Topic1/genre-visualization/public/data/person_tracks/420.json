@@ -1,0 +1,56 @@
+{
+  "person_id": 420,
+  "name": "Jasmine Thompson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:419",
+      "song_id": 419,
+      "title": "Crimson Birthright",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 1994,
+      "single": true,
+      "own": true,
+      "artist_id": 420,
+      "artist_name": "Jasmine Thompson",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13480",
+      "song_id": 13480,
+      "title": "Fault Lines of the Heart",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 5382,
+      "artist_name": "Yong Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13480",
+      "target": "song:419",
+      "type": "DirectlySamples"
+    }
+  ]
+}

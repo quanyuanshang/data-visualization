@@ -1,0 +1,83 @@
+{
+  "person_id": 8612,
+  "name": "Cody Turner",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8604",
+      "song_id": 8604,
+      "title": "Radiant Silhouette",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 8612,
+      "artist_name": "Cody Turner",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17003",
+      "song_id": 17003,
+      "title": "The Road Calls Again",
+      "genre": "Americana",
+      "notable": false,
+      "release_year": 2033,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:17117",
+      "song_id": 17117,
+      "title": "Farewell to the Fading Sun",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2035,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17003",
+      "target": "song:8604",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:17117",
+      "target": "song:8604",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

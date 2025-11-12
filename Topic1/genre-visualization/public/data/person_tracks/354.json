@@ -1,0 +1,56 @@
+{
+  "person_id": 354,
+  "name": "Qiang Zheng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:349",
+      "song_id": 349,
+      "title": "Rhythms of a Lingering Love",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 354,
+      "artist_name": "Qiang Zheng",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:491",
+      "song_id": 491,
+      "title": "After the Frost Surrenders",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 492,
+      "artist_name": "Yang Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:491",
+      "target": "song:349",
+      "type": "DirectlySamples"
+    }
+  ]
+}

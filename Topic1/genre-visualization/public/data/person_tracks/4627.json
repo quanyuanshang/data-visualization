@@ -1,0 +1,56 @@
+{
+  "person_id": 4627,
+  "name": "Lukas Waltrade Walderade-van Dam",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4626",
+      "song_id": 4626,
+      "title": "Whispers of the Wild Meridian",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 4627,
+      "artist_name": "Lukas Waltrade Walderade-van Dam",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9992",
+      "song_id": 9992,
+      "title": "Shadows in Suspended Animation",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 4419,
+      "artist_name": "Meike van Boven",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9992",
+      "target": "song:4626",
+      "type": "CoverOf"
+    }
+  ]
+}

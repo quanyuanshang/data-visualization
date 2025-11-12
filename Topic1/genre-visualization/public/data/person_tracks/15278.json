@@ -1,0 +1,56 @@
+{
+  "person_id": 15278,
+  "name": "James Hopkins",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15276",
+      "song_id": 15276,
+      "title": "Regal Shadows of the Castle",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 15278,
+      "artist_name": "James Hopkins",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9545",
+      "song_id": 9545,
+      "title": "Arrival of the Cherished Stranger",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 7233,
+      "artist_name": "Kenneth Crosby",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9545",
+      "target": "song:15276",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

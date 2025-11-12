@@ -1,0 +1,56 @@
+{
+  "person_id": 2801,
+  "name": "Terrance Velazquez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2800",
+      "song_id": 2800,
+      "title": "Backward Momentum",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 2801,
+      "artist_name": "Terrance Velazquez",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7204",
+      "song_id": 7204,
+      "title": "Whispers of a Fleeting Gaze",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 7206,
+      "artist_name": "Kristin Shepard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7204",
+      "target": "song:2800",
+      "type": "CoverOf"
+    }
+  ]
+}

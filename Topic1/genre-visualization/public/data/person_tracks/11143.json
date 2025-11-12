@@ -1,0 +1,137 @@
+{
+  "person_id": 11143,
+  "name": "Anita Parada",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11142",
+      "song_id": 11142,
+      "title": "Pivot Point",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1992,
+      "single": true,
+      "own": true,
+      "artist_id": 11143,
+      "artist_name": "Anita Parada",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5361",
+      "song_id": 5361,
+      "title": "Echoes of Adoration",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5362,
+      "artist_name": "Yong Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:8209",
+      "song_id": 8209,
+      "title": "Pale Silhouettes",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:8949",
+      "song_id": 8949,
+      "title": "The Silent Paths of Rosvina",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 8950,
+      "artist_name": "Carolyn Donovan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:11878",
+      "song_id": 11878,
+      "title": "Glowing Connection",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 5362,
+      "artist_name": "Yong Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5361",
+      "target": "song:11142",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8209",
+      "target": "song:11142",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11878",
+      "target": "song:11142",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8949",
+      "target": "song:11142",
+      "type": "DirectlySamples"
+    }
+  ]
+}

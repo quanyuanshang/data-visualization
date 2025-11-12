@@ -1,0 +1,56 @@
+{
+  "person_id": 8690,
+  "name": "Jasmine Hammond",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8688",
+      "song_id": 8688,
+      "title": "The Radius of Compassion",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 8690,
+      "artist_name": "Jasmine Hammond",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7575",
+      "song_id": 7575,
+      "title": "Blood and Harmony",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 7576,
+      "artist_name": "Isabella Johnson ( Bella Nova)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7575",
+      "target": "song:8688",
+      "type": "CoverOf"
+    }
+  ]
+}

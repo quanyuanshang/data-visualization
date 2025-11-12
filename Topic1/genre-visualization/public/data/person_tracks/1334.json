@@ -1,0 +1,110 @@
+{
+  "person_id": 1334,
+  "name": "Arthur Sparks",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1333",
+      "song_id": 1333,
+      "title": "Blossoming Smiles",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 1334,
+      "artist_name": "Arthur Sparks",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5216",
+      "song_id": 5216,
+      "title": "Twilight's Gypsy Memories",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 686,
+      "artist_name": "Yang Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14429",
+      "song_id": 14429,
+      "title": "Sweethearts of the Midwest",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 3098,
+      "artist_name": "Ping Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16584",
+      "song_id": 16584,
+      "title": "Byte by Byte",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 753,
+      "artist_name": "Lei Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5216",
+      "target": "song:1333",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14429",
+      "target": "song:1333",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16584",
+      "target": "song:1333",
+      "type": "InStyleOf"
+    }
+  ]
+}

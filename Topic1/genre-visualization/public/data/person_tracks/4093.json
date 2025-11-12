@@ -1,0 +1,114 @@
+{
+  "person_id": 4093,
+  "name": "Jerry Johnson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4090",
+      "song_id": 4090,
+      "title": "When My Thoughts Drift to Divine Mercy",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 4093,
+      "artist_name": "Jerry Johnson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7571",
+      "song_id": 7571,
+      "title": "Whispers of a Wounded Soul",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4093,
+      "artist_name": "Jerry Johnson",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4935",
+      "song_id": 4935,
+      "title": "Vintage Voices",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 4092,
+      "artist_name": "Brian Hughes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:4498",
+      "song_id": 4498,
+      "title": "Echoes of an Unlived Self",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 236,
+      "artist_name": "Kimberly Castillo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4498",
+      "target": "song:7571",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:4935",
+      "target": "song:7571",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:4935",
+      "target": "song:4090",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4090",
+      "target": "song:7571",
+      "type": "InStyleOf"
+    }
+  ]
+}

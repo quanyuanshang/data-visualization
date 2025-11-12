@@ -1,0 +1,83 @@
+{
+  "person_id": 13295,
+  "name": "Brandi Noble",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13287",
+      "song_id": 13287,
+      "title": "The Worthy Price",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 13295,
+      "artist_name": "Brandi Noble",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:210",
+      "song_id": 210,
+      "title": "Luminous Path",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 211,
+      "artist_name": "Jing Han",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:6054",
+      "song_id": 6054,
+      "title": "Colorful Traditions",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1304,
+      "artist_name": "Rüdiger Graf",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:210",
+      "target": "song:13287",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6054",
+      "target": "song:13287",
+      "type": "CoverOf"
+    }
+  ]
+}

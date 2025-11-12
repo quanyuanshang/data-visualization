@@ -1,0 +1,81 @@
+{
+  "person_id": 1875,
+  "name": "Jing Ding",
+  "stage_name": "Solara",
+  "nodes": [
+    {
+      "id": "song:1874",
+      "song_id": 1874,
+      "title": "Dusty Miles",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 1875,
+      "artist_name": "Jing Ding (Solara)",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16582",
+      "song_id": 16582,
+      "title": "Drowning in Denial",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 1875,
+      "artist_name": "Jing Ding (Solara)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3580",
+      "song_id": 3580,
+      "title": "Shadows of Unexpressed Feelings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 3581,
+      "artist_name": "Jun Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1874",
+      "target": "song:16582",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3580",
+      "target": "song:1874",
+      "type": "InStyleOf"
+    }
+  ]
+}

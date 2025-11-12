@@ -1,0 +1,56 @@
+{
+  "person_id": 15401,
+  "name": "Dana Martin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15398",
+      "song_id": 15398,
+      "title": "Wildflowers and Wandering Souls",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 15401,
+      "artist_name": "Dana Martin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6820",
+      "song_id": 6820,
+      "title": "Azure Escape",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 6821,
+      "artist_name": "Debra Avery",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6820",
+      "target": "song:15398",
+      "type": "CoverOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 9828,
+  "name": "Allison Harris",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9827",
+      "song_id": 9827,
+      "title": "Evighetens Sång (Song of Eternity)",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 9828,
+      "artist_name": "Allison Harris",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11439",
+      "song_id": 11439,
+      "title": "Carmela's Midnight Dance",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 11441,
+      "artist_name": "Hannah Richard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11439",
+      "target": "song:9827",
+      "type": "InStyleOf"
+    }
+  ]
+}

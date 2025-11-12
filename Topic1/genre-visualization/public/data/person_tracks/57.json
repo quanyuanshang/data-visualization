@@ -1,0 +1,81 @@
+{
+  "person_id": 57,
+  "name": "Miki Miura",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:54",
+      "song_id": 54,
+      "title": "Starlight's Sorcerer",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 57,
+      "artist_name": "Miki Miura",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7713",
+      "song_id": 7713,
+      "title": "Whiskey's Silent Witness",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1996,
+      "single": true,
+      "own": true,
+      "artist_id": 57,
+      "artist_name": "Miki Miura",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14344",
+      "song_id": 14344,
+      "title": "Captured Silence",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 56,
+      "artist_name": "Asuka Takahashi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14344",
+      "target": "song:7713",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:54",
+      "target": "song:7713",
+      "type": "DirectlySamples"
+    }
+  ]
+}

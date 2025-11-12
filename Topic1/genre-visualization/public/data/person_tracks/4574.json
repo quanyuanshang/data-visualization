@@ -1,0 +1,156 @@
+{
+  "person_id": 4574,
+  "name": "Margit Sölzer",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11640",
+      "song_id": 11640,
+      "title": "Echoes of Faded Sweetness",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 4574,
+      "artist_name": "Margit Sölzer",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4571",
+      "song_id": 4571,
+      "title": "Healing Hours",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 4574,
+      "artist_name": "Margit Sölzer",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4613",
+      "song_id": 4613,
+      "title": "Dancing Between the Oompah Notes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 4574,
+      "artist_name": "Margit Sölzer",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4571",
+      "song_id": 4571,
+      "title": "Healing Hours",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 4572,
+      "artist_name": "Janna Jäkel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:4613",
+      "song_id": 4613,
+      "title": "Dancing Between the Oompah Notes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 4572,
+      "artist_name": "Janna Jäkel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples",
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:17344",
+      "song_id": 17344,
+      "title": "Riding the Moon's Reflection",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 17340,
+      "artist_name": "Orla Seabloom",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17344",
+      "target": "song:4613",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4613",
+      "target": "song:11640",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4613",
+      "target": "song:4571",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:4571",
+      "target": "song:11640",
+      "type": "CoverOf"
+    }
+  ]
+}

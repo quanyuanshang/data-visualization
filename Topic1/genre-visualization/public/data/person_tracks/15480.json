@@ -1,0 +1,56 @@
+{
+  "person_id": 15480,
+  "name": "Jayan Chandran",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15478",
+      "song_id": 15478,
+      "title": "The Unspoken Truth",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 15480,
+      "artist_name": "Jayan Chandran",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8703",
+      "song_id": 8703,
+      "title": "Gallery of Echoes",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 8704,
+      "artist_name": "George Lloyd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8703",
+      "target": "song:15478",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

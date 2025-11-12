@@ -1,0 +1,56 @@
+{
+  "person_id": 5791,
+  "name": "Ming Fan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5790",
+      "song_id": 5790,
+      "title": "Riverside Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 5791,
+      "artist_name": "Ming Fan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16211",
+      "song_id": 16211,
+      "title": "Phantom Heartstrings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2326,
+      "artist_name": "Dominic Phillips",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16211",
+      "target": "song:5790",
+      "type": "InStyleOf"
+    }
+  ]
+}

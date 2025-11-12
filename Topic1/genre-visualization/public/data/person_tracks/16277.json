@@ -1,0 +1,83 @@
+{
+  "person_id": 16277,
+  "name": "Lei Wei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16276",
+      "song_id": 16276,
+      "title": "Perimeter",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 16277,
+      "artist_name": "Lei Wei",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11130",
+      "song_id": 11130,
+      "title": "Denali's Whisper",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 11131,
+      "artist_name": "Li Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:14047",
+      "song_id": 14047,
+      "title": "Montmartre Petals",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 4753,
+      "artist_name": "Bartek Krężołek ( Neon Ghost)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14047",
+      "target": "song:16276",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11130",
+      "target": "song:16276",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

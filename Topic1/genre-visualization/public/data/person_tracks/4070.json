@@ -1,0 +1,56 @@
+{
+  "person_id": 4070,
+  "name": "Michel Pichon",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4069",
+      "song_id": 4069,
+      "title": "Juliet's Fever",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1993,
+      "single": false,
+      "own": true,
+      "artist_id": 4070,
+      "artist_name": "Michel Pichon",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10309",
+      "song_id": 10309,
+      "title": "Flickering Flames of Romance",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 633,
+      "artist_name": "Guiying Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10309",
+      "target": "song:4069",
+      "type": "CoverOf"
+    }
+  ]
+}

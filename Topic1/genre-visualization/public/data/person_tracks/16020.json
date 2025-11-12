@@ -1,0 +1,83 @@
+{
+  "person_id": 16020,
+  "name": "Gang Liang",
+  "stage_name": "Orionis",
+  "nodes": [
+    {
+      "id": "song:16019",
+      "song_id": 16019,
+      "title": "Ephemeral Strings, Eternal Echoes",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 16020,
+      "artist_name": "Gang Liang (Orionis)",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14039",
+      "song_id": 14039,
+      "title": "Cobblestone Whispers",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 14041,
+      "artist_name": "Yong Cheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14187",
+      "song_id": 14187,
+      "title": "Definitions of Together",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2980,
+      "artist_name": "Min Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14039",
+      "target": "song:16019",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14187",
+      "target": "song:16019",
+      "type": "CoverOf"
+    }
+  ]
+}

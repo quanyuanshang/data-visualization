@@ -1,0 +1,83 @@
+{
+  "person_id": 4995,
+  "name": "Carmine Harloff",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4992",
+      "song_id": 4992,
+      "title": "Carnival's Pulse",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 4995,
+      "artist_name": "Carmine Harloff",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13727",
+      "song_id": 13727,
+      "title": "Indiana Heartache",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 10917,
+      "artist_name": "Bryan Garcia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:15135",
+      "song_id": 15135,
+      "title": "Martyrdom's Embrace",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 4940,
+      "artist_name": "Alicia Heinz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13727",
+      "target": "song:4992",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15135",
+      "target": "song:4992",
+      "type": "CoverOf"
+    }
+  ]
+}

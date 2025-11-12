@@ -1,0 +1,81 @@
+{
+  "person_id": 7829,
+  "name": "Whitney Taylor",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7828",
+      "song_id": 7828,
+      "title": "Fade to Immortal",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 7829,
+      "artist_name": "Whitney Taylor",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14505",
+      "song_id": 14505,
+      "title": "Call It Out Loud",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 7829,
+      "artist_name": "Whitney Taylor",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17351",
+      "song_id": 17351,
+      "title": "The Siren's Sigh",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": 17349,
+      "artist_name": "Beatrice Albright (Bea Azure)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17351",
+      "target": "song:14505",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:7828",
+      "target": "song:14505",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "person_id": 15639,
+  "name": "David Benson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15634",
+      "song_id": 15634,
+      "title": "Lighter Than Fear",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 15639,
+      "artist_name": "David Benson",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10861",
+      "song_id": 10861,
+      "title": "Electric Halo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1074,
+      "artist_name": "Jing Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:13346",
+      "song_id": 13346,
+      "title": "The Singular Clarinet's Lament",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 13347,
+      "artist_name": "Matthew Hill ( T.R. Black)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:16343",
+      "song_id": 16343,
+      "title": "Immortal Refrains",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 16344,
+      "artist_name": "Michael Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13346",
+      "target": "song:15634",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10861",
+      "target": "song:15634",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16343",
+      "target": "song:15634",
+      "type": "InStyleOf"
+    }
+  ]
+}

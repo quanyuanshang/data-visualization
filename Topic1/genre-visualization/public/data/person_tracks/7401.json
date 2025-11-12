@@ -1,0 +1,56 @@
+{
+  "person_id": 7401,
+  "name": "Juan Fu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7399",
+      "song_id": 7399,
+      "title": "Righteous Steps",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 7401,
+      "artist_name": "Juan Fu",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13705",
+      "song_id": 13705,
+      "title": "Sweet",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 4141,
+      "artist_name": "Ping Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13705",
+      "target": "song:7399",
+      "type": "CoverOf"
+    }
+  ]
+}

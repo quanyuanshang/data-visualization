@@ -1,0 +1,56 @@
+{
+  "person_id": 11402,
+  "name": "Jason Lopez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11400",
+      "song_id": 11400,
+      "title": "Whoa, Whoa! (Remix Edition)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1985,
+      "single": true,
+      "own": true,
+      "artist_id": 11402,
+      "artist_name": "Jason Lopez",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:581",
+      "song_id": 581,
+      "title": "Travel Plans (With You)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 582,
+      "artist_name": "Sophia Dippel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:581",
+      "target": "song:11400",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 10136,
+  "name": "Bianka Tabak",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10135",
+      "song_id": 10135,
+      "title": "Another Year Unfolding",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 10136,
+      "artist_name": "Bianka Tabak",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3559",
+      "song_id": 3559,
+      "title": "Emotional Landscapes",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 3560,
+      "artist_name": "Hans-Joachim Seip",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3559",
+      "target": "song:10135",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

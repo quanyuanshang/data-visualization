@@ -1,0 +1,56 @@
+{
+  "person_id": 8140,
+  "name": "Min Mo",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10704",
+      "song_id": 10704,
+      "title": "Prayers in Twilight",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 8140,
+      "artist_name": "Min Mo",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10142",
+      "song_id": 10142,
+      "title": "Harmony of Heartache",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 7774,
+      "artist_name": "Claudia Lee",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10142",
+      "target": "song:10704",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "person_id": 3226,
+  "name": "Jie Ding",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15574",
+      "song_id": 15574,
+      "title": "Shadows of a Forbidden Embrace",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 3226,
+      "artist_name": "Jie Ding",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13941",
+      "song_id": 13941,
+      "title": "Melody of Shared Understanding",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 3226,
+      "artist_name": "Jie Ding",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6218",
+      "song_id": 6218,
+      "title": "Echoes of Grace in Silent Moments",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 6219,
+      "artist_name": "Fang Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:3008",
+      "song_id": 3008,
+      "title": "Resonance Between Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 3009,
+      "artist_name": "Mark Garcia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3008",
+      "target": "song:13941",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15574",
+      "target": "song:13941",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6218",
+      "target": "song:15574",
+      "type": "InStyleOf"
+    }
+  ]
+}

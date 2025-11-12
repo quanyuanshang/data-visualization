@@ -1,0 +1,56 @@
+{
+  "person_id": 11908,
+  "name": "Alison Armstrong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11907",
+      "song_id": 11907,
+      "title": "Champagne and Pretense",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 11908,
+      "artist_name": "Alison Armstrong",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6108",
+      "song_id": 6108,
+      "title": "Pieces of a Puzzle",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 5762,
+      "artist_name": "William Knapp",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6108",
+      "target": "song:11907",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

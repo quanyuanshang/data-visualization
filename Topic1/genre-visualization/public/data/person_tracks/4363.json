@@ -1,0 +1,110 @@
+{
+  "person_id": 4363,
+  "name": "Troy Ruiz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4362",
+      "song_id": 4362,
+      "title": "Sussurri Della Notte (Whispers of the Night)",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 4363,
+      "artist_name": "Troy Ruiz",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:799",
+      "song_id": 799,
+      "title": "Sanctuary of Maternal Warmth",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 800,
+      "artist_name": "Qiang Lai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:2284",
+      "song_id": 2284,
+      "title": "Whispers of the Breeze",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2285,
+      "artist_name": "Brett Mcdonald",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12751",
+      "song_id": 12751,
+      "title": "Echoes of Suffering's Symphony",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 12753,
+      "artist_name": "Jason Robles",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:799",
+      "target": "song:4362",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:2284",
+      "target": "song:4362",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12751",
+      "target": "song:4362",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

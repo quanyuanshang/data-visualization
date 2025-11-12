@@ -1,0 +1,83 @@
+{
+  "person_id": 16709,
+  "name": "Li Gu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16707",
+      "song_id": 16707,
+      "title": "Tin Mining Blues",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 16709,
+      "artist_name": "Li Gu",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5021",
+      "song_id": 5021,
+      "title": "Patch Me Up, Henry",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1912,
+      "artist_name": "Yan Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:7133",
+      "song_id": 7133,
+      "title": "Flicker's Last Breath",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5021",
+      "target": "song:16707",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7133",
+      "target": "song:16707",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

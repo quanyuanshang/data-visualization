@@ -1,0 +1,56 @@
+{
+  "person_id": 2645,
+  "name": "Ming Yao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2641",
+      "song_id": 2641,
+      "title": "Generations of Stone",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 2645,
+      "artist_name": "Ming Yao",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3329",
+      "song_id": 3329,
+      "title": "Heartbreak in Slow Motion",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 2968,
+      "artist_name": "Gang Qin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3329",
+      "target": "song:2641",
+      "type": "InStyleOf"
+    }
+  ]
+}

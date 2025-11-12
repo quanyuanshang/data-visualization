@@ -1,0 +1,56 @@
+{
+  "person_id": 9224,
+  "name": "Joseph Ponce",
+  "stage_name": " THA PROPHET",
+  "nodes": [
+    {
+      "id": "song:9223",
+      "song_id": 9223,
+      "title": "Für uns alle zusammen",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 9224,
+      "artist_name": "Joseph Ponce ( THA PROPHET)",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6151",
+      "song_id": 6151,
+      "title": "Celestial Tears",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 6152,
+      "artist_name": "Vidur Dasgupta",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6151",
+      "target": "song:9223",
+      "type": "InStyleOf"
+    }
+  ]
+}

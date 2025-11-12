@@ -1,0 +1,56 @@
+{
+  "person_id": 14582,
+  "name": "Sharon Bray",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14580",
+      "song_id": 14580,
+      "title": "Matchstick Memories",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 14582,
+      "artist_name": "Sharon Bray",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9240",
+      "song_id": 9240,
+      "title": "Echoes of Survival",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 9242,
+      "artist_name": "Reyansh Bir",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9240",
+      "target": "song:14580",
+      "type": "CoverOf"
+    }
+  ]
+}

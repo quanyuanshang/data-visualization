@@ -1,0 +1,56 @@
+{
+  "person_id": 1936,
+  "name": "Lucas Aguilar",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1935",
+      "song_id": 1935,
+      "title": "Solitary Stride",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 1986,
+      "single": true,
+      "own": true,
+      "artist_id": 1936,
+      "artist_name": "Lucas Aguilar",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10935",
+      "song_id": 10935,
+      "title": "Fragments of a Forgotten Signal",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": false,
+      "artist_id": 2974,
+      "artist_name": "Ming Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10935",
+      "target": "song:1935",
+      "type": "DirectlySamples"
+    }
+  ]
+}

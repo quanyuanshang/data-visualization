@@ -1,0 +1,56 @@
+{
+  "person_id": 6925,
+  "name": "Katherine Olson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6920",
+      "song_id": 6920,
+      "title": "Whispers from Bethlehem",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 6925,
+      "artist_name": "Katherine Olson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1024",
+      "song_id": 1024,
+      "title": "Whispers from the Gold Rush",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 145,
+      "artist_name": "Adrien Charles",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1024",
+      "target": "song:6920",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

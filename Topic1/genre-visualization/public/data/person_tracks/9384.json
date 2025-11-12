@@ -1,0 +1,128 @@
+{
+  "person_id": 9384,
+  "name": "Paula Mercado",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12345",
+      "song_id": 12345,
+      "title": "Geisha's Midnight Melody",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1993,
+      "single": true,
+      "own": true,
+      "artist_id": 9384,
+      "artist_name": "Paula Mercado",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9382",
+      "song_id": 9382,
+      "title": "Eternal Chairman's March",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1984,
+      "single": false,
+      "own": true,
+      "artist_id": 9384,
+      "artist_name": "Paula Mercado",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13236",
+      "song_id": 13236,
+      "title": "Curiosity's Blind Spot",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1987,
+      "single": true,
+      "own": true,
+      "artist_id": 9384,
+      "artist_name": "Paula Mercado",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13236",
+      "song_id": 13236,
+      "title": "Curiosity's Blind Spot",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1987,
+      "single": true,
+      "own": true,
+      "artist_id": 9384,
+      "artist_name": "Paula Mercado",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:4204",
+      "song_id": 4204,
+      "title": "Crimson Revival",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": false,
+      "artist_id": 4205,
+      "artist_name": "Janna Holt",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13236",
+      "target": "song:9382",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12345",
+      "target": "song:9382",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4204",
+      "target": "song:13236",
+      "type": "CoverOf"
+    }
+  ]
+}

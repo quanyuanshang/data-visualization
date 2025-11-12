@@ -1,0 +1,56 @@
+{
+  "person_id": 3103,
+  "name": "Nicole Yoder",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3100",
+      "song_id": 3100,
+      "title": "Phantom Ring Tone",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": true,
+      "artist_id": 3103,
+      "artist_name": "Nicole Yoder",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10562",
+      "song_id": 10562,
+      "title": "Unheard Lamentations",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 10564,
+      "artist_name": "Daniel Aubert-Brunet",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10562",
+      "target": "song:3100",
+      "type": "InStyleOf"
+    }
+  ]
+}

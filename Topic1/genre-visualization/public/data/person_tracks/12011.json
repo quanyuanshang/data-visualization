@@ -1,0 +1,137 @@
+{
+  "person_id": 12011,
+  "name": "Shray Agarwal",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12010",
+      "song_id": 12010,
+      "title": "William's Victorious Path",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 12011,
+      "artist_name": "Shray Agarwal",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2549",
+      "song_id": 2549,
+      "title": "Island Time Suspension",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 2550,
+      "artist_name": "Kashvi Keer (S-KRIPTA)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:10698",
+      "song_id": 10698,
+      "title": "Whispers of the Armenian Heart",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2014,
+      "single": false,
+      "own": false,
+      "artist_id": 8802,
+      "artist_name": "Anya Krishnan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:14749",
+      "song_id": 14749,
+      "title": "Whispers About Wendy",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 2552,
+      "artist_name": "Vidur Kapadia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:15633",
+      "song_id": 15633,
+      "title": "Calm in the Chaos",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 2552,
+      "artist_name": "Vidur Kapadia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2549",
+      "target": "song:12010",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14749",
+      "target": "song:12010",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10698",
+      "target": "song:12010",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15633",
+      "target": "song:12010",
+      "type": "InStyleOf"
+    }
+  ]
+}

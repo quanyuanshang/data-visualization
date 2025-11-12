@@ -1,0 +1,83 @@
+{
+  "person_id": 11570,
+  "name": "Gang Yao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11569",
+      "song_id": 11569,
+      "title": "Breaking Rational",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2008,
+      "single": true,
+      "own": true,
+      "artist_id": 11570,
+      "artist_name": "Gang Yao",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2879",
+      "song_id": 2879,
+      "title": "Waltz of the Kremlin",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 2880,
+      "artist_name": "Yong Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12867",
+      "song_id": 12867,
+      "title": "Pulse of Desire",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 12868,
+      "artist_name": "Ninetta Spinelli",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2879",
+      "target": "song:11569",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12867",
+      "target": "song:11569",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

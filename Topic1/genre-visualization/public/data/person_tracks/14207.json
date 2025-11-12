@@ -1,0 +1,83 @@
+{
+  "person_id": 14207,
+  "name": "Melinda Austin",
+  "stage_name": "Marcus Lane",
+  "nodes": [
+    {
+      "id": "song:14206",
+      "song_id": 14206,
+      "title": "Distant Melodies",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 14207,
+      "artist_name": "Melinda Austin (Marcus Lane)",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3782",
+      "song_id": 3782,
+      "title": "Echoes of Solitude",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 3784,
+      "artist_name": "Yong Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:8068",
+      "song_id": 8068,
+      "title": "Limitless Cadence",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 8069,
+      "artist_name": "Carrie Griffin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8068",
+      "target": "song:14206",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3782",
+      "target": "song:14206",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

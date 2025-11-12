@@ -1,0 +1,56 @@
+{
+  "person_id": 3090,
+  "name": "Tao Chen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3088",
+      "song_id": 3088,
+      "title": "Whispers Across the Distance",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": true,
+      "artist_id": 3090,
+      "artist_name": "Tao Chen",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13486",
+      "song_id": 13486,
+      "title": "Make America Squeaky Again",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1649,
+      "artist_name": "Lei He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13486",
+      "target": "song:3088",
+      "type": "CoverOf"
+    }
+  ]
+}

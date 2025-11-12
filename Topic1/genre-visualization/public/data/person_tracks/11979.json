@@ -1,0 +1,83 @@
+{
+  "person_id": 11979,
+  "name": "Jose Garrett",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11978",
+      "song_id": 11978,
+      "title": "Sparks Unbound",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 11979,
+      "artist_name": "Jose Garrett",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3275",
+      "song_id": 3275,
+      "title": "My Heart, Your Lifeline",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3276,
+      "artist_name": "Wei Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:9446",
+      "song_id": 9446,
+      "title": "Classical Fragments",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 9447,
+      "artist_name": "Jie Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9446",
+      "target": "song:11978",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:3275",
+      "target": "song:11978",
+      "type": "InStyleOf"
+    }
+  ]
+}

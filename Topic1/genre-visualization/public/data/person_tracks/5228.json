@@ -1,0 +1,83 @@
+{
+  "person_id": 5228,
+  "name": "Vittorio Tamburello",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14203",
+      "song_id": 14203,
+      "title": "Echoes Unbound",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 5228,
+      "artist_name": "Vittorio Tamburello",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11928",
+      "song_id": 11928,
+      "title": "Seconds Ticking Away",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3504,
+      "artist_name": "Zacharie Martins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:14920",
+      "song_id": 14920,
+      "title": "Windmills and Tall Stories",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 1474,
+      "artist_name": "Tonya Brown",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11928",
+      "target": "song:14203",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14920",
+      "target": "song:14203",
+      "type": "InStyleOf"
+    }
+  ]
+}

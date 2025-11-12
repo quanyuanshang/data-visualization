@@ -1,0 +1,110 @@
+{
+  "person_id": 8279,
+  "name": "Xiuying Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8274",
+      "song_id": 8274,
+      "title": "Cocktail Confessions",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 8279,
+      "artist_name": "Xiuying Zeng",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4805",
+      "song_id": 4805,
+      "title": "Step Into Your Power",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4806,
+      "artist_name": "Ming Long",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:7873",
+      "song_id": 7873,
+      "title": "Sighs Between Heartbeats",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 7874,
+      "artist_name": "Franck du Mercier",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:15458",
+      "song_id": 15458,
+      "title": "Two Dollar Redemption",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 15459,
+      "artist_name": "Guiying Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4805",
+      "target": "song:8274",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15458",
+      "target": "song:8274",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7873",
+      "target": "song:8274",
+      "type": "DirectlySamples"
+    }
+  ]
+}

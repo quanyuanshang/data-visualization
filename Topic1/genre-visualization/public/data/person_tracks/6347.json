@@ -1,0 +1,103 @@
+{
+  "person_id": 6347,
+  "name": "Li Yang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6344",
+      "song_id": 6344,
+      "title": "Uptown Swagger",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 6347,
+      "artist_name": "Li Yang",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7920",
+      "song_id": 7920,
+      "title": "Manifest Destiny Blues",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 6347,
+      "artist_name": "Li Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:925",
+      "song_id": 925,
+      "title": "Liminal Passage",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 926,
+      "artist_name": "Gang Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:13232",
+      "song_id": 13232,
+      "title": "The Wisdom of Not Knowing",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 13233,
+      "artist_name": "Jason Vaughn",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13232",
+      "target": "song:6344",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:925",
+      "target": "song:6344",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

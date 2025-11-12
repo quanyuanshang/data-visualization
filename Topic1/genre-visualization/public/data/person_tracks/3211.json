@@ -1,0 +1,56 @@
+{
+  "person_id": 3211,
+  "name": "Fang Qian",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3210",
+      "song_id": 3210,
+      "title": "Chamber Reverie in Gossamer Tones",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 3211,
+      "artist_name": "Fang Qian",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9631",
+      "song_id": 9631,
+      "title": "Fading Echoes of Annabel",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 9632,
+      "artist_name": "Allison Curtis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9631",
+      "target": "song:3210",
+      "type": "InStyleOf"
+    }
+  ]
+}

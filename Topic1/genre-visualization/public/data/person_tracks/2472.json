@@ -1,0 +1,103 @@
+{
+  "person_id": 2472,
+  "name": "Bryan Richardson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2470",
+      "song_id": 2470,
+      "title": "Midnight's Matchstick Lullaby",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 2472,
+      "artist_name": "Bryan Richardson",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13994",
+      "song_id": 13994,
+      "title": "After the Storm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 2472,
+      "artist_name": "Bryan Richardson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13994",
+      "song_id": 13994,
+      "title": "After the Storm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 835,
+      "artist_name": "Franck Prévost de la Bertrand",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14880",
+      "song_id": 14880,
+      "title": "Whispers of the Watery Grave",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2471,
+      "artist_name": "Antoine Barthelemy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14880",
+      "target": "song:2470",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13994",
+      "target": "song:2470",
+      "type": "InStyleOf"
+    }
+  ]
+}

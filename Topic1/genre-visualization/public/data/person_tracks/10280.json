@@ -1,0 +1,56 @@
+{
+  "person_id": 10280,
+  "name": "Szymon Pazik",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10279",
+      "song_id": 10279,
+      "title": "Epochs of Progress",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 10280,
+      "artist_name": "Szymon Pazik",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15420",
+      "song_id": 15420,
+      "title": "Bridges to the Other Side",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 627,
+      "artist_name": "Liwia Olbrych",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15420",
+      "target": "song:10279",
+      "type": "CoverOf"
+    }
+  ]
+}

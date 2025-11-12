@@ -1,0 +1,83 @@
+{
+  "person_id": 12054,
+  "name": "Jonathan Adams",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12052",
+      "song_id": 12052,
+      "title": "Chapters Yet Unwritten",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 12054,
+      "artist_name": "Jonathan Adams",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13711",
+      "song_id": 13711,
+      "title": "Puddle Waltz",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 12053,
+      "artist_name": "Sarah Gardner ( Bishop)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:16614",
+      "song_id": 16614,
+      "title": "Tonight, You'll Remember My Name",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 12053,
+      "artist_name": "Sarah Gardner ( Bishop)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16614",
+      "target": "song:12052",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13711",
+      "target": "song:12052",
+      "type": "InStyleOf"
+    }
+  ]
+}

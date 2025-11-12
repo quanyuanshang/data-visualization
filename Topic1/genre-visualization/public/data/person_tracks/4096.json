@@ -1,0 +1,157 @@
+{
+  "person_id": 4096,
+  "name": "Tao Wen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6833",
+      "song_id": 6833,
+      "title": "The Last Sweet Moment",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 4096,
+      "artist_name": "Tao Wen",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4095",
+      "song_id": 4095,
+      "title": "Contemplations of Grace Unbound",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 4096,
+      "artist_name": "Tao Wen",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6065",
+      "song_id": 6065,
+      "title": "Push Through the Doubt",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2355,
+      "artist_name": "Qiang Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:7876",
+      "song_id": 7876,
+      "title": "Falling Without a Parachute",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 7877,
+      "artist_name": "Ming Du",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:5273",
+      "song_id": 5273,
+      "title": "Concerto for Embouchure and Echo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 4098,
+      "artist_name": "Guiying Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:10469",
+      "song_id": 10469,
+      "title": "Garden of Divided Colors",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 4098,
+      "artist_name": "Guiying Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6065",
+      "target": "song:6833",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7876",
+      "target": "song:6833",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10469",
+      "target": "song:4095",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:5273",
+      "target": "song:4095",
+      "type": "CoverOf"
+    }
+  ]
+}

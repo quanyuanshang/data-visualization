@@ -1,0 +1,56 @@
+{
+  "person_id": 4043,
+  "name": "Kelly Castro",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4038",
+      "song_id": 4038,
+      "title": "Bananal's Gentle Whispers",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4043,
+      "artist_name": "Kelly Castro",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10944",
+      "song_id": 10944,
+      "title": "Homebound Heart",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 10945,
+      "artist_name": "Pamela Moran (Seraphine)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10944",
+      "target": "song:4038",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

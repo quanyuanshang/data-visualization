@@ -1,0 +1,110 @@
+{
+  "person_id": 11234,
+  "name": "Maud van de Pol",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11230",
+      "song_id": 11230,
+      "title": "Hope Beyond the Shadows",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 11234,
+      "artist_name": "Maud van de Pol",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:871",
+      "song_id": 871,
+      "title": "Confident Whispers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 872,
+      "artist_name": "Marina Acedo Montaña",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:1571",
+      "song_id": 1571,
+      "title": "Twilight's Harmonic Descent",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 1572,
+      "artist_name": "Ryan Kala",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:7517",
+      "song_id": 7517,
+      "title": "Converging Currents of the Heart",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 873,
+      "artist_name": "Angelita Belda Enríquez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:871",
+      "target": "song:11230",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7517",
+      "target": "song:11230",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1571",
+      "target": "song:11230",
+      "type": "InStyleOf"
+    }
+  ]
+}

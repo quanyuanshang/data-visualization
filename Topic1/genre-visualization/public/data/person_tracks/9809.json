@@ -1,0 +1,103 @@
+{
+  "person_id": 9809,
+  "name": "Guiying Kang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10727",
+      "song_id": 10727,
+      "title": "Innocence Untouched",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 9809,
+      "artist_name": "Guiying Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9808",
+      "song_id": 9808,
+      "title": "Lawn Mower Lament",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 9809,
+      "artist_name": "Guiying Kang",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4738",
+      "song_id": 4738,
+      "title": "Scent of Desire",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4740,
+      "artist_name": "Victoria Higgins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:11249",
+      "song_id": 11249,
+      "title": "Silence Between Departures",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1873,
+      "artist_name": "Li Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4738",
+      "target": "song:9808",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11249",
+      "target": "song:9808",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 10458,
+  "name": "Daniel Johnson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10457",
+      "song_id": 10457,
+      "title": "Locked in Your Embrace",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 10458,
+      "artist_name": "Daniel Johnson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:773",
+      "song_id": 773,
+      "title": "Whispers in Mother's Arms",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 774,
+      "artist_name": "Tao Liu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:773",
+      "target": "song:10457",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

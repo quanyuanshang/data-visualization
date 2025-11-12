@@ -1,0 +1,103 @@
+{
+  "person_id": 7489,
+  "name": "Torquato Fantini",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7488",
+      "song_id": 7488,
+      "title": "Cellular Goodbye",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 7489,
+      "artist_name": "Torquato Fantini",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13969",
+      "song_id": 13969,
+      "title": "Copper and Silver Whispers",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 7489,
+      "artist_name": "Torquato Fantini",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13112",
+      "song_id": 13112,
+      "title": "Paris Nights and Banana Skirts",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 3589,
+      "artist_name": "Laetitia Bertrand-Becker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:4085",
+      "song_id": 4085,
+      "title": "Balcony Heartbreak",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 4087,
+      "artist_name": "Theresa Johnson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13112",
+      "target": "song:7488",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4085",
+      "target": "song:13969",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 11794,
+  "name": "Kimberly Stevens",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11793",
+      "song_id": 11793,
+      "title": "Ancestral Echoes",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 11794,
+      "artist_name": "Kimberly Stevens",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8590",
+      "song_id": 8590,
+      "title": "Harvest Moon Whispers",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 8591,
+      "artist_name": "Eulalia Patiño Ballester",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:14580",
+      "song_id": 14580,
+      "title": "Matchstick Memories",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 14582,
+      "artist_name": "Sharon Bray",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14580",
+      "target": "song:11793",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:8590",
+      "target": "song:11793",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

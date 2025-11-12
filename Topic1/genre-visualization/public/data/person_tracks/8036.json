@@ -1,0 +1,103 @@
+{
+  "person_id": 8036,
+  "name": "Miłosz Staciwa",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8035",
+      "song_id": 8035,
+      "title": "Solitude's Embrace",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 8036,
+      "artist_name": "Miłosz Staciwa",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14481",
+      "song_id": 14481,
+      "title": "Desire's Reach",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 8036,
+      "artist_name": "Miłosz Staciwa",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9061",
+      "song_id": 9061,
+      "title": "Silvered Leaves, Softly Singing",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:7740",
+      "song_id": 7740,
+      "title": "Amor Sem Limites (Love Without Limits)",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 1934,
+      "artist_name": "Aleksander Przybyś",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7740",
+      "target": "song:14481",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:9061",
+      "target": "song:8035",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

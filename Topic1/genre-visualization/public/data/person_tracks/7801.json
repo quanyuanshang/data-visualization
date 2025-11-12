@@ -1,0 +1,110 @@
+{
+  "person_id": 7801,
+  "name": "Sayuri Kondo",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7799",
+      "song_id": 7799,
+      "title": "Negadores Constantes",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1992,
+      "single": true,
+      "own": true,
+      "artist_id": 7801,
+      "artist_name": "Sayuri Kondo",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1190",
+      "song_id": 1190,
+      "title": "Spinning Threads of Power",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2032,
+      "single": false,
+      "own": false,
+      "artist_id": 1193,
+      "artist_name": "Elizabeth Parker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:14107",
+      "song_id": 14107,
+      "title": "Folklore's Heartbeat",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 12948,
+      "artist_name": "Brooke Olson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16182",
+      "song_id": 16182,
+      "title": "Coronela's Last Stand",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 7800,
+      "artist_name": "Yui Fukuda ( Charlie Gray)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1190",
+      "target": "song:7799",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:16182",
+      "target": "song:7799",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14107",
+      "target": "song:7799",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

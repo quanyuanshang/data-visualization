@@ -1,0 +1,56 @@
+{
+  "person_id": 6945,
+  "name": "Ming Yu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6941",
+      "song_id": 6941,
+      "title": "Echoes of Devotion",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 6945,
+      "artist_name": "Ming Yu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9090",
+      "song_id": 9090,
+      "title": "Palms of Passage",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 9091,
+      "artist_name": "Xiulan Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9090",
+      "target": "song:6941",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

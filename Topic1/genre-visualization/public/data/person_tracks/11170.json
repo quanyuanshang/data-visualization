@@ -1,0 +1,83 @@
+{
+  "person_id": 11170,
+  "name": "Yong Sun",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12776",
+      "song_id": 12776,
+      "title": "Neon Glow",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 11170,
+      "artist_name": "Yong Sun",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10819",
+      "song_id": 10819,
+      "title": "Thundering Percussion",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 10820,
+      "artist_name": "Nout Zijlmans",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:11646",
+      "song_id": 11646,
+      "title": "Daddy's Little Ghost",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 6974,
+      "artist_name": "Li Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11646",
+      "target": "song:12776",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10819",
+      "target": "song:12776",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

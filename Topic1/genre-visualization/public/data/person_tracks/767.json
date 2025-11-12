@@ -1,0 +1,129 @@
+{
+  "person_id": 767,
+  "name": "Jie He",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16512",
+      "song_id": 16512,
+      "title": "The Day That Changes Everything",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 767,
+      "artist_name": "Jie He",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:766",
+      "song_id": 766,
+      "title": "Daughters of the Scorched Earth",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 767,
+      "artist_name": "Jie He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13603",
+      "song_id": 13603,
+      "title": "Beyond the Broken",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 767,
+      "artist_name": "Jie He",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:766",
+      "song_id": 766,
+      "title": "Daughters of the Scorched Earth",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 67,
+      "artist_name": "Guiying Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:10535",
+      "song_id": 10535,
+      "title": "Memories Along the Lech River",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 4503,
+      "artist_name": "Fredo Grossi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:766",
+      "target": "song:16512",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10535",
+      "target": "song:16512",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:766",
+      "target": "song:13603",
+      "type": "CoverOf"
+    }
+  ]
+}

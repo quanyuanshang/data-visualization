@@ -1,0 +1,56 @@
+{
+  "person_id": 2275,
+  "name": "Jing Lei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2272",
+      "song_id": 2272,
+      "title": "Borrowed Time",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 2275,
+      "artist_name": "Jing Lei",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5847",
+      "song_id": 5847,
+      "title": "Dawn's Warm Embrace",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 5848,
+      "artist_name": "Gang Yang (MNTL X (Mental X))",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5847",
+      "target": "song:2272",
+      "type": "CoverOf"
+    }
+  ]
+}

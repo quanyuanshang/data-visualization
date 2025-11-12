@@ -1,0 +1,56 @@
+{
+  "person_id": 8442,
+  "name": "Yong Jia",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8439",
+      "song_id": 8439,
+      "title": "Nautical Legends in Blue",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 8442,
+      "artist_name": "Yong Jia",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13404",
+      "song_id": 13404,
+      "title": "Voice Beyond the Line",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 13405,
+      "artist_name": "Li Mo ( $PECTRUM)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13404",
+      "target": "song:8439",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

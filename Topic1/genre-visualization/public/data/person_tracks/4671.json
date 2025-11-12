@@ -1,0 +1,83 @@
+{
+  "person_id": 4671,
+  "name": "Hansjoachim Sager",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4666",
+      "song_id": 4666,
+      "title": "Aftermath of a Broken Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 4671,
+      "artist_name": "Hansjoachim Sager",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1286",
+      "song_id": 1286,
+      "title": "They're Not Entirely Sure",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1287,
+      "artist_name": "Justin Ellison",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:7680",
+      "song_id": 7680,
+      "title": "Earthen Resonance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 4670,
+      "artist_name": "Tony Rhodes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1286",
+      "target": "song:4666",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7680",
+      "target": "song:4666",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

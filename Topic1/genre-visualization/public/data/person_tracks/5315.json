@@ -1,0 +1,56 @@
+{
+  "person_id": 5315,
+  "name": "Lauren Rich",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5310",
+      "song_id": 5310,
+      "title": "Whispers Between Verses",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 5315,
+      "artist_name": "Lauren Rich",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15143",
+      "song_id": 15143,
+      "title": "Conversion's Flame",
+      "genre": "Doom Metal",
+      "notable": false,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 235,
+      "artist_name": "Shannon Gordon",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15143",
+      "target": "song:5310",
+      "type": "InStyleOf"
+    }
+  ]
+}

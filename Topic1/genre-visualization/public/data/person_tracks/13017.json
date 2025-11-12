@@ -1,0 +1,83 @@
+{
+  "person_id": 13017,
+  "name": "Elmo Calbo",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13014",
+      "song_id": 13014,
+      "title": "Exoskeleton Dissolve",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 13017,
+      "artist_name": "Elmo Calbo",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 2,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14187",
+      "song_id": 14187,
+      "title": "Definitions of Together",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2980,
+      "artist_name": "Min Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:17292",
+      "song_id": 17292,
+      "title": "Stormsong",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2038,
+      "single": true,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17292",
+      "target": "song:13014",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:14187",
+      "target": "song:13014",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "person_id": 2986,
+  "name": "Yosuke Yamamoto",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2982",
+      "song_id": 2982,
+      "title": "Between Longing and Belonging",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 2986,
+      "artist_name": "Yosuke Yamamoto",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11612",
+      "song_id": 11612,
+      "title": "Growing Silhouettes",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 2986,
+      "artist_name": "Yosuke Yamamoto",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2982",
+      "target": "song:11612",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:3362",
+      "target": "song:2982",
+      "type": "InStyleOf"
+    }
+  ]
+}

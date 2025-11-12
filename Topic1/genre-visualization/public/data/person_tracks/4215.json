@@ -1,0 +1,56 @@
+{
+  "person_id": 4215,
+  "name": "Deborah Odonnell",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4212",
+      "song_id": 4212,
+      "title": "Pulse of Retribution",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 4215,
+      "artist_name": "Deborah Odonnell",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5818",
+      "song_id": 5818,
+      "title": "Two Souls, One Rhythm",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 1649,
+      "artist_name": "Lei He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5818",
+      "target": "song:4212",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

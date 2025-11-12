@@ -1,0 +1,56 @@
+{
+  "person_id": 13261,
+  "name": "Chao Shao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13260",
+      "song_id": 13260,
+      "title": "Whispers of Harvest Stillness",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 13261,
+      "artist_name": "Chao Shao",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10259",
+      "song_id": 10259,
+      "title": "Transjordan Twilight",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 10260,
+      "artist_name": "Brent Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10259",
+      "target": "song:13260",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

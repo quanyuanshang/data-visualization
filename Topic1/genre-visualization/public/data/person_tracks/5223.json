@@ -1,0 +1,103 @@
+{
+  "person_id": 5223,
+  "name": "Jun Xiong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9683",
+      "song_id": 9683,
+      "title": "Terra's Tender Breath",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 5223,
+      "artist_name": "Jun Xiong",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5220",
+      "song_id": 5220,
+      "title": "Crimson Skies and Distant Love",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 5223,
+      "artist_name": "Jun Xiong",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6142",
+      "song_id": 6142,
+      "title": "Lunar Lament",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 6144,
+      "artist_name": "Terry Harris",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:6709",
+      "song_id": 6709,
+      "title": "Intertwined",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 6710,
+      "artist_name": "Jun Feng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6142",
+      "target": "song:9683",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6709",
+      "target": "song:5220",
+      "type": "CoverOf"
+    }
+  ]
+}

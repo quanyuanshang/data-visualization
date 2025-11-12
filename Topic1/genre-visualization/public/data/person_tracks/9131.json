@@ -1,0 +1,83 @@
+{
+  "person_id": 9131,
+  "name": "Hrishita Sura",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9129",
+      "song_id": 9129,
+      "title": "Tipsy Toes Tango",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1986,
+      "single": false,
+      "own": true,
+      "artist_id": 9131,
+      "artist_name": "Hrishita Sura",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11765",
+      "song_id": 11765,
+      "title": "Toxic Pulse",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 11766,
+      "artist_name": "Anna Reyes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:15539",
+      "song_id": 15539,
+      "title": "Soft Petals, Quiet Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 4284,
+      "artist_name": "Tarini Hans",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11765",
+      "target": "song:9129",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:15539",
+      "target": "song:9129",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

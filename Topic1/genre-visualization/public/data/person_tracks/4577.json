@@ -1,0 +1,56 @@
+{
+  "person_id": 4577,
+  "name": "Julie Reynolds",
+  "stage_name": " Quantum Drift",
+  "nodes": [
+    {
+      "id": "song:9259",
+      "song_id": 9259,
+      "title": "Ascent of the Hopeful",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 4577,
+      "artist_name": "Julie Reynolds ( Quantum Drift)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1680",
+      "song_id": 1680,
+      "title": "Riddle of the Frozen Princess",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1683,
+      "artist_name": "Jing Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1680",
+      "target": "song:9259",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

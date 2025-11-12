@@ -1,0 +1,83 @@
+{
+  "person_id": 10942,
+  "name": "Gang Cai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10941",
+      "song_id": 10941,
+      "title": "Familiar Strangers",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 10942,
+      "artist_name": "Gang Cai",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4704",
+      "song_id": 4704,
+      "title": "Memories in Sepia",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 4705,
+      "artist_name": "Jun Huang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:9967",
+      "song_id": 9967,
+      "title": "Inheritance of Hope",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 9969,
+      "artist_name": "Jun Jia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4704",
+      "target": "song:10941",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:9967",
+      "target": "song:10941",
+      "type": "InStyleOf"
+    }
+  ]
+}

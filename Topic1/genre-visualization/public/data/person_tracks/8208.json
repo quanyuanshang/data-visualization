@@ -1,0 +1,56 @@
+{
+  "person_id": 8208,
+  "name": "Igor Dyś",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8207",
+      "song_id": 8207,
+      "title": "Echoes of Forgotten Light",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 8208,
+      "artist_name": "Igor Dyś",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17285",
+      "song_id": 17285,
+      "title": "Driftwood Lullaby",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17285",
+      "target": "song:8207",
+      "type": "InStyleOf"
+    }
+  ]
+}

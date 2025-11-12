@@ -1,0 +1,130 @@
+{
+  "person_id": 11403,
+  "name": "Chao Hao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11400",
+      "song_id": 11400,
+      "title": "Whoa, Whoa! (Remix Edition)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1985,
+      "single": true,
+      "own": true,
+      "artist_id": 11403,
+      "artist_name": "Chao Hao",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11911",
+      "song_id": 11911,
+      "title": "Time's Running Out",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 11403,
+      "artist_name": "Chao Hao",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:581",
+      "song_id": 581,
+      "title": "Travel Plans (With You)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 582,
+      "artist_name": "Sophia Dippel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:16336",
+      "song_id": 16336,
+      "title": "Pantheon's Echo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1327,
+      "artist_name": "Fang Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:17050",
+      "song_id": 17050,
+      "title": "Star-Touched Tides",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2034,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16336",
+      "target": "song:11911",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:17050",
+      "target": "song:11911",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:581",
+      "target": "song:11400",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

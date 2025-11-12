@@ -1,0 +1,81 @@
+{
+  "person_id": 5677,
+  "name": "Kenneth Randolph",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5673",
+      "song_id": 5673,
+      "title": "Slow Processor",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 5677,
+      "artist_name": "Kenneth Randolph",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10835",
+      "song_id": 10835,
+      "title": "Whispers at the Doorstep",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 5677,
+      "artist_name": "Kenneth Randolph",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11914",
+      "song_id": 11914,
+      "title": "Patience Worn Thin",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 11915,
+      "artist_name": "Jun Qiu (BLAKK RAYN)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5673",
+      "target": "song:10835",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:11914",
+      "target": "song:10835",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 15933,
+  "name": "Herr Henry Grein Groth",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15928",
+      "song_id": 15928,
+      "title": "Tremors of '60 (referencing the 1960 Agadir earthquake)",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2001,
+      "single": true,
+      "own": true,
+      "artist_id": 15933,
+      "artist_name": "Herr Henry Grein Groth",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8905",
+      "song_id": 8905,
+      "title": "Passion Pursuit",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 8906,
+      "artist_name": "Krista Collins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:11093",
+      "song_id": 11093,
+      "title": "Zion's Whispers",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 11094,
+      "artist_name": "Michelle Herrera",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11093",
+      "target": "song:15928",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8905",
+      "target": "song:15928",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 528,
+  "name": "Tomoya Shimizu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:525",
+      "song_id": 525,
+      "title": "Experimental Model",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 528,
+      "artist_name": "Tomoya Shimizu",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2124",
+      "song_id": 2124,
+      "title": "Vitality Override",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 2125,
+      "artist_name": "Kevin Thomas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6020",
+      "song_id": 6020,
+      "title": "Sunrise of Forgiveness",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 526,
+      "artist_name": "Yumiko Ito",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6020",
+      "target": "song:525",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2124",
+      "target": "song:525",
+      "type": "InStyleOf"
+    }
+  ]
+}

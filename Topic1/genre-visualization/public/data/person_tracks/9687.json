@@ -1,0 +1,110 @@
+{
+  "person_id": 9687,
+  "name": "Charles du Perez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9685",
+      "song_id": 9685,
+      "title": "Earthsong Eternal",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 9687,
+      "artist_name": "Charles du Perez",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6170",
+      "song_id": 6170,
+      "title": "Twilight's Gentle Whisper",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 6171,
+      "artist_name": "Li Qiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16264",
+      "song_id": 16264,
+      "title": "Ceremonial Footsteps",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 12749,
+      "artist_name": "Yan Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16457",
+      "song_id": 16457,
+      "title": "Manger's Midnight",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 1490,
+      "artist_name": "Yong Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16264",
+      "target": "song:9685",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6170",
+      "target": "song:9685",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16457",
+      "target": "song:9685",
+      "type": "InStyleOf"
+    }
+  ]
+}

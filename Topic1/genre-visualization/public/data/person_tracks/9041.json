@@ -1,0 +1,83 @@
+{
+  "person_id": 9041,
+  "name": "Kimberly Howe",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9040",
+      "song_id": 9040,
+      "title": "Meridian Drift",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 9041,
+      "artist_name": "Kimberly Howe",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7797",
+      "song_id": 7797,
+      "title": "Mercy Beyond Measure",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 2362,
+      "artist_name": "Kristi Crane",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:11562",
+      "song_id": 11562,
+      "title": "Courtly Shadows and Silk",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 8446,
+      "artist_name": "Stephanie Robinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7797",
+      "target": "song:9040",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11562",
+      "target": "song:9040",
+      "type": "CoverOf"
+    }
+  ]
+}

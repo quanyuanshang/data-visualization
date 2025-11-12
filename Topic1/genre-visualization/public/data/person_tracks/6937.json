@@ -1,0 +1,56 @@
+{
+  "person_id": 6937,
+  "name": "Yang Duan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6935",
+      "song_id": 6935,
+      "title": "Shepherds' Sacred Journey",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": true,
+      "own": true,
+      "artist_id": 6937,
+      "artist_name": "Yang Duan",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9538",
+      "song_id": 9538,
+      "title": "Embrace of the Honored Visitor",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 9539,
+      "artist_name": "Neelofar Balan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9538",
+      "target": "song:6935",
+      "type": "CoverOf"
+    }
+  ]
+}

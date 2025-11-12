@@ -1,0 +1,56 @@
+{
+  "person_id": 8437,
+  "name": "Miki Hayashi",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8434",
+      "song_id": 8434,
+      "title": "Tidal Whispers of the Horizon",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 8437,
+      "artist_name": "Miki Hayashi",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3939",
+      "song_id": 3939,
+      "title": "The Slow Fade",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 1465,
+      "artist_name": "Lei Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3939",
+      "target": "song:8434",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

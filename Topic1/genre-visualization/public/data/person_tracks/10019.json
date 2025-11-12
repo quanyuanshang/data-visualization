@@ -1,0 +1,56 @@
+{
+  "person_id": 10019,
+  "name": "Xiuying Du",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10016",
+      "song_id": 10016,
+      "title": "Dreamscape of Judgment",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 10019,
+      "artist_name": "Xiuying Du",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:901",
+      "song_id": 901,
+      "title": "Approaching Silhouettes",
+      "genre": "Space Rock",
+      "notable": false,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 355,
+      "artist_name": "Juan Yin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:901",
+      "target": "song:10016",
+      "type": "InStyleOf"
+    }
+  ]
+}

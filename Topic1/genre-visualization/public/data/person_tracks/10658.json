@@ -1,0 +1,110 @@
+{
+  "person_id": 10658,
+  "name": "Tanya Ratta",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10657",
+      "song_id": 10657,
+      "title": "Antlers of Moonlight",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 10658,
+      "artist_name": "Tanya Ratta",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2130",
+      "song_id": 2130,
+      "title": "Positive Pulse",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2131,
+      "artist_name": "Xiuying Gu ( Monroe)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6154",
+      "song_id": 6154,
+      "title": "Eclipse of Emotion",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4284,
+      "artist_name": "Tarini Hans",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:6743",
+      "song_id": 6743,
+      "title": "Epochs in Motion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4285,
+      "artist_name": "Navya Sastry",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6743",
+      "target": "song:10657",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:2130",
+      "target": "song:10657",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6154",
+      "target": "song:10657",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

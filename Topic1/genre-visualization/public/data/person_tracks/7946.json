@@ -1,0 +1,81 @@
+{
+  "person_id": 7946,
+  "name": "Kelly Brown",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7944",
+      "song_id": 7944,
+      "title": "Niepojęte Piękno",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 7946,
+      "artist_name": "Kelly Brown",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14464",
+      "song_id": 14464,
+      "title": "Celestial Breath",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 7946,
+      "artist_name": "Kelly Brown",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15833",
+      "song_id": 15833,
+      "title": "Heartbeat Highway",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": false,
+      "artist_id": 15834,
+      "artist_name": "Erica Chandler",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7944",
+      "target": "song:14464",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15833",
+      "target": "song:14464",
+      "type": "DirectlySamples"
+    }
+  ]
+}

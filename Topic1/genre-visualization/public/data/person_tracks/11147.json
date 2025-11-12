@@ -1,0 +1,56 @@
+{
+  "person_id": 11147,
+  "name": "Jie Deng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11146",
+      "song_id": 11146,
+      "title": "Mirror of Courage",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 11147,
+      "artist_name": "Jie Deng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:852",
+      "song_id": 852,
+      "title": "Clarity and Carats",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 853,
+      "artist_name": "Li Kong (Syntara)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:852",
+      "target": "song:11146",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

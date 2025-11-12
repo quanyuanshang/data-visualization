@@ -1,0 +1,83 @@
+{
+  "person_id": 3619,
+  "name": "Thomas Beard",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3616",
+      "song_id": 3616,
+      "title": "Fever's Whisper",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 3619,
+      "artist_name": "Thomas Beard",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7761",
+      "song_id": 7761,
+      "title": "Choral Canticles in Candlelight",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7762,
+      "artist_name": "Taichi Watanabe",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:8409",
+      "song_id": 8409,
+      "title": "Circuit Forger",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 4255,
+      "artist_name": "Guiying Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7761",
+      "target": "song:3616",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8409",
+      "target": "song:3616",
+      "type": "CoverOf"
+    }
+  ]
+}

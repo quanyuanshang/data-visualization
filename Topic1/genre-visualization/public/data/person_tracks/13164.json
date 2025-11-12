@@ -1,0 +1,56 @@
+{
+  "person_id": 13164,
+  "name": "Xiuying Qian",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13161",
+      "song_id": 13161,
+      "title": "Forgotten Lands of Sidböle",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 13164,
+      "artist_name": "Xiuying Qian",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9090",
+      "song_id": 9090,
+      "title": "Palms of Passage",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 9091,
+      "artist_name": "Xiulan Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9090",
+      "target": "song:13161",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

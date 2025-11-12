@@ -1,0 +1,56 @@
+{
+  "person_id": 869,
+  "name": "Tillmann Klemm",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6777",
+      "song_id": 6777,
+      "title": "Springtime's First Breath",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 869,
+      "artist_name": "Tillmann Klemm",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13973",
+      "song_id": 13973,
+      "title": "Loose Change Lullaby",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 870,
+      "artist_name": "Janine Berger",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13973",
+      "target": "song:6777",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

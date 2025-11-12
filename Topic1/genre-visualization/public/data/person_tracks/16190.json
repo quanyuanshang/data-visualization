@@ -1,0 +1,83 @@
+{
+  "person_id": 16190,
+  "name": "Austin Martin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16189",
+      "song_id": 16189,
+      "title": "Whispers of Curiosity",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 16190,
+      "artist_name": "Austin Martin",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9831",
+      "song_id": 9831,
+      "title": "Wisdom's Edge",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 9832,
+      "artist_name": "Herminia Vazquez-Sainz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15394",
+      "song_id": 15394,
+      "title": "Whispers in the Meadow Green",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 1255,
+      "artist_name": "Xiulan Hao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9831",
+      "target": "song:16189",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15394",
+      "target": "song:16189",
+      "type": "CoverOf"
+    }
+  ]
+}

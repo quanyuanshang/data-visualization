@@ -1,0 +1,56 @@
+{
+  "person_id": 5716,
+  "name": "Jie Yan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5711",
+      "song_id": 5711,
+      "title": "Crimson Coat, White Beard",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 5716,
+      "artist_name": "Jie Yan",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8852",
+      "song_id": 8852,
+      "title": "Echoes of Forgotten Carols",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 8853,
+      "artist_name": "Filippa Piane",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8852",
+      "target": "song:5711",
+      "type": "CoverOf"
+    }
+  ]
+}

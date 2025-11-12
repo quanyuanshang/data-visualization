@@ -1,0 +1,83 @@
+{
+  "person_id": 6523,
+  "name": "James Harrington",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6521",
+      "song_id": 6521,
+      "title": "Revolutionary Shadows",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 6523,
+      "artist_name": "James Harrington",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1984",
+      "song_id": 1984,
+      "title": "Twilight in the Woodland Clearing",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1752,
+      "artist_name": "Tao Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:8553",
+      "song_id": 8553,
+      "title": "Cội Nguồn Bất Diệt (Immortal Roots)",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 90,
+      "artist_name": "Xiulan Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1984",
+      "target": "song:6521",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:8553",
+      "target": "song:6521",
+      "type": "CoverOf"
+    }
+  ]
+}

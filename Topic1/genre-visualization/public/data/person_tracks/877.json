@@ -1,0 +1,199 @@
+{
+  "person_id": 877,
+  "name": "Qiang Zhou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:876",
+      "song_id": 876,
+      "title": "Bold Without Apology",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 877,
+      "artist_name": "Qiang Zhou",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11527",
+      "song_id": 11527,
+      "title": "Forest Whispers at Dawn",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 877,
+      "artist_name": "Qiang Zhou",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15771",
+      "song_id": 15771,
+      "title": "Tea and Rebellion",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 877,
+      "artist_name": "Qiang Zhou",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5980",
+      "song_id": 5980,
+      "title": "Sacred Resonance",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 2362,
+      "artist_name": "Kristi Crane",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:6337",
+      "song_id": 6337,
+      "title": "Dressed to the Nines",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 878,
+      "artist_name": "Jing Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:15771",
+      "song_id": 15771,
+      "title": "Tea and Rebellion",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 877,
+      "artist_name": "Qiang Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:16494",
+      "song_id": 16494,
+      "title": "Whispers from the Northern Town",
+      "genre": "Indie Rock",
+      "notable": false,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2362,
+      "artist_name": "Kristi Crane",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15771",
+      "target": "song:876",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5980",
+      "target": "song:11527",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5980",
+      "target": "song:876",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6337",
+      "target": "song:876",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6337",
+      "target": "song:15771",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16494",
+      "target": "song:876",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:16494",
+      "target": "song:15771",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5980",
+      "target": "song:15771",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

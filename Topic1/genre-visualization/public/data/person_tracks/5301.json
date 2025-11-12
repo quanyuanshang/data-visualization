@@ -1,0 +1,54 @@
+{
+  "person_id": 5301,
+  "name": "Leonard Phillips",
+  "stage_name": "TR1P LIT",
+  "nodes": [
+    {
+      "id": "song:7478",
+      "song_id": 7478,
+      "title": "Drink Me Down",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 5301,
+      "artist_name": "Leonard Phillips (TR1P LIT)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5300",
+      "song_id": 5300,
+      "title": "The Midnight Revue",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 5301,
+      "artist_name": "Leonard Phillips (TR1P LIT)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7478",
+      "target": "song:5300",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

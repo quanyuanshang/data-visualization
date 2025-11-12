@@ -1,0 +1,56 @@
+{
+  "person_id": 613,
+  "name": "Jonathan Snyder",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:611",
+      "song_id": 611,
+      "title": "Steep and Ancestral",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2014,
+      "single": false,
+      "own": true,
+      "artist_id": 613,
+      "artist_name": "Jonathan Snyder",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10632",
+      "song_id": 10632,
+      "title": "Whispers of Delphi",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 617,
+      "artist_name": "Tao Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10632",
+      "target": "song:611",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

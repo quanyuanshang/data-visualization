@@ -1,0 +1,108 @@
+{
+  "person_id": 612,
+  "name": "Elizabeth Saunders",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:611",
+      "song_id": 611,
+      "title": "Steep and Ancestral",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2014,
+      "single": false,
+      "own": true,
+      "artist_id": 612,
+      "artist_name": "Elizabeth Saunders",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7567",
+      "song_id": 7567,
+      "title": "Crimson Echoes of Betrayal",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 612,
+      "artist_name": "Elizabeth Saunders",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10632",
+      "song_id": 10632,
+      "title": "Whispers of Delphi",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 617,
+      "artist_name": "Tao Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:16975",
+      "song_id": 16975,
+      "title": "Fire Escape Dreams",
+      "genre": "Alternative Rock",
+      "notable": false,
+      "release_year": 2039,
+      "single": true,
+      "own": false,
+      "artist_id": 16971,
+      "artist_name": "Jasper Quinn",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:611",
+      "target": "song:7567",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16975",
+      "target": "song:7567",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10632",
+      "target": "song:611",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

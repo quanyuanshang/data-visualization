@@ -1,0 +1,83 @@
+{
+  "person_id": 11330,
+  "name": "Ping Li",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11329",
+      "song_id": 11329,
+      "title": "Crown and Conscience",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 11330,
+      "artist_name": "Ping Li",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9861",
+      "song_id": 9861,
+      "title": "Stalemate",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 9863,
+      "artist_name": "Qiang Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:12138",
+      "song_id": 12138,
+      "title": "Unbreakable Divine Shelter",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 9593,
+      "artist_name": "Chao Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12138",
+      "target": "song:11329",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9861",
+      "target": "song:11329",
+      "type": "InStyleOf"
+    }
+  ]
+}

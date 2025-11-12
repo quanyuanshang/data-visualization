@@ -1,0 +1,56 @@
+{
+  "person_id": 14748,
+  "name": "Robert Villanueva",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14746",
+      "song_id": 14746,
+      "title": "Scarlet Letter Sarah",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 14748,
+      "artist_name": "Robert Villanueva",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4299",
+      "song_id": 4299,
+      "title": "Último intento (Last attempt)",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 4302,
+      "artist_name": "Guiying Tao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4299",
+      "target": "song:14746",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

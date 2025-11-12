@@ -1,0 +1,110 @@
+{
+  "person_id": 16229,
+  "name": "Georges Chrétien",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16225",
+      "song_id": 16225,
+      "title": "Blueprint Whispers",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 16229,
+      "artist_name": "Georges Chrétien",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3457",
+      "song_id": 3457,
+      "title": "Magnetic Desire",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 1201,
+      "artist_name": "Xiuying Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:6827",
+      "song_id": 6827,
+      "title": "Fading Echoes",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 20,
+      "artist_name": "Xiuying Meng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16586",
+      "song_id": 16586,
+      "title": "Silicon Serenade",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 16587,
+      "artist_name": "Yang Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16586",
+      "target": "song:16225",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3457",
+      "target": "song:16225",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6827",
+      "target": "song:16225",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

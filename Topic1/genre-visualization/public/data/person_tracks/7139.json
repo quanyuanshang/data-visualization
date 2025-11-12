@@ -1,0 +1,107 @@
+{
+  "person_id": 7139,
+  "name": "Maura Jovinelli",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16421",
+      "song_id": 16421,
+      "title": "Unraveled (A Cassidy Story)",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 7139,
+      "artist_name": "Maura Jovinelli",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7138",
+      "song_id": 7138,
+      "title": "Kerosene Memories",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 7139,
+      "artist_name": "Maura Jovinelli",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11644",
+      "song_id": 11644,
+      "title": "Tender Moments Dissolved",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 7139,
+      "artist_name": "Maura Jovinelli",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2327",
+      "song_id": 2327,
+      "title": "The Chambered Melody",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 2328,
+      "artist_name": "Martino Toninelli",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2327",
+      "target": "song:16421",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7138",
+      "target": "song:11644",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2327",
+      "target": "song:7138",
+      "type": "CoverOf"
+    }
+  ]
+}

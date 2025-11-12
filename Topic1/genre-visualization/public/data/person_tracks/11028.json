@@ -1,0 +1,56 @@
+{
+  "person_id": 11028,
+  "name": "Mark Stokes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11024",
+      "song_id": 11024,
+      "title": "First Breath of Wonder",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 11028,
+      "artist_name": "Mark Stokes",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10270",
+      "song_id": 10270,
+      "title": "Crossing the Promised Boundary",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 3363,
+      "artist_name": "Xiuying Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10270",
+      "target": "song:11024",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

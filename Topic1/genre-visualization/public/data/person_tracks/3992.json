@@ -1,0 +1,110 @@
+{
+  "person_id": 3992,
+  "name": "Yang Wu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3991",
+      "song_id": 3991,
+      "title": "Instrument Failure",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 3992,
+      "artist_name": "Yang Wu",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1076",
+      "song_id": 1076,
+      "title": "Snapshot Shadows",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 1079,
+      "artist_name": "Qiang Yuan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:5300",
+      "song_id": 5300,
+      "title": "The Midnight Revue",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 5301,
+      "artist_name": "Leonard Phillips (TR1P LIT)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:11679",
+      "song_id": 11679,
+      "title": "Snapshot of Forever",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1491,
+      "artist_name": "Yong Lai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11679",
+      "target": "song:3991",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5300",
+      "target": "song:3991",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:1076",
+      "target": "song:3991",
+      "type": "CoverOf"
+    }
+  ]
+}

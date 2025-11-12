@@ -1,0 +1,83 @@
+{
+  "person_id": 15670,
+  "name": "Valerie Miller",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15669",
+      "song_id": 15669,
+      "title": "Echoes of Unspoken Love",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 15670,
+      "artist_name": "Valerie Miller",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6054",
+      "song_id": 6054,
+      "title": "Colorful Traditions",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1304,
+      "artist_name": "Rüdiger Graf",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:17074",
+      "song_id": 17074,
+      "title": "The Universe Listens",
+      "genre": "Space Rock",
+      "notable": false,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6054",
+      "target": "song:15669",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:17074",
+      "target": "song:15669",
+      "type": "CoverOf"
+    }
+  ]
+}

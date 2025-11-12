@@ -1,0 +1,157 @@
+{
+  "person_id": 3333,
+  "name": "Janet Margraf",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7250",
+      "song_id": 7250,
+      "title": "Pelkkä Sinä (Just You)",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 3333,
+      "artist_name": "Janet Margraf",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3332",
+      "song_id": 3332,
+      "title": "The Art of Emotional Destruction",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 3333,
+      "artist_name": "Janet Margraf",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2641",
+      "song_id": 2641,
+      "title": "Generations of Stone",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 2642,
+      "artist_name": "Gang Deng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6130",
+      "song_id": 6130,
+      "title": "Unfolding Path",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2607,
+      "artist_name": "Lisa Hart",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:13436",
+      "song_id": 13436,
+      "title": "Infinite Horizon",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 6131,
+      "artist_name": "Thomas King",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:3136",
+      "song_id": 3136,
+      "title": "Softly Ascending Harmonies",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1519,
+      "artist_name": "Min Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13436",
+      "target": "song:7250",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:3136",
+      "target": "song:3332",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6130",
+      "target": "song:7250",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:2641",
+      "target": "song:7250",
+      "type": "InStyleOf"
+    }
+  ]
+}

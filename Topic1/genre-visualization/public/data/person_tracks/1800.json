@@ -1,0 +1,56 @@
+{
+  "person_id": 1800,
+  "name": "Qiang Chang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:1797",
+      "song_id": 1797,
+      "title": "Scandinavian Dreams",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 1800,
+      "artist_name": "Qiang Chang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17019",
+      "song_id": 17019,
+      "title": "Beneath the Sepulcher Moon",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": 17012,
+      "artist_name": "Sienna Fox",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17019",
+      "target": "song:1797",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 7639,
+  "name": "Monica Hale",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7632",
+      "song_id": 7632,
+      "title": "Garbage Warrior's Lament",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 7639,
+      "artist_name": "Monica Hale",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2586",
+      "song_id": 2586,
+      "title": "Keys of Forgotten Melodies",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 2588,
+      "artist_name": "Jun Mao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:9301",
+      "song_id": 9301,
+      "title": "Echoes from the Grasslands",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 2587,
+      "artist_name": "Min Qiu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9301",
+      "target": "song:7632",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2586",
+      "target": "song:7632",
+      "type": "CoverOf"
+    }
+  ]
+}

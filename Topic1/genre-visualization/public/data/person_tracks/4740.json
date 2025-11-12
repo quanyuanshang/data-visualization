@@ -1,0 +1,56 @@
+{
+  "person_id": 4740,
+  "name": "Victoria Higgins",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4738",
+      "song_id": 4738,
+      "title": "Scent of Desire",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4740,
+      "artist_name": "Victoria Higgins",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17066",
+      "song_id": 17066,
+      "title": "Codebreaker’s Waltz",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17066",
+      "target": "song:4738",
+      "type": "InStyleOf"
+    }
+  ]
+}

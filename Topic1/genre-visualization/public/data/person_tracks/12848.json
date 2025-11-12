@@ -1,0 +1,56 @@
+{
+  "person_id": 12848,
+  "name": "Madison Lopez",
+  "stage_name": " M.C. Frost",
+  "nodes": [
+    {
+      "id": "song:12847",
+      "song_id": 12847,
+      "title": "The Traveler Who Never Left",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 12848,
+      "artist_name": "Madison Lopez ( M.C. Frost)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7190",
+      "song_id": 7190,
+      "title": "Shadows of Silence",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1873,
+      "artist_name": "Li Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7190",
+      "target": "song:12847",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

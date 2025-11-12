@@ -1,0 +1,56 @@
+{
+  "person_id": 16666,
+  "name": "Megan Bridges",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16665",
+      "song_id": 16665,
+      "title": "Listen Up!",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 16666,
+      "artist_name": "Megan Bridges",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2647",
+      "song_id": 2647,
+      "title": "Whispers of the Andes",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 405,
+      "artist_name": "Leyla Graf-Gotthard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2647",
+      "target": "song:16665",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "person_id": 5794,
+  "name": "Frederic Margraf",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5790",
+      "song_id": 5790,
+      "title": "Riverside Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 5794,
+      "artist_name": "Frederic Margraf",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6216",
+      "song_id": 6216,
+      "title": "Trembling Hands, Reaching Higher",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 5794,
+      "artist_name": "Frederic Margraf",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16211",
+      "song_id": 16211,
+      "title": "Phantom Heartstrings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2326,
+      "artist_name": "Dominic Phillips",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:9463",
+      "song_id": 9463,
+      "title": "Echoes of the Green Landscape",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 8946,
+      "artist_name": "Yang Yi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9463",
+      "target": "song:6216",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16211",
+      "target": "song:5790",
+      "type": "InStyleOf"
+    }
+  ]
+}

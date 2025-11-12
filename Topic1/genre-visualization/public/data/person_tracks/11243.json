@@ -1,0 +1,83 @@
+{
+  "person_id": 11243,
+  "name": "Armaan Bera",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11241",
+      "song_id": 11241,
+      "title": "Risen Mercy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 11243,
+      "artist_name": "Armaan Bera",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6743",
+      "song_id": 6743,
+      "title": "Epochs in Motion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4285,
+      "artist_name": "Navya Sastry",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14727",
+      "song_id": 14727,
+      "title": "Blood-Stained Tally for Apache Hearts",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 14728,
+      "artist_name": "Samiha Chander ( Raven)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14727",
+      "target": "song:11241",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6743",
+      "target": "song:11241",
+      "type": "InStyleOf"
+    }
+  ]
+}

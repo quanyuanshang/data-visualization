@@ -1,0 +1,140 @@
+{
+  "person_id": 5308,
+  "name": "Berend Suijker-Tirie",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5307",
+      "song_id": 5307,
+      "title": "Florenz's Dream",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 5308,
+      "artist_name": "Berend Suijker-Tirie",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13341",
+      "song_id": 13341,
+      "title": "Monologue in Woodwind Minor",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 5308,
+      "artist_name": "Berend Suijker-Tirie",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:842",
+      "song_id": 842,
+      "title": "Diamond Dreams",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 843,
+      "artist_name": "Konstantinos Wende",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:11583",
+      "song_id": 11583,
+      "title": "Veiled Intentions",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 7214,
+      "artist_name": "Fang Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6885",
+      "song_id": 6885,
+      "title": "Innocence Unfolding",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 6886,
+      "artist_name": "Gang Tang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:842",
+      "target": "song:13341",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5307",
+      "target": "song:13341",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11583",
+      "target": "song:5307",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:842",
+      "target": "song:5307",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6885",
+      "target": "song:13341",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

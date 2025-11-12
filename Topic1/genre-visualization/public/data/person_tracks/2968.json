@@ -1,0 +1,56 @@
+{
+  "person_id": 2968,
+  "name": "Gang Qin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3329",
+      "song_id": 3329,
+      "title": "Heartbreak in Slow Motion",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 2968,
+      "artist_name": "Gang Qin",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1830",
+      "song_id": 1830,
+      "title": "Trouble's Favorite Son",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1650,
+      "artist_name": "Daniel Lyons",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1830",
+      "target": "song:3329",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

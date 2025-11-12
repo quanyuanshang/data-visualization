@@ -1,0 +1,83 @@
+{
+  "person_id": 13086,
+  "name": "Lauren Brown",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13085",
+      "song_id": 13085,
+      "title": "Courage of a Small Boy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 13086,
+      "artist_name": "Lauren Brown",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:7278",
+      "song_id": 7278,
+      "title": "Requiem for a Fading Self",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3362",
+      "target": "song:13085",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7278",
+      "target": "song:13085",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

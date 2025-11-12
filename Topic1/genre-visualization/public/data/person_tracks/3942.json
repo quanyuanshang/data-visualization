@@ -1,0 +1,83 @@
+{
+  "person_id": 3942,
+  "name": "Molly Williams",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3939",
+      "song_id": 3939,
+      "title": "The Slow Fade",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 3942,
+      "artist_name": "Molly Williams",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:912",
+      "song_id": 912,
+      "title": "Footsteps of Men",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 914,
+      "artist_name": "Stephanie Wilson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:14014",
+      "song_id": 14014,
+      "title": "Microscopic Beginnings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 3948,
+      "artist_name": "Melanie Fisher",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14014",
+      "target": "song:3939",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:912",
+      "target": "song:3939",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

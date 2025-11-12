@@ -1,0 +1,56 @@
+{
+  "person_id": 2366,
+  "name": "Elizabeth Evans",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2364",
+      "song_id": 2364,
+      "title": "Who Closed The Door Between Us?",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 2366,
+      "artist_name": "Elizabeth Evans",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3574",
+      "song_id": 3574,
+      "title": "The Language of Unspoken Words",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1519,
+      "artist_name": "Min Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3574",
+      "target": "song:2364",
+      "type": "CoverOf"
+    }
+  ]
+}

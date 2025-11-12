@@ -1,0 +1,106 @@
+{
+  "person_id": 732,
+  "name": "Krista Wallace",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13503",
+      "song_id": 13503,
+      "title": "Fractured Reflections",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 1994,
+      "single": true,
+      "own": true,
+      "artist_id": 732,
+      "artist_name": "Krista Wallace",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:731",
+      "song_id": 731,
+      "title": "Don't Hold Me Down",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 732,
+      "artist_name": "Krista Wallace",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16298",
+      "song_id": 16298,
+      "title": "Slow Motion Waltz",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 1985,
+      "single": true,
+      "own": true,
+      "artist_id": 732,
+      "artist_name": "Krista Wallace",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3962",
+      "song_id": 3962,
+      "title": "Celestial Nativity",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 3964,
+      "artist_name": "Brittany Mcguire",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:731",
+      "target": "song:16298",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3962",
+      "target": "song:16298",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13503",
+      "target": "song:16298",
+      "type": "DirectlySamples"
+    }
+  ]
+}

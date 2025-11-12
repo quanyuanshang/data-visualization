@@ -1,0 +1,83 @@
+{
+  "person_id": 9896,
+  "name": "Rika Shimizu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9895",
+      "song_id": 9895,
+      "title": "Sunbeam Stillness",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1989,
+      "single": true,
+      "own": true,
+      "artist_id": 9896,
+      "artist_name": "Rika Shimizu",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10447",
+      "song_id": 10447,
+      "title": "Destiny's Calling",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 2108,
+      "artist_name": "Ryan Doyle",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    },
+    {
+      "id": "song:12998",
+      "song_id": 12998,
+      "title": "Purified by Divine Light",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": true,
+      "own": false,
+      "artist_id": 4686,
+      "artist_name": "Kristina Gonzales",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12998",
+      "target": "song:9895",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10447",
+      "target": "song:9895",
+      "type": "DirectlySamples"
+    }
+  ]
+}

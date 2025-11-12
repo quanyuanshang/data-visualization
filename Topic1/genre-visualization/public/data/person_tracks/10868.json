@@ -1,0 +1,103 @@
+{
+  "person_id": 10868,
+  "name": "Ryan Palmer",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10861",
+      "song_id": 10861,
+      "title": "Electric Halo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 10868,
+      "artist_name": "Ryan Palmer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11217",
+      "song_id": 11217,
+      "title": "Tenure Track Triumph",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2008,
+      "single": true,
+      "own": true,
+      "artist_id": 10868,
+      "artist_name": "Ryan Palmer",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8667",
+      "song_id": 8667,
+      "title": "Humble Heart's Echo",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 3496,
+      "artist_name": "Xiulan Deng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16519",
+      "song_id": 16519,
+      "title": "Paired in Solitude",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 16520,
+      "artist_name": "Emily Hudson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8667",
+      "target": "song:11217",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16519",
+      "target": "song:11217",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

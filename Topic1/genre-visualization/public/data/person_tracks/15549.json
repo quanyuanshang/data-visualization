@@ -1,0 +1,56 @@
+{
+  "person_id": 15549,
+  "name": "Fang Hou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15547",
+      "song_id": 15547,
+      "title": "Sunlight After Rain",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 15549,
+      "artist_name": "Fang Hou",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13893",
+      "song_id": 13893,
+      "title": "Roadside Mandarin",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 13894,
+      "artist_name": "Jun Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13893",
+      "target": "song:15547",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "person_id": 3529,
+  "name": "Gang Tan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10771",
+      "song_id": 10771,
+      "title": "Whispers from His Workshop",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 3529,
+      "artist_name": "Gang Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3526",
+      "song_id": 3526,
+      "title": "Sierra Winds and Jet Streams",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 3529,
+      "artist_name": "Gang Tan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7118",
+      "song_id": 7118,
+      "title": "Whispers of Pain",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 7119,
+      "artist_name": "Yan Yu ( Sasha James)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7118",
+      "target": "song:3526",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

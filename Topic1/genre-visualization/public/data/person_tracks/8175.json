@@ -1,0 +1,103 @@
+{
+  "person_id": 8175,
+  "name": "Dawn Johnson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8174",
+      "song_id": 8174,
+      "title": "Pellon Reunalla (At the Edge of the Field)",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 8175,
+      "artist_name": "Dawn Johnson",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10931",
+      "song_id": 10931,
+      "title": "Cryptic Wavelength",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 8175,
+      "artist_name": "Dawn Johnson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8811",
+      "song_id": 8811,
+      "title": "Cherry Blossoms and Distance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 8177,
+      "artist_name": "Francisco Manning",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:14197",
+      "song_id": 14197,
+      "title": "Rumbo al Horizonte",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 10933,
+      "artist_name": "Joseph Chen (EAZY 9INE)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8811",
+      "target": "song:8174",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14197",
+      "target": "song:10931",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

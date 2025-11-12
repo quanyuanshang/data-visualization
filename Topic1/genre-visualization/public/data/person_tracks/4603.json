@@ -1,0 +1,83 @@
+{
+  "person_id": 4603,
+  "name": "Tammy Fields",
+  "stage_name": " Ruby Chase",
+  "nodes": [
+    {
+      "id": "song:14907",
+      "song_id": 14907,
+      "title": "Forgotten Summer Embrace",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4603,
+      "artist_name": "Tammy Fields ( Ruby Chase)",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11453",
+      "song_id": 11453,
+      "title": "Asphalt Breath",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3716,
+      "artist_name": "Qiang Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16452",
+      "song_id": 16452,
+      "title": "Star of the Stable",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1838,
+      "artist_name": "Carolyn Schultz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11453",
+      "target": "song:14907",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16452",
+      "target": "song:14907",
+      "type": "InStyleOf"
+    }
+  ]
+}

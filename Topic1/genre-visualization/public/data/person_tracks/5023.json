@@ -1,0 +1,56 @@
+{
+  "person_id": 5023,
+  "name": "Yan Tan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5021",
+      "song_id": 5021,
+      "title": "Patch Me Up, Henry",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 5023,
+      "artist_name": "Yan Tan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14326",
+      "song_id": 14326,
+      "title": "Frost's Whisper",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 14328,
+      "artist_name": "Xiuying Han",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14326",
+      "target": "song:5021",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "person_id": 12476,
+  "name": "Tadeusz Majorek",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12475",
+      "song_id": 12475,
+      "title": "When the Music Fades",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 12476,
+      "artist_name": "Tadeusz Majorek",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1411",
+      "song_id": 1411,
+      "title": "Unpack My Heart",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 1295,
+      "artist_name": "Marek Oleksa",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:2333",
+      "song_id": 2333,
+      "title": "Canvas of Renaissance Dreams",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:7662",
+      "song_id": 7662,
+      "title": "Sunlight and Vows",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2333",
+      "target": "song:12475",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7662",
+      "target": "song:12475",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1411",
+      "target": "song:12475",
+      "type": "InStyleOf"
+    }
+  ]
+}

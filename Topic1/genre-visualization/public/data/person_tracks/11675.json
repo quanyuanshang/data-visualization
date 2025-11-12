@@ -1,0 +1,110 @@
+{
+  "person_id": 11675,
+  "name": "Haley Campbell",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11672",
+      "song_id": 11672,
+      "title": "Sappho's Secret Garden",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 11675,
+      "artist_name": "Haley Campbell",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4718",
+      "song_id": 4718,
+      "title": "Twilight's Whisper",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 4719,
+      "artist_name": "Krystal Reese ( Leo III)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:7161",
+      "song_id": 7161,
+      "title": "Midnight Howl Symphony",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 7163,
+      "artist_name": "Li Yi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:12001",
+      "song_id": 12001,
+      "title": "Phantom's Second Chance",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 12002,
+      "artist_name": "Caroline Lloyd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7161",
+      "target": "song:11672",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12001",
+      "target": "song:11672",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4718",
+      "target": "song:11672",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

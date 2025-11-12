@@ -1,0 +1,56 @@
+{
+  "person_id": 15000,
+  "name": "Yan Xiong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14997",
+      "song_id": 14997,
+      "title": "Hey Hey Hey",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1987,
+      "single": true,
+      "own": true,
+      "artist_id": 15000,
+      "artist_name": "Yan Xiong",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15108",
+      "song_id": 15108,
+      "title": "Restless Rhythm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": false,
+      "artist_id": 1275,
+      "artist_name": "Gang Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15108",
+      "target": "song:14997",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

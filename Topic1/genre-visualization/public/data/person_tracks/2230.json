@@ -1,0 +1,56 @@
+{
+  "person_id": 2230,
+  "name": "Yong Deng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7380",
+      "song_id": 7380,
+      "title": "Beyond Comparison",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 2230,
+      "artist_name": "Yong Deng",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6024",
+      "song_id": 6024,
+      "title": "Unsilenced Whispers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 6025,
+      "artist_name": "Xia Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6024",
+      "target": "song:7380",
+      "type": "InStyleOf"
+    }
+  ]
+}

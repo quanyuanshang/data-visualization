@@ -1,0 +1,56 @@
+{
+  "person_id": 9750,
+  "name": "Ping Cheng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13735",
+      "song_id": 13735,
+      "title": "Echoes in the Silent North",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 9750,
+      "artist_name": "Ping Cheng",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12347",
+      "song_id": 12347,
+      "title": "Broken Generation",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2861,
+      "artist_name": "Jie Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12347",
+      "target": "song:13735",
+      "type": "DirectlySamples"
+    }
+  ]
+}

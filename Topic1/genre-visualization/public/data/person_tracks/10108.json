@@ -1,0 +1,56 @@
+{
+  "person_id": 10108,
+  "name": "Elsbeth Löwer",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10105",
+      "song_id": 10105,
+      "title": "Boundless Threshold",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 10108,
+      "artist_name": "Elsbeth Löwer",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5559",
+      "song_id": 5559,
+      "title": "Infused Intentions",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 5562,
+      "artist_name": "Mitchell Mcdonald",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5559",
+      "target": "song:10105",
+      "type": "InStyleOf"
+    }
+  ]
+}

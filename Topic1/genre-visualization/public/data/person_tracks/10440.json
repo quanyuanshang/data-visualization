@@ -1,0 +1,56 @@
+{
+  "person_id": 10440,
+  "name": "Juanito Jimenez Hernández",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10439",
+      "song_id": 10439,
+      "title": "Silent Interference",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 10440,
+      "artist_name": "Juanito Jimenez Hernández",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15132",
+      "song_id": 15132,
+      "title": "Broken Idols",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 4902,
+      "artist_name": "Megan Baird",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15132",
+      "target": "song:10439",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "person_id": 9415,
+  "name": "Jie Zou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9414",
+      "song_id": 9414,
+      "title": "Whispers of the Blue and Yellow",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 9415,
+      "artist_name": "Jie Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9966",
+      "song_id": 9966,
+      "title": "Generations Unborn",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 9415,
+      "artist_name": "Jie Zou",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6521",
+      "song_id": 6521,
+      "title": "Revolutionary Shadows",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1241,
+      "artist_name": "Fang Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9414",
+      "target": "song:9966",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6521",
+      "target": "song:9966",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 5014,
+  "name": "Javi Fuente Benavente",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5013",
+      "song_id": 5013,
+      "title": "Leaky Life Blues",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 5014,
+      "artist_name": "Javi Fuente Benavente",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16424",
+      "song_id": 16424,
+      "title": "Midnight's Daughter",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 5016,
+      "artist_name": "Feliciana Figuerola Cruz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16424",
+      "target": "song:5013",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

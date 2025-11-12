@@ -1,0 +1,110 @@
+{
+  "person_id": 14935,
+  "name": "William Robinson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:14933",
+      "song_id": 14933,
+      "title": "The Crown We Wear",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 14935,
+      "artist_name": "William Robinson",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8914",
+      "song_id": 8914,
+      "title": "Heartbeat Hurdles",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 8915,
+      "artist_name": "Isabelle Baudry de Michel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:15101",
+      "song_id": 15101,
+      "title": "When Wonder Breaks",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 15102,
+      "artist_name": "Jeffrey Middleton",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:17280",
+      "song_id": 17280,
+      "title": "Electric Eel Love",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8914",
+      "target": "song:14933",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15101",
+      "target": "song:14933",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:17280",
+      "target": "song:14933",
+      "type": "CoverOf"
+    }
+  ]
+}

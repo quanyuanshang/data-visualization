@@ -1,0 +1,76 @@
+{
+  "person_id": 10403,
+  "name": "Elizabeth Nguyen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10402",
+      "song_id": 10402,
+      "title": "Cradle of Uncertain Fate",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 10403,
+      "artist_name": "Elizabeth Nguyen",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15046",
+      "song_id": 15046,
+      "title": "Lipstick and Celluloid",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 10403,
+      "artist_name": "Elizabeth Nguyen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:6473",
+      "song_id": 6473,
+      "title": "Stockholm Serenade",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2014,
+      "single": false,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6473",
+      "target": "song:10402",
+      "type": "CoverOf"
+    }
+  ]
+}

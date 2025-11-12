@@ -1,0 +1,56 @@
+{
+  "person_id": 11529,
+  "name": "Qiang Lu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11528",
+      "song_id": 11528,
+      "title": "Emerald Canopy Sonata",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 11529,
+      "artist_name": "Qiang Lu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2714",
+      "song_id": 2714,
+      "title": "Cinematic Breakdown",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 2717,
+      "artist_name": "Ping Xiong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2714",
+      "target": "song:11528",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

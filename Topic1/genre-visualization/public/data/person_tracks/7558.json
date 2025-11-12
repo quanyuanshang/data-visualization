@@ -1,0 +1,83 @@
+{
+  "person_id": 7558,
+  "name": "Melissa Dennis",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7555",
+      "song_id": 7555,
+      "title": "Fangs and Forgotten Hunger",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 7558,
+      "artist_name": "Melissa Dennis",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14285",
+      "song_id": 14285,
+      "title": "The Portly President's Promise",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 6676,
+      "artist_name": "Anthony Salas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:17038",
+      "song_id": 17038,
+      "title": "Skyline Glow",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2035,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14285",
+      "target": "song:7555",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:17038",
+      "target": "song:7555",
+      "type": "InStyleOf"
+    }
+  ]
+}

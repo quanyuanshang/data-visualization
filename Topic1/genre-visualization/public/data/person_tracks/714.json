@@ -1,0 +1,56 @@
+{
+  "person_id": 714,
+  "name": "Jie Cai",
+  "stage_name": " Lotus Grey",
+  "nodes": [
+    {
+      "id": "song:2413",
+      "song_id": 2413,
+      "title": "Crowns and Secrets",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 714,
+      "artist_name": "Jie Cai ( Lotus Grey)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13366",
+      "song_id": 13366,
+      "title": "Throne Beyond Time",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3418,
+      "artist_name": "Yang Wu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13366",
+      "target": "song:2413",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 9639,
+  "name": "Patrick Banks",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9637",
+      "song_id": 9637,
+      "title": "Annabel's Lament",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 9639,
+      "artist_name": "Patrick Banks",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4559",
+      "song_id": 4559,
+      "title": "Silent Sorrow",
+      "genre": "Americana",
+      "notable": false,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 4560,
+      "artist_name": "Michael Potts",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:12196",
+      "song_id": 12196,
+      "title": "Ringing Through Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 12197,
+      "artist_name": "Michelle Davis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4559",
+      "target": "song:9637",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12196",
+      "target": "song:9637",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

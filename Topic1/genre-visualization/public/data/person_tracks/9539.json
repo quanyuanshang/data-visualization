@@ -1,0 +1,56 @@
+{
+  "person_id": 9539,
+  "name": "Neelofar Balan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9538",
+      "song_id": 9538,
+      "title": "Embrace of the Honored Visitor",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 9539,
+      "artist_name": "Neelofar Balan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16990",
+      "song_id": 16990,
+      "title": "The Bells Beneath the Waves",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2035,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16990",
+      "target": "song:9538",
+      "type": "InStyleOf"
+    }
+  ]
+}

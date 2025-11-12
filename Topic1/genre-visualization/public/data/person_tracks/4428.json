@@ -1,0 +1,56 @@
+{
+  "person_id": 4428,
+  "name": "Samuel Graham",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:4425",
+      "song_id": 4425,
+      "title": "The Sweetest Citrus",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 4428,
+      "artist_name": "Samuel Graham",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17233",
+      "song_id": 17233,
+      "title": "Sunset Harmony",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17233",
+      "target": "song:4425",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 16414,
+  "name": "Min Liang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16413",
+      "song_id": 16413,
+      "title": "Shadows of Cassidy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 16414,
+      "artist_name": "Min Liang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12389",
+      "song_id": 12389,
+      "title": "Midnight Reindeer Dance: Nordic Folk Harmonies",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 12390,
+      "artist_name": "Xiuying Song (Vinny Carter)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12389",
+      "target": "song:16413",
+      "type": "CoverOf"
+    }
+  ]
+}

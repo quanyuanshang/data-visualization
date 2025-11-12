@@ -1,0 +1,83 @@
+{
+  "person_id": 6299,
+  "name": "Caleb Payne",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6298",
+      "song_id": 6298,
+      "title": "Bruised Wisdom",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1994,
+      "single": true,
+      "own": true,
+      "artist_id": 6299,
+      "artist_name": "Caleb Payne",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12594",
+      "song_id": 12594,
+      "title": "Scaffolding of Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": false,
+      "artist_id": 10776,
+      "artist_name": "Chloë de Gruil",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:16210",
+      "song_id": 16210,
+      "title": "Echoes of What Could Be",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2006,
+      "single": true,
+      "own": false,
+      "artist_id": 2108,
+      "artist_name": "Ryan Doyle",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12594",
+      "target": "song:6298",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16210",
+      "target": "song:6298",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

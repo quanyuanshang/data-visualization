@@ -1,0 +1,56 @@
+{
+  "person_id": 160,
+  "name": "Hans-Theo Eckbauer-Dehmel",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13423",
+      "song_id": 13423,
+      "title": "Stereotype Rebel",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 160,
+      "artist_name": "Hans-Theo Eckbauer-Dehmel",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10448",
+      "song_id": 10448,
+      "title": "Captured Heart",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 10450,
+      "artist_name": "Urte Bachmann",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10448",
+      "target": "song:13423",
+      "type": "InStyleOf"
+    }
+  ]
+}

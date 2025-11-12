@@ -1,0 +1,56 @@
+{
+  "person_id": 7305,
+  "name": "April Welch",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7304",
+      "song_id": 7304,
+      "title": "Wandering Echoes",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": true,
+      "artist_id": 7305,
+      "artist_name": "April Welch",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10520",
+      "song_id": 10520,
+      "title": "Vintage Nights",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 334,
+      "artist_name": "Christopher Lee",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10520",
+      "target": "song:7304",
+      "type": "InStyleOf"
+    }
+  ]
+}

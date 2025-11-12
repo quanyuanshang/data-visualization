@@ -1,0 +1,83 @@
+{
+  "person_id": 5929,
+  "name": "Xiulan Xiong",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5928",
+      "song_id": 5928,
+      "title": "Mist Over Mount Washu",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 5929,
+      "artist_name": "Xiulan Xiong",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:5",
+      "song_id": 5,
+      "title": "Unshackled Heart",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:15424",
+      "song_id": 15424,
+      "title": "Ozvěny Nebeského Jména",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 7937,
+      "artist_name": "Na Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15424",
+      "target": "song:5928",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5",
+      "target": "song:5928",
+      "type": "InStyleOf"
+    }
+  ]
+}

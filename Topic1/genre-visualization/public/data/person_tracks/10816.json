@@ -1,0 +1,110 @@
+{
+  "person_id": 10816,
+  "name": "Livio Brenna",
+  "stage_name": "Velvet Anachronism",
+  "nodes": [
+    {
+      "id": "song:10815",
+      "song_id": 10815,
+      "title": "Rhythm of the Heartbeat",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 10816,
+      "artist_name": "Livio Brenna (Velvet Anachronism)",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:8998",
+      "song_id": 8998,
+      "title": "Expansion Pack",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 3588,
+      "artist_name": "Antonietta Zaccagnini",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:11206",
+      "song_id": 11206,
+      "title": "Beyond the Breakwater",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:14584",
+      "song_id": 14584,
+      "title": "Sparks Between Friends",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 14585,
+      "artist_name": "Valentine Jourdan du Schneider",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11206",
+      "target": "song:10815",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8998",
+      "target": "song:10815",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14584",
+      "target": "song:10815",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

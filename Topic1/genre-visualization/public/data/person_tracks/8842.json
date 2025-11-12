@@ -1,0 +1,56 @@
+{
+  "person_id": 8842,
+  "name": "Viktor Švec",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8840",
+      "song_id": 8840,
+      "title": "Silent Snowfall and Empty Chairs",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 8842,
+      "artist_name": "Viktor Švec",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14575",
+      "song_id": 14575,
+      "title": "Neon Brotherhood",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 14576,
+      "artist_name": "Kamil Bílek ( Tommy Steele)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14575",
+      "target": "song:8840",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

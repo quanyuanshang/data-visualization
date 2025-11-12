@@ -1,0 +1,110 @@
+{
+  "person_id": 913,
+  "name": "Seth Smith",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:912",
+      "song_id": 912,
+      "title": "Footsteps of Men",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 913,
+      "artist_name": "Seth Smith",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11200",
+      "song_id": 11200,
+      "title": "Nautical Whispers",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 11201,
+      "artist_name": "Gang Xiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:12196",
+      "song_id": 12196,
+      "title": "Ringing Through Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 12197,
+      "artist_name": "Michelle Davis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16615",
+      "song_id": 16615,
+      "title": "The Revenge We Never Spoke Of",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 10311,
+      "artist_name": "Siya Sahni",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11200",
+      "target": "song:912",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16615",
+      "target": "song:912",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12196",
+      "target": "song:912",
+      "type": "CoverOf"
+    }
+  ]
+}

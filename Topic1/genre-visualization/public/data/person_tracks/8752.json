@@ -1,0 +1,153 @@
+{
+  "person_id": 8752,
+  "name": "Anita Hamerla",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8751",
+      "song_id": 8751,
+      "title": "Syncopated Dreams",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 8752,
+      "artist_name": "Anita Hamerla",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13223",
+      "song_id": 13223,
+      "title": "Cradle of Betrayal",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 8752,
+      "artist_name": "Anita Hamerla",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:11614",
+      "song_id": 11614,
+      "title": "Between Innocence and Ember",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 8752,
+      "artist_name": "Anita Hamerla",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13131",
+      "song_id": 13131,
+      "title": "Midnight's Ritual",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 8752,
+      "artist_name": "Anita Hamerla",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13131",
+      "song_id": 13131,
+      "title": "Midnight's Ritual",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 8752,
+      "artist_name": "Anita Hamerla",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:17050",
+      "song_id": 17050,
+      "title": "Star-Touched Tides",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2034,
+      "single": true,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17050",
+      "target": "song:13131",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:8751",
+      "target": "song:13223",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13131",
+      "target": "song:13223",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13223",
+      "target": "song:11614",
+      "type": "DirectlySamples"
+    }
+  ]
+}

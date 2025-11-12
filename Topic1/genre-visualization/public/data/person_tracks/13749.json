@@ -1,0 +1,83 @@
+{
+  "person_id": 13749,
+  "name": "Michele Sharp",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13747",
+      "song_id": 13747,
+      "title": "Echoes of a Departure",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 13749,
+      "artist_name": "Michele Sharp",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:12678",
+      "song_id": 12678,
+      "title": "The Last Horizon",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 12679,
+      "artist_name": "Qiang Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16249",
+      "song_id": 16249,
+      "title": "Chromatic Lamentations",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2458,
+      "artist_name": "Xiuying Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16249",
+      "target": "song:13747",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12678",
+      "target": "song:13747",
+      "type": "CoverOf"
+    }
+  ]
+}

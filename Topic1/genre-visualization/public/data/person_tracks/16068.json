@@ -1,0 +1,81 @@
+{
+  "person_id": 16068,
+  "name": "Christopher Powell",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16067",
+      "song_id": 16067,
+      "title": "Rails to Red Clay",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 16068,
+      "artist_name": "Christopher Powell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:16728",
+      "song_id": 16728,
+      "title": "Echoes of the Fallen",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 16068,
+      "artist_name": "Christopher Powell",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3329",
+      "song_id": 3329,
+      "title": "Heartbreak in Slow Motion",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 2968,
+      "artist_name": "Gang Qin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3329",
+      "target": "song:16728",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:16067",
+      "target": "song:16728",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

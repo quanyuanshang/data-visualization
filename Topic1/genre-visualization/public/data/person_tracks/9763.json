@@ -1,0 +1,56 @@
+{
+  "person_id": 9763,
+  "name": "Christopher Nelson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9759",
+      "song_id": 9759,
+      "title": "Radiant Spirit",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 9763,
+      "artist_name": "Christopher Nelson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10259",
+      "song_id": 10259,
+      "title": "Transjordan Twilight",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 10260,
+      "artist_name": "Brent Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10259",
+      "target": "song:9759",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

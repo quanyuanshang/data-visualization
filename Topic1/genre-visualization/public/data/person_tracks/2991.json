@@ -1,0 +1,56 @@
+{
+  "person_id": 2991,
+  "name": "Fang Su",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2990",
+      "song_id": 2990,
+      "title": "Harmonic Whispers in Twilight",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 2991,
+      "artist_name": "Fang Su",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4981",
+      "song_id": 4981,
+      "title": "Samba's Heartbeat",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 2992,
+      "artist_name": "Wei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4981",
+      "target": "song:2990",
+      "type": "CoverOf"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "person_id": 12210,
+  "name": "Rémy-Richard Devaux",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12209",
+      "song_id": 12209,
+      "title": "Whispers of the Dnieper",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 12210,
+      "artist_name": "Rémy-Richard Devaux",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4281",
+      "song_id": 4281,
+      "title": "Lunar Whispers",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4282,
+      "artist_name": "Becky Walters",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:15075",
+      "song_id": 15075,
+      "title": "Boarding the Coastal Express",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4282,
+      "artist_name": "Becky Walters",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4281",
+      "target": "song:12209",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15075",
+      "target": "song:12209",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

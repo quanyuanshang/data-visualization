@@ -1,0 +1,56 @@
+{
+  "person_id": 12101,
+  "name": "Phillip Barnes",
+  "stage_name": "Radiant",
+  "nodes": [
+    {
+      "id": "song:12100",
+      "song_id": 12100,
+      "title": "Soulmates Across the Winds",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 12101,
+      "artist_name": "Phillip Barnes (Radiant)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:17011",
+      "song_id": 17011,
+      "title": "Velvet Catacombs",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2033,
+      "single": true,
+      "own": false,
+      "artist_id": 17004,
+      "artist_name": "Willow Sage (Horizon Fable)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17011",
+      "target": "song:12100",
+      "type": "CoverOf"
+    }
+  ]
+}

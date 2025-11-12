@@ -1,0 +1,56 @@
+{
+  "person_id": 12409,
+  "name": "Angela Wolfe",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:12408",
+      "song_id": 12408,
+      "title": "Fragments of Self",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 12409,
+      "artist_name": "Angela Wolfe",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7450",
+      "song_id": 7450,
+      "title": "Starlit Summer Phantasm",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 1128,
+      "artist_name": "Sandra Peterson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7450",
+      "target": "song:12408",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

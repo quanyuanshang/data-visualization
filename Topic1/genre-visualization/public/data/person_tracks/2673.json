@@ -1,0 +1,56 @@
+{
+  "person_id": 2673,
+  "name": "Marcin Maksimowicz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11091",
+      "song_id": 11091,
+      "title": "Stones and Pilgrims",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 1993,
+      "single": true,
+      "own": true,
+      "artist_id": 2673,
+      "artist_name": "Marcin Maksimowicz",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9777",
+      "song_id": 9777,
+      "title": "Melancholy in Miniature",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2002,
+      "single": false,
+      "own": false,
+      "artist_id": 9779,
+      "artist_name": "Katie Johnston",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9777",
+      "target": "song:11091",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

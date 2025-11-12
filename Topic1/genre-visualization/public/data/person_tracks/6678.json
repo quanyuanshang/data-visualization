@@ -1,0 +1,56 @@
+{
+  "person_id": 6678,
+  "name": "Katrina Guzman",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6675",
+      "song_id": 6675,
+      "title": "Vägen hem (The Way Home)",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 6678,
+      "artist_name": "Katrina Guzman",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9564",
+      "song_id": 9564,
+      "title": "Tears of a Broken King",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9564",
+      "target": "song:6675",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

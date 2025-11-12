@@ -1,0 +1,56 @@
+{
+  "person_id": 7312,
+  "name": "Nikol Hrubá",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7311",
+      "song_id": 7311,
+      "title": "Pathways Unspoken",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 7312,
+      "artist_name": "Nikol Hrubá",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3626",
+      "song_id": 3626,
+      "title": "Quarantine of Souls",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3626",
+      "target": "song:7311",
+      "type": "CoverOf"
+    }
+  ]
+}

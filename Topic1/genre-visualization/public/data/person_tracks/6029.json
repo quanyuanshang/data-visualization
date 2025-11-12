@@ -1,0 +1,56 @@
+{
+  "person_id": 6029,
+  "name": "Wally Beckmann",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6363",
+      "song_id": 6363,
+      "title": "Cascading Tenderness",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1984,
+      "single": true,
+      "own": true,
+      "artist_id": 6029,
+      "artist_name": "Wally Beckmann",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14840",
+      "song_id": 14840,
+      "title": "Completely Completely",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": false,
+      "artist_id": 6032,
+      "artist_name": "Rosaria Pedersoli",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14840",
+      "target": "song:6363",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

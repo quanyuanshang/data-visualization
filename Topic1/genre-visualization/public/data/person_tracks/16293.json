@@ -1,0 +1,56 @@
+{
+  "person_id": 16293,
+  "name": "Juan Yuan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:16292",
+      "song_id": 16292,
+      "title": "Whispers of Goodbye",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 16293,
+      "artist_name": "Juan Yuan",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:14080",
+      "song_id": 14080,
+      "title": "Harmonies Under Open Skies",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1785,
+      "artist_name": "Ping Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14080",
+      "target": "song:16292",
+      "type": "CoverOf"
+    }
+  ]
+}

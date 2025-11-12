@@ -1,0 +1,83 @@
+{
+  "person_id": 8552,
+  "name": "Xiulan Wang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:8551",
+      "song_id": 8551,
+      "title": "Cánh Diều Quốc Gia (National Kite)",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 8552,
+      "artist_name": "Xiulan Wang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4607",
+      "song_id": 4607,
+      "title": "Spinning Skirts of Bavaria",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 594,
+      "artist_name": "Na Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:6211",
+      "song_id": 6211,
+      "title": "Broken Whispers to the Divine",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 3366,
+      "artist_name": "Xiuying Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6211",
+      "target": "song:8551",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4607",
+      "target": "song:8551",
+      "type": "InStyleOf"
+    }
+  ]
+}

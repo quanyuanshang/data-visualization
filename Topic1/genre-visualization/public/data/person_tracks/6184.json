@@ -1,0 +1,56 @@
+{
+  "person_id": 6184,
+  "name": "Wei Shi",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6183",
+      "song_id": 6183,
+      "title": "When Daylight Softly Fades",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 6184,
+      "artist_name": "Wei Shi",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9792",
+      "song_id": 9792,
+      "title": "The Great Deception",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 8616,
+      "artist_name": "Yong Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9792",
+      "target": "song:6183",
+      "type": "InStyleOf"
+    }
+  ]
+}

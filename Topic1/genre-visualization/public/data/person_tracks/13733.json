@@ -1,0 +1,110 @@
+{
+  "person_id": 13733,
+  "name": "Garrett Montoya",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:13732",
+      "song_id": 13732,
+      "title": "Whispers of Frost",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 13733,
+      "artist_name": "Garrett Montoya",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:3362",
+      "song_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:9232",
+      "song_id": 9232,
+      "title": "Tides of Empire's Melody",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 6424,
+      "artist_name": "Cheryl Carter",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:16964",
+      "song_id": 16964,
+      "title": "The Ghost in the Drive",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": -1,
+      "artist_name": "Unknown Artist",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16964",
+      "target": "song:13732",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3362",
+      "target": "song:13732",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:9232",
+      "target": "song:13732",
+      "type": "CoverOf"
+    }
+  ]
+}

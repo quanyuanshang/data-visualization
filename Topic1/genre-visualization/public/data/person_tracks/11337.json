@@ -1,0 +1,56 @@
+{
+  "person_id": 11337,
+  "name": "Tao Kang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:11333",
+      "song_id": 11333,
+      "title": "Throne of Grace",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 11337,
+      "artist_name": "Tao Kang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:7611",
+      "song_id": 7611,
+      "title": "Blurred Lines of Truth",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 207,
+      "artist_name": "Juan Jia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7611",
+      "target": "song:11333",
+      "type": "InStyleOf"
+    }
+  ]
+}

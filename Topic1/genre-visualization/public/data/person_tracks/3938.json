@@ -1,0 +1,76 @@
+{
+  "person_id": 3938,
+  "name": "Min Chen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:3932",
+      "song_id": 3932,
+      "title": "Fading Photographs",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 3938,
+      "artist_name": "Min Chen",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:4614",
+      "song_id": 4614,
+      "title": "Cobblestone Lullabies",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 3938,
+      "artist_name": "Min Chen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:10215",
+      "song_id": 10215,
+      "title": "Whispers Across the Water",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 10216,
+      "artist_name": "Gang Sun",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10215",
+      "target": "song:3932",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

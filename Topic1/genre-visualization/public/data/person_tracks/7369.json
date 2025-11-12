@@ -1,0 +1,56 @@
+{
+  "person_id": 7369,
+  "name": "Shamik Jhaveri",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:7366",
+      "song_id": 7366,
+      "title": "Unrivaled",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 7369,
+      "artist_name": "Shamik Jhaveri",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:13202",
+      "song_id": 13202,
+      "title": "Blizzard's Ballroom",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1270,
+      "artist_name": "Fang Liang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13202",
+      "target": "song:7366",
+      "type": "CoverOf"
+    }
+  ]
+}

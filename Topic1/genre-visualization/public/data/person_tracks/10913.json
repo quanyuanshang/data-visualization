@@ -1,0 +1,83 @@
+{
+  "person_id": 10913,
+  "name": "Xiuying Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:10909",
+      "song_id": 10909,
+      "title": "Rewoven Fates",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 10913,
+      "artist_name": "Xiuying Zeng",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:799",
+      "song_id": 799,
+      "title": "Sanctuary of Maternal Warmth",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 800,
+      "artist_name": "Qiang Lai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    },
+    {
+      "id": "song:8122",
+      "song_id": 8122,
+      "title": "Cordless Connections",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3716,
+      "artist_name": "Qiang Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8122",
+      "target": "song:10909",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:799",
+      "target": "song:10909",
+      "type": "InStyleOf"
+    }
+  ]
+}

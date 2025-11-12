@@ -1,0 +1,110 @@
+{
+  "person_id": 2870,
+  "name": "Marcel Kreusel",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:2867",
+      "song_id": 2867,
+      "title": "Requiem on the Red Square",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 2870,
+      "artist_name": "Marcel Kreusel",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9378",
+      "song_id": 9378,
+      "title": "The Space Between Landmarks",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 654,
+      "artist_name": "Guiying Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    },
+    {
+      "id": "song:13888",
+      "song_id": 13888,
+      "title": "Citrus Speedway",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 1628,
+      "artist_name": "Yong Fu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ]
+    },
+    {
+      "id": "song:14707",
+      "song_id": 14707,
+      "title": "Playful Interlude",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 305,
+      "artist_name": "Bekir Bruder",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14707",
+      "target": "song:2867",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13888",
+      "target": "song:2867",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9378",
+      "target": "song:2867",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

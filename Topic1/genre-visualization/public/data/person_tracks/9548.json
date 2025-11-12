@@ -1,0 +1,83 @@
+{
+  "person_id": 9548,
+  "name": "Gloria Gutknecht",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:9547",
+      "song_id": 9547,
+      "title": "Hearth and Hospitality",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 9548,
+      "artist_name": "Gloria Gutknecht",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:2515",
+      "song_id": 2515,
+      "title": "Echoes of a Date",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2516,
+      "artist_name": "Ottmar Grein Groth-Butte (Vespera)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    },
+    {
+      "id": "song:5657",
+      "song_id": 5657,
+      "title": "Letting Go of Us",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2516,
+      "artist_name": "Ottmar Grein Groth-Butte (Vespera)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2515",
+      "target": "song:9547",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5657",
+      "target": "song:9547",
+      "type": "DirectlySamples"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "person_id": 15525,
+  "name": "Rhonda Mcgee",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:15524",
+      "song_id": 15524,
+      "title": "Maritime Marauder's Lament",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 1984,
+      "single": true,
+      "own": true,
+      "artist_id": 15525,
+      "artist_name": "Rhonda Mcgee",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:9295",
+      "song_id": 9295,
+      "title": "Peaks of Memory",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": false,
+      "artist_id": 9297,
+      "artist_name": "Hans-Jörg Lehmann",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9295",
+      "target": "song:15524",
+      "type": "InStyleOf"
+    }
+  ]
+}

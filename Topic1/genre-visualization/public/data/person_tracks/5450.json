@@ -1,0 +1,56 @@
+{
+  "person_id": 5450,
+  "name": "Stephanie Bird",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:5448",
+      "song_id": 5448,
+      "title": "Masked Moments",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2002,
+      "single": true,
+      "own": true,
+      "artist_id": 5450,
+      "artist_name": "Stephanie Bird",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:15372",
+      "song_id": 15372,
+      "title": "Nebula Highway",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 15373,
+      "artist_name": "Lisa Maxwell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15372",
+      "target": "song:5448",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

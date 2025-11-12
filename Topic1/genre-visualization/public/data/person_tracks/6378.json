@@ -1,0 +1,56 @@
+{
+  "person_id": 6378,
+  "name": "Jun Cui",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "song:6377",
+      "song_id": 6377,
+      "title": "Whisper and Wait",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 6378,
+      "artist_name": "Jun Cui",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": []
+    },
+    {
+      "id": "song:1286",
+      "song_id": 1286,
+      "title": "They're Not Entirely Sure",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1287,
+      "artist_name": "Justin Ellison",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1286",
+      "target": "song:6377",
+      "type": "CoverOf"
+    }
+  ]
+}
