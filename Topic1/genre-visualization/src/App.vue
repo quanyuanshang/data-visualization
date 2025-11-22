@@ -5,15 +5,24 @@
       <p>正在加载数据...</p>
     </div>
     
-    <!-- 主视图：显示26个流派圆圈 + 左侧筛选面板 -->
-    <div v-if="currentView === 'genres' && genresData" class="genres-view-container">
-      <FilterPanel
-        :genres="genresData.genres"
-        @apply-filter="handleFilterApply"
-      />
-      <GenreView 
-        :genres-data="genresData"
-        @select-genre="handleGenreSelect"
+    <!-- 主视图：显示26个流派圆圈 + 左侧筛选面板 + 时间线视图 -->
+    <div v-if="currentView === 'genres' && genresData" class="genres-view-wrapper">
+      <div class="genres-view-container">
+        <FilterPanel
+          :genres="genresData.genres"
+          @apply-filter="handleFilterApply"
+        />
+        <GenreView 
+          :genres-data="genresData"
+          @select-genre="handleGenreSelect"
+        />
+      </div>
+      <GenreTimelineView
+        v-if="timelineData"
+        :timeline-data="timelineData"
+        :genre-color-map="genreColorMap"
+        :expand-ratio="0"
+        class="timeline-view-container"
       />
     </div>
     
@@ -71,6 +80,7 @@ import GenreView from './components/GenreView.vue'
 import ArtistView from './components/ArtistView.vue'
 import TrackView from './components/TrackView.vue'
 import FilterPanel from './components/FilterPanel.vue'
+import GenreTimelineView from './components/GenreTimelineView.vue'
 
 // ==================== 状态管理 ====================
 // 当前视图状态：'genres' 表示流派视图，'artists' 表示音乐人视图
@@ -88,6 +98,8 @@ const currentPage = ref(1)
 const pageSize = 100
 // 所有流派的数据
 const genresData = ref(null)
+// 时间线数据（用于时间线视图）
+const timelineData = ref(null)
 // 选中的音乐人信息（第三层视图使用）
 const selectedArtist = ref(null)
 // 音乐人单曲网络
@@ -148,6 +160,20 @@ onMounted(async () => {
       }
     } catch (evalError) {
       console.warn('[App] 音乐人评估数据加载失败:', evalError)
+    }
+    
+    // 加载时间线数据（用于时间线视图）
+    try {
+      const timelineResponse = await fetch('/data/genre_timeline_data.json')
+      if (timelineResponse.ok) {
+        const timelineDataJson = await timelineResponse.json()
+        timelineData.value = timelineDataJson
+        console.log('[App] 时间线数据加载成功，流派数量:', timelineDataJson.genres?.length ?? 0)
+      } else {
+        console.warn('[App] 时间线数据加载失败，时间线视图可能不可用')
+      }
+    } catch (timelineError) {
+      console.warn('[App] 时间线数据加载失败:', timelineError)
     }
   } catch (error) {
     console.error('[App] 数据加载失败:', error)
@@ -469,7 +495,30 @@ function resetTrackState() {
   overflow: hidden;
 }
 
-.genres-view-container,
+.genres-view-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.genres-view-container {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.timeline-view-container {
+  width: 100%;
+  height: 35%;
+  flex-shrink: 0;
+  border-top: 2px solid #333;
+  overflow: hidden;
+}
+
 .artists-view-container {
   width: 100%;
   height: 100%;
