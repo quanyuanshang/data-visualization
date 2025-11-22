@@ -76,7 +76,7 @@
                 class="artist-score"
                 font-size="10"
               >
-                分数: {{ node.artist.score.toFixed(1) }}
+                {{ getMetricLabel(props.sortMetric) }}: {{ formatMetricValue(node.artist[props.sortMetric], props.sortMetric) }}
               </text>
             </g>
           </g>
@@ -87,7 +87,7 @@
       <div class="legend">
         <div class="legend-item">
           <div class="legend-circle" :style="{ background: genreColor }"></div>
-          <span>圆圈大小 = 音乐人分数</span>
+          <span>圆圈大小 = {{ getMetricLabel(props.sortMetric) }}</span>
         </div>
         <div class="legend-item">
           <span>悬停查看详细信息</span>
@@ -133,6 +133,10 @@ const props = defineProps({
   allGenres: {
     type: Array,
     default: () => []
+  },
+  sortMetric: {
+    type: String,
+    default: 'score'
   }
 })
 
@@ -209,30 +213,48 @@ function initForceSimulation() {
   }
   
   // 准备节点数据
-  const nodes = props.artists.map(artist => ({
-    artist,
-    score: artist.score || 0
-  }))
+  // 根据 sortMetric 选择用于半径计算的指标值
+  const metricKey = props.sortMetric || 'score'
+  const nodes = props.artists.map(artist => {
+    // 获取当前指标的值
+    const metricValue = artist[metricKey] ?? 0
+    return {
+      artist,
+      score: artist.score || 0,
+      metricValue: metricValue // 用于半径计算的指标值
+    }
+  })
   
-  // 计算半径（基于分数）
-  const scores = nodes.map(n => n.score)
-  const minScore = Math.min(...scores)
-  const maxScore = Math.max(...scores)
+  // 计算半径（基于选定的指标）
+  const metricValues = nodes.map(n => n.metricValue)
+  const minValue = Math.min(...metricValues)
+  const maxValue = Math.max(...metricValues)
   
   // 半径范围：最小8px，最大40px
   const minRadius = 8
   const maxRadius = 40
-  const radiusScale = d3.scaleLinear()
-    .domain([minScore, maxScore])
-    .range([minRadius, maxRadius])
+  
+  // 如果所有值相同，使用固定半径
+  let radiusScale
+  if (minValue === maxValue) {
+    radiusScale = () => (minRadius + maxRadius) / 2
+  } else {
+    radiusScale = d3.scaleLinear()
+      .domain([minValue, maxValue])
+      .range([minRadius, maxRadius])
+  }
+  
+  // 获取指标的中文标签（用于显示）
+  const metricLabel = getMetricLabel(metricKey)
   
   // 为每个节点设置半径、初始位置和标签宽度
   nodes.forEach((node, i) => {
-    node.radius = radiusScale(node.score)
+    node.radius = radiusScale(node.metricValue)
     // 计算标签宽度（用于悬停提示框）
+    const valueText = formatMetricValue(node.artist[metricKey], metricKey)
     node.labelWidth = Math.max(
       node.artist.name.length * 7,
-      (`分数: ${node.artist.score.toFixed(1)}`).length * 6
+      (`${metricLabel}: ${valueText}`).length * 6
     )
     // 初始位置：围绕中心均匀分布
     const angle = (i / nodes.length) * 2 * Math.PI
@@ -320,10 +342,54 @@ function initForceSimulation() {
 
 // ==================== 方法 ====================
 /**
+ * 获取指标的中文标签
+ */
+function getMetricLabel(metric) {
+  const labels = {
+    'score': '综合评分',
+    'total_works': '总作品数',
+    'notable_rate': '成名率',
+    'notable_works': '成名作品数',
+    'time_span': '活跃时长',
+    'influence_score': '影响力分数',
+    'collaborators_count': '合作者数量',
+    'record_labels_count': '唱片公司数量',
+    'role_count': '角色多样性'
+  }
+  return labels[metric] || metric
+}
+
+/**
+ * 格式化指标值用于显示
+ */
+function formatMetricValue(value, metric) {
+  if (value === null || value === undefined) return '0'
+  
+  // 对于比率类指标，显示为百分比
+  if (metric === 'notable_rate') {
+    return (value * 100).toFixed(1) + '%'
+  }
+  
+  // 对于数值类指标，根据大小决定小数位数
+  if (typeof value === 'number') {
+    if (value >= 100) {
+      return value.toFixed(0)
+    } else if (value >= 10) {
+      return value.toFixed(1)
+    } else {
+      return value.toFixed(2)
+    }
+  }
+  
+  return String(value)
+}
+
+/**
  * 处理音乐人圆圈点击事件
  */
 function handleArtistClick(artist) {
-  console.log(`[ArtistView] 点击音乐人: ${artist.name}, 分数: ${artist.score}`)
+  const metricValue = artist[props.sortMetric] ?? 0
+  console.log(`[ArtistView] 点击音乐人: ${artist.name}, ${getMetricLabel(props.sortMetric)}: ${metricValue}`)
   // 通知父组件切换至第三层单曲视图
   emit('view-tracks', artist)
 }
@@ -377,10 +443,10 @@ onMounted(() => {
 })
 
 // 当数据变化时，重新初始化力导向图
-watch(() => [props.artists, props.genre, props.currentPage], () => {
+watch(() => [props.artists, props.genre, props.currentPage, props.sortMetric], () => {
   if (props.artists && props.artists.length > 0) {
     nextTick(() => {
-      console.log(`[ArtistView] 数据更新，重新初始化力导向图，音乐人数量: ${props.artists.length}`)
+      console.log(`[ArtistView] 数据更新，重新初始化力导向图，音乐人数量: ${props.artists.length}, 排序指标: ${props.sortMetric}`)
       initForceSimulation()
     })
   } else {
@@ -412,6 +478,7 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .artist-view {
+  flex: 1;
   width: 100%;
   height: 100%;
   display: flex;

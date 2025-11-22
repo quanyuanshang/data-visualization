@@ -36,15 +36,10 @@ def save_results():
     
     print(f"  完成！共评估 {len(evaluations)} 个音乐人")
     
-    # 保存结果
-    with open('person_evaluations.json', 'w', encoding='utf-8') as f:
-        json.dump(evaluations, f, ensure_ascii=False, indent=2)
-    print("  ✓ 已保存到 person_evaluations.json")
 
     # 新增：基于阈值的多标签与矩阵导出
     print("  基于阈值(0.4)为音乐人打流派标签，并导出占比矩阵...")
     labeled_evaluations = task1.assign_genre_labels(evaluations, threshold=0.4)
-    # 覆盖保存（包含genre_share与genre_labels）
     with open('person_evaluations_labeled.json', 'w', encoding='utf-8') as f:
         json.dump(labeled_evaluations, f, ensure_ascii=False, indent=2)
     print("  ✓ 已保存到 person_evaluations_labeled.json")
