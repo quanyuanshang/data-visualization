@@ -18,18 +18,69 @@
             </pattern>
           </defs>
           
+          <!-- 时间范围标注（顶部） -->
+          <g class="time-range-label">
+            <text
+              :x="svgWidth / 2"
+              y="20"
+              fill="#aaa"
+              font-size="12"
+              text-anchor="middle"
+              class="time-range-text"
+            >
+              {{ timeRange.min }} - {{ timeRange.max }}
+            </text>
+            <line
+              :x1="timeLabelWidth + 20"
+              y1="30"
+              :x2="svgWidth - 20"
+              y2="30"
+              stroke="#555"
+              stroke-width="1"
+              opacity="0.5"
+            />
+          </g>
+          
           <!-- 时间轴标签（左侧，根据展开比例显示） -->
-          <g class="time-labels" v-if="props.expandRatio > 0">
+          <g class="time-labels">
             <text
               v-for="(year, index) in visibleYears"
               :key="year"
               :x="timeLabelWidth"
               :y="getYearYPosition(year) + 5"
               fill="#888"
-              :font-size="11 * props.expandRatio"
+              :font-size="getYearLabelFontSize()"
               text-anchor="end"
               class="year-label"
-              :opacity="props.expandRatio"
+              :opacity="getYearLabelOpacity()"
+            >
+              {{ year }}
+            </text>
+          </g>
+          
+          <!-- 主要时间点标注（在时间轴上显示关键年份） -->
+          <g class="major-time-markers" v-if="props.expandRatio === 0">
+            <line
+              v-for="year in majorTimeMarkers"
+              :key="`marker-${year}`"
+              :x1="timeLabelWidth + 20"
+              :y1="getYearYPosition(year)"
+              :x2="svgWidth - 20"
+              :y2="getYearYPosition(year)"
+              stroke="#666"
+              stroke-width="0.5"
+              stroke-dasharray="2,2"
+              opacity="0.4"
+              class="time-marker-line"
+            />
+            <text
+              v-for="year in majorTimeMarkers"
+              :key="`marker-text-${year}`"
+              :x="timeLabelWidth + 25"
+              :y="getYearYPosition(year) + 4"
+              fill="#999"
+              font-size="9"
+              class="time-marker-label"
             >
               {{ year }}
             </text>
@@ -185,17 +236,27 @@ const visibleYears = computed(() => {
     return cachedVisibleYears
   }
   
-  // 当expandRatio为0时，不显示年份标签
+  // 当expandRatio为0时，显示少量关键年份
   // 当expandRatio增加时，逐渐显示更多年份
+  const totalYears = allYears.value.length
+  
   if (props.expandRatio === 0) {
-    cachedVisibleYears = []
+    // 压缩状态：只显示开始、中间、结束等关键年份
+    const visible = []
+    if (totalYears > 0) {
+      visible.push(allYears.value[0]) // 开始年份
+      if (totalYears > 1) {
+        visible.push(allYears.value[Math.floor(totalYears / 2)]) // 中间年份
+        visible.push(allYears.value[totalYears - 1]) // 结束年份
+      }
+    }
+    cachedVisibleYears = visible
     cachedExpandRatio = props.expandRatio
-    return []
+    return visible
   }
   
   // 根据展开比例决定显示多少年份
   // expandRatio为1时显示所有年份
-  const totalYears = allYears.value.length
   const showCount = Math.ceil(totalYears * props.expandRatio)
   
   // 均匀选择要显示的年份
@@ -218,6 +279,26 @@ const visibleYears = computed(() => {
   cachedVisibleYears = visible
   cachedExpandRatio = props.expandRatio
   return visible
+})
+
+// 主要时间点标注（用于压缩状态）
+const majorTimeMarkers = computed(() => {
+  const totalYears = allYears.value.length
+  if (totalYears === 0) return []
+  
+  // 选择几个关键时间点：开始、1/4、1/2、3/4、结束
+  const markers = []
+  markers.push(allYears.value[0]) // 开始
+  if (totalYears > 4) {
+    markers.push(allYears.value[Math.floor(totalYears / 4)])
+    markers.push(allYears.value[Math.floor(totalYears / 2)])
+    markers.push(allYears.value[Math.floor(totalYears * 3 / 4)])
+  }
+  if (totalYears > 1) {
+    markers.push(allYears.value[totalYears - 1]) // 结束
+  }
+  
+  return markers
 })
 
 // 计算是否需要滚动
@@ -308,6 +389,22 @@ const yearPositionCache = computed(() => {
 
 function getYearYPosition(year) {
   return yearPositionCache.value[year] || 0
+}
+
+function getYearLabelFontSize() {
+  // 根据展开比例调整字体大小
+  if (props.expandRatio === 0) {
+    return 10 // 压缩状态下使用较小字体
+  }
+  return 11 * props.expandRatio
+}
+
+function getYearLabelOpacity() {
+  // 根据展开比例调整透明度
+  if (props.expandRatio === 0) {
+    return 0.6 // 压缩状态下降低透明度
+  }
+  return props.expandRatio
 }
 
 function getPointXOffset(count) {

@@ -44,6 +44,8 @@
         :page-size="pageSize"
         :all-genres="genresData?.genres ?? []"
         :sort-metric="currentSortMetric"
+        :timeline-data="timelineData"
+        :genre-color-map="genreColorMap"
         @go-back="handleGoBack"
         @page-change="handlePageChange"
         @view-tracks="handleViewTracks"

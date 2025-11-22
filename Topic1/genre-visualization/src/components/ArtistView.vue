@@ -23,7 +23,54 @@
             <stop offset="0%" :stop-color="genreColor" stop-opacity="1" />
             <stop offset="100%" :stop-color="genreColor" stop-opacity="0.6" />
           </radialGradient>
+          <radialGradient id="center-genre-gradient" cx="30%" cy="30%">
+            <stop offset="0%" :stop-color="genreColor" stop-opacity="1" />
+            <stop offset="100%" :stop-color="genreColor" stop-opacity="0.7" />
+          </radialGradient>
         </defs>
+        
+        <!-- 中心流派圆圈和环形河流图 -->
+        <g class="center-group">
+          <!-- 环形河流图（在中心圆圈下方） -->
+          <g class="sankey-ring" v-if="sankeyData.length > 0">
+            <path
+              v-for="(segment, index) in sankeyData"
+              :key="index"
+              :d="segment.path"
+              :fill="segment.color"
+              :opacity="segment.opacity"
+              class="sankey-segment"
+              @mouseenter="(e) => handleSankeyHover(e, index)"
+              @mousemove="(e) => handleSankeyMove(e)"
+              @mouseleave="hoveredSankeySegment = null"
+            />
+          </g>
+          
+          <!-- 中心流派圆圈 -->
+          <circle
+            :cx="centerX"
+            :cy="centerY"
+            :r="centerRadius"
+            fill="url(#center-genre-gradient)"
+            :stroke="genreColor"
+            stroke-width="3"
+            class="center-genre-circle"
+          />
+          
+          <!-- 流派名称标签 -->
+          <text
+            :x="centerX"
+            :y="centerY - 10"
+            fill="white"
+            text-anchor="middle"
+            dominant-baseline="middle"
+            class="center-genre-label"
+            font-size="18"
+            font-weight="600"
+          >
+            {{ genre }}
+          </text>
+        </g>
         
         <!-- 音乐人圆圈组 -->
         <g class="artists-group">
@@ -101,6 +148,19 @@
         <button class="page-btn" :disabled="props.currentPage >= totalPages" @click="changePage(props.currentPage + 1)">下一页</button>
       </div>
     </div>
+    
+    <!-- 环形河流图工具提示 -->
+    <div
+      v-if="hoveredSankeySegment !== null && sankeyData[hoveredSankeySegment]"
+      class="sankey-tooltip"
+      :style="{ left: sankeyTooltipX + 'px', top: sankeyTooltipY + 'px' }"
+    >
+      <div class="tooltip-content">
+        <strong>{{ genre }}</strong>
+        <div>年份: {{ sankeyData[hoveredSankeySegment].year }}</div>
+        <div>作品数: {{ sankeyData[hoveredSankeySegment].count }}</div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -137,6 +197,14 @@ const props = defineProps({
   sortMetric: {
     type: String,
     default: 'score'
+  },
+  timelineData: {
+    type: Object,
+    default: null
+  },
+  genreColorMap: {
+    type: Object,
+    default: () => ({})
   }
 })
 
@@ -149,10 +217,20 @@ const svgRef = ref(null)
 const width = ref(1200)
 const height = ref(800)
 const hoveredArtist = ref(null)
+const hoveredSankeySegment = ref(null)
+const sankeyTooltipX = ref(0)
+const sankeyTooltipY = ref(0)
 // 力导向图模拟器
 let simulation = null
 // 节点数据（响应式，用于动画）
 const artistNodes = ref([])
+
+// 中心圆圈参数
+const centerX = computed(() => width.value / 2)
+const centerY = computed(() => height.value / 2)
+const centerRadius = computed(() => Math.min(width.value, height.value) * 0.12) // 中心圆圈半径
+const ringInnerRadius = computed(() => centerRadius.value + 15) // 环形河流图内半径
+const ringOuterRadius = computed(() => centerRadius.value + 45) // 环形河流图外半径
 
 // ==================== 计算属性 ====================
 /**
@@ -178,7 +256,11 @@ function hashToColorIndex(name) {
 }
 
 const genreColor = computed(() => {
-  // 优先用父组件传入的 genre 列表找颜色，fallback 到 hash 颜色
+  // 优先使用传入的 genreColorMap
+  if (props.genreColorMap && props.genreColorMap[props.genre]) {
+    return props.genreColorMap[props.genre]
+  }
+  // 其次用父组件传入的 genre 列表找颜色
   const available = Array.isArray(props.allGenres) && props.allGenres.length
     ? props.allGenres
     : []
@@ -187,6 +269,79 @@ const genreColor = computed(() => {
     return palette[index % palette.length]
   }
   return palette[hashToColorIndex(props.genre)]
+})
+
+// 计算环形河流图数据
+const sankeyData = computed(() => {
+  if (!props.timelineData || !props.genre) return []
+  
+  const genreTimeline = props.timelineData.genre_timelines?.[props.genre]
+  if (!genreTimeline || !genreTimeline.yearly_counts) return []
+  
+  const allYears = props.timelineData.time_range?.all_years || []
+  if (allYears.length === 0) return []
+  
+  // 获取每年的作品数量
+  const yearCounts = allYears.map(year => {
+    return {
+      year,
+      count: genreTimeline.yearly_counts[String(year)] || 0
+    }
+  })
+  
+  // 计算最大值用于归一化
+  const maxCount = Math.max(...yearCounts.map(y => y.count), 1)
+  
+  // 生成环形路径
+  const segments = []
+  const totalYears = yearCounts.length
+  const anglePerYear = (2 * Math.PI) / totalYears
+  
+  yearCounts.forEach((item, index) => {
+    const startAngle = index * anglePerYear - Math.PI / 2 // 从顶部开始
+    const endAngle = (index + 1) * anglePerYear - Math.PI / 2
+    
+    // 根据作品数量计算内半径（数量越多，内半径越小，形成河流效果）
+    const normalizedCount = item.count / maxCount
+    const dynamicInnerRadius = ringInnerRadius.value + (ringOuterRadius.value - ringInnerRadius.value) * (1 - normalizedCount * 0.7)
+    
+    // 创建环形扇形路径
+    const innerStartX = centerX.value + Math.cos(startAngle) * dynamicInnerRadius
+    const innerStartY = centerY.value + Math.sin(startAngle) * dynamicInnerRadius
+    const innerEndX = centerX.value + Math.cos(endAngle) * dynamicInnerRadius
+    const innerEndY = centerY.value + Math.sin(endAngle) * dynamicInnerRadius
+    const outerStartX = centerX.value + Math.cos(startAngle) * ringOuterRadius.value
+    const outerStartY = centerY.value + Math.sin(startAngle) * ringOuterRadius.value
+    const outerEndX = centerX.value + Math.cos(endAngle) * ringOuterRadius.value
+    const outerEndY = centerY.value + Math.sin(endAngle) * ringOuterRadius.value
+    
+    const largeArcFlag = anglePerYear > Math.PI ? 1 : 0
+    
+    const path = [
+      `M ${innerStartX} ${innerStartY}`,
+      `L ${outerStartX} ${outerStartY}`,
+      `A ${ringOuterRadius.value} ${ringOuterRadius.value} 0 ${largeArcFlag} 1 ${outerEndX} ${outerEndY}`,
+      `L ${innerEndX} ${innerEndY}`,
+      `A ${dynamicInnerRadius} ${dynamicInnerRadius} 0 ${largeArcFlag} 0 ${innerStartX} ${innerStartY}`,
+      'Z'
+    ].join(' ')
+    
+    // 根据作品数量设置颜色和透明度
+    const baseColor = genreColor.value
+    const opacity = 0.3 + normalizedCount * 0.6
+    
+    segments.push({
+      year: item.year,
+      count: item.count,
+      path,
+      color: baseColor,
+      opacity: hoveredSankeySegment.value === index ? 1 : opacity,
+      startAngle,
+      endAngle
+    })
+  })
+  
+  return segments
 })
 
 /**
@@ -256,11 +411,11 @@ function initForceSimulation() {
       node.artist.name.length * 7,
       (`${metricLabel}: ${valueText}`).length * 6
     )
-    // 初始位置：围绕中心均匀分布
+    // 初始位置：围绕中心圆圈均匀分布
     const angle = (i / nodes.length) * 2 * Math.PI
-    const initialRadius = Math.min(width.value, height.value) * 0.3
-    node.x = width.value / 2 + Math.cos(angle) * initialRadius
-    node.y = height.value / 2 + Math.sin(angle) * initialRadius
+    const initialRadius = centerRadius.value + ringOuterRadius.value + 30 // 在环形河流图外侧
+    node.x = centerX.value + Math.cos(angle) * initialRadius
+    node.y = centerY.value + Math.sin(angle) * initialRadius
     node.vx = 0
     node.vy = 0
   })
@@ -280,18 +435,36 @@ function initForceSimulation() {
       })
       .distanceMax(300) // 最大作用距离
     )
-    // 中心力：将节点拉向画布中心，保持整体布局
-    .force('center', d3.forceCenter(width.value / 2, height.value / 2)
-      .strength(0.08) // 中心力强度，稍大于流派视图，让节点更集中
+    // 径向力：将节点推向中心圆圈周围，而不是画布中心
+    .force('radial', d3.forceRadial()
+      .radius(d => centerRadius.value + ringOuterRadius.value + 50) // 目标半径：中心圆圈 + 环形河流图 + 间距
+      .x(centerX.value)
+      .y(centerY.value)
+      .strength(0.1) // 径向力强度
     )
     // 碰撞检测：确保节点之间保持最小距离，不会重叠
     .force('collision', d3.forceCollide()
       .radius(d => d.radius + 8) // 碰撞半径 = 节点半径 + 间距
       .strength(0.9) // 碰撞力强度，确保不重叠
     )
-    // 边界约束：将节点保持在画布范围内
+    // 边界约束：将节点保持在画布范围内，同时避免与中心圆圈重叠
     .force('boundary', () => {
       nodes.forEach(node => {
+        // 计算到中心的距离
+        const dx = node.x - centerX.value
+        const dy = node.y - centerY.value
+        const distance = Math.sqrt(dx * dx + dy * dy)
+        const minDistance = centerRadius.value + ringOuterRadius.value + node.radius + 10 // 最小距离：中心圆圈 + 环形河流图 + 节点半径 + 间距
+        
+        // 如果节点太靠近中心，将其推向外侧
+        if (distance < minDistance) {
+          const angle = Math.atan2(dy, dx)
+          node.x = centerX.value + Math.cos(angle) * minDistance
+          node.y = centerY.value + Math.sin(angle) * minDistance
+          node.vx = 0
+          node.vy = 0
+        }
+        
         // 计算边界，留出一些边距
         const margin = node.radius + 5
         if (node.x < margin) {
@@ -317,8 +490,23 @@ function initForceSimulation() {
   
   // 监听模拟的 tick 事件，更新节点位置
   simulation.on('tick', () => {
-    // 应用边界约束
+    // 应用边界约束和中心圆圈约束
     nodes.forEach(node => {
+      // 检查与中心圆圈的距离
+      const dx = node.x - centerX.value
+      const dy = node.y - centerY.value
+      const distance = Math.sqrt(dx * dx + dy * dy)
+      const minDistance = centerRadius.value + ringOuterRadius.value + node.radius + 10
+      
+      if (distance < minDistance) {
+        const angle = Math.atan2(dy, dx)
+        node.x = centerX.value + Math.cos(angle) * minDistance
+        node.y = centerY.value + Math.sin(angle) * minDistance
+        node.vx = 0
+        node.vy = 0
+      }
+      
+      // 应用画布边界约束
       const margin = node.radius + 5
       node.x = Math.max(margin, Math.min(width.value - margin, node.x))
       node.y = Math.max(margin, Math.min(height.value - margin, node.y))
@@ -330,6 +518,19 @@ function initForceSimulation() {
   // 模拟结束后，确保所有节点都在边界内
   simulation.on('end', () => {
     nodes.forEach(node => {
+      // 检查与中心圆圈的距离
+      const dx = node.x - centerX.value
+      const dy = node.y - centerY.value
+      const distance = Math.sqrt(dx * dx + dy * dy)
+      const minDistance = centerRadius.value + ringOuterRadius.value + node.radius + 10
+      
+      if (distance < minDistance) {
+        const angle = Math.atan2(dy, dx)
+        node.x = centerX.value + Math.cos(angle) * minDistance
+        node.y = centerY.value + Math.sin(angle) * minDistance
+      }
+      
+      // 应用画布边界约束
       const margin = node.radius + 5
       node.x = Math.max(margin, Math.min(width.value - margin, node.x))
       node.y = Math.max(margin, Math.min(height.value - margin, node.y))
@@ -407,6 +608,25 @@ function handleGoBack() {
 function changePage(page) {
   if (page === props.currentPage) return
   emit('page-change', page)
+}
+
+/**
+ * 处理环形河流图悬停
+ */
+function handleSankeyHover(event, index) {
+  hoveredSankeySegment.value = index
+  sankeyTooltipX.value = event.clientX + 10
+  sankeyTooltipY.value = event.clientY - 10
+}
+
+/**
+ * 处理环形河流图鼠标移动
+ */
+function handleSankeyMove(event) {
+  if (hoveredSankeySegment.value !== null) {
+    sankeyTooltipX.value = event.clientX + 10
+    sankeyTooltipY.value = event.clientY - 10
+  }
 }
 
 /**
@@ -634,6 +854,63 @@ svg {
 
 .page-info {
   color: #333;
+}
+
+/* 中心圆圈样式 */
+.center-group {
+  pointer-events: none;
+}
+
+.center-genre-circle {
+  pointer-events: none;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.center-genre-label {
+  pointer-events: none;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* 环形河流图样式 */
+.sankey-ring {
+  pointer-events: all;
+}
+
+.sankey-segment {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  pointer-events: all;
+}
+
+.sankey-segment:hover {
+  opacity: 1 !important;
+  filter: brightness(1.2);
+}
+
+/* 环形河流图工具提示 */
+.sankey-tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.sankey-tooltip .tooltip-content strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.sankey-tooltip .tooltip-content div {
+  margin-top: 2px;
+  color: #ccc;
 }
 </style>
 
