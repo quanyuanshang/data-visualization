@@ -29,7 +29,6 @@
               v-model="selectedGenresForTimeline"
             />
             <span class="genre-name">{{ genre }}</span>
-            <!-- 如果有颜色映射，显示一个小色块 -->
             <span class="color-dot"></span>
           </label>
         </div>
@@ -103,8 +102,8 @@
       </div>
 
       <div v-else class="empty-state">
-        <p>👉 勾选<b>单个流派</b>以解锁音乐人深度筛选功能。</p>
-        <p v-if="selectedGenresForTimeline.length > 1" class="hint">当前已选 {{ selectedGenresForTimeline.length }} 个流派，显示流派对比模式。</p>
+        <p>👉 勾选<b>单个流派</b>并点击“更新”以查看该流派下的详细音乐人列表。</p>
+        <p v-if="selectedGenresForTimeline.length > 1" class="hint">当前已选 {{ selectedGenresForTimeline.length }} 个流派，下方为流派对比模式。</p>
       </div>
 
       <div class="divider"></div>
@@ -170,30 +169,18 @@ const maxTopN = computed(() => {
 // ==================== 方法 ====================
 
 /**
- * 监听复选框变化，这是核心驱动逻辑
+ * 监听复选框变化
+ * 修改：仅通知父组件更新时间线和高亮，不自动切换视图
  */
 watch(selectedGenresForTimeline, (newVal) => {
-  // 1. 通知父组件更新时间线视图
+  // 1. 通知父组件更新时间线视图 & 主视图高亮
   emit('timeline-filter-change', newVal)
-
-  // 2. 如果正好选中一个，尝试自动切换到该流派的音乐人视图(或者预备状态)
-  if (newVal.length === 1) {
-    const genre = newVal[0]
-    // 触发一次默认筛选，让父组件加载该流派数据
-    emit('apply-filter', {
-      genre: genre,
-      metric: selectedMetric.value,
-      topN: topN.value
-    })
-  }
+  
+  // 移除自动切换到 artists view 的逻辑
 }, { deep: true })
 
 function handleFilterChange() {
-  // 仅在用户拖动滑块或改下拉框时触发
-  if (isSingleGenreSelected.value) {
-    // 不立即触发，等点击按钮？或者立即触发？这里选择点击按钮触发以减少闪烁，
-    // 但为了响应性，也可以做防抖。这里保持简单，依靠按钮。
-  }
+  // 仅在用户交互时更新内部状态，不触发外部更新，等待点击按钮
 }
 
 function handleApplyArtistFilter() {
@@ -225,7 +212,6 @@ function clearGenreSelection() {
 // 初始化：如果父组件传入了 currentGenre，同步到复选框
 watch(() => props.currentGenre, (newGenre) => {
   if (newGenre && !selectedGenresForTimeline.value.includes(newGenre)) {
-    // 如果是单选模式切换过来，重置为该流派
     selectedGenresForTimeline.value = [newGenre]
   }
 }, { immediate: true })
