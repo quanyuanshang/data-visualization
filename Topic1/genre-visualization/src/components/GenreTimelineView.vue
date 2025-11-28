@@ -307,6 +307,9 @@ const strengthThreshold = ref(5) // 降低默认阈值以显示更多聚合后�
 const displayMode = ref('both')
 const containerWidth = ref(1200)
 
+// 聚合时间窗口大小 (年)
+const TIME_SEGMENT_SIZE = 15
+
 // Tooltips
 const tooltip = ref({ visible: false, x: 0, y: 0, genre: '', year: '', count: 0 })
 const relationTooltip = ref({ visible: false, x: 0, y: 0, isHotspot: false })
@@ -461,7 +464,7 @@ const processedRelations = computed(() => {
   // Aggregation Logic: 15年分割
   // 将时间段聚合，大幅减少线条数量
   const bundles = new Map()
-  const timeSeg = 15 // 15年聚合窗口
+  const timeSeg = TIME_SEGMENT_SIZE // 使用全局常量
   
   for (const rel of rawRels) {
     // 过滤：只显示当前可见流派之间的关系
@@ -578,17 +581,21 @@ const genreDataPointsMap = computed(() => {
   for (const g of genres.value) {
     const tl = genreTimelines.value[g]
     map[g] = []
-    if (tl?.yearly_counts) {
-      for(let y = timeRange.value.min; y <= timeRange.value.max; y++) {
-        const c = tl.yearly_counts[y] || 0
-        if (c > 0) map[g].push({ year: y, count: c })
-      }
+    // 即使该流派没有 yearly_counts，也要填充 0 值以保持线条连续（平直线）
+    const counts = tl?.yearly_counts || {}
+    
+    for(let y = timeRange.value.min; y <= timeRange.value.max; y++) {
+      const c = counts[y] || 0
+      // 关键修改：不再过滤 if (c > 0)
+      // 包含所有年份，这样 count=0 时线条会回归基线，形成完整的心电图效果
+      map[g].push({ year: y, count: c })
     }
   }
   return map
 })
 
 function getMajorPoints(genre) {
+  // 对于圆点标记（Tooltip触发点），我们仍然只显示有数据的点
   return (genreDataPointsMap.value[genre] || []).filter(p => p.count > 0)
 }
 
@@ -628,7 +635,20 @@ function showTooltip(e, genre, year, count) {
 function hideTooltip() { tooltip.value.visible = false }
 
 function showHotspotTooltip(e, spot) {
-  relationTooltip.value = { visible: true, x: e.clientX+15, y: e.clientY-10, isHotspot: true, genre: spot.genre, year: `${Math.floor(spot.year-15)}-${Math.floor(spot.year+15)}`, intensity: spot.intensity }
+  // 修正：使用 +/- timeSeg/2 来计算范围，确保是 15 年跨度而不是 30 年
+  const halfSeg = TIME_SEGMENT_SIZE / 2
+  const startYear = Math.floor(spot.year - halfSeg)
+  const endYear = Math.floor(spot.year + halfSeg)
+  
+  relationTooltip.value = { 
+    visible: true, 
+    x: e.clientX+15, 
+    y: e.clientY-10, 
+    isHotspot: true, 
+    genre: spot.genre, 
+    year: `${startYear}-${endYear}`, 
+    intensity: spot.intensity 
+  }
 }
 function hideRelationTooltip() { relationTooltip.value.visible = false }
 

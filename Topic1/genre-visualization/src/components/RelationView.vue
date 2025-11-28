@@ -400,7 +400,7 @@ const labelHeight = 40
 const timeLabelWidth = 60
 
 // 动态计算 SVG 高度以适应时间范围
-const pixelsPerYear = 35 // 增加间距让连线更清晰
+const pixelsPerYear = 20 // 压缩高度，每一年20px
 
 // 计算可见年份（每5年一个标签）
 const visibleYears = computed(() => {
@@ -437,13 +437,15 @@ const genreDataPointsMap = computed(() => {
   for (const genre of genres.value) {
     const timeline = genreTimelines.value[genre]
     map[genre] = []
-    if (timeline?.yearly_counts) {
-      const min = timeRange.value.min
-      const max = timeRange.value.max
-      for (let y = min; y <= max; y++) {
-        const count = timeline.yearly_counts[String(y)] || 0
-        if (count > 0) map[genre].push({ year: y, count })
-      }
+    
+    const counts = timeline?.yearly_counts || {}
+    const min = timeRange.value.min
+    const max = timeRange.value.max
+    
+    for (let y = min; y <= max; y++) {
+      const count = counts[String(y)] || 0
+      // 包含所有年份数据，即使 count 为 0，以保持心电图线条连续
+      map[genre].push({ year: y, count })
     }
   }
   return map
@@ -454,7 +456,6 @@ const genreDataPointsMap = computed(() => {
 const workLookup = computed(() => {
   const map = new Map()
   if (!props.timelineData?.genre_timelines) {
-    console.warn('[RelationView] 没有 genre_timelines 数据')
     return map
   }
   
@@ -462,11 +463,9 @@ const workLookup = computed(() => {
   Object.entries(props.timelineData.genre_timelines).forEach(([genre, data]) => {
     if (data.timeline) {
       data.timeline.forEach(entry => {
-        // entry is [year, { total, works: [] }]
         const year = entry[0]
         const works = entry[1]?.works || []
         works.forEach(work => {
-          // 确保ID是数字类型，同时存储字符串和数字两种key
           const workId = Number(work.id)
           if (!isNaN(workId)) {
             const workInfo = {
@@ -474,11 +473,10 @@ const workLookup = computed(() => {
               year: year,
               genre: genre
             }
-            // 同时存储数字和字符串key，确保能匹配到
             map.set(workId, workInfo)
             map.set(String(workId), workInfo)
             if (work.id !== workId && work.id !== String(workId)) {
-              map.set(work.id, workInfo) // 原始ID格式（如果不是数字或字符串）
+              map.set(work.id, workInfo)
             }
             totalWorks++
           }
@@ -486,13 +484,10 @@ const workLookup = computed(() => {
       })
     }
   })
-  
-  console.log(`[RelationView] 构建了作品查找表，共 ${totalWorks} 个作品，${map.size} 个键`)
   return map
 })
 
 function getWorkTitle(id, genreHint, yearHint, directTitle = null) {
-  // 优先使用直接传入的标题（来自relations数据）
   if (directTitle && directTitle.trim() && directTitle !== 'Unknown' && directTitle !== 'Unknown Work') {
     return directTitle
   }
@@ -501,7 +496,6 @@ function getWorkTitle(id, genreHint, yearHint, directTitle = null) {
     return '未知作品'
   }
   
-  // 尝试多种ID格式查找
   let work = workLookup.value.get(id)
   if (!work) {
     const numId = Number(id)
@@ -511,9 +505,7 @@ function getWorkTitle(id, genreHint, yearHint, directTitle = null) {
   }
   
   if (work) {
-    // 优先显示标题，即使标题是 "Unknown" 也显示它
     if (work.title) {
-      // 如果标题是 "Unknown" 或 "Unknown Work"，显示为 "未知歌曲"
       if (work.title === 'Unknown' || work.title === 'Unknown Work') {
         return '未知歌曲'
       }
@@ -521,12 +513,10 @@ function getWorkTitle(id, genreHint, yearHint, directTitle = null) {
     }
   }
   
-  // 如果直接标题存在但为空或Unknown，也显示未知歌曲
   if (directTitle === 'Unknown' || directTitle === 'Unknown Work') {
     return '未知歌曲'
   }
   
-  // 如果找不到作品信息，返回带ID的提示信息
   if (genreHint && yearHint) {
     return `作品 #${id} (${genreHint}, ${yearHint})`
   }
@@ -540,15 +530,14 @@ const rawRelations = computed(() => {
   if (!props.timelineData?.relations) return []
   
   const selected = props.selectedGenres && props.selectedGenres.length > 0
-  // 增加聚合粒度，使线条更粗、更少 (10年一个桶)
-  const timeSegmentSize = 10 // 调整为10年，方便后续5年对齐
+  // 聚合粒度
+  const timeSegmentSize = 10 
   const bundles = new Map()
   
   for (const rel of props.timelineData.relations) {
     const sGenre = rel.source_genre
     const tGenre = rel.target_genre
     
-    // 筛选逻辑
     if (selected && (!props.selectedGenres.includes(sGenre) || !props.selectedGenres.includes(tGenre))) continue
     if (!genres.value.includes(sGenre) || !genres.value.includes(tGenre)) continue
     
@@ -558,7 +547,6 @@ const rawRelations = computed(() => {
     if (sYear < timeRange.value.min || sYear > timeRange.value.max) continue
     if (tYear < timeRange.value.min || tYear > timeRange.value.max) continue
 
-    // 分组 Key
     const sSeg = Math.floor((sYear - timeRange.value.min) / timeSegmentSize)
     const tSeg = Math.floor((tYear - timeRange.value.min) / timeSegmentSize)
     
@@ -574,7 +562,7 @@ const rawRelations = computed(() => {
         count: 0,
         sSeg,
         tSeg,
-        relations: [] // 存储具体的每一个关系
+        relations: []
       })
     }
     const b = bundles.get(key)
@@ -588,7 +576,6 @@ const rawRelations = computed(() => {
     ...b,
     avgSourceYear: b.sourceYearSum / b.count,
     avgTargetYear: b.targetYearSum / b.count,
-    // 对内部关系按时间排序
     relations: b.relations.sort((a, b) => a.source_year - b.source_year)
   }))
 })
@@ -602,7 +589,6 @@ const maxRelationCount = computed(() => {
 const processedRelations = computed(() => {
   if (rawRelations.value.length === 0) return { links: [], hotspots: {} }
 
-  // 过滤阈值
   const maxVal = maxRelationCount.value
   const thresholdVal = Math.max(1, Math.ceil(maxVal * (strengthThreshold.value / 100)))
   
@@ -616,7 +602,7 @@ const processedRelations = computed(() => {
     const tIdx = genres.value.indexOf(bundle.targetGenre)
     
     // --- 对齐逻辑修正 ---
-    // 将平均年份强制吸附到最近的5年刻度 (hotspotResolution = 5)
+    // 将平均年份强制吸附到最近的5年刻度
     const gridSnap = 5
     const snappedSourceYear = Math.round(bundle.avgSourceYear / gridSnap) * gridSnap
     const snappedTargetYear = Math.round(bundle.avgTargetYear / gridSnap) * gridSnap
@@ -626,7 +612,6 @@ const processedRelations = computed(() => {
     const tx = getGenreXPosition(tIdx)
     const ty = getYearYPosition(snappedTargetYear)
     
-    // 热点Key使用对齐后的年份
     const sKey = `${bundle.sourceGenre}_${snappedSourceYear}`
     const tKey = `${bundle.targetGenre}_${snappedTargetYear}`
     
@@ -636,22 +621,15 @@ const processedRelations = computed(() => {
     hotspotsMap[sKey].intensity += bundle.count
     hotspotsMap[tKey].intensity += bundle.count
 
-    // 生成连线路径 (Cubic Bezier for smooth s-curve / c-curve)
     const dy = ty - sy
     const dx = tx - sx
     
-    // 垂直流向优化：让线条先垂直出来，再弯曲
-    // 控制点垂直偏移量与垂直距离成正比
     const controlY = Math.abs(dy) * 0.5
     
     let path = ''
     if (Math.abs(dx) < 10 && Math.abs(dy) < 10) {
-       path = `M ${sx} ${sy} L ${tx} ${ty}` // Very short line
+       path = `M ${sx} ${sy} L ${tx} ${ty}` 
     } else {
-       // 尝试一种更自然的流体曲线
-       // M start C cp1 cp2 end
-       // cp1: start + vertical offset
-       // cp2: end - vertical offset
        path = `M ${sx} ${sy} 
                C ${sx} ${sy + controlY}, 
                  ${tx} ${ty - controlY}, 
@@ -662,28 +640,22 @@ const processedRelations = computed(() => {
     
     links.push({
       ...bundle,
-      // 确保传递 relations 数组
       relations: bundle.relations,
-      // 保存吸附后的年份用于交互判断
       avgSourceYear: snappedSourceYear, 
       avgTargetYear: snappedTargetYear,
       path,
       color: relationTypeColors[bundle.relationType] || '#888',
-      // 视觉编码：粗细和不透明度
-      strokeWidth: 1 + Math.pow(normWeight, 0.8) * 8, // 指数映射增强对比
+      strokeWidth: 1 + Math.pow(normWeight, 0.8) * 8,
       opacity: 0.3 + Math.pow(normWeight, 0.5) * 0.7,
       weight: normWeight
     })
   })
 
-  // 排序：粗线在后，防止被遮挡
   links.sort((a, b) => a.weight - b.weight)
 
-  // 处理热点半径
   const hotspots = {}
   Object.keys(hotspotsMap).forEach(k => {
      const h = hotspotsMap[k]
-     // 强度开方映射半径
      const r = 3 + Math.sqrt(h.intensity) * 1.2
      hotspots[k] = { ...h, r: Math.min(r, 20) }
   })
@@ -724,24 +696,24 @@ function getGenrePath(genre) {
   if (!points || points.length === 0) return ''
   
   const line = d3.line()
-    .x(d => getPointXOffset(d.count)) // 简单的垂直向下偏离
+    .x(d => getPointXOffset(d.count))
     .y(d => getYearYPosition(d.year))
     .curve(d3.curveMonotoneY)
   
   return line(points)
 }
 
-// 筛选主要数据点（避免心电图过于密集）
+// 筛选主要数据点（避免心电图过于密集），只显示有数据的点
 function getMajorPoints(genre) {
   const points = genreDataPointsMap.value[genre] || []
-  return points.filter(p => p.count > 0) // 这里可以添加更复杂的筛选逻辑
+  return points.filter(p => p.count > 0) 
 }
 
 // ==================== 交互事件 ====================
 let tooltipTimer = null
 
 function showTooltip(event, genre, year, count) {
-  if (hoveredLink.value) return // 优先显示关系
+  if (hoveredLink.value) return 
   
   tooltip.value = {
     visible: true,
@@ -775,8 +747,6 @@ function hideRelationTooltip() {
 
 function isSpotRelatedToLink(spot, link) {
   if (!link) return false
-  // 判断热点是否是连线的端点
-  // 简单的流派 + 时间判断 (使用吸附后的年份)
   const isSource = spot.genre === link.sourceGenre && Math.abs(spot.year - link.avgSourceYear) < 2
   const isTarget = spot.genre === link.targetGenre && Math.abs(spot.year - link.avgTargetYear) < 2
   return isSource || isTarget
@@ -829,7 +799,6 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', updateDimensions)
 })
 
-// 监听数据变化重绘
 watch([genres, strengthThreshold], () => {
   // 触发重绘计算在 computed 中自动完成
 }, { deep: true })
@@ -837,12 +806,14 @@ watch([genres, strengthThreshold], () => {
 </script>
 
 <style scoped>
+/* ... styles ... */
+/* 复用之前的样式，不做修改 */
 .relation-view {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  background: #121212; /* 深色背景 */
+  background: #121212;
   color: #eee;
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -894,7 +865,6 @@ watch([genres, strengthThreshold], () => {
   margin: 2px 0 0 0;
 }
 
-/* 控制面板样式 */
 .controls-panel {
   display: flex;
   align-items: center;
@@ -952,7 +922,7 @@ watch([genres, strengthThreshold], () => {
   cursor: pointer;
   box-shadow: 0 0 8px rgba(0,0,0,0.5);
   transition: transform 0.1s;
-  margin-top: -6px; /* 调整位置 */
+  margin-top: -6px;
 }
 
 .strength-slider::-webkit-slider-thumb:hover {
@@ -989,7 +959,6 @@ watch([genres, strengthThreshold], () => {
   display: none;
 }
 
-/* 时间线容器 */
 .timeline-container {
   flex: 1;
   position: relative;
@@ -1009,7 +978,6 @@ watch([genres, strengthThreshold], () => {
   display: block;
 }
 
-/* 元素样式 */
 .year-label {
   user-select: none;
   font-family: 'Arial', sans-serif;
@@ -1037,11 +1005,10 @@ watch([genres, strengthThreshold], () => {
   stroke-width: 2px;
 }
 
-/* 关系连线 */
 .relation-link {
   transition: opacity 0.3s ease, stroke-width 0.3s ease;
   stroke-linecap: round;
-  mix-blend-mode: screen; /* 混合模式让重叠线条更亮 */
+  mix-blend-mode: screen;
 }
 
 .relation-link.dimmed {
@@ -1055,10 +1022,9 @@ watch([genres, strengthThreshold], () => {
   filter: brightness(1.5);
 }
 
-/* 热点节点 */
 .hotspot-node {
   transition: opacity 0.3s ease;
-  pointer-events: none; /* 让鼠标穿透到核心 */
+  pointer-events: none;
 }
 
 .hotspot-core {
@@ -1075,7 +1041,6 @@ watch([genres, strengthThreshold], () => {
   stroke-width: 2px;
 }
 
-/* Tooltips */
 .tooltip {
   position: fixed;
   z-index: 1000;
@@ -1218,7 +1183,6 @@ watch([genres, strengthThreshold], () => {
   border-left: 3px solid;
 }
 
-/* 图例 */
 .legend {
   position: fixed;
   bottom: 20px;
