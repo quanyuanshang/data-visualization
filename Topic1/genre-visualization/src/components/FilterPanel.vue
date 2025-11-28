@@ -1,155 +1,124 @@
+
 <template>
   <div class="filter-panel">
     <div class="panel-header">
-      <h2>筛选音乐人</h2>
+      <h2>探索与筛选</h2>
     </div>
     
     <div class="panel-content">
-      <!-- 当前状态信息（音乐人视图模式） -->
-      <div class="filter-section" v-if="isArtistView && currentGenre">
-        <div class="current-status">
-          <div class="status-item">
-            <span class="status-label">当前流派：</span>
-            <span class="status-value">{{ currentGenre }}</span>
-          </div>
-          <div class="status-item">
-            <span class="status-label">可用音乐人：</span>
-            <span class="status-value">{{ currentArtistsCount }} 位</span>
+      <!-- 1. 流派核心筛选 (统一入口) -->
+      <div class="filter-section">
+        <div class="section-header">
+          <label class="filter-label">选择流派 ({{ selectedGenresForTimeline.length }})</label>
+          <div class="header-actions">
+            <button class="text-btn" @click="selectAllGenres">全选</button>
+            <button class="text-btn" @click="clearGenreSelection">清空</button>
           </div>
         </div>
-      </div>
-
-      <!-- 流派选择（仅在流派视图模式显示） -->
-      <div class="filter-section" v-if="!isArtistView">
-        <label class="filter-label">选择流派</label>
-        <select 
-          v-model="selectedGenre" 
-          class="filter-select"
-          @change="handleGenreChange"
-        >
-          <option value="">-- 请选择流派 --</option>
-          <option 
-            v-for="genre in genres" 
-            :key="genre" 
-            :value="genre"
-          >
-            {{ genre }}
-          </option>
-        </select>
-      </div>
-
-      <!-- 筛选指标选择 -->
-      <div class="filter-section" v-if="canShowMetrics">
-        <label class="filter-label">排序指标</label>
-        <select 
-          v-model="selectedMetric" 
-          class="filter-select"
-          @change="handleMetricChange"
-        >
-          <option value="score">综合评分</option>
-          <option value="total_works">总作品数</option>
-          <option value="notable_rate">成名率</option>
-          <option value="notable_works">成名作品数</option>
-          <option value="time_span">活跃时长</option>
-          <option value="influence_score">影响力分数</option>
-          <option value="collaborators_count">合作者数量</option>
-          <option value="record_labels_count">唱片公司数量</option>
-          <option value="role_count">角色多样性</option>
-        </select>
-      </div>
-
-      <!-- 显示数量选择 -->
-      <div class="filter-section" v-if="canShowMetrics">
-        <label class="filter-label">显示前 N 名</label>
-        <input 
-          type="number" 
-          v-model.number="topN" 
-          class="filter-input"
-          :min="1"
-          :max="maxTopN"
-          @change="handleTopNChange"
-        />
-        <span class="input-hint" v-if="isArtistView">
-          最多 {{ currentArtistsCount }} 名
-        </span>
-      </div>
-
-      <!-- 流派多选筛选（用于时间线视图） -->
-      <div class="filter-section" v-if="showTimelineFilter">
-        <label class="filter-label">筛选流派（可多选）</label>
+        
         <div class="genre-checkboxes">
           <label 
             v-for="genre in genres" 
             :key="genre"
             class="genre-checkbox"
+            :class="{ 'active': selectedGenresForTimeline.includes(genre) }"
           >
             <input 
               type="checkbox" 
               :value="genre"
               v-model="selectedGenresForTimeline"
             />
-            <span>{{ genre }}</span>
+            <span class="genre-name">{{ genre }}</span>
+            <!-- 如果有颜色映射，显示一个小色块 -->
+            <span class="color-dot"></span>
           </label>
         </div>
-        <div class="filter-actions">
-          <button 
-            class="filter-btn select-all-btn"
-            @click="selectAllGenres"
-          >
-            全选
-          </button>
-          <button 
-            class="filter-btn clear-btn"
-            @click="clearGenreSelection"
-          >
-            清空
-          </button>
-          <span class="selected-count">
-            已选: {{ selectedGenresForTimeline.length }} / {{ genres.length }}
+        
+        <div class="layout-hint">
+          <span v-if="selectedGenresForTimeline.length > 0 && selectedGenresForTimeline.length <= 2">
+            <i class="icon">↔</i> 横向视图 (详细对比)
+          </span>
+          <span v-else>
+            <i class="icon">↕</i> 纵向视图 (宏观演变)
           </span>
         </div>
       </div>
 
-      <!-- 打开关系视图按钮 -->
-      <div class="filter-section" v-if="showTimelineFilter">
+      <div class="divider"></div>
+
+      <!-- 2. 音乐人指标筛选 (仅在单选流派时出现) -->
+      <div class="artist-filters-container" v-if="isSingleGenreSelected">
+        <div class="section-title">
+          <h3>{{ selectedGenresForTimeline[0] }} 音乐人筛选</h3>
+        </div>
+
+        <div class="filter-section">
+          <label class="filter-label">排序指标</label>
+          <select 
+            v-model="selectedMetric" 
+            class="filter-select"
+            @change="handleFilterChange"
+          >
+            <option value="score">综合评分</option>
+            <option value="total_works">总作品数</option>
+            <option value="notable_rate">成名率</option>
+            <option value="notable_works">成名作品数</option>
+            <option value="time_span">活跃时长</option>
+            <option value="influence_score">影响力分数</option>
+            <option value="collaborators_count">合作者数量</option>
+          </select>
+        </div>
+
+        <div class="filter-section">
+          <label class="filter-label">显示前 N 名</label>
+          <div class="range-input-group">
+            <input 
+              type="range" 
+              v-model.number="topN" 
+              min="10" 
+              :max="maxTopN" 
+              step="10"
+              @change="handleFilterChange"
+            />
+            <span class="range-value">{{ topN }}</span>
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <button 
+            class="apply-button"
+            @click="handleApplyArtistFilter"
+          >
+            更新音乐人视图
+          </button>
+        </div>
+        
+        <!-- 当前筛选状态展示 -->
+        <div class="filter-info">
+          <div class="info-item">
+            <span class="info-label">可用音乐人：</span>
+            <span class="info-value">{{ currentArtistsCount }} 位</span>
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="empty-state">
+        <p>👉 勾选<b>单个流派</b>以解锁音乐人深度筛选功能。</p>
+        <p v-if="selectedGenresForTimeline.length > 1" class="hint">当前已选 {{ selectedGenresForTimeline.length }} 个流派，显示流派对比模式。</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 3. 全局功能 -->
+      <div class="filter-section">
         <button 
           class="apply-button relation-view-button"
-          @click="handleOpenRelationView"
+          @click="emit('open-relation-view')"
         >
-          查看流派关系网络
+          查看完整关系网络
         </button>
       </div>
 
-      <!-- 应用筛选按钮 -->
-      <div class="filter-section" v-if="canShowMetrics">
-        <button 
-          class="apply-button"
-          @click="handleApplyFilter"
-          :disabled="!canApply"
-        >
-          {{ isArtistView ? '精炼筛选' : '应用筛选' }}
-        </button>
-      </div>
-
-      <!-- 当前筛选信息 -->
-      <div class="filter-info" v-if="appliedFilter">
-        <div class="info-item">
-          <span class="info-label">流派：</span>
-          <span class="info-value">{{ appliedFilter.genre || currentGenre }}</span>
-        </div>
-        <div class="info-item">
-          <span class="info-label">指标：</span>
-          <span class="info-value">{{ getMetricLabel(appliedFilter.metric) }}</span>
-        </div>
-        <div class="info-item">
-          <span class="info-label">显示：</span>
-          <span class="info-value">前 {{ appliedFilter.topN }} 名</span>
-        </div>
-        <div class="info-item">
-          <span class="info-label">结果：</span>
-          <span class="info-value">{{ appliedFilter.resultCount || currentArtistsCount }} 位音乐人</span>
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -181,417 +150,328 @@ const props = defineProps({
 const emit = defineEmits(['apply-filter', 'refine-filter', 'timeline-filter-change', 'open-relation-view'])
 
 // ==================== 响应式数据 ====================
-const selectedGenre = ref('')
+const selectedGenresForTimeline = ref([]) // 复选框绑定的数据
 const selectedMetric = ref('score')
 const topN = ref(100)
-const appliedFilter = ref(null)
-// 时间线视图的流派筛选
-const selectedGenresForTimeline = ref([])
 
 // ==================== 计算属性 ====================
-/**
- * 是否可以显示指标选择（流派视图需要选择流派，音乐人视图直接显示）
- */
-const canShowMetrics = computed(() => {
-  if (props.isArtistView) {
-    return props.currentGenre && props.currentArtistsCount > 0
-  }
-  return selectedGenre.value
-})
 
 /**
- * 是否显示时间线筛选（仅在流派视图且不在音乐人视图时显示）
+ * 是否只选中了一个流派 (触发音乐人筛选的条件)
  */
-const showTimelineFilter = computed(() => {
-  return !props.isArtistView
+const isSingleGenreSelected = computed(() => {
+  return selectedGenresForTimeline.value.length === 1
 })
 
-/**
- * 是否可以应用筛选
- */
-const canApply = computed(() => {
-  if (props.isArtistView) {
-    return props.currentGenre && selectedMetric.value && topN.value > 0 && topN.value <= props.currentArtistsCount
-  }
-  return selectedGenre.value && selectedMetric.value && topN.value > 0
-})
-
-/**
- * 最大显示数量（音乐人视图时限制为当前可用数量）
- */
 const maxTopN = computed(() => {
-  if (props.isArtistView && props.currentArtistsCount > 0) {
-    return props.currentArtistsCount
-  }
-  return 500
+  return props.currentArtistsCount > 0 ? props.currentArtistsCount : 200
 })
-
-/**
- * 获取指标的中文标签
- */
-function getMetricLabel(metric) {
-  const labels = {
-    'score': '综合评分',
-    'total_works': '总作品数',
-    'notable_rate': '成名率',
-    'notable_works': '成名作品数',
-    'time_span': '活跃时长',
-    'influence_score': '影响力分数',
-    'collaborators_count': '合作者数量',
-    'record_labels_count': '唱片公司数量',
-    'role_count': '角色多样性'
-  }
-  return labels[metric] || metric
-}
 
 // ==================== 方法 ====================
-/**
- * 处理流派变化
- */
-function handleGenreChange() {
-  // 重置筛选状态
-  appliedFilter.value = null
-}
 
-// 监听当前流派变化，同步到 selectedGenre（用于显示）
-watch(() => props.currentGenre, (newGenre) => {
-  if (props.isArtistView && newGenre) {
-    selectedGenre.value = newGenre
+/**
+ * 监听复选框变化，这是核心驱动逻辑
+ */
+watch(selectedGenresForTimeline, (newVal) => {
+  // 1. 通知父组件更新时间线视图
+  emit('timeline-filter-change', newVal)
+
+  // 2. 如果正好选中一个，尝试自动切换到该流派的音乐人视图(或者预备状态)
+  if (newVal.length === 1) {
+    const genre = newVal[0]
+    // 触发一次默认筛选，让父组件加载该流派数据
+    emit('apply-filter', {
+      genre: genre,
+      metric: selectedMetric.value,
+      topN: topN.value
+    })
   }
-}, { immediate: true })
+}, { deep: true })
 
-// 监听音乐人数量变化，更新 topN 的最大值
-watch(() => props.currentArtistsCount, (newCount) => {
-  if (props.isArtistView && newCount > 0 && topN.value > newCount) {
-    topN.value = newCount
+function handleFilterChange() {
+  // 仅在用户拖动滑块或改下拉框时触发
+  if (isSingleGenreSelected.value) {
+    // 不立即触发，等点击按钮？或者立即触发？这里选择点击按钮触发以减少闪烁，
+    // 但为了响应性，也可以做防抖。这里保持简单，依靠按钮。
   }
-})
-
-/**
- * 处理指标变化
- */
-function handleMetricChange() {
-  // 可以在这里添加额外的逻辑
 }
 
-/**
- * 处理显示数量变化
- */
-function handleTopNChange() {
-  // 确保值在合理范围内
-  if (topN.value < 1) topN.value = 1
-  const max = maxTopN.value
-  if (topN.value > max) topN.value = max
-}
-
-/**
- * 应用筛选
- */
-function handleApplyFilter() {
-  if (!canApply.value) return
+function handleApplyArtistFilter() {
+  if (!isSingleGenreSelected.value) return
   
+  const genre = selectedGenresForTimeline.value[0]
+  const filter = {
+    genre: genre,
+    metric: selectedMetric.value,
+    topN: topN.value
+  }
+  
+  // 无论当前是否在 artist view，都发送 refine 或 apply
   if (props.isArtistView) {
-    // 音乐人视图模式：精炼筛选（二次筛选）
-    const filter = {
-      metric: selectedMetric.value,
-      topN: topN.value
-    }
-    appliedFilter.value = {
-      ...filter,
-      genre: props.currentGenre,
-      resultCount: Math.min(topN.value, props.currentArtistsCount)
-    }
-    emit('refine-filter', filter)
+    emit('refine-filter', { metric: selectedMetric.value, topN: topN.value })
   } else {
-    // 流派视图模式：初始筛选
-    const filter = {
-      genre: selectedGenre.value,
-      metric: selectedMetric.value,
-      topN: topN.value
-    }
-    appliedFilter.value = filter
     emit('apply-filter', filter)
   }
 }
 
-/**
- * 全选所有流派
- */
 function selectAllGenres() {
   selectedGenresForTimeline.value = [...props.genres]
-  emit('timeline-filter-change', selectedGenresForTimeline.value)
 }
 
-/**
- * 清空流派选择
- */
 function clearGenreSelection() {
   selectedGenresForTimeline.value = []
-  emit('timeline-filter-change', selectedGenresForTimeline.value)
 }
 
-/**
- * 打开关系视图
- */
-function handleOpenRelationView() {
-  emit('open-relation-view')
-}
+// 初始化：如果父组件传入了 currentGenre，同步到复选框
+watch(() => props.currentGenre, (newGenre) => {
+  if (newGenre && !selectedGenresForTimeline.value.includes(newGenre)) {
+    // 如果是单选模式切换过来，重置为该流派
+    selectedGenresForTimeline.value = [newGenre]
+  }
+}, { immediate: true })
 
-// 监听流派选择变化
-watch(selectedGenresForTimeline, (newSelection) => {
-  emit('timeline-filter-change', newSelection)
-}, { deep: true })
 </script>
 
 <style scoped>
 .filter-panel {
-  width: 280px;
+  width: 300px;
   height: 100%;
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  background: #1e1e1e;
+  border-right: 1px solid #333;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
+  color: #eee;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .panel-header {
-  padding: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  text-align: center;
+  padding: 16px 20px;
+  background: #252525;
+  border-bottom: 1px solid #333;
 }
 
 .panel-header h2 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   margin: 0;
+  color: #fff;
 }
 
 .panel-content {
   flex: 1;
-  padding: 20px;
+  padding: 0;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .filter-section {
+  padding: 20px;
+}
+
+.section-header {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .filter-label {
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.filter-select,
-.filter-input {
-  padding: 10px 12px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-  background: white;
-  color: #333;
-  transition: border-color 0.2s ease;
+.header-actions {
+  display: flex;
+  gap: 8px;
 }
 
-.filter-select:focus,
-.filter-input:focus {
-  outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-}
-
-.filter-input {
-  width: 100%;
-}
-
-.apply-button {
-  padding: 12px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+.text-btn {
+  background: none;
   border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.apply-button:hover:not(:disabled) {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-}
-
-.apply-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.filter-info {
-  margin-top: 10px;
-  padding: 16px;
-  background: #f8f9fa;
-  border-radius: 6px;
-  border-left: 3px solid #667eea;
-}
-
-.info-item {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
-  font-size: 13px;
-}
-
-.info-item:last-child {
-  margin-bottom: 0;
-}
-
-.info-label {
-  color: #666;
-  font-weight: 500;
-}
-
-.info-value {
-  color: #333;
-  font-weight: 600;
-}
-
-.current-status {
-  padding: 12px;
-  background: #f0f4ff;
-  border-radius: 6px;
-  border-left: 3px solid #667eea;
-}
-
-.status-item {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
-  font-size: 13px;
-}
-
-.status-item:last-child {
-  margin-bottom: 0;
-}
-
-.status-label {
-  color: #666;
-  font-weight: 500;
-}
-
-.status-value {
   color: #667eea;
-  font-weight: 600;
-}
-
-.input-hint {
-  display: block;
-  margin-top: 4px;
   font-size: 12px;
-  color: #999;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
 }
 
-/* 流派多选筛选样式 */
+.text-btn:hover {
+  background: rgba(102, 126, 234, 0.1);
+}
+
+/* 复选框列表 */
 .genre-checkboxes {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  max-height: 200px;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 240px;
   overflow-y: auto;
-  padding: 8px;
-  background: #f8f9fa;
+  background: #161616;
+  border: 1px solid #333;
   border-radius: 6px;
-  border: 1px solid #ddd;
+  padding: 4px;
 }
 
 .genre-checkbox {
   display: flex;
   align-items: center;
-  gap: 6px;
-  cursor: pointer;
-  color: #333;
-  font-size: 13px;
-  user-select: none;
-  transition: all 0.2s ease;
+  gap: 8px;
   padding: 6px 10px;
+  cursor: pointer;
   border-radius: 4px;
-  background: white;
-  border: 1px solid #ddd;
+  transition: background 0.2s;
 }
 
 .genre-checkbox:hover {
-  background: #f0f4ff;
-  border-color: #667eea;
+  background: #2a2a2a;
 }
 
-.genre-checkbox input[type="checkbox"] {
-  margin: 0;
-  cursor: pointer;
+.genre-checkbox.active {
+  background: rgba(102, 126, 234, 0.15);
+}
+
+.genre-checkbox input {
   accent-color: #667eea;
 }
 
-.genre-checkbox input[type="checkbox"]:checked + span {
-  color: #667eea;
+.genre-name {
+  font-size: 13px;
+  color: #ccc;
+  flex: 1;
+}
+
+.genre-checkbox.active .genre-name {
+  color: #fff;
   font-weight: 500;
 }
 
-.genre-checkbox span {
-  transition: color 0.2s ease, font-weight 0.2s ease;
+.layout-hint {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #252525;
+  padding: 6px;
+  border-radius: 4px;
 }
 
-.filter-actions {
+.layout-hint .icon {
+  margin-right: 6px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.divider {
+  height: 1px;
+  background: #333;
+  margin: 0 20px;
+}
+
+/* 音乐人筛选部分 */
+.artist-filters-container {
+  background: #252525;
+  padding-bottom: 10px;
+}
+
+.section-title {
+  padding: 15px 20px 5px;
+}
+
+.section-title h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+  border-left: 3px solid #667eea;
+  padding-left: 8px;
+}
+
+.filter-select {
+  width: 100%;
+  padding: 8px;
+  background: #333;
+  border: 1px solid #444;
+  color: #eee;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.range-input-group {
   display: flex;
   align-items: center;
   gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
-.filter-btn {
-  padding: 6px 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background: white;
-  color: #333;
-  font-size: 12px;
+.range-input-group input {
+  flex: 1;
+}
+
+.range-value {
+  font-size: 13px;
+  width: 30px;
+  text-align: right;
+  color: #fff;
+}
+
+.apply-button {
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
+  font-size: 13px;
+  transition: background 0.2s;
 }
 
-.filter-btn:hover {
-  background: #f8f9fa;
-  border-color: #667eea;
-}
-
-.select-all-btn {
-  background: #f0f4ff;
-  border-color: #667eea;
-  color: #667eea;
-}
-
-.clear-btn {
-  background: #fff5f5;
-  border-color: #f56565;
-  color: #f56565;
-}
-
-.selected-count {
-  font-size: 12px;
-  color: #666;
-  margin-left: auto;
+.apply-button:hover {
+  background: #5a6fd6;
 }
 
 .relation-view-button {
-  background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
-  margin-top: 10px;
+  background: #444;
+  border: 1px solid #555;
 }
 
-.relation-view-button:hover:not(:disabled) {
-  box-shadow: 0 4px 12px rgba(78, 205, 196, 0.3);
+.relation-view-button:hover {
+  background: #555;
+}
+
+.empty-state {
+  padding: 30px 20px;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.empty-state .hint {
+  margin-top: 10px;
+  color: #888;
+  font-size: 12px;
+}
+
+.filter-info {
+  padding: 0 20px 15px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #888;
+}
+
+.info-value {
+  color: #fff;
 }
 </style>
-
