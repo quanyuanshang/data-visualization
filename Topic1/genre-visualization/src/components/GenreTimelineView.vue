@@ -2,6 +2,36 @@
   <div class="timeline-view">
     <div class="timeline-header">
       <h2>流派时间线发展</h2>
+      <!-- 显示模式选择器 -->
+      <div class="display-mode-selector">
+        <label class="mode-option">
+          <input 
+            type="radio" 
+            name="displayMode" 
+            value="both" 
+            v-model="displayMode"
+          />
+          <span>两者都有</span>
+        </label>
+        <label class="mode-option">
+          <input 
+            type="radio" 
+            name="displayMode" 
+            value="timeline" 
+            v-model="displayMode"
+          />
+          <span>只有心电图</span>
+        </label>
+        <label class="mode-option">
+          <input 
+            type="radio" 
+            name="displayMode" 
+            value="relations" 
+            v-model="displayMode"
+          />
+          <span>只有关系图</span>
+        </label>
+      </div>
     </div>
     
     <div v-if="!timelineData || !genres || genres.length === 0" class="loading-message">
@@ -120,7 +150,7 @@
               />
               
               <!-- 时间点数据（圆圈） -->
-              <g class="data-points">
+              <g class="data-points" v-if="showTimeline">
                 <circle
                   v-for="point in genreDataPointsMap[genre]"
                   :key="`${genre}-${point.year}`"
@@ -146,6 +176,24 @@
               </g>
             </g>
           </g>
+          
+          <!-- 流派间关系连接线（Bundle Line） -->
+          <g class="relation-links" v-if="showRelations && relationLinks.length > 0">
+            <path
+              v-for="(link, index) in relationLinks"
+              :key="`link-${index}`"
+              :d="link.path"
+              :stroke="link.color"
+              :stroke-width="link.strokeWidth"
+              :opacity="link.opacity"
+              fill="none"
+              class="relation-link"
+              :class="`relation-${link.type}`"
+              :style="{ '--stroke-width': link.strokeWidth + 'px' }"
+              @mouseenter="showRelationTooltip($event, link)"
+              @mouseleave="hideRelationTooltip"
+            />
+          </g>
         </svg>
       </div>
       
@@ -165,6 +213,21 @@
         <strong>{{ tooltip.genre }}</strong>
         <div>年份: {{ tooltip.year }}</div>
         <div>作品数: {{ tooltip.count }}</div>
+      </div>
+    </div>
+    
+    <!-- 关系连接线工具提示 -->
+    <div
+      v-if="relationTooltip.visible"
+      class="tooltip relation-tooltip"
+      :style="{ left: relationTooltip.x + 'px', top: relationTooltip.y + 'px' }"
+    >
+      <div class="tooltip-content">
+        <strong>{{ relationTooltip.sourceGenre }} → {{ relationTooltip.targetGenre }}</strong>
+        <div>关系类型: {{ getRelationTypeLabel(relationTooltip.type) }}</div>
+        <div>源时间段: {{ relationTooltip.sourceYear }}</div>
+        <div>目标时间段: {{ relationTooltip.targetYear }}</div>
+        <div>关系数量: {{ relationTooltip.count }}</div>
       </div>
     </div>
   </div>
@@ -187,6 +250,10 @@ const props = defineProps({
     type: Number,
     default: 0,
     validator: (value) => value >= 0 && value <= 1
+  },
+  selectedGenres: {
+    type: Array,
+    default: () => []
   }
 })
 
@@ -208,9 +275,31 @@ const tooltip = ref({
   count: 0
 })
 
+const relationTooltip = ref({
+  visible: false,
+  x: 0,
+  y: 0,
+  sourceGenre: '',
+  targetGenre: '',
+  sourceYear: '',
+  targetYear: '',
+  type: '',
+  count: 0
+})
+
+// 显示模式：'both' | 'timeline' | 'relations'
+const displayMode = ref('both')
+
 // ==================== 计算属性 ====================
+// 根据筛选条件过滤流派
 const genres = computed(() => {
-  return props.timelineData?.genres ?? []
+  const allGenres = props.timelineData?.genres ?? []
+  // 如果没有选择任何流派，显示所有流派
+  if (!props.selectedGenres || props.selectedGenres.length === 0) {
+    return allGenres
+  }
+  // 只显示选中的流派
+  return allGenres.filter(genre => props.selectedGenres.includes(genre))
 })
 
 const allYears = computed(() => {
@@ -306,6 +395,15 @@ const needsScroll = computed(() => {
   return svgHeight.value > containerHeight.value
 })
 
+// 根据显示模式控制心电图和关系线的显示
+const showTimeline = computed(() => {
+  return displayMode.value === 'both' || displayMode.value === 'timeline'
+})
+
+const showRelations = computed(() => {
+  return displayMode.value === 'both' || displayMode.value === 'relations'
+})
+
 // 时间标签宽度
 const timeLabelWidth = 60
 
@@ -349,6 +447,164 @@ const genreDataPointsMap = computed(() => {
     map[genre] = points
   }
   return map
+})
+
+// 关系类型颜色映射
+const relationTypeColors = {
+  'CoverOf': '#ff6b6b',        // 翻唱 - 红色
+  'DirectlySamples': '#4ecdc4', // 采样 - 青色
+  'InterpolatesFrom': '#45b7d1', // 插值引用 - 蓝色
+  'LyricalReferenceTo': '#96ceb4', // 歌词引用 - 绿色
+  'InStyleOf': '#ffeaa7'        // 风格模仿 - 黄色
+}
+
+// 计算时间段（15年一组）
+const timeSegmentSize = 30
+
+function getTimeSegment(year) {
+  const minYear = timeRange.value.min
+  return Math.floor((year - minYear) / timeSegmentSize)
+}
+
+function getSegmentCenterYear(segment) {
+  const minYear = timeRange.value.min
+  return minYear + segment * timeSegmentSize + Math.floor(timeSegmentSize / 2)
+}
+
+// 计算流派间的关系连接线（使用bundle line）
+const relationLinks = computed(() => {
+  if (!props.timelineData) {
+    console.log('[GenreTimelineView] 没有时间线数据')
+    return []
+  }
+  
+  if (!props.timelineData.relations) {
+    console.log('[GenreTimelineView] 时间线数据中没有relations字段')
+    return []
+  }
+  
+  if (props.timelineData.relations.length === 0) {
+    console.log('[GenreTimelineView] relations数组为空，需要运行extract_timeline_relations.py提取关系数据')
+    return []
+  }
+  
+  console.log(`[GenreTimelineView] 找到 ${props.timelineData.relations.length} 条关系`)
+  
+  const relations = props.timelineData.relations
+  
+  // 按关系类型、源时间段、目标流派分组
+  const bundles = new Map()
+  
+  for (const relation of relations) {
+    const sourceGenre = relation.source_genre
+    const targetGenre = relation.target_genre
+    const sourceYear = relation.source_year
+    const targetYear = relation.target_year
+    const relationType = relation.relation_type
+    
+    // 检查两个流派是否都在筛选后的流派列表中
+    // 如果没有筛选，显示所有关系；如果有筛选，只显示选中流派之间的关系
+    const shouldShow = props.selectedGenres && props.selectedGenres.length > 0
+      ? props.selectedGenres.includes(sourceGenre) && props.selectedGenres.includes(targetGenre)
+      : genres.value.includes(sourceGenre) && genres.value.includes(targetGenre)
+    
+    if (!shouldShow) {
+      continue
+    }
+    
+    // 检查年份是否在时间范围内
+    if (!allYears.value.includes(sourceYear) || !allYears.value.includes(targetYear)) {
+      continue
+    }
+    
+    // 获取时间段
+    const sourceSegment = getTimeSegment(sourceYear)
+    const targetSegment = getTimeSegment(targetYear)
+    
+    // 创建bundle key: relationType_sourceGenre_sourceSegment_targetGenre_targetSegment
+    const bundleKey = `${relationType}_${sourceGenre}_${sourceSegment}_${targetGenre}_${targetSegment}`
+    
+    if (!bundles.has(bundleKey)) {
+      bundles.set(bundleKey, {
+        relationType,
+        sourceGenre,
+        targetGenre,
+        sourceSegment,
+        targetSegment,
+        sourceYear, // 保存第一个年份作为代表
+        targetYear, // 保存第一个年份作为代表
+        count: 0
+      })
+    }
+    
+    bundles.get(bundleKey).count++
+  }
+  
+  console.log(`[GenreTimelineView] 分组后得到 ${bundles.size} 个bundle`)
+  
+  // 生成bundle line路径
+  const links = []
+  
+  for (const bundle of bundles.values()) {
+    const sourceGenreIndex = genres.value.indexOf(bundle.sourceGenre)
+    const targetGenreIndex = genres.value.indexOf(bundle.targetGenre)
+    
+    // 源位置：源流派的中心，时间段中心年份
+    const sourceSegmentCenterYear = getSegmentCenterYear(bundle.sourceSegment)
+    const sourceX = getGenreXPosition(sourceGenreIndex)
+    const sourceY = getYearYPosition(sourceSegmentCenterYear)
+    
+    // 目标位置：目标流派的中心，时间段中心年份
+    const targetSegmentCenterYear = getSegmentCenterYear(bundle.targetSegment)
+    const targetX = getGenreXPosition(targetGenreIndex)
+    const targetY = getYearYPosition(targetSegmentCenterYear)
+    
+    // 创建bundle line路径（使用更平滑的曲线）
+    // 使用三次贝塞尔曲线，控制点在中点附近，形成平滑的弧线
+    const midX = (sourceX + targetX) / 2
+    const midY = (sourceY + targetY) / 2
+    
+    // 计算控制点，使曲线更平滑
+    const dx = targetX - sourceX
+    const dy = targetY - sourceY
+    const distance = Math.sqrt(dx * dx + dy * dy)
+    
+    // 控制点偏移，形成平滑的弧线
+    const curvature = Math.min(distance * 0.3, 100) // 最大弯曲度
+    const perpX = -dy / distance * curvature
+    const perpY = dx / distance * curvature
+    
+    const controlX1 = sourceX + dx * 0.3 + perpX
+    const controlY1 = sourceY + dy * 0.3 + perpY
+    const controlX2 = sourceX + dx * 0.7 + perpX
+    const controlY2 = sourceY + dy * 0.7 + perpY
+    
+    const path = `M ${sourceX} ${sourceY} C ${controlX1} ${controlY1}, ${controlX2} ${controlY2}, ${targetX} ${targetY}`
+    
+    // 线条粗细根据数量计算（最小1.5，最大8）
+    const strokeWidth = Math.min(1.5 + (bundle.count / 10), 8)
+    
+    // 透明度根据数量调整（最小0.3，最大0.7）
+    const opacity = Math.min(0.3 + (bundle.count / 50), 0.7)
+    
+    links.push({
+      sourceGenre: bundle.sourceGenre,
+      targetGenre: bundle.targetGenre,
+      sourceYear: bundle.sourceYear,
+      targetYear: bundle.targetYear,
+      sourceSegment: bundle.sourceSegment,
+      targetSegment: bundle.targetSegment,
+      type: bundle.relationType,
+      count: bundle.count,
+      path,
+      color: relationTypeColors[bundle.relationType] || '#888',
+      strokeWidth,
+      opacity
+    })
+  }
+  
+  console.log(`[GenreTimelineView] 生成了 ${links.length} 条bundle连接线`)
+  return links
 })
 
 // ==================== 方法 ====================
@@ -490,6 +746,40 @@ function hideTooltip() {
   tooltip.value.visible = false
 }
 
+function getRelationTypeLabel(type) {
+  const labels = {
+    'CoverOf': '翻唱',
+    'DirectlySamples': '采样',
+    'InterpolatesFrom': '插值引用',
+    'LyricalReferenceTo': '歌词引用',
+    'InStyleOf': '风格模仿'
+  }
+  return labels[type] || type
+}
+
+function showRelationTooltip(event, link) {
+  const sourceSegmentStart = timeRange.value.min + link.sourceSegment * timeSegmentSize
+  const sourceSegmentEnd = sourceSegmentStart + timeSegmentSize - 1
+  const targetSegmentStart = timeRange.value.min + link.targetSegment * timeSegmentSize
+  const targetSegmentEnd = targetSegmentStart + timeSegmentSize - 1
+  
+  relationTooltip.value = {
+    visible: true,
+    x: event.clientX + 10,
+    y: event.clientY - 10,
+    sourceGenre: link.sourceGenre,
+    targetGenre: link.targetGenre,
+    sourceYear: `${sourceSegmentStart}-${sourceSegmentEnd}`,
+    targetYear: `${targetSegmentStart}-${targetSegmentEnd}`,
+    type: link.type,
+    count: link.count
+  }
+}
+
+function hideRelationTooltip() {
+  relationTooltip.value.visible = false
+}
+
 
 function handleScroll() {
   if (scrollWrapperRef.value) {
@@ -588,6 +878,11 @@ watch(() => props.expandRatio, () => {
   padding: 12px 20px;
   border-bottom: 1px solid #333;
   background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .timeline-header h2 {
@@ -595,6 +890,47 @@ watch(() => props.expandRatio, () => {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
+}
+
+/* 显示模式选择器 */
+.display-mode-selector {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mode-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #ccc;
+  font-size: 13px;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.mode-option:hover {
+  color: #fff;
+}
+
+.mode-option input[type="radio"] {
+  margin: 0;
+  cursor: pointer;
+  accent-color: #667eea;
+}
+
+.mode-option input[type="radio"]:checked + span {
+  color: #fff;
+  font-weight: 500;
+}
+
+.mode-option span {
+  transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .timeline-header .subtitle {
@@ -658,6 +994,44 @@ watch(() => props.expandRatio, () => {
 
 .data-line {
   pointer-events: none;
+}
+
+/* 关系连接线样式（Bundle Line） */
+.relation-links {
+  pointer-events: all;
+}
+
+.relation-link {
+  cursor: pointer;
+  transition: opacity 0.2s ease, stroke-width 0.2s ease;
+  filter: blur(0.5px); /* 轻微模糊，使bundle效果更自然 */
+}
+
+.relation-link:hover {
+  opacity: 0.9 !important;
+  filter: blur(0px); /* 悬停时取消模糊 */
+  z-index: 10;
+}
+
+/* 不同关系类型的样式 */
+.relation-CoverOf {
+  stroke-dasharray: 5, 3;
+}
+
+.relation-DirectlySamples {
+  stroke-dasharray: 3, 3;
+}
+
+.relation-InterpolatesFrom {
+  stroke-dasharray: 2, 2;
+}
+
+.relation-LyricalReferenceTo {
+  stroke-dasharray: 4, 2;
+}
+
+.relation-InStyleOf {
+  stroke-dasharray: 6, 3;
 }
 
 .scroll-hint {

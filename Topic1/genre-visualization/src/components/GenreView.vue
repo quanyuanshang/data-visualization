@@ -83,6 +83,11 @@ const props = defineProps({
   genresData: {
     type: Object,
     required: true
+  },
+  genreColorMap: {
+    type: Object,
+    required: false,
+    default: () => ({})
   }
 })
 
@@ -242,12 +247,16 @@ function initForceSimulation() {
 // ==================== 方法 ====================
 /**
  * 获取流派的颜色
- * 使用 D3 的色板，为26个流派分配不同颜色
+ * 优先使用传入的genreColorMap，如果没有则使用内部颜色数组
  */
 function getGenreColor(genre) {
+  // 如果提供了genreColorMap且包含该流派，使用它
+  if (props.genreColorMap && Object.keys(props.genreColorMap).length > 0 && props.genreColorMap[genre]) {
+    return props.genreColorMap[genre]
+  }
+  
+  // 否则使用内部颜色数组
   const index = getGenreIndex(genre)
-  // 使用 D3 的色板，生成26种不同的颜色
-  // D3 v7 中，颜色方案可能不存在，使用自定义颜色数组
   const colors = [
     '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
     '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',

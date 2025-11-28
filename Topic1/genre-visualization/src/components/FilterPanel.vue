@@ -74,6 +74,52 @@
         </span>
       </div>
 
+      <!-- 流派多选筛选（用于时间线视图） -->
+      <div class="filter-section" v-if="showTimelineFilter">
+        <label class="filter-label">筛选流派（可多选）</label>
+        <div class="genre-checkboxes">
+          <label 
+            v-for="genre in genres" 
+            :key="genre"
+            class="genre-checkbox"
+          >
+            <input 
+              type="checkbox" 
+              :value="genre"
+              v-model="selectedGenresForTimeline"
+            />
+            <span>{{ genre }}</span>
+          </label>
+        </div>
+        <div class="filter-actions">
+          <button 
+            class="filter-btn select-all-btn"
+            @click="selectAllGenres"
+          >
+            全选
+          </button>
+          <button 
+            class="filter-btn clear-btn"
+            @click="clearGenreSelection"
+          >
+            清空
+          </button>
+          <span class="selected-count">
+            已选: {{ selectedGenresForTimeline.length }} / {{ genres.length }}
+          </span>
+        </div>
+      </div>
+
+      <!-- 打开关系视图按钮 -->
+      <div class="filter-section" v-if="showTimelineFilter">
+        <button 
+          class="apply-button relation-view-button"
+          @click="handleOpenRelationView"
+        >
+          查看流派关系网络
+        </button>
+      </div>
+
       <!-- 应用筛选按钮 -->
       <div class="filter-section" v-if="canShowMetrics">
         <button 
@@ -132,13 +178,15 @@ const props = defineProps({
 })
 
 // ==================== Emits ====================
-const emit = defineEmits(['apply-filter', 'refine-filter'])
+const emit = defineEmits(['apply-filter', 'refine-filter', 'timeline-filter-change', 'open-relation-view'])
 
 // ==================== 响应式数据 ====================
 const selectedGenre = ref('')
 const selectedMetric = ref('score')
 const topN = ref(100)
 const appliedFilter = ref(null)
+// 时间线视图的流派筛选
+const selectedGenresForTimeline = ref([])
 
 // ==================== 计算属性 ====================
 /**
@@ -149,6 +197,13 @@ const canShowMetrics = computed(() => {
     return props.currentGenre && props.currentArtistsCount > 0
   }
   return selectedGenre.value
+})
+
+/**
+ * 是否显示时间线筛选（仅在流派视图且不在音乐人视图时显示）
+ */
+const showTimelineFilter = computed(() => {
+  return !props.isArtistView
 })
 
 /**
@@ -258,6 +313,34 @@ function handleApplyFilter() {
     emit('apply-filter', filter)
   }
 }
+
+/**
+ * 全选所有流派
+ */
+function selectAllGenres() {
+  selectedGenresForTimeline.value = [...props.genres]
+  emit('timeline-filter-change', selectedGenresForTimeline.value)
+}
+
+/**
+ * 清空流派选择
+ */
+function clearGenreSelection() {
+  selectedGenresForTimeline.value = []
+  emit('timeline-filter-change', selectedGenresForTimeline.value)
+}
+
+/**
+ * 打开关系视图
+ */
+function handleOpenRelationView() {
+  emit('open-relation-view')
+}
+
+// 监听流派选择变化
+watch(selectedGenresForTimeline, (newSelection) => {
+  emit('timeline-filter-change', newSelection)
+}, { deep: true })
 </script>
 
 <style scoped>
@@ -410,6 +493,105 @@ function handleApplyFilter() {
   margin-top: 4px;
   font-size: 12px;
   color: #999;
+}
+
+/* 流派多选筛选样式 */
+.genre-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.genre-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #333;
+  font-size: 13px;
+  user-select: none;
+  transition: all 0.2s ease;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.genre-checkbox:hover {
+  background: #f0f4ff;
+  border-color: #667eea;
+}
+
+.genre-checkbox input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+  accent-color: #667eea;
+}
+
+.genre-checkbox input[type="checkbox"]:checked + span {
+  color: #667eea;
+  font-weight: 500;
+}
+
+.genre-checkbox span {
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.filter-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #f8f9fa;
+  border-color: #667eea;
+}
+
+.select-all-btn {
+  background: #f0f4ff;
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.clear-btn {
+  background: #fff5f5;
+  border-color: #f56565;
+  color: #f56565;
+}
+
+.selected-count {
+  font-size: 12px;
+  color: #666;
+  margin-left: auto;
+}
+
+.relation-view-button {
+  background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+  margin-top: 10px;
+}
+
+.relation-view-button:hover:not(:disabled) {
+  box-shadow: 0 4px 12px rgba(78, 205, 196, 0.3);
 }
 </style>
 

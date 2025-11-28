@@ -11,9 +11,12 @@
         <FilterPanel
           :genres="genresData.genres"
           @apply-filter="handleFilterApply"
+          @timeline-filter-change="handleTimelineFilterChange"
+          @open-relation-view="handleOpenRelationView"
         />
         <GenreView 
           :genres-data="genresData"
+          :genre-color-map="genreColorMap"
           @select-genre="handleGenreSelect"
         />
       </div>
@@ -22,6 +25,7 @@
         :timeline-data="timelineData"
         :genre-color-map="genreColorMap"
         :expand-ratio="0"
+        :selected-genres="selectedGenresForTimeline"
         class="timeline-view-container"
       />
     </div>
@@ -49,6 +53,16 @@
         @go-back="handleGoBack"
         @page-change="handlePageChange"
         @view-tracks="handleViewTracks"
+      />
+    </div>
+
+    <!-- 关系视图：显示流派之间的关系网络 -->
+    <div v-if="currentView === 'relations'" class="relation-view-wrapper">
+      <RelationView
+        :timeline-data="timelineData"
+        :genre-color-map="genreColorMap"
+        :selected-genres="selectedGenresForTimeline"
+        @go-back="handleRelationViewGoBack"
       />
     </div>
 
@@ -83,10 +97,14 @@ import ArtistView from './components/ArtistView.vue'
 import TrackView from './components/TrackView.vue'
 import FilterPanel from './components/FilterPanel.vue'
 import GenreTimelineView from './components/GenreTimelineView.vue'
+import RelationView from './components/RelationView.vue'
 
 // ==================== 状态管理 ====================
-// 当前视图状态：'genres' 表示流派视图，'artists' 表示音乐人视图
+// 当前视图状态：'genres' 表示流派视图，'artists' 表示音乐人视图，'relations' 表示关系视图
+// 默认显示流派圆圈视图，确保页面打开时显示正确的视图
 const currentView = ref('genres')
+// 时间线视图的流派筛选
+const selectedGenresForTimeline = ref([])
 // 选中的流派名称
 const selectedGenre = ref(null)
 // 当前页展示的音乐人列表
@@ -140,6 +158,10 @@ const genreColorMap = computed(() => {
  * 从 data/person_evaluations_labeled.json 加载所有音乐人的评估数据（用于筛选）
  */
 onMounted(async () => {
+  // 确保页面初始化时显示流派视图
+  currentView.value = 'genres'
+  console.log('[App] 页面初始化，设置视图为流派视图')
+  
   try {
     // 加载流派数据
     const response = await fetch('/data/visualization_data.json')
@@ -488,6 +510,31 @@ function resetTrackState() {
   trackError.value = ''
   trackLoading.value = false
 }
+
+// ==================== 时间线视图筛选功能 ====================
+/**
+ * 处理时间线视图的流派筛选变化
+ */
+function handleTimelineFilterChange(selectedGenres) {
+  selectedGenresForTimeline.value = selectedGenres
+  console.log('[App] 时间线视图流派筛选更新:', selectedGenres)
+}
+
+/**
+ * 打开关系视图
+ */
+function handleOpenRelationView() {
+  currentView.value = 'relations'
+  console.log('[App] 打开关系视图')
+}
+
+/**
+ * 从关系视图返回
+ */
+function handleRelationViewGoBack() {
+  currentView.value = 'genres'
+  console.log('[App] 从关系视图返回')
+}
 </script>
 
 <style scoped>
@@ -537,6 +584,12 @@ function resetTrackState() {
   font-size: 18px;
   color: #666;
   background: #f5f5f5;
+}
+
+.relation-view-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .track-view-wrapper {
