@@ -41,6 +41,13 @@ except ImportError as exc:  # pragma: no cover - dependency guard
     ) from exc
 
 INFLUENCE_EDGE_TYPES = {"DirectlySamples", "CoverOf", "InStyleOf"}
+INFLUENCE_WEIGHTS = {
+    "CoverOf": 5.0,
+    "DirectlySamples": 4.0,
+    "InterpolatesFrom": 3.0,
+    "LyricalReferenceTo": 3.0,
+    "InStyleOf": 2.0,
+}
 ROLE_EDGE_TYPES = {"PerformerOf", "ComposerOf", "LyricistOf", "ProducerOf"}
 RECORD_LABEL_EDGE_TYPES = {"RecordedBy", "DistributedBy"}
 
@@ -151,6 +158,24 @@ def build_person_work_maps(processor: MusicGraphProcessor) -> Tuple[
             work_to_persons[work["id"]].append(pid)
 
     return persons, person_to_works, work_to_persons
+
+
+def compute_artist_influence(
+    links: List[dict],
+    work_to_persons: Dict[int, List[int]],
+) -> Dict[int, float]:
+    """Aggregate influence weights for each artist based on their works."""
+    totals: Dict[int, float] = defaultdict(float)
+    for edge in links:
+        weight = INFLUENCE_WEIGHTS.get(edge.get("Edge Type"))
+        if weight is None:
+            continue
+        target_work = edge.get("target")
+        if target_work is None:
+            continue
+        for pid in work_to_persons.get(target_work, []):
+            totals[pid] += weight
+    return totals
 
 
 def compute_target_scores(
@@ -429,6 +454,7 @@ def main() -> None:
     processor = MusicGraphProcessor(str(args.graph))
     persons, p2w, w2p = build_person_work_maps(processor)
     targets = compute_target_scores(processor, p2w)
+    artist_influence = compute_artist_influence(raw_data["links"], w2p)
     
     collab_g = build_collaboration_graph(persons.keys(), w2p)
     # 这里注意：确保你原来的 build_influence_graph 逻辑是正确的
@@ -451,13 +477,22 @@ def main() -> None:
     embs = compute_spectral_embedding(collab_g, args.embedding_dim)
     
     df = assemble_feature_table(processor, targets, p2w, w2p, collab_g, infl_g, pr, hubs, auths, eig, embs, deg)
-    
+    df["influence_weight"] = df["person_id"].map(lambda pid: artist_influence.get(pid, 0.0))
+
+    low_output_mask = (df["total_works"] <= 1) & (df["influence_weight"] <= 0.0)
+    filtered_df = df.loc[~low_output_mask].copy()
+    removed = low_output_mask.sum()
+    if removed:
+        print(f"[INFO] Dropped {removed} low-output / zero-influence artists before training.")
+    else:
+        print("[INFO] No low-output / zero-influence artists detected for removal.")
+
     # 保存特征
     args.feature_output.parent.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(args.feature_output, index=False)
-    
+    filtered_df.to_parquet(args.feature_output, index=False)
+
     # 训练
-    model, metrics, preds = train_model(df, args.test_size, args.random_state, args)
+    model, metrics, preds = train_model(filtered_df, args.test_size, args.random_state, args)
     
     print(f"R^2: {metrics['r2']:.4f}")
     
