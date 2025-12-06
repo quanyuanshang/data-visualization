@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9511",
-      "song_id": 9511,
+      "work_type": "Song",
+      "work_id": 9511,
       "title": "Circuitry of Pulse",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,102 @@
       "own": true,
       "artist_id": 9512,
       "artist_name": "Ricky Franklin",
-      "influence": 16,
+      "influence": 19,
       "influence_breakdown": {
         "cover": 2,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 7516,
+          "name": "Laura Turner",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.258833
+        }
+      ]
+    },
+    {
+      "id": "album:4680",
+      "work_type": "Album",
+      "work_id": 4680,
+      "title": "Eh?",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 3135,
+      "artist_name": "Chelsea Martinez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 4683,
+          "name": "Laura Clark",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.703031
+        },
+        {
+          "person_id": 4682,
+          "name": "Amy Tate",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.425256
+        },
+        {
+          "person_id": 4681,
+          "name": "Erica Padilla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4020686
+        }
+      ]
     },
     {
       "id": "song:5992",
-      "song_id": 5992,
+      "work_type": "Song",
+      "work_id": 5992,
       "title": "Always, Sometimes, Sometimes",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +128,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 5993,
+          "name": "James Harvey",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4011362
+        }
       ]
     },
     {
       "id": "song:7052",
-      "song_id": 7052,
+      "work_type": "Song",
+      "work_id": 7052,
       "title": "Borrowed Time in Bethlehem",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +172,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 4683,
+          "name": "Laura Clark",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.703031
+        },
+        {
+          "person_id": 7053,
+          "name": "Carol Reid",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9642117
+        }
       ]
     },
     {
       "id": "song:10140",
-      "song_id": 10140,
+      "work_type": "Song",
+      "work_id": 10140,
       "title": "Circles Around the Sun",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,11 +225,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 4683,
+          "name": "Laura Clark",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.703031
+        },
+        {
+          "person_id": 4682,
+          "name": "Amy Tate",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.425256
+        }
       ]
     },
     {
       "id": "song:10825",
-      "song_id": 10825,
+      "work_type": "Song",
+      "work_id": 10825,
       "title": "Beats of Celebration",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,19 +278,54 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 4683,
+          "name": "Laura Clark",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.703031
+        },
+        {
+          "person_id": 4682,
+          "name": "Amy Tate",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.425256
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10825",
+      "source": "album:4680",
       "target": "song:9511",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:5992",
+      "source": "song:7052",
       "target": "song:9511",
-      "type": "LyricalReferenceTo"
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10825",
+      "target": "song:9511",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:10140",
@@ -129,9 +333,9 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:7052",
+      "source": "song:5992",
       "target": "song:9511",
-      "type": "CoverOf"
+      "type": "LyricalReferenceTo"
     }
   ]
 }

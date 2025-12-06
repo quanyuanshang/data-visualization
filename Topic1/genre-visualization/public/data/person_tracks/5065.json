@@ -1,0 +1,202 @@
+{
+  "person_id": 5065,
+  "name": "Momoko Yamamoto",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:5061",
+      "work_type": "Album",
+      "work_id": 5061,
+      "title": "Sequin Serenade",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 5065,
+      "artist_name": "Momoko Yamamoto",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 2,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5062,
+          "name": "Osamu Hayashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001248
+        },
+        {
+          "person_id": 5063,
+          "name": "Satomi Aoki",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4001248
+        },
+        {
+          "person_id": 5064,
+          "name": "Akira Saito",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4001248
+        },
+        {
+          "person_id": 5066,
+          "name": "Mikako Kondo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4001248
+        },
+        {
+          "person_id": 5067,
+          "name": "Yosuke Ito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001248
+        }
+      ]
+    },
+    {
+      "id": "song:3362",
+      "work_type": "Song",
+      "work_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
+      ]
+    },
+    {
+      "id": "album:14855",
+      "work_type": "Album",
+      "work_id": 14855,
+      "title": "Solstice Serenade",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 14856,
+      "artist_name": "Yong Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14856,
+          "name": "Yong Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981366
+        },
+        {
+          "person_id": 14857,
+          "name": "Tao Guo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397911
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3362",
+      "target": "album:5061",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:14855",
+      "target": "album:5061",
+      "type": "DirectlySamples"
+    }
+  ]
+}

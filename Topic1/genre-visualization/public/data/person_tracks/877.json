@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:876",
-      "song_id": 876,
+      "work_type": "Song",
+      "work_id": 876,
       "title": "Bold Without Apology",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 877,
       "artist_name": "Qiang Zhou",
-      "influence": 10,
+      "influence": 16,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 4,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        }
+      ]
     },
     {
       "id": "song:11527",
-      "song_id": 11527,
+      "work_type": "Song",
+      "work_id": 11527,
       "title": "Forest Whispers at Dawn",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,11 +55,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 1858,
+          "name": "Li Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.521916
+        }
+      ]
     },
     {
       "id": "song:15771",
-      "song_id": 15771,
+      "work_type": "Song",
+      "work_id": 15771,
       "title": "Tea and Rebellion",
       "genre": "Indie Rock",
       "notable": true,
@@ -61,11 +96,75 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        }
+      ]
+    },
+    {
+      "id": "album:2683",
+      "work_type": "Album",
+      "work_id": 2683,
+      "title": "Celestial Whispers",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2362,
+      "artist_name": "Kristi Crane",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        },
+        {
+          "person_id": 2361,
+          "name": "Xiulan Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8546515
+        }
+      ]
     },
     {
       "id": "song:5980",
-      "song_id": 5980,
+      "work_type": "Song",
+      "work_id": 5980,
       "title": "Sacred Resonance",
       "genre": "Indie Rock",
       "notable": true,
@@ -84,11 +183,33 @@
       "relation_types": [
         "InterpolatesFrom",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.947515
+        }
       ]
     },
     {
       "id": "song:6337",
-      "song_id": 6337,
+      "work_type": "Song",
+      "work_id": 6337,
       "title": "Dressed to the Nines",
       "genre": "Indie Rock",
       "notable": true,
@@ -106,11 +227,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 6338,
+          "name": "Juan Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977122
+        }
       ]
     },
     {
       "id": "song:15771",
-      "song_id": 15771,
+      "work_type": "Song",
+      "work_id": 15771,
       "title": "Tea and Rebellion",
       "genre": "Indie Rock",
       "notable": true,
@@ -128,11 +271,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 877,
+          "name": "Qiang Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3898542
+        }
       ]
     },
     {
       "id": "song:16494",
-      "song_id": 16494,
+      "work_type": "Song",
+      "work_id": 16494,
       "title": "Whispers from the Northern Town",
       "genre": "Indie Rock",
       "notable": false,
@@ -151,37 +316,101 @@
       "relation_types": [
         "CoverOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
+      ]
+    },
+    {
+      "id": "album:17277",
+      "work_type": "Album",
+      "work_id": 17277,
+      "title": "Oceanbound",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2038,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        },
+        {
+          "person_id": 17189,
+          "name": "Ewan MacCrae",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9382942
+        },
+        {
+          "person_id": 17191,
+          "name": "Freya Lindholm",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9228387
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:5980",
+      "target": "song:876",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:15771",
       "target": "song:876",
       "type": "InStyleOf"
     },
     {
-      "source": "song:5980",
-      "target": "song:11527",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:5980",
+      "source": "album:17277",
       "target": "song:876",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6337",
-      "target": "song:876",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:6337",
-      "target": "song:15771",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:16494",
+      "source": "album:2683",
       "target": "song:876",
       "type": "LyricalReferenceTo"
     },
@@ -193,6 +422,26 @@
     {
       "source": "song:5980",
       "target": "song:15771",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6337",
+      "target": "song:876",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6337",
+      "target": "song:15771",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5980",
+      "target": "song:11527",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16494",
+      "target": "song:876",
       "type": "LyricalReferenceTo"
     }
   ]

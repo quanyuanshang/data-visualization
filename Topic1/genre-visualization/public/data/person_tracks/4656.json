@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4653",
-      "song_id": 4653,
+      "work_type": "Song",
+      "work_id": 4653,
       "title": "Healing in Hindsight",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 4656,
       "artist_name": "Tracy Lawson",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4657,
+          "name": "Li Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.432538
+        },
+        {
+          "person_id": 4654,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984098
+        },
+        {
+          "person_id": 4655,
+          "name": "Melinda Vasquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984098
+        }
+      ]
     },
     {
       "id": "song:9526",
-      "song_id": 9526,
+      "work_type": "Song",
+      "work_id": 9526,
       "title": "Prismatic Improvisations",
       "genre": "Synthwave",
       "notable": true,
@@ -34,18 +66,39 @@
       "own": true,
       "artist_id": 4656,
       "artist_name": "Tracy Lawson",
-      "influence": 13,
+      "influence": 17,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 1,
+        "sample": 2,
         "reference": 1,
         "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9339,
+          "name": "Mathew Chapman III",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0575647
+        },
+        {
+          "person_id": 9527,
+          "name": "Paul Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.041398
+        }
+      ]
     },
     {
       "id": "song:2555",
-      "song_id": 2555,
+      "work_type": "Song",
+      "work_id": 2555,
       "title": "The Lute's Whispers of Rebellion",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +116,149 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 1752,
+          "name": "Tao Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168887
+        },
+        {
+          "person_id": 2559,
+          "name": "Kimberly Stewart",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0464537
+        },
+        {
+          "person_id": 2558,
+          "name": "Xiuying Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4015317
+        },
+        {
+          "person_id": 2556,
+          "name": "John Cortez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3943646
+        },
+        {
+          "person_id": 2557,
+          "name": "Fang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3943646
+        }
+      ]
+    },
+    {
+      "id": "album:12842",
+      "work_type": "Album",
+      "work_id": 12842,
+      "title": "Miles from My Horizon",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 12843,
+      "artist_name": "Yan Gao ( HE∆VEN)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8779,
+          "name": "Min Ding",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0362356
+        },
+        {
+          "person_id": 12844,
+          "name": "Xiulan Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4482627
+        },
+        {
+          "person_id": 12846,
+          "name": "Patricia Humphrey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974574
+        },
+        {
+          "person_id": 12845,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3341398
+        },
+        {
+          "person_id": 12843,
+          "name": "Yan Gao",
+          "stage_name": " HE∆VEN",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.33397
+        },
+        {
+          "person_id": 8143,
+          "name": "Min Yu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 0.03451924
+        }
       ]
     },
     {
       "id": "song:970",
-      "song_id": 970,
+      "work_type": "Song",
+      "work_id": 970,
       "title": "Wooden Heart",
       "genre": "Alternative Rock",
       "notable": true,
@@ -85,11 +276,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 972,
+          "name": "Robin Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7224228
+        },
+        {
+          "person_id": 971,
+          "name": "Andrea Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984873
+        }
       ]
     },
     {
       "id": "song:8409",
-      "song_id": 8409,
+      "work_type": "Song",
+      "work_id": 8409,
       "title": "Circuit Forger",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -107,11 +320,78 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4259,
+          "name": "Jie Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2570076
+        },
+        {
+          "person_id": 3686,
+          "name": "Xia Chen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.930391
+        },
+        {
+          "person_id": 4255,
+          "name": "Guiying Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7200646
+        },
+        {
+          "person_id": 4257,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.426748
+        },
+        {
+          "person_id": 8410,
+          "name": "Ming Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398772
+        },
+        {
+          "person_id": 8412,
+          "name": "Valerie Navarro",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398772
+        },
+        {
+          "person_id": 8411,
+          "name": "Xiulan Kang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987513
+        }
       ]
     },
     {
       "id": "song:12190",
-      "song_id": 12190,
+      "work_type": "Song",
+      "work_id": 12190,
       "title": "Sonic Whispers",
       "genre": "Indie Folk",
       "notable": true,
@@ -129,11 +409,61 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12191,
+          "name": "Michael Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989224
+        },
+        {
+          "person_id": 12192,
+          "name": "Fang Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989224
+        },
+        {
+          "person_id": 12193,
+          "name": "Yang Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989224
+        },
+        {
+          "person_id": 12194,
+          "name": "Xiulan Mao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989224
+        },
+        {
+          "person_id": 12195,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989224
+        }
       ]
     },
     {
       "id": "song:15007",
-      "song_id": 15007,
+      "work_type": "Song",
+      "work_id": 15007,
       "title": "Cadenas de Deseo",
       "genre": "Synthwave",
       "notable": true,
@@ -151,11 +481,122 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2501,
+          "name": "Na Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0486593
+        },
+        {
+          "person_id": 2503,
+          "name": "Xiuying Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0486593
+        },
+        {
+          "person_id": 2504,
+          "name": "Gang Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0486593
+        },
+        {
+          "person_id": 1002,
+          "name": "Li Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0312202
+        },
+        {
+          "person_id": 15008,
+          "name": "Fang Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4084077
+        }
+      ]
+    },
+    {
+      "id": "album:15732",
+      "work_type": "Album",
+      "work_id": 15732,
+      "title": "Whispers, Waltzes, Warmth",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 752,
+      "artist_name": "Xia Xiong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 754,
+          "name": "Na Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168636
+        },
+        {
+          "person_id": 752,
+          "name": "Xia Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9458132
+        },
+        {
+          "person_id": 15733,
+          "name": "Fang Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982832
+        }
       ]
     },
     {
       "id": "song:16501",
-      "song_id": 16501,
+      "work_type": "Song",
+      "work_id": 16501,
       "title": "Desperate Dash at the World's Boundary",
       "genre": "Synthwave",
       "notable": true,
@@ -173,24 +614,58 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16502,
+          "name": "Guiying Kong",
+          "stage_name": "Blue Ashes",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988047
+        },
+        {
+          "person_id": 16503,
+          "name": "Jing Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987913
+        },
+        {
+          "person_id": 16504,
+          "name": "Xiuying Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398784
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:15007",
-      "target": "song:9526",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:16501",
       "target": "song:9526",
       "type": "InStyleOf"
     },
     {
-      "source": "song:2555",
+      "source": "song:970",
+      "target": "song:9526",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:12842",
       "target": "song:4653",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:15732",
+      "target": "song:9526",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:12190",
@@ -203,9 +678,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:970",
+      "source": "song:15007",
       "target": "song:9526",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2555",
+      "target": "song:4653",
+      "type": "InterpolatesFrom"
     }
   ]
 }

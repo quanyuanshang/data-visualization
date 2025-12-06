@@ -1,0 +1,185 @@
+{
+  "person_id": 13300,
+  "name": "Rika Tanaka",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13298",
+      "work_type": "Album",
+      "work_id": 13298,
+      "title": "Balanced Ledger",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 13300,
+      "artist_name": "Rika Tanaka",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13301,
+          "name": "Haruka Nishimura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0542376
+        },
+        {
+          "person_id": 13299,
+          "name": "Shohei Ito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.048475
+        }
+      ]
+    },
+    {
+      "id": "album:6289",
+      "work_type": "Album",
+      "work_id": 6289,
+      "title": "No More Chasing Shadows",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 905,
+      "artist_name": "Daniel Mitchell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 905,
+          "name": "Daniel Mitchell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0144453
+        },
+        {
+          "person_id": 6290,
+          "name": "Na Wei",
+          "stage_name": "Neon Oracle",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989224
+        },
+        {
+          "person_id": 6291,
+          "name": "Xiulan Hao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989224
+        },
+        {
+          "person_id": 6292,
+          "name": "Na Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989224
+        }
+      ]
+    },
+    {
+      "id": "song:13312",
+      "work_type": "Song",
+      "work_id": 13312,
+      "title": "Mountain Breeze Bliss",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 13299,
+      "artist_name": "Shohei Ito",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13301,
+          "name": "Haruka Nishimura",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0542376
+        },
+        {
+          "person_id": 13299,
+          "name": "Shohei Ito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048475
+        },
+        {
+          "person_id": 13313,
+          "name": "Rika Maeda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998797
+        },
+        {
+          "person_id": 13314,
+          "name": "Hanako Yamaguchi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998797
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:13312",
+      "target": "album:13298",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:6289",
+      "target": "album:13298",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:625",
-      "song_id": 625,
+      "work_type": "Song",
+      "work_id": 625,
       "title": "Ceramic Memories",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 627,
+          "name": "Liwia Olbrych",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9380534
+        },
+        {
+          "person_id": 628,
+          "name": "Nicole Sudak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4625864
+        },
+        {
+          "person_id": 629,
+          "name": "Marcelina Ogłaza",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.020131
+        }
+      ]
     },
     {
       "id": "song:15323",
-      "song_id": 15323,
+      "work_type": "Song",
+      "work_id": 15323,
       "title": "Roots of Belonging",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +74,45 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 627,
+          "name": "Liwia Olbrych",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9380534
+        },
+        {
+          "person_id": 628,
+          "name": "Nicole Sudak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4625864
+        },
+        {
+          "person_id": 1610,
+          "name": "Marianna Stefanik",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410784
+        },
+        {
+          "person_id": 15324,
+          "name": "Kacper Panasewicz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986983
+        }
       ]
     }
   ],

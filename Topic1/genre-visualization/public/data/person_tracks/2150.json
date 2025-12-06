@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:2148",
+      "work_type": "Album",
+      "work_id": 2148,
+      "title": "Rolling Out",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 2150,
+      "artist_name": "Marlene Rose",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2151,
+          "name": "Vito Stroh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9143434
+        },
+        {
+          "person_id": 2149,
+          "name": "Rudolf Malý",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.418768
+        }
+      ]
+    },
+    {
       "id": "song:2694",
-      "song_id": 2694,
+      "work_type": "Song",
+      "work_id": 2694,
       "title": "Prismatic Horn",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,6 +57,39 @@
       "own": true,
       "artist_id": 2150,
       "artist_name": "Marlene Rose",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2695,
+          "name": "Gerold Sontag",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402196
+        }
+      ]
+    },
+    {
+      "id": "song:6687",
+      "work_type": "Song",
+      "work_id": 6687,
+      "title": "Embers and Memories",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 4963,
+      "artist_name": "Lawrence Cooper",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +97,162 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4963,
+          "name": "Lawrence Cooper",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4397337
+        },
+        {
+          "person_id": 2149,
+          "name": "Rudolf Malý",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.418768
+        }
+      ]
+    },
+    {
+      "id": "song:9412",
+      "work_type": "Song",
+      "work_id": 9412,
+      "title": "Midnight in Stockholm: A Freedom Cry",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 3455,
+      "artist_name": "Maria Carlson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4963,
+          "name": "Lawrence Cooper",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4397337
+        },
+        {
+          "person_id": 3455,
+          "name": "Maria Carlson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4004025
+        },
+        {
+          "person_id": 4910,
+          "name": "Cengiz Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051749
+        },
+        {
+          "person_id": 9413,
+          "name": "Joseph Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980541
+        }
+      ]
+    },
+    {
+      "id": "album:7987",
+      "work_type": "Album",
+      "work_id": 7987,
+      "title": "Pinup Pages",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": false,
+      "artist_id": 7988,
+      "artist_name": "Noah Shaw",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7989,
+          "name": "Fabian Dłubak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4218736
+        },
+        {
+          "person_id": 5008,
+          "name": "Fang Kong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0434918
+        },
+        {
+          "person_id": 7988,
+          "name": "Noah Shaw",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979735
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:9412",
+      "target": "album:2148",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6687",
+      "target": "album:2148",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:7987",
+      "target": "song:2694",
+      "type": "DirectlySamples"
+    }
+  ]
 }

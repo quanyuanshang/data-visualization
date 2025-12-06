@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3013",
-      "song_id": 3013,
-      "title": "Perfect Stranger",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 3014,
-      "artist_name": "Amy White",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:14443",
-      "song_id": 14443,
+      "work_type": "Song",
+      "work_id": 14443,
       "title": "Introductory Verse",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3015,
+          "name": "Dariusz Olszowa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.926676
+        }
+      ]
     },
     {
       "id": "song:7344",
-      "song_id": 7344,
+      "work_type": "Song",
+      "work_id": 7344,
       "title": "Metamorphosis of Beauty",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,8 +55,94 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3015,
+          "name": "Dariusz Olszowa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.926676
+        }
+      ]
+    },
+    {
+      "id": "song:3013",
+      "work_type": "Song",
+      "work_id": 3013,
+      "title": "Perfect Stranger",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 3014,
+      "artist_name": "Amy White",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3015,
+          "name": "Dariusz Olszowa",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.926676
+        }
+      ]
+    },
+    {
+      "id": "album:8813",
+      "work_type": "Album",
+      "work_id": 8813,
+      "title": "Whispers Across the Pacific",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 3015,
+      "artist_name": "Dariusz Olszowa",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3015,
+          "name": "Dariusz Olszowa",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.926676
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8813",
+      "target": "song:3013",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

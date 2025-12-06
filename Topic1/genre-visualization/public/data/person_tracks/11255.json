@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11254",
-      "song_id": 11254,
+      "work_type": "Song",
+      "work_id": 11254,
       "title": "Divergent Memories",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:17287",
-      "song_id": 17287,
+      "work_type": "Song",
+      "work_id": 17287,
       "title": "Moon Over the Tide",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,6 +46,17 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],

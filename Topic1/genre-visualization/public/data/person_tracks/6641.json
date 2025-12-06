@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7221",
-      "song_id": 7221,
-      "title": "Shadows of a Tender Glance",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 1997,
-      "single": true,
-      "own": true,
-      "artist_id": 6641,
-      "artist_name": "Melissa Thomas",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6639",
-      "song_id": 6639,
+      "work_type": "Song",
+      "work_id": 6639,
       "title": "When Walls Come Falling Down",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,7 +22,120 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6642,
+          "name": "Jason Singleton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0421233
+        },
+        {
+          "person_id": 6640,
+          "name": "Mandy Murphy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0418365
+        }
+      ]
+    },
+    {
+      "id": "song:7221",
+      "work_type": "Song",
+      "work_id": 7221,
+      "title": "Shadows of a Tender Glance",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 6641,
+      "artist_name": "Melissa Thomas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6642,
+          "name": "Jason Singleton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0421233
+        },
+        {
+          "person_id": 6640,
+          "name": "Mandy Murphy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0418365
+        }
+      ]
+    },
+    {
+      "id": "song:7221",
+      "work_type": "Song",
+      "work_id": 7221,
+      "title": "Shadows of a Tender Glance",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 6642,
+      "artist_name": "Jason Singleton",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6641,
+          "name": "Melissa Thomas",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0421233
+        },
+        {
+          "person_id": 6642,
+          "name": "Jason Singleton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0421233
+        },
+        {
+          "person_id": 6640,
+          "name": "Mandy Murphy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0418365
+        }
+      ]
     }
   ],
   "links": [

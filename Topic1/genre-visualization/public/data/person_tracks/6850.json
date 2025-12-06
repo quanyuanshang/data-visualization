@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6915",
-      "song_id": 6915,
+      "work_type": "Song",
+      "work_id": 6915,
       "title": "Ember of Devotion",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -14,18 +15,92 @@
       "own": true,
       "artist_id": 6850,
       "artist_name": "Min Xiang",
-      "influence": 8,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6916,
+          "name": "Lei Shao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3996837
+        },
+        {
+          "person_id": 6917,
+          "name": "Guiying Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996837
+        },
+        {
+          "person_id": 6918,
+          "name": "Jun Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996837
+        },
+        {
+          "person_id": 6919,
+          "name": "Ping Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996837
+        }
+      ]
+    },
+    {
+      "id": "album:6848",
+      "work_type": "Album",
+      "work_id": 6848,
+      "title": "Electric Celebration",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 6850,
+      "artist_name": "Min Xiang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6849,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3908317
+        }
+      ]
     },
     {
       "id": "song:600",
-      "song_id": 600,
+      "work_type": "Song",
+      "work_id": 600,
       "title": "Silent Chronology",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +118,150 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 601,
+          "name": "Kayla Taylor",
+          "stage_name": " K.O. James",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993812
+        },
+        {
+          "person_id": 602,
+          "name": "Jason Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993812
+        },
+        {
+          "person_id": 603,
+          "name": "Gary Wallace",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993812
+        },
+        {
+          "person_id": 604,
+          "name": "Linda Ward",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993812
+        },
+        {
+          "person_id": 605,
+          "name": "Lindsay Marsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993812
+        },
+        {
+          "person_id": 606,
+          "name": "Isabella Cook",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993812
+        },
+        {
+          "person_id": 607,
+          "name": "Shannon Romero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993812
+        },
+        {
+          "person_id": 608,
+          "name": "Mary Griffin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993812
+        }
+      ]
+    },
+    {
+      "id": "album:917",
+      "work_type": "Album",
+      "work_id": 917,
+      "title": "Shifting Horizons",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 918,
+      "artist_name": "Mark Thomas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 921,
+          "name": "Michael Dean",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0305583
+        },
+        {
+          "person_id": 919,
+          "name": "Alexandra Levy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.030358
+        },
+        {
+          "person_id": 918,
+          "name": "Mark Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010465
+        },
+        {
+          "person_id": 920,
+          "name": "Antonio Fuentes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010465
+        }
       ]
     },
     {
       "id": "song:11393",
-      "song_id": 11393,
+      "work_type": "Song",
+      "work_id": 11393,
       "title": "Shadows of the Ancient Scholar",
       "genre": "Americana",
       "notable": true,
@@ -65,19 +279,219 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3704,
+          "name": "Qiang Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7210002
+        }
+      ]
+    },
+    {
+      "id": "song:12582",
+      "work_type": "Song",
+      "work_id": 12582,
+      "title": "Foundation of Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 3555,
+      "artist_name": "Nicole Godard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4403,
+          "name": "Mariah Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7198555
+        },
+        {
+          "person_id": 4401,
+          "name": "Malwina Penar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.711405
+        },
+        {
+          "person_id": 3557,
+          "name": "Philippine Laurent",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4357755
+        },
+        {
+          "person_id": 12592,
+          "name": "Clémence Vincent",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.43399
+        },
+        {
+          "person_id": 6426,
+          "name": "Stacie Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.056527
+        },
+        {
+          "person_id": 11576,
+          "name": "Angelina Ortmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0457764
+        },
+        {
+          "person_id": 5373,
+          "name": "Victoria Pierce",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0352418
+        },
+        {
+          "person_id": 3555,
+          "name": "Nicole Godard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0326283
+        },
+        {
+          "person_id": 12583,
+          "name": "Kristopher Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12584,
+          "name": "Jamie Garcia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12585,
+          "name": "Denise Barthelemy de Brunet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12586,
+          "name": "Stephanie Murray",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12587,
+          "name": "Dina Scholten",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12588,
+          "name": "Sherry Salinas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12589,
+          "name": "Kornelia Michnik",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12590,
+          "name": "Nicole Murphy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        },
+        {
+          "person_id": 12591,
+          "name": "Roberto Govoni",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397488
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:600",
-      "target": "song:6915",
-      "type": "CoverOf"
+      "source": "song:12582",
+      "target": "album:6848",
+      "type": "InStyleOf"
     },
     {
       "source": "song:11393",
       "target": "song:6915",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:917",
+      "target": "song:6915",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:600",
+      "target": "song:6915",
+      "type": "CoverOf"
     }
   ]
 }

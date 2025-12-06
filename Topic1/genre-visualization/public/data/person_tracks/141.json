@@ -4,88 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:4781",
-      "song_id": 4781,
-      "title": "September's Last Embrace",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2003,
-      "single": false,
-      "own": true,
-      "artist_id": 141,
-      "artist_name": "Xia Wu",
-      "influence": 68,
-      "influence_breakdown": {
-        "cover": 4,
-        "sample": 3,
-        "reference": 8,
-        "style": 6
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:6397",
-      "song_id": 6397,
-      "title": "Symptoms of Loving You",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2011,
-      "single": false,
-      "own": true,
-      "artist_id": 141,
-      "artist_name": "Xia Wu",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:9463",
-      "song_id": 9463,
-      "title": "Echoes of the Green Landscape",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 141,
-      "artist_name": "Xia Wu",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:14527",
-      "song_id": 14527,
-      "title": "Madly Yours",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 141,
-      "artist_name": "Xia Wu",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6216",
-      "song_id": 6216,
+      "work_type": "Song",
+      "work_id": 6216,
       "title": "Trembling Hands, Reaching Higher",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -101,11 +22,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5794,
+          "name": "Frederic Margraf",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.089374
+        },
+        {
+          "person_id": 6217,
+          "name": "Tao Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978856
+        }
+      ]
+    },
+    {
+      "id": "album:9473",
+      "work_type": "Album",
+      "work_id": 9473,
+      "title": "Footwear Revolution",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
+      ]
     },
     {
       "id": "song:10366",
-      "song_id": 10366,
+      "work_type": "Song",
+      "work_id": 10366,
       "title": "Saved by Light",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -121,11 +95,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
+      ]
     },
     {
       "id": "song:139",
-      "song_id": 139,
+      "work_type": "Song",
+      "work_id": 139,
       "title": "Whispers from the Rocking Chair",
       "genre": "Speed Metal",
       "notable": true,
@@ -141,305 +127,146 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:940",
-      "song_id": 940,
-      "title": "Latidos del Corazón (Heartbeats)",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2028,
-      "single": true,
-      "own": false,
-      "artist_id": 941,
-      "artist_name": "Na Yao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1148896
+        },
+        {
+          "person_id": 140,
+          "name": "Min Pan",
+          "stage_name": "Oblivion Rhapsody",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983932
+        }
       ]
     },
     {
-      "id": "song:1140",
-      "song_id": 1140,
-      "title": "Party of One",
+      "id": "song:4781",
+      "work_type": "Song",
+      "work_id": 4781,
+      "title": "September's Last Embrace",
       "genre": "Lo-Fi Electronica",
       "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": false,
-      "artist_id": 1141,
-      "artist_name": "Tamara Solis",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:1466",
-      "song_id": 1466,
-      "title": "Waterlogged Memories",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2015,
+      "release_year": 2003,
       "single": false,
-      "own": false,
-      "artist_id": 1467,
-      "artist_name": "Yan Long",
-      "influence": 0,
+      "own": true,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
+      "influence": 70,
       "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
+        "cover": 4,
+        "sample": 3,
+        "reference": 8,
+        "style": 7
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4783,
+          "name": "Qiang Lei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.37281
+        },
+        {
+          "person_id": 4782,
+          "name": "Yan Xia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980978
+        }
       ]
     },
     {
-      "id": "song:2167",
-      "song_id": 2167,
-      "title": "Journey's Calling",
-      "genre": "Lo-Fi Electronica",
+      "id": "song:14527",
+      "work_type": "Song",
+      "work_id": 14527,
+      "title": "Madly Yours",
+      "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2007,
-      "single": false,
-      "own": false,
-      "artist_id": 878,
-      "artist_name": "Jing Kang",
-      "influence": 0,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
       ]
     },
     {
-      "id": "song:5643",
-      "song_id": 5643,
-      "title": "Farewell, My Heartache",
-      "genre": "Lo-Fi Electronica",
+      "id": "song:6397",
+      "work_type": "Song",
+      "work_id": 6397,
+      "title": "Symptoms of Loving You",
+      "genre": "Emo/Pop Punk",
       "notable": true,
       "release_year": 2011,
-      "single": true,
-      "own": false,
-      "artist_id": 5644,
-      "artist_name": "Li Zhang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:6070",
-      "song_id": 6070,
-      "title": "Desire's Pathway",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2014,
-      "single": true,
-      "own": false,
-      "artist_id": 4319,
-      "artist_name": "Xiulan Tao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:9088",
-      "song_id": 9088,
-      "title": "Whispers Without Words",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": false,
-      "artist_id": 2361,
-      "artist_name": "Xiulan Shi",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:10121",
-      "song_id": 10121,
-      "title": "Consume and Crave",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": false,
-      "artist_id": 5644,
-      "artist_name": "Li Zhang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:10417",
-      "song_id": 10417,
-      "title": "Carnival Whispers",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2010,
       "single": false,
-      "own": false,
-      "artist_id": 10418,
-      "artist_name": "Juan Li",
-      "influence": 0,
+      "own": true,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 1,
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1148896
+        }
       ]
     },
     {
-      "id": "song:11467",
-      "song_id": 11467,
-      "title": "Percussive Daydream",
-      "genre": "Lo-Fi Electronica",
+      "id": "album:8648",
+      "work_type": "Album",
+      "work_id": 8648,
+      "title": "Whispers of Melody",
+      "genre": "Alternative Rock",
       "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": false,
-      "artist_id": 172,
-      "artist_name": "Lei Liao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:11477",
-      "song_id": 11477,
-      "title": "Forever in My Heart",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2021,
-      "single": true,
-      "own": false,
-      "artist_id": 8880,
-      "artist_name": "Tao Gao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:12008",
-      "song_id": 12008,
-      "title": "Sovereign's Stride",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2014,
-      "single": true,
-      "own": false,
-      "artist_id": 2536,
-      "artist_name": "Jun Zou",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:12025",
-      "song_id": 12025,
-      "title": "Nocturnal Reverie",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": false,
-      "artist_id": 115,
-      "artist_name": "Ping Meng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:12750",
-      "song_id": 12750,
-      "title": "Lamentation in Minor Key",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2019,
+      "release_year": 2018,
       "single": false,
-      "own": false,
-      "artist_id": 2363,
-      "artist_name": "Daniël Reijers",
+      "own": true,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -447,21 +274,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8649,
+          "name": "Min Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990402
+        }
       ]
     },
     {
-      "id": "song:13168",
-      "song_id": 13168,
-      "title": "Echoes from the Rural Registry",
-      "genre": "Lo-Fi Electronica",
+      "id": "song:9463",
+      "work_type": "Song",
+      "work_id": 9463,
+      "title": "Echoes of the Green Landscape",
+      "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2023,
+      "release_year": 2026,
       "single": true,
-      "own": false,
-      "artist_id": 7937,
-      "artist_name": "Na Zhou",
+      "own": true,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -469,21 +307,83 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8946,
+          "name": "Yang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0508552
+        },
+        {
+          "person_id": 9464,
+          "name": "Xia Gu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989713
+        }
       ]
     },
     {
-      "id": "song:13310",
-      "song_id": 13310,
-      "title": "Wildfire Euphoria",
-      "genre": "Lo-Fi Electronica",
+      "id": "album:14023",
+      "work_type": "Album",
+      "work_id": 14023,
+      "title": "Whispers of Stone Peaks",
+      "genre": "Speed Metal",
+      "notable": false,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1148896
+        },
+        {
+          "person_id": 5794,
+          "name": "Frederic Margraf",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.089374
+        }
+      ]
+    },
+    {
+      "id": "song:9463",
+      "work_type": "Song",
+      "work_id": 9463,
+      "title": "Echoes of the Green Landscape",
+      "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2017,
+      "release_year": 2026,
       "single": true,
       "own": false,
-      "artist_id": 941,
-      "artist_name": "Na Yao",
+      "artist_id": 8946,
+      "artist_name": "Yang Yi",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -493,121 +393,42 @@
       },
       "relation_types": [
         "CoverOf"
-      ]
-    },
-    {
-      "id": "song:13985",
-      "song_id": 13985,
-      "title": "Seven Verses Before Dawn",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": false,
-      "artist_id": 878,
-      "artist_name": "Jing Kang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:14134",
-      "song_id": 14134,
-      "title": "Stratford's Prodigy",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2029,
-      "single": false,
-      "own": false,
-      "artist_id": 941,
-      "artist_name": "Na Yao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:14279",
-      "song_id": 14279,
-      "title": "Artificial Intuition Node",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2024,
-      "single": true,
-      "own": false,
-      "artist_id": 1304,
-      "artist_name": "Rüdiger Graf",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
-      ]
-    },
-    {
-      "id": "song:14439",
-      "song_id": 14439,
-      "title": "First Contact",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2029,
-      "single": false,
-      "own": false,
-      "artist_id": 1141,
-      "artist_name": "Tamara Solis",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:15570",
-      "song_id": 15570,
-      "title": "Philosopher's Midnight Experiment",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2014,
-      "single": true,
-      "own": false,
-      "artist_id": 5645,
-      "artist_name": "Wei Zhao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 8946,
+          "name": "Yang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0508552
+        },
+        {
+          "person_id": 9464,
+          "name": "Xia Gu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989713
+        }
       ]
     },
     {
       "id": "song:10366",
-      "song_id": 10366,
+      "work_type": "Song",
+      "work_id": 10366,
       "title": "Saved by Light",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -626,11 +447,33 @@
       "relation_types": [
         "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
       ]
     },
     {
       "id": "song:14527",
-      "song_id": 14527,
+      "work_type": "Song",
+      "work_id": 14527,
       "title": "Madly Yours",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -647,12 +490,35 @@
         "style": 0
       },
       "relation_types": [
+        "CoverOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
       ]
     },
     {
       "id": "song:8945",
-      "song_id": 8945,
+      "work_type": "Song",
+      "work_id": 8945,
       "title": "Emerald Shadows of Her Name",
       "genre": "Speed Metal",
       "notable": true,
@@ -670,22 +536,1197 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8948,
+          "name": "Jing Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.434054
+        },
+        {
+          "person_id": 8946,
+          "name": "Yang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0508552
+        },
+        {
+          "person_id": 1428,
+          "name": "Fang Pan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9880037
+        },
+        {
+          "person_id": 8947,
+          "name": "Na Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3970106
+        }
+      ]
+    },
+    {
+      "id": "song:940",
+      "work_type": "Song",
+      "work_id": 940,
+      "title": "Latidos del Corazón (Heartbeats)",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 941,
+      "artist_name": "Na Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 941,
+          "name": "Na Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6942413
+        },
+        {
+          "person_id": 943,
+          "name": "Kevin Carney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4104638
+        },
+        {
+          "person_id": 942,
+          "name": "Jun Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39776
+        }
+      ]
+    },
+    {
+      "id": "song:1140",
+      "work_type": "Song",
+      "work_id": 1140,
+      "title": "Party of One",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 1141,
+      "artist_name": "Tamara Solis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1141,
+          "name": "Tamara Solis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4404511
+        },
+        {
+          "person_id": 1143,
+          "name": "Michelle Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4368358
+        },
+        {
+          "person_id": 1142,
+          "name": "Sandra Green",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4358308
+        }
+      ]
+    },
+    {
+      "id": "song:1466",
+      "work_type": "Song",
+      "work_id": 1466,
+      "title": "Waterlogged Memories",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 1467,
+      "artist_name": "Yan Long",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1467,
+          "name": "Yan Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2650585
+        },
+        {
+          "person_id": 1468,
+          "name": "Ping Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002388
+        }
+      ]
+    },
+    {
+      "id": "song:2167",
+      "work_type": "Song",
+      "work_id": 2167,
+      "title": "Journey's Calling",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 878,
+      "artist_name": "Jing Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 1858,
+          "name": "Li Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.521916
+        },
+        {
+          "person_id": 2168,
+          "name": "Yang Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3836176
+        }
+      ]
+    },
+    {
+      "id": "song:5643",
+      "work_type": "Song",
+      "work_id": 5643,
+      "title": "Farewell, My Heartache",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2011,
+      "single": true,
+      "own": false,
+      "artist_id": 5644,
+      "artist_name": "Li Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5646,
+          "name": "Fang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9316685
+        },
+        {
+          "person_id": 5645,
+          "name": "Wei Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.413427
+        },
+        {
+          "person_id": 5644,
+          "name": "Li Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0160332
+        }
+      ]
+    },
+    {
+      "id": "song:6070",
+      "work_type": "Song",
+      "work_id": 6070,
+      "title": "Desire's Pathway",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 4319,
+      "artist_name": "Xiulan Tao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4317,
+          "name": "Juan Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.436183
+        },
+        {
+          "person_id": 4319,
+          "name": "Xiulan Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.436183
+        },
+        {
+          "person_id": 4320,
+          "name": "Ming Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0313866
+        },
+        {
+          "person_id": 6071,
+          "name": "Xiulan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990679
+        }
+      ]
+    },
+    {
+      "id": "song:9088",
+      "work_type": "Song",
+      "work_id": 9088,
+      "title": "Whispers Without Words",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 2361,
+      "artist_name": "Xiulan Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 3290,
+          "name": "Jie Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9197183
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9107525
+        },
+        {
+          "person_id": 2361,
+          "name": "Xiulan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8546515
+        }
+      ]
+    },
+    {
+      "id": "album:9122",
+      "work_type": "Album",
+      "work_id": 9122,
+      "title": "Radiant Descent",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4007,
+      "artist_name": "John Ramirez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 4007,
+          "name": "John Ramirez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.5178094
+        }
+      ]
+    },
+    {
+      "id": "song:10121",
+      "work_type": "Song",
+      "work_id": 10121,
+      "title": "Consume and Crave",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 5644,
+      "artist_name": "Li Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5646,
+          "name": "Fang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9316685
+        },
+        {
+          "person_id": 5644,
+          "name": "Li Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0160332
+        },
+        {
+          "person_id": 10122,
+          "name": "Wei Xia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.390504
+        },
+        {
+          "person_id": 10123,
+          "name": "Larry Mendez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.390504
+        }
+      ]
+    },
+    {
+      "id": "song:10417",
+      "work_type": "Song",
+      "work_id": 10417,
+      "title": "Carnival Whispers",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 10418,
+      "artist_name": "Juan Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 3290,
+          "name": "Jie Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9197183
+        },
+        {
+          "person_id": 10418,
+          "name": "Juan Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4187472
+        }
+      ]
+    },
+    {
+      "id": "song:11467",
+      "work_type": "Song",
+      "work_id": 11467,
+      "title": "Percussive Daydream",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 172,
+      "artist_name": "Lei Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1304,
+          "name": "Rüdiger Graf",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.5105996
+        },
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.343267
+        }
+      ]
+    },
+    {
+      "id": "song:11477",
+      "work_type": "Song",
+      "work_id": 11477,
+      "title": "Forever in My Heart",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 8880,
+      "artist_name": "Tao Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 11478,
+          "name": "Min Liang",
+          "stage_name": "Tyler Sage",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0568004
+        }
+      ]
+    },
+    {
+      "id": "song:12008",
+      "work_type": "Song",
+      "work_id": 12008,
+      "title": "Sovereign's Stride",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 2536,
+      "artist_name": "Jun Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 5215,
+          "name": "Kathleen Davis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.41498
+        }
+      ]
+    },
+    {
+      "id": "song:12025",
+      "work_type": "Song",
+      "work_id": 12025,
+      "title": "Nocturnal Reverie",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 115,
+      "artist_name": "Ping Meng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 114,
+          "name": "Jie Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.435698
+        },
+        {
+          "person_id": 12026,
+          "name": "Na Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0702453
+        }
+      ]
+    },
+    {
+      "id": "song:12750",
+      "work_type": "Song",
+      "work_id": 12750,
+      "title": "Lamentation in Minor Key",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 16766,
+      "artist_name": "Synaptic Collapse（成员：Daniël Reijers｜预测 4.88、Michelle Vallenduuk｜预测 3.91）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9107525
+        }
+      ]
+    },
+    {
+      "id": "song:13168",
+      "work_type": "Song",
+      "work_id": 13168,
+      "title": "Echoes from the Rural Registry",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7937,
+      "artist_name": "Na Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 13169,
+          "name": "Xiulan Sun",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.02761
+        },
+        {
+          "person_id": 13170,
+          "name": "Gang He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.998715
+        }
+      ]
+    },
+    {
+      "id": "song:13310",
+      "work_type": "Song",
+      "work_id": 13310,
+      "title": "Wildfire Euphoria",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 941,
+      "artist_name": "Na Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 941,
+          "name": "Na Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6942413
+        },
+        {
+          "person_id": 13311,
+          "name": "Na Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399141
+        }
+      ]
+    },
+    {
+      "id": "song:13985",
+      "work_type": "Song",
+      "work_id": 13985,
+      "title": "Seven Verses Before Dawn",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 878,
+      "artist_name": "Jing Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 4007,
+          "name": "John Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.5178094
+        }
+      ]
+    },
+    {
+      "id": "song:14134",
+      "work_type": "Song",
+      "work_id": 14134,
+      "title": "Stratford's Prodigy",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 941,
+      "artist_name": "Na Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 941,
+          "name": "Na Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6942413
+        },
+        {
+          "person_id": 943,
+          "name": "Kevin Carney",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4104638
+        },
+        {
+          "person_id": 14135,
+          "name": "Gang Zou",
+          "stage_name": "Lunar Confetti",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973756
+        }
+      ]
+    },
+    {
+      "id": "song:14279",
+      "work_type": "Song",
+      "work_id": 14279,
+      "title": "Artificial Intuition Node",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1304,
+      "artist_name": "Rüdiger Graf",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1304,
+          "name": "Rüdiger Graf",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5105996
+        },
+        {
+          "person_id": 14280,
+          "name": "Chao Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396829
+        }
+      ]
+    },
+    {
+      "id": "song:14439",
+      "work_type": "Song",
+      "work_id": 14439,
+      "title": "First Contact",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1141,
+      "artist_name": "Tamara Solis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1141,
+          "name": "Tamara Solis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4404511
+        },
+        {
+          "person_id": 1143,
+          "name": "Michelle Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4368358
+        },
+        {
+          "person_id": 1142,
+          "name": "Sandra Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4358308
+        }
+      ]
+    },
+    {
+      "id": "song:15570",
+      "work_type": "Song",
+      "work_id": 15570,
+      "title": "Philosopher's Midnight Experiment",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 5645,
+      "artist_name": "Wei Zhao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5646,
+          "name": "Fang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9316685
+        },
+        {
+          "person_id": 5645,
+          "name": "Wei Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.413427
+        },
+        {
+          "person_id": 13483,
+          "name": "Guiying Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.477013
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12025",
+      "source": "song:12008",
       "target": "song:4781",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
-      "source": "song:5643",
+      "source": "song:10366",
+      "target": "album:9473",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13168",
       "target": "song:4781",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:12008",
+      "source": "song:940",
+      "target": "song:4781",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14439",
       "target": "song:4781",
       "type": "InterpolatesFrom"
     },
@@ -695,24 +1736,49 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:6070",
+      "source": "song:13310",
       "target": "song:4781",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14527",
+      "target": "album:9473",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14527",
+      "target": "song:6397",
       "type": "InterpolatesFrom"
     },
     {
       "source": "song:8945",
-      "target": "song:139",
+      "target": "album:14023",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:15570",
+      "source": "song:2167",
       "target": "song:4781",
-      "type": "CoverOf"
+      "type": "InStyleOf"
     },
     {
-      "source": "song:1466",
+      "source": "album:9122",
       "target": "song:4781",
-      "type": "CoverOf"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10121",
+      "target": "song:4781",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:139",
+      "target": "album:14023",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10366",
+      "target": "song:6397",
+      "type": "InStyleOf"
     },
     {
       "source": "song:9088",
@@ -720,23 +1786,13 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:11467",
-      "target": "song:4781",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13168",
+      "source": "song:5643",
       "target": "song:4781",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:13310",
-      "target": "song:4781",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:14439",
-      "target": "song:4781",
+      "source": "song:8945",
+      "target": "song:139",
       "type": "InterpolatesFrom"
     },
     {
@@ -745,47 +1801,17 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:940",
-      "target": "song:4781",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:10366",
       "target": "song:14527",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:1140",
+      "source": "song:14134",
       "target": "song:4781",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:10417",
-      "target": "song:4781",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:2167",
-      "target": "song:4781",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:14527",
-      "target": "song:6397",
       "type": "InterpolatesFrom"
     },
     {
       "source": "song:11477",
-      "target": "song:4781",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:13985",
-      "target": "song:4781",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:10121",
       "target": "song:4781",
       "type": "DirectlySamples"
     },
@@ -795,14 +1821,44 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:14134",
+      "source": "song:1466",
+      "target": "song:4781",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6070",
       "target": "song:4781",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:10366",
-      "target": "song:6397",
+      "source": "song:13985",
+      "target": "song:4781",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10417",
+      "target": "song:4781",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:11467",
+      "target": "song:4781",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15570",
+      "target": "song:4781",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12025",
+      "target": "song:4781",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1140",
+      "target": "song:4781",
+      "type": "DirectlySamples"
     }
   ]
 }

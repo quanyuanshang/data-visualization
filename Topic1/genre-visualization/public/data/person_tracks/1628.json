@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:1626",
+      "work_type": "Song",
+      "work_id": 1626,
+      "title": "Toga Dreams and Marble Schemes",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 1628,
+      "artist_name": "Yong Fu",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 147,
+          "name": "Na Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4046214
+        },
+        {
+          "person_id": 1627,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986213
+        }
+      ]
+    },
+    {
       "id": "song:13888",
-      "song_id": 13888,
+      "work_type": "Song",
+      "work_id": 13888,
       "title": "Citrus Speedway",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,31 +64,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:1626",
-      "song_id": 1626,
-      "title": "Toga Dreams and Marble Schemes",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 1628,
-      "artist_name": "Yong Fu",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13889,
+          "name": "Li Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3999448
+        },
+        {
+          "person_id": 13890,
+          "name": "Yong Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399775
+        }
+      ]
     },
     {
       "id": "song:4183",
-      "song_id": 4183,
+      "work_type": "Song",
+      "work_id": 4183,
       "title": "Familiar Fragments",
       "genre": "Doom Metal",
       "notable": true,
@@ -63,10 +107,106 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 4185,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2553897
+        },
+        {
+          "person_id": 1714,
+          "name": "Fang Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4236531
+        },
+        {
+          "person_id": 4184,
+          "name": "Chao Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007554
+        }
+      ]
+    },
+    {
+      "id": "album:8938",
+      "work_type": "Album",
+      "work_id": 8938,
+      "title": "Naked Workplace Manifesto",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 8939,
+      "artist_name": "Guiying Han",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8940,
+          "name": "Li Shao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962736
+        },
+        {
+          "person_id": 8941,
+          "name": "Samuel Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962736
+        },
+        {
+          "person_id": 8939,
+          "name": "Guiying Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962529
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:8938",
+      "target": "song:1626",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:4183",
       "target": "song:1626",

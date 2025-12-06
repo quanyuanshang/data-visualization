@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13735",
-      "song_id": 13735,
+      "work_type": "Song",
+      "work_id": 13735,
       "title": "Echoes in the Silent North",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,91 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.022782
+        }
+      ]
+    },
+    {
+      "id": "album:9749",
+      "work_type": "Album",
+      "work_id": 9749,
+      "title": "The Silence Between Heartbeats",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": true,
+      "artist_id": 9750,
+      "artist_name": "Ping Cheng",
+      "influence": 18,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 3,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        }
+      ]
     },
     {
       "id": "song:12347",
-      "song_id": 12347,
+      "work_type": "Song",
+      "work_id": 12347,
       "title": "Broken Generation",
       "genre": "Darkwave",
       "notable": true,
@@ -42,15 +123,342 @@
         "style": 0
       },
       "relation_types": [
-        "DirectlySamples"
+        "DirectlySamples",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2861,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4371288
+        },
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 12348,
+          "name": "Ming Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        },
+        {
+          "person_id": 12349,
+          "name": "Jing Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        }
+      ]
+    },
+    {
+      "id": "album:1080",
+      "work_type": "Album",
+      "work_id": 1080,
+      "title": "Trapped in the Border",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1081,
+      "artist_name": "Ping He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 1084,
+          "name": "Qiang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179704
+        },
+        {
+          "person_id": 1083,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054744
+        },
+        {
+          "person_id": 1081,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0521207
+        },
+        {
+          "person_id": 1082,
+          "name": "Juan Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958273
+        }
+      ]
+    },
+    {
+      "id": "song:6820",
+      "work_type": "Song",
+      "work_id": 6820,
+      "title": "Azure Escape",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 6821,
+      "artist_name": "Debra Avery",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6821,
+          "name": "Debra Avery",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399471
+        },
+        {
+          "person_id": 6822,
+          "name": "Chao Lin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399471
+        },
+        {
+          "person_id": 6823,
+          "name": "Xia Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399471
+        },
+        {
+          "person_id": 6824,
+          "name": "Guiying Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994503
+        },
+        {
+          "person_id": 6825,
+          "name": "Jie Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994503
+        }
+      ]
+    },
+    {
+      "id": "song:12535",
+      "work_type": "Song",
+      "work_id": 12535,
+      "title": "Whispers from the Fifty States",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 12536,
+      "artist_name": "Monica Coleman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 12537,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049924
+        },
+        {
+          "person_id": 12536,
+          "name": "Monica Coleman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973176
+        }
+      ]
+    },
+    {
+      "id": "song:13457",
+      "work_type": "Song",
+      "work_id": 13457,
+      "title": "Nature's Tender Embrace",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 2826,
+      "artist_name": "Dana Ferrell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2826,
+          "name": "Dana Ferrell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362523
+        },
+        {
+          "person_id": 11099,
+          "name": "Kenneth Fox",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.035336
+        },
+        {
+          "person_id": 13458,
+          "name": "Xiuying Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3901658
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:13735",
+      "target": "album:9749",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:12347",
       "target": "song:13735",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:12535",
+      "target": "album:9749",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:1080",
+      "target": "album:9749",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12347",
+      "target": "album:9749",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13457",
+      "target": "album:9749",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6820",
+      "target": "album:9749",
+      "type": "InStyleOf"
     }
   ]
 }

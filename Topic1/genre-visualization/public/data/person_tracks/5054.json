@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5053",
-      "song_id": 5053,
+      "work_type": "Song",
+      "work_id": 5053,
       "title": "Sunlit Serenade",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2050,
+          "name": "Na Lai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.261977
+        }
+      ]
     },
     {
       "id": "song:13990",
-      "song_id": 13990,
+      "work_type": "Song",
+      "work_id": 13990,
       "title": "The Feminine Manuscript",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -34,18 +47,49 @@
       "own": true,
       "artist_id": 5054,
       "artist_name": "Ping Pan",
-      "influence": 26,
+      "influence": 33,
       "influence_breakdown": {
-        "cover": 2,
+        "cover": 3,
         "sample": 0,
         "reference": 2,
-        "style": 5
+        "style": 6
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 1942,
+          "name": "Yan Han",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.926998
+        }
+      ]
     },
     {
       "id": "song:516",
-      "song_id": 516,
+      "work_type": "Song",
+      "work_id": 516,
       "title": "Choogle On Down the Road (First Draft)",
       "genre": "Doom Metal",
       "notable": true,
@@ -63,11 +107,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 517,
+          "name": "Chiyo Nakajima",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982246
+        },
+        {
+          "person_id": 518,
+          "name": "Tsubasa Sasaki",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979917
+        }
       ]
     },
     {
       "id": "song:1939",
-      "song_id": 1939,
+      "work_type": "Song",
+      "work_id": 1939,
       "title": "Paths Untrodden",
       "genre": "Space Rock",
       "notable": true,
@@ -85,11 +151,151 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1662,
+          "name": "Yan Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2514086
+        },
+        {
+          "person_id": 1942,
+          "name": "Yan Han",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.926998
+        },
+        {
+          "person_id": 1941,
+          "name": "Yang Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7043383
+        },
+        {
+          "person_id": 1940,
+          "name": "Lei Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984034
+        }
+      ]
+    },
+    {
+      "id": "album:2963",
+      "work_type": "Album",
+      "work_id": 2963,
+      "title": "Whispers of the Heart's Embrace",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 1802,
+      "artist_name": "Chao Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1802,
+          "name": "Chao Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9427521
+        },
+        {
+          "person_id": 2969,
+          "name": "Xiuying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.052377
+        },
+        {
+          "person_id": 2965,
+          "name": "Leah Burns",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046155
+        },
+        {
+          "person_id": 2968,
+          "name": "Gang Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.046155
+        },
+        {
+          "person_id": 2964,
+          "name": "Robert Combs",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983648
+        },
+        {
+          "person_id": 2966,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983648
+        },
+        {
+          "person_id": 2967,
+          "name": "Qiang Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983648
+        },
+        {
+          "person_id": 2970,
+          "name": "Lei Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983648
+        }
       ]
     },
     {
       "id": "song:3329",
-      "song_id": 3329,
+      "work_type": "Song",
+      "work_id": 3329,
       "title": "Heartbreak in Slow Motion",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -107,11 +313,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2965,
+          "name": "Leah Burns",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.046155
+        },
+        {
+          "person_id": 2968,
+          "name": "Gang Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046155
+        },
+        {
+          "person_id": 3330,
+          "name": "Na Cao",
+          "stage_name": "Jay Carter",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954034
+        },
+        {
+          "person_id": 3331,
+          "name": "Na Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954034
+        }
       ]
     },
     {
       "id": "song:7056",
-      "song_id": 7056,
+      "work_type": "Song",
+      "work_id": 7056,
       "title": "Reflected Strangers",
       "genre": "Synthwave",
       "notable": true,
@@ -129,11 +375,70 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7057,
+          "name": "Min Xie",
+          "stage_name": " J.R. Vale",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975654
+        },
+        {
+          "person_id": 7058,
+          "name": "Fang Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975654
+        },
+        {
+          "person_id": 7059,
+          "name": "Qiang Shao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975654
+        },
+        {
+          "person_id": 7061,
+          "name": "Yang Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975654
+        },
+        {
+          "person_id": 7062,
+          "name": "Tracy Warren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975654
+        },
+        {
+          "person_id": 7060,
+          "name": "Min Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972337
+        }
       ]
     },
     {
       "id": "song:7089",
-      "song_id": 7089,
+      "work_type": "Song",
+      "work_id": 7089,
       "title": "Divine Restraint",
       "genre": "Dream Pop",
       "notable": true,
@@ -151,11 +456,70 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6055,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 6056,
+          "name": "Xiulan Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 3868,
+          "name": "Xiulan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.407993
+        },
+        {
+          "person_id": 6057,
+          "name": "Anthony Hancock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0446894
+        },
+        {
+          "person_id": 7090,
+          "name": "Yan Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004812
+        },
+        {
+          "person_id": 7091,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004812
+        }
       ]
     },
     {
       "id": "song:8717",
-      "song_id": 8717,
+      "work_type": "Song",
+      "work_id": 8717,
       "title": "Midnight's Sacred Breath",
       "genre": "Doom Metal",
       "notable": true,
@@ -173,11 +537,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8718,
+          "name": "Jared Banks",
+          "stage_name": "Phantom Signal",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989983
+        },
+        {
+          "person_id": 8719,
+          "name": "Juan Wei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989983
+        },
+        {
+          "person_id": 8720,
+          "name": "Yang Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989983
+        },
+        {
+          "person_id": 8721,
+          "name": "Perry Lopez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989983
+        }
       ]
     },
     {
       "id": "song:13190",
-      "song_id": 13190,
+      "work_type": "Song",
+      "work_id": 13190,
       "title": "Canonical Refrain",
       "genre": "Space Rock",
       "notable": true,
@@ -195,11 +599,69 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 13193,
+          "name": "Wei Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4005394
+        },
+        {
+          "person_id": 13192,
+          "name": "Fang Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003696
+        },
+        {
+          "person_id": 13194,
+          "name": "Min Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003696
+        },
+        {
+          "person_id": 13195,
+          "name": "Juan Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003696
+        },
+        {
+          "person_id": 13191,
+          "name": "Guiying He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400128
+        }
       ]
     },
     {
       "id": "song:13413",
-      "song_id": 13413,
+      "work_type": "Song",
+      "work_id": 13413,
       "title": "Snowbound Hearts",
       "genre": "Indie Folk",
       "notable": true,
@@ -217,11 +679,113 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13414,
+          "name": "Dhruv Mall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017816
+        },
+        {
+          "person_id": 13415,
+          "name": "Audrey Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017816
+        },
+        {
+          "person_id": 13416,
+          "name": "Áurea Escobar-Jara",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017816
+        }
+      ]
+    },
+    {
+      "id": "album:15339",
+      "work_type": "Album",
+      "work_id": 15339,
+      "title": "Restrained Rhythm",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 3765,
+      "artist_name": "Wei Xiong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4181,
+          "name": "Xiulan Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8731103
+        },
+        {
+          "person_id": 3765,
+          "name": "Wei Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7005765
+        },
+        {
+          "person_id": 15340,
+          "name": "Yong Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000602
+        },
+        {
+          "person_id": 15341,
+          "name": "Ping Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000602
+        },
+        {
+          "person_id": 15342,
+          "name": "Guiying Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4000602
+        }
       ]
     },
     {
       "id": "song:15817",
-      "song_id": 15817,
+      "work_type": "Song",
+      "work_id": 15817,
       "title": "Ridges of Romance",
       "genre": "Americana",
       "notable": true,
@@ -239,12 +803,44 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6424,
+          "name": "Cheryl Carter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8186002
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15817",
+      "source": "song:13190",
+      "target": "song:13990",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:8717",
+      "target": "song:13990",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:2963",
+      "target": "song:13990",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:15339",
+      "target": "song:13990",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:1939",
       "target": "song:13990",
       "type": "InStyleOf"
     },
@@ -259,26 +855,6 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:1939",
-      "target": "song:13990",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:8717",
-      "target": "song:13990",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13413",
-      "target": "song:13990",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13190",
-      "target": "song:13990",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:516",
       "target": "song:13990",
       "type": "InStyleOf"
@@ -287,6 +863,16 @@
       "source": "song:7056",
       "target": "song:13990",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13413",
+      "target": "song:13990",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15817",
+      "target": "song:13990",
+      "type": "InStyleOf"
     }
   ]
 }

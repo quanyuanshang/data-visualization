@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10218",
-      "song_id": 10218,
+      "work_type": "Song",
+      "work_id": 10218,
       "title": "Highland Crossing",
       "genre": "Americana",
       "notable": true,
@@ -14,6 +15,47 @@
       "own": true,
       "artist_id": 10219,
       "artist_name": "Chao Zhong ( Dawn)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10220,
+          "name": "Xiulan Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.396947
+        },
+        {
+          "person_id": 10221,
+          "name": "Yosuke Matsumoto",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396947
+        }
+      ]
+    },
+    {
+      "id": "album:917",
+      "work_type": "Album",
+      "work_id": 917,
+      "title": "Shifting Horizons",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 918,
+      "artist_name": "Mark Thomas",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +63,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 921,
+          "name": "Michael Dean",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0305583
+        },
+        {
+          "person_id": 919,
+          "name": "Alexandra Levy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.030358
+        },
+        {
+          "person_id": 918,
+          "name": "Mark Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010465
+        },
+        {
+          "person_id": 920,
+          "name": "Antonio Fuentes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010465
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:917",
+      "target": "song:10218",
+      "type": "CoverOf"
+    }
+  ]
 }

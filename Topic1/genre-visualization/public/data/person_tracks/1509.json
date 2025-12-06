@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1508",
-      "song_id": 1508,
+      "work_type": "Song",
+      "work_id": 1508,
       "title": "Symphony of Grace",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,59 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1510,
+          "name": "Tao Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.107179
+        },
+        {
+          "person_id": 1512,
+          "name": "Craig Cameron",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.736801
+        },
+        {
+          "person_id": 1513,
+          "name": "Na Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0353649
+        },
+        {
+          "person_id": 1511,
+          "name": "Devin Berger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977041
+        },
+        {
+          "person_id": 1514,
+          "name": "Li Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977041
+        }
+      ]
     },
     {
       "id": "song:4862",
-      "song_id": 4862,
+      "work_type": "Song",
+      "work_id": 4862,
       "title": "Cornerstone of Community",
       "genre": "Americana",
       "notable": true,
@@ -43,11 +92,50 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1510,
+          "name": "Tao Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.107179
+        },
+        {
+          "person_id": 1512,
+          "name": "Craig Cameron",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.736801
+        },
+        {
+          "person_id": 4863,
+          "name": "Xiulan Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994815
+        },
+        {
+          "person_id": 4864,
+          "name": "Xiulan Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994815
+        }
       ]
     },
     {
       "id": "song:8678",
-      "song_id": 8678,
+      "work_type": "Song",
+      "work_id": 8678,
       "title": "Whispered Judgment",
       "genre": "Doom Metal",
       "notable": true,
@@ -65,11 +153,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2213,
+          "name": "Maria Tyler",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.429483
+        },
+        {
+          "person_id": 8679,
+          "name": "Sandra Reyes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4005084
+        }
       ]
     },
     {
       "id": "song:9795",
-      "song_id": 9795,
+      "work_type": "Song",
+      "work_id": 9795,
       "title": "Sleight of Hand",
       "genre": "Indie Folk",
       "notable": true,
@@ -87,10 +197,45 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1510,
+          "name": "Tao Dai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.107179
+        },
+        {
+          "person_id": 1513,
+          "name": "Na Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0353649
+        },
+        {
+          "person_id": 9796,
+          "name": "Jing Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395739
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:8678",
+      "target": "song:1508",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:9795",
       "target": "song:1508",
@@ -100,11 +245,6 @@
       "source": "song:4862",
       "target": "song:1508",
       "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:8678",
-      "target": "song:1508",
-      "type": "InStyleOf"
     }
   ]
 }

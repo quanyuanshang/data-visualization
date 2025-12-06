@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9996",
-      "song_id": 9996,
+      "work_type": "Song",
+      "work_id": 9996,
       "title": "Whispers at Grandmother's Stone",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 9997,
       "artist_name": "Yan Su",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9998,
+          "name": "Guiying Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3723938
+        }
+      ]
+    },
+    {
+      "id": "album:10928",
+      "work_type": "Album",
+      "work_id": 10928,
+      "title": "Whispers in the Shadows",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 7214,
+      "artist_name": "Fang Cui",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,91 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7218,
+          "name": "Li Song",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4418204
+        },
+        {
+          "person_id": 7216,
+          "name": "Lei Qiu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0639422
+        },
+        {
+          "person_id": 7214,
+          "name": "Fang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7215,
+          "name": "Jing Mao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7217,
+          "name": "Min Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7220,
+          "name": "Li Sun",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0014687
+        },
+        {
+          "person_id": 10929,
+          "name": "Na Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3284998
+        },
+        {
+          "person_id": 10930,
+          "name": "Na Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3284998
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10928",
+      "target": "song:9996",
+      "type": "InStyleOf"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16621",
-      "song_id": 16621,
+      "work_type": "Song",
+      "work_id": 16621,
       "title": "Strength in Softness",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16623,
+          "name": "Patrick Walsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987722
+        }
+      ]
     },
     {
       "id": "song:2625",
-      "song_id": 2625,
+      "work_type": "Song",
+      "work_id": 2625,
       "title": "Forgotten Shores",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +57,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2627,
+          "name": "Kimberly Jones",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990588
+        },
+        {
+          "person_id": 2626,
+          "name": "Julie Flores",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398915
+        }
       ]
     }
   ],

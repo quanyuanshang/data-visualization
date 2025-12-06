@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4586",
-      "song_id": 4586,
+      "work_type": "Song",
+      "work_id": 4586,
       "title": "Survival Script",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,75 @@
       "own": true,
       "artist_id": 4590,
       "artist_name": "Alex Ramsey",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4587,
+          "name": "Ashley Murphy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973114
+        },
+        {
+          "person_id": 4588,
+          "name": "Kenneth West",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3973114
+        },
+        {
+          "person_id": 4589,
+          "name": "Xiuying Mo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3973114
+        },
+        {
+          "person_id": 4591,
+          "name": "Fang Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973114
+        },
+        {
+          "person_id": 4592,
+          "name": "Tao Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973114
+        }
+      ]
+    },
+    {
+      "id": "album:7147",
+      "work_type": "Album",
+      "work_id": 7147,
+      "title": "Distant Horizons",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 7148,
+      "artist_name": "Gang Xiong",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +91,141 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7148,
+          "name": "Gang Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.453465
+        },
+        {
+          "person_id": 7150,
+          "name": "Qiang Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3794196
+        },
+        {
+          "person_id": 7151,
+          "name": "Yong Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3794196
+        },
+        {
+          "person_id": 7149,
+          "name": "Li Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3793988
+        }
+      ]
+    },
+    {
+      "id": "album:7787",
+      "work_type": "Album",
+      "work_id": 7787,
+      "title": "The Eternal Covenant",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 3021,
+      "artist_name": "Na Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7791,
+          "name": "Na Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.426067
+        },
+        {
+          "person_id": 7790,
+          "name": "Horst-Dieter Schleich",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0453827
+        },
+        {
+          "person_id": 3021,
+          "name": "Na Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0245214
+        },
+        {
+          "person_id": 7789,
+          "name": "Qiang Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3959515
+        },
+        {
+          "person_id": 7792,
+          "name": "Wei Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959515
+        },
+        {
+          "person_id": 7788,
+          "name": "Xiuying Dai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3959308
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:7787",
+      "target": "song:4586",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:7147",
+      "target": "song:4586",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

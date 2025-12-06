@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12817",
-      "song_id": 12817,
+      "work_type": "Song",
+      "work_id": 12817,
       "title": "Twilight's Forgotten Composition",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,83 @@
       "own": true,
       "artist_id": 12818,
       "artist_name": "Adam Wallace",
-      "influence": 17,
+      "influence": 30,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 5,
+        "style": 3
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12819,
+          "name": "Jennifer Stephens",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4155097
+        }
+      ]
+    },
+    {
+      "id": "album:2197",
+      "work_type": "Album",
+      "work_id": 2197,
+      "title": "Hallowed Transaction",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 2200,
+      "artist_name": "Naoko Sato",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 1,
-        "reference": 3,
-        "style": 2
+        "sample": 0,
+        "reference": 0,
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2198,
+          "name": "Yoko Hashimoto",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988307
+        },
+        {
+          "person_id": 2199,
+          "name": "Kaori Ito",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988307
+        },
+        {
+          "person_id": 2200,
+          "name": "Naoko Sato",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988307
+        }
+      ]
     },
     {
       "id": "song:2996",
-      "song_id": 2996,
+      "work_type": "Song",
+      "work_id": 2996,
       "title": "Chamber of Forgotten Echoes",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +109,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2998,
+          "name": "Karl-Friedrich auch Schlauchin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0407236
+        },
+        {
+          "person_id": 3000,
+          "name": "Kenan Reichmann",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0407236
+        },
+        {
+          "person_id": 2997,
+          "name": "Pierre Ruppert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398132
+        },
+        {
+          "person_id": 2999,
+          "name": "Ayse Häring",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398132
+        }
       ]
     },
     {
       "id": "song:6497",
-      "song_id": 6497,
+      "work_type": "Song",
+      "work_id": 6497,
       "title": "Memories Unbound",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +171,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1275,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5120125
+        },
+        {
+          "person_id": 6498,
+          "name": "Xiulan Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046919
+        },
+        {
+          "person_id": 6500,
+          "name": "Wei Tan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.046919
+        },
+        {
+          "person_id": 6501,
+          "name": "Wei Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.046919
+        },
+        {
+          "person_id": 6499,
+          "name": "Anthony Padilla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398483
+        }
       ]
     },
     {
       "id": "song:7371",
-      "song_id": 7371,
+      "work_type": "Song",
+      "work_id": 7371,
       "title": "Champion's Lament",
       "genre": "Synthwave",
       "notable": true,
@@ -87,11 +242,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7373,
+          "name": "Pamela Schultz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983376
+        },
+        {
+          "person_id": 7372,
+          "name": "Jenna Casey",
+          "stage_name": " FR3$H",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398056
+        }
       ]
     },
     {
       "id": "song:9019",
-      "song_id": 9019,
+      "work_type": "Song",
+      "work_id": 9019,
       "title": "Unwavering Heart",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,11 +286,156 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9020,
+          "name": "William Duncan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399305
+        },
+        {
+          "person_id": 9021,
+          "name": "Joshua Crawford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399305
+        },
+        {
+          "person_id": 9022,
+          "name": "Xiulan Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399305
+        },
+        {
+          "person_id": 9023,
+          "name": "Yasuhiro Sato",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399305
+        },
+        {
+          "person_id": 9024,
+          "name": "Li Yao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399305
+        }
+      ]
+    },
+    {
+      "id": "album:9749",
+      "work_type": "Album",
+      "work_id": 9749,
+      "title": "The Silence Between Heartbeats",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 9752,
+      "artist_name": "Chao Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        }
+      ]
+    },
+    {
+      "id": "album:10593",
+      "work_type": "Album",
+      "work_id": 10593,
+      "title": "Silent Rustling of Klokočí Leaves",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2008,
+      "single": false,
+      "own": false,
+      "artist_id": 10594,
+      "artist_name": "Edward Morgan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10594,
+          "name": "Edward Morgan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4319913
+        }
       ]
     },
     {
       "id": "song:13873",
-      "song_id": 13873,
+      "work_type": "Song",
+      "work_id": 13873,
       "title": "Iron Tracks",
       "genre": "Synthwave",
       "notable": false,
@@ -131,11 +453,94 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3012,
+          "name": "Jing Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0797546
+        },
+        {
+          "person_id": 3009,
+          "name": "Mark Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4371247
+        },
+        {
+          "person_id": 3010,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4371247
+        },
+        {
+          "person_id": 3011,
+          "name": "Shannon Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4371247
+        }
+      ]
+    },
+    {
+      "id": "album:15126",
+      "work_type": "Album",
+      "work_id": 15126,
+      "title": "Asymptote",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 15128,
+      "artist_name": "Xia Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15128,
+          "name": "Xia Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3995683
+        },
+        {
+          "person_id": 15127,
+          "name": "Xiulan Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398838
+        }
       ]
     },
     {
       "id": "song:16616",
-      "song_id": 16616,
+      "work_type": "Song",
+      "work_id": 16616,
       "title": "Amplified Whispers",
       "genre": "Post-Apocalyptic Folk",
       "notable": false,
@@ -153,6 +558,19 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10594,
+          "name": "Edward Morgan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4319913
+        }
       ]
     }
   ],
@@ -163,22 +581,27 @@
       "type": "InStyleOf"
     },
     {
+      "source": "song:6497",
+      "target": "song:12817",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:9749",
+      "target": "song:12817",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:2996",
       "target": "song:12817",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:16616",
+      "source": "album:2197",
       "target": "song:12817",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     },
     {
-      "source": "song:9019",
-      "target": "song:12817",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:6497",
+      "source": "album:10593",
       "target": "song:12817",
       "type": "InterpolatesFrom"
     },
@@ -186,6 +609,21 @@
       "source": "song:7371",
       "target": "song:12817",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:9019",
+      "target": "song:12817",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:15126",
+      "target": "song:12817",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16616",
+      "target": "song:12817",
+      "type": "InterpolatesFrom"
     }
   ]
 }

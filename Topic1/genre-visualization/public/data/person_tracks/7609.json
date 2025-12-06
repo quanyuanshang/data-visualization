@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10814",
-      "song_id": 10814,
-      "title": "Algorithmic Soul",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 7609,
-      "artist_name": "Yong Yan",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7607",
-      "song_id": 7607,
+      "work_type": "Song",
+      "work_id": 7607,
       "title": "Uncertain Spectrum",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,19 +22,82 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6737,
+          "name": "Linda Guzman",
+          "stage_name": "BLVCK NIMBUS",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045893
+        },
+        {
+          "person_id": 7608,
+          "name": "Fang Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399686
+        },
+        {
+          "person_id": 7610,
+          "name": "Min Jin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399686
+        }
+      ]
     },
     {
-      "id": "song:17116",
-      "song_id": 17116,
-      "title": "Forgotten Names, Fading Faces",
-      "genre": "Post-Apocalyptic Folk",
-      "notable": false,
-      "release_year": 2034,
+      "id": "song:10814",
+      "work_type": "Song",
+      "work_id": 10814,
+      "title": "Algorithmic Soul",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 7609,
+      "artist_name": "Yong Yan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6225,
+          "name": "Jun Fang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.418766
+        }
+      ]
+    },
+    {
+      "id": "song:10814",
+      "work_type": "Song",
+      "work_id": 10814,
+      "title": "Algorithmic Soul",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 6225,
+      "artist_name": "Jun Fang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -63,7 +107,52 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6225,
+          "name": "Jun Fang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.418766
+        },
+        {
+          "person_id": 7609,
+          "name": "Yong Yan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9760122
+        }
       ]
+    },
+    {
+      "id": "song:17116",
+      "work_type": "Song",
+      "work_id": 17116,
+      "title": "Forgotten Names, Fading Faces",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": false,
+      "release_year": 2034,
+      "single": true,
+      "own": false,
+      "artist_id": 17110,
+      "artist_name": "The Hollow Monarchs（成员：Chloe Montgomery (Lane Taylor)｜预测 2.36、Nathaniel Brooks (David Cole)｜预测 2.36…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": []
     }
   ],
   "links": [

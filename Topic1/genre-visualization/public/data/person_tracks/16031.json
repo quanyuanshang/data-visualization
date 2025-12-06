@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16312",
-      "song_id": 16312,
+      "work_type": "Song",
+      "work_id": 16312,
       "title": "Harvest Dance at Ler Valley",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 16031,
       "artist_name": "Simone Säuberlich",
-      "influence": 3,
+      "influence": 8,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.873476
+        }
+      ]
     },
     {
       "id": "song:16030",
-      "song_id": 16030,
+      "work_type": "Song",
+      "work_id": 16030,
       "title": "Negotiated Hearts",
       "genre": "Doom Metal",
       "notable": true,
@@ -34,18 +47,49 @@
       "own": true,
       "artist_id": 16031,
       "artist_name": "Simone Säuberlich",
-      "influence": 0,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 16032,
+          "name": "Gary Stephens",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3971577
+        },
+        {
+          "person_id": 16033,
+          "name": "Nick Kensy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3971577
+        }
+      ]
     },
     {
       "id": "song:10534",
-      "song_id": 10534,
+      "work_type": "Song",
+      "work_id": 10534,
       "title": "Twelve Bells of Augsburg",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -63,14 +107,237 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2706,
+          "name": "Zachary Francis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7104144
+        },
+        {
+          "person_id": 2707,
+          "name": "Robert Woods",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4413185
+        },
+        {
+          "person_id": 2705,
+          "name": "Jeremiah Love",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0207887
+        }
+      ]
+    },
+    {
+      "id": "album:17275",
+      "work_type": "Album",
+      "work_id": 17275,
+      "title": "Coral Beats",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        },
+        {
+          "person_id": 17189,
+          "name": "Ewan MacCrae",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9382942
+        },
+        {
+          "person_id": 17191,
+          "name": "Freya Lindholm",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9228387
+        },
+        {
+          "person_id": 17190,
+          "name": "Astrid Nørgaard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7122064
+        }
+      ]
+    },
+    {
+      "id": "album:1813",
+      "work_type": "Album",
+      "work_id": 1813,
+      "title": "No Doubt, No Filter",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 300,
+      "artist_name": "Klaus-Günter Kensy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 302,
+          "name": "Cindy Lübs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2672186
+        },
+        {
+          "person_id": 300,
+          "name": "Klaus-Günter Kensy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7147388
+        }
+      ]
+    },
+    {
+      "id": "album:4652",
+      "work_type": "Album",
+      "work_id": 4652,
+      "title": "Underofficer's Lament",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 304,
+      "artist_name": "Belinda Knappe",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 303,
+          "name": "Corinna Gute",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.703251
+        },
+        {
+          "person_id": 1497,
+          "name": "Horst Barkholz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7105596
+        },
+        {
+          "person_id": 3334,
+          "name": "Birthe Täsche",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0442827
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:17275",
+      "target": "song:16312",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:10534",
       "target": "song:16312",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:4652",
+      "target": "song:16030",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:1813",
+      "target": "song:16030",
+      "type": "InStyleOf"
     }
   ]
 }

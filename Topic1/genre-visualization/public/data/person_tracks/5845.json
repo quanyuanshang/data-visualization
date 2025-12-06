@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5844",
-      "song_id": 5844,
+      "work_type": "Song",
+      "work_id": 5844,
       "title": "Golden Rays Break Through",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:8077",
-      "song_id": 8077,
+      "work_type": "Song",
+      "work_id": 8077,
       "title": "Dancing in the Spotlight",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +44,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:8077",
-      "song_id": 8077,
+      "work_type": "Song",
+      "work_id": 8077,
       "title": "Dancing in the Spotlight",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -63,11 +68,25 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5845,
+          "name": "Jonathan Lewis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.019776
+        }
       ]
     },
     {
       "id": "song:10390",
-      "song_id": 10390,
+      "work_type": "Song",
+      "work_id": 10390,
       "title": "Stanzas in the Schoolyard",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -85,19 +104,49 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 10391,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3952417
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8077",
-      "target": "song:5844",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:10390",
       "target": "song:5844",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:8077",
+      "target": "song:5844",
+      "type": "InStyleOf"
     }
   ]
 }

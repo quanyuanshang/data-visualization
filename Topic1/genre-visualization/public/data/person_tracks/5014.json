@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5013",
-      "song_id": 5013,
+      "work_type": "Song",
+      "work_id": 5013,
       "title": "Leaky Life Blues",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5016,
+          "name": "Feliciana Figuerola Cruz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9170163
+        },
+        {
+          "person_id": 5015,
+          "name": "Candela Pallarès Artigas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0363753
+        }
+      ]
     },
     {
       "id": "song:16424",
-      "song_id": 16424,
+      "work_type": "Song",
+      "work_id": 16424,
       "title": "Midnight's Daughter",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +66,64 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5016,
+          "name": "Feliciana Figuerola Cruz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9170163
+        },
+        {
+          "person_id": 16204,
+          "name": "Ricarda Nélida Palmer Serra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0265226
+        },
+        {
+          "person_id": 16425,
+          "name": "Ibán Salazar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16426,
+          "name": "Aroa Coca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16427,
+          "name": "Fito Pacheco León",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16428,
+          "name": "Severo Gimenez Ródenas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        }
       ]
     }
   ],

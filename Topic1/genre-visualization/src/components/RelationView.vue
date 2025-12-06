@@ -330,7 +330,7 @@ const scrollWrapperRef = ref(null)
 const svgRef = ref(null)
 const svgWidth = ref(1200)
 const svgHeight = ref(4000)
-const scrollTop = ref(0)
+const scrollTop = ref(20)
 const containerHeight = ref(400)
 
 // 控制状态

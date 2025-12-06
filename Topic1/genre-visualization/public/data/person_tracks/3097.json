@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3094",
-      "song_id": 3094,
+      "work_type": "Song",
+      "work_id": 3094,
       "title": "Longing on the Line",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,51 +22,51 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:14088",
-      "song_id": 14088,
-      "title": "Sealskin Secrets",
-      "genre": "Desert Rock",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 3097,
-      "artist_name": "Xiulan Jiang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:16551",
-      "song_id": 16551,
-      "title": "Number 1 Elevation",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2013,
-      "single": false,
-      "own": true,
-      "artist_id": 3097,
-      "artist_name": "Xiulan Jiang",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 3096,
+          "name": "Wei Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0163338
+        },
+        {
+          "person_id": 3095,
+          "name": "Wanda Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980165
+        }
+      ]
     },
     {
       "id": "song:7222",
-      "song_id": 7222,
+      "work_type": "Song",
+      "work_id": 7222,
       "title": "Echoes of Julianne",
       "genre": "Alternative Rock",
       "notable": true,
@@ -81,11 +82,153 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.02
+        }
+      ]
+    },
+    {
+      "id": "song:14088",
+      "work_type": "Song",
+      "work_id": 14088,
+      "title": "Sealskin Secrets",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 3097,
+      "artist_name": "Xiulan Jiang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 14089,
+          "name": "Ping Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982084
+        },
+        {
+          "person_id": 14090,
+          "name": "Na Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982084
+        }
+      ]
+    },
+    {
+      "id": "song:16551",
+      "work_type": "Song",
+      "work_id": 16551,
+      "title": "Number 1 Elevation",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 3097,
+      "artist_name": "Xiulan Jiang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 8067,
+          "name": "Gang Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0865505
+        },
+        {
+          "person_id": 5662,
+          "name": "Min Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0399978
+        }
+      ]
     },
     {
       "id": "song:14429",
-      "song_id": 14429,
+      "work_type": "Song",
+      "work_id": 14429,
       "title": "Sweethearts of the Midwest",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -103,13 +246,53 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.02
+        },
+        {
+          "person_id": 14430,
+          "name": "Xia Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        },
+        {
+          "person_id": 14431,
+          "name": "Ethan Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:14429",
-      "target": "song:16551",
+      "target": "song:3094",
       "type": "InStyleOf"
     },
     {
@@ -119,7 +302,7 @@
     },
     {
       "source": "song:14429",
-      "target": "song:3094",
+      "target": "song:16551",
       "type": "InStyleOf"
     }
   ]

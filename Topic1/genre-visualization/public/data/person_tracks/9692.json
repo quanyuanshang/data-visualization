@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9690",
-      "song_id": 9690,
+      "work_type": "Song",
+      "work_id": 9690,
       "title": "Forward Motion",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9691,
+          "name": "Brenda Dunn",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0515783
+        }
+      ]
     },
     {
       "id": "song:329",
-      "song_id": 329,
+      "work_type": "Song",
+      "work_id": 329,
       "title": "Decade's Melody of Memories",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,6 +56,56 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 334,
+          "name": "Christopher Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9250906
+        },
+        {
+          "person_id": 332,
+          "name": "David Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136254
+        },
+        {
+          "person_id": 330,
+          "name": "Kerri Weeks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0425737
+        },
+        {
+          "person_id": 333,
+          "name": "Lauren Foster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0401487
+        },
+        {
+          "person_id": 331,
+          "name": "Louis Armstrong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0398617
+        }
       ]
     }
   ],

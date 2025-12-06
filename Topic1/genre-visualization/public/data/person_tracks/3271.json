@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3270",
-      "song_id": 3270,
+      "work_type": "Song",
+      "work_id": 3270,
       "title": "Crimson Vows",
       "genre": "Speed Metal",
       "notable": true,
@@ -21,11 +22,56 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3272,
+          "name": "Christian Mcpherson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.707522
+        }
+      ]
+    },
+    {
+      "id": "album:9650",
+      "work_type": "Album",
+      "work_id": 9650,
+      "title": "Spirited Cadence [B-Key]",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2005,
+      "single": false,
+      "own": true,
+      "artist_id": 3271,
+      "artist_name": "Caroline King",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3272,
+          "name": "Christian Mcpherson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.707522
+        }
+      ]
     },
     {
       "id": "song:4593",
-      "song_id": 4593,
+      "work_type": "Song",
+      "work_id": 4593,
       "title": "Whispers of the Heart",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +89,43 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 4594,
+          "name": "Austin Adams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995872
+        },
+        {
+          "person_id": 4595,
+          "name": "Jeanette Wagner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995872
+        }
       ]
     },
     {
       "id": "song:12263",
-      "song_id": 12263,
+      "work_type": "Song",
+      "work_id": 12263,
       "title": "Echoes from the Mountain's Heart",
       "genre": "Speed Metal",
       "notable": true,
@@ -65,11 +143,41 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3272,
+          "name": "Christian Mcpherson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.707522
+        },
+        {
+          "person_id": 12264,
+          "name": "Rüdiger Schinke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398331
+        },
+        {
+          "person_id": 12265,
+          "name": "Matthew Davidson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983176
+        }
       ]
     },
     {
       "id": "song:16452",
-      "song_id": 16452,
+      "work_type": "Song",
+      "work_id": 16452,
       "title": "Star of the Stable",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -87,10 +195,81 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 5286,
+          "name": "Amanda Hill",
+          "stage_name": " R.E.D.",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4383142
+        },
+        {
+          "person_id": 16453,
+          "name": "Laura Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993697
+        }
+      ]
+    },
+    {
+      "id": "song:2655",
+      "work_type": "Song",
+      "work_id": 2655,
+      "title": "Cobblestone Serenade",
+      "genre": "Speed Metal",
+      "notable": false,
+      "release_year": 2006,
+      "single": true,
+      "own": false,
+      "artist_id": 2656,
+      "artist_name": "Brandon Santos",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2656,
+          "name": "Brandon Santos",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.517714
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:3270",
+      "target": "album:9650",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:16452",
       "target": "song:3270",
@@ -104,6 +283,11 @@
     {
       "source": "song:4593",
       "target": "song:3270",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2655",
+      "target": "album:9650",
       "type": "InStyleOf"
     }
   ]

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7551",
-      "song_id": 7551,
+      "work_type": "Song",
+      "work_id": 7551,
       "title": "Shadows of the Undying Famine",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7552,
+          "name": "Elizabeth Willis",
+          "stage_name": "Lizzy West",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0422177
+        }
+      ]
     },
     {
       "id": "song:16209",
-      "song_id": 16209,
+      "work_type": "Song",
+      "work_id": 16209,
       "title": "The Void Inside",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +57,18 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7552,
+          "name": "Elizabeth Willis",
+          "stage_name": "Lizzy West",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0422177
+        }
       ]
     }
   ],

@@ -1,0 +1,99 @@
+{
+  "person_id": 14776,
+  "name": "Juan Wu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:14774",
+      "work_type": "Album",
+      "work_id": 14774,
+      "title": "Two Days to Live",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 14776,
+      "artist_name": "Juan Wu",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14775,
+          "name": "Ming Kong",
+          "stage_name": " L.A. Rose",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4128444
+        }
+      ]
+    },
+    {
+      "id": "album:15475",
+      "work_type": "Album",
+      "work_id": 15475,
+      "title": "Secrets Between Us",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 15477,
+      "artist_name": "Ping Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1233,
+          "name": "Yang Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4305549
+        },
+        {
+          "person_id": 15477,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0419238
+        },
+        {
+          "person_id": 15476,
+          "name": "Wei Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401234
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:15475",
+      "target": "album:14774",
+      "type": "DirectlySamples"
+    }
+  ]
+}

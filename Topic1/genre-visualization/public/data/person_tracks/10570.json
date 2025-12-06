@@ -1,0 +1,172 @@
+{
+  "person_id": 10570,
+  "name": "Jie Fang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10567",
+      "work_type": "Album",
+      "work_id": 10567,
+      "title": "One Heart, Three Shadows",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 10570,
+      "artist_name": "Jie Fang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10568,
+          "name": "Jing Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982906
+        },
+        {
+          "person_id": 10569,
+          "name": "Yang Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982906
+        },
+        {
+          "person_id": 10571,
+          "name": "Francisco Kerr",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982906
+        },
+        {
+          "person_id": 10572,
+          "name": "Matthew Adams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982906
+        },
+        {
+          "person_id": 10573,
+          "name": "Xiuying Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982906
+        }
+      ]
+    },
+    {
+      "id": "song:8640",
+      "work_type": "Song",
+      "work_id": 8640,
+      "title": "Sacred Soil's Lament",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 7398,
+      "artist_name": "Charles Vazquez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261718
+        },
+        {
+          "person_id": 8641,
+          "name": "Jun Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8642,
+          "name": "Min Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8643,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8644,
+          "name": "Yan Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8645,
+          "name": "Fang Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8646,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968868
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8640",
+      "target": "album:10567",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

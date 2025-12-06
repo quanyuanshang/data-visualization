@@ -1,0 +1,79 @@
+{
+  "person_id": 6391,
+  "name": "Elizabeth Rivera",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:6390",
+      "work_type": "Album",
+      "work_id": 6390,
+      "title": "Fever of Your Memory",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 6391,
+      "artist_name": "Elizabeth Rivera",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:14828",
+      "work_type": "Album",
+      "work_id": 14828,
+      "title": "Barn Door Dialogues",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 8913,
+      "artist_name": "Richard Goodman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8913,
+          "name": "Richard Goodman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0329998
+        },
+        {
+          "person_id": 14829,
+          "name": "Cynthia Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968341
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:14828",
+      "target": "album:6390",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2679",
-      "song_id": 2679,
+      "work_type": "Song",
+      "work_id": 2679,
       "title": "Wingless Dreams",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2680,
+          "name": "Satomi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0352416
+        }
+      ]
     },
     {
       "id": "song:13197",
-      "song_id": 13197,
+      "work_type": "Song",
+      "work_id": 13197,
       "title": "Crystalline Pirouette",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +54,41 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13199,
+          "name": "Yuta Sato",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3996618
+        },
+        {
+          "person_id": 13200,
+          "name": "Maaya Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996618
+        },
+        {
+          "person_id": 13198,
+          "name": "Kumiko Fujita",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993301
+        }
+      ]
     },
     {
       "id": "song:14378",
-      "song_id": 14378,
+      "work_type": "Song",
+      "work_id": 14378,
       "title": "Cash and Promises",
       "genre": "Blues Rock",
       "notable": true,
@@ -61,11 +104,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2680,
+          "name": "Satomi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0352416
+        }
+      ]
     },
     {
       "id": "song:6633",
-      "song_id": 6633,
+      "work_type": "Song",
+      "work_id": 6633,
       "title": "Tumbling into Us",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -83,11 +139,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5266,
+          "name": "Guiying Hou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7168627
+        },
+        {
+          "person_id": 6634,
+          "name": "Timothy Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.369968
+        }
       ]
     },
     {
       "id": "song:14378",
-      "song_id": 14378,
+      "work_type": "Song",
+      "work_id": 14378,
       "title": "Cash and Promises",
       "genre": "Blues Rock",
       "notable": true,
@@ -106,6 +183,27 @@
       "relation_types": [
         "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2681,
+          "name": "Kazuya Aoki",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.428512
+        },
+        {
+          "person_id": 2680,
+          "name": "Satomi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0352416
+        }
       ]
     }
   ],
@@ -116,11 +214,6 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:14378",
-      "target": "song:13197",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:6633",
       "target": "song:2679",
       "type": "InStyleOf"
@@ -129,6 +222,11 @@
       "source": "song:14378",
       "target": "song:2679",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:14378",
+      "target": "song:13197",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

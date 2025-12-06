@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12983",
-      "song_id": 12983,
+      "work_type": "Song",
+      "work_id": 12983,
       "title": "Knees to the Ground",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12984,
+          "name": "Juan Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978107
+        }
+      ]
     },
     {
       "id": "song:15831",
-      "song_id": 15831,
+      "work_type": "Song",
+      "work_id": 15831,
       "title": "Pulse of the Street",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,6 +57,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14046,
+          "name": "Yan Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0569372
+        },
+        {
+          "person_id": 15832,
+          "name": "Jie Guo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3965228
+        }
       ]
     }
   ],

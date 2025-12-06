@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11159",
-      "song_id": 11159,
+      "work_type": "Song",
+      "work_id": 11159,
       "title": "Harmony's Whisper",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
     },
     {
       "id": "song:15323",
-      "song_id": 15323,
+      "work_type": "Song",
+      "work_id": 15323,
       "title": "Roots of Belonging",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +57,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 627,
+          "name": "Liwia Olbrych",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9380534
+        },
+        {
+          "person_id": 628,
+          "name": "Nicole Sudak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4625864
+        },
+        {
+          "person_id": 1610,
+          "name": "Marianna Stefanik",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410784
+        },
+        {
+          "person_id": 15324,
+          "name": "Kacper Panasewicz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986983
+        }
       ]
     },
     {
       "id": "song:15420",
-      "song_id": 15420,
+      "work_type": "Song",
+      "work_id": 15420,
       "title": "Bridges to the Other Side",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,19 +119,57 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 627,
+          "name": "Liwia Olbrych",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9380534
+        },
+        {
+          "person_id": 628,
+          "name": "Nicole Sudak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4625864
+        },
+        {
+          "person_id": 629,
+          "name": "Marcelina Ogłaza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.020131
+        },
+        {
+          "person_id": 15421,
+          "name": "Sylwia Skowyra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981757
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15323",
-      "target": "song:11159",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:15420",
       "target": "song:11159",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:15323",
+      "target": "song:11159",
+      "type": "CoverOf"
     }
   ]
 }

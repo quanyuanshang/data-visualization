@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8029",
-      "song_id": 8029,
+      "work_type": "Song",
+      "work_id": 8029,
       "title": "Invisible Borders",
       "genre": "Desert Rock",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 639,
+          "name": "Ming Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.05393
+        },
+        {
+          "person_id": 8031,
+          "name": "Chao Jiang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398602
+        },
+        {
+          "person_id": 8032,
+          "name": "Jun Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398602
+        },
+        {
+          "person_id": 8033,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398602
+        }
+      ]
     },
     {
       "id": "song:16471",
-      "song_id": 16471,
+      "work_type": "Song",
+      "work_id": 16471,
       "title": "Guardian of My Heart",
       "genre": "Indie Folk",
       "notable": true,
@@ -34,18 +75,40 @@
       "own": true,
       "artist_id": 8030,
       "artist_name": "Jing Meng",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 16472,
+          "name": "Gang Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397737
+        }
+      ]
     },
     {
       "id": "song:15009",
-      "song_id": 15009,
+      "work_type": "Song",
+      "work_id": 15009,
       "title": "Hungarian Rhapsody for Cello and Whispered Keys",
       "genre": "Indie Folk",
       "notable": true,
@@ -63,11 +126,70 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1277,
+          "name": "Min Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.502258
+        },
+        {
+          "person_id": 6534,
+          "name": "Tao Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1218596
+        },
+        {
+          "person_id": 1743,
+          "name": "Xiulan Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6029732
+        },
+        {
+          "person_id": 8253,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3829172
+        },
+        {
+          "person_id": 8252,
+          "name": "Jie Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048232
+        },
+        {
+          "person_id": 8255,
+          "name": "Jie Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048232
+        }
       ]
     },
     {
       "id": "song:16471",
-      "song_id": 16471,
+      "work_type": "Song",
+      "work_id": 16471,
       "title": "Guardian of My Heart",
       "genre": "Indie Folk",
       "notable": true,
@@ -85,19 +207,107 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 8030,
+          "name": "Jing Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04978
+        },
+        {
+          "person_id": 16472,
+          "name": "Gang Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397737
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16471",
-      "target": "song:8029",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:15009",
       "target": "song:8029",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:5035",
+      "target": "song:16471",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16471",
+      "target": "song:8029",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

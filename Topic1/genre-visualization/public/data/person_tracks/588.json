@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:585",
-      "song_id": 585,
+      "work_type": "Song",
+      "work_id": 585,
       "title": "Temporal Whispers",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 586,
+          "name": "John Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984783
+        },
+        {
+          "person_id": 587,
+          "name": "Kelly Cummings",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984783
+        }
+      ]
     },
     {
       "id": "song:4821",
-      "song_id": 4821,
+      "work_type": "Song",
+      "work_id": 4821,
       "title": "Single-Handed Horizon",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +65,50 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4822,
+          "name": "John Rivera",
+          "stage_name": "Hollow Reverberation",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4823,
+          "name": "William Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4824,
+          "name": "Ashley Olsen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4825,
+          "name": "Michael Watson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958654
+        }
       ]
     },
     {
       "id": "song:6235",
-      "song_id": 6235,
+      "work_type": "Song",
+      "work_id": 6235,
       "title": "Sacred Crossroads",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +126,113 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 959,
+          "name": "Qiang Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.106955
+        },
+        {
+          "person_id": 6243,
+          "name": "Qiang Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981133
+        },
+        {
+          "person_id": 6236,
+          "name": "Jun Tian",
+          "stage_name": " DR3∆M",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        },
+        {
+          "person_id": 6237,
+          "name": "Juan Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        },
+        {
+          "person_id": 6238,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        },
+        {
+          "person_id": 6239,
+          "name": "Min Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        },
+        {
+          "person_id": 6240,
+          "name": "Frank Shaffer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        },
+        {
+          "person_id": 6241,
+          "name": "Lei Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        },
+        {
+          "person_id": 6242,
+          "name": "Li Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        },
+        {
+          "person_id": 6244,
+          "name": "Jie Xu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979435
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6235",
-      "target": "song:585",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:4821",
       "target": "song:585",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6235",
+      "target": "song:585",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

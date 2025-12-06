@@ -1,0 +1,139 @@
+{
+  "person_id": 8365,
+  "name": "Calvin Kemp",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:8364",
+      "work_type": "Album",
+      "work_id": 8364,
+      "title": "The Destructive Impulse",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 8365,
+      "artist_name": "Calvin Kemp",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6002,
+          "name": "Charles Chase",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4346979
+        }
+      ]
+    },
+    {
+      "id": "album:35",
+      "work_type": "Album",
+      "work_id": 35,
+      "title": "Sober Streets",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 37,
+      "artist_name": "Hansh Ramanathan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 37,
+          "name": "Hansh Ramanathan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0905833
+        },
+        {
+          "person_id": 36,
+          "name": "Alexis Church",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397526
+        }
+      ]
+    },
+    {
+      "id": "album:6001",
+      "work_type": "Album",
+      "work_id": 6001,
+      "title": "Constant, Wavering, Wavering",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": false,
+      "own": false,
+      "artist_id": 3662,
+      "artist_name": "David Wilkerson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        },
+        {
+          "person_id": 6002,
+          "name": "Charles Chase",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4346979
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:6001",
+      "target": "album:8364",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:35",
+      "target": "album:8364",
+      "type": "InStyleOf"
+    }
+  ]
+}

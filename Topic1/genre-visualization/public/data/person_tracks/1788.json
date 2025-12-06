@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15962",
-      "song_id": 15962,
-      "title": "Harmonic Fragments of Memory",
-      "genre": "Symphonic Metal",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 1788,
-      "artist_name": "Melissa Harris",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1787",
-      "song_id": 1787,
+      "work_type": "Song",
+      "work_id": 1787,
       "title": "Nordic Bliss",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,7 +22,51 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1789,
+          "name": "Thomas Jones",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398191
+        }
+      ]
+    },
+    {
+      "id": "song:15962",
+      "work_type": "Song",
+      "work_id": 15962,
+      "title": "Harmonic Fragments of Memory",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 1788,
+      "artist_name": "Melissa Harris",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15963,
+          "name": "Matthew Tran",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398136
+        }
+      ]
     }
   ],
   "links": []

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6065",
-      "song_id": 6065,
+      "work_type": "Song",
+      "work_id": 6065,
       "title": "Push Through the Doubt",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 6067,
       "artist_name": "Yong Wen",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2355,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7207756
+        },
+        {
+          "person_id": 6066,
+          "name": "Jun Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0409074
+        },
+        {
+          "person_id": 4298,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0224628
+        },
+        {
+          "person_id": 6069,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990526
+        },
+        {
+          "person_id": 6068,
+          "name": "Tao Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990319
+        }
+      ]
     },
     {
       "id": "song:8920",
-      "song_id": 8920,
+      "work_type": "Song",
+      "work_id": 8920,
       "title": "Echoes of a Fading Lament",
       "genre": "Desert Rock",
       "notable": true,
@@ -41,8 +91,116 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2355,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7207756
+        },
+        {
+          "person_id": 6066,
+          "name": "Jun Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0409074
+        },
+        {
+          "person_id": 8921,
+          "name": "Fang Gu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398288
+        },
+        {
+          "person_id": 8923,
+          "name": "Qiang Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398288
+        },
+        {
+          "person_id": 8922,
+          "name": "Sierra Gibson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982673
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:5035",
+      "target": "song:6065",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

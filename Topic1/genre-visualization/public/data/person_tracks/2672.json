@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:9449",
-      "song_id": 9449,
-      "title": "Echoes of Vienna",
-      "genre": "Darkwave",
-      "notable": true,
-      "release_year": 1997,
-      "single": true,
-      "own": true,
-      "artist_id": 2672,
-      "artist_name": "Cyprian Ziniewicz",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:15885",
-      "song_id": 15885,
-      "title": "Intimate Rebellion",
-      "genre": "Dream Pop",
-      "notable": false,
-      "release_year": 1995,
-      "single": true,
-      "own": true,
-      "artist_id": 2672,
-      "artist_name": "Cyprian Ziniewicz",
-      "influence": 7,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:12742",
-      "song_id": 12742,
+      "work_type": "Song",
+      "work_id": 12742,
       "title": "Whispers of Sorrow in Diminished Chords",
       "genre": "Darkwave",
       "notable": true,
@@ -61,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9450,
+          "name": "Maciej Siejak",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7406275
+        },
+        {
+          "person_id": 12743,
+          "name": "Karol Jereczek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410648
+        }
+      ]
     },
     {
       "id": "song:16585",
-      "song_id": 16585,
+      "work_type": "Song",
+      "work_id": 16585,
       "title": "Digital Heartbeat",
       "genre": "Darkwave",
       "notable": true,
@@ -81,19 +64,82 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9450,
+          "name": "Maciej Siejak",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7406275
+        }
+      ]
     },
     {
-      "id": "song:12742",
-      "song_id": 12742,
-      "title": "Whispers of Sorrow in Diminished Chords",
+      "id": "album:2670",
+      "work_type": "Album",
+      "work_id": 2670,
+      "title": "Electric Motion",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 2672,
+      "artist_name": "Cyprian Ziniewicz",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2674,
+          "name": "Lidia Szpyt",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4211178
+        },
+        {
+          "person_id": 2673,
+          "name": "Marcin Maksimowicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0682542
+        },
+        {
+          "person_id": 2671,
+          "name": "Ignacy Henke",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993437
+        }
+      ]
+    },
+    {
+      "id": "song:9449",
+      "work_type": "Song",
+      "work_id": 9449,
+      "title": "Echoes of Vienna",
       "genre": "Darkwave",
       "notable": true,
       "release_year": 1997,
       "single": true,
-      "own": false,
-      "artist_id": 12743,
-      "artist_name": "Karol Jereczek",
+      "own": true,
+      "artist_id": 2672,
+      "artist_name": "Cyprian Ziniewicz",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -101,36 +147,57 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf",
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9450,
+          "name": "Maciej Siejak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7406275
+        }
       ]
     },
     {
-      "id": "song:17134",
-      "song_id": 17134,
-      "title": "The Dance of the Forgotten",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2035,
-      "single": false,
-      "own": false,
-      "artist_id": 17126,
-      "artist_name": "Cassian Storm (Seraphina Vale)",
-      "influence": 0,
+      "id": "song:15885",
+      "work_type": "Song",
+      "work_id": 15885,
+      "title": "Intimate Rebellion",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 1995,
+      "single": true,
+      "own": true,
+      "artist_id": 2672,
+      "artist_name": "Cyprian Ziniewicz",
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 1,
+        "style": 2
       },
-      "relation_types": [
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9450,
+          "name": "Maciej Siejak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7406275
+        }
       ]
     },
     {
       "id": "song:17162",
-      "song_id": 17162,
+      "work_type": "Song",
+      "work_id": 17162,
       "title": "Electric Afterglow",
       "genre": "Synthpop",
       "notable": true,
@@ -148,11 +215,68 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17155,
+          "name": "Claire Holmes",
+          "stage_name": "Jaye Finch",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9565325
+        }
+      ]
+    },
+    {
+      "id": "song:9449",
+      "work_type": "Song",
+      "work_id": 9449,
+      "title": "Echoes of Vienna",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 9450,
+      "artist_name": "Maciej Siejak",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2672,
+          "name": "Cyprian Ziniewicz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.8169837
+        },
+        {
+          "person_id": 9450,
+          "name": "Maciej Siejak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7406275
+        }
       ]
     },
     {
       "id": "song:14862",
-      "song_id": 14862,
+      "work_type": "Song",
+      "work_id": 14862,
       "title": "Moonlit Sonata",
       "genre": "Indie Folk",
       "notable": true,
@@ -170,11 +294,77 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9450,
+          "name": "Maciej Siejak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7406275
+        },
+        {
+          "person_id": 12743,
+          "name": "Karol Jereczek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410648
+        }
+      ]
+    },
+    {
+      "id": "song:15885",
+      "work_type": "Song",
+      "work_id": 15885,
+      "title": "Intimate Rebellion",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 1995,
+      "single": true,
+      "own": false,
+      "artist_id": 9450,
+      "artist_name": "Maciej Siejak",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2672,
+          "name": "Cyprian Ziniewicz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.8169837
+        },
+        {
+          "person_id": 9450,
+          "name": "Maciej Siejak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7406275
+        }
       ]
     },
     {
       "id": "song:16500",
-      "song_id": 16500,
+      "work_type": "Song",
+      "work_id": 16500,
       "title": "Sprinting Towards Infinity's Margin",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -192,6 +382,114 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12743,
+          "name": "Karol Jereczek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410648
+        }
+      ]
+    },
+    {
+      "id": "song:5923",
+      "work_type": "Song",
+      "work_id": 5923,
+      "title": "Kurashiki Blues",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5924,
+      "artist_name": "Na Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5924,
+          "name": "Na Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5925,
+          "name": "Jie Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5926,
+          "name": "Lei Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5927,
+          "name": "Megan Marsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        }
+      ]
+    },
+    {
+      "id": "song:17134",
+      "work_type": "Song",
+      "work_id": 17134,
+      "title": "The Dance of the Forgotten",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": 17126,
+      "artist_name": "Cassian Storm (Seraphina Vale)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17126,
+          "name": "Cassian Storm",
+          "stage_name": "Seraphina Vale",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7161832
+        }
       ]
     }
   ],
@@ -203,13 +501,13 @@
     },
     {
       "source": "song:12742",
-      "target": "song:15885",
-      "type": "InStyleOf"
+      "target": "song:16585",
+      "type": "CoverOf"
     },
     {
-      "source": "song:9449",
-      "target": "song:15885",
-      "type": "InStyleOf"
+      "source": "song:15885",
+      "target": "song:16585",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:9449",
@@ -219,6 +517,11 @@
     {
       "source": "song:17134",
       "target": "song:15885",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5923",
+      "target": "album:2670",
       "type": "LyricalReferenceTo"
     },
     {
@@ -232,14 +535,14 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:12742",
-      "target": "song:16585",
-      "type": "CoverOf"
+      "source": "song:9449",
+      "target": "song:15885",
+      "type": "InStyleOf"
     },
     {
-      "source": "song:15885",
-      "target": "song:16585",
-      "type": "LyricalReferenceTo"
+      "source": "song:12742",
+      "target": "song:15885",
+      "type": "InStyleOf"
     }
   ]
 }

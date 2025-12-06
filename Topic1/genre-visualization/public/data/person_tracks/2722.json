@@ -4,8 +4,41 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:9947",
+      "work_type": "Album",
+      "work_id": 9947,
+      "title": "Letters Home from No Man's Land",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2011,
+      "single": false,
+      "own": true,
+      "artist_id": 2722,
+      "artist_name": "Wei Yi",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2721,
+          "name": "Jing Jin",
+          "stage_name": "LIL OMEGA",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0547845
+        }
+      ]
+    },
+    {
       "id": "song:2720",
-      "song_id": 2720,
+      "work_type": "Song",
+      "work_id": 2720,
       "title": "Desperate Measures",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,6 +47,39 @@
       "own": true,
       "artist_id": 2722,
       "artist_name": "Wei Yi",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2721,
+          "name": "Jing Jin",
+          "stage_name": "LIL OMEGA",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0547845
+        }
+      ]
+    },
+    {
+      "id": "song:2720",
+      "work_type": "Song",
+      "work_id": 2720,
+      "title": "Desperate Measures",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 2721,
+      "artist_name": "Jing Jin (LIL OMEGA)",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +87,94 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2721,
+          "name": "Jing Jin",
+          "stage_name": "LIL OMEGA",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0547845
+        },
+        {
+          "person_id": 2722,
+          "name": "Wei Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0470371
+        }
+      ]
+    },
+    {
+      "id": "album:10840",
+      "work_type": "Album",
+      "work_id": 10840,
+      "title": "The Mystery of Mariele's Heart",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 10841,
+      "artist_name": "Leslie Moore",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10841,
+          "name": "Leslie Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9917715
+        },
+        {
+          "person_id": 10842,
+          "name": "Julie Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984885
+        },
+        {
+          "person_id": 10843,
+          "name": "Daniel Watson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984678
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10840",
+      "target": "song:2720",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2720",
+      "target": "album:9947",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

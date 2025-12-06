@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7590",
-      "song_id": 7590,
+      "work_type": "Song",
+      "work_id": 7590,
       "title": "Heartbeat of the Municipal Land",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 7593,
       "artist_name": "Lei Huang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 7591,
+          "name": "Guiying Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999598
+        },
+        {
+          "person_id": 7592,
+          "name": "Jing Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999598
+        }
+      ]
+    },
+    {
+      "id": "album:6645",
+      "work_type": "Album",
+      "work_id": 6645,
+      "title": "Friendship's Tender Melody",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 2023,
+      "artist_name": "Qiang Tang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,72 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 6646,
+          "name": "Tao Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984528
+        },
+        {
+          "person_id": 6647,
+          "name": "Jun Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984528
+        },
+        {
+          "person_id": 6648,
+          "name": "Min Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984528
+        },
+        {
+          "person_id": 6649,
+          "name": "Jie Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984528
+        },
+        {
+          "person_id": 6650,
+          "name": "Xia Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984528
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:6645",
+      "target": "song:7590",
+      "type": "CoverOf"
+    }
+  ]
 }

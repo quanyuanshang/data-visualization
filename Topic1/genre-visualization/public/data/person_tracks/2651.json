@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:4228",
-      "song_id": 4228,
-      "title": "Ripples and Stones",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2021,
-      "single": true,
-      "own": true,
-      "artist_id": 2651,
-      "artist_name": "Renee Williams",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2649",
-      "song_id": 2649,
+      "work_type": "Song",
+      "work_id": 2649,
       "title": "Chiquinquirá's Heartbeat",
       "genre": "Doom Metal",
       "notable": true,
@@ -34,18 +15,368 @@
       "own": true,
       "artist_id": 2651,
       "artist_name": "Renee Williams",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2650,
+          "name": "Lisa Castillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.41222
+        },
+        {
+          "person_id": 2652,
+          "name": "William Rojas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400914
+        },
+        {
+          "person_id": 2653,
+          "name": "Amy Ochoa",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400914
+        }
+      ]
+    },
+    {
+      "id": "album:3633",
+      "work_type": "Album",
+      "work_id": 3633,
+      "title": "Hands Off My Privacy",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 2651,
+      "artist_name": "Renee Williams",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 4,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2213,
+          "name": "Maria Tyler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.429483
+        },
+        {
+          "person_id": 2214,
+          "name": "Vincent Morrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0321643
+        }
+      ]
+    },
+    {
+      "id": "song:4228",
+      "work_type": "Song",
+      "work_id": 4228,
+      "title": "Ripples and Stones",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 2651,
+      "artist_name": "Renee Williams",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2650,
+          "name": "Lisa Castillo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.41222
+        }
+      ]
+    },
+    {
+      "id": "album:14814",
+      "work_type": "Album",
+      "work_id": 14814,
+      "title": "Hay Whispers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 2651,
+      "artist_name": "Renee Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2650,
+          "name": "Lisa Castillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.41222
+        },
+        {
+          "person_id": 14815,
+          "name": "Thomas Boyle",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995743
+        }
+      ]
+    },
+    {
+      "id": "song:4228",
+      "work_type": "Song",
+      "work_id": 4228,
+      "title": "Ripples and Stones",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 2651,
+      "artist_name": "Renee Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2651,
+          "name": "Renee Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088463
+        },
+        {
+          "person_id": 2650,
+          "name": "Lisa Castillo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.41222
+        }
+      ]
+    },
+    {
+      "id": "album:14814",
+      "work_type": "Album",
+      "work_id": 14814,
+      "title": "Hay Whispers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 2650,
+      "artist_name": "Lisa Castillo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2651,
+          "name": "Renee Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088463
+        },
+        {
+          "person_id": 2650,
+          "name": "Lisa Castillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.41222
+        },
+        {
+          "person_id": 14815,
+          "name": "Thomas Boyle",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995743
+        }
+      ]
+    },
+    {
+      "id": "song:1515",
+      "work_type": "Song",
+      "work_id": 1515,
+      "title": "Regal Harmonies of the Palace",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1518,
+      "artist_name": "Juan Feng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 1516,
+          "name": "Juan Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397374
+        },
+        {
+          "person_id": 1517,
+          "name": "Brandon Banks",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397374
+        },
+        {
+          "person_id": 1518,
+          "name": "Juan Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973532
+        }
+      ]
+    },
+    {
+      "id": "song:2212",
+      "work_type": "Song",
+      "work_id": 2212,
+      "title": "Whispers of Scandal",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 2213,
+      "artist_name": "Maria Tyler",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2213,
+          "name": "Maria Tyler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.429483
+        },
+        {
+          "person_id": 2214,
+          "name": "Vincent Morrison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0321643
+        }
+      ]
     },
     {
       "id": "song:6418",
-      "song_id": 6418,
+      "work_type": "Song",
+      "work_id": 6418,
       "title": "Memories in Harmonic Dust",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,10 +394,73 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2583,
+          "name": "Jie Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0500796
+        },
+        {
+          "person_id": 2584,
+          "name": "Xiulan Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0500796
+        },
+        {
+          "person_id": 2585,
+          "name": "Gregory Hartman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0500796
+        },
+        {
+          "person_id": 6419,
+          "name": "Min Wang",
+          "stage_name": "The Ember Syndicate",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4000876
+        },
+        {
+          "person_id": 6420,
+          "name": "Ping Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000876
+        },
+        {
+          "person_id": 6421,
+          "name": "Melanie Ballard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000876
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:4228",
+      "target": "album:3633",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:6418",
       "target": "song:4228",
@@ -76,6 +470,31 @@
       "source": "song:4228",
       "target": "song:2649",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:2649",
+      "target": "album:3633",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:14814",
+      "target": "song:2649",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:1515",
+      "target": "album:3633",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:2212",
+      "target": "album:3633",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:14814",
+      "target": "song:4228",
+      "type": "InterpolatesFrom"
     }
   ]
 }

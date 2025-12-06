@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9641",
-      "song_id": 9641,
+      "work_type": "Song",
+      "work_id": 9641,
       "title": "Shadows of a Forgotten Annabel",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 9642,
       "artist_name": "Jessica Harvey",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2045,
+          "name": "Lilo Cichorius",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9150624
+        },
+        {
+          "person_id": 9643,
+          "name": "Timothy Bray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4501932
+        }
+      ]
     },
     {
       "id": "song:14201",
-      "song_id": 14201,
+      "work_type": "Song",
+      "work_id": 14201,
       "title": "Navegando Contra la Corriente",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +63,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2045,
+          "name": "Lilo Cichorius",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9150624
+        },
+        {
+          "person_id": 9643,
+          "name": "Timothy Bray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4501932
+        }
+      ]
     },
     {
       "id": "song:15607",
-      "song_id": 15607,
+      "work_type": "Song",
+      "work_id": 15607,
       "title": "The Weight of Letting Go",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,11 +104,78 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2045,
+          "name": "Lilo Cichorius",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9150624
+        },
+        {
+          "person_id": 9643,
+          "name": "Timothy Bray",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4501932
+        },
+        {
+          "person_id": 15608,
+          "name": "Paul Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399404
+        }
+      ]
+    },
+    {
+      "id": "album:922",
+      "work_type": "Album",
+      "work_id": 922,
+      "title": "Metamorphosis Protocol",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 923,
+      "artist_name": "Hélène Lecomte-Techer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 923,
+          "name": "Hélène Lecomte-Techer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.383659
+        }
+      ]
     },
     {
       "id": "song:15607",
-      "song_id": 15607,
+      "work_type": "Song",
+      "work_id": 15607,
       "title": "The Weight of Letting Go",
       "genre": "Alternative Rock",
       "notable": true,
@@ -83,6 +193,45 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2045,
+          "name": "Lilo Cichorius",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9150624
+        },
+        {
+          "person_id": 9642,
+          "name": "Jessica Harvey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4501932
+        },
+        {
+          "person_id": 9643,
+          "name": "Timothy Bray",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4501932
+        },
+        {
+          "person_id": 15608,
+          "name": "Paul Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399404
+        }
       ]
     }
   ],
@@ -91,6 +240,11 @@
       "source": "song:15607",
       "target": "song:14201",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:922",
+      "target": "song:9641",
+      "type": "InStyleOf"
     }
   ]
 }

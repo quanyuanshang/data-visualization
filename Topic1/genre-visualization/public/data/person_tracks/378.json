@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:376",
-      "song_id": 376,
+      "work_type": "Song",
+      "work_id": 376,
       "title": "Infinite Pathway",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 380,
+          "name": "Hanne-Lore Scholl-Heser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178304
+        },
+        {
+          "person_id": 379,
+          "name": "Jutta Matthäi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.00661
+        },
+        {
+          "person_id": 377,
+          "name": "Hildegund Wilmsen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9903812
+        }
+      ]
     },
     {
       "id": "song:15971",
-      "song_id": 15971,
+      "work_type": "Song",
+      "work_id": 15971,
       "title": "Celestial Descent",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,11 +72,51 @@
         "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 380,
+          "name": "Hanne-Lore Scholl-Heser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0178304
+        },
+        {
+          "person_id": 379,
+          "name": "Jutta Matthäi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.00661
+        },
+        {
+          "person_id": 377,
+          "name": "Hildegund Wilmsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9903812
+        },
+        {
+          "person_id": 15972,
+          "name": "Herr Ilhan Mülichen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995864
+        }
+      ]
     },
     {
       "id": "song:6954",
-      "song_id": 6954,
+      "work_type": "Song",
+      "work_id": 6954,
       "title": "Masked Whispers of the Commedia",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -63,11 +134,69 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 6959,
+          "name": "Xiulan Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0452683
+        },
+        {
+          "person_id": 6956,
+          "name": "Chao Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032513
+        },
+        {
+          "person_id": 6955,
+          "name": "Anka Spieß",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988569
+        },
+        {
+          "person_id": 6957,
+          "name": "Ming Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988569
+        },
+        {
+          "person_id": 6958,
+          "name": "Lei Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988569
+        }
       ]
     },
     {
       "id": "song:10142",
-      "song_id": 10142,
+      "work_type": "Song",
+      "work_id": 10142,
       "title": "Harmony of Heartache",
       "genre": "Doom Metal",
       "notable": true,
@@ -85,14 +214,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7774,
+          "name": "Claudia Lee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0258138
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6954",
+      "source": "song:376",
       "target": "song:15971",
-      "type": "LyricalReferenceTo"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:10142",
@@ -100,9 +242,9 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:376",
+      "source": "song:6954",
       "target": "song:15971",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     }
   ]
 }

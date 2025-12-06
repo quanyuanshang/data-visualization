@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11572",
-      "song_id": 11572,
+      "work_type": "Song",
+      "work_id": 11572,
       "title": "Fever Pitch Madness",
       "genre": "Speed Metal",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        }
+      ]
     },
     {
       "id": "song:5546",
-      "song_id": 5546,
+      "work_type": "Song",
+      "work_id": 5546,
       "title": "Sweet Metabolism",
       "genre": "Speed Metal",
       "notable": true,
@@ -43,11 +57,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3165,
+          "name": "Jamie Ramos",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6960506
+        },
+        {
+          "person_id": 3166,
+          "name": "Ricky Silva",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6956441
+        },
+        {
+          "person_id": 3164,
+          "name": "Jeremy Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4511569
+        }
       ]
     },
     {
       "id": "song:14094",
-      "song_id": 14094,
+      "work_type": "Song",
+      "work_id": 14094,
       "title": "Moonlit Metamorphosis",
       "genre": "Speed Metal",
       "notable": true,
@@ -65,19 +110,39 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3165,
+          "name": "Jamie Ramos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6960506
+        },
+        {
+          "person_id": 3166,
+          "name": "Ricky Silva",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6956441
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14094",
-      "target": "song:11572",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:5546",
       "target": "song:11572",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:14094",
+      "target": "song:11572",
+      "type": "InterpolatesFrom"
     }
   ]
 }

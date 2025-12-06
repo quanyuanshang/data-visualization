@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6318",
-      "song_id": 6318,
+      "work_type": "Song",
+      "work_id": 6318,
       "title": "Stare Down the Distance",
       "genre": "Americana",
       "notable": true,
@@ -14,6 +15,47 @@
       "own": true,
       "artist_id": 6319,
       "artist_name": "Christian Rojas",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6320,
+          "name": "Whitney Torres",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3973527
+        },
+        {
+          "person_id": 6321,
+          "name": "Daryl Parsons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973527
+        }
+      ]
+    },
+    {
+      "id": "album:17059",
+      "work_type": "Album",
+      "work_id": 17059,
+      "title": "Broken Anthems",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": 17057,
+      "artist_name": "Desert Echoes（成员：Jax Holloway｜预测 2.40、Riley Vex｜预测 2.40…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +63,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17054,
+          "name": "Jax Holloway",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4045684
+        },
+        {
+          "person_id": 17055,
+          "name": "Riley Vex",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4045684
+        },
+        {
+          "person_id": 17056,
+          "name": "Ash Mercer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3998055
+        },
+        {
+          "person_id": 17404,
+          "name": "The Hollow Vestige",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399268
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17059",
+      "target": "song:6318",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

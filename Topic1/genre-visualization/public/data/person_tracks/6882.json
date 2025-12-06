@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6881",
-      "song_id": 6881,
+      "work_type": "Song",
+      "work_id": 6881,
       "title": "Blossoming Youth",
       "genre": "Synthwave",
       "notable": true,
@@ -14,6 +15,48 @@
       "own": true,
       "artist_id": 6882,
       "artist_name": "Bobby Ruiz",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6883,
+          "name": "Samantha Walters",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974035
+        },
+        {
+          "person_id": 6884,
+          "name": "Ryan Bailey",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3974035
+        }
+      ]
+    },
+    {
+      "id": "album:4661",
+      "work_type": "Album",
+      "work_id": 4661,
+      "title": "The Space Between Goodbye",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 4503,
+      "artist_name": "Fredo Grossi",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +64,65 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4665,
+          "name": "Gino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.08105
+        },
+        {
+          "person_id": 4503,
+          "name": "Fredo Grossi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9326928
+        },
+        {
+          "person_id": 4664,
+          "name": "Antonietta Ceravolo-Condoleo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7092457
+        },
+        {
+          "person_id": 4662,
+          "name": "Enzio Garibaldi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0506396
+        },
+        {
+          "person_id": 4663,
+          "name": "Lori Henderson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.042888
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4661",
+      "target": "song:6881",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

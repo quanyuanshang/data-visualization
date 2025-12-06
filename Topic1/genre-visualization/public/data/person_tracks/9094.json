@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14416",
-      "song_id": 14416,
-      "title": "Parchment and Heresy",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2027,
-      "single": false,
-      "own": true,
-      "artist_id": 9094,
-      "artist_name": "Yang Zhang",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9090",
-      "song_id": 9090,
+      "work_type": "Song",
+      "work_id": 9090,
       "title": "Palms of Passage",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -41,33 +22,83 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9095,
+          "name": "Guiying Jin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0359056
+        },
+        {
+          "person_id": 9091,
+          "name": "Xiulan Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986948
+        },
+        {
+          "person_id": 9093,
+          "name": "Chao Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986948
+        },
+        {
+          "person_id": 9092,
+          "name": "Nicholas Moss",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398674
+        }
+      ]
     },
     {
-      "id": "song:13570",
-      "song_id": 13570,
-      "title": "Who Holds Your Heart Tonight?",
-      "genre": "Darkwave",
-      "notable": false,
-      "release_year": 2029,
-      "single": true,
-      "own": false,
-      "artist_id": 2980,
-      "artist_name": "Min Li",
-      "influence": 0,
+      "id": "song:14416",
+      "work_type": "Song",
+      "work_id": 14416,
+      "title": "Parchment and Heresy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 9094,
+      "artist_name": "Yang Zhang",
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9095,
+          "name": "Guiying Jin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0359056
+        }
       ]
     },
     {
       "id": "song:9493",
-      "song_id": 9493,
+      "work_type": "Song",
+      "work_id": 9493,
       "title": "Heroes of Honor",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -85,6 +116,125 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9495,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3954616
+        },
+        {
+          "person_id": 9497,
+          "name": "Chao Kang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954616
+        },
+        {
+          "person_id": 9499,
+          "name": "Rachel Ford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954616
+        },
+        {
+          "person_id": 9494,
+          "name": "Jie Bai",
+          "stage_name": "O.G. SPECTA",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954408
+        },
+        {
+          "person_id": 9496,
+          "name": "Yan Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954408
+        },
+        {
+          "person_id": 9498,
+          "name": "Joseph Cole",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954408
+        }
+      ]
+    },
+    {
+      "id": "song:13570",
+      "work_type": "Song",
+      "work_id": 13570,
+      "title": "Who Holds Your Heart Tonight?",
+      "genre": "Darkwave",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2980,
+      "artist_name": "Min Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2980,
+          "name": "Min Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7216783
+        },
+        {
+          "person_id": 13571,
+          "name": "Chao Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992755
+        },
+        {
+          "person_id": 13572,
+          "name": "Jun Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992682
+        },
+        {
+          "person_id": 13573,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992682
+        }
       ]
     }
   ],

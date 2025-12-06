@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14893",
-      "song_id": 14893,
-      "title": "Twilight's Threshold",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 1336,
-      "artist_name": "Yong Lu",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1333",
-      "song_id": 1333,
+      "work_type": "Song",
+      "work_id": 1333,
       "title": "Blossoming Smiles",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -34,18 +15,49 @@
       "own": true,
       "artist_id": 1336,
       "artist_name": "Yong Lu",
-      "influence": 7,
+      "influence": 12,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 1337,
+          "name": "Guiying Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4376602
+        },
+        {
+          "person_id": 1334,
+          "name": "Arthur Sparks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.408846
+        }
+      ]
     },
     {
       "id": "song:6967",
-      "song_id": 6967,
+      "work_type": "Song",
+      "work_id": 6967,
       "title": "Pierrot's Lonely Carnival",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -61,42 +73,91 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:6333",
-      "song_id": 6333,
-      "title": "Lumières de la Ville",
-      "genre": "Jazz Surf Rock",
-      "notable": true,
-      "release_year": 2012,
-      "single": true,
-      "own": false,
-      "artist_id": 1335,
-      "artist_name": "Ming Long",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf",
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 6336,
+          "name": "Fang Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035254
+        }
       ]
     },
     {
-      "id": "song:16584",
-      "song_id": 16584,
-      "title": "Byte by Byte",
+      "id": "song:14893",
+      "work_type": "Song",
+      "work_id": 14893,
+      "title": "Twilight's Threshold",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 1336,
+      "artist_name": "Yong Lu",
+      "influence": 16,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 3,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 14894,
+          "name": "Kimberly Estrada",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3815455
+        },
+        {
+          "person_id": 14895,
+          "name": "Fang Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3815455
+        }
+      ]
+    },
+    {
+      "id": "album:683",
+      "work_type": "Album",
+      "work_id": 683,
+      "title": "Whispers of a Father's Heart",
       "genre": "Jazz Surf Rock",
       "notable": true,
-      "release_year": 2015,
-      "single": true,
+      "release_year": 2025,
+      "single": false,
       "own": false,
-      "artist_id": 753,
-      "artist_name": "Lei Yan",
+      "artist_id": 684,
+      "artist_name": "Gang Zhao",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -105,12 +166,61 @@
         "style": 0
       },
       "relation_types": [
-        "InStyleOf"
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 687,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044944
+        },
+        {
+          "person_id": 685,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044094
+        },
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 688,
+          "name": "Ming Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997517
+        }
       ]
     },
     {
       "id": "song:5216",
-      "song_id": 5216,
+      "work_type": "Song",
+      "work_id": 5216,
       "title": "Twilight's Gypsy Memories",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -129,11 +239,42 @@
       "relation_types": [
         "CoverOf",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 5217,
+          "name": "Yang Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960042
+        }
       ]
     },
     {
       "id": "song:14429",
-      "song_id": 14429,
+      "work_type": "Song",
+      "work_id": 14429,
       "title": "Sweethearts of the Midwest",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -151,11 +292,113 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.02
+        },
+        {
+          "person_id": 14430,
+          "name": "Xia Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        },
+        {
+          "person_id": 14431,
+          "name": "Ethan Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        }
+      ]
+    },
+    {
+      "id": "song:16584",
+      "work_type": "Song",
+      "work_id": 16584,
+      "title": "Byte by Byte",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 753,
+      "artist_name": "Lei Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 5661,
+          "name": "Na Wei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0298502
+        }
       ]
     },
     {
       "id": "song:4738",
-      "song_id": 4738,
+      "work_type": "Song",
+      "work_id": 4738,
       "title": "Scent of Desire",
       "genre": "Alternative Rock",
       "notable": true,
@@ -173,13 +416,257 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4740,
+          "name": "Victoria Higgins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0374432
+        },
+        {
+          "person_id": 4739,
+          "name": "Gang Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980832
+        },
+        {
+          "person_id": 4741,
+          "name": "Guiying Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979135
+        }
+      ]
+    },
+    {
+      "id": "song:6333",
+      "work_type": "Song",
+      "work_id": 6333,
+      "title": "Lumières de la Ville",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 1335,
+      "artist_name": "Ming Long",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 6336,
+          "name": "Fang Hao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.035254
+        },
+        {
+          "person_id": 6334,
+          "name": "Ming Huang",
+          "stage_name": " Dom Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987806
+        },
+        {
+          "person_id": 6335,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987806
+        }
+      ]
+    },
+    {
+      "id": "album:922",
+      "work_type": "Album",
+      "work_id": 922,
+      "title": "Metamorphosis Protocol",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 923,
+      "artist_name": "Hélène Lecomte-Techer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 923,
+          "name": "Hélène Lecomte-Techer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.383659
+        }
+      ]
+    },
+    {
+      "id": "album:1310",
+      "work_type": "Album",
+      "work_id": 1310,
+      "title": "Alleys and Ambition",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 753,
+      "artist_name": "Lei Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1312,
+          "name": "Barbara Weitzel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158084
+        },
+        {
+          "person_id": 1311,
+          "name": "Juan Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398836
+        }
+      ]
+    },
+    {
+      "id": "album:16999",
+      "work_type": "Album",
+      "work_id": 16999,
+      "title": "Melancholy Circuitry",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 16996,
+      "artist_name": "Crimson Carriage（成员：Olivia Carter (Echo Wilde)｜预测 2.40、Lucas Bennett｜预测 2.41…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.271183
+        },
+        {
+          "person_id": 16994,
+          "name": "Lucas Bennett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4098403
+        },
+        {
+          "person_id": 16993,
+          "name": "Olivia Carter",
+          "stage_name": "Echo Wilde",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002638
+        },
+        {
+          "person_id": 16995,
+          "name": "Maya Torres",
+          "stage_name": "Selene Noir",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.396461
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16584",
-      "target": "song:1333",
+      "source": "song:6333",
+      "target": "song:6967",
       "type": "InStyleOf"
     },
     {
@@ -188,24 +675,24 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6333",
-      "target": "song:14893",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:5216",
-      "target": "song:6967",
+      "source": "album:683",
+      "target": "song:1333",
       "type": "CoverOf"
     },
     {
-      "source": "song:5216",
-      "target": "song:1333",
-      "type": "InStyleOf"
+      "source": "album:1310",
+      "target": "song:14893",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:16584",
       "target": "song:14893",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:5216",
+      "target": "song:6967",
+      "type": "CoverOf"
     },
     {
       "source": "song:14429",
@@ -214,7 +701,27 @@
     },
     {
       "source": "song:6333",
-      "target": "song:6967",
+      "target": "song:14893",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5216",
+      "target": "song:1333",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:16999",
+      "target": "song:14893",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:922",
+      "target": "song:14893",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:16584",
+      "target": "song:1333",
       "type": "InStyleOf"
     }
   ]

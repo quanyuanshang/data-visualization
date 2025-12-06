@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3168",
-      "song_id": 3168,
+      "work_type": "Song",
+      "work_id": 3168,
       "title": "Shared Shadows",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3172,
+          "name": "Donna Vecellio",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982203
+        },
+        {
+          "person_id": 3169,
+          "name": "Sophia Cilea",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39788
+        },
+        {
+          "person_id": 3171,
+          "name": "Annunziata Trezzini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39788
+        }
+      ]
     },
     {
       "id": "song:1156",
-      "song_id": 1156,
+      "work_type": "Song",
+      "work_id": 1156,
       "title": "Loving Myself First",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +76,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1158,
+          "name": "Juan Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0369186
+        },
+        {
+          "person_id": 1160,
+          "name": "Jie Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0325751
+        },
+        {
+          "person_id": 1157,
+          "name": "Lei Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996434
+        },
+        {
+          "person_id": 1159,
+          "name": "James Simon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996434
+        }
       ]
     },
     {
       "id": "song:2260",
-      "song_id": 2260,
+      "work_type": "Song",
+      "work_id": 2260,
       "title": "Inherited Arguments",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -65,11 +138,62 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2261,
+          "name": "Chao Gao",
+          "stage_name": "Solar Arcadia",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2263,
+          "name": "Fang Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2264,
+          "name": "Fang Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2265,
+          "name": "William Ball",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397398
+        },
+        {
+          "person_id": 2262,
+          "name": "Jie Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3973906
+        }
       ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -87,19 +211,66 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:3362",
-      "target": "song:3168",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:1156",
       "target": "song:3168",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3362",
+      "target": "song:3168",
+      "type": "InStyleOf"
     },
     {
       "source": "song:2260",

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14863",
-      "song_id": 14863,
-      "title": "Evening's Soft Cadence",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2014,
-      "single": true,
-      "own": true,
-      "artist_id": 5967,
-      "artist_name": "Richard Gutierrez",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:5965",
-      "song_id": 5965,
+      "work_type": "Song",
+      "work_id": 5965,
       "title": "Rise from the Wreckage",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,11 +22,125 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5968,
+          "name": "Dorota Cierpka",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0512786
+        },
+        {
+          "person_id": 5969,
+          "name": "Kristiane Stadelmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0422142
+        },
+        {
+          "person_id": 5966,
+          "name": "Tyler Padilla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989513
+        },
+        {
+          "person_id": 5970,
+          "name": "Robert Fronia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989513
+        }
+      ]
+    },
+    {
+      "id": "album:6685",
+      "work_type": "Album",
+      "work_id": 6685,
+      "title": "Kallelsens sång (Song of Calling)",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 5967,
+      "artist_name": "Richard Gutierrez",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6686,
+          "name": "Tracey Jordan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4283667
+        }
+      ]
+    },
+    {
+      "id": "song:14863",
+      "work_type": "Song",
+      "work_id": 14863,
+      "title": "Evening's Soft Cadence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": true,
+      "artist_id": 5967,
+      "artist_name": "Richard Gutierrez",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1956,
+          "name": "Dominic Riehl",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6828003
+        },
+        {
+          "person_id": 6686,
+          "name": "Tracey Jordan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4283667
+        }
+      ]
     },
     {
       "id": "song:14760",
-      "song_id": 14760,
+      "work_type": "Song",
+      "work_id": 14760,
       "title": "Nymph's Embrace",
       "genre": "Indie Pop",
       "notable": true,
@@ -64,19 +159,86 @@
       "relation_types": [
         "CoverOf",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2834263
+        },
+        {
+          "person_id": 14761,
+          "name": "Kendra Spears",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395795
+        }
+      ]
+    },
+    {
+      "id": "album:16295",
+      "work_type": "Album",
+      "work_id": 16295,
+      "title": "Rent-A-Tear",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 6686,
+      "artist_name": "Tracey Jordan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6686,
+          "name": "Tracey Jordan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4283667
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:16295",
+      "target": "album:6685",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14760",
+      "target": "song:5965",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:14760",
       "target": "song:14863",
       "type": "CoverOf"
     },
     {
-      "source": "song:14760",
-      "target": "song:5965",
-      "type": "InStyleOf"
+      "source": "album:16295",
+      "target": "song:14863",
+      "type": "InterpolatesFrom"
     }
   ]
 }

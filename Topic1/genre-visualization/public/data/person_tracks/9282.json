@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:9280",
-      "song_id": 9280,
-      "title": "Sunbeam Symphony",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": true,
-      "artist_id": 9282,
-      "artist_name": "Asuka Fukuda",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15818",
-      "song_id": 15818,
+      "work_type": "Song",
+      "work_id": 15818,
       "title": "Chrysalis Dreams",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,74 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9281,
+          "name": "Heino Ladeck",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7037206
+        },
+        {
+          "person_id": 3897,
+          "name": "Arkadiusz Flisiak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041461
+        },
+        {
+          "person_id": 15819,
+          "name": "Jacob Hunter",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3829439
+        }
+      ]
+    },
+    {
+      "id": "song:9280",
+      "work_type": "Song",
+      "work_id": 9280,
+      "title": "Sunbeam Symphony",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 9282,
+      "artist_name": "Asuka Fukuda",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9281,
+          "name": "Heino Ladeck",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7037206
+        }
+      ]
     },
     {
       "id": "song:3896",
-      "song_id": 3896,
+      "work_type": "Song",
+      "work_id": 3896,
       "title": "Laughter Through Tears",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +107,23 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3897,
+          "name": "Arkadiusz Flisiak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041461
+        }
       ]
     },
     {
       "id": "song:5018",
-      "song_id": 5018,
+      "work_type": "Song",
+      "work_id": 5018,
       "title": "Bucket of Broken Dreams",
       "genre": "Blues Rock",
       "notable": true,
@@ -85,11 +141,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5019,
+          "name": "Simone Maurice",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982198
+        },
+        {
+          "person_id": 5020,
+          "name": "Diana Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397987
+        }
       ]
     },
     {
       "id": "song:14544",
-      "song_id": 14544,
+      "work_type": "Song",
+      "work_id": 14544,
       "title": "The Midnight's Lament",
       "genre": "Alternative Rock",
       "notable": true,
@@ -107,11 +185,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3864,
+          "name": "Matthieu Le Roux",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4154258
+        },
+        {
+          "person_id": 14546,
+          "name": "Corinne Leleu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986418
+        },
+        {
+          "person_id": 14545,
+          "name": "Jason Ali",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398621
+        }
       ]
     },
     {
       "id": "song:17011",
-      "song_id": 17011,
+      "work_type": "Song",
+      "work_id": 17011,
       "title": "Velvet Catacombs",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -129,6 +238,17 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17004,
+          "name": "Willow Sage",
+          "stage_name": "Horizon Fable",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9185874
+        }
       ]
     }
   ],
@@ -139,11 +259,6 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:14544",
-      "target": "song:15818",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:3896",
       "target": "song:15818",
       "type": "InStyleOf"
@@ -152,6 +267,11 @@
       "source": "song:17011",
       "target": "song:15818",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14544",
+      "target": "song:15818",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

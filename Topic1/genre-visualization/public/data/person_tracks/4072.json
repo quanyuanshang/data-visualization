@@ -4,8 +4,71 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:4071",
+      "work_type": "Album",
+      "work_id": 4071,
+      "title": "Forbidden Spark",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 4072,
+      "artist_name": "Juan Xue",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4075,
+          "name": "Xia Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9210818
+        },
+        {
+          "person_id": 4073,
+          "name": "Patricia Hardy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.441625
+        },
+        {
+          "person_id": 4076,
+          "name": "Leslie Mathis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.441625
+        },
+        {
+          "person_id": 4074,
+          "name": "Jing Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0318153
+        }
+      ]
+    },
+    {
       "id": "song:11116",
-      "song_id": 11116,
+      "work_type": "Song",
+      "work_id": 11116,
       "title": "Bortom Mörkrets Rand (Beyond the Edge of Darkness)",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +77,57 @@
       "own": true,
       "artist_id": 4072,
       "artist_name": "Juan Xue",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4075,
+          "name": "Xia Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9210818
+        },
+        {
+          "person_id": 4073,
+          "name": "Patricia Hardy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.441625
+        },
+        {
+          "person_id": 4076,
+          "name": "Leslie Mathis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.441625
+        }
+      ]
+    },
+    {
+      "id": "song:3362",
+      "work_type": "Song",
+      "work_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +135,68 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4071",
+      "target": "song:11116",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3362",
+      "target": "album:4071",
+      "type": "CoverOf"
+    }
+  ]
 }

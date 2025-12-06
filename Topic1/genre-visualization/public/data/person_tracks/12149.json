@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12148",
-      "song_id": 12148,
+      "work_type": "Song",
+      "work_id": 12148,
       "title": "Wah Wah Way",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:11499",
-      "song_id": 11499,
+      "work_type": "Song",
+      "work_id": 11499,
       "title": "Scarred Intentions",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +46,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11501,
+          "name": "Nancy Arnold",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984528
+        },
+        {
+          "person_id": 11500,
+          "name": "Christy Hicks",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979998
+        }
       ]
     }
   ],

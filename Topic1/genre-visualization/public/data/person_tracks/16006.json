@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16004",
-      "song_id": 16004,
+      "work_type": "Song",
+      "work_id": 16004,
       "title": "The Royal Physician's Gambit",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,6 +15,48 @@
       "own": true,
       "artist_id": 16006,
       "artist_name": "Brandon Trujillo",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 16005,
+          "name": "Ben le Gallen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394954
+        }
+      ]
+    },
+    {
+      "id": "album:4313",
+      "work_type": "Album",
+      "work_id": 4313,
+      "title": "Regreso al principio (Return to the beginning)",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 4315,
+      "artist_name": "Gaja Powierża",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +64,36 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4314,
+          "name": "Julita Łaciak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3981824
+        },
+        {
+          "person_id": 4315,
+          "name": "Gaja Powierża",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981307
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4313",
+      "target": "song:16004",
+      "type": "InStyleOf"
+    }
+  ]
 }

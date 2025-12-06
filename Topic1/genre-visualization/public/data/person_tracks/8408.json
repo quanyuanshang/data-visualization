@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8407",
-      "song_id": 8407,
+      "work_type": "Song",
+      "work_id": 8407,
       "title": "Unraveling Alibis",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:9054",
-      "song_id": 9054,
+      "work_type": "Song",
+      "work_id": 9054,
       "title": "Moonlit Willow's Gentle Sway",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +46,46 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9056,
+          "name": "Antonia Steinberg-Löffler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398798
+        },
+        {
+          "person_id": 9057,
+          "name": "Cato Meyer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398798
+        },
+        {
+          "person_id": 9055,
+          "name": "Margot Becker-Striebitz",
+          "stage_name": "Zenith",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987772
+        },
+        {
+          "person_id": 9058,
+          "name": "Renske Godfrey van Alemannië",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987772
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15501",
-      "song_id": 15501,
+      "work_type": "Song",
+      "work_id": 15501,
       "title": "Bah's Lament",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3674,
+          "name": "Kumiko Miura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6804218
+        }
+      ]
     },
     {
       "id": "song:3672",
-      "song_id": 3672,
+      "work_type": "Song",
+      "work_id": 3672,
       "title": "Borderlands of Grace",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +57,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3674,
+          "name": "Kumiko Miura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6804218
+        },
+        {
+          "person_id": 3673,
+          "name": "Kenichi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4371486
+        }
       ]
     },
     {
       "id": "song:9570",
-      "song_id": 9570,
+      "work_type": "Song",
+      "work_id": 9570,
       "title": "Ransom for a Son's Body",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +101,32 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3674,
+          "name": "Kumiko Miura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6804218
+        },
+        {
+          "person_id": 3673,
+          "name": "Kenichi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4371486
+        }
       ]
     },
     {
       "id": "song:14153",
-      "song_id": 14153,
+      "work_type": "Song",
+      "work_id": 14153,
       "title": "Warrior's Serenade",
       "genre": "Indie Folk",
       "notable": true,
@@ -87,6 +144,26 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3674,
+          "name": "Kumiko Miura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6804218
+        },
+        {
+          "person_id": 3673,
+          "name": "Kenichi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4371486
+        }
       ]
     }
   ],
@@ -97,14 +174,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:14153",
-      "target": "song:15501",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:9570",
       "target": "song:15501",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14153",
+      "target": "song:15501",
+      "type": "InterpolatesFrom"
     }
   ]
 }

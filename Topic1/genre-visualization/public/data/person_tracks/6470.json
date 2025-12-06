@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6467",
-      "song_id": 6467,
+      "work_type": "Song",
+      "work_id": 6467,
       "title": "Nordic Echoes",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,31 +22,41 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:11889",
-      "song_id": 11889,
-      "title": "Echoes of Nils",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": true,
-      "artist_id": 6470,
-      "artist_name": "Andrej Ruppersberger",
-      "influence": 8,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6469,
+          "name": "Pamela Massey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989956
+        },
+        {
+          "person_id": 6471,
+          "name": "Richard Francis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989956
+        },
+        {
+          "person_id": 6468,
+          "name": "Ernest Clark",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989475
+        }
+      ]
     },
     {
       "id": "song:7709",
-      "song_id": 7709,
+      "work_type": "Song",
+      "work_id": 7709,
       "title": "Solitude's Whisper",
       "genre": "Blues Rock",
       "notable": true,
@@ -61,11 +72,74 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7710,
+          "name": "Gundi Barkholz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4322042
+        },
+        {
+          "person_id": 7711,
+          "name": "Yesenia Tyler",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0338101
+        }
+      ]
+    },
+    {
+      "id": "song:11889",
+      "work_type": "Song",
+      "work_id": 11889,
+      "title": "Echoes of Nils",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 6470,
+      "artist_name": "Andrej Ruppersberger",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7710,
+          "name": "Gundi Barkholz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4322042
+        },
+        {
+          "person_id": 7711,
+          "name": "Yesenia Tyler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0338101
+        }
+      ]
     },
     {
       "id": "song:13580",
-      "song_id": 13580,
+      "work_type": "Song",
+      "work_id": 13580,
       "title": "Where Does Your Passion Hide?",
       "genre": "Blues Rock",
       "notable": true,
@@ -81,11 +155,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7710,
+          "name": "Gundi Barkholz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4322042
+        },
+        {
+          "person_id": 13581,
+          "name": "Gerhart Wieloch",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4025486
+        }
+      ]
     },
     {
       "id": "song:13580",
-      "song_id": 13580,
+      "work_type": "Song",
+      "work_id": 13580,
       "title": "Where Does Your Passion Hide?",
       "genre": "Blues Rock",
       "notable": true,
@@ -103,11 +199,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6470,
+          "name": "Andrej Ruppersberger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6993737
+        },
+        {
+          "person_id": 7710,
+          "name": "Gundi Barkholz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4322042
+        },
+        {
+          "person_id": 13581,
+          "name": "Gerhart Wieloch",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4025486
+        }
       ]
     },
     {
       "id": "song:15425",
-      "song_id": 15425,
+      "work_type": "Song",
+      "work_id": 15425,
       "title": "Kadence Božské Identity",
       "genre": "Blues Rock",
       "notable": true,
@@ -125,19 +252,63 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15426,
+          "name": "Savannah Leblanc",
+          "stage_name": " Nina Sky",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994887
+        },
+        {
+          "person_id": 15427,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994887
+        },
+        {
+          "person_id": 15428,
+          "name": "Tao Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994887
+        },
+        {
+          "person_id": 15429,
+          "name": "Jie Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3994887
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:6467",
+      "target": "song:7709",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13580",
+      "target": "song:11889",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:15425",
       "target": "song:7709",
       "type": "DirectlySamples"
-    },
-    {
-      "source": "song:6467",
-      "target": "song:11889",
-      "type": "CoverOf"
     },
     {
       "source": "song:6467",
@@ -150,14 +321,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:13580",
-      "target": "song:11889",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:6467",
-      "target": "song:7709",
-      "type": "InterpolatesFrom"
+      "target": "song:11889",
+      "type": "CoverOf"
     }
   ]
 }

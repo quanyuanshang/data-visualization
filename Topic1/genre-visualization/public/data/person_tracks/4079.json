@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4077",
-      "song_id": 4077,
+      "work_type": "Song",
+      "work_id": 4077,
       "title": "Starlit Passion",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,6 +15,74 @@
       "own": true,
       "artist_id": 4079,
       "artist_name": "Chao Wan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4083,
+          "name": "Min Yi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.031765
+        },
+        {
+          "person_id": 4078,
+          "name": "Meagan Hendrix",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395594
+        },
+        {
+          "person_id": 4080,
+          "name": "Yan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395594
+        },
+        {
+          "person_id": 4081,
+          "name": "Yan Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.395594
+        },
+        {
+          "person_id": 4082,
+          "name": "Ming Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395594
+        }
+      ]
+    },
+    {
+      "id": "album:577",
+      "work_type": "Album",
+      "work_id": 577,
+      "title": "Roadmap to Your Heart",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 578,
+      "artist_name": "Wei Gao",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +90,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 579,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4243224
+        },
+        {
+          "person_id": 578,
+          "name": "Wei Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996036
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:577",
+      "target": "song:4077",
+      "type": "InStyleOf"
+    }
+  ]
 }

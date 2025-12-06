@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2169",
-      "song_id": 2169,
+      "work_type": "Song",
+      "work_id": 2169,
       "title": "Brake Lights and Broken Hearts",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,81 @@
       "own": true,
       "artist_id": 2171,
       "artist_name": "Lisa Martin",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2172,
+          "name": "Monica Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9315295
+        },
+        {
+          "person_id": 2170,
+          "name": "Sonia Weeks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397209
+        },
+        {
+          "person_id": 2173,
+          "name": "Richard Frazier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397209
+        }
+      ]
+    },
+    {
+      "id": "album:6417",
+      "work_type": "Album",
+      "work_id": 6417,
+      "title": "Whispers from a Distant Refrain",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 2171,
+      "artist_name": "Lisa Martin",
+      "influence": 17,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2172,
+          "name": "Monica Nelson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9315295
+        }
+      ]
     },
     {
       "id": "song:4299",
-      "song_id": 4299,
+      "work_type": "Song",
+      "work_id": 4299,
       "title": "Último intento (Last attempt)",
       "genre": "Desert Rock",
       "notable": false,
@@ -43,13 +107,384 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4300,
+          "name": "Pamela Johnson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4283118
+        },
+        {
+          "person_id": 4301,
+          "name": "Na Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4302,
+          "name": "Guiying Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4303,
+          "name": "Xiuying Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4304,
+          "name": "Jun Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4305,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3957763
+        }
+      ]
+    },
+    {
+      "id": "album:7213",
+      "work_type": "Album",
+      "work_id": 7213,
+      "title": "Ephemeral Beauty's Embrace",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 7214,
+      "artist_name": "Fang Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7218,
+          "name": "Li Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4418204
+        },
+        {
+          "person_id": 7216,
+          "name": "Lei Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0639422
+        },
+        {
+          "person_id": 7214,
+          "name": "Fang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7215,
+          "name": "Jing Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7217,
+          "name": "Min Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7220,
+          "name": "Li Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0014687
+        },
+        {
+          "person_id": 7219,
+          "name": "Hannah Richards",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979735
+        }
+      ]
+    },
+    {
+      "id": "song:1313",
+      "work_type": "Song",
+      "work_id": 1313,
+      "title": "Radiance of the Heart",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1314,
+      "artist_name": "Chao Yang (Neon Moth)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1318,
+          "name": "Ming Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.020327
+        },
+        {
+          "person_id": 1316,
+          "name": "Guiying Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975308
+        },
+        {
+          "person_id": 1314,
+          "name": "Chao Yang",
+          "stage_name": "Neon Moth",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397361
+        },
+        {
+          "person_id": 1315,
+          "name": "Tao Long",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397361
+        },
+        {
+          "person_id": 1317,
+          "name": "Ping Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397361
+        }
+      ]
+    },
+    {
+      "id": "album:1823",
+      "work_type": "Album",
+      "work_id": 1823,
+      "title": "Rebel Without a Pause",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1826,
+      "artist_name": "Ping Feng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1827,
+          "name": "Donna Ryan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.029538
+        },
+        {
+          "person_id": 1824,
+          "name": "Li Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989136
+        },
+        {
+          "person_id": 1825,
+          "name": "Lei Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989136
+        },
+        {
+          "person_id": 1826,
+          "name": "Ping Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989136
+        },
+        {
+          "person_id": 1828,
+          "name": "Li Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989136
+        }
+      ]
+    },
+    {
+      "id": "song:13232",
+      "work_type": "Song",
+      "work_id": 13232,
+      "title": "The Wisdom of Not Knowing",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 13233,
+      "artist_name": "Jason Vaughn",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13234,
+          "name": "Gang Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0420105
+        },
+        {
+          "person_id": 13233,
+          "name": "Jason Vaughn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398689
+        },
+        {
+          "person_id": 13235,
+          "name": "Summer Bender",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398689
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:13232",
+      "target": "album:6417",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2169",
+      "target": "album:6417",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:4299",
       "target": "song:2169",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:1313",
+      "target": "album:6417",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:7213",
+      "target": "song:2169",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4299",
+      "target": "album:6417",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:1823",
+      "target": "album:6417",
       "type": "CoverOf"
     }
   ]

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3697",
-      "song_id": 3697,
+      "work_type": "Song",
+      "work_id": 3697,
       "title": "Whispers at Sunset",
       "genre": "Darkwave",
       "notable": true,
@@ -14,18 +15,77 @@
       "own": true,
       "artist_id": 3700,
       "artist_name": "Yan Kong",
-      "influence": 3,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
-        "reference": 1,
+        "sample": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3704,
+          "name": "Qiang Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7210002
+        },
+        {
+          "person_id": 3698,
+          "name": "Ming Zhao",
+          "stage_name": " FVDE",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3699,
+          "name": "Lei Duan",
+          "stage_name": "Static Hymn",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3701,
+          "name": "Chao Jia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3702,
+          "name": "Jun Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3703,
+          "name": "Wei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986638
+        }
+      ]
     },
     {
       "id": "song:5029",
-      "song_id": 5029,
+      "work_type": "Song",
+      "work_id": 5029,
       "title": "Landsbyens Drøm (Village's Dream)",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,14 +103,208 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1785,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.475672
+        },
+        {
+          "person_id": 5033,
+          "name": "Fang Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0496407
+        },
+        {
+          "person_id": 3486,
+          "name": "Jing Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048528
+        },
+        {
+          "person_id": 5030,
+          "name": "Wei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398608
+        },
+        {
+          "person_id": 5031,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398608
+        },
+        {
+          "person_id": 5032,
+          "name": "Richard Reyes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985872
+        }
+      ]
+    },
+    {
+      "id": "album:8892",
+      "work_type": "Album",
+      "work_id": 8892,
+      "title": "Sun-Baked Terracotta",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 593,
+      "artist_name": "Li Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 4608,
+          "name": "Wei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.913909
+        },
+        {
+          "person_id": 5649,
+          "name": "Wei Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4591036
+        },
+        {
+          "person_id": 8893,
+          "name": "Christopher Evans",
+          "stage_name": "Dylan Reed",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3859143
+        }
+      ]
+    },
+    {
+      "id": "album:16385",
+      "work_type": "Album",
+      "work_id": 16385,
+      "title": "Unbroken Whispers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 16386,
+      "artist_name": "Ping Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16386,
+          "name": "Ping Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16387,
+          "name": "Ming Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16388,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980315
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:16385",
+      "target": "song:3697",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:5029",
       "target": "song:3697",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:8892",
+      "target": "song:3697",
+      "type": "DirectlySamples"
     }
   ]
 }

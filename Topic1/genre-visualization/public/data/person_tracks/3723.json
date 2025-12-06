@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3721",
-      "song_id": 3721,
+      "work_type": "Song",
+      "work_id": 3721,
       "title": "Altitude and Honor",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,6 +15,38 @@
       "own": true,
       "artist_id": 3723,
       "artist_name": "Timothy Randolph",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3722,
+          "name": "Nicole Newman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397832
+        }
+      ]
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +54,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4167",
+      "target": "song:3721",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

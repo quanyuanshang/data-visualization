@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16036",
-      "song_id": 16036,
+      "work_type": "Song",
+      "work_id": 16036,
       "title": "The Middle Ground",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:16552",
-      "song_id": 16552,
+      "work_type": "Song",
+      "work_id": 16552,
       "title": "Chicago to MVP",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,19 +46,40 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16554,
+          "name": "Jacek Kazimierczuk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39793
+        },
+        {
+          "person_id": 16553,
+          "name": "Juliusz Cierpisz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979266
+        }
       ]
     },
     {
       "id": "song:17142",
-      "song_id": 17142,
+      "work_type": "Song",
+      "work_id": 17142,
       "title": "The Last Oath",
       "genre": "Symphonic Metal",
       "notable": true,
       "release_year": 2036,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17138,
+      "artist_name": "Iron Cathedral（成员：Benjamin Clark (Ben Ryder)｜预测 3.20、Sophia Brooks (Kaelan Frost)｜预测 3.21…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -65,7 +89,8 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [

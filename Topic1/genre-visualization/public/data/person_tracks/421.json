@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:419",
-      "song_id": 419,
+      "work_type": "Song",
+      "work_id": 419,
       "title": "Crimson Birthright",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 420,
+          "name": "Jasmine Thompson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4030356
+        }
+      ]
     },
     {
       "id": "song:13480",
-      "song_id": 13480,
+      "work_type": "Song",
+      "work_id": 13480,
       "title": "Fault Lines of the Heart",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +56,45 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5382,
+          "name": "Yong Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1169157
+        },
+        {
+          "person_id": 9455,
+          "name": "Kylie Clarke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0392275
+        },
+        {
+          "person_id": 9456,
+          "name": "Ashley Patton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0392275
+        },
+        {
+          "person_id": 9457,
+          "name": "Jessica Holmes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0392275
+        }
       ]
     }
   ],

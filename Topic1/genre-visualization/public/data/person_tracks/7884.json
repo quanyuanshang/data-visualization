@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7882",
-      "song_id": 7882,
-      "title": "Heartbeats in Slow Motion",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": true,
-      "artist_id": 7884,
-      "artist_name": "Zeeshan Dora",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15970",
-      "song_id": 15970,
+      "work_type": "Song",
+      "work_id": 15970,
       "title": "Loud and Proud",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,7 +22,95 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7883,
+          "name": "Rati Deo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4376454
+        }
+      ]
+    },
+    {
+      "id": "song:7882",
+      "work_type": "Song",
+      "work_id": 7882,
+      "title": "Heartbeats in Slow Motion",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 7884,
+      "artist_name": "Zeeshan Dora",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7883,
+          "name": "Rati Deo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4376454
+        }
+      ]
+    },
+    {
+      "id": "song:7882",
+      "work_type": "Song",
+      "work_id": 7882,
+      "title": "Heartbeats in Slow Motion",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 7884,
+      "artist_name": "Zeeshan Dora",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7883,
+          "name": "Rati Deo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4376454
+        },
+        {
+          "person_id": 7884,
+          "name": "Zeeshan Dora",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042168
+        }
+      ]
     }
   ],
   "links": [

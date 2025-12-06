@@ -1,0 +1,165 @@
+{
+  "person_id": 11367,
+  "name": "Min Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11366",
+      "work_type": "Album",
+      "work_id": 11366,
+      "title": "Bitter Gulp",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2011,
+      "single": false,
+      "own": true,
+      "artist_id": 11367,
+      "artist_name": "Min Zeng",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4096,
+          "name": "Tao Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.6932614
+        }
+      ]
+    },
+    {
+      "id": "song:4095",
+      "work_type": "Song",
+      "work_id": 4095,
+      "title": "Contemplations of Grace Unbound",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 4096,
+      "artist_name": "Tao Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4098,
+          "name": "Guiying Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2504196
+        },
+        {
+          "person_id": 4096,
+          "name": "Tao Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6932614
+        },
+        {
+          "person_id": 4097,
+          "name": "Courtney Carroll",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0387175
+        }
+      ]
+    },
+    {
+      "id": "song:6833",
+      "work_type": "Song",
+      "work_id": 6833,
+      "title": "The Last Sweet Moment",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 6834,
+      "artist_name": "Ping Sun",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4096,
+          "name": "Tao Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6932614
+        },
+        {
+          "person_id": 6834,
+          "name": "Ping Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985107
+        },
+        {
+          "person_id": 6835,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985107
+        },
+        {
+          "person_id": 6836,
+          "name": "Stacey Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985107
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6833",
+      "target": "album:11366",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4095",
+      "target": "album:11366",
+      "type": "CoverOf"
+    }
+  ]
+}

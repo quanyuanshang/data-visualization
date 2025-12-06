@@ -5,6 +5,48 @@
 
 import json
 from collections import defaultdict
+from pathlib import Path
+
+def load_work_influence(base_dir: Path):
+    """
+    从预计算文件读取歌曲影响力分数。
+    优先顺序：
+    1) data/song_influence.json（calc_song_influence.py 产出，nodes[].influence）
+    2) data/person_tracks.json
+    3) genre-visualization/public/data/person_tracks.json
+    返回 {work_id: influence_score}
+    """
+    influence_map = {}
+    candidates = [
+        base_dir / "data" / "song_influence.json",
+        base_dir / "data" / "person_tracks.json",
+        base_dir / "genre-visualization" / "public" / "data" / "person_tracks.json",
+    ]
+    for p in candidates:
+        if not p.exists():
+            continue
+        try:
+            with p.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            # song_influence.json 也是 nodes 结构
+            nodes = data.get("nodes", [])
+            for n in nodes:
+                work_id = n.get("id") or n.get("song_id")
+                if work_id is None:
+                    continue
+                inf = n.get("influence") or n.get("influence_score") or n.get("score")
+                if inf is None:
+                    continue
+                # 同时存数字和字符串键，便于匹配
+                influence_map[work_id] = inf
+                influence_map[str(work_id)] = inf
+            print(f"[INFO] 读取影响力: {len(influence_map)//2} 首歌曲，来源: {p.name}")
+            return influence_map
+        except Exception as exc:  # noqa: BLE001
+            print(f"[WARN] 读取 {p} 失败: {exc}")
+    print("[WARN] 未找到 person_tracks.json，影响力将默认为 0")
+    return influence_map
+
 
 def extract_timeline_relations(graph_file, timeline_file, output_file):
     """
@@ -27,12 +69,26 @@ def extract_timeline_relations(graph_file, timeline_file, output_file):
     print(f"加载时间线数据: {timeline_file}")
     with open(timeline_file, 'r', encoding='utf-8') as f:
         timeline_data = json.load(f)
+
+    known_genres = set(timeline_data.get('genres', []))
+    viz_data_path = Path(timeline_file).with_name('visualization_data.json')
+    if viz_data_path.exists():
+        try:
+            with viz_data_path.open('r', encoding='utf-8') as f:
+                viz_data = json.load(f)
+            known_genres.update(viz_data.get('genres', []))
+        except json.JSONDecodeError as exc:
+            print(f"[WARN] 无法解析 {viz_data_path}: {exc}")
     
     # 创建节点ID到节点信息的映射
     nodes_map = {}
     for node in graph_data.get('nodes', []):
         nodes_map[node['id']] = node
     
+    # 预加载歌曲影响力
+    base_dir = Path(graph_file).resolve().parent.parent  # 兼容被放在 data/ 下
+    work_influence = load_work_influence(base_dir)
+
     # 关系类型映射
     relation_types = {
         'CoverOf': 'CoverOf',
@@ -55,9 +111,9 @@ def extract_timeline_relations(graph_file, timeline_file, output_file):
     skipped_no_nodes = 0
     skipped_not_works = 0
     skipped_no_genre = 0
-    skipped_same_genre = 0
     skipped_no_date = 0
     skipped_year_out_of_range = 0
+    same_genre_count = 0  # 统计同流派关系数量
     
     for edge in edges:
         processed += 1
@@ -99,10 +155,8 @@ def extract_timeline_relations(graph_file, timeline_file, output_file):
             skipped_no_genre += 1
             continue
         
-        # 只处理不同流派之间的关系
-        if source_genre == target_genre:
-            skipped_same_genre += 1
-            continue
+        # 现在包含同一流派内部的关系（自引用关系）
+        # 移除同流派过滤，允许处理同一流派内部的关系
         
         # 提取年份
         source_date = source_node.get('release_date')
@@ -128,6 +182,31 @@ def extract_timeline_relations(graph_file, timeline_file, output_file):
             skipped_year_out_of_range += 1
             continue
         
+        # 提取歌曲标题与影响力（name 字段 + influence 字段）
+        source_title = source_node.get('name', '')
+        target_title = target_node.get('name', '')
+        # 影响力：优先用 person_tracks 的预计算分数，其次节点自带字段
+        source_influence = (
+            work_influence.get(source_id)
+            or source_node.get('influence')
+            or source_node.get('influence_score')
+            or source_node.get('score')
+            or 0
+        )
+        target_influence = (
+            work_influence.get(target_id)
+            or target_node.get('influence')
+            or target_node.get('influence_score')
+            or target_node.get('score')
+            or 0
+        )
+        
+        known_genres.update([source_genre, target_genre])
+        
+        # 统计同流派关系
+        if source_genre == target_genre:
+            same_genre_count += 1
+
         relations.append({
             'source_genre': source_genre,
             'target_genre': target_genre,
@@ -135,7 +214,11 @@ def extract_timeline_relations(graph_file, timeline_file, output_file):
             'target_year': target_year,
             'relation_type': edge_type,
             'source_work_id': source_id,
-            'target_work_id': target_id
+            'target_work_id': target_id,
+            'source_title': source_title,        # 源歌曲标题
+            'target_title': target_title,        # 目标歌曲标题
+            'source_influence': source_influence, # 源歌曲影响力
+            'target_influence': target_influence  # 目标歌曲影响力
         })
     
     print(f"\n处理完成！")
@@ -147,12 +230,18 @@ def extract_timeline_relations(graph_file, timeline_file, output_file):
     print(f"  节点不存在: {skipped_no_nodes}")
     print(f"  非作品节点: {skipped_not_works}")
     print(f"  无流派: {skipped_no_genre}")
-    print(f"  同流派: {skipped_same_genre}")
     print(f"  无日期: {skipped_no_date}")
     print(f"  年份超出范围: {skipped_year_out_of_range}")
+    print(f"\n同流派内部关系: {same_genre_count} 条（已包含在总关系数中）")
     
     # 添加到时间线数据
     timeline_data['relations'] = relations
+
+    # 确保 genre_timelines 中包含所有已知流派
+    genre_timelines = timeline_data.setdefault('genre_timelines', {})
+    for genre in sorted(known_genres):
+        genre_timelines.setdefault(genre, {"timeline": []})
+    timeline_data['genres'] = sorted(known_genres)
     
     # 统计关系类型
     relation_counts = defaultdict(int)

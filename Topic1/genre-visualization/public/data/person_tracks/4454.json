@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4453",
-      "song_id": 4453,
+      "work_type": "Song",
+      "work_id": 4453,
       "title": "Promised Mile",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 4454,
       "artist_name": "Robert Allen",
-      "influence": 7,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
+        "sample": 1,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2237,
+          "name": "Guiying Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4340136
+        },
+        {
+          "person_id": 4456,
+          "name": "Yang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.039169
+        },
+        {
+          "person_id": 4455,
+          "name": "Lei Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3950982
+        },
+        {
+          "person_id": 4457,
+          "name": "Yan He",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3950982
+        },
+        {
+          "person_id": 4458,
+          "name": "Tao Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3950982
+        }
+      ]
     },
     {
       "id": "song:6474",
-      "song_id": 6474,
+      "work_type": "Song",
+      "work_id": 6474,
       "title": "Midsummer's Melody",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +93,52 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 314,
+          "name": "Cristian Bonilla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5058427
+        },
+        {
+          "person_id": 316,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9232433
+        },
+        {
+          "person_id": 6475,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.043481
+        },
+        {
+          "person_id": 3437,
+          "name": "Qiang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.029727
+        }
       ]
     },
     {
       "id": "song:14602",
-      "song_id": 14602,
+      "work_type": "Song",
+      "work_id": 14602,
       "title": "Coordinates of Silence",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +156,97 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14603,
+          "name": "Regina Vance",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974254
+        },
+        {
+          "person_id": 14605,
+          "name": "Cas Everde",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974047
+        },
+        {
+          "person_id": 14604,
+          "name": "Rebecca Bishop",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3971632
+        }
+      ]
+    },
+    {
+      "id": "album:17093",
+      "work_type": "Album",
+      "work_id": 17093,
+      "title": "Echoes of the Neon Void",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2036,
+      "single": false,
+      "own": false,
+      "artist_id": 17091,
+      "artist_name": "Turbo Kill（成员：Clara Henderson｜预测 3.02、Ethan Crowley｜预测 3.04）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17090,
+          "name": "Ethan Crowley",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0373733
+        },
+        {
+          "person_id": 17089,
+          "name": "Clara Henderson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0174062
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14602",
+      "source": "album:17093",
       "target": "song:4453",
-      "type": "InStyleOf"
+      "type": "DirectlySamples"
     },
     {
       "source": "song:6474",
       "target": "song:4453",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:14602",
+      "target": "song:4453",
+      "type": "InStyleOf"
     }
   ]
 }

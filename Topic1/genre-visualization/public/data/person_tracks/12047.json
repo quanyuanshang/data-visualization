@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12045",
-      "song_id": 12045,
+      "work_type": "Song",
+      "work_id": 12045,
       "title": "Crayon of Destiny",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2706,
+          "name": "Zachary Francis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7104144
+        },
+        {
+          "person_id": 12046,
+          "name": "David Higgins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.381441
+        },
+        {
+          "person_id": 12048,
+          "name": "Patrick Davenport",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.381441
+        }
+      ]
     },
     {
       "id": "song:2260",
-      "song_id": 2260,
+      "work_type": "Song",
+      "work_id": 2260,
       "title": "Inherited Arguments",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -43,6 +75,56 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2261,
+          "name": "Chao Gao",
+          "stage_name": "Solar Arcadia",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2263,
+          "name": "Fang Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2264,
+          "name": "Fang Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2265,
+          "name": "William Ball",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397398
+        },
+        {
+          "person_id": 2262,
+          "name": "Jie Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3973906
+        }
       ]
     }
   ],

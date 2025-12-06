@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16276",
-      "song_id": 16276,
+      "work_type": "Song",
+      "work_id": 16276,
       "title": "Perimeter",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16278,
+          "name": "Chao Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399402
+        }
+      ]
     },
     {
       "id": "song:11130",
-      "song_id": 11130,
+      "work_type": "Song",
+      "work_id": 11130,
       "title": "Denali's Whisper",
       "genre": "Space Rock",
       "notable": true,
@@ -43,11 +57,60 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11132,
+          "name": "Xia Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11134,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11131,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11133,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11135,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960795
+        }
       ]
     },
     {
       "id": "song:14047",
-      "song_id": 14047,
+      "work_type": "Song",
+      "work_id": 14047,
       "title": "Montmartre Petals",
       "genre": "Space Rock",
       "notable": true,
@@ -65,19 +128,58 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4753,
+          "name": "Bartek Krężołek",
+          "stage_name": " Neon Ghost",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0770826
+        },
+        {
+          "person_id": 4756,
+          "name": "Stefan Berus",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9292412
+        },
+        {
+          "person_id": 4755,
+          "name": "Mikołaj Rosłoń",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4273274
+        },
+        {
+          "person_id": 9544,
+          "name": "Radosław Duszkiewicz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046129
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14047",
-      "target": "song:16276",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:11130",
       "target": "song:16276",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14047",
+      "target": "song:16276",
+      "type": "CoverOf"
     }
   ]
 }

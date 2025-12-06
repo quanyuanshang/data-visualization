@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6675",
-      "song_id": 6675,
+      "work_type": "Song",
+      "work_id": 6675,
       "title": "Vägen hem (The Way Home)",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6676,
+          "name": "Anthony Salas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0304399
+        },
+        {
+          "person_id": 6677,
+          "name": "Nicole Williamson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0304399
+        }
+      ]
     },
     {
       "id": "song:9564",
-      "song_id": 9564,
+      "work_type": "Song",
+      "work_id": 9564,
       "title": "Tears of a Broken King",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +65,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4293177
+        },
+        {
+          "person_id": 9565,
+          "name": "Jacob Bryant",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3997884
+        }
       ]
     }
   ],

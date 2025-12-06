@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15188",
-      "song_id": 15188,
-      "title": "Solomon's Sorrow",
-      "genre": "Symphonic Metal",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 8008,
-      "artist_name": "Shlok Desai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8006",
-      "song_id": 8006,
+      "work_type": "Song",
+      "work_id": 8006,
       "title": "Scream Between Whispers",
       "genre": "Americana",
       "notable": true,
@@ -41,11 +22,55 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8007,
+          "name": "Qiang Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0320249
+        }
+      ]
+    },
+    {
+      "id": "song:15188",
+      "work_type": "Song",
+      "work_id": 15188,
+      "title": "Solomon's Sorrow",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 8008,
+      "artist_name": "Shlok Desai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8007,
+          "name": "Qiang Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0320249
+        }
+      ]
     },
     {
       "id": "song:8636",
-      "song_id": 8636,
+      "work_type": "Song",
+      "work_id": 8636,
       "title": "Roots of Rhythm",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,6 +88,70 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8638,
+          "name": "Shelby Grimes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995945
+        },
+        {
+          "person_id": 8637,
+          "name": "Debbie Fuller",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994482
+        }
+      ]
+    },
+    {
+      "id": "song:15188",
+      "work_type": "Song",
+      "work_id": 15188,
+      "title": "Solomon's Sorrow",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 8007,
+      "artist_name": "Qiang Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8008,
+          "name": "Shlok Desai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0367887
+        },
+        {
+          "person_id": 8007,
+          "name": "Qiang Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0320249
+        }
       ]
     }
   ],

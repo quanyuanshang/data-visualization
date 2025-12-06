@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7729",
-      "song_id": 7729,
+      "work_type": "Song",
+      "work_id": 7729,
       "title": "Bleeding for Your Redemption",
       "genre": "Indie Folk",
       "notable": false,
@@ -14,6 +15,76 @@
       "own": true,
       "artist_id": 7730,
       "artist_name": "Emmanuelle Leleu (Sovereign)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4445,
+          "name": "Arnaude Joseph-Lacombe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9375887
+        },
+        {
+          "person_id": 7731,
+          "name": "Astrid Gomes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0558999
+        },
+        {
+          "person_id": 4441,
+          "name": "Maurice Mathieu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278518
+        },
+        {
+          "person_id": 4438,
+          "name": "William Roux",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4343023
+        },
+        {
+          "person_id": 7732,
+          "name": "Gilles Peltier-Rocher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970242
+        }
+      ]
+    },
+    {
+      "id": "album:11712",
+      "work_type": "Album",
+      "work_id": 11712,
+      "title": "Synthetic Serenade",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 4848,
+      "artist_name": "Francesca Maglio",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +92,102 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4848,
+          "name": "Francesca Maglio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1214786
+        },
+        {
+          "person_id": 9108,
+          "name": "Karina Hess",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9376242
+        },
+        {
+          "person_id": 5951,
+          "name": "Iolanda Prada",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9349976
+        },
+        {
+          "person_id": 11716,
+          "name": "Inès Collet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4313834
+        },
+        {
+          "person_id": 9601,
+          "name": "Melissa Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0347247
+        },
+        {
+          "person_id": 11713,
+          "name": "Ramona Petruzzi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982103
+        },
+        {
+          "person_id": 11714,
+          "name": "Andrew Ellison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982103
+        },
+        {
+          "person_id": 11715,
+          "name": "Sean Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982103
+        },
+        {
+          "person_id": 11717,
+          "name": "Olivier Munoz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981895
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11712",
+      "target": "song:7729",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

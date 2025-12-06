@@ -1,0 +1,176 @@
+{
+  "person_id": 1692,
+  "name": "Jing Chang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:1689",
+      "work_type": "Album",
+      "work_id": 1689,
+      "title": "The Three Impossible Questions",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 1692,
+      "artist_name": "Jing Chang",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1691,
+          "name": "April Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0535448
+        },
+        {
+          "person_id": 1690,
+          "name": "Ping Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.407724
+        }
+      ]
+    },
+    {
+      "id": "song:6765",
+      "work_type": "Song",
+      "work_id": 6765,
+      "title": "Whispers of New Bloom",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 6766,
+      "artist_name": "Amy Riley",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6766,
+          "name": "Amy Riley",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400268
+        },
+        {
+          "person_id": 6767,
+          "name": "Mary Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.400268
+        },
+        {
+          "person_id": 6768,
+          "name": "Vicenta Castañeda Arroyo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002473
+        },
+        {
+          "person_id": 6769,
+          "name": "Ricky Richards",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4002473
+        }
+      ]
+    },
+    {
+      "id": "song:12893",
+      "work_type": "Song",
+      "work_id": 12893,
+      "title": "Keeper of My Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 12894,
+      "artist_name": "Elizabeth Mccann",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1691,
+          "name": "April Brown",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0535448
+        },
+        {
+          "person_id": 12895,
+          "name": "Roger Simmons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.017053
+        },
+        {
+          "person_id": 12894,
+          "name": "Elizabeth Mccann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398472
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6765",
+      "target": "album:1689",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12893",
+      "target": "album:1689",
+      "type": "CoverOf"
+    }
+  ]
+}

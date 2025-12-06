@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8233",
-      "song_id": 8233,
+      "work_type": "Song",
+      "work_id": 8233,
       "title": "Roots and Winds of Departure",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,50 @@
       "own": true,
       "artist_id": 8235,
       "artist_name": "Édouard-Rémy Clerc",
-      "influence": 13,
+      "influence": 18,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4351,
+          "name": "Alfred Thibault",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4378967
+        },
+        {
+          "person_id": 4349,
+          "name": "Zoé-Agnès Delaunay",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4368763
+        },
+        {
+          "person_id": 8234,
+          "name": "Adèle Bonneau",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0287704
+        }
+      ]
     },
     {
       "id": "song:7291",
-      "song_id": 7291,
+      "work_type": "Song",
+      "work_id": 7291,
       "title": "Twisted Strands",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +76,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7292,
+          "name": "Jing Liao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397631
+        },
+        {
+          "person_id": 7293,
+          "name": "Min Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397631
+        },
+        {
+          "person_id": 7294,
+          "name": "Guiying Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976102
+        }
       ]
     },
     {
       "id": "song:8006",
-      "song_id": 8006,
+      "work_type": "Song",
+      "work_id": 8006,
       "title": "Scream Between Whispers",
       "genre": "Americana",
       "notable": true,
@@ -65,11 +129,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8008,
+          "name": "Shlok Desai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0367887
+        },
+        {
+          "person_id": 8007,
+          "name": "Qiang Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0320249
+        }
       ]
     },
     {
       "id": "song:13027",
-      "song_id": 13027,
+      "work_type": "Song",
+      "work_id": 13027,
       "title": "Shadows Beneath the Palm",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -87,11 +173,104 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13028,
+          "name": "Michael Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0380397
+        },
+        {
+          "person_id": 13029,
+          "name": "Michael Reyes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0380397
+        }
+      ]
+    },
+    {
+      "id": "album:14666",
+      "work_type": "Album",
+      "work_id": 14666,
+      "title": "Close Enough to Touch",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 13028,
+      "artist_name": "Michael Rivera",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13028,
+          "name": "Michael Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0380397
+        },
+        {
+          "person_id": 13029,
+          "name": "Michael Reyes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380397
+        },
+        {
+          "person_id": 14667,
+          "name": "Maurice Harrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        },
+        {
+          "person_id": 14668,
+          "name": "Scott Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        },
+        {
+          "person_id": 14669,
+          "name": "Devin Chan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        }
       ]
     },
     {
       "id": "song:14940",
-      "song_id": 14940,
+      "work_type": "Song",
+      "work_id": 14940,
       "title": "Faded Polaroids",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -109,14 +288,58 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3368,
+          "name": "Madeleine Pineau",
+          "stage_name": "M.A.D. FROST (Money And Dreams)",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0442572
+        },
+        {
+          "person_id": 3369,
+          "name": "Laetitia Petitjean",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0442572
+        },
+        {
+          "person_id": 3370,
+          "name": "Émilie Maillet",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0442572
+        },
+        {
+          "person_id": 3371,
+          "name": "Susan Da Silva",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0442572
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:13027",
+      "source": "album:14666",
       "target": "song:8233",
-      "type": "LyricalReferenceTo"
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14940",
+      "target": "song:8233",
+      "type": "InStyleOf"
     },
     {
       "source": "song:7291",
@@ -129,9 +352,9 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:14940",
+      "source": "song:13027",
       "target": "song:8233",
-      "type": "InStyleOf"
+      "type": "LyricalReferenceTo"
     }
   ]
 }

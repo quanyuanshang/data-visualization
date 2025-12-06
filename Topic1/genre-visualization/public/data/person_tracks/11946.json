@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11945",
-      "song_id": 11945,
+      "work_type": "Song",
+      "work_id": 11945,
       "title": "Bullet Train to Brilliance",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 11946,
       "artist_name": "Ping Kong",
-      "influence": 21,
+      "influence": 27,
       "influence_breakdown": {
         "cover": 2,
         "sample": 0,
-        "reference": 1,
+        "reference": 3,
         "style": 4
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2509,
+          "name": "Qiang Dong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7148821
+        },
+        {
+          "person_id": 2506,
+          "name": "Xiuying Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4410489
+        },
+        {
+          "person_id": 2508,
+          "name": "Ping Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4410489
+        }
+      ]
     },
     {
       "id": "song:1779",
-      "song_id": 1779,
+      "work_type": "Song",
+      "work_id": 1779,
       "title": "Dreaming Before Dawn",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +75,123 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 850,
+          "name": "Leo Eberth",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9209633
+        },
+        {
+          "person_id": 1782,
+          "name": "Alexa Albers-Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4352436
+        },
+        {
+          "person_id": 1781,
+          "name": "Peggy Krebs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.012105
+        },
+        {
+          "person_id": 1780,
+          "name": "Nikolaos Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394553
+        }
+      ]
+    },
+    {
+      "id": "album:2505",
+      "work_type": "Album",
+      "work_id": 2505,
+      "title": "Timestamp of Memory",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 2506,
+      "artist_name": "Xiuying Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2509,
+          "name": "Qiang Dong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7148821
+        },
+        {
+          "person_id": 2506,
+          "name": "Xiuying Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4410489
+        },
+        {
+          "person_id": 2508,
+          "name": "Ping Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4410489
+        },
+        {
+          "person_id": 2507,
+          "name": "Na Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0237353
+        }
       ]
     },
     {
       "id": "song:4492",
-      "song_id": 4492,
+      "work_type": "Song",
+      "work_id": 4492,
       "title": "Suspended Between Worlds",
       "genre": "Space Rock",
       "notable": true,
@@ -65,11 +209,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4494,
+          "name": "Thomas Harrison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.440943
+        },
+        {
+          "person_id": 4495,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.440943
+        },
+        {
+          "person_id": 4493,
+          "name": "Thomas Mcconnell",
+          "stage_name": "Wraith Masquerade",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.372258
+        }
       ]
     },
     {
       "id": "song:5096",
-      "song_id": 5096,
+      "work_type": "Song",
+      "work_id": 5096,
       "title": "Whispers of the Verdant Farewell",
       "genre": "Synthwave",
       "notable": true,
@@ -87,11 +262,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1201,
+          "name": "Xiuying Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2639523
+        },
+        {
+          "person_id": 5097,
+          "name": "Sandra Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399745
+        },
+        {
+          "person_id": 5098,
+          "name": "Michelle Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399745
+        },
+        {
+          "person_id": 5099,
+          "name": "Tina Morgan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399745
+        }
       ]
     },
     {
       "id": "song:8954",
-      "song_id": 8954,
+      "work_type": "Song",
+      "work_id": 8954,
       "title": "The In-Law Inheritance",
       "genre": "Doom Metal",
       "notable": true,
@@ -109,11 +325,78 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 850,
+          "name": "Leo Eberth",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9209633
+        },
+        {
+          "person_id": 1782,
+          "name": "Alexa Albers-Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4352436
+        },
+        {
+          "person_id": 8955,
+          "name": "Stephanie Huhn",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4341717
+        },
+        {
+          "person_id": 1781,
+          "name": "Peggy Krebs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.012105
+        },
+        {
+          "person_id": 8956,
+          "name": "Edwin Diaz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4000735
+        },
+        {
+          "person_id": 8957,
+          "name": "Rainer Mans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000735
+        }
       ]
     },
     {
       "id": "song:10782",
-      "song_id": 10782,
+      "work_type": "Song",
+      "work_id": 10782,
       "title": "Sepia Memories, Fading Light",
       "genre": "Synthwave",
       "notable": true,
@@ -131,11 +414,61 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6083,
+          "name": "Xiulan Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7472978
+        },
+        {
+          "person_id": 10783,
+          "name": "Li Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962972
+        },
+        {
+          "person_id": 10784,
+          "name": "Tao Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962972
+        },
+        {
+          "person_id": 10785,
+          "name": "Terry Castillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3962972
+        },
+        {
+          "person_id": 10786,
+          "name": "Tao Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3962765
+        }
       ]
     },
     {
       "id": "song:13276",
-      "song_id": 13276,
+      "work_type": "Song",
+      "work_id": 13276,
       "title": "Paper Crown",
       "genre": "Synthwave",
       "notable": true,
@@ -153,19 +486,130 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 647,
+          "name": "Jie Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.433982
+        },
+        {
+          "person_id": 2769,
+          "name": "Akemi Nakajima",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3840213
+        },
+        {
+          "person_id": 13277,
+          "name": "Min Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985686
+        },
+        {
+          "person_id": 13278,
+          "name": "Jing Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985686
+        }
+      ]
+    },
+    {
+      "id": "album:13563",
+      "work_type": "Album",
+      "work_id": 13563,
+      "title": "Unique Frequencies",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 2506,
+      "artist_name": "Xiuying Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2509,
+          "name": "Qiang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7148821
+        },
+        {
+          "person_id": 2506,
+          "name": "Xiuying Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4410489
+        },
+        {
+          "person_id": 2508,
+          "name": "Ping Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4410489
+        },
+        {
+          "person_id": 5781,
+          "name": "Fang Xiong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.43545
+        },
+        {
+          "person_id": 2507,
+          "name": "Na Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0237353
+        }
       ]
     },
     {
       "id": "song:17115",
-      "song_id": 17115,
+      "work_type": "Song",
+      "work_id": 17115,
       "title": "Echoes in the Barren Lands",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
       "release_year": 2031,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17110,
+      "artist_name": "The Hollow Monarchs（成员：Chloe Montgomery (Lane Taylor)｜预测 2.36、Nathaniel Brooks (David Cole)｜预测 2.36…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -175,7 +619,8 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
@@ -183,21 +628,6 @@
       "source": "song:5096",
       "target": "song:11945",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:8954",
-      "target": "song:11945",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:10782",
-      "target": "song:11945",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:4492",
-      "target": "song:11945",
-      "type": "CoverOf"
     },
     {
       "source": "song:17115",
@@ -210,9 +640,34 @@
       "type": "InterpolatesFrom"
     },
     {
+      "source": "song:4492",
+      "target": "song:11945",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:13276",
       "target": "song:11945",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:2505",
+      "target": "song:11945",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:13563",
+      "target": "song:11945",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10782",
+      "target": "song:11945",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8954",
+      "target": "song:11945",
+      "type": "CoverOf"
     }
   ]
 }

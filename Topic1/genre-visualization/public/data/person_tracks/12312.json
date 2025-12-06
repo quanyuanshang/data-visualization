@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15093",
-      "song_id": 15093,
-      "title": "Fingerprints on Unplayed Melodies",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2016,
-      "single": false,
-      "own": true,
-      "artist_id": 12312,
-      "artist_name": "Wei Hu",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:12309",
-      "song_id": 12309,
+      "work_type": "Song",
+      "work_id": 12309,
       "title": "Whispers of Passion",
       "genre": "Darkwave",
       "notable": true,
@@ -41,41 +22,41 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:10523",
-      "song_id": 10523,
-      "title": "Sommelier's Serenade",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2022,
-      "single": true,
-      "own": false,
-      "artist_id": 1941,
-      "artist_name": "Yang Tang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12310,
+          "name": "Tao Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400683
+        },
+        {
+          "person_id": 12311,
+          "name": "Richard Gonzales",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400683
+        }
       ]
     },
     {
-      "id": "song:13736",
-      "song_id": 13736,
-      "title": "Crystalline Horizons",
-      "genre": "Psychedelic Rock",
+      "id": "album:12313",
+      "work_type": "Album",
+      "work_id": 12313,
+      "title": "Falling Into Forever",
+      "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2028,
-      "single": true,
-      "own": false,
-      "artist_id": 13737,
-      "artist_name": "Guiying He",
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 12312,
+      "artist_name": "Wei Hu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -83,13 +64,128 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4550,
+          "name": "Aimée van Dijk",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2558746
+        },
+        {
+          "person_id": 1232,
+          "name": "Li Gao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4307604
+        },
+        {
+          "person_id": 5602,
+          "name": "Qiang Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4136279
+        },
+        {
+          "person_id": 12315,
+          "name": "Yan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988197
+        },
+        {
+          "person_id": 12314,
+          "name": "Xia Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39865
+        }
+      ]
+    },
+    {
+      "id": "song:15093",
+      "work_type": "Song",
+      "work_id": 15093,
+      "title": "Fingerprints on Unplayed Melodies",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 12312,
+      "artist_name": "Wei Hu",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15094,
+          "name": "Li Xu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994548
+        },
+        {
+          "person_id": 15095,
+          "name": "Lori Bass",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994548
+        },
+        {
+          "person_id": 15096,
+          "name": "Na Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994548
+        },
+        {
+          "person_id": 15097,
+          "name": "Ming Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994548
+        },
+        {
+          "person_id": 15098,
+          "name": "Yang Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994548
+        }
       ]
     },
     {
       "id": "song:210",
-      "song_id": 210,
+      "work_type": "Song",
+      "work_id": 210,
       "title": "Luminous Path",
       "genre": "Darkwave",
       "notable": true,
@@ -107,11 +203,60 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 212,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299516
+        },
+        {
+          "person_id": 211,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 213,
+          "name": "Lei Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 214,
+          "name": "Qiang Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 215,
+          "name": "Qiang Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        }
       ]
     },
     {
       "id": "song:4328",
-      "song_id": 4328,
+      "work_type": "Song",
+      "work_id": 4328,
       "title": "Oheň v žilách naší generace",
       "genre": "Americana",
       "notable": true,
@@ -129,10 +274,194 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4329,
+          "name": "Ming Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398161
+        },
+        {
+          "person_id": 4330,
+          "name": "Na Chen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979862
+        }
+      ]
+    },
+    {
+      "id": "song:10523",
+      "work_type": "Song",
+      "work_id": 10523,
+      "title": "Sommelier's Serenade",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 1941,
+      "artist_name": "Yang Tang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1941,
+          "name": "Yang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7043383
+        },
+        {
+          "person_id": 10524,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978884
+        },
+        {
+          "person_id": 10525,
+          "name": "Jing Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978884
+        },
+        {
+          "person_id": 10526,
+          "name": "Jun Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978884
+        },
+        {
+          "person_id": 10528,
+          "name": "Jing Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978884
+        },
+        {
+          "person_id": 10529,
+          "name": "Omar Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978884
+        },
+        {
+          "person_id": 10527,
+          "name": "Ming Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978677
+        }
+      ]
+    },
+    {
+      "id": "song:13736",
+      "work_type": "Song",
+      "work_id": 13736,
+      "title": "Crystalline Horizons",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 13737,
+      "artist_name": "Guiying He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13737,
+          "name": "Guiying He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398264
+        },
+        {
+          "person_id": 13738,
+          "name": "Lei Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398264
+        },
+        {
+          "person_id": 13739,
+          "name": "Fang Gao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398264
+        },
+        {
+          "person_id": 13740,
+          "name": "Xiulan Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982432
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:210",
+      "target": "song:12309",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4328",
+      "target": "song:12309",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:10523",
       "target": "song:15093",
@@ -142,16 +471,6 @@
       "source": "song:13736",
       "target": "song:15093",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:4328",
-      "target": "song:12309",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:210",
-      "target": "song:12309",
-      "type": "LyricalReferenceTo"
     }
   ]
 }

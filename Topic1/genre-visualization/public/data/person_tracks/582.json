@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:581",
-      "song_id": 581,
-      "title": "Travel Plans (With You)",
+      "id": "album:12497",
+      "work_type": "Album",
+      "work_id": 12497,
+      "title": "Reverent Breath",
       "genre": "Dream Pop",
       "notable": true,
-      "release_year": 1997,
-      "single": true,
+      "release_year": 2004,
+      "single": false,
       "own": true,
       "artist_id": 582,
       "artist_name": "Sophia Dippel",
@@ -21,8 +22,59 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 583,
+          "name": "Concetta Klotz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.05831
+        }
+      ]
+    },
+    {
+      "id": "song:581",
+      "work_type": "Song",
+      "work_id": 581,
+      "title": "Travel Plans (With You)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 582,
+      "artist_name": "Sophia Dippel",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 583,
+          "name": "Concetta Klotz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.05831
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:12497",
+      "target": "song:581",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

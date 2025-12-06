@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14417",
-      "song_id": 14417,
+      "work_type": "Song",
+      "work_id": 14417,
       "title": "Oxford's Forgotten Son",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14418,
+          "name": "Chiyo Hashimoto",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399127
+        }
+      ]
     },
     {
       "id": "song:6279",
-      "song_id": 6279,
+      "work_type": "Song",
+      "work_id": 6279,
       "title": "Walk Away from Women",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +56,44 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6281,
+          "name": "Stacey Christensen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993855
+        },
+        {
+          "person_id": 6282,
+          "name": "Li Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993855
+        },
+        {
+          "person_id": 6283,
+          "name": "Min Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993855
+        },
+        {
+          "person_id": 6280,
+          "name": "Lei Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993647
+        }
       ]
     }
   ],

@@ -1,0 +1,108 @@
+{
+  "person_id": 4539,
+  "name": "Jorge Ross",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:4538",
+      "work_type": "Album",
+      "work_id": 4538,
+      "title": "Street Legacy",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 4539,
+      "artist_name": "Jorge Ross",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4540,
+          "name": "Robert Pugh",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4092271
+        }
+      ]
+    },
+    {
+      "id": "song:9412",
+      "work_type": "Song",
+      "work_id": 9412,
+      "title": "Midnight in Stockholm: A Freedom Cry",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 3455,
+      "artist_name": "Maria Carlson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4963,
+          "name": "Lawrence Cooper",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4397337
+        },
+        {
+          "person_id": 3455,
+          "name": "Maria Carlson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4004025
+        },
+        {
+          "person_id": 4910,
+          "name": "Cengiz Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051749
+        },
+        {
+          "person_id": 9413,
+          "name": "Joseph Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980541
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9412",
+      "target": "album:4538",
+      "type": "DirectlySamples"
+    }
+  ]
+}

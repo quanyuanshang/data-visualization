@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5887",
-      "song_id": 5887,
+      "work_type": "Song",
+      "work_id": 5887,
       "title": "The Price of Freedom",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 5890,
       "artist_name": "Allison Patterson",
-      "influence": 58,
+      "influence": 74,
       "influence_breakdown": {
-        "cover": 4,
+        "cover": 6,
         "sample": 2,
         "reference": 6,
-        "style": 6
+        "style": 9
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5888,
+          "name": "Nicholas Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3947577
+        },
+        {
+          "person_id": 5889,
+          "name": "Laura Dillon",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3947577
+        }
+      ]
     },
     {
       "id": "song:10337",
-      "song_id": 10337,
+      "work_type": "Song",
+      "work_id": 10337,
       "title": "Tinsel Harmonies",
       "genre": "Doom Metal",
       "notable": false,
@@ -41,11 +64,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 2016,
+          "name": "Juan Lai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4579709
+        }
+      ]
     },
     {
       "id": "song:11997",
-      "song_id": 11997,
+      "work_type": "Song",
+      "work_id": 11997,
       "title": "The Man Who Died Twice",
       "genre": "Doom Metal",
       "notable": true,
@@ -61,11 +106,95 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10139,
+          "name": "Melissa Warren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.031106
+        }
+      ]
+    },
+    {
+      "id": "album:7700",
+      "work_type": "Album",
+      "work_id": 7700,
+      "title": "Invisible Crowds",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 5890,
+      "artist_name": "Allison Patterson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 7702,
+          "name": "Cynthia Monroe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0035431
+        },
+        {
+          "person_id": 7701,
+          "name": "Harri Oderwald",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399075
+        },
+        {
+          "person_id": 7703,
+          "name": "Kick van Geffen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399075
+        },
+        {
+          "person_id": 7704,
+          "name": "Roy Dominguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399075
+        }
+      ]
     },
     {
       "id": "song:10138",
-      "song_id": 10138,
+      "work_type": "Song",
+      "work_id": 10138,
       "title": "Wishes in the Moment",
       "genre": "Doom Metal",
       "notable": true,
@@ -81,11 +210,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10139,
+          "name": "Melissa Warren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.031106
+        }
+      ]
     },
     {
       "id": "song:1156",
-      "song_id": 1156,
+      "work_type": "Song",
+      "work_id": 1156,
       "title": "Loving Myself First",
       "genre": "Synthwave",
       "notable": true,
@@ -103,11 +244,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1158,
+          "name": "Juan Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0369186
+        },
+        {
+          "person_id": 1160,
+          "name": "Jie Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0325751
+        },
+        {
+          "person_id": 1157,
+          "name": "Lei Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996434
+        },
+        {
+          "person_id": 1159,
+          "name": "James Simon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996434
+        }
       ]
     },
     {
       "id": "song:2013",
-      "song_id": 2013,
+      "work_type": "Song",
+      "work_id": 2013,
       "title": "Shrapnel Memories",
       "genre": "Synthwave",
       "notable": true,
@@ -125,11 +306,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1877,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2593718
+        },
+        {
+          "person_id": 2016,
+          "name": "Juan Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4579709
+        },
+        {
+          "person_id": 2014,
+          "name": "Jie Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3904712
+        },
+        {
+          "person_id": 2017,
+          "name": "Yang Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3904712
+        },
+        {
+          "person_id": 2015,
+          "name": "Fang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3903015
+        }
       ]
     },
     {
       "id": "song:2212",
-      "song_id": 2212,
+      "work_type": "Song",
+      "work_id": 2212,
       "title": "Whispers of Scandal",
       "genre": "Doom Metal",
       "notable": true,
@@ -147,11 +377,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2213,
+          "name": "Maria Tyler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.429483
+        },
+        {
+          "person_id": 2214,
+          "name": "Vincent Morrison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0321643
+        }
       ]
     },
     {
       "id": "song:3186",
-      "song_id": 3186,
+      "work_type": "Song",
+      "work_id": 3186,
       "title": "Surplus of Love",
       "genre": "Dream Pop",
       "notable": true,
@@ -169,11 +421,122 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3188,
+          "name": "Kayla Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.053541
+        },
+        {
+          "person_id": 3189,
+          "name": "Meredith Sullivan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.051183
+        },
+        {
+          "person_id": 3187,
+          "name": "Christopher Long",
+          "stage_name": " A.M. Silver",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0495603
+        },
+        {
+          "person_id": 3190,
+          "name": "Kaylee Patrick",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0495603
+        },
+        {
+          "person_id": 3191,
+          "name": "Mary Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0495603
+        },
+        {
+          "person_id": 3192,
+          "name": "Brandon Roman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0463812
+        }
+      ]
+    },
+    {
+      "id": "album:3633",
+      "work_type": "Album",
+      "work_id": 3633,
+      "title": "Hands Off My Privacy",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 2213,
+      "artist_name": "Maria Tyler",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2651,
+          "name": "Renee Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088463
+        },
+        {
+          "person_id": 2213,
+          "name": "Maria Tyler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.429483
+        },
+        {
+          "person_id": 2214,
+          "name": "Vincent Morrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0321643
+        }
       ]
     },
     {
       "id": "song:4228",
-      "song_id": 4228,
+      "work_type": "Song",
+      "work_id": 4228,
       "title": "Ripples and Stones",
       "genre": "Synthwave",
       "notable": true,
@@ -191,11 +554,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2651,
+          "name": "Renee Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088463
+        },
+        {
+          "person_id": 2650,
+          "name": "Lisa Castillo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.41222
+        }
       ]
     },
     {
       "id": "song:6474",
-      "song_id": 6474,
+      "work_type": "Song",
+      "work_id": 6474,
       "title": "Midsummer's Melody",
       "genre": "Dream Pop",
       "notable": true,
@@ -213,11 +598,134 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 314,
+          "name": "Cristian Bonilla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5058427
+        },
+        {
+          "person_id": 316,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9232433
+        },
+        {
+          "person_id": 6475,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.043481
+        },
+        {
+          "person_id": 3437,
+          "name": "Qiang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.029727
+        }
+      ]
+    },
+    {
+      "id": "album:7700",
+      "work_type": "Album",
+      "work_id": 7700,
+      "title": "Invisible Crowds",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 1982,
+      "artist_name": "Travis Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 5890,
+          "name": "Allison Patterson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7244172
+        },
+        {
+          "person_id": 7702,
+          "name": "Cynthia Monroe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0035431
+        },
+        {
+          "person_id": 7701,
+          "name": "Harri Oderwald",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399075
+        },
+        {
+          "person_id": 7703,
+          "name": "Kick van Geffen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399075
+        },
+        {
+          "person_id": 7704,
+          "name": "Roy Dominguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399075
+        }
       ]
     },
     {
       "id": "song:7748",
-      "song_id": 7748,
+      "work_type": "Song",
+      "work_id": 7748,
       "title": "Baroque Whispers of the Sacred",
       "genre": "Synthwave",
       "notable": true,
@@ -235,11 +743,177 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 863,
+          "name": "Jie Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4255862
+        },
+        {
+          "person_id": 7750,
+          "name": "Jennifer Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400035
+        },
+        {
+          "person_id": 7749,
+          "name": "Joseph Roman",
+          "stage_name": "Orpheon's Dream",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3998652
+        },
+        {
+          "person_id": 7751,
+          "name": "Erik Huang Jr.",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998652
+        }
+      ]
+    },
+    {
+      "id": "album:8168",
+      "work_type": "Album",
+      "work_id": 8168,
+      "title": "Heinäsirkat Soittaa (The Grasshoppers Play)",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 8169,
+      "artist_name": "Jacob Arnold",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8171,
+          "name": "Christine Brown",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977242
+        },
+        {
+          "person_id": 8172,
+          "name": "Jimmy Arnold",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977242
+        },
+        {
+          "person_id": 8169,
+          "name": "Jacob Arnold",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977034
+        },
+        {
+          "person_id": 8170,
+          "name": "Latasha Watts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977034
+        }
+      ]
+    },
+    {
+      "id": "album:8599",
+      "work_type": "Album",
+      "work_id": 8599,
+      "title": "Cold Echoes",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 592,
+      "artist_name": "Xiulan Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 2275,
+          "name": "Jing Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0459795
+        },
+        {
+          "person_id": 8600,
+          "name": "Na Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39898
+        },
+        {
+          "person_id": 8601,
+          "name": "Jie Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39898
+        }
       ]
     },
     {
       "id": "song:9081",
-      "song_id": 9081,
+      "work_type": "Song",
+      "work_id": 9081,
       "title": "The Language of Silence",
       "genre": "Doom Metal",
       "notable": true,
@@ -257,11 +931,41 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2872,
+          "name": "Jadwiga Gertz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2628565
+        },
+        {
+          "person_id": 9082,
+          "name": "Lidia Dörschner-Käster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960652
+        },
+        {
+          "person_id": 9083,
+          "name": "Melanie Heß",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960652
+        }
       ]
     },
     {
       "id": "song:10138",
-      "song_id": 10138,
+      "work_type": "Song",
+      "work_id": 10138,
       "title": "Wishes in the Moment",
       "genre": "Doom Metal",
       "notable": true,
@@ -279,11 +983,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5890,
+          "name": "Allison Patterson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7244172
+        },
+        {
+          "person_id": 10139,
+          "name": "Melissa Warren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.031106
+        }
       ]
     },
     {
       "id": "song:10337",
-      "song_id": 10337,
+      "work_type": "Song",
+      "work_id": 10337,
       "title": "Tinsel Harmonies",
       "genre": "Doom Metal",
       "notable": false,
@@ -301,11 +1026,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 5890,
+          "name": "Allison Patterson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7244172
+        },
+        {
+          "person_id": 2016,
+          "name": "Juan Lai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4579709
+        }
       ]
     },
     {
       "id": "song:11161",
-      "song_id": 11161,
+      "work_type": "Song",
+      "work_id": 11161,
       "title": "Silent Bridges",
       "genre": "Indie Folk",
       "notable": true,
@@ -323,11 +1079,69 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6939,
+          "name": "Jie Jiang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.112975
+        },
+        {
+          "person_id": 2613,
+          "name": "Yong Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.673987
+        },
+        {
+          "person_id": 11162,
+          "name": "Ping Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959625
+        },
+        {
+          "person_id": 11163,
+          "name": "Chao Guo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3959625
+        },
+        {
+          "person_id": 11164,
+          "name": "Qiang Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959625
+        },
+        {
+          "person_id": 11165,
+          "name": "Xia Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959625
+        }
       ]
     },
     {
       "id": "song:11997",
-      "song_id": 11997,
+      "work_type": "Song",
+      "work_id": 11997,
       "title": "The Man Who Died Twice",
       "genre": "Doom Metal",
       "notable": true,
@@ -345,11 +1159,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5890,
+          "name": "Allison Patterson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7244172
+        },
+        {
+          "person_id": 10139,
+          "name": "Melissa Warren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.031106
+        }
       ]
     },
     {
       "id": "song:12833",
-      "song_id": 12833,
+      "work_type": "Song",
+      "work_id": 12833,
       "title": "When Skies Wept",
       "genre": "Doom Metal",
       "notable": true,
@@ -367,11 +1203,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 5465,
+          "name": "Ippazio Barcella",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3583689
+        },
+        {
+          "person_id": 12835,
+          "name": "Lauretta Pasolini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0585005
+        },
+        {
+          "person_id": 12834,
+          "name": "Mitchell Larson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956218
+        },
+        {
+          "person_id": 12836,
+          "name": "Maurice Nguyen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395452
+        }
       ]
     },
     {
       "id": "song:12914",
-      "song_id": 12914,
+      "work_type": "Song",
+      "work_id": 12914,
       "title": "Whispers of What Could Be",
       "genre": "Doom Metal",
       "notable": true,
@@ -389,11 +1274,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5515,
+          "name": "Herr Folkert Vogt",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0421576
+        },
+        {
+          "person_id": 12915,
+          "name": "Francisco Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398384
+        }
       ]
     },
     {
       "id": "song:13713",
-      "song_id": 13713,
+      "work_type": "Song",
+      "work_id": 13713,
       "title": "Umbrella Shuffle",
       "genre": "Darkwave",
       "notable": true,
@@ -411,11 +1318,177 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1774,
+          "name": "Paula Wilson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 1775,
+          "name": "Steven Branch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 1777,
+          "name": "Judith Hunter",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 1778,
+          "name": "Rachel Wilson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 11399,
+          "name": "Jennifer Mccoy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.053342
+        },
+        {
+          "person_id": 13714,
+          "name": "Christopher Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992062
+        },
+        {
+          "person_id": 13715,
+          "name": "Nicholas Lawrence",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992062
+        },
+        {
+          "person_id": 13716,
+          "name": "Courtney Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3992062
+        }
+      ]
+    },
+    {
+      "id": "album:13824",
+      "work_type": "Album",
+      "work_id": 13824,
+      "title": "Whispers Between Stanzas",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 13825,
+      "artist_name": "James Cooper",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13830,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996909
+        },
+        {
+          "person_id": 13825,
+          "name": "James Cooper",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399521
+        },
+        {
+          "person_id": 13826,
+          "name": "Xiuying He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399521
+        },
+        {
+          "person_id": 13827,
+          "name": "Ming Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399521
+        },
+        {
+          "person_id": 13828,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399521
+        },
+        {
+          "person_id": 13829,
+          "name": "Guiying Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399521
+        },
+        {
+          "person_id": 13831,
+          "name": "Michelle Blair",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399521
+        }
       ]
     },
     {
       "id": "song:14125",
-      "song_id": 14125,
+      "work_type": "Song",
+      "work_id": 14125,
       "title": "Precision and Chrome",
       "genre": "Indie Folk",
       "notable": true,
@@ -433,11 +1506,52 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 7702,
+          "name": "Cynthia Monroe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0035431
+        },
+        {
+          "person_id": 14126,
+          "name": "Cheryl Walker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399203
+        },
+        {
+          "person_id": 14127,
+          "name": "Kelly Gilbert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399203
+        }
       ]
     },
     {
       "id": "song:14987",
-      "song_id": 14987,
+      "work_type": "Song",
+      "work_id": 14987,
       "title": "The Idiot's Lament",
       "genre": "Doom Metal",
       "notable": true,
@@ -455,11 +1569,24 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14988,
+          "name": "Ming Duan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3920386
+        }
       ]
     },
     {
       "id": "song:15489",
-      "song_id": 15489,
+      "work_type": "Song",
+      "work_id": 15489,
       "title": "Lactose-Free Love Ballad",
       "genre": "Dream Pop",
       "notable": true,
@@ -477,24 +1604,94 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15490,
+          "name": "Robert Stephens",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398199
+        },
+        {
+          "person_id": 15491,
+          "name": "Elizabeth Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398199
+        },
+        {
+          "person_id": 15492,
+          "name": "Angela Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398199
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11997",
+      "source": "album:8599",
       "target": "song:5887",
       "type": "InStyleOf"
     },
     {
-      "source": "song:3186",
-      "target": "song:5887",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:11161",
+      "source": "song:2212",
       "target": "song:5887",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:3633",
+      "target": "song:5887",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13824",
+      "target": "song:5887",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:8168",
+      "target": "song:5887",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:7700",
+      "target": "song:5887",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7748",
+      "target": "song:5887",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4228",
+      "target": "song:5887",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9081",
+      "target": "song:5887",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:1156",
+      "target": "song:5887",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10337",
+      "target": "song:5887",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:12833",
@@ -507,44 +1704,24 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6474",
-      "target": "song:5887",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:7748",
-      "target": "song:5887",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:14987",
-      "target": "song:5887",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:1156",
-      "target": "song:5887",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:10138",
       "target": "song:5887",
       "type": "InStyleOf"
     },
     {
-      "source": "song:4228",
+      "source": "song:3186",
       "target": "song:5887",
-      "type": "CoverOf"
+      "type": "DirectlySamples"
     },
     {
-      "source": "song:2212",
+      "source": "song:2013",
+      "target": "song:5887",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11997",
       "target": "song:5887",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:9081",
-      "target": "song:5887",
-      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:15489",
@@ -552,9 +1729,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:2013",
+      "source": "song:11161",
       "target": "song:5887",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     },
     {
       "source": "song:13713",
@@ -567,9 +1744,14 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:10337",
+      "source": "song:14987",
       "target": "song:5887",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6474",
+      "target": "song:5887",
+      "type": "InStyleOf"
     }
   ]
 }

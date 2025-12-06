@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5840",
-      "song_id": 5840,
+      "work_type": "Song",
+      "work_id": 5840,
       "title": "Beyond Farewell's Shadow",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,26 +15,83 @@
       "own": true,
       "artist_id": 5841,
       "artist_name": "Matthew Garcia",
-      "influence": 3,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
+        "sample": 1,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5842,
+          "name": "Khushi Upadhyay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002378
+        }
+      ]
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
     },
     {
       "id": "song:17339",
-      "song_id": 17339,
+      "work_type": "Song",
+      "work_id": 17339,
       "title": "The Sompass Spins",
       "genre": "Oceanus Folk",
       "notable": false,
       "release_year": 2013,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17327,
+      "artist_name": "Drowned Harbor（成员：Orin Caldwell｜预测 3.71、Selena Marrow｜预测 3.71…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -43,10 +101,16 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
+    {
+      "source": "album:4167",
+      "target": "song:5840",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:17339",
       "target": "song:5840",

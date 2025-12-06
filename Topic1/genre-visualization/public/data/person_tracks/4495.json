@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8018",
-      "song_id": 8018,
-      "title": "Hammer's Lullaby",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 4495,
-      "artist_name": "Michelle Davis",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:4492",
-      "song_id": 4492,
+      "work_type": "Song",
+      "work_id": 4492,
       "title": "Suspended Between Worlds",
       "genre": "Space Rock",
       "notable": true,
@@ -34,18 +15,40 @@
       "own": true,
       "artist_id": 4495,
       "artist_name": "Michelle Davis",
-      "influence": 5,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
-        "style": 1
+        "reference": 2,
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4494,
+          "name": "Thomas Harrison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.440943
+        },
+        {
+          "person_id": 4493,
+          "name": "Thomas Mcconnell",
+          "stage_name": "Wraith Masquerade",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.372258
+        }
+      ]
     },
     {
       "id": "song:5685",
-      "song_id": 5685,
+      "work_type": "Song",
+      "work_id": 5685,
       "title": "Liquid Legions",
       "genre": "Space Rock",
       "notable": true,
@@ -54,40 +57,71 @@
       "own": true,
       "artist_id": 4495,
       "artist_name": "Michelle Davis",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4494,
+          "name": "Thomas Harrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.440943
+        },
+        {
+          "person_id": 5686,
+          "name": "Matthew Brown",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 1.9034599
+        }
+      ]
     },
     {
-      "id": "song:10628",
-      "song_id": 10628,
-      "title": "Rapid Transit",
-      "genre": "Synthpop",
+      "id": "song:8018",
+      "work_type": "Song",
+      "work_id": 8018,
+      "title": "Hammer's Lullaby",
+      "genre": "Synthwave",
       "notable": true,
-      "release_year": 2020,
+      "release_year": 2010,
       "single": true,
-      "own": false,
-      "artist_id": 10629,
-      "artist_name": "Debra Jones",
-      "influence": 0,
+      "own": true,
+      "artist_id": 4495,
+      "artist_name": "Michelle Davis",
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": [
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4494,
+          "name": "Thomas Harrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.440943
+        }
       ]
     },
     {
       "id": "song:5818",
-      "song_id": 5818,
+      "work_type": "Song",
+      "work_id": 5818,
       "title": "Two Souls, One Rhythm",
       "genre": "Synthwave",
       "notable": true,
@@ -106,11 +140,232 @@
       "relation_types": [
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1649,
+          "name": "Lei He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938424
+        },
+        {
+          "person_id": 5822,
+          "name": "Wei Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0590332
+        },
+        {
+          "person_id": 5819,
+          "name": "Sara Ramirez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5820,
+          "name": "Ping Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5821,
+          "name": "Xia Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5823,
+          "name": "Lei Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979313
+        }
+      ]
+    },
+    {
+      "id": "album:6435",
+      "work_type": "Album",
+      "work_id": 6435,
+      "title": "Triumph's Embrace",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 6437,
+      "artist_name": "Na Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2603,
+          "name": "Gang Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4197462
+        },
+        {
+          "person_id": 6436,
+          "name": "Xiuying Ma",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6437,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6440,
+          "name": "Chao Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6441,
+          "name": "Li Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6442,
+          "name": "Lei Du",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6438,
+          "name": "Jun Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933666
+        },
+        {
+          "person_id": 6439,
+          "name": "Christine Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933666
+        }
+      ]
+    },
+    {
+      "id": "album:7736",
+      "work_type": "Album",
+      "work_id": 7736,
+      "title": "Immolation of the Heart",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 6905,
+      "artist_name": "Ping Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 6905,
+          "name": "Ping Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0527425
+        },
+        {
+          "person_id": 7738,
+          "name": "Joshua Chase",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.038557
+        },
+        {
+          "person_id": 7737,
+          "name": "Yan Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3774397
+        }
       ]
     },
     {
       "id": "song:14469",
-      "song_id": 14469,
+      "work_type": "Song",
+      "work_id": 14469,
       "title": "Take It All",
       "genre": "Space Rock",
       "notable": true,
@@ -128,6 +383,140 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14470,
+          "name": "Min Qin",
+          "stage_name": " Crystal Dove",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398108
+        },
+        {
+          "person_id": 14471,
+          "name": "Gang Fan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398108
+        },
+        {
+          "person_id": 14472,
+          "name": "Ming Qiu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398108
+        },
+        {
+          "person_id": 14473,
+          "name": "Ping Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398108
+        }
+      ]
+    },
+    {
+      "id": "song:10628",
+      "work_type": "Song",
+      "work_id": 10628,
+      "title": "Rapid Transit",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 10629,
+      "artist_name": "Debra Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10629,
+          "name": "Debra Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979142
+        },
+        {
+          "person_id": 10630,
+          "name": "Thomas Brown",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976543
+        }
+      ]
+    },
+    {
+      "id": "album:14112",
+      "work_type": "Album",
+      "work_id": 14112,
+      "title": "Streetlights in Snow",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 14113,
+      "artist_name": "Cheryl Delgado",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14113,
+          "name": "Cheryl Delgado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0503
+        },
+        {
+          "person_id": 14115,
+          "name": "Barbara Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046977
+        },
+        {
+          "person_id": 14114,
+          "name": "Vittoria Mazzanti",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.046757
+        }
       ]
     }
   ],
@@ -138,9 +527,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:10628",
-      "target": "song:8018",
-      "type": "LyricalReferenceTo"
+      "source": "album:6435",
+      "target": "song:5685",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:7736",
+      "target": "song:4492",
+      "type": "InStyleOf"
     },
     {
       "source": "song:14469",
@@ -151,6 +545,21 @@
       "source": "song:5818",
       "target": "song:4492",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14112",
+      "target": "song:8018",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:6435",
+      "target": "song:4492",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10628",
+      "target": "song:8018",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

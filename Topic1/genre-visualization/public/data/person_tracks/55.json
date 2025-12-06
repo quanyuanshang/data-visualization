@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:54",
-      "song_id": 54,
+      "work_type": "Song",
+      "work_id": 54,
       "title": "Starlight's Sorcerer",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 56,
+          "name": "Asuka Takahashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4360168
+        },
+        {
+          "person_id": 57,
+          "name": "Miki Miura",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0410497
+        }
+      ]
     },
     {
       "id": "song:7713",
-      "song_id": 7713,
+      "work_type": "Song",
+      "work_id": 7713,
       "title": "Whiskey's Silent Witness",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +64,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 56,
+          "name": "Asuka Takahashi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4360168
+        },
+        {
+          "person_id": 57,
+          "name": "Miki Miura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0410497
+        }
+      ]
     },
     {
       "id": "song:14344",
-      "song_id": 14344,
+      "work_type": "Song",
+      "work_id": 14344,
       "title": "Captured Silence",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,19 +108,40 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 56,
+          "name": "Asuka Takahashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4360168
+        },
+        {
+          "person_id": 14345,
+          "name": "Yasuhiro Nakamura",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3991263
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14344",
-      "target": "song:7713",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:54",
       "target": "song:7713",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:14344",
+      "target": "song:7713",
+      "type": "InStyleOf"
     }
   ]
 }

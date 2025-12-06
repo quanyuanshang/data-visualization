@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6454",
-      "song_id": 6454,
+      "work_type": "Song",
+      "work_id": 6454,
       "title": "Memories on Repeat",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 6455,
       "artist_name": "Rebecca Chapman",
-      "influence": 23,
+      "influence": 30,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
         "reference": 2,
-        "style": 6
+        "style": 7
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1250,
+          "name": "Robin Webster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6556983
+        }
+      ]
     },
     {
       "id": "song:11115",
-      "song_id": 11115,
+      "work_type": "Song",
+      "work_id": 11115,
       "title": "Nattens Tysta Röst (The Night's Silent Voice)",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -34,18 +47,31 @@
       "own": true,
       "artist_id": 6455,
       "artist_name": "Rebecca Chapman",
-      "influence": 17,
+      "influence": 20,
       "influence_breakdown": {
         "cover": 1,
         "sample": 1,
-        "reference": 2,
+        "reference": 3,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1250,
+          "name": "Robin Webster",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6556983
+        }
+      ]
     },
     {
       "id": "song:1539",
-      "song_id": 1539,
+      "work_type": "Song",
+      "work_id": 1539,
       "title": "Şans Eseri (By Chance)",
       "genre": "Indie Pop",
       "notable": true,
@@ -63,11 +89,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 1541,
+          "name": "Harro Trapp-Caspar",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9298913
+        },
+        {
+          "person_id": 1540,
+          "name": "Greca Matteotti-Jovinelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984993
+        }
       ]
     },
     {
       "id": "song:7249",
-      "song_id": 7249,
+      "work_type": "Song",
+      "work_id": 7249,
       "title": "Vailla Toista (Without Another)",
       "genre": "Indie Pop",
       "notable": true,
@@ -85,11 +142,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
       ]
     },
     {
       "id": "song:9371",
-      "song_id": 9371,
+      "work_type": "Song",
+      "work_id": 9371,
       "title": "Vanishing Point",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -107,11 +186,139 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 1250,
+          "name": "Robin Webster",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.6556983
+        },
+        {
+          "person_id": 1252,
+          "name": "Clayton Reed",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.113808
+        }
+      ]
+    },
+    {
+      "id": "album:10431",
+      "work_type": "Album",
+      "work_id": 10431,
+      "title": "Vague Silhouette",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2535,
+      "artist_name": "John Wilkinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
+      ]
+    },
+    {
+      "id": "album:10740",
+      "work_type": "Album",
+      "work_id": 10740,
+      "title": "Marching with Jubilant Hearts",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        }
       ]
     },
     {
       "id": "song:12161",
-      "song_id": 12161,
+      "work_type": "Song",
+      "work_id": 12161,
       "title": "Vocal Vibe",
       "genre": "Indie Pop",
       "notable": true,
@@ -129,11 +336,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3218,
+          "name": "Logan Rogers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3628404
+        },
+        {
+          "person_id": 7483,
+          "name": "Renee Lynch",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.034968
+        }
       ]
     },
     {
       "id": "song:13361",
-      "song_id": 13361,
+      "work_type": "Song",
+      "work_id": 13361,
       "title": "Soil, Sweat, and Solitude",
       "genre": "Blues Rock",
       "notable": true,
@@ -151,11 +380,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1021,
+          "name": "Przemysław Grupa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.726551
+        },
+        {
+          "person_id": 13362,
+          "name": "Crystal Morse",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3912985
+        },
+        {
+          "person_id": 13363,
+          "name": "Erik Tucker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3912985
+        }
       ]
     },
     {
       "id": "song:13680",
-      "song_id": 13680,
+      "work_type": "Song",
+      "work_id": 13680,
       "title": "Homefront Harmony",
       "genre": "Indie Pop",
       "notable": true,
@@ -174,11 +434,51 @@
       "relation_types": [
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3600,
+          "name": "Lisa Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4226377
+        },
+        {
+          "person_id": 3184,
+          "name": "Dana Henk-Bachmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0476077
+        }
       ]
     },
     {
       "id": "song:14644",
-      "song_id": 14644,
+      "work_type": "Song",
+      "work_id": 14644,
       "title": "Drop the Letter",
       "genre": "Avant-Garde Folk",
       "notable": false,
@@ -197,11 +497,23 @@
       "relation_types": [
         "DirectlySamples",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3598,
+          "name": "Danielle Luna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4468052
+        }
       ]
     },
     {
       "id": "song:15388",
-      "song_id": 15388,
+      "work_type": "Song",
+      "work_id": 15388,
       "title": "Echoes of the Koto",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -220,11 +532,42 @@
       "relation_types": [
         "CoverOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6836832
+        }
       ]
     },
     {
       "id": "song:15838",
-      "song_id": 15838,
+      "work_type": "Song",
+      "work_id": 15838,
       "title": "Groove Global",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -242,11 +585,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 1250,
+          "name": "Robin Webster",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.6556983
+        },
+        {
+          "person_id": 1252,
+          "name": "Clayton Reed",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.113808
+        }
       ]
     },
     {
       "id": "song:7099",
-      "song_id": 7099,
+      "work_type": "Song",
+      "work_id": 7099,
       "title": "Shepherd's Lullaby",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -264,11 +638,25 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1252,
+          "name": "Clayton Reed",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.113808
+        }
       ]
     },
     {
       "id": "song:12534",
-      "song_id": 12534,
+      "work_type": "Song",
+      "work_id": 12534,
       "title": "Cradle of Echoes",
       "genre": "Alternative Rock",
       "notable": true,
@@ -286,12 +674,120 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 972,
+          "name": "Robin Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7224228
+        }
+      ]
+    },
+    {
+      "id": "album:13707",
+      "work_type": "Album",
+      "work_id": 13707,
+      "title": "Delightful",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 972,
+      "artist_name": "Robin Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 972,
+          "name": "Robin Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7224228
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:15388",
+      "target": "song:6454",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13680",
+      "target": "song:11115",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:9371",
+      "target": "song:6454",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14644",
+      "target": "song:11115",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:15838",
+      "target": "song:6454",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10431",
+      "target": "song:6454",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10740",
+      "target": "song:6454",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:1539",
+      "target": "song:6454",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12161",
+      "target": "song:6454",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13707",
+      "target": "song:11115",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:13361",
+      "target": "song:6454",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14644",
+      "target": "song:6454",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13680",
       "target": "song:6454",
       "type": "InStyleOf"
     },
@@ -301,64 +797,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:15388",
-      "target": "song:11115",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:14644",
-      "target": "song:11115",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:7099",
-      "target": "song:11115",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:9371",
-      "target": "song:6454",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:15838",
-      "target": "song:6454",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:12161",
-      "target": "song:6454",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:1539",
-      "target": "song:6454",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:7249",
       "target": "song:6454",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:13680",
-      "target": "song:11115",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:14644",
-      "target": "song:6454",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13680",
-      "target": "song:6454",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:15388",
-      "target": "song:6454",
-      "type": "InterpolatesFrom"
+      "target": "song:11115",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7099",
+      "target": "song:11115",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

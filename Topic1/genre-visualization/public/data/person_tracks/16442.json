@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16441",
-      "song_id": 16441,
+      "work_type": "Song",
+      "work_id": 16441,
       "title": "Weekend Wanderings",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,101 @@
       "own": true,
       "artist_id": 16442,
       "artist_name": "Jonathan Hayes ( K!NG)",
-      "influence": 16,
+      "influence": 23,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 4,
+        "style": 3
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1526,
+          "name": "Christina Bowers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0299146
+        },
+        {
+          "person_id": 1527,
+          "name": "Carl Jones",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0299146
+        },
+        {
+          "person_id": 16443,
+          "name": "Terri Cortez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100666
+        },
+        {
+          "person_id": 16444,
+          "name": "Amanda Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100666
+        }
+      ]
+    },
+    {
+      "id": "album:830",
+      "work_type": "Album",
+      "work_id": 830,
+      "title": "Just You Wait and See",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 831,
+      "artist_name": "Kyle Cook",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 4,
-        "style": 2
+        "reference": 0,
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 831,
+          "name": "Kyle Cook",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398055
+        },
+        {
+          "person_id": 832,
+          "name": "Albert White",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978477
+        }
+      ]
     },
     {
       "id": "song:1524",
-      "song_id": 1524,
+      "work_type": "Song",
+      "work_id": 1524,
       "title": "Baroque Whispers of the Throne",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,11 +127,41 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1526,
+          "name": "Christina Bowers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0299146
+        },
+        {
+          "person_id": 1527,
+          "name": "Carl Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299146
+        },
+        {
+          "person_id": 1525,
+          "name": "Brian Mclaughlin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3907645
+        }
       ]
     },
     {
       "id": "song:3100",
-      "song_id": 3100,
+      "work_type": "Song",
+      "work_id": 3100,
       "title": "Phantom Ring Tone",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -65,11 +179,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3102,
+          "name": "Jessica Wright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397599
+        },
+        {
+          "person_id": 3101,
+          "name": "Cassandra Washington",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975537
+        },
+        {
+          "person_id": 3103,
+          "name": "Nicole Yoder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975537
+        },
+        {
+          "person_id": 3104,
+          "name": "Michael Dickerson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975537
+        }
       ]
     },
     {
       "id": "song:14580",
-      "song_id": 14580,
+      "work_type": "Song",
+      "work_id": 14580,
       "title": "Matchstick Memories",
       "genre": "Alternative Rock",
       "notable": true,
@@ -87,11 +242,104 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9242,
+          "name": "Reyansh Bir",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0433705
+        },
+        {
+          "person_id": 14581,
+          "name": "Indrajit Borra",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987837
+        },
+        {
+          "person_id": 14582,
+          "name": "Sharon Bray",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987837
+        },
+        {
+          "person_id": 14583,
+          "name": "James Bauer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987837
+        }
+      ]
+    },
+    {
+      "id": "album:14795",
+      "work_type": "Album",
+      "work_id": 14795,
+      "title": "Tender Fragments and Musical Pauses",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2740,
+      "artist_name": "Carolyn Salas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2740,
+          "name": "Carolyn Salas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0349295
+        },
+        {
+          "person_id": 14796,
+          "name": "Bobby Guzman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978767
+        },
+        {
+          "person_id": 14797,
+          "name": "Rachel Curry",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978767
+        }
       ]
     },
     {
       "id": "song:14897",
-      "song_id": 14897,
+      "work_type": "Song",
+      "work_id": 14897,
       "title": "Half-Light Harmony",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -109,11 +357,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14898,
+          "name": "Darshit Mannan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 14899,
+          "name": "Nirvaan Thaker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 14900,
+          "name": "Tammy Campos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 14901,
+          "name": "Parinaaz Deshmukh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        }
       ]
     },
     {
       "id": "song:15555",
-      "song_id": 15555,
+      "work_type": "Song",
+      "work_id": 15555,
       "title": "Transmutation's Whisper",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -131,11 +419,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 647,
+          "name": "Jie Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.433982
+        },
+        {
+          "person_id": 15557,
+          "name": "Laura Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0392926
+        },
+        {
+          "person_id": 15556,
+          "name": "Yong Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.034817
+        },
+        {
+          "person_id": 15558,
+          "name": "Min Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985438
+        }
       ]
     },
     {
       "id": "song:15728",
-      "song_id": 15728,
+      "work_type": "Song",
+      "work_id": 15728,
       "title": "Unintended Surrender",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -153,22 +481,61 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10482,
+          "name": "Antonio Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.063848
+        },
+        {
+          "person_id": 15729,
+          "name": "Joseph Villa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986764
+        },
+        {
+          "person_id": 15731,
+          "name": "Diane Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986764
+        },
+        {
+          "person_id": 15730,
+          "name": "Leah Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986557
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:15555",
-      "target": "song:16441",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:1524",
       "target": "song:16441",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:14580",
+      "source": "song:14897",
+      "target": "song:16441",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15728",
       "target": "song:16441",
       "type": "LyricalReferenceTo"
     },
@@ -178,14 +545,24 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:15728",
+      "source": "song:14580",
       "target": "song:16441",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:14897",
+      "source": "song:15555",
       "target": "song:16441",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:14795",
+      "target": "song:16441",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:830",
+      "target": "song:16441",
+      "type": "CoverOf"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7077",
-      "song_id": 7077,
+      "work_type": "Song",
+      "work_id": 7077,
       "title": "Mercy Beyond Blades",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7078,
+          "name": "Ping Xu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3843877
+        }
+      ]
     },
     {
       "id": "song:11526",
-      "song_id": 11526,
+      "work_type": "Song",
+      "work_id": 11526,
       "title": "Ballad of the Lone Shepherd",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,6 +57,54 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2566,
+          "name": "Xiuying Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6145616
+        },
+        {
+          "person_id": 6568,
+          "name": "Qiang Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.5620239
+        },
+        {
+          "person_id": 6565,
+          "name": "Yong Liao",
+          "stage_name": "Mason King",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4359882
+        },
+        {
+          "person_id": 6566,
+          "name": "Lei Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4359882
+        },
+        {
+          "person_id": 6567,
+          "name": "Jing Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4359882
+        }
       ]
     }
   ],

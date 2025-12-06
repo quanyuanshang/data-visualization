@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1520",
-      "song_id": 1520,
+      "work_type": "Song",
+      "work_id": 1520,
       "title": "Courtly Melodies at Versailles",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 1522,
+          "name": "Xiulan Chang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959005
+        },
+        {
+          "person_id": 1523,
+          "name": "Chao Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959005
+        }
+      ]
     },
     {
       "id": "song:9916",
-      "song_id": 9916,
+      "work_type": "Song",
+      "work_id": 9916,
       "title": "Echoes of a Final Embrace",
       "genre": "Indie Rock",
       "notable": true,
@@ -34,18 +66,31 @@
       "own": true,
       "artist_id": 1521,
       "artist_name": "Yang Deng",
-      "influence": 10,
+      "influence": 15,
       "influence_breakdown": {
-        "cover": 2,
+        "cover": 3,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9917,
+          "name": "Kimberly Keller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398315
+        }
+      ]
     },
     {
       "id": "song:4959",
-      "song_id": 4959,
+      "work_type": "Song",
+      "work_id": 4959,
       "title": "Whispers of Minor Keys",
       "genre": "Indie Rock",
       "notable": true,
@@ -63,11 +108,67 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4960,
+          "name": "Michael Perkins",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007626
+        }
+      ]
+    },
+    {
+      "id": "album:14828",
+      "work_type": "Album",
+      "work_id": 14828,
+      "title": "Barn Door Dialogues",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 8913,
+      "artist_name": "Richard Goodman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8913,
+          "name": "Richard Goodman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0329998
+        },
+        {
+          "person_id": 14829,
+          "name": "Cynthia Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968341
+        }
       ]
     },
     {
       "id": "song:16494",
-      "song_id": 16494,
+      "work_type": "Song",
+      "work_id": 16494,
       "title": "Whispers from the Northern Town",
       "genre": "Indie Rock",
       "notable": false,
@@ -85,17 +186,43 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4959",
+      "source": "song:16494",
       "target": "song:9916",
       "type": "CoverOf"
     },
     {
-      "source": "song:16494",
+      "source": "album:14828",
+      "target": "song:9916",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:4959",
       "target": "song:9916",
       "type": "CoverOf"
     }

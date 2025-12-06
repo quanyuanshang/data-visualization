@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9651",
-      "song_id": 9651,
+      "work_type": "Song",
+      "work_id": 9651,
       "title": "In The Chamber of My Heart",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9653,
+          "name": "Nancy Dunlap",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397667
+        },
+        {
+          "person_id": 9652,
+          "name": "Michael Jacobson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975914
+        }
+      ]
     },
     {
       "id": "song:12067",
-      "song_id": 12067,
+      "work_type": "Song",
+      "work_id": 12067,
       "title": "Fragments of Friendship",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,19 +65,59 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12068,
+          "name": "Xia Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3992066
+        },
+        {
+          "person_id": 12071,
+          "name": "David Nash",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992066
+        },
+        {
+          "person_id": 12069,
+          "name": "Jessica Beck",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991785
+        },
+        {
+          "person_id": 12070,
+          "name": "Gang Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991785
+        }
       ]
     },
     {
       "id": "song:17002",
-      "song_id": 17002,
+      "work_type": "Song",
+      "work_id": 17002,
       "title": "Under a Dying Sun",
       "genre": "Americana",
       "notable": true,
       "release_year": 2035,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 16996,
+      "artist_name": "Crimson Carriage（成员：Olivia Carter (Echo Wilde)｜预测 2.40、Lucas Bennett｜预测 2.41…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -65,17 +127,18 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
     {
-      "source": "song:12067",
+      "source": "song:17002",
       "target": "song:9651",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:17002",
+      "source": "song:12067",
       "target": "song:9651",
       "type": "LyricalReferenceTo"
     }

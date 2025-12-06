@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6658",
-      "song_id": 6658,
+      "work_type": "Song",
+      "work_id": 6658,
       "title": "Sweet Tea and Porch Swing Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.937547
+        }
+      ]
     },
     {
       "id": "song:7999",
-      "song_id": 7999,
+      "work_type": "Song",
+      "work_id": 7999,
       "title": "Unheard Frequencies",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +66,45 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8000,
+          "name": "Rania Chadha",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397991
+        },
+        {
+          "person_id": 8001,
+          "name": "Saksham Borra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979566
+        },
+        {
+          "person_id": 8003,
+          "name": "Chelsea Blake",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979566
+        },
+        {
+          "person_id": 8002,
+          "name": "Amy Bright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979359
+        }
       ]
     }
   ],

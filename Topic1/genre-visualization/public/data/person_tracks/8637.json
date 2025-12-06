@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8636",
-      "song_id": 8636,
+      "work_type": "Song",
+      "work_id": 8636,
       "title": "Roots of Rhythm",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 8637,
       "artist_name": "Debbie Fuller",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8638,
+          "name": "Shelby Grimes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995945
+        }
+      ]
+    },
+    {
+      "id": "album:12578",
+      "work_type": "Album",
+      "work_id": 12578,
+      "title": "Timeless Heart's Serenade",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 594,
+      "artist_name": "Na Fan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,65 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 594,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.100683
+        },
+        {
+          "person_id": 12579,
+          "name": "Tao Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972607
+        },
+        {
+          "person_id": 12580,
+          "name": "Jing Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972607
+        },
+        {
+          "person_id": 12581,
+          "name": "Yong Dai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3972607
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:12578",
+      "target": "song:8636",
+      "type": "DirectlySamples"
+    }
+  ]
 }

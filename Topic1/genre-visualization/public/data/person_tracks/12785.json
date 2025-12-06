@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:12784",
-      "song_id": 12784,
-      "title": "Illuminated Heart",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 12785,
-      "artist_name": "Chao Wei",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15713",
-      "song_id": 15713,
+      "work_type": "Song",
+      "work_id": 15713,
       "title": "Whispers from the Hidden Spring",
       "genre": "Americana",
       "notable": true,
@@ -41,7 +22,87 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 15714,
+          "name": "Yan Mo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4003177
+        }
+      ]
+    },
+    {
+      "id": "song:12784",
+      "work_type": "Song",
+      "work_id": 12784,
+      "title": "Illuminated Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 12785,
+      "artist_name": "Chao Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 7738,
+          "name": "Joshua Chase",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.038557
+        },
+        {
+          "person_id": 12786,
+          "name": "Xiuying Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4002492
+        },
+        {
+          "person_id": 12787,
+          "name": "Jun Wei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002492
+        }
+      ]
     }
   ],
   "links": []

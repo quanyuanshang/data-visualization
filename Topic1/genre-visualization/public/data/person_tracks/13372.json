@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16707",
-      "song_id": 16707,
-      "title": "Tin Mining Blues",
-      "genre": "Space Rock",
-      "notable": true,
-      "release_year": 2021,
-      "single": true,
-      "own": true,
-      "artist_id": 13372,
-      "artist_name": "Yang Zeng",
-      "influence": 6,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 2,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13369",
-      "song_id": 13369,
+      "work_type": "Song",
+      "work_id": 13369,
       "title": "Sovereign of Endless Realms",
       "genre": "Space Rock",
       "notable": true,
@@ -41,11 +22,92 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2566,
+          "name": "Xiuying Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6145616
+        },
+        {
+          "person_id": 13370,
+          "name": "Li Yuan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398643
+        },
+        {
+          "person_id": 13371,
+          "name": "Tao Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398643
+        }
+      ]
+    },
+    {
+      "id": "song:16707",
+      "work_type": "Song",
+      "work_id": 16707,
+      "title": "Tin Mining Blues",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 13372,
+      "artist_name": "Yang Zeng",
+      "influence": 14,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 3,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8934,
+          "name": "Guiying Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045077
+        },
+        {
+          "person_id": 16708,
+          "name": "Marcus Berry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396397
+        },
+        {
+          "person_id": 16709,
+          "name": "Li Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396397
+        }
+      ]
     },
     {
       "id": "song:5021",
-      "song_id": 5021,
+      "work_type": "Song",
+      "work_id": 5021,
       "title": "Patch Me Up, Henry",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -63,11 +125,78 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5026,
+          "name": "Cynthia Dixon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.338914
+        },
+        {
+          "person_id": 1912,
+          "name": "Yan Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7187116
+        },
+        {
+          "person_id": 5024,
+          "name": "Na Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4228733
+        },
+        {
+          "person_id": 5022,
+          "name": "Yong Zhu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5023,
+          "name": "Yan Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5025,
+          "name": "Yan Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5027,
+          "name": "Xiuying Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0429394
+        }
       ]
     },
     {
       "id": "song:7133",
-      "song_id": 7133,
+      "work_type": "Song",
+      "work_id": 7133,
       "title": "Flicker's Last Breath",
       "genre": "Space Rock",
       "notable": true,
@@ -85,10 +214,196 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 7134,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.040878
+        },
+        {
+          "person_id": 7136,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0408216
+        },
+        {
+          "person_id": 7135,
+          "name": "Wei Liang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3998458
+        }
+      ]
+    },
+    {
+      "id": "album:9300",
+      "work_type": "Album",
+      "work_id": 9300,
+      "title": "Whispers of the Savanna",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 1912,
+      "artist_name": "Yan Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5026,
+          "name": "Cynthia Dixon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.338914
+        },
+        {
+          "person_id": 1912,
+          "name": "Yan Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7187116
+        },
+        {
+          "person_id": 5024,
+          "name": "Na Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4228733
+        },
+        {
+          "person_id": 5022,
+          "name": "Yong Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5023,
+          "name": "Yan Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5025,
+          "name": "Yan Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5027,
+          "name": "Xiuying Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0429394
+        }
+      ]
+    },
+    {
+      "id": "album:9662",
+      "work_type": "Album",
+      "work_id": 9662,
+      "title": "Lessons from Her Hands",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 9663,
+      "artist_name": "Sara Roman (Zenara)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9663,
+          "name": "Sara Roman",
+          "stage_name": "Zenara",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969588
+        },
+        {
+          "person_id": 9664,
+          "name": "Zachary Rojas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969588
+        },
+        {
+          "person_id": 9665,
+          "name": "Jeremy Martinez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969588
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:9300",
+      "target": "song:16707",
+      "type": "CoverOf"
+    },
     {
       "source": "song:5021",
       "target": "song:16707",
@@ -96,6 +411,11 @@
     },
     {
       "source": "song:7133",
+      "target": "song:16707",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:9662",
       "target": "song:16707",
       "type": "InterpolatesFrom"
     }

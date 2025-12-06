@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3706",
-      "song_id": 3706,
+      "work_type": "Song",
+      "work_id": 3706,
       "title": "Fading Silhouette",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3707,
+          "name": "Stacy Henderson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.039746
+        }
+      ]
     },
     {
       "id": "song:5737",
-      "song_id": 5737,
+      "work_type": "Song",
+      "work_id": 5737,
       "title": "Navigating Horizons",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +57,53 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5739,
+          "name": "Sean Mendoza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989305
+        },
+        {
+          "person_id": 5741,
+          "name": "Anthony Hamilton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989305
+        },
+        {
+          "person_id": 5742,
+          "name": "Amy Johnston",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989305
+        },
+        {
+          "person_id": 5738,
+          "name": "Kenneth Banks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989098
+        },
+        {
+          "person_id": 5740,
+          "name": "Amber Sanders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985717
+        }
       ]
     }
   ],

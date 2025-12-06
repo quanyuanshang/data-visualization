@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:12162",
-      "song_id": 12162,
-      "title": "Whispers from the Highlands",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": true,
-      "artist_id": 708,
-      "artist_name": "Karin Dippel",
-      "influence": 8,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:705",
-      "song_id": 705,
+      "work_type": "Song",
+      "work_id": 705,
       "title": "Midnight Visions",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,43 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 707,
+          "name": "Kelsey Campbell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.107502
+        },
+        {
+          "person_id": 709,
+          "name": "Ida Lachmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.998355
+        },
+        {
+          "person_id": 706,
+          "name": "Karl-Josef Reinhardt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398378
+        }
+      ]
     },
     {
       "id": "song:3249",
-      "song_id": 3249,
+      "work_type": "Song",
+      "work_id": 3249,
       "title": "Broken Chains",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,11 +74,24 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3250,
+          "name": "Nicolas Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4030244
+        }
+      ]
     },
     {
       "id": "song:8509",
-      "song_id": 8509,
+      "work_type": "Song",
+      "work_id": 8509,
       "title": "Venom and Rhythm",
       "genre": "Dream Pop",
       "notable": true,
@@ -81,56 +107,66 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:705",
-      "song_id": 705,
-      "title": "Midnight Visions",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": false,
-      "artist_id": 706,
-      "artist_name": "Karl-Josef Reinhardt",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf",
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8510,
+          "name": "Cilly Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042839
+        },
+        {
+          "person_id": 709,
+          "name": "Ida Lachmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.998355
+        }
       ]
     },
     {
-      "id": "song:8509",
-      "song_id": 8509,
-      "title": "Venom and Rhythm",
-      "genre": "Dream Pop",
+      "id": "song:12162",
+      "work_type": "Song",
+      "work_id": 12162,
+      "title": "Whispers from the Highlands",
+      "genre": "Alternative Rock",
       "notable": true,
-      "release_year": 2019,
+      "release_year": 2018,
       "single": true,
       "own": true,
       "artist_id": 708,
       "artist_name": "Karin Dippel",
-      "influence": 0,
+      "influence": 11,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
-        "reference": 0,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8510,
+          "name": "Cilly Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.042839
+        }
       ]
     },
     {
       "id": "song:4085",
-      "song_id": 4085,
+      "work_type": "Song",
+      "work_id": 4085,
       "title": "Balcony Heartbreak",
       "genre": "Indie Folk",
       "notable": true,
@@ -148,11 +184,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4087,
+          "name": "Theresa Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984878
+        },
+        {
+          "person_id": 4086,
+          "name": "Brenda Boyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398318
+        },
+        {
+          "person_id": 4088,
+          "name": "Michael Johnson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398318
+        },
+        {
+          "person_id": 4089,
+          "name": "Colton Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982973
+        }
       ]
     },
     {
       "id": "song:14662",
-      "song_id": 14662,
+      "work_type": "Song",
+      "work_id": 14662,
       "title": "Loving You Hurts (But I Can't Stop)",
       "genre": "Alternative Rock",
       "notable": true,
@@ -170,10 +246,107 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4780,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4360526
+        },
+        {
+          "person_id": 14663,
+          "name": "Lisa Kirk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3984606
+        },
+        {
+          "person_id": 14664,
+          "name": "Yong Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984606
+        },
+        {
+          "person_id": 14665,
+          "name": "Debra Sims",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984606
+        }
+      ]
+    },
+    {
+      "id": "album:2738",
+      "work_type": "Album",
+      "work_id": 2738,
+      "title": "Ride Along",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2739,
+      "artist_name": "Abigail Scott",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2740,
+          "name": "Carolyn Salas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0349295
+        },
+        {
+          "person_id": 2739,
+          "name": "Abigail Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980377
+        },
+        {
+          "person_id": 2741,
+          "name": "Bhamini Luthra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980377
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:2738",
+      "target": "song:12162",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:705",
       "target": "song:12162",
@@ -185,6 +358,11 @@
       "type": "CoverOf"
     },
     {
+      "source": "song:14662",
+      "target": "song:3249",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:705",
       "target": "song:8509",
       "type": "CoverOf"
@@ -193,11 +371,6 @@
       "source": "song:4085",
       "target": "song:3249",
       "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:14662",
-      "target": "song:3249",
-      "type": "LyricalReferenceTo"
     }
   ]
 }

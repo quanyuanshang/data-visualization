@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13701",
-      "song_id": 13701,
+      "work_type": "Song",
+      "work_id": 13701,
       "title": "The Last Message",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,6 +15,38 @@
       "own": true,
       "artist_id": 13702,
       "artist_name": "Sheri Hernandez (Lyric)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.009274
+        }
+      ]
+    },
+    {
+      "id": "album:10848",
+      "work_type": "Album",
+      "work_id": 10848,
+      "title": "Vykort från en Sommarö (Postcard from a Summer Island)",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 3086,
+      "artist_name": "Sean Jones",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +54,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.4058466
+        },
+        {
+          "person_id": 10849,
+          "name": "Lisa Crawford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.5238342
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10848",
+      "target": "song:13701",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

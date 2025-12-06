@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12309",
-      "song_id": 12309,
+      "work_type": "Song",
+      "work_id": 12309,
       "title": "Whispers of Passion",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12312,
+          "name": "Wei Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.424569
+        },
+        {
+          "person_id": 12310,
+          "name": "Tao Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400683
+        }
+      ]
     },
     {
       "id": "song:210",
-      "song_id": 210,
+      "work_type": "Song",
+      "work_id": 210,
       "title": "Luminous Path",
       "genre": "Darkwave",
       "notable": true,
@@ -43,11 +65,60 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 212,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299516
+        },
+        {
+          "person_id": 211,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 213,
+          "name": "Lei Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 214,
+          "name": "Qiang Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 215,
+          "name": "Qiang Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        }
       ]
     },
     {
       "id": "song:4328",
-      "song_id": 4328,
+      "work_type": "Song",
+      "work_id": 4328,
       "title": "Oheň v žilách naší generace",
       "genre": "Americana",
       "notable": true,
@@ -65,19 +136,40 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4329,
+          "name": "Ming Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398161
+        },
+        {
+          "person_id": 4330,
+          "name": "Na Chen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979862
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4328",
-      "target": "song:12309",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:210",
       "target": "song:12309",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4328",
+      "target": "song:12309",
+      "type": "DirectlySamples"
     }
   ]
 }

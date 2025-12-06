@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14514",
-      "song_id": 14514,
+      "work_type": "Song",
+      "work_id": 14514,
       "title": "Orchestral Prelude",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 14515,
       "artist_name": "Nayantara Bhatti",
-      "influence": 8,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
         "reference": 1,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14516,
+          "name": "Shray Kala",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.404106
+        },
+        {
+          "person_id": 14517,
+          "name": "Kanav Sachar",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400456
+        }
+      ]
     },
     {
       "id": "song:5243",
-      "song_id": 5243,
+      "work_type": "Song",
+      "work_id": 5243,
       "title": "The Woodland's Silent Chronicle",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +66,96 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5244,
+          "name": "Ping Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985956
+        },
+        {
+          "person_id": 5245,
+          "name": "Guiying Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985956
+        },
+        {
+          "person_id": 5246,
+          "name": "Yong Cui",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985956
+        }
+      ]
+    },
+    {
+      "id": "album:10990",
+      "work_type": "Album",
+      "work_id": 10990,
+      "title": "Milagros, My Distant Heart",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 10991,
+      "artist_name": "Michael Aguilar",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10991,
+          "name": "Michael Aguilar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3970356
+        },
+        {
+          "person_id": 10992,
+          "name": "Travis Schmitt",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970356
+        },
+        {
+          "person_id": 10993,
+          "name": "Tammy Crane",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970356
+        }
       ]
     },
     {
       "id": "song:14088",
-      "song_id": 14088,
+      "work_type": "Song",
+      "work_id": 14088,
       "title": "Sealskin Secrets",
       "genre": "Desert Rock",
       "notable": true,
@@ -65,19 +173,62 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3097,
+          "name": "Xiulan Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.6890514
+        },
+        {
+          "person_id": 14089,
+          "name": "Ping Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982084
+        },
+        {
+          "person_id": 14090,
+          "name": "Na Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982084
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14088",
+      "source": "album:10990",
       "target": "song:14514",
-      "type": "CoverOf"
+      "type": "InStyleOf"
     },
     {
       "source": "song:5243",
       "target": "song:14514",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14088",
+      "target": "song:14514",
+      "type": "CoverOf"
     }
   ]
 }

@@ -1,0 +1,136 @@
+{
+  "person_id": 15774,
+  "name": "Yan Bai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:15772",
+      "work_type": "Album",
+      "work_id": 15772,
+      "title": "Meadow's Gentle Harvest",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 15774,
+      "artist_name": "Yan Bai",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 163,
+          "name": "Regina Hesse",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.753936
+        },
+        {
+          "person_id": 1238,
+          "name": "Yan Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7063375
+        },
+        {
+          "person_id": 1241,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0206723
+        },
+        {
+          "person_id": 15773,
+          "name": "Guiying Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0290904
+        }
+      ]
+    },
+    {
+      "id": "album:16396",
+      "work_type": "Album",
+      "work_id": 16396,
+      "title": "Saltwater Metamorphosis",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1238,
+      "artist_name": "Yan Qin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1238,
+          "name": "Yan Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7063375
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 7603,
+          "name": "Frank Johnson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0512428
+        },
+        {
+          "person_id": 15773,
+          "name": "Guiying Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0290904
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:16396",
+      "target": "album:15772",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

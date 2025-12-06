@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1545",
-      "song_id": 1545,
+      "work_type": "Song",
+      "work_id": 1545,
       "title": "Beklenmedik Karşılaşma (Unexpected Encounter)",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1547,
+          "name": "Qiang Lu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9282866
+        },
+        {
+          "person_id": 145,
+          "name": "Adrien Charles",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7255015
+        },
+        {
+          "person_id": 1548,
+          "name": "Brittany Moreno",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986163
+        }
+      ]
     },
     {
       "id": "song:4233",
-      "song_id": 4233,
+      "work_type": "Song",
+      "work_id": 4233,
       "title": "Currents of Memory",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +75,60 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4236,
+          "name": "Jun Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4293623
+        },
+        {
+          "person_id": 4237,
+          "name": "Min Han",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4293623
+        },
+        {
+          "person_id": 4234,
+          "name": "Chao Yao",
+          "stage_name": "The Lunar Manifesto",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394721
+        },
+        {
+          "person_id": 4235,
+          "name": "Xia Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394721
+        },
+        {
+          "person_id": 4238,
+          "name": "Jing Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394721
+        }
       ]
     },
     {
       "id": "song:14211",
-      "song_id": 14211,
+      "work_type": "Song",
+      "work_id": 14211,
       "title": "Eternal Worship",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +146,58 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14212,
+          "name": "Yang Xia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399147
+        },
+        {
+          "person_id": 14214,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399147
+        },
+        {
+          "person_id": 14215,
+          "name": "Yang He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399147
+        },
+        {
+          "person_id": 14213,
+          "name": "Kelly Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991315
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4233",
-      "target": "song:1545",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:14211",
       "target": "song:1545",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4233",
+      "target": "song:1545",
+      "type": "InStyleOf"
     }
   ]
 }

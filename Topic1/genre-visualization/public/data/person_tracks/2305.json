@@ -4,88 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2303",
-      "song_id": 2303,
-      "title": "Invisible Currents",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2025,
-      "single": false,
-      "own": true,
-      "artist_id": 2305,
-      "artist_name": "Li Zheng",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:6864",
-      "song_id": 6864,
-      "title": "Echoes from the Elfin Veil",
-      "genre": "Avant-Garde Folk",
-      "notable": false,
-      "release_year": 2017,
-      "single": true,
-      "own": true,
-      "artist_id": 2305,
-      "artist_name": "Li Zheng",
-      "influence": 16,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 3,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:9114",
-      "song_id": 9114,
-      "title": "Distant Heartlines",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 2305,
-      "artist_name": "Li Zheng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:11244",
-      "song_id": 11244,
-      "title": "Echoes of a Vanishing Embrace",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 2305,
-      "artist_name": "Li Zheng",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:11299",
-      "song_id": 11299,
+      "work_type": "Song",
+      "work_id": 11299,
       "title": "Backwards in the Saddle",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -101,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        }
+      ]
     },
     {
       "id": "song:12344",
-      "song_id": 12344,
+      "work_type": "Song",
+      "work_id": 12344,
       "title": "Whispers from the Bamboo Grove",
       "genre": "Alternative Rock",
       "notable": true,
@@ -121,11 +55,23 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        }
+      ]
     },
     {
       "id": "song:15241",
-      "song_id": 15241,
+      "work_type": "Song",
+      "work_id": 15241,
       "title": "Nordisk Ljusdans (Nordic Light Dance)",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -141,11 +87,65 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
+      ]
+    },
+    {
+      "id": "song:2303",
+      "work_type": "Song",
+      "work_id": 2303,
+      "title": "Invisible Currents",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 2305,
+      "artist_name": "Li Zheng",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.5583477
+        },
+        {
+          "person_id": 2304,
+          "name": "Juan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39442
+        }
+      ]
     },
     {
       "id": "song:3512",
-      "song_id": 3512,
+      "work_type": "Song",
+      "work_id": 3512,
       "title": "Andalusian Rhythm",
       "genre": "Indie Pop",
       "notable": true,
@@ -161,19 +161,156 @@
         "reference": 4,
         "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 1021,
+          "name": "Przemysław Grupa",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.726551
+        }
+      ]
     },
     {
-      "id": "song:15241",
-      "song_id": 15241,
-      "title": "Nordisk Ljusdans (Nordic Light Dance)",
+      "id": "song:6864",
+      "work_type": "Song",
+      "work_id": 6864,
+      "title": "Echoes from the Elfin Veil",
+      "genre": "Avant-Garde Folk",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 2305,
+      "artist_name": "Li Zheng",
+      "influence": 16,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 3,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
+      ]
+    },
+    {
+      "id": "song:9114",
+      "work_type": "Song",
+      "work_id": 9114,
+      "title": "Distant Heartlines",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 2305,
+      "artist_name": "Li Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        }
+      ]
+    },
+    {
+      "id": "song:11244",
+      "work_type": "Song",
+      "work_id": 11244,
+      "title": "Echoes of a Vanishing Embrace",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 2305,
+      "artist_name": "Li Zheng",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 11245,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0187604
+        }
+      ]
+    },
+    {
+      "id": "song:695",
+      "work_type": "Song",
+      "work_id": 695,
+      "title": "Roots and Rhythms",
       "genre": "Avant-Garde Folk",
       "notable": true,
-      "release_year": 2025,
+      "release_year": 2012,
       "single": true,
       "own": false,
-      "artist_id": 6159,
-      "artist_name": "Debra Martin",
+      "artist_id": 697,
+      "artist_name": "Yong Zheng",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -182,13 +319,34 @@
         "style": 0
       },
       "relation_types": [
-        "CoverOf",
-        "InStyleOf"
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.5583477
+        }
       ]
     },
     {
       "id": "song:5407",
-      "song_id": 5407,
+      "work_type": "Song",
+      "work_id": 5407,
       "title": "The Whispers of Walborg",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -207,34 +365,42 @@
       "relation_types": [
         "InterpolatesFrom",
         "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:6158",
-      "song_id": 6158,
-      "title": "They Won't Understand Our Vision",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": false,
-      "artist_id": 697,
-      "artist_name": "Yong Zheng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples",
-        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.5583477
+        },
+        {
+          "person_id": 5408,
+          "name": "Yong Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9828632
+        }
       ]
     },
     {
       "id": "song:7842",
-      "song_id": 7842,
+      "work_type": "Song",
+      "work_id": 7842,
       "title": "Lifted High, His Name Divine",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -253,64 +419,41 @@
       "relation_types": [
         "CoverOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 7843,
+          "name": "Jun Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9450507
+        }
       ]
     },
     {
-      "id": "song:12344",
-      "song_id": 12344,
-      "title": "Whispers from the Bamboo Grove",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2021,
-      "single": true,
-      "own": true,
-      "artist_id": 2305,
-      "artist_name": "Li Zheng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples",
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:9104",
-      "song_id": 9104,
-      "title": "Echoes of Sunrise",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2014,
-      "single": true,
-      "own": false,
-      "artist_id": 2537,
-      "artist_name": "Gang Mo",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:695",
-      "song_id": 695,
-      "title": "Roots and Rhythms",
+      "id": "song:15241",
+      "work_type": "Song",
+      "work_id": 15241,
+      "title": "Nordisk Ljusdans (Nordic Light Dance)",
       "genre": "Avant-Garde Folk",
       "notable": true,
-      "release_year": 2012,
+      "release_year": 2025,
       "single": true,
       "own": false,
-      "artist_id": 697,
-      "artist_name": "Yong Zheng",
+      "artist_id": 6159,
+      "artist_name": "Debra Martin",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -319,12 +462,35 @@
         "style": 0
       },
       "relation_types": [
-        "InterpolatesFrom"
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
       ]
     },
     {
       "id": "song:5178",
-      "song_id": 5178,
+      "work_type": "Song",
+      "work_id": 5178,
       "title": "Rhythm of Seven Steps",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -342,11 +508,23 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5179,
+          "name": "Haley Silva",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970437
+        }
       ]
     },
     {
       "id": "song:16336",
-      "song_id": 16336,
+      "work_type": "Song",
+      "work_id": 16336,
       "title": "Pantheon's Echo",
       "genre": "Dream Pop",
       "notable": true,
@@ -364,11 +542,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 16337,
+          "name": "Xia Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955705
+        },
+        {
+          "person_id": 16338,
+          "name": "Meghan Cortez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3955705
+        }
       ]
     },
     {
       "id": "song:4557",
-      "song_id": 4557,
+      "work_type": "Song",
+      "work_id": 4557,
       "title": "Tears Left Unshed",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -386,11 +595,131 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 4558,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3666587
+        }
+      ]
+    },
+    {
+      "id": "song:6158",
+      "work_type": "Song",
+      "work_id": 6158,
+      "title": "They Won't Understand Our Vision",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 697,
+      "artist_name": "Yong Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
+      ]
+    },
+    {
+      "id": "song:6864",
+      "work_type": "Song",
+      "work_id": 6864,
+      "title": "Echoes from the Elfin Veil",
+      "genre": "Avant-Garde Folk",
+      "notable": false,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 697,
+      "artist_name": "Yong Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
       ]
     },
     {
       "id": "song:10120",
-      "song_id": 10120,
+      "work_type": "Song",
+      "work_id": 10120,
       "title": "Devour My Heart",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -408,83 +737,87 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.5583477
+        },
+        {
+          "person_id": 5408,
+          "name": "Yong Mao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9828632
+        }
+      ]
+    },
+    {
+      "id": "song:9104",
+      "work_type": "Song",
+      "work_id": 9104,
+      "title": "Echoes of Sunrise",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 2537,
+      "artist_name": "Gang Mo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 5215,
+          "name": "Kathleen Davis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.41498
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5407",
-      "target": "song:6864",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:9104",
-      "target": "song:11244",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:6158",
-      "target": "song:6864",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:695",
-      "target": "song:11299",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:5407",
-      "target": "song:12344",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:12344",
-      "target": "song:3512",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:2303",
-      "target": "song:3512",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:6864",
-      "target": "song:3512",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:16336",
-      "target": "song:15241",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:5178",
-      "target": "song:15241",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:15241",
-      "target": "song:6864",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:15241",
-      "target": "song:12344",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:15241",
-      "target": "song:3512",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:12344",
-      "target": "song:6864",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:7842",
-      "target": "song:6864",
+      "target": "song:12344",
       "type": "CoverOf"
     },
     {
@@ -498,19 +831,24 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6158",
-      "target": "song:3512",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:15241",
-      "target": "song:2303",
-      "type": "CoverOf"
+      "target": "song:6864",
+      "type": "InStyleOf"
     },
     {
-      "source": "song:7842",
-      "target": "song:12344",
-      "type": "CoverOf"
+      "source": "song:4557",
+      "target": "song:3512",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:2303",
+      "target": "song:3512",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6158",
+      "target": "song:6864",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:7842",
@@ -518,8 +856,73 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:4557",
+      "source": "song:5407",
+      "target": "song:12344",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6158",
       "target": "song:3512",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:695",
+      "target": "song:11299",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12344",
+      "target": "song:6864",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9104",
+      "target": "song:11244",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12344",
+      "target": "song:3512",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:15241",
+      "target": "song:3512",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7842",
+      "target": "song:6864",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5178",
+      "target": "song:15241",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15241",
+      "target": "song:2303",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6864",
+      "target": "song:3512",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15241",
+      "target": "song:12344",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16336",
+      "target": "song:15241",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5407",
+      "target": "song:6864",
       "type": "InterpolatesFrom"
     }
   ]

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1544",
-      "song_id": 1544,
+      "work_type": "Song",
+      "work_id": 1544,
       "title": "Tesadüfün Dansı (Dance of Coincidence)",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:485",
-      "song_id": 485,
+      "work_type": "Song",
+      "work_id": 485,
       "title": "Resilience in Renewal",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +44,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 486,
+          "name": "Veronica Burns",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4045217
+        }
+      ]
     },
     {
       "id": "song:2026",
-      "song_id": 2026,
+      "work_type": "Song",
+      "work_id": 2026,
       "title": "Scattered Light",
       "genre": "Indie Pop",
       "notable": true,
@@ -63,11 +78,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 2028,
+          "name": "Emin Mentzel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989563
+        },
+        {
+          "person_id": 2027,
+          "name": "Božena Dušková",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989356
+        }
       ]
     },
     {
       "id": "song:11227",
-      "song_id": 11227,
+      "work_type": "Song",
+      "work_id": 11227,
       "title": "Harmonic Echoes of a Restless Mind",
       "genre": "Indie Pop",
       "notable": true,
@@ -85,11 +131,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 11228,
+          "name": "Patrizia Drewes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997731
+        },
+        {
+          "person_id": 11229,
+          "name": "Brady Brown",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3997731
+        }
       ]
     },
     {
       "id": "song:15496",
-      "song_id": 15496,
+      "work_type": "Song",
+      "work_id": 15496,
       "title": "Vegan Dessert Disco",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -107,14 +184,62 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 15498,
+          "name": "Bertrand-Robert Duval",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9273462
+        },
+        {
+          "person_id": 15497,
+          "name": "Brian Mcbride",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398555
+        },
+        {
+          "person_id": 15499,
+          "name": "Yan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398555
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11227",
+      "source": "song:15496",
       "target": "song:1544",
-      "type": "CoverOf"
+      "type": "InStyleOf"
     },
     {
       "source": "song:1544",
@@ -127,9 +252,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:15496",
+      "source": "song:11227",
       "target": "song:1544",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     }
   ]
 }

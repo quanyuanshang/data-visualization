@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9237",
-      "song_id": 9237,
+      "work_type": "Song",
+      "work_id": 9237,
       "title": "Nautical Whispers of the North Sea",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 9238,
       "artist_name": "Jing Xie",
-      "influence": 8,
+      "influence": 15,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
         "reference": 1,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.704227
+        }
+      ]
     },
     {
       "id": "song:4738",
-      "song_id": 4738,
+      "work_type": "Song",
+      "work_id": 4738,
       "title": "Scent of Desire",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +66,104 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4740,
+          "name": "Victoria Higgins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0374432
+        },
+        {
+          "person_id": 4739,
+          "name": "Gang Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980832
+        },
+        {
+          "person_id": 4741,
+          "name": "Guiying Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979135
+        }
+      ]
+    },
+    {
+      "id": "album:10086",
+      "work_type": "Album",
+      "work_id": 10086,
+      "title": "Stained Glass Prayers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 7621,
+      "artist_name": "Yan Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7623,
+          "name": "Maria Black",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4367585
+        },
+        {
+          "person_id": 7621,
+          "name": "Yan Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041018
+        },
+        {
+          "person_id": 7622,
+          "name": "Yong Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041018
+        },
+        {
+          "person_id": 10087,
+          "name": "Na Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4042943
+        }
       ]
     },
     {
       "id": "song:13282",
-      "song_id": 13282,
+      "work_type": "Song",
+      "work_id": 13282,
       "title": "Greenback Swagger",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -65,6 +181,144 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 9380,
+          "name": "Jun Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1067395
+        },
+        {
+          "person_id": 12337,
+          "name": "Li Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9436727
+        },
+        {
+          "person_id": 13285,
+          "name": "Tao Fang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4167626
+        },
+        {
+          "person_id": 13284,
+          "name": "Juan Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0720754
+        },
+        {
+          "person_id": 13283,
+          "name": "Yang Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395821
+        }
+      ]
+    },
+    {
+      "id": "album:16620",
+      "work_type": "Album",
+      "work_id": 16620,
+      "title": "Electric Vocal Echo",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 1074,
+      "artist_name": "Jing Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 9380,
+          "name": "Jun Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1067395
+        },
+        {
+          "person_id": 12337,
+          "name": "Li Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9436727
+        },
+        {
+          "person_id": 13285,
+          "name": "Tao Fang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4167626
+        },
+        {
+          "person_id": 13284,
+          "name": "Juan Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0720754
+        },
+        {
+          "person_id": 15781,
+          "name": "Brandi Bates",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0311227
+        }
       ]
     }
   ],
@@ -75,9 +329,19 @@
       "type": "CoverOf"
     },
     {
+      "source": "album:16620",
+      "target": "song:9237",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:4738",
       "target": "song:9237",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:10086",
+      "target": "song:9237",
+      "type": "InStyleOf"
     }
   ]
 }

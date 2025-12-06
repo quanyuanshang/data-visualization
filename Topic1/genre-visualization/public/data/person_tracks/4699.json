@@ -1,0 +1,136 @@
+{
+  "person_id": 4699,
+  "name": "Qiang Yu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:4694",
+      "work_type": "Album",
+      "work_id": 4694,
+      "title": "Echoes of Seventeen",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 4699,
+      "artist_name": "Qiang Yu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4695,
+          "name": "Xiuying Jin",
+          "stage_name": "Feral Psalm",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978298
+        },
+        {
+          "person_id": 4696,
+          "name": "Qiang Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978298
+        },
+        {
+          "person_id": 4697,
+          "name": "Lei Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978298
+        },
+        {
+          "person_id": 4698,
+          "name": "Xia Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978298
+        }
+      ]
+    },
+    {
+      "id": "song:7133",
+      "work_type": "Song",
+      "work_id": 7133,
+      "title": "Flicker's Last Breath",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 7134,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.040878
+        },
+        {
+          "person_id": 7136,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0408216
+        },
+        {
+          "person_id": 7135,
+          "name": "Wei Liang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3998458
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7133",
+      "target": "album:4694",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

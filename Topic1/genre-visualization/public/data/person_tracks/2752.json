@@ -4,88 +4,50 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:5663",
-      "song_id": 5663,
-      "title": "Cognitive Disconnect",
-      "genre": "Indie Folk",
+      "id": "album:4481",
+      "work_type": "Album",
+      "work_id": 4481,
+      "title": "The Fallibility of Me",
+      "genre": "Alternative Rock",
       "notable": true,
-      "release_year": 1987,
-      "single": true,
+      "release_year": 2001,
+      "single": false,
       "own": true,
       "artist_id": 2752,
       "artist_name": "Thibault Potier",
-      "influence": 3,
+      "influence": 10,
       "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:6072",
-      "song_id": 6072,
-      "title": "Whispers of My Homeland",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 1998,
-      "single": true,
-      "own": true,
-      "artist_id": 2752,
-      "artist_name": "Thibault Potier",
-      "influence": 18,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 4,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:8812",
-      "song_id": 8812,
-      "title": "Tokyo Horizon",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 1995,
-      "single": true,
-      "own": true,
-      "artist_id": 2752,
-      "artist_name": "Thibault Potier",
-      "influence": 12,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 1,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:9143",
-      "song_id": 9143,
-      "title": "Moment's Courage",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 2752,
-      "artist_name": "Thibault Potier",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
+        "cover": 2,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9300425
+        },
+        {
+          "person_id": 4482,
+          "name": "Jeanne Perrin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4107704
+        }
+      ]
     },
     {
       "id": "song:2751",
-      "song_id": 2751,
+      "work_type": "Song",
+      "work_id": 2751,
       "title": "No One Else",
       "genre": "Indie Pop",
       "notable": true,
@@ -101,11 +63,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2753,
+          "name": "Marcel Camus-Meunier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0460072
+        }
+      ]
     },
     {
       "id": "song:7891",
-      "song_id": 7891,
+      "work_type": "Song",
+      "work_id": 7891,
       "title": "Gravity of Desire",
       "genre": "Blues Rock",
       "notable": true,
@@ -114,172 +89,171 @@
       "own": true,
       "artist_id": 2752,
       "artist_name": "Thibault Potier",
-      "influence": 4,
+      "influence": 9,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2753,
+          "name": "Marcel Camus-Meunier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0460072
+        },
+        {
+          "person_id": 7892,
+          "name": "Antoinette Bertin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3821855
+        }
+      ]
+    },
+    {
+      "id": "song:5663",
+      "work_type": "Song",
+      "work_id": 5663,
+      "title": "Cognitive Disconnect",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 1987,
+      "single": true,
+      "own": true,
+      "artist_id": 2752,
+      "artist_name": "Thibault Potier",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
+      ]
+    },
+    {
+      "id": "song:6072",
+      "work_type": "Song",
+      "work_id": 6072,
+      "title": "Whispers of My Homeland",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1998,
+      "single": true,
+      "own": true,
+      "artist_id": 2752,
+      "artist_name": "Thibault Potier",
+      "influence": 23,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 5,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6073,
+          "name": "Agnès de Leroy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3852036
+        }
+      ]
     },
     {
       "id": "song:8812",
-      "song_id": 8812,
+      "work_type": "Song",
+      "work_id": 8812,
       "title": "Tokyo Horizon",
       "genre": "Synthwave",
       "notable": true,
       "release_year": 1995,
       "single": true,
-      "own": false,
-      "artist_id": 4483,
-      "artist_name": "Catherine Prévost",
-      "influence": 0,
+      "own": true,
+      "artist_id": 2752,
+      "artist_name": "Thibault Potier",
+      "influence": 20,
       "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
+        "cover": 2,
+        "sample": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": [
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
       ]
     },
     {
-      "id": "song:940",
-      "song_id": 940,
-      "title": "Latidos del Corazón (Heartbeats)",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2028,
-      "single": true,
-      "own": false,
-      "artist_id": 941,
-      "artist_name": "Na Yao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:1684",
-      "song_id": 1684,
-      "title": "Crimson Challenge at Midnight",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": false,
-      "artist_id": 1686,
-      "artist_name": "Sandra Horton",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:2277",
-      "song_id": 2277,
-      "title": "Satellite Heart",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2004,
-      "single": false,
-      "own": false,
-      "artist_id": 2278,
-      "artist_name": "Yong Meng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:13310",
-      "song_id": 13310,
-      "title": "Wildfire Euphoria",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": false,
-      "artist_id": 941,
-      "artist_name": "Na Yao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:14439",
-      "song_id": 14439,
-      "title": "First Contact",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2029,
-      "single": false,
-      "own": false,
-      "artist_id": 1141,
-      "artist_name": "Tamara Solis",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:15435",
-      "song_id": 15435,
-      "title": "Triangular Waltz of Desire",
+      "id": "song:9143",
+      "work_type": "Song",
+      "work_id": 9143,
+      "title": "Moment's Courage",
       "genre": "Indie Folk",
       "notable": true,
-      "release_year": 2007,
+      "release_year": 2013,
       "single": true,
-      "own": false,
-      "artist_id": 15436,
-      "artist_name": "Claudine Martin (The Phantom Tapes)",
-      "influence": 0,
+      "own": true,
+      "artist_id": 2752,
+      "artist_name": "Thibault Potier",
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "DirectlySamples"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
       ]
     },
     {
       "id": "song:6189",
-      "song_id": 6189,
+      "work_type": "Song",
+      "work_id": 6189,
       "title": "Riverstone Whispers",
       "genre": "Indie Folk",
       "notable": true,
@@ -296,12 +270,26 @@
         "style": 0
       },
       "relation_types": [
+        "CoverOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
       ]
     },
     {
       "id": "song:9143",
-      "song_id": 9143,
+      "work_type": "Song",
+      "work_id": 9143,
       "title": "Moment's Courage",
       "genre": "Indie Folk",
       "notable": true,
@@ -319,33 +307,33 @@
       },
       "relation_types": [
         "CoverOf"
-      ]
-    },
-    {
-      "id": "song:17308",
-      "song_id": 17308,
-      "title": "By the Stars",
-      "genre": "Oceanus Folk",
-      "notable": false,
-      "release_year": 2001,
-      "single": false,
-      "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
       ]
     },
     {
       "id": "song:7891",
-      "song_id": 7891,
+      "work_type": "Song",
+      "work_id": 7891,
       "title": "Gravity of Desire",
       "genre": "Blues Rock",
       "notable": true,
@@ -363,11 +351,86 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 2753,
+          "name": "Marcel Camus-Meunier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0460072
+        },
+        {
+          "person_id": 7892,
+          "name": "Antoinette Bertin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3821855
+        }
+      ]
+    },
+    {
+      "id": "album:12130",
+      "work_type": "Album",
+      "work_id": 12130,
+      "title": "Rage Like a Gentle Flame",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2417,
+      "artist_name": "Xiuying Ding",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8156,
+          "name": "Wei Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7062562
+        },
+        {
+          "person_id": 2417,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6785245
+        }
       ]
     },
     {
       "id": "song:13832",
-      "song_id": 13832,
+      "work_type": "Song",
+      "work_id": 13832,
       "title": "The Dialect of Dreams",
       "genre": "Blues Rock",
       "notable": true,
@@ -385,11 +448,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7533,
+          "name": "Marija Lehmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045203
+        },
+        {
+          "person_id": 13833,
+          "name": "Nathalie Striebitz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989727
+        }
       ]
     },
     {
       "id": "song:16248",
-      "song_id": 16248,
+      "work_type": "Song",
+      "work_id": 16248,
       "title": "Midnight's Melancholy Bow",
       "genre": "Alternative Rock",
       "notable": true,
@@ -407,42 +492,782 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8156,
+          "name": "Wei Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7062562
+        },
+        {
+          "person_id": 2417,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6785245
+        }
+      ]
+    },
+    {
+      "id": "album:7101",
+      "work_type": "Album",
+      "work_id": 7101,
+      "title": "Whispers in the Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 7102,
+      "artist_name": "Mannat Edwin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7102,
+          "name": "Mannat Edwin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7103,
+          "name": "Mahika Basu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7104,
+          "name": "Manjari Bobal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7105,
+          "name": "Nakul Gole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        }
+      ]
+    },
+    {
+      "id": "song:8812",
+      "work_type": "Song",
+      "work_id": 8812,
+      "title": "Tokyo Horizon",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1995,
+      "single": true,
+      "own": false,
+      "artist_id": 4483,
+      "artist_name": "Catherine Prévost",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
+      ]
+    },
+    {
+      "id": "album:12710",
+      "work_type": "Album",
+      "work_id": 12710,
+      "title": "Karelia's Forgotten Echo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": false,
+      "artist_id": 2050,
+      "artist_name": "Na Lai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2050,
+          "name": "Na Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.261977
+        },
+        {
+          "person_id": 12714,
+          "name": "Yang Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977542
+        },
+        {
+          "person_id": 12716,
+          "name": "Li Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977542
+        },
+        {
+          "person_id": 12711,
+          "name": "Wei Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12713,
+          "name": "Jing Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12715,
+          "name": "Lei Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12717,
+          "name": "Jing Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12712,
+          "name": "Jun Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971186
+        }
+      ]
+    },
+    {
+      "id": "song:940",
+      "work_type": "Song",
+      "work_id": 940,
+      "title": "Latidos del Corazón (Heartbeats)",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 941,
+      "artist_name": "Na Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 941,
+          "name": "Na Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6942413
+        },
+        {
+          "person_id": 943,
+          "name": "Kevin Carney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4104638
+        },
+        {
+          "person_id": 942,
+          "name": "Jun Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39776
+        }
+      ]
+    },
+    {
+      "id": "song:1684",
+      "work_type": "Song",
+      "work_id": 1684,
+      "title": "Crimson Challenge at Midnight",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 1686,
+      "artist_name": "Sandra Horton",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1685,
+          "name": "Mckenzie Cuevas",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398011
+        },
+        {
+          "person_id": 1686,
+          "name": "Sandra Horton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975313
+        }
+      ]
+    },
+    {
+      "id": "song:2277",
+      "work_type": "Song",
+      "work_id": 2277,
+      "title": "Satellite Heart",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 2278,
+      "artist_name": "Yong Meng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 2278,
+          "name": "Yong Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4241848
+        }
+      ]
+    },
+    {
+      "id": "song:13310",
+      "work_type": "Song",
+      "work_id": 13310,
+      "title": "Wildfire Euphoria",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 941,
+      "artist_name": "Na Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 941,
+          "name": "Na Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6942413
+        },
+        {
+          "person_id": 13311,
+          "name": "Na Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399141
+        }
+      ]
+    },
+    {
+      "id": "song:14439",
+      "work_type": "Song",
+      "work_id": 14439,
+      "title": "First Contact",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1141,
+      "artist_name": "Tamara Solis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1141,
+          "name": "Tamara Solis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4404511
+        },
+        {
+          "person_id": 1143,
+          "name": "Michelle Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4368358
+        },
+        {
+          "person_id": 1142,
+          "name": "Sandra Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4358308
+        }
+      ]
+    },
+    {
+      "id": "album:14557",
+      "work_type": "Album",
+      "work_id": 14557,
+      "title": "Echoes from the Heart of El Salvador",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 617,
+      "artist_name": "Tao Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 3399,
+          "name": "Jing Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7040498
+        },
+        {
+          "person_id": 12423,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516064
+        },
+        {
+          "person_id": 12424,
+          "name": "Qiang Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516064
+        },
+        {
+          "person_id": 2911,
+          "name": "Xiulan Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0007012
+        },
+        {
+          "person_id": 14558,
+          "name": "Jing Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.376961
+        }
+      ]
+    },
+    {
+      "id": "song:15435",
+      "work_type": "Song",
+      "work_id": 15435,
+      "title": "Triangular Waltz of Desire",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 15436,
+      "artist_name": "Claudine Martin (The Phantom Tapes)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15436,
+          "name": "Claudine Martin",
+          "stage_name": "The Phantom Tapes",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398926
+        },
+        {
+          "person_id": 15437,
+          "name": "Nicholas Pineda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398926
+        },
+        {
+          "person_id": 15438,
+          "name": "Caroline Lewis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398926
+        },
+        {
+          "person_id": 15440,
+          "name": "Sabine Ollivier-Morel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398926
+        },
+        {
+          "person_id": 15439,
+          "name": "Véronique Bernard",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989053
+        }
+      ]
+    },
+    {
+      "id": "album:16638",
+      "work_type": "Album",
+      "work_id": 16638,
+      "title": "Unburden Your Affection",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 16639,
+      "artist_name": "Recep Schüler",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12055,
+          "name": "Francisco Krein-Möchlichen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4213994
+        },
+        {
+          "person_id": 16639,
+          "name": "Recep Schüler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4002671
+        },
+        {
+          "person_id": 16640,
+          "name": "Rosa-Maria Beyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002671
+        }
+      ]
+    },
+    {
+      "id": "song:17308",
+      "work_type": "Song",
+      "work_id": 17308,
+      "title": "By the Stars",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2001,
+      "single": false,
+      "own": false,
+      "artist_id": 17299,
+      "artist_name": "The Saltwater Weavers（成员：Silas Finch｜预测 3.71、Coralia Bellweather｜预测 3.93…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": []
+    },
+    {
+      "id": "album:1310",
+      "work_type": "Album",
+      "work_id": 1310,
+      "title": "Alleys and Ambition",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 753,
+      "artist_name": "Lei Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1312,
+          "name": "Barbara Weitzel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158084
+        },
+        {
+          "person_id": 1311,
+          "name": "Juan Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398836
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:16248",
-      "target": "song:7891",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:2277",
-      "target": "song:6072",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:9143",
-      "target": "song:8812",
-      "type": "CoverOf"
-    },
     {
       "source": "song:7891",
       "target": "song:2751",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:14439",
-      "target": "song:6072",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:8812",
-      "target": "song:5663",
-      "type": "LyricalReferenceTo"
+      "source": "song:6189",
+      "target": "album:4481",
+      "type": "CoverOf"
     },
     {
       "source": "song:13832",
+      "target": "song:7891",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16248",
       "target": "song:7891",
       "type": "InStyleOf"
     },
@@ -452,9 +1277,39 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:1684",
+      "source": "song:8812",
+      "target": "song:5663",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:16638",
       "target": "song:6072",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:12130",
+      "target": "song:7891",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:7101",
+      "target": "song:5663",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14557",
+      "target": "song:6072",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:7101",
+      "target": "song:8812",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:12710",
+      "target": "song:5663",
+      "type": "InStyleOf"
     },
     {
       "source": "song:6189",
@@ -470,6 +1325,46 @@
       "source": "song:17308",
       "target": "song:8812",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:1310",
+      "target": "song:9143",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14439",
+      "target": "song:6072",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:4481",
+      "target": "song:8812",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2277",
+      "target": "song:6072",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9143",
+      "target": "song:8812",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9143",
+      "target": "album:4481",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:4481",
+      "target": "song:5663",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1684",
+      "target": "song:6072",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:940",

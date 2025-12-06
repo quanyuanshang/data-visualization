@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5694",
-      "song_id": 5694,
+      "work_type": "Song",
+      "work_id": 5694,
       "title": "Stolen Horizons",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5695,
+          "name": "Ann Schmidt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.406753
+        },
+        {
+          "person_id": 5697,
+          "name": "Denise Poole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.406753
+        }
+      ]
     },
     {
       "id": "song:7543",
-      "song_id": 7543,
+      "work_type": "Song",
+      "work_id": 7543,
       "title": "Carpathian Blood Requiem",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +65,80 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7544,
+          "name": "Jason Mayer",
+          "stage_name": "GHOSTHUNNIT",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994353
+        },
+        {
+          "person_id": 7545,
+          "name": "John Hopkins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994353
+        },
+        {
+          "person_id": 7546,
+          "name": "Joseph Navarro",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994353
+        },
+        {
+          "person_id": 7547,
+          "name": "Morgan Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994353
+        },
+        {
+          "person_id": 7548,
+          "name": "Ryan Roberts",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994353
+        },
+        {
+          "person_id": 7549,
+          "name": "Jacqueline Obrien",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994353
+        },
+        {
+          "person_id": 7550,
+          "name": "Carl Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994353
+        }
       ]
     },
     {
       "id": "song:12213",
-      "song_id": 12213,
+      "work_type": "Song",
+      "work_id": 12213,
       "title": "Unbound Waters",
       "genre": "Synthwave",
       "notable": true,
@@ -65,19 +156,59 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12214,
+          "name": "Heather Kennedy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396334
+        },
+        {
+          "person_id": 12215,
+          "name": "Eric Armstrong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396217
+        },
+        {
+          "person_id": 12216,
+          "name": "Tina Spencer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396217
+        },
+        {
+          "person_id": 12217,
+          "name": "Jeff Farmer",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396217
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7543",
-      "target": "song:5694",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:12213",
       "target": "song:5694",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7543",
+      "target": "song:5694",
+      "type": "CoverOf"
     }
   ]
 }

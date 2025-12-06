@@ -1,0 +1,111 @@
+{
+  "person_id": 834,
+  "name": "Jessica Bernard",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:833",
+      "work_type": "Album",
+      "work_id": 833,
+      "title": "Someday Never Comes",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 834,
+      "artist_name": "Jessica Bernard",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 836,
+          "name": "Adrien Techer du Voisin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0315928
+        }
+      ]
+    },
+    {
+      "id": "song:16333",
+      "work_type": "Song",
+      "work_id": 16333,
+      "title": "Love's Ultimate Pledge",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 835,
+      "artist_name": "Franck Prévost de la Bertrand",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 8585,
+          "name": "Michel Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4417253
+        },
+        {
+          "person_id": 16334,
+          "name": "Robert Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997629
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16333",
+      "target": "album:833",
+      "type": "DirectlySamples"
+    }
+  ]
+}

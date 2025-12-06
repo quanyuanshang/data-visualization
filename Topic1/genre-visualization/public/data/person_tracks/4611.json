@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4609",
-      "song_id": 4609,
+      "work_type": "Song",
+      "work_id": 4609,
       "title": "Brass and Brass: A Polka Memoir",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -14,18 +15,72 @@
       "own": true,
       "artist_id": 4611,
       "artist_name": "Kamila Ornat",
-      "influence": 31,
+      "influence": 43,
       "influence_breakdown": {
-        "cover": 2,
+        "cover": 4,
         "sample": 1,
         "reference": 5,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4610,
+          "name": "Apolonia Chlebda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3832526
+        }
+      ]
+    },
+    {
+      "id": "album:15957",
+      "work_type": "Album",
+      "work_id": 15957,
+      "title": "The Space Between Us",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 4611,
+      "artist_name": "Kamila Ornat",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14365,
+          "name": "Karina Bąbel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4341516
+        },
+        {
+          "person_id": 15958,
+          "name": "Grzegorz Rorat",
+          "stage_name": "Grzegorz",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996768
+        }
+      ]
     },
     {
       "id": "song:4854",
-      "song_id": 4854,
+      "work_type": "Song",
+      "work_id": 4854,
       "title": "Echoes from the Vatican Walls",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,16 +98,89 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 4855,
+          "name": "Andrea Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0288243
+        }
       ]
     },
     {
       "id": "song:7739",
-      "song_id": 7739,
+      "work_type": "Song",
+      "work_id": 7739,
       "title": "Corações em Chamas (Hearts on Fire)",
       "genre": "Southern Gothic Rock",
       "notable": true,
       "release_year": 2023,
       "single": true,
+      "own": false,
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:9586",
+      "work_type": "Album",
+      "work_id": 9586,
+      "title": "Reindeer Breath Melody",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
       "own": false,
       "artist_id": 2069,
       "artist_name": "Andrew Williams",
@@ -64,12 +192,76 @@
         "style": 0
       },
       "relation_types": [
-        "DirectlySamples"
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:10085",
+      "work_type": "Album",
+      "work_id": 10085,
+      "title": "Whispers of Sacred Silence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 2070,
+      "artist_name": "Jay Walters",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
       ]
     },
     {
       "id": "song:10453",
-      "song_id": 10453,
+      "work_type": "Song",
+      "work_id": 10453,
       "title": "Whispers of Devotion",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -87,11 +279,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 10455,
+          "name": "Nathaniel Craig",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4762943
+        },
+        {
+          "person_id": 10456,
+          "name": "Kayla Roberson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947513
+        },
+        {
+          "person_id": 10454,
+          "name": "Jamie Smith",
+          "stage_name": " Nova",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946335
+        }
       ]
     },
     {
       "id": "song:12041",
-      "song_id": 12041,
+      "work_type": "Song",
+      "work_id": 12041,
       "title": "Whispers and Touches",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -109,11 +341,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 2207,
+          "name": "Brian Wright",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0227065
+        }
       ]
     },
     {
       "id": "song:12042",
-      "song_id": 12042,
+      "work_type": "Song",
+      "work_id": 12042,
       "title": "Gentle Heart's Embrace",
       "genre": "Southern Gothic Rock",
       "notable": false,
@@ -131,11 +394,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 10455,
+          "name": "Nathaniel Craig",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4762943
+        }
       ]
     },
     {
       "id": "song:12105",
-      "song_id": 12105,
+      "work_type": "Song",
+      "work_id": 12105,
       "title": "Mannequin's Whisper",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -153,11 +437,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
       ]
     },
     {
       "id": "song:13984",
-      "song_id": 13984,
+      "work_type": "Song",
+      "work_id": 13984,
       "title": "Whispers of a Poet's Ink",
       "genre": "Indie Pop",
       "notable": true,
@@ -175,19 +481,49 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 5281,
+          "name": "Ismet Heser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.118744
+        }
       ]
     },
     {
       "id": "song:15744",
-      "song_id": 15744,
+      "work_type": "Song",
+      "work_id": 15744,
       "title": "Broken Again",
       "genre": "Indie Pop",
       "notable": true,
       "release_year": 2014,
       "single": true,
       "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -197,19 +533,40 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
       ]
     },
     {
       "id": "song:16348",
-      "song_id": 16348,
+      "work_type": "Song",
+      "work_id": 16348,
       "title": "Iron Hooves and Leather Reins",
       "genre": "Alternative Rock",
       "notable": true,
       "release_year": 2030,
       "single": true,
       "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -219,22 +576,193 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:17363",
+      "work_type": "Album",
+      "work_id": 17363,
+      "title": "The Sunken Compass",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": 17349,
+      "artist_name": "Beatrice Albright (Bea Azure)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17355,
+          "name": "Daniel O'Connell",
+          "stage_name": "Kael Storm",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.224527
+        },
+        {
+          "person_id": 17349,
+          "name": "Beatrice Albright",
+          "stage_name": "Bea Azure",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.194851
+        }
+      ]
+    },
+    {
+      "id": "song:8423",
+      "work_type": "Song",
+      "work_id": 8423,
+      "title": "Chromium Pulse",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 8424,
+      "artist_name": "Kevin Baker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8425,
+          "name": "Ryohei Nakajima",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3961797
+        },
+        {
+          "person_id": 8424,
+          "name": "Kevin Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39601
+        },
+        {
+          "person_id": 8426,
+          "name": "Rebecca Byrd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39601
+        }
+      ]
+    },
+    {
+      "id": "album:16082",
+      "work_type": "Album",
+      "work_id": 16082,
+      "title": "Capoeira's Rhythm",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 14365,
+      "artist_name": "Karina Bąbel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14365,
+          "name": "Karina Bąbel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4341516
+        },
+        {
+          "person_id": 16083,
+          "name": "Marianna Drózd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399274
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:13984",
+      "source": "song:12042",
+      "target": "song:4609",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10085",
+      "target": "song:4609",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7739",
+      "target": "song:4609",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:9586",
       "target": "song:4609",
       "type": "CoverOf"
     },
     {
-      "source": "song:12041",
-      "target": "song:4609",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:12105",
+      "source": "album:17363",
       "target": "song:4609",
       "type": "CoverOf"
     },
@@ -244,14 +772,19 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:10453",
+      "source": "song:12105",
       "target": "song:4609",
-      "type": "LyricalReferenceTo"
+      "type": "CoverOf"
     },
     {
-      "source": "song:16348",
+      "source": "album:16082",
+      "target": "album:15957",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13984",
       "target": "song:4609",
-      "type": "InterpolatesFrom"
+      "type": "CoverOf"
     },
     {
       "source": "song:4854",
@@ -259,14 +792,24 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:12042",
+      "source": "song:16348",
       "target": "song:4609",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
-      "source": "song:7739",
+      "source": "song:10453",
       "target": "song:4609",
-      "type": "DirectlySamples"
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:8423",
+      "target": "album:15957",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12041",
+      "target": "song:4609",
+      "type": "InterpolatesFrom"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:200",
-      "song_id": 200,
+      "work_type": "Song",
+      "work_id": 200,
       "title": "Light My Way",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,86 @@
       "own": true,
       "artist_id": 206,
       "artist_name": "Tao Liao",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 207,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7139308
+        },
+        {
+          "person_id": 202,
+          "name": "Guiying Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051494
+        },
+        {
+          "person_id": 201,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484705
+        },
+        {
+          "person_id": 203,
+          "name": "Tao Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981705
+        },
+        {
+          "person_id": 204,
+          "name": "Juan Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981705
+        },
+        {
+          "person_id": 205,
+          "name": "Jun Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981705
+        }
+      ]
+    },
+    {
+      "id": "album:11947",
+      "work_type": "Album",
+      "work_id": 11947,
+      "title": "Sakura Street Serenade",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 6694,
+      "artist_name": "Phillip Hampton",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +102,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6694,
+          "name": "Phillip Hampton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0437555
+        },
+        {
+          "person_id": 6695,
+          "name": "Donald Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0437555
+        },
+        {
+          "person_id": 6696,
+          "name": "Emily Brooks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0437555
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11947",
+      "target": "song:200",
+      "type": "InStyleOf"
+    }
+  ]
 }

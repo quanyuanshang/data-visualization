@@ -1,0 +1,231 @@
+{
+  "person_id": 4139,
+  "name": "Audrey Gray",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:4136",
+      "work_type": "Album",
+      "work_id": 4136,
+      "title": "Cadence of Immortal Strings",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 4139,
+      "artist_name": "Audrey Gray",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 909,
+          "name": "Min Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.712886
+        },
+        {
+          "person_id": 908,
+          "name": "Juan Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9976344
+        },
+        {
+          "person_id": 4137,
+          "name": "Gang Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3932912
+        },
+        {
+          "person_id": 4138,
+          "name": "Qiang Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3932912
+        }
+      ]
+    },
+    {
+      "id": "song:906",
+      "work_type": "Song",
+      "work_id": 906,
+      "title": "The Male Procession",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 907,
+      "artist_name": "Jun Jiang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 909,
+          "name": "Min Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.712886
+        },
+        {
+          "person_id": 908,
+          "name": "Juan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9976344
+        },
+        {
+          "person_id": 907,
+          "name": "Jun Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398198
+        },
+        {
+          "person_id": 910,
+          "name": "Isabella Turner",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398198
+        }
+      ]
+    },
+    {
+      "id": "song:9133",
+      "work_type": "Song",
+      "work_id": 9133,
+      "title": "Whimsy Wiggle Waltz",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3679,
+      "artist_name": "Gang Hao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3679,
+          "name": "Gang Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0445712
+        },
+        {
+          "person_id": 9134,
+          "name": "Yang Duan",
+          "stage_name": "RAWK ST4R",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994627
+        },
+        {
+          "person_id": 9135,
+          "name": "Tao Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994627
+        },
+        {
+          "person_id": 9136,
+          "name": "Juan Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994627
+        },
+        {
+          "person_id": 9137,
+          "name": "Jun Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994627
+        },
+        {
+          "person_id": 9138,
+          "name": "Yong Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994627
+        },
+        {
+          "person_id": 9139,
+          "name": "Min Zou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3994627
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9133",
+      "target": "album:4136",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:906",
+      "target": "album:4136",
+      "type": "InStyleOf"
+    }
+  ]
+}

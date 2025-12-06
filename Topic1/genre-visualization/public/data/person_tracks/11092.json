@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11091",
-      "song_id": 11091,
+      "work_type": "Song",
+      "work_id": 11091,
       "title": "Stones and Pilgrims",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2674,
+          "name": "Lidia Szpyt",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4211178
+        },
+        {
+          "person_id": 2673,
+          "name": "Marcin Maksimowicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0682542
+        }
+      ]
     },
     {
       "id": "song:9777",
-      "song_id": 9777,
+      "work_type": "Song",
+      "work_id": 9777,
       "title": "Melancholy in Miniature",
       "genre": "Darkwave",
       "notable": true,
@@ -43,6 +65,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9779,
+          "name": "Katie Johnston",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007003
+        },
+        {
+          "person_id": 9778,
+          "name": "Margaret Woods",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988903
+        }
       ]
     }
   ],

@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:12031",
-      "song_id": 12031,
-      "title": "Midnight Wings Over Bavarian Towers",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 1341,
-      "artist_name": "Jessica Stewart",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:13258",
-      "song_id": 13258,
-      "title": "Spontaneous Sonata",
-      "genre": "Americana",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 1341,
-      "artist_name": "Jessica Stewart",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1340",
-      "song_id": 1340,
+      "work_type": "Song",
+      "work_id": 1340,
       "title": "Whispers of Forbidden Flight",
       "genre": "Dream Pop",
       "notable": false,
@@ -61,7 +22,126 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:12031",
+      "work_type": "Song",
+      "work_id": 12031,
+      "title": "Midnight Wings Over Bavarian Towers",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 1341,
+      "artist_name": "Jessica Stewart",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12032,
+          "name": "Kayla Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396362
+        },
+        {
+          "person_id": 12033,
+          "name": "Thomas Mccoy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396362
+        }
+      ]
+    },
+    {
+      "id": "song:13258",
+      "work_type": "Song",
+      "work_id": 13258,
+      "title": "Spontaneous Sonata",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 1341,
+      "artist_name": "Jessica Stewart",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13259,
+          "name": "Martin Jones PhD",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977776
+        }
+      ]
+    },
+    {
+      "id": "song:13258",
+      "work_type": "Song",
+      "work_id": 13258,
+      "title": "Spontaneous Sonata",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 1341,
+      "artist_name": "Jessica Stewart",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1341,
+          "name": "Jessica Stewart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4388418
+        },
+        {
+          "person_id": 13259,
+          "name": "Martin Jones PhD",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977776
+        }
+      ]
     }
   ],
   "links": [

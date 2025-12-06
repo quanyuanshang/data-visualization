@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3962",
-      "song_id": 3962,
-      "title": "Celestial Nativity",
-      "genre": "Speed Metal",
-      "notable": true,
-      "release_year": 1997,
-      "single": true,
-      "own": true,
-      "artist_id": 3964,
-      "artist_name": "Brittany Mcguire",
-      "influence": 13,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 2,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15070",
-      "song_id": 15070,
+      "work_type": "Song",
+      "work_id": 15070,
       "title": "Crimson Parallels",
       "genre": "Speed Metal",
       "notable": true,
@@ -41,11 +22,45 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:3962",
+      "work_type": "Song",
+      "work_id": 3962,
+      "title": "Celestial Nativity",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 3964,
+      "artist_name": "Brittany Mcguire",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3963,
+          "name": "Christina Mendoza",
+          "stage_name": " King XIII",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0104115
+        }
+      ]
     },
     {
       "id": "song:6633",
-      "song_id": 6633,
+      "work_type": "Song",
+      "work_id": 6633,
       "title": "Tumbling into Us",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -63,19 +78,40 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5266,
+          "name": "Guiying Hou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7168627
+        },
+        {
+          "person_id": 6634,
+          "name": "Timothy Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.369968
+        }
       ]
     },
     {
       "id": "song:8094",
-      "song_id": 8094,
+      "work_type": "Song",
+      "work_id": 8094,
       "title": "Phosphorescent Sorrow",
       "genre": "Lo-Fi Electronica",
       "notable": true,
       "release_year": 2017,
       "single": true,
       "own": false,
-      "artist_id": 5266,
-      "artist_name": "Guiying Hou",
+      "artist_id": 16844,
+      "artist_name": "Lueur（成员：Guiying Hou｜预测 3.72、Timothy Burke｜预测 3.37）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -85,11 +121,32 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5266,
+          "name": "Guiying Hou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7168627
+        },
+        {
+          "person_id": 6634,
+          "name": "Timothy Burke",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.369968
+        }
       ]
     },
     {
       "id": "song:8739",
-      "song_id": 8739,
+      "work_type": "Song",
+      "work_id": 8739,
       "title": "Frost and Faith",
       "genre": "Speed Metal",
       "notable": true,
@@ -107,28 +164,27 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:15070",
-      "song_id": 15070,
-      "title": "Crimson Parallels",
-      "genre": "Speed Metal",
-      "notable": true,
-      "release_year": 2009,
-      "single": true,
-      "own": true,
-      "artist_id": 3964,
-      "artist_name": "Brittany Mcguire",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 29,
+          "name": "Lorraine Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.222937
+        },
+        {
+          "person_id": 3963,
+          "name": "Christina Mendoza",
+          "stage_name": " King XIII",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0104115
+        }
       ]
     }
   ],
@@ -139,6 +195,11 @@
       "type": "CoverOf"
     },
     {
+      "source": "song:6633",
+      "target": "song:3962",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:8094",
       "target": "song:3962",
       "type": "LyricalReferenceTo"
@@ -147,11 +208,6 @@
       "source": "song:8739",
       "target": "song:3962",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:6633",
-      "target": "song:3962",
-      "type": "InterpolatesFrom"
     }
   ]
 }

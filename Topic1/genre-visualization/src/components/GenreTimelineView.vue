@@ -530,14 +530,16 @@ const processedRelations = computed(() => {
       path = `M ${sx} ${sy} C ${sx} ${midY}, ${tx} ${midY}, ${tx} ${ty}`
     }
 
-    // 视觉编码 Visual Encoding
+    // 视觉编码 Visual Encoding - 增强版
     const weight = b.count / maxVal
     
-    // B. 粗细 (Thickness) = 1 + weight^2 * 6
-    const strokeWidth = 1 + Math.pow(weight, 2) * 6
+    // B. 粗细 (Thickness) = 1.5 + weight^1.5 * 12
+    // 基础1.5px让弱连接可见，最大增量12px让强连接非常醒目
+    const strokeWidth = 1.5 + Math.pow(weight, 1.5) * 12
     
-    // C. 透明度 (Opacity) = 0.2 + weight^1.5 * 0.7
-    const opacity = 0.2 + Math.pow(weight, 1.5) * 0.7
+    // C. 透明度 (Opacity) = 0.15 + weight^1.2 * 0.85
+    // 弱连接更淡，强连接更实
+    const opacity = 0.15 + Math.pow(weight, 1.2) * 0.85
 
     links.push({
       ...b,
@@ -559,10 +561,10 @@ const processedRelations = computed(() => {
     hotspots[tKey].val += b.count
   })
 
-  // 计算热点半径
+  // 计算热点半径 - 稍微增大以匹配更粗的线条
   Object.values(hotspots).forEach(h => {
     h.intensity = h.val
-    h.r = 2 + Math.sqrt(h.val) * 1.2
+    h.r = 3 + Math.sqrt(h.val) * 1.5
   })
   
   // 排序：让细线在下，粗线在上

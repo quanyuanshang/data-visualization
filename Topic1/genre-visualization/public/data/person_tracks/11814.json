@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11813",
-      "song_id": 11813,
+      "work_type": "Song",
+      "work_id": 11813,
       "title": "Voltage Celebration",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1131,
+          "name": "Reinhild Krein",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0512958
+        },
+        {
+          "person_id": 1132,
+          "name": "Mehdi Hering",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0512958
+        }
+      ]
     },
     {
       "id": "song:1130",
-      "song_id": 1130,
+      "work_type": "Song",
+      "work_id": 1130,
       "title": "Whispers from a Child's Step",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +65,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1131,
+          "name": "Reinhild Krein",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0512958
+        },
+        {
+          "person_id": 1132,
+          "name": "Mehdi Hering",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0512958
+        }
       ]
     },
     {
       "id": "song:9844",
-      "song_id": 9844,
+      "work_type": "Song",
+      "work_id": 9844,
       "title": "Cavalry of the Revolution",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,11 +109,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9845,
+          "name": "Ming Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962314
+        },
+        {
+          "person_id": 9846,
+          "name": "Gang Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962314
+        },
+        {
+          "person_id": 9847,
+          "name": "Juan Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962314
+        }
       ]
     },
     {
       "id": "song:11359",
-      "song_id": 11359,
+      "work_type": "Song",
+      "work_id": 11359,
       "title": "Cutting Through Romance",
       "genre": "Alternative Rock",
       "notable": true,
@@ -87,6 +162,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11360,
+          "name": "Michelle Montoya",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398748
+        },
+        {
+          "person_id": 11361,
+          "name": "Ryan King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982701
+        }
       ]
     }
   ],
@@ -97,14 +193,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:1130",
-      "target": "song:11813",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:9844",
       "target": "song:11813",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:1130",
+      "target": "song:11813",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

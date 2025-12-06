@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14436",
-      "song_id": 14436,
-      "title": "Whispers Across the Borderline",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": true,
-      "artist_id": 2247,
-      "artist_name": "Nicole Miller",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2243",
-      "song_id": 2243,
+      "work_type": "Song",
+      "work_id": 2243,
       "title": "Broken Branches",
       "genre": "Synthpop",
       "notable": false,
@@ -41,7 +22,89 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2244,
+          "name": "Katelyn Flores",
+          "stage_name": " T.J. Swift",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.452534
+        },
+        {
+          "person_id": 2248,
+          "name": "Sean Cameron",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3821537
+        },
+        {
+          "person_id": 2245,
+          "name": "Melissa Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3817127
+        },
+        {
+          "person_id": 2246,
+          "name": "Melissa Douglas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3817127
+        }
+      ]
+    },
+    {
+      "id": "song:14436",
+      "work_type": "Song",
+      "work_id": 14436,
+      "title": "Whispers Across the Borderline",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 2247,
+      "artist_name": "Nicole Miller",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2244,
+          "name": "Katelyn Flores",
+          "stage_name": " T.J. Swift",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.452534
+        },
+        {
+          "person_id": 14437,
+          "name": "Danielle Moore",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970394
+        }
+      ]
     }
   ],
   "links": []

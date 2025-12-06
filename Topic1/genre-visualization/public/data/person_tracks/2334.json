@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2333",
-      "song_id": 2333,
-      "title": "Canvas of Renaissance Dreams",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2000,
-      "single": true,
-      "own": true,
-      "artist_id": 2334,
-      "artist_name": "Karol Klęczar",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:12475",
-      "song_id": 12475,
+      "work_type": "Song",
+      "work_id": 12475,
       "title": "When the Music Fades",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -34,26 +15,89 @@
       "own": true,
       "artist_id": 2334,
       "artist_name": "Karol Klęczar",
-      "influence": 7,
+      "influence": 20,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
-        "reference": 1,
-        "style": 2
+        "reference": 3,
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 12476,
+          "name": "Tadeusz Majorek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3855736
+        },
+        {
+          "person_id": 12477,
+          "name": "Jacek Gorol",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3855736
+        }
+      ]
     },
     {
-      "id": "song:1772",
-      "song_id": 1772,
-      "title": "Heavy Eyelids of Twilight",
+      "id": "song:2333",
+      "work_type": "Song",
+      "work_id": 2333,
+      "title": "Canvas of Renaissance Dreams",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 2334,
+      "artist_name": "Karol Klęczar",
+      "influence": 21,
+      "influence_breakdown": {
+        "cover": 3,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        }
+      ]
+    },
+    {
+      "id": "album:1293",
+      "work_type": "Album",
+      "work_id": 1293,
+      "title": "Street Corner Hustle",
       "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2010,
+      "release_year": 2009,
       "single": false,
       "own": false,
-      "artist_id": 1294,
-      "artist_name": "Urszula Stochmal",
+      "artist_id": 1295,
+      "artist_name": "Marek Oleksa",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -62,12 +106,44 @@
         "style": 0
       },
       "relation_types": [
-        "CoverOf"
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 1295,
+          "name": "Marek Oleksa",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9489913
+        },
+        {
+          "person_id": 1296,
+          "name": "Arkadiusz Ciesielka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021614
+        }
       ]
     },
     {
       "id": "song:1411",
-      "song_id": 1411,
+      "work_type": "Song",
+      "work_id": 1411,
       "title": "Unpack My Heart",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -85,11 +161,112 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1295,
+          "name": "Marek Oleksa",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9489913
+        }
+      ]
+    },
+    {
+      "id": "album:1814",
+      "work_type": "Album",
+      "work_id": 1814,
+      "title": "Transparent Intentions",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": false,
+      "own": false,
+      "artist_id": 1815,
+      "artist_name": "Konrad Goss",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1815,
+          "name": "Konrad Goss",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7125237
+        },
+        {
+          "person_id": 1816,
+          "name": "Kornel Preś",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7125237
+        }
+      ]
+    },
+    {
+      "id": "song:2333",
+      "work_type": "Song",
+      "work_id": 2333,
+      "title": "Canvas of Renaissance Dreams",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 2334,
+          "name": "Karol Klęczar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0603938
+        }
       ]
     },
     {
       "id": "song:7662",
-      "song_id": 7662,
+      "work_type": "Song",
+      "work_id": 7662,
       "title": "Sunlight and Vows",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -107,19 +284,187 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 1295,
+          "name": "Marek Oleksa",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9489913
+        }
+      ]
+    },
+    {
+      "id": "album:13933",
+      "work_type": "Album",
+      "work_id": 13933,
+      "title": "Echoes of a Universal Tongue",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2011,
+      "single": false,
+      "own": false,
+      "artist_id": 1295,
+      "artist_name": "Marek Oleksa",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1295,
+          "name": "Marek Oleksa",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9489913
+        }
+      ]
+    },
+    {
+      "id": "album:14658",
+      "work_type": "Album",
+      "work_id": 14658,
+      "title": "Addicted to Your Heartache",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        }
+      ]
+    },
+    {
+      "id": "song:1772",
+      "work_type": "Song",
+      "work_id": 1772,
+      "title": "Heavy Eyelids of Twilight",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 1295,
+          "name": "Marek Oleksa",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9489913
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:13933",
+      "target": "song:12475",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:14658",
+      "target": "song:12475",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:13933",
+      "target": "song:2333",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:1814",
+      "target": "song:2333",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:1814",
+      "target": "song:12475",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:2333",
       "target": "song:12475",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:1411",
+      "source": "album:1293",
       "target": "song:12475",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:1293",
+      "target": "song:2333",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:7662",
@@ -127,9 +472,19 @@
       "type": "InStyleOf"
     },
     {
+      "source": "album:14658",
+      "target": "song:2333",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:1772",
       "target": "song:2333",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:1411",
+      "target": "song:12475",
+      "type": "InStyleOf"
     }
   ]
 }

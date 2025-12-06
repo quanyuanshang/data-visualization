@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10236",
-      "song_id": 10236,
+      "work_type": "Song",
+      "work_id": 10236,
       "title": "Stämmans Valzer: Intimt med Piano",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,75 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10237,
+          "name": "Heather Lutz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.295115
+        },
+        {
+          "person_id": 10238,
+          "name": "Erika Austin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995245
+        }
+      ]
+    },
+    {
+      "id": "album:12498",
+      "work_type": "Album",
+      "work_id": 12498,
+      "title": "Launch Protocol",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 10239,
+      "artist_name": "Kimberly Nelson",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12499,
+          "name": "Steven Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401517
+        },
+        {
+          "person_id": 12500,
+          "name": "Steven Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.401517
+        }
+      ]
     },
     {
       "id": "song:3644",
-      "song_id": 3644,
+      "work_type": "Song",
+      "work_id": 3644,
       "title": "Back Up Off Me",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,11 +108,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 3645,
+          "name": "Li Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947093
+        }
       ]
     },
     {
       "id": "song:9239",
-      "song_id": 9239,
+      "work_type": "Song",
+      "work_id": 9239,
       "title": "Horizon's Aftermath",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,19 +170,106 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 4871,
+          "name": "Sharon Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9787533
+        }
+      ]
+    },
+    {
+      "id": "song:6746",
+      "work_type": "Song",
+      "work_id": 6746,
+      "title": "Sunset Continuum",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 6747,
+      "artist_name": "Štěpánka Bártová",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6748,
+          "name": "Miloslava Nováková",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983052
+        },
+        {
+          "person_id": 6747,
+          "name": "Štěpánka Bártová",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979037
+        },
+        {
+          "person_id": 6749,
+          "name": "Lukáš Strnad",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3979037
+        },
+        {
+          "person_id": 6750,
+          "name": "Momoko Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979037
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:3644",
+      "target": "song:10236",
+      "type": "CoverOf"
+    },
     {
       "source": "song:9239",
       "target": "song:10236",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:3644",
-      "target": "song:10236",
-      "type": "CoverOf"
+      "source": "song:6746",
+      "target": "album:12498",
+      "type": "InStyleOf"
     }
   ]
 }

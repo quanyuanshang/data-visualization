@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13800",
-      "song_id": 13800,
+      "work_type": "Song",
+      "work_id": 13800,
       "title": "The Artful Dodger's Lament",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 13802,
       "artist_name": "Jim Miller",
-      "influence": 8,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13801,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969972
+        },
+        {
+          "person_id": 13803,
+          "name": "Yong Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3969972
+        }
+      ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +66,59 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     },
     {
       "id": "song:5438",
-      "song_id": 5438,
+      "work_type": "Song",
+      "work_id": 5438,
       "title": "Reaper's Rhythm",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,6 +136,125 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5439,
+          "name": "Fang Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5440,
+          "name": "Guiying Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5441,
+          "name": "Guiying Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5442,
+          "name": "Qiang Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5443,
+          "name": "Megan Fox",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5444,
+          "name": "Xiuying Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5445,
+          "name": "Xia Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5446,
+          "name": "Jie Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966467
+        },
+        {
+          "person_id": 5447,
+          "name": "Yang Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966467
+        }
+      ]
+    },
+    {
+      "id": "album:17006",
+      "work_type": "Album",
+      "work_id": 17006,
+      "title": "Cigarettes & Daydreams",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2032,
+      "single": false,
+      "own": false,
+      "artist_id": 17004,
+      "artist_name": "Willow Sage (Horizon Fable)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17004,
+          "name": "Willow Sage",
+          "stage_name": "Horizon Fable",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9185874
+        }
       ]
     }
   ],
@@ -78,6 +268,11 @@
       "source": "song:5438",
       "target": "song:13800",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:17006",
+      "target": "song:13800",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

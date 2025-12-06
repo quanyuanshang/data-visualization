@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2867",
-      "song_id": 2867,
+      "work_type": "Song",
+      "work_id": 2867,
       "title": "Requiem on the Red Square",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2872,
+          "name": "Jadwiga Gertz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2628565
+        },
+        {
+          "person_id": 2868,
+          "name": "Ralf Budig",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970025
+        },
+        {
+          "person_id": 2870,
+          "name": "Marcel Kreusel",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3970025
+        },
+        {
+          "person_id": 2871,
+          "name": "Darryl Curtis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970025
+        }
+      ]
     },
     {
       "id": "song:9378",
-      "song_id": 9378,
+      "work_type": "Song",
+      "work_id": 9378,
       "title": "The Space Between Landmarks",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,11 +84,77 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9380,
+          "name": "Jun Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1067395
+        },
+        {
+          "person_id": 657,
+          "name": "Min Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.432408
+        },
+        {
+          "person_id": 656,
+          "name": "Yang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4259298
+        },
+        {
+          "person_id": 654,
+          "name": "Guiying Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3980064
+        },
+        {
+          "person_id": 655,
+          "name": "Lei Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047887
+        },
+        {
+          "person_id": 9379,
+          "name": "Tao He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007518
+        },
+        {
+          "person_id": 9381,
+          "name": "Min Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007518
+        }
       ]
     },
     {
       "id": "song:13888",
-      "song_id": 13888,
+      "work_type": "Song",
+      "work_id": 13888,
       "title": "Citrus Speedway",
       "genre": "Doom Metal",
       "notable": true,
@@ -65,11 +172,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1628,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045122
+        },
+        {
+          "person_id": 13889,
+          "name": "Li Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3999448
+        },
+        {
+          "person_id": 13890,
+          "name": "Yong Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399775
+        }
       ]
     },
     {
       "id": "song:14707",
-      "song_id": 14707,
+      "work_type": "Song",
+      "work_id": 14707,
       "title": "Playful Interlude",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -87,14 +225,53 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 2101,
+          "name": "Rebekka Lehmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7168043
+        },
+        {
+          "person_id": 14708,
+          "name": "Herr Robin Drewes",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986742
+        },
+        {
+          "person_id": 14709,
+          "name": "Ernestine Killer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986742
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14707",
+      "source": "song:9378",
       "target": "song:2867",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:13888",
@@ -102,9 +279,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:9378",
+      "source": "song:14707",
       "target": "song:2867",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     }
   ]
 }

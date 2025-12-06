@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:9414",
-      "song_id": 9414,
-      "title": "Whispers of the Blue and Yellow",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2024,
-      "single": true,
-      "own": true,
-      "artist_id": 4125,
-      "artist_name": "Tao Zhang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:4123",
-      "song_id": 4123,
+      "work_type": "Song",
+      "work_id": 4123,
       "title": "Whispers of the Virtuoso's Bow",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +22,109 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1220,
+          "name": "Jie Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4555035
+        },
+        {
+          "person_id": 1219,
+          "name": "Yan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3809786
+        },
+        {
+          "person_id": 3413,
+          "name": "Tao Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1085143
+        },
+        {
+          "person_id": 4124,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0402822
+        }
+      ]
+    },
+    {
+      "id": "album:5882",
+      "work_type": "Album",
+      "work_id": 5882,
+      "title": "Celestial Weave",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 4125,
+      "artist_name": "Tao Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 1219,
+          "name": "Yan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3809786
+        },
+        {
+          "person_id": 3613,
+          "name": "Xiulan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.11822
+        },
+        {
+          "person_id": 3413,
+          "name": "Tao Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1085143
+        }
+      ]
     },
     {
       "id": "song:9966",
-      "song_id": 9966,
+      "work_type": "Song",
+      "work_id": 9966,
       "title": "Generations Unborn",
       "genre": "Indie Folk",
       "notable": true,
@@ -54,18 +133,136 @@
       "own": true,
       "artist_id": 4125,
       "artist_name": "Tao Zhang",
-      "influence": 6,
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1219,
+          "name": "Yan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3809786
+        },
+        {
+          "person_id": 3613,
+          "name": "Xiulan Yan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.11822
+        },
+        {
+          "person_id": 3413,
+          "name": "Tao Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1085143
+        },
+        {
+          "person_id": 1954,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9428082
+        },
+        {
+          "person_id": 9415,
+          "name": "Jie Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0531468
+        }
+      ]
+    },
+    {
+      "id": "song:9414",
+      "work_type": "Song",
+      "work_id": 9414,
+      "title": "Whispers of the Blue and Yellow",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": true,
+      "artist_id": 4125,
+      "artist_name": "Tao Zhang",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1219,
+          "name": "Yan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3809786
+        },
+        {
+          "person_id": 3613,
+          "name": "Xiulan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.11822
+        },
+        {
+          "person_id": 3413,
+          "name": "Tao Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1085143
+        },
+        {
+          "person_id": 1954,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9428082
+        },
+        {
+          "person_id": 9415,
+          "name": "Jie Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0531468
+        }
+      ]
     },
     {
       "id": "song:9644",
-      "song_id": 9644,
+      "work_type": "Song",
+      "work_id": 9644,
       "title": "Brisk Passage in B Major",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -83,11 +280,24 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9645,
+          "name": "Christopher Glover",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970318
+        }
       ]
     },
     {
       "id": "song:6521",
-      "song_id": 6521,
+      "work_type": "Song",
+      "work_id": 6521,
       "title": "Revolutionary Shadows",
       "genre": "Doom Metal",
       "notable": true,
@@ -105,10 +315,232 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2591,
+          "name": "Theresa Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.397802
+        },
+        {
+          "person_id": 1241,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0206723
+        },
+        {
+          "person_id": 4816,
+          "name": "Xia Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.427732
+        },
+        {
+          "person_id": 6522,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396249
+        },
+        {
+          "person_id": 6523,
+          "name": "James Harrington",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.396249
+        }
+      ]
+    },
+    {
+      "id": "song:9414",
+      "work_type": "Song",
+      "work_id": 9414,
+      "title": "Whispers of the Blue and Yellow",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1219,
+      "artist_name": "Yan Cai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1219,
+          "name": "Yan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3809786
+        },
+        {
+          "person_id": 3613,
+          "name": "Xiulan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.11822
+        },
+        {
+          "person_id": 3413,
+          "name": "Tao Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1085143
+        },
+        {
+          "person_id": 1954,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9428082
+        },
+        {
+          "person_id": 4125,
+          "name": "Tao Zhang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.702504
+        },
+        {
+          "person_id": 9415,
+          "name": "Jie Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0531468
+        }
+      ]
+    },
+    {
+      "id": "album:12282",
+      "work_type": "Album",
+      "work_id": 12282,
+      "title": "Les: A Forgotten Memoir",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 12283,
+      "artist_name": "Yong Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12287,
+          "name": "Ryan Adams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4348578
+        },
+        {
+          "person_id": 12285,
+          "name": "Li Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.37651
+        },
+        {
+          "person_id": 12286,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.044484
+        },
+        {
+          "person_id": 12288,
+          "name": "Min Huang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.044484
+        },
+        {
+          "person_id": 12284,
+          "name": "Li Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984022
+        },
+        {
+          "person_id": 12283,
+          "name": "Yong Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982325
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:5882",
+      "target": "song:9966",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9644",
+      "target": "song:4123",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:12282",
+      "target": "song:9966",
+      "type": "CoverOf"
+    },
     {
       "source": "song:9414",
       "target": "song:9966",
@@ -118,11 +550,6 @@
       "source": "song:6521",
       "target": "song:9966",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:9644",
-      "target": "song:4123",
-      "type": "InStyleOf"
     }
   ]
 }

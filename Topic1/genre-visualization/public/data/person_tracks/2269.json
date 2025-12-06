@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10032",
-      "song_id": 10032,
-      "title": "Patron Saint of Forgotten Lanes",
-      "genre": "Synthwave",
-      "notable": false,
-      "release_year": 2019,
-      "single": true,
-      "own": true,
-      "artist_id": 2269,
-      "artist_name": "Yang Xiong",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2267",
-      "song_id": 2267,
+      "work_type": "Song",
+      "work_id": 2267,
       "title": "Temporary Address",
       "genre": "Dream Pop",
       "notable": false,
@@ -41,8 +22,145 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 934,
+          "name": "Jun Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9345489
+        },
+        {
+          "person_id": 2001,
+          "name": "Na Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.932276
+        },
+        {
+          "person_id": 2268,
+          "name": "Xia Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4362013
+        },
+        {
+          "person_id": 2270,
+          "name": "Jing Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3833244
+        }
+      ]
+    },
+    {
+      "id": "song:10032",
+      "work_type": "Song",
+      "work_id": 10032,
+      "title": "Patron Saint of Forgotten Lanes",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 2269,
+      "artist_name": "Yang Xiong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10033,
+          "name": "Yan Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966637
+        },
+        {
+          "person_id": 10034,
+          "name": "Min Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3927395
+        }
+      ]
+    },
+    {
+      "id": "album:12009",
+      "work_type": "Album",
+      "work_id": 12009,
+      "title": "Drums of the Ascendant",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 2269,
+      "artist_name": "Yang Xiong",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 934,
+          "name": "Jun Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9345489
+        },
+        {
+          "person_id": 2001,
+          "name": "Na Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.932276
+        },
+        {
+          "person_id": 147,
+          "name": "Na Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4046214
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:2267",
+      "target": "album:12009",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

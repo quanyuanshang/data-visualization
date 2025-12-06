@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16093",
-      "song_id": 16093,
+      "work_type": "Song",
+      "work_id": 16093,
       "title": "Electric Azure Dance",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2872,
+          "name": "Jadwiga Gertz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2628565
+        },
+        {
+          "person_id": 16094,
+          "name": "Nelly Austermühle",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396095
+        }
+      ]
     },
     {
       "id": "song:9849",
-      "song_id": 9849,
+      "work_type": "Song",
+      "work_id": 9849,
       "title": "Fields of Red and Steel",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +66,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9851,
+          "name": "Samarth Saraf",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398048
+        },
+        {
+          "person_id": 9850,
+          "name": "Umang Bala",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397922
+        }
       ]
     }
   ],

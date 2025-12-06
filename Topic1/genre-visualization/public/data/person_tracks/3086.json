@@ -4,68 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3793",
-      "song_id": 3793,
-      "title": "Monsoon Memories",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2005,
-      "single": true,
-      "own": true,
-      "artist_id": 3086,
-      "artist_name": "Sean Jones",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:9848",
-      "song_id": 9848,
-      "title": "Partisan's Lament",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2030,
-      "single": true,
-      "own": true,
-      "artist_id": 3086,
-      "artist_name": "Sean Jones",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:16529",
-      "song_id": 16529,
-      "title": "Sharp Silent Whispers",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 1991,
-      "single": false,
-      "own": true,
-      "artist_id": 3086,
-      "artist_name": "Sean Jones",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3085",
-      "song_id": 3085,
+      "work_type": "Song",
+      "work_id": 3085,
       "title": "Abrogate the Rabble-Rouser",
       "genre": "Indie Pop",
       "notable": true,
@@ -81,11 +22,74 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1914,
+          "name": "Ewelina Jeszke",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.405735
+        }
+      ]
+    },
+    {
+      "id": "album:11352",
+      "work_type": "Album",
+      "work_id": 11352,
+      "title": "Whispers of the Sussex Shoreline",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 3086,
+      "artist_name": "Sean Jones",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3909693
+        },
+        {
+          "person_id": 334,
+          "name": "Christopher Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9250906
+        },
+        {
+          "person_id": 11353,
+          "name": "Debra Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4055827
+        }
+      ]
     },
     {
       "id": "song:14535",
-      "song_id": 14535,
+      "work_type": "Song",
+      "work_id": 14535,
       "title": "Obsession's Melody",
       "genre": "Indie Pop",
       "notable": true,
@@ -101,11 +105,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10849,
+          "name": "Lisa Crawford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.5238342
+        },
+        {
+          "person_id": 14536,
+          "name": "Samantha Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.368815
+        }
+      ]
     },
     {
       "id": "song:16035",
-      "song_id": 16035,
+      "work_type": "Song",
+      "work_id": 16035,
       "title": "Divided We Stand",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -114,18 +140,63 @@
       "own": true,
       "artist_id": 3086,
       "artist_name": "Sean Jones",
-      "influence": 31,
+      "influence": 36,
       "influence_breakdown": {
         "cover": 4,
         "sample": 0,
-        "reference": 3,
+        "reference": 4,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.3909693
+        }
+      ]
+    },
+    {
+      "id": "song:3793",
+      "work_type": "Song",
+      "work_id": 3793,
+      "title": "Monsoon Memories",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": true,
+      "artist_id": 3086,
+      "artist_name": "Sean Jones",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3794,
+          "name": "Jennifer Flores",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962572
+        }
+      ]
     },
     {
       "id": "song:10765",
-      "song_id": 10765,
+      "work_type": "Song",
+      "work_id": 10765,
       "title": "Shadows of Your Silence",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -141,55 +212,119 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:15496",
-      "song_id": 15496,
-      "title": "Vegan Dessert Disco",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2027,
-      "single": true,
-      "own": false,
-      "artist_id": 1098,
-      "artist_name": "Guiying Bai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10766,
+          "name": "Taichi Watanabe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3910449
+        }
       ]
     },
     {
-      "id": "song:8731",
-      "song_id": 8731,
-      "title": "Winter's First Light",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": false,
-      "artist_id": 1103,
-      "artist_name": "Ekkehard Förster",
-      "influence": 0,
+      "id": "album:10848",
+      "work_type": "Album",
+      "work_id": 10848,
+      "title": "Vykort från en Sommarö (Postcard from a Summer Island)",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 3086,
+      "artist_name": "Sean Jones",
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10849,
+          "name": "Lisa Crawford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.5238342
+        }
+      ]
+    },
+    {
+      "id": "song:16529",
+      "work_type": "Song",
+      "work_id": 16529,
+      "title": "Sharp Silent Whispers",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 3086,
+      "artist_name": "Sean Jones",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7989,
+          "name": "Fabian Dłubak",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4218736
+        }
+      ]
+    },
+    {
+      "id": "song:9848",
+      "work_type": "Song",
+      "work_id": 9848,
+      "title": "Partisan's Lament",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 3086,
+      "artist_name": "Sean Jones",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3909693
+        }
       ]
     },
     {
       "id": "song:2865",
-      "song_id": 2865,
+      "work_type": "Song",
+      "work_id": 2865,
       "title": "Choreographed Heartbeat",
       "genre": "Blues Rock",
       "notable": true,
@@ -207,11 +342,25 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2866,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974543
+        }
       ]
     },
     {
       "id": "song:5994",
-      "song_id": 5994,
+      "work_type": "Song",
+      "work_id": 5994,
       "title": "Forever, Barely, Barely",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -229,11 +378,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.705118
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 5995,
+          "name": "Francesca Krebs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.060887
+        }
       ]
     },
     {
       "id": "song:8949",
-      "song_id": 8949,
+      "work_type": "Song",
+      "work_id": 8949,
       "title": "The Silent Paths of Rosvina",
       "genre": "Alternative Rock",
       "notable": true,
@@ -251,11 +440,25 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8950,
+          "name": "Carolyn Donovan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4422855
+        }
       ]
     },
     {
       "id": "song:15104",
-      "song_id": 15104,
+      "work_type": "Song",
+      "work_id": 15104,
       "title": "Silent Grace",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -273,11 +476,129 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.705118
+        },
+        {
+          "person_id": 341,
+          "name": "Dierk Bohlander",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293308
+        }
+      ]
+    },
+    {
+      "id": "song:9848",
+      "work_type": "Song",
+      "work_id": 9848,
+      "title": "Partisan's Lament",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 5213,
+      "artist_name": "Samantha Bullock",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.4058466
+        },
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3909693
+        }
+      ]
+    },
+    {
+      "id": "song:12685",
+      "work_type": "Song",
+      "work_id": 12685,
+      "title": "Coastal Whispers of Biscay",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": false,
+      "artist_id": 12686,
+      "artist_name": "James Medina",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12686,
+          "name": "James Medina",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397877
+        },
+        {
+          "person_id": 12687,
+          "name": "Matthew Best",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397877
+        },
+        {
+          "person_id": 12688,
+          "name": "Linda Burns",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397877
+        }
       ]
     },
     {
       "id": "song:17085",
-      "song_id": 17085,
+      "work_type": "Song",
+      "work_id": 17085,
       "title": "Midnight Cathedral",
       "genre": "Darkwave",
       "notable": true,
@@ -295,11 +616,76 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17083,
+          "name": "Sylas Dune",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7134666
+        }
+      ]
+    },
+    {
+      "id": "album:169",
+      "work_type": "Album",
+      "work_id": 169,
+      "title": "Whispers of Spring's Memory",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 170,
+      "artist_name": "Chao Yu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.343267
+        },
+        {
+          "person_id": 170,
+          "name": "Chao Yu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7256129
+        },
+        {
+          "person_id": 171,
+          "name": "Chao Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4393616
+        }
       ]
     },
     {
       "id": "song:3080",
-      "song_id": 3080,
+      "work_type": "Song",
+      "work_id": 3080,
       "title": "Rescind the Instigator",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -317,11 +703,52 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6836832
+        },
+        {
+          "person_id": 3083,
+          "name": "Kamil Sura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965285
+        },
+        {
+          "person_id": 3081,
+          "name": "Amber Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965077
+        }
       ]
     },
     {
       "id": "song:3596",
-      "song_id": 3596,
+      "work_type": "Song",
+      "work_id": 3596,
       "title": "Legacy in WaitingCoins Over Vows",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -339,11 +766,52 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3600,
+          "name": "Lisa Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4226377
+        },
+        {
+          "person_id": 3597,
+          "name": "Kaylee Freeman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0271149
+        },
+        {
+          "person_id": 3598,
+          "name": "Danielle Luna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4468052
+        },
+        {
+          "person_id": 3599,
+          "name": "Alicia Robertson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3559704
+        }
       ]
     },
     {
       "id": "song:6797",
-      "song_id": 6797,
+      "work_type": "Song",
+      "work_id": 6797,
       "title": "Echoes from Ancient Lips",
       "genre": "Alternative Rock",
       "notable": true,
@@ -361,11 +829,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.343267
+        },
+        {
+          "person_id": 171,
+          "name": "Chao Qiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4393616
+        }
       ]
     },
     {
       "id": "song:7568",
-      "song_id": 7568,
+      "work_type": "Song",
+      "work_id": 7568,
       "title": "Heartstrings and Steel",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -383,11 +873,52 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
       ]
     },
     {
       "id": "song:13589",
-      "song_id": 13589,
+      "work_type": "Song",
+      "work_id": 13589,
       "title": "Silent Steps in the Forest's Embrace",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -405,11 +936,85 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 13590,
+          "name": "Wei Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3957138
+        }
+      ]
+    },
+    {
+      "id": "album:13720",
+      "work_type": "Album",
+      "work_id": 13720,
+      "title": "Raindrops and Rhythms",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 172,
+      "artist_name": "Lei Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.343267
+        },
+        {
+          "person_id": 171,
+          "name": "Chao Qiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4393616
+        },
+        {
+          "person_id": 5481,
+          "name": "Min Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297187
+        }
       ]
     },
     {
       "id": "song:15388",
-      "song_id": 15388,
+      "work_type": "Song",
+      "work_id": 15388,
       "title": "Echoes of the Koto",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -427,11 +1032,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6836832
+        }
       ]
     },
     {
       "id": "song:15396",
-      "song_id": 15396,
+      "work_type": "Song",
+      "work_id": 15396,
       "title": "Maiden's Footsteps on Soft Grass",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -449,11 +1085,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2528,
+          "name": "Larry Fields",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9760733
+        },
+        {
+          "person_id": 15397,
+          "name": "Sherri Mclaughlin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3726494
+        }
       ]
     },
     {
       "id": "song:16404",
-      "song_id": 16404,
+      "work_type": "Song",
+      "work_id": 16404,
       "title": "Murmures Angéliques",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -471,34 +1129,221 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
+      ]
+    },
+    {
+      "id": "song:15496",
+      "work_type": "Song",
+      "work_id": 15496,
+      "title": "Vegan Dessert Disco",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 15498,
+          "name": "Bertrand-Robert Duval",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9273462
+        },
+        {
+          "person_id": 15497,
+          "name": "Brian Mcbride",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398555
+        },
+        {
+          "person_id": 15499,
+          "name": "Yan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398555
+        }
+      ]
+    },
+    {
+      "id": "song:8731",
+      "work_type": "Song",
+      "work_id": 8731,
+      "title": "Winter's First Light",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 1103,
+      "artist_name": "Ekkehard Förster",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
+      ]
+    },
+    {
+      "id": "album:17273",
+      "work_type": "Album",
+      "work_id": 17273,
+      "title": "Salty Dreams",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8949",
-      "target": "song:3085",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:17085",
-      "target": "song:14535",
+      "source": "song:9848",
+      "target": "album:11352",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:15388",
-      "target": "song:16035",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:15496",
-      "target": "song:3793",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:7568",
-      "target": "song:16035",
-      "type": "CoverOf"
     },
     {
       "source": "song:8731",
@@ -506,14 +1351,19 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:15104",
+      "source": "song:8949",
       "target": "song:3085",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6797",
+      "source": "song:14535",
+      "target": "album:10848",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13720",
       "target": "song:16035",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
     },
     {
       "source": "song:15396",
@@ -531,9 +1381,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:3080",
-      "target": "song:16035",
+      "source": "song:15104",
+      "target": "song:3085",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15388",
+      "target": "song:16035",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12685",
+      "target": "album:11352",
+      "type": "CoverOf"
     },
     {
       "source": "song:2865",
@@ -541,14 +1401,49 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:3596",
+      "source": "song:6797",
       "target": "song:16035",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15496",
+      "target": "song:3793",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:17273",
+      "target": "song:9848",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:169",
+      "target": "song:16035",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:13589",
       "target": "song:16035",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:7568",
+      "target": "song:16035",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:3596",
+      "target": "song:16035",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:17085",
+      "target": "song:14535",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3080",
+      "target": "song:16035",
+      "type": "InterpolatesFrom"
     }
   ]
 }

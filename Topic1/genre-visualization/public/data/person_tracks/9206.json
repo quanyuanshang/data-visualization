@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9205",
-      "song_id": 9205,
+      "work_type": "Song",
+      "work_id": 9205,
       "title": "Carbonated Vertigo",
       "genre": "Desert Rock",
       "notable": true,
@@ -14,6 +15,47 @@
       "own": true,
       "artist_id": 9206,
       "artist_name": "Chao Huang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9207,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000418
+        },
+        {
+          "person_id": 9208,
+          "name": "Li Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000418
+        }
+      ]
+    },
+    {
+      "id": "album:14177",
+      "work_type": "Album",
+      "work_id": 14177,
+      "title": "Between the Lines of We",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4185,
+      "artist_name": "Na Ren",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +63,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4185,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2553897
+        },
+        {
+          "person_id": 14178,
+          "name": "Wei Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399688
+        },
+        {
+          "person_id": 14179,
+          "name": "Lei Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399688
+        },
+        {
+          "person_id": 14180,
+          "name": "Jie Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399688
+        },
+        {
+          "person_id": 14181,
+          "name": "Guiying Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399688
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14177",
+      "target": "song:9205",
+      "type": "InStyleOf"
+    }
+  ]
 }

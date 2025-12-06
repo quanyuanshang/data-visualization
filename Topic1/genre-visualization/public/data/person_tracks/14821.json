@@ -1,0 +1,231 @@
+{
+  "person_id": 14821,
+  "name": "Hans-Karl Hövel",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:14816",
+      "work_type": "Album",
+      "work_id": 14816,
+      "title": "Straw and Secrets",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 14821,
+      "artist_name": "Hans-Karl Hövel",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14817,
+          "name": "Beatrix Schmidt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398516
+        },
+        {
+          "person_id": 14818,
+          "name": "Priska Hölzenbecher",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398516
+        },
+        {
+          "person_id": 14819,
+          "name": "Bjorn van Berkum-Freshour",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398516
+        },
+        {
+          "person_id": 14820,
+          "name": "Marina Stiebitz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398516
+        },
+        {
+          "person_id": 14822,
+          "name": "Olaf Schmiedt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398516
+        }
+      ]
+    },
+    {
+      "id": "album:917",
+      "work_type": "Album",
+      "work_id": 917,
+      "title": "Shifting Horizons",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 918,
+      "artist_name": "Mark Thomas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 921,
+          "name": "Michael Dean",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0305583
+        },
+        {
+          "person_id": 919,
+          "name": "Alexandra Levy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.030358
+        },
+        {
+          "person_id": 918,
+          "name": "Mark Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010465
+        },
+        {
+          "person_id": 920,
+          "name": "Antonio Fuentes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010465
+        }
+      ]
+    },
+    {
+      "id": "song:8352",
+      "work_type": "Song",
+      "work_id": 8352,
+      "title": "Echoes of an Inner Landscape",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": false,
+      "artist_id": 4791,
+      "artist_name": "Diana Elliott",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4790,
+          "name": "Mary Barnes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0315528
+        },
+        {
+          "person_id": 4793,
+          "name": "Noah Frazier Jr.",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0230455
+        },
+        {
+          "person_id": 4791,
+          "name": "Diana Elliott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0227625
+        },
+        {
+          "person_id": 4792,
+          "name": "Bruce Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0186248
+        },
+        {
+          "person_id": 8353,
+          "name": "Donna Ryan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4013705
+        },
+        {
+          "person_id": 8354,
+          "name": "Zachary Ellis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4013705
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8352",
+      "target": "album:14816",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:917",
+      "target": "album:14816",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

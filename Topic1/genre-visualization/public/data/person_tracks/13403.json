@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:13402",
-      "song_id": 13402,
-      "title": "Missed Connection",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2013,
-      "single": false,
-      "own": true,
-      "artist_id": 13403,
-      "artist_name": "Charles Wallace",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:14216",
-      "song_id": 14216,
+      "work_type": "Song",
+      "work_id": 14216,
       "title": "Hallowed Whispers",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8950,
+          "name": "Carolyn Donovan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4422855
+        }
+      ]
+    },
+    {
+      "id": "song:13402",
+      "work_type": "Song",
+      "work_id": 13402,
+      "title": "Missed Connection",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 13403,
+      "artist_name": "Charles Wallace",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8950,
+          "name": "Carolyn Donovan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4422855
+        }
+      ]
     },
     {
       "id": "song:8949",
-      "song_id": 8949,
+      "work_type": "Song",
+      "work_id": 8949,
       "title": "The Silent Paths of Rosvina",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,6 +89,19 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8950,
+          "name": "Carolyn Donovan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4422855
+        }
       ]
     }
   ],

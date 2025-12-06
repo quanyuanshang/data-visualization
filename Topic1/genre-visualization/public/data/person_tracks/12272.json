@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12270",
-      "song_id": 12270,
+      "work_type": "Song",
+      "work_id": 12270,
       "title": "Shadows of a Forgotten Name",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1276,
+          "name": "Yong Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8724766
+        },
+        {
+          "person_id": 5459,
+          "name": "Tao Jin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1130943
+        },
+        {
+          "person_id": 12271,
+          "name": "Jun Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.391532
+        }
+      ]
     },
     {
       "id": "song:11515",
-      "song_id": 11515,
+      "work_type": "Song",
+      "work_id": 11515,
       "title": "Perfectly Plastic",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,11 +75,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11516,
+          "name": "Katelyn Johnson",
+          "stage_name": "Eon",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981333
+        },
+        {
+          "person_id": 11517,
+          "name": "Isaiah Morales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981333
+        },
+        {
+          "person_id": 11518,
+          "name": "Richard Mckenzie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3981125
+        }
       ]
     },
     {
       "id": "song:16192",
-      "song_id": 16192,
+      "work_type": "Song",
+      "work_id": 16192,
       "title": "The Question That Lingers",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -65,19 +128,94 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3461,
+          "name": "Yong Tao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4375033
+        },
+        {
+          "person_id": 16193,
+          "name": "Wei Yao",
+          "stage_name": "XANOVA",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997009
+        },
+        {
+          "person_id": 16194,
+          "name": "Jie Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997009
+        },
+        {
+          "person_id": 16195,
+          "name": "Min Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997009
+        },
+        {
+          "person_id": 16198,
+          "name": "Juan Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997009
+        },
+        {
+          "person_id": 16199,
+          "name": "Yong Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997009
+        },
+        {
+          "person_id": 16196,
+          "name": "Jie Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3996801
+        },
+        {
+          "person_id": 16197,
+          "name": "Juan Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996801
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11515",
-      "target": "song:12270",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:16192",
       "target": "song:12270",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11515",
+      "target": "song:12270",
+      "type": "CoverOf"
     }
   ]
 }

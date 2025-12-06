@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5689",
-      "song_id": 5689,
+      "work_type": "Song",
+      "work_id": 5689,
       "title": "Midnight Getaway",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1808,
+          "name": "Renato Holsten",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0479372
+        }
+      ]
     },
     {
       "id": "song:1807",
-      "song_id": 1807,
+      "work_type": "Song",
+      "work_id": 1807,
       "title": "Clearly Complicated",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -43,6 +56,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1808,
+          "name": "Renato Holsten",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0479372
+        },
+        {
+          "person_id": 1809,
+          "name": "Ottomar Spieß",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978817
+        }
       ]
     }
   ],

@@ -1,0 +1,137 @@
+{
+  "person_id": 10998,
+  "name": "Xiuying Chang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10997",
+      "work_type": "Album",
+      "work_id": 10997,
+      "title": "Harmonies of the Learned Voice",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 10998,
+      "artist_name": "Xiuying Chang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5398,
+          "name": "Shawn Fox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7060246
+        },
+        {
+          "person_id": 5402,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4422553
+        },
+        {
+          "person_id": 5404,
+          "name": "Jing Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4422553
+        },
+        {
+          "person_id": 10999,
+          "name": "Qiang Dai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3969774
+        },
+        {
+          "person_id": 11000,
+          "name": "Ping Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969774
+        }
+      ]
+    },
+    {
+      "id": "song:16452",
+      "work_type": "Song",
+      "work_id": 16452,
+      "title": "Star of the Stable",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1838,
+      "artist_name": "Carolyn Schultz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 5286,
+          "name": "Amanda Hill",
+          "stage_name": " R.E.D.",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4383142
+        },
+        {
+          "person_id": 16453,
+          "name": "Laura Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993697
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16452",
+      "target": "album:10997",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

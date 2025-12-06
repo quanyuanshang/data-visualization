@@ -4,28 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16529",
-      "song_id": 16529,
-      "title": "Sharp Silent Whispers",
+      "id": "album:7987",
+      "work_type": "Album",
+      "work_id": 7987,
+      "title": "Pinup Pages",
       "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 1991,
+      "release_year": 2009,
       "single": false,
       "own": true,
       "artist_id": 7989,
       "artist_name": "Fabian Dłubak",
-      "influence": 3,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
-        "style": 0
+        "reference": 0,
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5008,
+          "name": "Fang Kong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0434918
+        },
+        {
+          "person_id": 7988,
+          "name": "Noah Shaw",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979735
+        }
+      ]
     },
     {
       "id": "song:12920",
-      "song_id": 12920,
+      "work_type": "Song",
+      "work_id": 12920,
       "title": "The MacGregor's Whisper",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -41,11 +64,101 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12921,
+          "name": "Adam Kroker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976965
+        },
+        {
+          "person_id": 12922,
+          "name": "Frank Green",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976965
+        }
+      ]
+    },
+    {
+      "id": "song:16529",
+      "work_type": "Song",
+      "work_id": 16529,
+      "title": "Sharp Silent Whispers",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 7989,
+      "artist_name": "Fabian Dłubak",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.4058466
+        }
+      ]
+    },
+    {
+      "id": "song:8058",
+      "work_type": "Song",
+      "work_id": 8058,
+      "title": "The Expansive Rhythm",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 8059,
+      "artist_name": "Amanda Powell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8059,
+          "name": "Amanda Powell",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397439
+        }
+      ]
     },
     {
       "id": "song:8731",
-      "song_id": 8731,
+      "work_type": "Song",
+      "work_id": 8731,
       "title": "Winter's First Light",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -63,6 +176,45 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
       ]
     }
   ],
@@ -71,6 +223,11 @@
       "source": "song:8731",
       "target": "song:16529",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:8058",
+      "target": "album:7987",
+      "type": "InStyleOf"
     }
   ]
 }

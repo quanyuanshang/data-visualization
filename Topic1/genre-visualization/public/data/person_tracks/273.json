@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:1874",
-      "song_id": 1874,
-      "title": "Dusty Miles",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 273,
-      "artist_name": "Tao Zou",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:272",
-      "song_id": 272,
+      "work_type": "Song",
+      "work_id": 272,
       "title": "Undying Affection",
       "genre": "Desert Rock",
       "notable": true,
@@ -41,11 +22,109 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 274,
+          "name": "Li Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7142708
+        },
+        {
+          "person_id": 276,
+          "name": "Kendra Miller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0536153
+        },
+        {
+          "person_id": 275,
+          "name": "Na Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3953705
+        }
+      ]
+    },
+    {
+      "id": "song:1874",
+      "work_type": "Song",
+      "work_id": 1874,
+      "title": "Dusty Miles",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 273,
+      "artist_name": "Tao Zou",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1877,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2593718
+        },
+        {
+          "person_id": 274,
+          "name": "Li Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7142708
+        },
+        {
+          "person_id": 1878,
+          "name": "Wei Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7111735
+        },
+        {
+          "person_id": 1875,
+          "name": "Jing Ding",
+          "stage_name": "Solara",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0433497
+        },
+        {
+          "person_id": 1876,
+          "name": "Ming Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4020576
+        }
+      ]
     },
     {
       "id": "song:3580",
-      "song_id": 3580,
+      "work_type": "Song",
+      "work_id": 3580,
       "title": "Shadows of Unexpressed Feelings",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,6 +142,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3582,
+          "name": "Jie Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980353
+        },
+        {
+          "person_id": 3581,
+          "name": "Jun Gu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977013
+        }
       ]
     }
   ],

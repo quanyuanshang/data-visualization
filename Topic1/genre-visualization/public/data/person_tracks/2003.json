@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2002",
-      "song_id": 2002,
+      "work_type": "Song",
+      "work_id": 2002,
       "title": "Silver Threads and Quiet Moments",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,50 @@
         "reference": 0,
         "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 2004,
+          "name": "Martino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.253776
+        },
+        {
+          "person_id": 2005,
+          "name": "Coriolano Luria-Scialpi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4334447
+        },
+        {
+          "person_id": 2007,
+          "name": "Luigina Camuccini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4324925
+        }
+      ]
     },
     {
       "id": "song:3358",
-      "song_id": 3358,
+      "work_type": "Song",
+      "work_id": 3358,
       "title": "Carry Me Through",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +83,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 2004,
+          "name": "Martino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.253776
+        },
+        {
+          "person_id": 3360,
+          "name": "Isabella Farinelli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9629836
+        },
+        {
+          "person_id": 3359,
+          "name": "Aneta Pruschke-Sölzer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4313087
+        }
       ]
     },
     {
       "id": "song:12365",
-      "song_id": 12365,
+      "work_type": "Song",
+      "work_id": 12365,
       "title": "Lonesome Trail Ballad",
       "genre": "Americana",
       "notable": true,
@@ -65,11 +145,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 2004,
+          "name": "Martino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.253776
+        }
       ]
     },
     {
       "id": "song:16485",
-      "song_id": 16485,
+      "work_type": "Song",
+      "work_id": 16485,
       "title": "The Sacrificial Script",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,6 +188,55 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 2004,
+          "name": "Martino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.253776
+        },
+        {
+          "person_id": 3360,
+          "name": "Isabella Farinelli",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9629836
+        },
+        {
+          "person_id": 2005,
+          "name": "Coriolano Luria-Scialpi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4334447
+        },
+        {
+          "person_id": 16486,
+          "name": "Temistocle Vivaldi-Amato",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4028718
+        }
       ]
     }
   ],
@@ -97,12 +247,12 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:3358",
+      "source": "song:16485",
       "target": "song:2002",
       "type": "InStyleOf"
     },
     {
-      "source": "song:16485",
+      "source": "song:3358",
       "target": "song:2002",
       "type": "InStyleOf"
     }

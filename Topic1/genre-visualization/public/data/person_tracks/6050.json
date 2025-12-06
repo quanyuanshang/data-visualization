@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6049",
-      "song_id": 6049,
+      "work_type": "Song",
+      "work_id": 6049,
       "title": "Mountain Melodies",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,8 +22,57 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4513,
+          "name": "Joseph Vincent",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.428466
+        }
+      ]
+    },
+    {
+      "id": "album:7137",
+      "work_type": "Album",
+      "work_id": 7137,
+      "title": "Illuminated Shadows",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 6050,
+      "artist_name": "Bryan Sanchez ( Steel)",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4513,
+          "name": "Joseph Vincent",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.428466
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:6049",
+      "target": "album:7137",
+      "type": "InStyleOf"
+    }
+  ]
 }

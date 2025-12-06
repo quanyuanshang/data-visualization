@@ -1,0 +1,118 @@
+{
+  "person_id": 10491,
+  "name": "Mitchell Mcpherson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10488",
+      "work_type": "Album",
+      "work_id": 10488,
+      "title": "Echoes of a Lost Campaign",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 10491,
+      "artist_name": "Mitchell Mcpherson",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10489,
+          "name": "Rick Franklin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989081
+        },
+        {
+          "person_id": 10490,
+          "name": "Meredith Hamilton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989081
+        }
+      ]
+    },
+    {
+      "id": "album:8115",
+      "work_type": "Album",
+      "work_id": 8115,
+      "title": "Switchboard Serenade",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": false,
+      "artist_id": 8116,
+      "artist_name": "Samar Sarma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 425,
+          "name": "Hazel Kara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9262712
+        },
+        {
+          "person_id": 4251,
+          "name": "Justin Thomas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0436146
+        },
+        {
+          "person_id": 8116,
+          "name": "Samar Sarma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        },
+        {
+          "person_id": 8117,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:8115",
+      "target": "album:10488",
+      "type": "CoverOf"
+    }
+  ]
+}

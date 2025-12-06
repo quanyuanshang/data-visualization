@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10",
-      "song_id": 10,
+      "work_type": "Song",
+      "work_id": 10,
       "title": "No Limits Left",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12,
+          "name": "Yong Yi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0535107
+        },
+        {
+          "person_id": 13,
+          "name": "Li Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049953
+        }
+      ]
     },
     {
       "id": "song:11459",
-      "song_id": 11459,
+      "work_type": "Song",
+      "work_id": 11459,
       "title": "Glacial Pulse",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -41,11 +64,61 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12,
+          "name": "Yong Yi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0535107
+        },
+        {
+          "person_id": 11460,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0500538
+        },
+        {
+          "person_id": 13,
+          "name": "Li Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049953
+        },
+        {
+          "person_id": 11461,
+          "name": "Juan Song",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4027152
+        },
+        {
+          "person_id": 11462,
+          "name": "Juan Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4027152
+        }
+      ]
     },
     {
       "id": "song:14322",
-      "song_id": 14322,
+      "work_type": "Song",
+      "work_id": 14322,
       "title": "Telegrams from Tomorrow",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -54,18 +127,40 @@
       "own": true,
       "artist_id": 11,
       "artist_name": "Gang Long",
-      "influence": 28,
+      "influence": 32,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
         "reference": 5,
-        "style": 4
+        "style": 6
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11460,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0500538
+        },
+        {
+          "person_id": 14323,
+          "name": "Yong Tian",
+          "stage_name": "Trey Lawson",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.118223
+        }
+      ]
     },
     {
       "id": "song:2567",
-      "song_id": 2567,
+      "work_type": "Song",
+      "work_id": 2567,
       "title": "Ballad of the Noble Wanderer",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -83,11 +178,183 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2568,
+          "name": "Ping Cai",
+          "stage_name": " Tessa Blake",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2569,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2570,
+          "name": "Yong Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2571,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        }
+      ]
+    },
+    {
+      "id": "album:2633",
+      "work_type": "Album",
+      "work_id": 2633,
+      "title": "Stoop Stories",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2634,
+      "artist_name": "Chao Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        }
+      ]
+    },
+    {
+      "id": "album:2709",
+      "work_type": "Album",
+      "work_id": 2709,
+      "title": "Emotional Overture",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 207,
+      "artist_name": "Juan Jia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 207,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7139308
+        },
+        {
+          "person_id": 2713,
+          "name": "Yan Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4369535
+        },
+        {
+          "person_id": 2712,
+          "name": "Yong Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0782247
+        },
+        {
+          "person_id": 2710,
+          "name": "Guiying Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3876827
+        },
+        {
+          "person_id": 2711,
+          "name": "Kristina Sanchez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3876827
+        }
       ]
     },
     {
       "id": "song:5389",
-      "song_id": 5389,
+      "work_type": "Song",
+      "work_id": 5389,
       "title": "If Only You Had Stayed in Your Hometown",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -105,11 +372,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5391,
+          "name": "Yan Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4088352
+        },
+        {
+          "person_id": 5390,
+          "name": "Wei Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4080405
+        }
       ]
     },
     {
       "id": "song:6820",
-      "song_id": 6820,
+      "work_type": "Song",
+      "work_id": 6820,
       "title": "Azure Escape",
       "genre": "Space Rock",
       "notable": true,
@@ -127,11 +416,62 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6821,
+          "name": "Debra Avery",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399471
+        },
+        {
+          "person_id": 6822,
+          "name": "Chao Lin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399471
+        },
+        {
+          "person_id": 6823,
+          "name": "Xia Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399471
+        },
+        {
+          "person_id": 6824,
+          "name": "Guiying Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994503
+        },
+        {
+          "person_id": 6825,
+          "name": "Jie Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994503
+        }
       ]
     },
     {
       "id": "song:7897",
-      "song_id": 7897,
+      "work_type": "Song",
+      "work_id": 7897,
       "title": "Cloudscape of Resistance",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -149,11 +489,78 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 207,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7139308
+        },
+        {
+          "person_id": 2713,
+          "name": "Yan Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4369535
+        },
+        {
+          "person_id": 2712,
+          "name": "Yong Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0782247
+        },
+        {
+          "person_id": 7898,
+          "name": "Ante Wagenknecht",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0594482
+        },
+        {
+          "person_id": 7900,
+          "name": "Rachel Stein",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0404778
+        },
+        {
+          "person_id": 7899,
+          "name": "Min Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.416046
+        },
+        {
+          "person_id": 7901,
+          "name": "Xiuying Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.416046
+        }
       ]
     },
     {
       "id": "song:8602",
-      "song_id": 8602,
+      "work_type": "Song",
+      "work_id": 8602,
       "title": "Spine Signals",
       "genre": "Dream Pop",
       "notable": true,
@@ -171,11 +578,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 1084,
+          "name": "Qiang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179704
+        },
+        {
+          "person_id": 8603,
+          "name": "Lei Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982284
+        }
       ]
     },
     {
       "id": "song:11509",
-      "song_id": 11509,
+      "work_type": "Song",
+      "work_id": 11509,
       "title": "Mirror, Mirror",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -193,11 +631,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11510,
+          "name": "Todd Thompson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984847
+        },
+        {
+          "person_id": 11511,
+          "name": "Trevor Singh",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398423
+        },
+        {
+          "person_id": 11512,
+          "name": "Jody Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398423
+        },
+        {
+          "person_id": 11513,
+          "name": "Tonya Wright",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398423
+        }
       ]
     },
     {
       "id": "song:12429",
-      "song_id": 12429,
+      "work_type": "Song",
+      "work_id": 12429,
       "title": "Sonic Magnitude",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -215,11 +692,78 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 10770,
+          "name": "Brian Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0460484
+        },
+        {
+          "person_id": 12430,
+          "name": "Xia Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961723
+        },
+        {
+          "person_id": 12431,
+          "name": "Juan Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961723
+        },
+        {
+          "person_id": 12432,
+          "name": "Guiying Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961723
+        },
+        {
+          "person_id": 12433,
+          "name": "Jun Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961723
+        }
       ]
     },
     {
       "id": "song:15121",
-      "song_id": 15121,
+      "work_type": "Song",
+      "work_id": 15121,
       "title": "Tangent",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -237,14 +781,52 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15123,
+          "name": "Tao Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397896
+        },
+        {
+          "person_id": 15124,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978622
+        },
+        {
+          "person_id": 15125,
+          "name": "Xia Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978622
+        },
+        {
+          "person_id": 15122,
+          "name": "Juan Xiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977475
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5389",
+      "source": "song:10",
       "target": "song:14322",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:11459",
@@ -252,9 +834,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:8602",
+      "source": "album:2633",
       "target": "song:14322",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2567",
+      "target": "song:14322",
+      "type": "CoverOf"
     },
     {
       "source": "song:7897",
@@ -267,14 +854,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:12429",
+      "source": "song:5389",
       "target": "song:14322",
       "type": "InStyleOf"
     },
     {
-      "source": "song:2567",
+      "source": "album:2709",
       "target": "song:14322",
-      "type": "CoverOf"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15121",
+      "target": "song:14322",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:6820",
@@ -282,14 +874,14 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:10",
+      "source": "song:8602",
       "target": "song:14322",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:15121",
+      "source": "song:12429",
       "target": "song:14322",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     }
   ]
 }

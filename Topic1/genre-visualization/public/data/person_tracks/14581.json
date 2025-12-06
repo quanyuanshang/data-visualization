@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14580",
-      "song_id": 14580,
+      "work_type": "Song",
+      "work_id": 14580,
       "title": "Matchstick Memories",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9242,
+          "name": "Reyansh Bir",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0433705
+        },
+        {
+          "person_id": 14582,
+          "name": "Sharon Bray",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987837
+        },
+        {
+          "person_id": 14583,
+          "name": "James Bauer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987837
+        }
+      ]
     },
     {
       "id": "song:9240",
-      "song_id": 9240,
+      "work_type": "Song",
+      "work_id": 9240,
       "title": "Echoes of Survival",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +75,35 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9242,
+          "name": "Reyansh Bir",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0433705
+        },
+        {
+          "person_id": 9241,
+          "name": "Charvi Taneja",
+          "stage_name": " Prism Knight",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398379
+        },
+        {
+          "person_id": 9243,
+          "name": "Zain Datta",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398379
+        }
       ]
     }
   ],

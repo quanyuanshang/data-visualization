@@ -1,0 +1,127 @@
+{
+  "person_id": 8336,
+  "name": "Donna Bennett",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:8335",
+      "work_type": "Album",
+      "work_id": 8335,
+      "title": "Maternal Landscape",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 8336,
+      "artist_name": "Donna Bennett",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8337,
+          "name": "Christine Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398209
+        },
+        {
+          "person_id": 8338,
+          "name": "Matthew Crawford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398209
+        }
+      ]
+    },
+    {
+      "id": "song:7313",
+      "work_type": "Song",
+      "work_id": 7313,
+      "title": "Cosmic Corridor Cadence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7314,
+      "artist_name": "Jacob Ramirez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7314,
+          "name": "Jacob Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39927
+        },
+        {
+          "person_id": 7315,
+          "name": "Margaret Vargas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39927
+        },
+        {
+          "person_id": 7317,
+          "name": "Chris Ward",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985343
+        },
+        {
+          "person_id": 7318,
+          "name": "Gemma Gentilini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985343
+        },
+        {
+          "person_id": 7316,
+          "name": "Terri Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978572
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7313",
+      "target": "album:8335",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

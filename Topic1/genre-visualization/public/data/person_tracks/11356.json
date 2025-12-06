@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11354",
-      "song_id": 11354,
+      "work_type": "Song",
+      "work_id": 11354,
       "title": "Bleeding Hearts and Razor Blades",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11355,
+          "name": "Erin Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398387
+        }
+      ]
     },
     {
       "id": "song:9061",
-      "song_id": 9061,
+      "work_type": "Song",
+      "work_id": 9061,
       "title": "Silvered Leaves, Softly Singing",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,11 +57,25 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
       ]
     },
     {
       "id": "song:11159",
-      "song_id": 11159,
+      "work_type": "Song",
+      "work_id": 11159,
       "title": "Harmony's Whisper",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -65,11 +93,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 11160,
+          "name": "Kornelia Pędzik",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977542
+        }
       ]
     },
     {
       "id": "song:12202",
-      "song_id": 12202,
+      "work_type": "Song",
+      "work_id": 12202,
       "title": "The Invisible Thread",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -87,10 +137,36 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8833,
+          "name": "Lori Lee",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7165387
+        },
+        {
+          "person_id": 12203,
+          "name": "Joe Mccarthy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980837
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:11159",
+      "target": "song:11354",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:12202",
       "target": "song:11354",
@@ -98,11 +174,6 @@
     },
     {
       "source": "song:9061",
-      "target": "song:11354",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:11159",
       "target": "song:11354",
       "type": "LyricalReferenceTo"
     }

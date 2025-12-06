@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2398",
-      "song_id": 2398,
+      "work_type": "Song",
+      "work_id": 2398,
       "title": "Numbers Between The Stars",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,120 @@
       "own": true,
       "artist_id": 2401,
       "artist_name": "Lori Martin",
-      "influence": 5,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1648,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.113899
+        },
+        {
+          "person_id": 2400,
+          "name": "Yan Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9295175
+        },
+        {
+          "person_id": 1645,
+          "name": "Yong Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0170877
+        },
+        {
+          "person_id": 2399,
+          "name": "Juan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959913
+        }
+      ]
+    },
+    {
+      "id": "album:7147",
+      "work_type": "Album",
+      "work_id": 7147,
+      "title": "Distant Horizons",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 7148,
+      "artist_name": "Gang Xiong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7148,
+          "name": "Gang Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.453465
+        },
+        {
+          "person_id": 7150,
+          "name": "Qiang Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3794196
+        },
+        {
+          "person_id": 7151,
+          "name": "Yong Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3794196
+        },
+        {
+          "person_id": 7149,
+          "name": "Li Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3793988
+        }
+      ]
     },
     {
       "id": "song:8714",
-      "song_id": 8714,
+      "work_type": "Song",
+      "work_id": 8714,
       "title": "Luminous Silence",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,10 +146,36 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8716,
+          "name": "Xiuying Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0386195
+        },
+        {
+          "person_id": 8715,
+          "name": "Ann Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980753
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:7147",
+      "target": "song:2398",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:8714",
       "target": "song:2398",

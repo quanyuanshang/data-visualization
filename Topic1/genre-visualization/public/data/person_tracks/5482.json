@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5480",
-      "song_id": 5480,
+      "work_type": "Song",
+      "work_id": 5480,
       "title": "Whispers of Our Silent Agreement",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,34 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.343267
+        },
+        {
+          "person_id": 5481,
+          "name": "Min Zhao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297187
+        }
+      ]
     },
     {
       "id": "song:15424",
-      "song_id": 15424,
+      "work_type": "Song",
+      "work_id": 15424,
       "title": "Ozvěny Nebeského Jména",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,6 +67,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 13169,
+          "name": "Xiulan Sun",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.02761
+        }
       ]
     }
   ],

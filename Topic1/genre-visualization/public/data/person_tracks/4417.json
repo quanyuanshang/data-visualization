@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4415",
-      "song_id": 4415,
+      "work_type": "Song",
+      "work_id": 4415,
       "title": "Restart: Unwritten Horizons",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,66 @@
       "own": true,
       "artist_id": 4417,
       "artist_name": "Li Hou",
-      "influence": 2,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 779,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3984494
+        },
+        {
+          "person_id": 302,
+          "name": "Cindy Lübs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2672186
+        },
+        {
+          "person_id": 4418,
+          "name": "Jun Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.256413
+        },
+        {
+          "person_id": 4419,
+          "name": "Meike van Boven",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7124412
+        },
+        {
+          "person_id": 4416,
+          "name": "Jun Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0467672
+        }
+      ]
     },
     {
       "id": "song:773",
-      "song_id": 773,
+      "work_type": "Song",
+      "work_id": 773,
       "title": "Whispers in Mother's Arms",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +92,124 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 779,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3984494
+        },
+        {
+          "person_id": 777,
+          "name": "Xiulan Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0273669
+        },
+        {
+          "person_id": 774,
+          "name": "Tao Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        },
+        {
+          "person_id": 775,
+          "name": "Virginia Stuart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        },
+        {
+          "person_id": 776,
+          "name": "David Hebert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        },
+        {
+          "person_id": 778,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        }
+      ]
+    },
+    {
+      "id": "album:16200",
+      "work_type": "Album",
+      "work_id": 16200,
+      "title": "Unspoken Wonders",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 202,
+      "artist_name": "Guiying Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2591,
+          "name": "Theresa Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.397802
+        },
+        {
+          "person_id": 202,
+          "name": "Guiying Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051494
+        },
+        {
+          "person_id": 6814,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0502255
+        },
+        {
+          "person_id": 16201,
+          "name": "Jun Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973932
+        }
       ]
     }
   ],
@@ -51,6 +218,11 @@
       "source": "song:773",
       "target": "song:4415",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:16200",
+      "target": "song:4415",
+      "type": "InterpolatesFrom"
     }
   ]
 }

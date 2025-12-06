@@ -1,0 +1,126 @@
+{
+  "person_id": 2671,
+  "name": "Ignacy Henke",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2670",
+      "work_type": "Album",
+      "work_id": 2670,
+      "title": "Electric Motion",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 2671,
+      "artist_name": "Ignacy Henke",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2672,
+          "name": "Cyprian Ziniewicz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8169837
+        },
+        {
+          "person_id": 2674,
+          "name": "Lidia Szpyt",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4211178
+        },
+        {
+          "person_id": 2673,
+          "name": "Marcin Maksimowicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0682542
+        }
+      ]
+    },
+    {
+      "id": "song:5923",
+      "work_type": "Song",
+      "work_id": 5923,
+      "title": "Kurashiki Blues",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5924,
+      "artist_name": "Na Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5924,
+          "name": "Na Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5925,
+          "name": "Jie Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5926,
+          "name": "Lei Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5927,
+          "name": "Megan Marsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5923",
+      "target": "album:2670",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

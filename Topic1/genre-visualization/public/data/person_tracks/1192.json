@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:1190",
-      "song_id": 1190,
-      "title": "Spinning Threads of Power",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2032,
-      "single": false,
-      "own": true,
-      "artist_id": 1192,
-      "artist_name": "Brittany Harvey",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:4624",
-      "song_id": 4624,
+      "work_type": "Song",
+      "work_id": 4624,
       "title": "Street Corner Childhood Echoes",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,7 +22,70 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4625,
+          "name": "Ming Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0545905
+        },
+        {
+          "person_id": 1193,
+          "name": "Elizabeth Parker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040406
+        }
+      ]
+    },
+    {
+      "id": "song:1190",
+      "work_type": "Song",
+      "work_id": 1190,
+      "title": "Spinning Threads of Power",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2032,
+      "single": false,
+      "own": true,
+      "artist_id": 1192,
+      "artist_name": "Brittany Harvey",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1193,
+          "name": "Elizabeth Parker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040406
+        },
+        {
+          "person_id": 1191,
+          "name": "Amanda Cole",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982728
+        }
+      ]
     }
   ],
   "links": []

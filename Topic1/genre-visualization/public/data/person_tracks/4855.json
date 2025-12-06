@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13823",
-      "song_id": 13823,
+      "work_type": "Song",
+      "work_id": 13823,
       "title": "Verses Unfolding",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 4855,
       "artist_name": "Andrea Miller",
-      "influence": 5,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 1,
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.3909693
+        }
+      ]
     },
     {
       "id": "song:4854",
-      "song_id": 4854,
+      "work_type": "Song",
+      "work_id": 4854,
       "title": "Echoes from the Vatican Walls",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,19 +55,146 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:6100",
+      "work_type": "Album",
+      "work_id": 6100,
+      "title": "Perseus' Promise",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 680,
+      "artist_name": "Todd Maldonado",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 680,
+          "name": "Todd Maldonado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9425237
+        },
+        {
+          "person_id": 6101,
+          "name": "Juan Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3781717
+        }
+      ]
+    },
+    {
+      "id": "album:8115",
+      "work_type": "Album",
+      "work_id": 8115,
+      "title": "Switchboard Serenade",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": false,
+      "artist_id": 8116,
+      "artist_name": "Samar Sarma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 425,
+          "name": "Hazel Kara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9262712
+        },
+        {
+          "person_id": 4251,
+          "name": "Justin Thomas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0436146
+        },
+        {
+          "person_id": 8116,
+          "name": "Samar Sarma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        },
+        {
+          "person_id": 8117,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        }
+      ]
     },
     {
       "id": "song:17058",
-      "song_id": 17058,
+      "work_type": "Song",
+      "work_id": 17058,
       "title": "Cactus Bloom Serenade",
       "genre": "Desert Rock",
       "notable": true,
       "release_year": 2033,
       "single": true,
       "own": false,
-      "artist_id": 17054,
-      "artist_name": "Jax Holloway",
+      "artist_id": 17057,
+      "artist_name": "Desert Echoes（成员：Jax Holloway｜预测 2.40、Riley Vex｜预测 2.40…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -63,11 +204,41 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17054,
+          "name": "Jax Holloway",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4045684
+        },
+        {
+          "person_id": 17055,
+          "name": "Riley Vex",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4045684
+        },
+        {
+          "person_id": 17056,
+          "name": "Ash Mercer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3998055
+        }
       ]
     },
     {
       "id": "song:8708",
-      "song_id": 8708,
+      "work_type": "Song",
+      "work_id": 8708,
       "title": "Canvas Whispers",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -85,11 +256,32 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
       ]
     },
     {
       "id": "song:10453",
-      "song_id": 10453,
+      "work_type": "Song",
+      "work_id": 10453,
       "title": "Whispers of Devotion",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -107,11 +299,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 10455,
+          "name": "Nathaniel Craig",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4762943
+        },
+        {
+          "person_id": 10456,
+          "name": "Kayla Roberson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947513
+        },
+        {
+          "person_id": 10454,
+          "name": "Jamie Smith",
+          "stage_name": " Nova",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946335
+        }
       ]
     },
     {
       "id": "song:12042",
-      "song_id": 12042,
+      "work_type": "Song",
+      "work_id": 12042,
       "title": "Gentle Heart's Embrace",
       "genre": "Southern Gothic Rock",
       "notable": false,
@@ -129,11 +361,32 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 10455,
+          "name": "Nathaniel Craig",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4762943
+        }
       ]
     },
     {
       "id": "song:13984",
-      "song_id": 13984,
+      "work_type": "Song",
+      "work_id": 13984,
       "title": "Whispers of a Poet's Ink",
       "genre": "Indie Pop",
       "notable": true,
@@ -151,19 +404,49 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 5281,
+          "name": "Ismet Heser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.118744
+        }
       ]
     },
     {
       "id": "song:17368",
-      "song_id": 17368,
+      "work_type": "Song",
+      "work_id": 17368,
       "title": "Shadows in Smuggler's Cove",
       "genre": "Oceanus Folk",
       "notable": true,
       "release_year": 2035,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17361,
+      "artist_name": "Copper Canyon Ghosts（成员：Beatrice Albright (Bea Azure)｜预测 4.19、Daniel O'Connell (Kael Storm)｜预测 4.22）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -173,19 +456,40 @@
       },
       "relation_types": [
         "DirectlySamples"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
+    {
+      "source": "song:10453",
+      "target": "song:4854",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:8115",
+      "target": "song:13823",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:6100",
+      "target": "song:13823",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13984",
+      "target": "song:4854",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:12042",
       "target": "song:4854",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:10453",
-      "target": "song:4854",
-      "type": "InStyleOf"
+      "source": "song:17058",
+      "target": "song:13823",
+      "type": "CoverOf"
     },
     {
       "source": "song:17368",
@@ -196,16 +500,6 @@
       "source": "song:8708",
       "target": "song:4854",
       "type": "CoverOf"
-    },
-    {
-      "source": "song:17058",
-      "target": "song:13823",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:13984",
-      "target": "song:4854",
-      "type": "InStyleOf"
     }
   ]
 }

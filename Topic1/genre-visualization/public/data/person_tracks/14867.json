@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14864",
-      "song_id": 14864,
+      "work_type": "Song",
+      "work_id": 14864,
       "title": "Harmony of Strangers",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,58 @@
       "own": true,
       "artist_id": 14867,
       "artist_name": "Henry Gross",
-      "influence": 4,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12082,
+          "name": "Rolando Gagliardi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.081246
+        },
+        {
+          "person_id": 12624,
+          "name": "Jacob Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0307264
+        },
+        {
+          "person_id": 14865,
+          "name": "John Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3938076
+        },
+        {
+          "person_id": 14866,
+          "name": "Marcus Stewart",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3938076
+        }
+      ]
     },
     {
       "id": "song:10544",
-      "song_id": 10544,
+      "work_type": "Song",
+      "work_id": 10544,
       "title": "Fragments of You",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +84,95 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10546,
+          "name": "Juan Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981013
+        },
+        {
+          "person_id": 10548,
+          "name": "Alisha Hartman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981013
+        },
+        {
+          "person_id": 10545,
+          "name": "Ming Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980806
+        },
+        {
+          "person_id": 10547,
+          "name": "Na Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980806
+        }
+      ]
+    },
+    {
+      "id": "album:12623",
+      "work_type": "Album",
+      "work_id": 12623,
+      "title": "Echoes of Consciousness",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 12082,
+      "artist_name": "Rolando Gagliardi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12082,
+          "name": "Rolando Gagliardi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.081246
+        },
+        {
+          "person_id": 12624,
+          "name": "Jacob Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0307264
+        }
       ]
     },
     {
       "id": "song:14696",
-      "song_id": 14696,
+      "work_type": "Song",
+      "work_id": 14696,
       "title": "Constellations of Cosmic Chance",
       "genre": "Synthpop",
       "notable": false,
@@ -65,17 +190,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12082,
+          "name": "Rolando Gagliardi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.081246
+        },
+        {
+          "person_id": 12624,
+          "name": "Jacob Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0307264
+        },
+        {
+          "person_id": 3725,
+          "name": "Donato Mocenigo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4762352
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10544",
+      "source": "song:14696",
       "target": "song:14864",
       "type": "InStyleOf"
     },
     {
-      "source": "song:14696",
+      "source": "album:12623",
+      "target": "song:14864",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10544",
       "target": "song:14864",
       "type": "InStyleOf"
     }

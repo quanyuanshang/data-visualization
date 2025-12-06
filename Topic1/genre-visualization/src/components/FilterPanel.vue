@@ -6,6 +6,38 @@
     </div>
     
     <div class="panel-content">
+      
+      <!-- 0. 超新星模式切换 (New Feature) -->
+      <div class="filter-section superstar-section">
+         <div class="section-header">
+            <label class="filter-label" style="color: #ffd700;">★ 音乐超新星</label>
+            <label class="switch">
+              <input type="checkbox" :checked="isSuperstarMode" @change="toggleSuperstar">
+              <span class="slider round"></span>
+            </label>
+         </div>
+         
+         <div v-if="isSuperstarMode" class="superstar-controls">
+             <label class="filter-label-small">显示前 N 名候选人</label>
+             <div class="range-input-group">
+                <input 
+                  type="range" 
+                  v-model.number="superstarCount" 
+                  min="10" 
+                  max="1000" 
+                  step="10"
+                  @input="emitSuperstarCount"
+                />
+                <span class="range-value">{{ superstarCount }}</span>
+              </div>
+              <p class="hint-text">
+                基于AI模型预测具有高潜力的未来之星。图表将显示他们在各流派的分布。
+              </p>
+         </div>
+      </div>
+
+      <div class="divider"></div>
+
       <!-- 1. 流派核心筛选 (统一入口) -->
       <div class="filter-section">
         <div class="section-header">
@@ -48,61 +80,65 @@
       <!-- 2. 音乐人指标筛选 (仅在单选流派时出现) -->
       <div class="artist-filters-container" v-if="isSingleGenreSelected">
         <div class="section-title">
-          <h3>{{ selectedGenresForTimeline[0] }} 音乐人筛选</h3>
+          <h3>{{ selectedGenresForTimeline[0] }} {{ isSuperstarMode ? '超新星列表' : '音乐人筛选' }}</h3>
         </div>
 
-        <div class="filter-section">
-          <label class="filter-label">排序指标</label>
-          <select 
-            v-model="selectedMetric" 
-            class="filter-select"
-            @change="handleFilterChange"
-          >
-            <option value="score">综合评分</option>
-            <option value="total_works">总作品数</option>
-            <option value="notable_rate">成名率</option>
-            <option value="notable_works">成名作品数</option>
-            <option value="time_span">活跃时长</option>
-            <option value="influence_score">影响力分数</option>
-            <option value="collaborators_count">合作者数量</option>
-          </select>
-        </div>
-
-        <div class="filter-section">
-          <label class="filter-label">显示前 N 名</label>
-          <div class="range-input-group">
-            <input 
-              type="range" 
-              v-model.number="topN" 
-              min="10" 
-              :max="maxTopN" 
-              step="10"
+        <!-- 普通模式下显示筛选器，超新星模式下大部分筛选器不适用，只显示更新按钮 -->
+        <div v-if="!isSuperstarMode">
+          <div class="filter-section">
+            <label class="filter-label">排序指标</label>
+            <select 
+              v-model="selectedMetric" 
+              class="filter-select"
               @change="handleFilterChange"
-            />
-            <span class="range-value">{{ topN }}</span>
+            >
+              <option value="score">综合评分</option>
+              <option value="total_works">总作品数</option>
+              <option value="notable_rate">成名率</option>
+              <option value="notable_works">成名作品数</option>
+              <option value="time_span">活跃时长</option>
+              <option value="influence_score">影响力分数</option>
+              <option value="collaborators_count">合作者数量</option>
+            </select>
+          </div>
+
+          <div class="filter-section">
+            <label class="filter-label">显示前 N 名</label>
+            <div class="range-input-group">
+              <input 
+                type="range" 
+                v-model.number="topN" 
+                min="10" 
+                :max="maxTopN" 
+                step="10"
+                @change="handleFilterChange"
+              />
+              <span class="range-value">{{ topN }}</span>
+            </div>
           </div>
         </div>
-
+        
         <div class="filter-section">
           <button 
             class="apply-button"
+            :class="{ 'superstar-btn': isSuperstarMode }"
             @click="handleApplyArtistFilter"
           >
-            更新音乐人视图
+            {{ isSuperstarMode ? '查看超新星详情' : '更新音乐人视图' }}
           </button>
         </div>
         
         <!-- 当前筛选状态展示 -->
         <div class="filter-info">
           <div class="info-item">
-            <span class="info-label">可用音乐人：</span>
+            <span class="info-label">可用人数：</span>
             <span class="info-value">{{ currentArtistsCount }} 位</span>
           </div>
         </div>
       </div>
 
       <div v-else class="empty-state">
-        <p>👉 勾选<b>单个流派</b>并点击“更新”以查看该流派下的详细音乐人列表。</p>
+        <p>👉 勾选<b>单个流派</b>并点击“更新”以查看该流派下的详细{{ isSuperstarMode ? '超新星' : '音乐人' }}列表。</p>
         <p v-if="selectedGenresForTimeline.length > 1" class="hint">当前已选 {{ selectedGenresForTimeline.length }} 个流派，下方为流派对比模式。</p>
       </div>
 
@@ -142,16 +178,24 @@ const props = defineProps({
   isArtistView: {
     type: Boolean,
     default: false
+  },
+  isSuperstarMode: {
+    type: Boolean,
+    default: false
   }
 })
 
 // ==================== Emits ====================
-const emit = defineEmits(['apply-filter', 'refine-filter', 'timeline-filter-change', 'open-relation-view'])
+const emit = defineEmits([
+  'apply-filter', 'refine-filter', 'timeline-filter-change', 'open-relation-view',
+  'toggle-superstar-mode', 'update-superstar-count'
+])
 
 // ==================== 响应式数据 ====================
 const selectedGenresForTimeline = ref([]) // 复选框绑定的数据
 const selectedMetric = ref('score')
 const topN = ref(100)
+const superstarCount = ref(100)
 
 // ==================== 计算属性 ====================
 
@@ -168,6 +212,14 @@ const maxTopN = computed(() => {
 
 // ==================== 方法 ====================
 
+function toggleSuperstar(e) {
+  emit('toggle-superstar-mode', e.target.checked)
+}
+
+function emitSuperstarCount() {
+  emit('update-superstar-count', superstarCount.value)
+}
+
 /**
  * 监听复选框变化
  * 修改：仅通知父组件更新时间线和高亮，不自动切换视图
@@ -175,8 +227,6 @@ const maxTopN = computed(() => {
 watch(selectedGenresForTimeline, (newVal) => {
   // 1. 通知父组件更新时间线视图 & 主视图高亮
   emit('timeline-filter-change', newVal)
-  
-  // 移除自动切换到 artists view 的逻辑
 }, { deep: true })
 
 function handleFilterChange() {
@@ -255,6 +305,24 @@ watch(() => props.currentGenre, (newGenre) => {
   padding: 20px;
 }
 
+.superstar-section {
+  background: rgba(255, 215, 0, 0.05);
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.superstar-controls {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.hint-text {
+  font-size: 11px;
+  color: #999;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
 .section-header {
   display: flex;
   justify-content: space-between;
@@ -269,6 +337,42 @@ watch(() => props.currentGenre, (newGenre) => {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
+.filter-label-small {
+  font-size: 12px;
+  color: #ccc;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Switch Toggle */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 18px;
+}
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #444;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px; width: 14px;
+  left: 2px; bottom: 2px;
+  background-color: white;
+  transition: .4s;
+}
+input:checked + .slider { background-color: #ffd700; }
+input:checked + .slider:before { transform: translateX(16px); }
+.slider.round { border-radius: 34px; }
+.slider.round:before { border-radius: 50%; }
+
 
 .header-actions {
   display: flex;
@@ -421,6 +525,14 @@ watch(() => props.currentGenre, (newGenre) => {
 
 .apply-button:hover {
   background: #5a6fd6;
+}
+
+.apply-button.superstar-btn {
+  background: #d4af37;
+  color: #000;
+}
+.apply-button.superstar-btn:hover {
+  background: #ffd700;
 }
 
 .relation-view-button {

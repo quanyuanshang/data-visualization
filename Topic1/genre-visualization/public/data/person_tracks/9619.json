@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11696",
-      "song_id": 11696,
+      "work_type": "Song",
+      "work_id": 11696,
       "title": "Digital Reed",
       "genre": "Synthwave",
       "notable": true,
@@ -21,8 +22,126 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11697,
+          "name": "Jamie Castro",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983288
+        },
+        {
+          "person_id": 11698,
+          "name": "Bradley Reeves Jr.",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398308
+        }
+      ]
+    },
+    {
+      "id": "album:9618",
+      "work_type": "Album",
+      "work_id": 9618,
+      "title": "The Crackle of Yesteryear",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 9619,
+      "artist_name": "Shelby Kelly",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9620,
+          "name": "John Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4128458
+        }
+      ]
+    },
+    {
+      "id": "song:15185",
+      "work_type": "Song",
+      "work_id": 15185,
+      "title": "Echoes of the Throne",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 15187,
+      "artist_name": "Juan Du",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2728,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0565815
+        },
+        {
+          "person_id": 15186,
+          "name": "Jie Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3987978
+        },
+        {
+          "person_id": 15187,
+          "name": "Juan Du",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987978
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:15185",
+      "target": "album:9618",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11696",
+      "target": "album:9618",
+      "type": "CoverOf"
+    }
+  ]
 }

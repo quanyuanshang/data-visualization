@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1935",
-      "song_id": 1935,
+      "work_type": "Song",
+      "work_id": 1935,
       "title": "Solitary Stride",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1937,
+          "name": "Rodney Moss",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3903925
+        }
+      ]
     },
     {
       "id": "song:10935",
-      "song_id": 10935,
+      "work_type": "Song",
+      "work_id": 10935,
       "title": "Fragments of a Forgotten Signal",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,6 +57,37 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3259,
+          "name": "Na Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.716632
+        },
+        {
+          "person_id": 2974,
+          "name": "Ming Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7139742
+        },
+        {
+          "person_id": 10936,
+          "name": "Julia Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.389478
+        }
       ]
     }
   ],

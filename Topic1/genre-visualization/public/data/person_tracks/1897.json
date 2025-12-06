@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1895",
-      "song_id": 1895,
+      "work_type": "Song",
+      "work_id": 1895,
       "title": "Yeni Doğan Devrim (Newborn Revolution)",
       "genre": "Desert Rock",
       "notable": true,
@@ -21,8 +22,76 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1896,
+          "name": "Na Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990657
+        }
+      ]
+    },
+    {
+      "id": "album:12652",
+      "work_type": "Album",
+      "work_id": 12652,
+      "title": "Primal Court of Reckoning",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 1897,
+      "artist_name": "Li Shao",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12653,
+          "name": "Lei Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39841
+        },
+        {
+          "person_id": 12654,
+          "name": "Xiulan Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.39841
+        },
+        {
+          "person_id": 12655,
+          "name": "Xia Meng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982403
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:1895",
+      "target": "album:12652",
+      "type": "CoverOf"
+    }
+  ]
 }

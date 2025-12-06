@@ -4,8 +4,59 @@
   "stage_name": "Sable",
   "nodes": [
     {
+      "id": "album:11701",
+      "work_type": "Album",
+      "work_id": 11701,
+      "title": "Carbon Breath",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 11702,
+      "artist_name": "Hans-Gerhard Kuhl (Sable)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11703,
+          "name": "Annaliese Bolnbach",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 11704,
+          "name": "Jens-Peter Mosemann",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 11705,
+          "name": "Hinrich Dörschner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448692
+        }
+      ]
+    },
+    {
       "id": "song:12892",
-      "song_id": 12892,
+      "work_type": "Song",
+      "work_id": 12892,
       "title": "Memories Never Fade",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,8 +72,191 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11703,
+          "name": "Annaliese Bolnbach",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 11704,
+          "name": "Jens-Peter Mosemann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 11705,
+          "name": "Hinrich Dörschner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 2074,
+          "name": "Jean Buisson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0447168
+        },
+        {
+          "person_id": 8871,
+          "name": "Rossana Colletti",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380108
+        }
+      ]
+    },
+    {
+      "id": "album:445",
+      "work_type": "Album",
+      "work_id": 445,
+      "title": "Twilight at Saint-Genevieve",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 446,
+      "artist_name": "Joseph Vargas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 446,
+          "name": "Joseph Vargas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980255
+        },
+        {
+          "person_id": 447,
+          "name": "Keith Harrison",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395573
+        }
+      ]
+    },
+    {
+      "id": "song:12892",
+      "work_type": "Song",
+      "work_id": 12892,
+      "title": "Memories Never Fade",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 2074,
+      "artist_name": "Jean Buisson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11702,
+          "name": "Hans-Gerhard Kuhl",
+          "stage_name": "Sable",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 11703,
+          "name": "Annaliese Bolnbach",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 11704,
+          "name": "Jens-Peter Mosemann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 11705,
+          "name": "Hinrich Dörschner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448692
+        },
+        {
+          "person_id": 2074,
+          "name": "Jean Buisson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0447168
+        },
+        {
+          "person_id": 8871,
+          "name": "Rossana Colletti",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380108
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:445",
+      "target": "album:11701",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12892",
+      "target": "album:11701",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

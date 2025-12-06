@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7863",
-      "song_id": 7863,
+      "work_type": "Song",
+      "work_id": 7863,
       "title": "Dim the World Away",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 7864,
       "artist_name": "Pénélope du Cohen",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6138,
+          "name": "Jeffrey Phillips",
+          "stage_name": "Echelon",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7179081
+        },
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4295757
+        }
+      ]
     },
     {
       "id": "song:12146",
-      "song_id": 12146,
+      "work_type": "Song",
+      "work_id": 12146,
       "title": "Stronghold of Eternal Promise",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,11 +63,75 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4295757
+        },
+        {
+          "person_id": 2471,
+          "name": "Antoine Barthelemy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.389443
+        }
+      ]
+    },
+    {
+      "id": "album:12218",
+      "work_type": "Album",
+      "work_id": 12218,
+      "title": "Crimean Horizon",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 7864,
+      "artist_name": "Pénélope du Cohen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6138,
+          "name": "Jeffrey Phillips",
+          "stage_name": "Echelon",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179081
+        },
+        {
+          "person_id": 12219,
+          "name": "Matthew Phillips",
+          "stage_name": " Max Power",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009702
+        }
+      ]
     },
     {
       "id": "song:14880",
-      "song_id": 14880,
+      "work_type": "Song",
+      "work_id": 14880,
       "title": "Whispers of the Watery Grave",
       "genre": "Indie Folk",
       "notable": true,
@@ -61,11 +147,104 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4295757
+        },
+        {
+          "person_id": 2471,
+          "name": "Antoine Barthelemy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.389443
+        },
+        {
+          "person_id": 14882,
+          "name": "Victoire Roger-Noël",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399569
+        },
+        {
+          "person_id": 14881,
+          "name": "Auguste Perrin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995483
+        }
+      ]
+    },
+    {
+      "id": "album:12218",
+      "work_type": "Album",
+      "work_id": 12218,
+      "title": "Crimean Horizon",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 6138,
+      "artist_name": "Jeffrey Phillips (Echelon)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6138,
+          "name": "Jeffrey Phillips",
+          "stage_name": "Echelon",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179081
+        },
+        {
+          "person_id": 7864,
+          "name": "Pénélope du Cohen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7095792
+        },
+        {
+          "person_id": 12219,
+          "name": "Matthew Phillips",
+          "stage_name": " Max Power",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009702
+        }
+      ]
     },
     {
       "id": "song:14880",
-      "song_id": 14880,
+      "work_type": "Song",
+      "work_id": 14880,
       "title": "Whispers of the Watery Grave",
       "genre": "Indie Folk",
       "notable": true,
@@ -83,6 +262,54 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7864,
+          "name": "Pénélope du Cohen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7095792
+        },
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4295757
+        },
+        {
+          "person_id": 2471,
+          "name": "Antoine Barthelemy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.389443
+        },
+        {
+          "person_id": 14882,
+          "name": "Victoire Roger-Noël",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399569
+        },
+        {
+          "person_id": 14881,
+          "name": "Auguste Perrin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995483
+        }
       ]
     }
   ],
@@ -91,6 +318,11 @@
       "source": "song:14880",
       "target": "song:12146",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:12218",
+      "target": "song:7863",
+      "type": "InStyleOf"
     }
   ]
 }

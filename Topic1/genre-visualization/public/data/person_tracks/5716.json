@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5711",
-      "song_id": 5711,
+      "work_type": "Song",
+      "work_id": 5711,
       "title": "Crimson Coat, White Beard",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,149 @@
       "own": true,
       "artist_id": 5716,
       "artist_name": "Jie Yan",
-      "influence": 5,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
         "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 977,
+          "name": "Yong Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0326262
+        },
+        {
+          "person_id": 5712,
+          "name": "Yang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991296
+        },
+        {
+          "person_id": 5713,
+          "name": "James Torres",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991296
+        },
+        {
+          "person_id": 5714,
+          "name": "Ping Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991296
+        },
+        {
+          "person_id": 5715,
+          "name": "Ming Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991296
+        },
+        {
+          "person_id": 5717,
+          "name": "Tao Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991296
+        }
+      ]
+    },
+    {
+      "id": "album:3205",
+      "work_type": "Album",
+      "work_id": 3205,
+      "title": "Whispers of the Moonlit Ensemble",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 74,
+      "artist_name": "Min Hu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 3209,
+          "name": "Wei Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7120821
+        },
+        {
+          "person_id": 3208,
+          "name": "Yang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0441458
+        },
+        {
+          "person_id": 3207,
+          "name": "Kenneth Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971016
+        },
+        {
+          "person_id": 3206,
+          "name": "Sarah Gray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3970044
+        }
+      ]
     },
     {
       "id": "song:8852",
-      "song_id": 8852,
+      "work_type": "Song",
+      "work_id": 8852,
       "title": "Echoes of Forgotten Carols",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,6 +175,18 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8853,
+          "name": "Filippa Piane",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399795
+        }
       ]
     }
   ],
@@ -51,6 +195,11 @@
       "source": "song:8852",
       "target": "song:5711",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:3205",
+      "target": "song:5711",
+      "type": "InStyleOf"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2734",
-      "song_id": 2734,
+      "work_type": "Song",
+      "work_id": 2734,
       "title": "Whatever It Takes",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2737,
+          "name": "Jie Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.017226
+        },
+        {
+          "person_id": 2735,
+          "name": "Na Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997838
+        }
+      ]
     },
     {
       "id": "song:8803",
-      "song_id": 8803,
+      "work_type": "Song",
+      "work_id": 8803,
       "title": "Shadows Between the Scales",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -41,8 +64,194 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2737,
+          "name": "Jie Kang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.017226
+        },
+        {
+          "person_id": 8804,
+          "name": "Yan Yi",
+          "stage_name": "Verona Static",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4003592
+        },
+        {
+          "person_id": 8805,
+          "name": "Louis Herman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4003592
+        }
+      ]
+    },
+    {
+      "id": "album:10754",
+      "work_type": "Album",
+      "work_id": 10754,
+      "title": "Unified Steps of Joy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 2736,
+      "artist_name": "Nanami Yoshida",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 817,
+          "name": "Jing Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4223018
+        },
+        {
+          "person_id": 10755,
+          "name": "Qiang Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997169
+        },
+        {
+          "person_id": 10756,
+          "name": "Xia Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997169
+        },
+        {
+          "person_id": 10757,
+          "name": "Ming Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997169
+        },
+        {
+          "person_id": 10758,
+          "name": "Yong Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997169
+        }
+      ]
+    },
+    {
+      "id": "song:1298",
+      "work_type": "Song",
+      "work_id": 1298,
+      "title": "Concrete Kingdom",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1299,
+      "artist_name": "Gang Ye",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1304,
+          "name": "Rüdiger Graf",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5105996
+        },
+        {
+          "person_id": 1302,
+          "name": "Ming Xue",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.436135
+        },
+        {
+          "person_id": 1303,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4350893
+        },
+        {
+          "person_id": 1299,
+          "name": "Gang Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983319
+        },
+        {
+          "person_id": 1301,
+          "name": "Lei Han",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3983319
+        },
+        {
+          "person_id": 1300,
+          "name": "Xia Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977478
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:1298",
+      "target": "album:10754",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

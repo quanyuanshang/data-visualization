@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16084",
-      "song_id": 16084,
+      "work_type": "Song",
+      "work_id": 16084,
       "title": "Curved Bow, Singing Wire",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 7297,
+          "name": "Holger Hiller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429673
+        },
+        {
+          "person_id": 16085,
+          "name": "Micha Weinhage",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4039757
+        }
+      ]
     },
     {
       "id": "song:7296",
-      "song_id": 7296,
+      "work_type": "Song",
+      "work_id": 7296,
       "title": "Intertwined Hearts",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -34,18 +66,49 @@
       "own": true,
       "artist_id": 7298,
       "artist_name": "Guido Dobes",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 3595,
+          "name": "Rouven Ernst",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0497208
+        },
+        {
+          "person_id": 7297,
+          "name": "Holger Hiller",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429673
+        }
+      ]
     },
     {
       "id": "song:7296",
-      "song_id": 7296,
+      "work_type": "Song",
+      "work_id": 7296,
       "title": "Intertwined Hearts",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -63,6 +126,107 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 3595,
+          "name": "Rouven Ernst",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0497208
+        },
+        {
+          "person_id": 7297,
+          "name": "Holger Hiller",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429673
+        },
+        {
+          "person_id": 7298,
+          "name": "Guido Dobes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429673
+        }
+      ]
+    },
+    {
+      "id": "album:3593",
+      "work_type": "Album",
+      "work_id": 3593,
+      "title": "Shadows of Inheritance",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 305,
+      "artist_name": "Bekir Bruder",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 302,
+          "name": "Cindy Lübs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.2672186
+        },
+        {
+          "person_id": 3595,
+          "name": "Rouven Ernst",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0497208
+        },
+        {
+          "person_id": 3594,
+          "name": "Kreszentia Staude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399536
+        }
       ]
     }
   ],
@@ -71,6 +235,11 @@
       "source": "song:7296",
       "target": "song:16084",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:3593",
+      "target": "song:7296",
+      "type": "InterpolatesFrom"
     }
   ]
 }

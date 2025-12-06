@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2379",
-      "song_id": 2379,
+      "work_type": "Song",
+      "work_id": 2379,
       "title": "Unwanted (And Still Waiting)",
       "genre": "Synthpop",
       "notable": true,
@@ -21,31 +22,91 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2380,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978155
+        },
+        {
+          "person_id": 2381,
+          "name": "Steven Berg",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978155
+        },
+        {
+          "person_id": 2382,
+          "name": "Fang Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978155
+        }
+      ]
     },
     {
-      "id": "song:15358",
-      "song_id": 15358,
-      "title": "Buenos Aires Uprising",
-      "genre": "Doom Metal",
+      "id": "album:2959",
+      "work_type": "Album",
+      "work_id": 2959,
+      "title": "Sitaron Ki Kahani",
+      "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2013,
-      "single": true,
+      "release_year": 2028,
+      "single": false,
       "own": true,
       "artist_id": 2383,
       "artist_name": "Xavier Leclerc",
-      "influence": 3,
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2960,
+          "name": "Qiang Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977144
+        },
+        {
+          "person_id": 2961,
+          "name": "Xiulan Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977144
+        },
+        {
+          "person_id": 2962,
+          "name": "Hannah Hopkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977144
+        }
+      ]
     },
     {
       "id": "song:6979",
-      "song_id": 6979,
+      "work_type": "Song",
+      "work_id": 6979,
       "title": "Wilting Love's Garden",
       "genre": "Indie Folk",
       "notable": true,
@@ -61,19 +122,50 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6980,
+          "name": "Guiying Shao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975356
+        },
+        {
+          "person_id": 6981,
+          "name": "Xia Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975356
+        },
+        {
+          "person_id": 6982,
+          "name": "Xia Long",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975356
+        }
+      ]
     },
     {
-      "id": "song:3136",
-      "song_id": 3136,
-      "title": "Softly Ascending Harmonies",
-      "genre": "Desert Rock",
+      "id": "album:14524",
+      "work_type": "Album",
+      "work_id": 14524,
+      "title": "Melodic Exposition",
+      "genre": "Dream Pop",
       "notable": true,
       "release_year": 2027,
-      "single": true,
-      "own": false,
-      "artist_id": 1519,
-      "artist_name": "Min Lei",
+      "single": false,
+      "own": true,
+      "artist_id": 2383,
+      "artist_name": "Xavier Leclerc",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -81,13 +173,118 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14525,
+          "name": "Rodney Hayes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980339
+        },
+        {
+          "person_id": 14526,
+          "name": "Janet Aguilar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980339
+        }
+      ]
+    },
+    {
+      "id": "song:15358",
+      "work_type": "Song",
+      "work_id": 15358,
+      "title": "Buenos Aires Uprising",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 2383,
+      "artist_name": "Xavier Leclerc",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2603,
+          "name": "Gang Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4197462
+        },
+        {
+          "person_id": 6436,
+          "name": "Xiuying Ma",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6437,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6440,
+          "name": "Chao Jiang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6441,
+          "name": "Li Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6442,
+          "name": "Lei Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 15359,
+          "name": "Jorge Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39608
+        }
       ]
     },
     {
       "id": "song:3228",
-      "song_id": 3228,
+      "work_type": "Song",
+      "work_id": 3228,
       "title": "Adriatic Hearts",
       "genre": "Dream Pop",
       "notable": true,
@@ -105,11 +302,61 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3233,
+          "name": "Gang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.930688
+        },
+        {
+          "person_id": 3230,
+          "name": "Juan Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7052958
+        },
+        {
+          "person_id": 3232,
+          "name": "Chao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484867
+        },
+        {
+          "person_id": 3231,
+          "name": "Ming Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9928157
+        },
+        {
+          "person_id": 3229,
+          "name": "Yong Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3940706
+        }
       ]
     },
     {
       "id": "song:10008",
-      "song_id": 10008,
+      "work_type": "Song",
+      "work_id": 10008,
       "title": "The Vengeful Slumber",
       "genre": "Americana",
       "notable": true,
@@ -127,14 +374,106 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4633,
+          "name": "Juan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1070886
+        },
+        {
+          "person_id": 3233,
+          "name": "Gang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.930688
+        },
+        {
+          "person_id": 3230,
+          "name": "Juan Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7052958
+        },
+        {
+          "person_id": 10009,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3945763
+        }
+      ]
+    },
+    {
+      "id": "song:3136",
+      "work_type": "Song",
+      "work_id": 3136,
+      "title": "Softly Ascending Harmonies",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1519,
+      "artist_name": "Min Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 3137,
+          "name": "Xiulan Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975189
+        },
+        {
+          "person_id": 3138,
+          "name": "Yan Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3973284
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:3136",
-      "target": "song:15358",
-      "type": "InterpolatesFrom"
+      "source": "song:10008",
+      "target": "song:6979",
+      "type": "InStyleOf"
     },
     {
       "source": "song:3228",
@@ -142,9 +481,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:10008",
-      "target": "song:6979",
-      "type": "InStyleOf"
+      "source": "song:3136",
+      "target": "song:15358",
+      "type": "InterpolatesFrom"
     }
   ]
 }

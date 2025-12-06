@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3909",
-      "song_id": 3909,
+      "work_type": "Song",
+      "work_id": 3909,
       "title": "Everything's Alright",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 3911,
       "artist_name": "Kaori Kobayashi",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3910,
+          "name": "Yui Kondo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993435
+        }
+      ]
     },
     {
       "id": "song:12490",
-      "song_id": 12490,
+      "work_type": "Song",
+      "work_id": 12490,
       "title": "Celestial Praise",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,10 +57,153 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3717,
+          "name": "Albert Miller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9215956
+        },
+        {
+          "person_id": 6579,
+          "name": "Lei Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510845
+        },
+        {
+          "person_id": 11786,
+          "name": "Guiying Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0406036
+        },
+        {
+          "person_id": 2155,
+          "name": "Wei Guo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0274656
+        },
+        {
+          "person_id": 12491,
+          "name": "Guiying Zhong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962207
+        },
+        {
+          "person_id": 12492,
+          "name": "Qiang Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962207
+        },
+        {
+          "person_id": 12493,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962207
+        }
+      ]
+    },
+    {
+      "id": "album:14767",
+      "work_type": "Album",
+      "work_id": 14767,
+      "title": "Saturday's Last Light",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 7791,
+      "artist_name": "Na Jia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7791,
+          "name": "Na Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.426067
+        },
+        {
+          "person_id": 8108,
+          "name": "Xiulan Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0494015
+        },
+        {
+          "person_id": 8109,
+          "name": "Xiuying Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0494015
+        },
+        {
+          "person_id": 8110,
+          "name": "Xiuying Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0494015
+        },
+        {
+          "person_id": 8111,
+          "name": "Xiuying Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0494015
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:14767",
+      "target": "song:3909",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:12490",
       "target": "song:3909",

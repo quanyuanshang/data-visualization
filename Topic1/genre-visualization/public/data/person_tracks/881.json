@@ -1,0 +1,232 @@
+{
+  "person_id": 881,
+  "name": "Juan Xu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:880",
+      "work_type": "Album",
+      "work_id": 880,
+      "title": "Unapologetic Heart",
+      "genre": "Emo/Pop Punk",
+      "notable": false,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 881,
+      "artist_name": "Juan Xu",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 882,
+          "name": "Yan Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1123023
+        },
+        {
+          "person_id": 883,
+          "name": "Yang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1123023
+        }
+      ]
+    },
+    {
+      "id": "song:9114",
+      "work_type": "Song",
+      "work_id": 9114,
+      "title": "Distant Heartlines",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 2305,
+      "artist_name": "Li Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        }
+      ]
+    },
+    {
+      "id": "song:11244",
+      "work_type": "Song",
+      "work_id": 11244,
+      "title": "Echoes of a Vanishing Embrace",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 697,
+      "artist_name": "Yong Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 11245,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0187604
+        }
+      ]
+    },
+    {
+      "id": "album:16954",
+      "work_type": "Album",
+      "work_id": 16954,
+      "title": "The Last Transmission",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 16952,
+      "artist_name": "Rust & Reverie（成员：Aria Stone (Rune Aurora)｜预测 2.41、Jaxon Rivers (Zephyr Wilds)｜预测 2.41…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16948,
+          "name": "Aria Stone",
+          "stage_name": "Rune Aurora",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4112613
+        },
+        {
+          "person_id": 16949,
+          "name": "Jaxon Rivers",
+          "stage_name": "Zephyr Wilds",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4110901
+        },
+        {
+          "person_id": 16951,
+          "name": "Theo Gray",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4110901
+        },
+        {
+          "person_id": 16950,
+          "name": "Lila Green",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4106026
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9114",
+      "target": "album:880",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:16954",
+      "target": "album:880",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11244",
+      "target": "album:880",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6743",
-      "song_id": 6743,
+      "work_type": "Song",
+      "work_id": 6743,
       "title": "Epochs in Motion",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 6744,
       "artist_name": "Wei He",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 6155,
+          "name": "Joann Johnson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.421319
+        }
+      ]
     },
     {
       "id": "song:6154",
-      "song_id": 6154,
+      "work_type": "Song",
+      "work_id": 6154,
       "title": "Eclipse of Emotion",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,10 +66,98 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 4284,
+          "name": "Tarini Hans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.130689
+        },
+        {
+          "person_id": 6155,
+          "name": "Joann Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.421319
+        }
+      ]
+    },
+    {
+      "id": "album:13008",
+      "work_type": "Album",
+      "work_id": 13008,
+      "title": "The Puppet's Promise",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 4285,
+      "artist_name": "Navya Sastry",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 6155,
+          "name": "Joann Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.421319
+        },
+        {
+          "person_id": 13009,
+          "name": "Charles Spears",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980162
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:13008",
+      "target": "song:6743",
+      "type": "CoverOf"
+    },
     {
       "source": "song:6154",
       "target": "song:6743",

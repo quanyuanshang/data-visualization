@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11644",
-      "song_id": 11644,
+      "work_type": "Song",
+      "work_id": 11644,
       "title": "Tender Moments Dissolved",
       "genre": "Speed Metal",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 11645,
       "artist_name": "Milena Anichini-Barracco",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7139,
+          "name": "Maura Jovinelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7132678
+        }
+      ]
     },
     {
       "id": "song:7138",
-      "song_id": 7138,
+      "work_type": "Song",
+      "work_id": 7138,
       "title": "Kerosene Memories",
       "genre": "Speed Metal",
       "notable": true,
@@ -43,6 +56,106 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7139,
+          "name": "Maura Jovinelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7132678
+        },
+        {
+          "person_id": 2328,
+          "name": "Martino Toninelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4525156
+        },
+        {
+          "person_id": 2329,
+          "name": "Ludovico Mondadori",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4525156
+        }
+      ]
+    },
+    {
+      "id": "album:15874",
+      "work_type": "Album",
+      "work_id": 15874,
+      "title": "Memories Behind Glass",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2328,
+      "artist_name": "Martino Toninelli",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7139,
+          "name": "Maura Jovinelli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7132678
+        },
+        {
+          "person_id": 2328,
+          "name": "Martino Toninelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4525156
+        },
+        {
+          "person_id": 2329,
+          "name": "Ludovico Mondadori",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4525156
+        },
+        {
+          "person_id": 15875,
+          "name": "Piermaria Bevilacqua-Altera",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994815
+        },
+        {
+          "person_id": 15876,
+          "name": "Lando Bulzoni",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994815
+        }
       ]
     }
   ],
@@ -51,6 +164,11 @@
       "source": "song:7138",
       "target": "song:11644",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:15874",
+      "target": "song:11644",
+      "type": "CoverOf"
     }
   ]
 }

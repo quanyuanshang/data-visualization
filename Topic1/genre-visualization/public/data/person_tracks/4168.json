@@ -4,8 +4,42 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 4168,
+      "artist_name": "Jeremi Kazberuk",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        }
+      ]
+    },
+    {
       "id": "song:15643",
-      "song_id": 15643,
+      "work_type": "Song",
+      "work_id": 15643,
       "title": "Steppe of My Soul",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +48,31 @@
       "own": true,
       "artist_id": 4168,
       "artist_name": "Jeremi Kazberuk",
-      "influence": 12,
+      "influence": 14,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 4,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15644,
+          "name": "Natasza Sygut",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988938
+        }
+      ]
     },
     {
       "id": "song:1933",
-      "song_id": 1933,
+      "work_type": "Song",
+      "work_id": 1933,
       "title": "Wandering Miles",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -42,12 +89,26 @@
         "style": 0
       },
       "relation_types": [
+        "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
       ]
     },
     {
       "id": "song:6503",
-      "song_id": 6503,
+      "work_type": "Song",
+      "work_id": 6503,
       "title": "Bund Boogie",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -64,12 +125,88 @@
         "style": 0
       },
       "relation_types": [
+        "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
+      ]
+    },
+    {
+      "id": "song:15323",
+      "work_type": "Song",
+      "work_id": 15323,
+      "title": "Roots of Belonging",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 628,
+      "artist_name": "Nicole Sudak",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 627,
+          "name": "Liwia Olbrych",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9380534
+        },
+        {
+          "person_id": 628,
+          "name": "Nicole Sudak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4625864
+        },
+        {
+          "person_id": 1610,
+          "name": "Marianna Stefanik",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410784
+        },
+        {
+          "person_id": 15324,
+          "name": "Kacper Panasewicz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986983
+        }
       ]
     },
     {
       "id": "song:10812",
-      "song_id": 10812,
+      "work_type": "Song",
+      "work_id": 10812,
       "title": "Silent Protocol",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -87,11 +224,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 10813,
+          "name": "Maks Bodek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969538
+        }
       ]
     },
     {
       "id": "song:11904",
-      "song_id": 11904,
+      "work_type": "Song",
+      "work_id": 11904,
       "title": "The Polite Appointments",
       "genre": "Alternative Rock",
       "notable": true,
@@ -109,14 +268,40 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6836832
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6503",
+      "source": "album:4167",
       "target": "song:15643",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15323",
+      "target": "album:4167",
+      "type": "CoverOf"
     },
     {
       "source": "song:1933",
@@ -124,14 +309,29 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:10812",
+      "source": "song:6503",
       "target": "song:15643",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6503",
+      "target": "album:4167",
+      "type": "InStyleOf"
     },
     {
       "source": "song:11904",
       "target": "song:15643",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10812",
+      "target": "song:15643",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:1933",
+      "target": "album:4167",
+      "type": "InStyleOf"
     }
   ]
 }

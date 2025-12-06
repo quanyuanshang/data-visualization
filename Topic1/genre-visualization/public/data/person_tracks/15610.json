@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15609",
-      "song_id": 15609,
+      "work_type": "Song",
+      "work_id": 15609,
       "title": "Pale White Acceptance",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.705118
+        }
+      ]
     },
     {
       "id": "song:5994",
-      "song_id": 5994,
+      "work_type": "Song",
+      "work_id": 5994,
       "title": "Forever, Barely, Barely",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,11 +57,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.705118
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 5995,
+          "name": "Francesca Krebs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.060887
+        }
       ]
     },
     {
       "id": "song:6989",
-      "song_id": 6989,
+      "work_type": "Song",
+      "work_id": 6989,
       "title": "Fever's Edge",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -65,11 +119,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 3541,
+          "name": "Brandi Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9305558
+        }
       ]
     },
     {
       "id": "song:11477",
-      "song_id": 11477,
+      "work_type": "Song",
+      "work_id": 11477,
       "title": "Forever in My Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -87,6 +163,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 11478,
+          "name": "Min Liang",
+          "stage_name": "Tyler Sage",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0568004
+        }
       ]
     }
   ],
@@ -97,14 +194,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:11477",
-      "target": "song:15609",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:5994",
       "target": "song:15609",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:11477",
+      "target": "song:15609",
+      "type": "CoverOf"
     }
   ]
 }

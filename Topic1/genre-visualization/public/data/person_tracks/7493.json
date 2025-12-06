@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7492",
-      "song_id": 7492,
-      "title": "Hang Up (On You)",
-      "genre": "Desert Rock",
-      "notable": true,
-      "release_year": 2027,
-      "single": true,
-      "own": true,
-      "artist_id": 7493,
-      "artist_name": "Tao Bai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:12718",
-      "song_id": 12718,
+      "work_type": "Song",
+      "work_id": 12718,
       "title": "Grease Lightning",
       "genre": "Space Rock",
       "notable": false,
@@ -41,8 +22,147 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3545,
+          "name": "Jonathan Diaz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2734904
+        },
+        {
+          "person_id": 3544,
+          "name": "Ming Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9815068
+        },
+        {
+          "person_id": 3543,
+          "name": "Chao Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4694269
+        }
+      ]
+    },
+    {
+      "id": "song:7492",
+      "work_type": "Song",
+      "work_id": 7492,
+      "title": "Hang Up (On You)",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 7493,
+      "artist_name": "Tao Bai",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3545,
+          "name": "Jonathan Diaz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2734904
+        },
+        {
+          "person_id": 3544,
+          "name": "Ming Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9815068
+        },
+        {
+          "person_id": 7494,
+          "name": "Gang Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3522112
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:5035",
+      "target": "song:7492",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

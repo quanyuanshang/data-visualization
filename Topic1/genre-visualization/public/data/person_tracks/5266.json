@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:6633",
-      "song_id": 6633,
-      "title": "Tumbling into Us",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": true,
-      "artist_id": 5266,
-      "artist_name": "Guiying Hou",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8094",
-      "song_id": 8094,
+      "work_type": "Song",
+      "work_id": 8094,
       "title": "Phosphorescent Sorrow",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -41,11 +22,74 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6634,
+          "name": "Timothy Burke",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.369968
+        }
+      ]
+    },
+    {
+      "id": "album:5265",
+      "work_type": "Album",
+      "work_id": 5265,
+      "title": "Brass Whispers in Ascending Harmony",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2002,
+      "single": false,
+      "own": true,
+      "artist_id": 5266,
+      "artist_name": "Guiying Hou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 151,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.626964
+        },
+        {
+          "person_id": 150,
+          "name": "Li Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6011453
+        },
+        {
+          "person_id": 149,
+          "name": "Xia Fu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1142097
+        }
+      ]
     },
     {
       "id": "song:9503",
-      "song_id": 9503,
+      "work_type": "Song",
+      "work_id": 9503,
       "title": "Echoes of Valor",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -61,28 +105,58 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6634,
+          "name": "Timothy Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.369968
+        },
+        {
+          "person_id": 9504,
+          "name": "Antonio Morse",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978913
+        }
+      ]
     },
     {
-      "id": "song:9503",
-      "song_id": 9503,
-      "title": "Echoes of Valor",
-      "genre": "Southern Gothic Rock",
+      "id": "song:6633",
+      "work_type": "Song",
+      "work_id": 6633,
+      "title": "Tumbling into Us",
+      "genre": "Lo-Fi Electronica",
       "notable": true,
-      "release_year": 2023,
-      "single": true,
+      "release_year": 2020,
+      "single": false,
       "own": true,
       "artist_id": 5266,
       "artist_name": "Guiying Hou",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6634,
+          "name": "Timothy Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.369968
+        }
       ]
     }
   ],

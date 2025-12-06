@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16665",
-      "song_id": 16665,
+      "work_type": "Song",
+      "work_id": 16665,
       "title": "Listen Up!",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 16667,
       "artist_name": "Caleb Ross",
-      "influence": 4,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16666,
+          "name": "Megan Bridges",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914456
+        }
+      ]
     },
     {
       "id": "song:2647",
-      "song_id": 2647,
+      "work_type": "Song",
+      "work_id": 2647,
       "title": "Whispers of the Andes",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +57,107 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 547,
+          "name": "Hilmar Hänel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6791608
+        },
+        {
+          "person_id": 545,
+          "name": "Herr Heinz-Walter Scheuermann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4592464
+        },
+        {
+          "person_id": 546,
+          "name": "Emmy Bonbach",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4592464
+        },
+        {
+          "person_id": 2648,
+          "name": "Friedo Dobes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.419136
+        }
+      ]
+    },
+    {
+      "id": "album:13813",
+      "work_type": "Album",
+      "work_id": 13813,
+      "title": "Wrapped Around Her Wishes",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 13814,
+      "artist_name": "Jing Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13814,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980188
+        },
+        {
+          "person_id": 13816,
+          "name": "Jie Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980188
+        },
+        {
+          "person_id": 13815,
+          "name": "Jing Hu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980055
+        }
       ]
     }
   ],
@@ -51,6 +166,11 @@
       "source": "song:2647",
       "target": "song:16665",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:13813",
+      "target": "song:16665",
+      "type": "InStyleOf"
     }
   ]
 }

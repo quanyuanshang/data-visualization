@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14948",
-      "song_id": 14948,
+      "work_type": "Song",
+      "work_id": 14948,
       "title": "Julie's Midnight Lullaby",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3158,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.512865
+        },
+        {
+          "person_id": 14949,
+          "name": "Jun Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400038
+        }
+      ]
     },
     {
       "id": "song:6020",
-      "song_id": 6020,
+      "work_type": "Song",
+      "work_id": 6020,
       "title": "Sunrise of Forgiveness",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +66,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 529,
+          "name": "Mai Sato",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4303045
+        },
+        {
+          "person_id": 526,
+          "name": "Yumiko Ito",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0449066
+        }
       ]
     }
   ],

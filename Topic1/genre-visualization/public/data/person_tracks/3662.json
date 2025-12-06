@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3660",
-      "song_id": 3660,
-      "title": "Cosmo and Wanda's Chaos",
-      "genre": "Blues Rock",
+      "id": "album:6001",
+      "work_type": "Album",
+      "work_id": 6001,
+      "title": "Constant, Wavering, Wavering",
+      "genre": "Indie Pop",
       "notable": true,
-      "release_year": 2022,
-      "single": true,
+      "release_year": 2003,
+      "single": false,
       "own": true,
       "artist_id": 3662,
       "artist_name": "David Wilkerson",
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6002,
+          "name": "Charles Chase",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4346979
+        }
+      ]
     },
     {
       "id": "song:7872",
-      "song_id": 7872,
+      "work_type": "Song",
+      "work_id": 7872,
       "title": "The Monotony of Breath",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,11 +54,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3661,
+          "name": "Melissa Wyatt",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.034847
+        }
+      ]
+    },
+    {
+      "id": "album:10441",
+      "work_type": "Album",
+      "work_id": 10441,
+      "title": "Moment of Triumph",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 3662,
+      "artist_name": "David Wilkerson",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10442,
+          "name": "Kelly Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4265654
+        }
+      ]
     },
     {
       "id": "song:10799",
-      "song_id": 10799,
+      "work_type": "Song",
+      "work_id": 10799,
       "title": "Southern Redemption Highway",
       "genre": "Blues Rock",
       "notable": false,
@@ -61,11 +118,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 37,
+          "name": "Hansh Ramanathan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0905833
+        }
+      ]
     },
     {
       "id": "song:10994",
-      "song_id": 10994,
+      "work_type": "Song",
+      "work_id": 10994,
       "title": "Forgotten Grace: A Milagros Tale",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -81,31 +150,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:12233",
-      "song_id": 12233,
-      "title": "Breaking Point",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2012,
-      "single": true,
-      "own": true,
-      "artist_id": 3662,
-      "artist_name": "David Wilkerson",
-      "influence": 8,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10995,
+          "name": "Michael Lin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398688
+        }
+      ]
     },
     {
       "id": "song:15769",
-      "song_id": 15769,
+      "work_type": "Song",
+      "work_id": 15769,
       "title": "Sovereign Soil",
       "genre": "Indie Pop",
       "notable": true,
@@ -121,11 +182,98 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 37,
+          "name": "Hansh Ramanathan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0905833
+        },
+        {
+          "person_id": 15770,
+          "name": "Yolanda Roy",
+          "stage_name": " M¥$TIC",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.384478
+        }
+      ]
+    },
+    {
+      "id": "song:3660",
+      "work_type": "Song",
+      "work_id": 3660,
+      "title": "Cosmo and Wanda's Chaos",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 3662,
+      "artist_name": "David Wilkerson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3661,
+          "name": "Melissa Wyatt",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.034847
+        }
+      ]
+    },
+    {
+      "id": "song:12233",
+      "work_type": "Song",
+      "work_id": 12233,
+      "title": "Breaking Point",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 3662,
+      "artist_name": "David Wilkerson",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10442,
+          "name": "Kelly Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4265654
+        }
+      ]
     },
     {
       "id": "song:10994",
-      "song_id": 10994,
+      "work_type": "Song",
+      "work_id": 10994,
       "title": "Forgotten Grace: A Milagros Tale",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -144,11 +292,77 @@
       "relation_types": [
         "DirectlySamples",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        },
+        {
+          "person_id": 10995,
+          "name": "Michael Lin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398688
+        }
+      ]
+    },
+    {
+      "id": "song:13703",
+      "work_type": "Song",
+      "work_id": 13703,
+      "title": "Unraveling Our Story",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 10442,
+      "artist_name": "Kelly Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10442,
+          "name": "Kelly Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4265654
+        },
+        {
+          "person_id": 13704,
+          "name": "Ana Garrison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398225
+        }
       ]
     },
     {
       "id": "song:15769",
-      "song_id": 15769,
+      "work_type": "Song",
+      "work_id": 15769,
       "title": "Sovereign Soil",
       "genre": "Indie Pop",
       "notable": true,
@@ -166,14 +380,44 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.283303
+        },
+        {
+          "person_id": 37,
+          "name": "Hansh Ramanathan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0905833
+        },
+        {
+          "person_id": 15770,
+          "name": "Yolanda Roy",
+          "stage_name": " M¥$TIC",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.384478
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15769",
-      "target": "song:10799",
-      "type": "InStyleOf"
+      "source": "song:10994",
+      "target": "song:7872",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:3660",
@@ -181,14 +425,19 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:10994",
-      "target": "song:7872",
-      "type": "DirectlySamples"
+      "source": "song:13703",
+      "target": "album:10441",
+      "type": "CoverOf"
     },
     {
       "source": "song:10994",
       "target": "song:12233",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15769",
+      "target": "song:10799",
+      "type": "InStyleOf"
     }
   ]
 }

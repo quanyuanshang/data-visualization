@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15005",
-      "song_id": 15005,
-      "title": "Espejismo del Corazón",
-      "genre": "Indie Pop",
+      "id": "album:9737",
+      "work_type": "Album",
+      "work_id": 9737,
+      "title": "Whispers of the Underworld Helm",
+      "genre": "Avant-Garde Folk",
       "notable": true,
-      "release_year": 2019,
-      "single": true,
+      "release_year": 2020,
+      "single": false,
       "own": true,
       "artist_id": 5795,
       "artist_name": "Li Shi",
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9738,
+          "name": "Jing Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4232712
+        }
+      ]
     },
     {
       "id": "song:5790",
-      "song_id": 5790,
+      "work_type": "Song",
+      "work_id": 5790,
       "title": "Riverside Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +55,101 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2443,
+          "name": "Lei Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4102592
+        },
+        {
+          "person_id": 5794,
+          "name": "Frederic Margraf",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.089374
+        },
+        {
+          "person_id": 5791,
+          "name": "Ming Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976126
+        },
+        {
+          "person_id": 5792,
+          "name": "Yan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976126
+        },
+        {
+          "person_id": 5793,
+          "name": "Xiulan Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976126
+        }
+      ]
+    },
+    {
+      "id": "song:15005",
+      "work_type": "Song",
+      "work_id": 15005,
+      "title": "Espejismo del Corazón",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 5795,
+      "artist_name": "Li Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9738,
+          "name": "Jing Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4232712
+        },
+        {
+          "person_id": 15006,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.395725
+        }
+      ]
     },
     {
       "id": "song:16211",
-      "song_id": 16211,
+      "work_type": "Song",
+      "work_id": 16211,
       "title": "Phantom Heartstrings",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,6 +167,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4799,
+          "name": "Na Yin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7197526
+        },
+        {
+          "person_id": 2326,
+          "name": "Dominic Phillips",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6758654
+        },
+        {
+          "person_id": 8793,
+          "name": "Kevin Morrow",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0346515
+        }
       ]
     }
   ],

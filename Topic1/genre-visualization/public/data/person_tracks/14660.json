@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14659",
-      "song_id": 14659,
+      "work_type": "Song",
+      "work_id": 14659,
       "title": "Chasing Shadows of Us",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4783,
+          "name": "Qiang Lei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.37281
+        }
+      ]
     },
     {
       "id": "song:12973",
-      "song_id": 12973,
+      "work_type": "Song",
+      "work_id": 12973,
       "title": "Shadows Where You Used to Be",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,11 +56,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12975,
+          "name": "Giovanna Bongiorno",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979933
+        },
+        {
+          "person_id": 12974,
+          "name": "Jonathan Thompson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397637
+        }
       ]
     },
     {
       "id": "song:14497",
-      "song_id": 14497,
+      "work_type": "Song",
+      "work_id": 14497,
       "title": "Decoding Silence",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -65,11 +100,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 11478,
+          "name": "Min Liang",
+          "stage_name": "Tyler Sage",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0568004
+        }
       ]
     },
     {
       "id": "song:15722",
-      "song_id": 15722,
+      "work_type": "Song",
+      "work_id": 15722,
       "title": "Unexpected Landing",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -87,6 +144,35 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.383833
+        }
       ]
     }
   ],
@@ -97,14 +183,14 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:14497",
-      "target": "song:14659",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:12973",
       "target": "song:14659",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:14497",
+      "target": "song:14659",
+      "type": "CoverOf"
     }
   ]
 }

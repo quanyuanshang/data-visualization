@@ -4,8 +4,31 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:8372",
+      "work_type": "Song",
+      "work_id": 8372,
+      "title": "Silver Spoon Tears",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 2,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
       "id": "song:3123",
-      "song_id": 3123,
+      "work_type": "Song",
+      "work_id": 3123,
       "title": "Gentle Tempo of Sunlight",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,31 +44,32 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:8372",
-      "song_id": 8372,
-      "title": "Silver Spoon Tears",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 3125,
-      "artist_name": "Jana Lindner",
-      "influence": 11,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 2,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3124,
+          "name": "Elżbieta Bociek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9983175
+        }
+      ]
     },
     {
       "id": "song:7465",
-      "song_id": 7465,
+      "work_type": "Song",
+      "work_id": 7465,
       "title": "Safe Haven",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -61,31 +85,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        }
+      ]
     },
     {
-      "id": "song:14482",
-      "song_id": 14482,
-      "title": "Echoes of Your Smile",
-      "genre": "Indie Pop",
+      "id": "album:8394",
+      "work_type": "Album",
+      "work_id": 8394,
+      "title": "Fabricated Truth",
+      "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2009,
-      "single": true,
+      "release_year": 2012,
+      "single": false,
       "own": true,
       "artist_id": 3125,
       "artist_name": "Jana Lindner",
-      "influence": 6,
+      "influence": 8,
       "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 0,
-        "style": 1
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 8395,
+          "name": "Olga Labudda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.707387
+        }
+      ]
     },
     {
       "id": "song:9089",
-      "song_id": 9089,
+      "work_type": "Song",
+      "work_id": 9089,
       "title": "First Contact Protocol",
       "genre": "Indie Pop",
       "notable": true,
@@ -94,18 +151,30 @@
       "own": true,
       "artist_id": 3125,
       "artist_name": "Jana Lindner",
-      "influence": 17,
+      "influence": 22,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 1,
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.2519994
+        }
+      ]
     },
     {
       "id": "song:12866",
-      "song_id": 12866,
+      "work_type": "Song",
+      "work_id": 12866,
       "title": "Jubilee Boulevard",
       "genre": "Indie Pop",
       "notable": true,
@@ -121,101 +190,134 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:8372",
-      "song_id": 8372,
-      "title": "Silver Spoon Tears",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 3125,
-      "artist_name": "Jana Lindner",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf",
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8395,
+          "name": "Olga Labudda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.707387
+        }
       ]
     },
     {
-      "id": "song:9089",
-      "song_id": 9089,
-      "title": "First Contact Protocol",
-      "genre": "Indie Pop",
+      "id": "album:13955",
+      "work_type": "Album",
+      "work_id": 13955,
+      "title": "Saguaro Shadows",
+      "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2007,
-      "single": true,
+      "release_year": 2019,
+      "single": false,
       "own": true,
       "artist_id": 3125,
       "artist_name": "Jana Lindner",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": [
-        "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:12866",
-      "song_id": 12866,
-      "title": "Jubilee Boulevard",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 3125,
-      "artist_name": "Jana Lindner",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf",
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 1531,
+          "name": "Margarita Henschel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9276729
+        },
+        {
+          "person_id": 5872,
+          "name": "Nicolaus Fiebig",
+          "stage_name": "Vesper Bloom",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.040074
+        }
       ]
     },
     {
       "id": "song:14482",
-      "song_id": 14482,
+      "work_type": "Song",
+      "work_id": 14482,
       "title": "Echoes of Your Smile",
       "genre": "Indie Pop",
       "notable": true,
       "release_year": 2009,
       "single": true,
-      "own": false,
-      "artist_id": 3124,
-      "artist_name": "Elżbieta Bociek",
-      "influence": 0,
+      "own": true,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
+        "sample": 1,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "DirectlySamples"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3124,
+          "name": "Elżbieta Bociek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9983175
+        }
       ]
     },
     {
       "id": "song:7797",
-      "song_id": 7797,
+      "work_type": "Song",
+      "work_id": 7797,
       "title": "Mercy Beyond Measure",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -232,13 +334,80 @@
         "style": 0
       },
       "relation_types": [
+        "CoverOf",
         "DirectlySamples",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
+      ]
+    },
+    {
+      "id": "album:8394",
+      "work_type": "Album",
+      "work_id": 8394,
+      "title": "Fabricated Truth",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        },
+        {
+          "person_id": 8395,
+          "name": "Olga Labudda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.707387
+        }
       ]
     },
     {
       "id": "song:12933",
-      "song_id": 12933,
+      "work_type": "Song",
+      "work_id": 12933,
       "title": "Wherever Your Path Leads",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -256,12 +425,34 @@
       },
       "relation_types": [
         "CoverOf",
-        "DirectlySamples"
+        "DirectlySamples",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 808,
+          "name": "Pavlína Macháčková",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4415386
+        }
       ]
     },
     {
       "id": "song:15688",
-      "song_id": 15688,
+      "work_type": "Song",
+      "work_id": 15688,
       "title": "Shadows of the Quartet: Intimate Echoes",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -280,48 +471,228 @@
       "relation_types": [
         "DirectlySamples",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15689,
+          "name": "Jeffery Reese",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975012
+        }
+      ]
+    },
+    {
+      "id": "song:9089",
+      "work_type": "Song",
+      "work_id": 9089,
+      "title": "First Contact Protocol",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        }
+      ]
+    },
+    {
+      "id": "song:12866",
+      "work_type": "Song",
+      "work_id": 12866,
+      "title": "Jubilee Boulevard",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        },
+        {
+          "person_id": 8395,
+          "name": "Olga Labudda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.707387
+        }
+      ]
+    },
+    {
+      "id": "song:14482",
+      "work_type": "Song",
+      "work_id": 14482,
+      "title": "Echoes of Your Smile",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 3124,
+      "artist_name": "Elżbieta Bociek",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        },
+        {
+          "person_id": 3124,
+          "name": "Elżbieta Bociek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9983175
+        }
+      ]
+    },
+    {
+      "id": "song:11936",
+      "work_type": "Song",
+      "work_id": 11936,
+      "title": "Tender Destruction",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 1248,
+          "name": "Gang Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.424843
+        },
+        {
+          "person_id": 11937,
+          "name": "Ashley Mahoney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993952
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15688",
-      "target": "song:9089",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:7797",
-      "target": "song:12866",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:8372",
-      "target": "song:9089",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:12933",
-      "target": "song:9089",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:7797",
-      "target": "song:9089",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:12933",
-      "target": "song:8372",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:7797",
-      "target": "song:8372",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:15688",
-      "target": "song:8372",
+      "source": "song:14482",
+      "target": "song:3123",
       "type": "DirectlySamples"
     },
     {
@@ -330,9 +701,24 @@
       "type": "DirectlySamples"
     },
     {
+      "source": "song:15688",
+      "target": "song:9089",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:15688",
+      "target": "song:8372",
+      "type": "DirectlySamples"
+    },
+    {
       "source": "song:12866",
       "target": "song:9089",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:7797",
+      "target": "song:14482",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:15688",
@@ -340,9 +726,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:14482",
-      "target": "song:3123",
-      "type": "DirectlySamples"
+      "source": "song:7797",
+      "target": "album:8394",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12933",
+      "target": "song:9089",
+      "type": "CoverOf"
     },
     {
       "source": "song:12866",
@@ -351,13 +742,53 @@
     },
     {
       "source": "song:7797",
-      "target": "song:14482",
+      "target": "song:12866",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:8394",
+      "target": "song:9089",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11936",
+      "target": "album:13955",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12933",
+      "target": "song:8372",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:12933",
+      "target": "album:8394",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7797",
+      "target": "song:9089",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:8394",
+      "target": "song:8372",
+      "type": "InStyleOf"
     },
     {
       "source": "song:8372",
       "target": "song:3123",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:7797",
+      "target": "song:8372",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:8372",
+      "target": "song:9089",
+      "type": "InterpolatesFrom"
     }
   ]
 }

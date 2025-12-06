@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10616",
-      "song_id": 10616,
+      "work_type": "Song",
+      "work_id": 10616,
       "title": "Allegro",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5910,
+          "name": "Jeanne Guillou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9483147
+        },
+        {
+          "person_id": 10618,
+          "name": "George Snyder",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972275
+        },
+        {
+          "person_id": 10619,
+          "name": "Kelly Sanders",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3972275
+        }
+      ]
     },
     {
       "id": "song:14289",
-      "song_id": 14289,
+      "work_type": "Song",
+      "work_id": 14289,
       "title": "William Howard's Weighty Legacy",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +76,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10776,
+          "name": "Chloë de Gruil",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7201512
+        },
+        {
+          "person_id": 14290,
+          "name": "Evie Feenstra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3950758
+        }
       ]
     }
   ],

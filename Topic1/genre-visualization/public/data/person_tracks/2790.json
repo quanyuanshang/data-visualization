@@ -1,0 +1,147 @@
+{
+  "person_id": 2790,
+  "name": "Paul Hughes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2784",
+      "work_type": "Album",
+      "work_id": 2784,
+      "title": "Battlefield Drumline",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 2790,
+      "artist_name": "Paul Hughes",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2785,
+          "name": "Hannah Newton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978045
+        },
+        {
+          "person_id": 2786,
+          "name": "Frederick Houston",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978045
+        },
+        {
+          "person_id": 2787,
+          "name": "Angela Fisher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978045
+        },
+        {
+          "person_id": 2788,
+          "name": "Lauren Turner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978045
+        },
+        {
+          "person_id": 2789,
+          "name": "Jivika Dar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978045
+        }
+      ]
+    },
+    {
+      "id": "song:17026",
+      "work_type": "Song",
+      "work_id": 17026,
+      "title": "AM Radio Ghosts",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": 17022,
+      "artist_name": "Cassette Future（成员：Zara Quinn｜预测 3.00、Milo Knight｜预测 2.67）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": []
+    },
+    {
+      "id": "album:17158",
+      "work_type": "Album",
+      "work_id": 17158,
+      "title": "Synthetic Daydreams",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 17155,
+      "artist_name": "Claire Holmes (Jaye Finch)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17155,
+          "name": "Claire Holmes",
+          "stage_name": "Jaye Finch",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9565325
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:17158",
+      "target": "album:2784",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:17026",
+      "target": "album:2784",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

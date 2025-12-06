@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8230",
-      "song_id": 8230,
-      "title": "Echoes of the Plateau",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 1989,
-      "single": true,
-      "own": true,
-      "artist_id": 3741,
-      "artist_name": "Andrew Dawson",
-      "influence": 27,
-      "influence_breakdown": {
-        "cover": 3,
-        "sample": 0,
-        "reference": 2,
-        "style": 3
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:8281",
-      "song_id": 8281,
-      "title": "Highball Highway",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 1988,
-      "single": true,
-      "own": true,
-      "artist_id": 3741,
-      "artist_name": "Andrew Dawson",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3740",
-      "song_id": 3740,
+      "work_type": "Song",
+      "work_id": 3740,
       "title": "The Quantum of Affection",
       "genre": "Indie Pop",
       "notable": true,
@@ -54,18 +15,90 @@
       "own": true,
       "artist_id": 3741,
       "artist_name": "Andrew Dawson",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3352,
+          "name": "Marcus Spence",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7961016
+        },
+        {
+          "person_id": 3742,
+          "name": "David Wilcox",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2791696
+        }
+      ]
+    },
+    {
+      "id": "song:8281",
+      "work_type": "Song",
+      "work_id": 8281,
+      "title": "Highball Highway",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1988,
+      "single": true,
+      "own": true,
+      "artist_id": 3741,
+      "artist_name": "Andrew Dawson",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 3108,
+          "name": "Stacey Taylor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4288285
+        }
+      ]
     },
     {
       "id": "song:14037",
-      "song_id": 14037,
+      "work_type": "Song",
+      "work_id": 14037,
       "title": "Suspiros de Hastío",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -74,194 +107,82 @@
       "own": true,
       "artist_id": 3741,
       "artist_name": "Andrew Dawson",
-      "influence": 3,
+      "influence": 13,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 2,
         "sample": 0,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:413",
-      "song_id": 413,
-      "title": "Embers of Inheritance",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": false,
-      "artist_id": 414,
-      "artist_name": "Jimmy Brown",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3352,
+          "name": "Marcus Spence",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7961016
+        },
+        {
+          "person_id": 3742,
+          "name": "David Wilcox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2791696
+        }
       ]
     },
     {
-      "id": "song:1170",
-      "song_id": 1170,
-      "title": "Camouflage Courage",
+      "id": "song:8230",
+      "work_type": "Song",
+      "work_id": 8230,
+      "title": "Echoes of the Plateau",
       "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2004,
+      "release_year": 1989,
       "single": true,
-      "own": false,
-      "artist_id": 415,
-      "artist_name": "Denise Bell",
-      "influence": 0,
+      "own": true,
+      "artist_id": 3741,
+      "artist_name": "Andrew Dawson",
+      "influence": 40,
       "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
+        "cover": 4,
+        "sample": 1,
+        "reference": 2,
+        "style": 5
       },
-      "relation_types": [
-        "CoverOf"
-      ]
-    },
-    {
-      "id": "song:11936",
-      "song_id": 11936,
-      "title": "Tender Destruction",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": false,
-      "artist_id": 1098,
-      "artist_name": "Guiying Bai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
-      ]
-    },
-    {
-      "id": "song:13331",
-      "song_id": 13331,
-      "title": "Echoes of the Keyboard Meridian",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 1997,
-      "single": true,
-      "own": false,
-      "artist_id": 3126,
-      "artist_name": "Maik Mude",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:13459",
-      "song_id": 13459,
-      "title": "Eternal Bloom",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2028,
-      "single": true,
-      "own": false,
-      "artist_id": 8054,
-      "artist_name": "Vasyl Jaroš",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:15986",
-      "song_id": 15986,
-      "title": "Sweat Equity",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": false,
-      "artist_id": 2151,
-      "artist_name": "Vito Stroh",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:16297",
-      "song_id": 16297,
-      "title": "Roadside Heartbreak Motel",
-      "genre": "Emo/Pop Punk",
-      "notable": false,
-      "release_year": 2024,
-      "single": true,
-      "own": false,
-      "artist_id": 1098,
-      "artist_name": "Guiying Bai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
-      ]
-    },
-    {
-      "id": "song:16327",
-      "song_id": 16327,
-      "title": "Eternal Devotion",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": false,
-      "artist_id": 1098,
-      "artist_name": "Guiying Bai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.009274
+        }
       ]
     },
     {
       "id": "song:4188",
-      "song_id": 4188,
+      "work_type": "Song",
+      "work_id": 4188,
       "title": "Pickaxe Lullaby",
       "genre": "Indie Pop",
       "notable": true,
@@ -279,11 +200,191 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 4189,
+          "name": "Artur Nurkiewicz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9533806
+        }
+      ]
+    },
+    {
+      "id": "album:8832",
+      "work_type": "Album",
+      "work_id": 8832,
+      "title": "Lunar Lunar Thirty",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": false,
+      "artist_id": 808,
+      "artist_name": "Pavlína Macháčková",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 8833,
+          "name": "Lori Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7165387
+        },
+        {
+          "person_id": 808,
+          "name": "Pavlína Macháčková",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4415386
+        }
+      ]
+    },
+    {
+      "id": "album:15807",
+      "work_type": "Album",
+      "work_id": 15807,
+      "title": "Climbing Heart's Summit",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 15808,
+      "artist_name": "Cathy Oconnor",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5968,
+          "name": "Dorota Cierpka",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0512786
+        },
+        {
+          "person_id": 15808,
+          "name": "Cathy Oconnor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978655
+        },
+        {
+          "person_id": 15809,
+          "name": "Timothy Robinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978655
+        },
+        {
+          "person_id": 15811,
+          "name": "Magnus Speer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978655
+        },
+        {
+          "person_id": 15810,
+          "name": "Isabel Wilson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978522
+        }
+      ]
+    },
+    {
+      "id": "album:9957",
+      "work_type": "Album",
+      "work_id": 9957,
+      "title": "Chamber Echoes in Twilight",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 3352,
+      "artist_name": "Marcus Spence",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3352,
+          "name": "Marcus Spence",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7961016
+        }
       ]
     },
     {
       "id": "song:11439",
-      "song_id": 11439,
+      "work_type": "Song",
+      "work_id": 11439,
       "title": "Carmela's Midnight Dance",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -301,22 +402,723 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11440,
+          "name": "Tiffany Fitzpatrick",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988025
+        },
+        {
+          "person_id": 11441,
+          "name": "Hannah Richard",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988001
+        }
+      ]
+    },
+    {
+      "id": "album:12993",
+      "work_type": "Album",
+      "work_id": 12993,
+      "title": "Washed in Grace's Healing Stream",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 10237,
+      "artist_name": "Heather Lutz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10237,
+          "name": "Heather Lutz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.295115
+        }
+      ]
+    },
+    {
+      "id": "song:413",
+      "work_type": "Song",
+      "work_id": 413,
+      "title": "Embers of Inheritance",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 414,
+      "artist_name": "Jimmy Brown",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 415,
+          "name": "Denise Bell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4360912
+        },
+        {
+          "person_id": 414,
+          "name": "Jimmy Brown",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972828
+        }
+      ]
+    },
+    {
+      "id": "song:1170",
+      "work_type": "Song",
+      "work_id": 1170,
+      "title": "Camouflage Courage",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 415,
+      "artist_name": "Denise Bell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 415,
+          "name": "Denise Bell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4360912
+        },
+        {
+          "person_id": 1171,
+          "name": "Ivana Vávrová",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0341313
+        }
+      ]
+    },
+    {
+      "id": "album:10294",
+      "work_type": "Album",
+      "work_id": 10294,
+      "title": "Canal Midnight",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2002,
+      "single": false,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        }
+      ]
+    },
+    {
+      "id": "album:10431",
+      "work_type": "Album",
+      "work_id": 10431,
+      "title": "Vague Silhouette",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2535,
+      "artist_name": "John Wilkinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
+      ]
+    },
+    {
+      "id": "album:10937",
+      "work_type": "Album",
+      "work_id": 10937,
+      "title": "Roots Never Fade",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": false,
+      "artist_id": 4632,
+      "artist_name": "Tao Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.0568504
+        },
+        {
+          "person_id": 4632,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9261239
+        }
+      ]
+    },
+    {
+      "id": "song:11936",
+      "work_type": "Song",
+      "work_id": 11936,
+      "title": "Tender Destruction",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 1248,
+          "name": "Gang Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.424843
+        },
+        {
+          "person_id": 11937,
+          "name": "Ashley Mahoney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993952
+        }
+      ]
+    },
+    {
+      "id": "song:13331",
+      "work_type": "Song",
+      "work_id": 13331,
+      "title": "Echoes of the Keyboard Meridian",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 3126,
+      "artist_name": "Maik Mude",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.009274
+        }
+      ]
+    },
+    {
+      "id": "song:13459",
+      "work_type": "Song",
+      "work_id": 13459,
+      "title": "Eternal Bloom",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 8054,
+      "artist_name": "Vasyl Jaroš",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8054,
+          "name": "Vasyl Jaroš",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0610948
+        },
+        {
+          "person_id": 13463,
+          "name": "Henri Drubin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044097
+        },
+        {
+          "person_id": 13460,
+          "name": "Richard Kovář",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3934374
+        },
+        {
+          "person_id": 13461,
+          "name": "Anna Vávrová",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3934374
+        },
+        {
+          "person_id": 13462,
+          "name": "Karsten Löwer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3934374
+        }
+      ]
+    },
+    {
+      "id": "album:13955",
+      "work_type": "Album",
+      "work_id": 13955,
+      "title": "Saguaro Shadows",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 1530,
+      "artist_name": "Deborah Lucas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        },
+        {
+          "person_id": 1531,
+          "name": "Margarita Henschel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9276729
+        },
+        {
+          "person_id": 5872,
+          "name": "Nicolaus Fiebig",
+          "stage_name": "Vesper Bloom",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.040074
+        }
+      ]
+    },
+    {
+      "id": "song:15986",
+      "work_type": "Song",
+      "work_id": 15986,
+      "title": "Sweat Equity",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 2151,
+      "artist_name": "Vito Stroh",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2151,
+          "name": "Vito Stroh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9143434
+        },
+        {
+          "person_id": 15987,
+          "name": "Kaitlyn Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4016223
+        },
+        {
+          "person_id": 15988,
+          "name": "Dustin Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4016223
+        }
+      ]
+    },
+    {
+      "id": "song:16297",
+      "work_type": "Song",
+      "work_id": 16297,
+      "title": "Roadside Heartbreak Motel",
+      "genre": "Emo/Pop Punk",
+      "notable": false,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1956,
+          "name": "Dominic Riehl",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6828003
+        }
+      ]
+    },
+    {
+      "id": "song:16327",
+      "work_type": "Song",
+      "work_id": 16327,
+      "title": "Eternal Devotion",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:13459",
+      "source": "album:9957",
+      "target": "song:14037",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:10937",
       "target": "song:8230",
       "type": "InStyleOf"
     },
     {
-      "source": "song:13331",
+      "source": "album:10431",
+      "target": "song:8230",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:8832",
+      "target": "song:3740",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15986",
+      "target": "song:8230",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:12993",
+      "target": "song:14037",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:413",
       "target": "song:8230",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:15986",
+      "source": "song:16327",
       "target": "song:8230",
       "type": "InStyleOf"
     },
@@ -326,24 +1128,14 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:4188",
-      "target": "song:3740",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:11936",
       "target": "song:8230",
       "type": "CoverOf"
     },
     {
-      "source": "song:16297",
+      "source": "album:10294",
       "target": "song:8230",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:413",
-      "target": "song:8230",
-      "type": "LyricalReferenceTo"
+      "type": "DirectlySamples"
     },
     {
       "source": "song:1170",
@@ -351,9 +1143,34 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:16327",
+      "source": "song:13331",
+      "target": "song:8230",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4188",
+      "target": "song:3740",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:15807",
+      "target": "song:8281",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:13459",
       "target": "song:8230",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:16297",
+      "target": "song:8230",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:13955",
+      "target": "song:8230",
+      "type": "CoverOf"
     }
   ]
 }

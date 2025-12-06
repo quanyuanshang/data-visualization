@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7189",
-      "song_id": 7189,
+      "work_type": "Song",
+      "work_id": 7189,
       "title": "Clouds and Courage",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,8 +22,125 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 803,
+          "name": "Breanna Wright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.051845
+        }
+      ]
+    },
+    {
+      "id": "album:802",
+      "work_type": "Album",
+      "work_id": 802,
+      "title": "Whispers in the Embrace",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 804,
+      "artist_name": "Kenneth Armstrong",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 803,
+          "name": "Breanna Wright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.051845
+        }
+      ]
+    },
+    {
+      "id": "album:11213",
+      "work_type": "Album",
+      "work_id": 11213,
+      "title": "Dissertation Dance",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 10208,
+      "artist_name": "Gabriel Barr",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1450,
+          "name": "Michelle Byrd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3923306
+        },
+        {
+          "person_id": 10208,
+          "name": "Gabriel Barr",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0396576
+        },
+        {
+          "person_id": 10209,
+          "name": "Matthew Gallagher",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0396576
+        },
+        {
+          "person_id": 10210,
+          "name": "Michelle Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0396576
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11213",
+      "target": "album:802",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7189",
+      "target": "album:802",
+      "type": "DirectlySamples"
+    }
+  ]
 }

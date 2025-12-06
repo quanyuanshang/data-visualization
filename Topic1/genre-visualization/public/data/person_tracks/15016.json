@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15015",
-      "song_id": 15015,
+      "work_type": "Song",
+      "work_id": 15015,
       "title": "Budapest Nocturne in Trembling Minor",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1459,
+          "name": "Marcel Derek",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4336834
+        },
+        {
+          "person_id": 8357,
+          "name": "Hansjürgen Börner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9757056
+        }
+      ]
     },
     {
       "id": "song:1236",
-      "song_id": 1236,
+      "work_type": "Song",
+      "work_id": 1236,
       "title": "Whispers Between Wooden Stalls",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +66,65 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1238,
+          "name": "Yan Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7063375
+        },
+        {
+          "person_id": 779,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3984494
+        },
+        {
+          "person_id": 1241,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0206723
+        },
+        {
+          "person_id": 1240,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0456398
+        },
+        {
+          "person_id": 1237,
+          "name": "Yang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002106
+        },
+        {
+          "person_id": 1239,
+          "name": "Li Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4002106
+        }
       ]
     }
   ],

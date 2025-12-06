@@ -4,8 +4,60 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:558",
+      "work_type": "Song",
+      "work_id": 558,
+      "title": "Insomnia's Lonely Whisper",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 562,
+      "artist_name": "Antoine Perrot-Léger",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 560,
+          "name": "Charlotte Lefèvre",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4312143
+        },
+        {
+          "person_id": 559,
+          "name": "Christine Bonnin-Morel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430809
+        },
+        {
+          "person_id": 561,
+          "name": "Rémy Denis de Duhamel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.430809
+        }
+      ]
+    },
+    {
       "id": "song:5526",
-      "song_id": 5526,
+      "work_type": "Song",
+      "work_id": 5526,
       "title": "Blooming Choreography",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +73,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 560,
+          "name": "Charlotte Lefèvre",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4312143
+        },
+        {
+          "person_id": 559,
+          "name": "Christine Bonnin-Morel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430809
+        },
+        {
+          "person_id": 561,
+          "name": "Rémy Denis de Duhamel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.430809
+        }
+      ]
     },
     {
       "id": "song:6250",
-      "song_id": 6250,
+      "work_type": "Song",
+      "work_id": 6250,
       "title": "Moderato Meridian",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,49 +124,35 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:558",
-      "song_id": 558,
-      "title": "Insomnia's Lonely Whisper",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2027,
-      "single": true,
-      "own": true,
-      "artist_id": 562,
-      "artist_name": "Antoine Perrot-Léger",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:558",
-      "song_id": 558,
-      "title": "Insomnia's Lonely Whisper",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2027,
-      "single": true,
-      "own": false,
-      "artist_id": 559,
-      "artist_name": "Christine Bonnin-Morel",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf",
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 560,
+          "name": "Charlotte Lefèvre",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4312143
+        },
+        {
+          "person_id": 559,
+          "name": "Christine Bonnin-Morel",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.430809
+        },
+        {
+          "person_id": 561,
+          "name": "Rémy Denis de Duhamel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430809
+        }
       ]
     }
   ],
@@ -94,14 +163,14 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:5526",
-      "target": "song:6250",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:558",
       "target": "song:5526",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5526",
+      "target": "song:6250",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

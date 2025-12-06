@@ -1,0 +1,117 @@
+{
+  "person_id": 1226,
+  "name": "Tracy Ibarra",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:1221",
+      "work_type": "Album",
+      "work_id": 1221,
+      "title": "Verdant Overture",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 1226,
+      "artist_name": "Tracy Ibarra",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1227,
+          "name": "Jun Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5173717
+        },
+        {
+          "person_id": 1223,
+          "name": "Gang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7102466
+        },
+        {
+          "person_id": 1222,
+          "name": "Jing Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0503886
+        },
+        {
+          "person_id": 1224,
+          "name": "Richard Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995454
+        },
+        {
+          "person_id": 1225,
+          "name": "Min Kong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995454
+        }
+      ]
+    },
+    {
+      "id": "song:17151",
+      "work_type": "Song",
+      "work_id": 17151,
+      "title": "Cities Without Sound",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2035,
+      "single": true,
+      "own": false,
+      "artist_id": 17146,
+      "artist_name": "Julia Carter (Jude Rivers)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17146,
+          "name": "Julia Carter",
+          "stage_name": "Jude Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1046424
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17151",
+      "target": "album:1221",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

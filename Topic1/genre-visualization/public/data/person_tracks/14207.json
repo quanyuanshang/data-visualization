@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14206",
-      "song_id": 14206,
+      "work_type": "Song",
+      "work_id": 14206,
       "title": "Distant Melodies",
       "genre": "Synthpop",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 14207,
       "artist_name": "Melinda Austin (Marcus Lane)",
-      "influence": 6,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14208,
+          "name": "Juan Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985052
+        },
+        {
+          "person_id": 14209,
+          "name": "Guiying Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982332
+        }
+      ]
     },
     {
       "id": "song:3782",
-      "song_id": 3782,
+      "work_type": "Song",
+      "work_id": 3782,
       "title": "Echoes of Solitude",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,11 +66,85 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3783,
+          "name": "Li Xiong",
+          "stage_name": "Spectral Canticle",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3972576
+        },
+        {
+          "person_id": 3784,
+          "name": "Yong Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972576
+        },
+        {
+          "person_id": 3785,
+          "name": "Yan Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397253
+        }
+      ]
+    },
+    {
+      "id": "album:3876",
+      "work_type": "Album",
+      "work_id": 3876,
+      "title": "Elevation Harmony",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 3878,
+      "artist_name": "Li Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3877,
+          "name": "Wei Tan",
+          "stage_name": "Waytawn",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980598
+        },
+        {
+          "person_id": 3878,
+          "name": "Li Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979788
+        }
       ]
     },
     {
       "id": "song:8068",
-      "song_id": 8068,
+      "work_type": "Song",
+      "work_id": 8068,
       "title": "Limitless Cadence",
       "genre": "Synthpop",
       "notable": true,
@@ -65,17 +162,70 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8069,
+          "name": "Carrie Griffin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974295
+        },
+        {
+          "person_id": 8070,
+          "name": "Yang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974295
+        },
+        {
+          "person_id": 8072,
+          "name": "Xia Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974295
+        },
+        {
+          "person_id": 8073,
+          "name": "Xiulan Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974295
+        },
+        {
+          "person_id": 8071,
+          "name": "Fang Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974087
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8068",
+      "source": "album:3876",
+      "target": "song:14206",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3782",
       "target": "song:14206",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:3782",
+      "source": "song:8068",
       "target": "song:14206",
       "type": "InterpolatesFrom"
     }

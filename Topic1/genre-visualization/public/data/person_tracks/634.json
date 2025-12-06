@@ -4,28 +4,50 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:632",
-      "song_id": 632,
-      "title": "Brewing Heritage",
+      "id": "album:10045",
+      "work_type": "Album",
+      "work_id": 10045,
+      "title": "Echoes of a Hallowed Namesake",
       "genre": "Alternative Rock",
       "notable": true,
-      "release_year": 2012,
-      "single": true,
+      "release_year": 2018,
+      "single": false,
       "own": true,
       "artist_id": 634,
       "artist_name": "Jie Hu",
-      "influence": 18,
+      "influence": 6,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 0,
         "sample": 0,
-        "reference": 3,
-        "style": 2
+        "reference": 0,
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 6779,
+          "name": "Chao Zhong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.09626
+        }
+      ]
     },
     {
       "id": "song:10309",
-      "song_id": 10309,
+      "work_type": "Song",
+      "work_id": 10309,
       "title": "Flickering Flames of Romance",
       "genre": "Alternative Rock",
       "notable": true,
@@ -34,6 +56,80 @@
       "own": true,
       "artist_id": 634,
       "artist_name": "Jie Hu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 819,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362248
+        }
+      ]
+    },
+    {
+      "id": "song:632",
+      "work_type": "Song",
+      "work_id": 632,
+      "title": "Brewing Heritage",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 634,
+      "artist_name": "Jie Hu",
+      "influence": 24,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 5,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        }
+      ]
+    },
+    {
+      "id": "song:6778",
+      "work_type": "Song",
+      "work_id": 6778,
+      "title": "Wheel of Fortune",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 633,
+      "artist_name": "Guiying Shi",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -41,11 +137,214 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 6779,
+          "name": "Chao Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.09626
+        }
+      ]
+    },
+    {
+      "id": "song:12013",
+      "work_type": "Song",
+      "work_id": 12013,
+      "title": "Whispers After Dark",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 633,
+      "artist_name": "Guiying Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 6779,
+          "name": "Chao Zhong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.09626
+        },
+        {
+          "person_id": 12014,
+          "name": "Yang Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396702
+        }
+      ]
+    },
+    {
+      "id": "song:15632",
+      "work_type": "Song",
+      "work_id": 15632,
+      "title": "It'll Pass",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1086,
+      "artist_name": "Chao Qiu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 6779,
+          "name": "Chao Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.09626
+        }
+      ]
+    },
+    {
+      "id": "album:17111",
+      "work_type": "Album",
+      "work_id": 17111,
+      "title": "Kingdoms of Dust",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": 17110,
+      "artist_name": "The Hollow Monarchs（成员：Chloe Montgomery (Lane Taylor)｜预测 2.36、Nathaniel Brooks (David Cole)｜预测 2.36…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17406,
+          "name": "Ivy Steele",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4257202
+        },
+        {
+          "person_id": 17407,
+          "name": "Nate Wild",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4257202
+        },
+        {
+          "person_id": 17408,
+          "name": "Scarlett Moon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3744082
+        },
+        {
+          "person_id": 17402,
+          "name": "N.V. Blake",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.7431831
+        }
+      ]
     },
     {
       "id": "song:3094",
-      "song_id": 3094,
+      "work_type": "Song",
+      "work_id": 3094,
       "title": "Longing on the Line",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -63,33 +362,61 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:6778",
-      "song_id": 6778,
-      "title": "Wheel of Fortune",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2029,
-      "single": false,
-      "own": false,
-      "artist_id": 633,
-      "artist_name": "Guiying Shi",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 3097,
+          "name": "Xiulan Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6890514
+        },
+        {
+          "person_id": 3096,
+          "name": "Wei Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0163338
+        },
+        {
+          "person_id": 3095,
+          "name": "Wanda Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980165
+        }
       ]
     },
     {
       "id": "song:7222",
-      "song_id": 7222,
+      "work_type": "Song",
+      "work_id": 7222,
       "title": "Echoes of Julianne",
       "genre": "Alternative Rock",
       "notable": true,
@@ -107,11 +434,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 3097,
+          "name": "Xiulan Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6890514
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.02
+        }
       ]
     },
     {
       "id": "song:11453",
-      "song_id": 11453,
+      "work_type": "Song",
+      "work_id": 11453,
       "title": "Asphalt Breath",
       "genre": "Dream Pop",
       "notable": true,
@@ -129,19 +496,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3716,
+          "name": "Qiang Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7220554
+        },
+        {
+          "person_id": 11454,
+          "name": "Lucas Hurley",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.392894
+        },
+        {
+          "person_id": 11455,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.392894
+        }
       ]
     },
     {
-      "id": "song:12013",
-      "song_id": 12013,
-      "title": "Whispers After Dark",
-      "genre": "Alternative Rock",
+      "id": "album:17331",
+      "work_type": "Album",
+      "work_id": 17331,
+      "title": "Lodestone & Lament",
+      "genre": "Oceanus Folk",
       "notable": true,
-      "release_year": 2026,
-      "single": true,
+      "release_year": 2013,
+      "single": false,
       "own": false,
-      "artist_id": 633,
-      "artist_name": "Guiying Shi",
+      "artist_id": 17327,
+      "artist_name": "Drowned Harbor（成员：Orin Caldwell｜预测 3.71、Selena Marrow｜预测 3.71…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -150,47 +548,53 @@
         "style": 0
       },
       "relation_types": [
-        "CoverOf"
-      ]
-    },
-    {
-      "id": "song:15632",
-      "song_id": 15632,
-      "title": "It'll Pass",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": false,
-      "artist_id": 1086,
-      "artist_name": "Chao Qiu",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17326,
+          "name": "Jonas Fenwick",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7154114
+        },
+        {
+          "person_id": 17325,
+          "name": "Thorne Rivenhall",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7153614
+        },
+        {
+          "person_id": 17323,
+          "name": "Orin Caldwell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7138486
+        },
+        {
+          "person_id": 17324,
+          "name": "Selena Marrow",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7120118
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11453",
+      "source": "song:15632",
       "target": "song:632",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:7222",
-      "target": "song:632",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:3094",
-      "target": "song:632",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:6778",
@@ -198,14 +602,54 @@
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:11453",
+      "target": "song:632",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3094",
+      "target": "song:632",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:17111",
+      "target": "song:10309",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12013",
+      "target": "album:10045",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:15632",
+      "target": "album:10045",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6778",
+      "target": "album:10045",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10045",
       "target": "song:632",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:17331",
+      "target": "song:632",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:12013",
       "target": "song:632",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:7222",
+      "target": "song:632",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

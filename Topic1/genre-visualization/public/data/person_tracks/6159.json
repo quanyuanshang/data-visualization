@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15241",
-      "song_id": 15241,
-      "title": "Nordisk Ljusdans (Nordic Light Dance)",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2025,
-      "single": true,
-      "own": true,
-      "artist_id": 6159,
-      "artist_name": "Debra Martin",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6158",
-      "song_id": 6158,
+      "work_type": "Song",
+      "work_id": 6158,
       "title": "They Won't Understand Our Vision",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -41,11 +22,24 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        }
+      ]
     },
     {
       "id": "song:6864",
-      "song_id": 6864,
+      "work_type": "Song",
+      "work_id": 6864,
       "title": "Echoes from the Elfin Veil",
       "genre": "Avant-Garde Folk",
       "notable": false,
@@ -61,55 +55,65 @@
         "reference": 3,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:5178",
-      "song_id": 5178,
-      "title": "Rhythm of Seven Steps",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2027,
-      "single": true,
-      "own": false,
-      "artist_id": 5179,
-      "artist_name": "Haley Silva",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        }
       ]
     },
     {
-      "id": "song:16336",
-      "song_id": 16336,
-      "title": "Pantheon's Echo",
-      "genre": "Dream Pop",
+      "id": "song:15241",
+      "work_type": "Song",
+      "work_id": 15241,
+      "title": "Nordisk Ljusdans (Nordic Light Dance)",
+      "genre": "Avant-Garde Folk",
       "notable": true,
-      "release_year": 2028,
+      "release_year": 2025,
       "single": true,
-      "own": false,
-      "artist_id": 1327,
-      "artist_name": "Fang Zou",
-      "influence": 0,
+      "own": true,
+      "artist_id": 6159,
+      "artist_name": "Debra Martin",
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 2
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2762475
+        }
       ]
     },
     {
       "id": "song:12344",
-      "song_id": 12344,
+      "work_type": "Song",
+      "work_id": 12344,
       "title": "Whispers from the Bamboo Grove",
       "genre": "Alternative Rock",
       "notable": true,
@@ -127,11 +131,78 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        }
+      ]
+    },
+    {
+      "id": "song:15241",
+      "work_type": "Song",
+      "work_id": 15241,
+      "title": "Nordisk Ljusdans (Nordic Light Dance)",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 6159,
+      "artist_name": "Debra Martin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
       ]
     },
     {
       "id": "song:5407",
-      "song_id": 5407,
+      "work_type": "Song",
+      "work_id": 5407,
       "title": "The Whispers of Walborg",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -149,11 +220,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.5583477
+        },
+        {
+          "person_id": 5408,
+          "name": "Yong Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9828632
+        }
       ]
     },
     {
       "id": "song:7842",
-      "song_id": 7842,
+      "work_type": "Song",
+      "work_id": 7842,
       "title": "Lifted High, His Name Divine",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -171,6 +273,114 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 7843,
+          "name": "Jun Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9450507
+        }
+      ]
+    },
+    {
+      "id": "song:5178",
+      "work_type": "Song",
+      "work_id": 5178,
+      "title": "Rhythm of Seven Steps",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 5179,
+      "artist_name": "Haley Silva",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5179,
+          "name": "Haley Silva",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970437
+        }
+      ]
+    },
+    {
+      "id": "song:16336",
+      "work_type": "Song",
+      "work_id": 16336,
+      "title": "Pantheon's Echo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1327,
+      "artist_name": "Fang Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 16337,
+          "name": "Xia Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955705
+        },
+        {
+          "person_id": 16338,
+          "name": "Meghan Cortez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3955705
+        }
       ]
     }
   ],
@@ -179,16 +389,6 @@
       "source": "song:5407",
       "target": "song:6864",
       "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:12344",
-      "target": "song:6158",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:12344",
-      "target": "song:6864",
-      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:7842",
@@ -201,8 +401,13 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:5178",
-      "target": "song:15241",
+      "source": "song:12344",
+      "target": "song:6158",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15241",
+      "target": "song:6864",
       "type": "InStyleOf"
     },
     {
@@ -211,14 +416,19 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:15241",
-      "target": "song:6158",
+      "source": "song:12344",
+      "target": "song:6864",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:15241",
-      "target": "song:6864",
+      "source": "song:5178",
+      "target": "song:15241",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:15241",
+      "target": "song:6158",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14072",
-      "song_id": 14072,
+      "work_type": "Song",
+      "work_id": 14072,
       "title": "Rhythm of the Armenian Highlands",
       "genre": "Desert Rock",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 14073,
       "artist_name": "Li Kang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6758,
+          "name": "Min Shao",
+          "stage_name": "Radio Seraph",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0440269
+        },
+        {
+          "person_id": 6760,
+          "name": "Yang Tan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0440269
+        },
+        {
+          "person_id": 6761,
+          "name": "Juan Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0440269
+        }
+      ]
+    },
+    {
+      "id": "album:6757",
+      "work_type": "Album",
+      "work_id": 6757,
+      "title": "Whispers Before Midnight",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 6759,
+      "artist_name": "Yong Lu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6758,
+          "name": "Min Shao",
+          "stage_name": "Radio Seraph",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0440269
+        },
+        {
+          "person_id": 6760,
+          "name": "Yang Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0440269
+        },
+        {
+          "person_id": 6761,
+          "name": "Juan Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0440269
+        },
+        {
+          "person_id": 6759,
+          "name": "Yong Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000318
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:6757",
+      "target": "song:14072",
+      "type": "InStyleOf"
+    }
+  ]
 }

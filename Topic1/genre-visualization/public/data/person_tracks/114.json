@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:112",
-      "song_id": 112,
-      "title": "Cartographic Dreams",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 114,
-      "artist_name": "Jie Long",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:12025",
-      "song_id": 12025,
+      "work_type": "Song",
+      "work_id": 12025,
       "title": "Nocturnal Reverie",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -41,11 +22,33 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 12026,
+          "name": "Na Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0702453
+        }
+      ]
     },
     {
       "id": "song:8773",
-      "song_id": 8773,
+      "work_type": "Song",
+      "work_id": 8773,
       "title": "Blooming Love's Embrace",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -61,33 +64,93 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 8775,
+          "name": "Jessica Peck",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4113777
+        },
+        {
+          "person_id": 8774,
+          "name": "Ming Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398499
+        }
+      ]
     },
     {
-      "id": "song:8650",
-      "song_id": 8650,
-      "title": "Vocal Echoes",
-      "genre": "Alternative Rock",
+      "id": "song:112",
+      "work_type": "Song",
+      "work_id": 112,
+      "title": "Cartographic Dreams",
+      "genre": "Lo-Fi Electronica",
       "notable": true,
-      "release_year": 2013,
+      "release_year": 2007,
       "single": true,
-      "own": false,
-      "artist_id": 113,
-      "artist_name": "Fang Zhong",
-      "influence": 0,
+      "own": true,
+      "artist_id": 114,
+      "artist_name": "Jie Long",
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 113,
+          "name": "Fang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0498235
+        },
+        {
+          "person_id": 116,
+          "name": "Wei Ye",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0498235
+        }
       ]
     },
     {
       "id": "song:8698",
-      "song_id": 8698,
+      "work_type": "Song",
+      "work_id": 8698,
       "title": "Brushstrokes and Shadows",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -105,11 +168,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8701,
+          "name": "Yang Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.446699
+        },
+        {
+          "person_id": 8700,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4221156
+        },
+        {
+          "person_id": 8699,
+          "name": "Tao Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.391462
+        },
+        {
+          "person_id": 8702,
+          "name": "Jun Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.391462
+        }
       ]
     },
     {
       "id": "song:12983",
-      "song_id": 12983,
+      "work_type": "Song",
+      "work_id": 12983,
       "title": "Knees to the Ground",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -127,6 +231,80 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12985,
+          "name": "Megan Humphrey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980317
+        },
+        {
+          "person_id": 12984,
+          "name": "Juan Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978107
+        }
+      ]
+    },
+    {
+      "id": "song:8650",
+      "work_type": "Song",
+      "work_id": 8650,
+      "title": "Vocal Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 113,
+      "artist_name": "Fang Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 113,
+          "name": "Fang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0498235
+        },
+        {
+          "person_id": 116,
+          "name": "Wei Ye",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0498235
+        }
       ]
     }
   ],
@@ -137,14 +315,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:12983",
-      "target": "song:12025",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:8698",
       "target": "song:12025",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:12983",
+      "target": "song:12025",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

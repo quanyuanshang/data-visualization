@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15214",
-      "song_id": 15214,
-      "title": "Steel Wings, Gentle Soul",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 13463,
-      "artist_name": "Henri Drubin",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13459",
-      "song_id": 13459,
+      "work_type": "Song",
+      "work_id": 13459,
       "title": "Eternal Bloom",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -41,11 +22,103 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8054,
+          "name": "Vasyl Jaroš",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0610948
+        },
+        {
+          "person_id": 13460,
+          "name": "Richard Kovář",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3934374
+        },
+        {
+          "person_id": 13461,
+          "name": "Anna Vávrová",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3934374
+        },
+        {
+          "person_id": 13462,
+          "name": "Karsten Löwer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3934374
+        }
+      ]
+    },
+    {
+      "id": "song:15214",
+      "work_type": "Song",
+      "work_id": 15214,
+      "title": "Steel Wings, Gentle Soul",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 13463,
+      "artist_name": "Henri Drubin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2151,
+          "name": "Vito Stroh",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9143434
+        },
+        {
+          "person_id": 15215,
+          "name": "Fanny Dörschner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981264
+        },
+        {
+          "person_id": 15216,
+          "name": "Pascal Pärtzelt-Jockel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981264
+        }
+      ]
     },
     {
       "id": "song:14705",
-      "song_id": 14705,
+      "work_type": "Song",
+      "work_id": 14705,
       "title": "Substrate Oscillation",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,11 +136,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8054,
+          "name": "Vasyl Jaroš",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0610948
+        },
+        {
+          "person_id": 1171,
+          "name": "Ivana Vávrová",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0341313
+        },
+        {
+          "person_id": 14706,
+          "name": "Gaetano Hartmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3900373
+        }
       ]
     },
     {
       "id": "song:15258",
-      "song_id": 15258,
+      "work_type": "Song",
+      "work_id": 15258,
       "title": "Sovereign Melody of Britannia",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -85,19 +189,48 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15259,
+          "name": "Jacqueline Monroe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.043209
+        },
+        {
+          "person_id": 5969,
+          "name": "Kristiane Stadelmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0422142
+        },
+        {
+          "person_id": 15260,
+          "name": "Steve Schottin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982573
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15258",
-      "target": "song:13459",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:14705",
       "target": "song:13459",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15258",
+      "target": "song:13459",
+      "type": "InStyleOf"
     }
   ]
 }

@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10549",
-      "song_id": 10549,
-      "title": "Unfinished Conversations",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 1993,
-      "single": true,
-      "own": true,
-      "artist_id": 5281,
-      "artist_name": "Ismet Heser",
-      "influence": 15,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 3,
-        "style": 3
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:15456",
-      "song_id": 15456,
-      "title": "Yolun Yarısı (Halfway Home)",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 1999,
-      "single": true,
-      "own": true,
-      "artist_id": 5281,
-      "artist_name": "Ismet Heser",
-      "influence": 24,
-      "influence_breakdown": {
-        "cover": 2,
-        "sample": 0,
-        "reference": 4,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:5279",
-      "song_id": 5279,
+      "work_type": "Song",
+      "work_id": 5279,
       "title": "Silent Walls",
       "genre": "Indie Pop",
       "notable": true,
@@ -54,18 +15,113 @@
       "own": true,
       "artist_id": 5281,
       "artist_name": "Ismet Heser",
-      "influence": 4,
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 5280,
+          "name": "Cameron Faulkner",
+          "stage_name": "Horizon",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.028172
+        }
+      ]
+    },
+    {
+      "id": "album:6868",
+      "work_type": "Album",
+      "work_id": 6868,
+      "title": "Turning the Page",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1992,
+      "single": false,
+      "own": true,
+      "artist_id": 5281,
+      "artist_name": "Ismet Heser",
+      "influence": 31,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 1,
+        "reference": 3,
+        "style": 4
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        }
+      ]
+    },
+    {
+      "id": "album:13874",
+      "work_type": "Album",
+      "work_id": 13874,
+      "title": "Whistle and Steel",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2006,
+      "single": false,
+      "own": true,
+      "artist_id": 5281,
+      "artist_name": "Ismet Heser",
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 2
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        }
+      ]
     },
     {
       "id": "song:14299",
-      "song_id": 14299,
+      "work_type": "Song",
+      "work_id": 14299,
       "title": "Crossroads at Dusk",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -81,11 +137,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        }
+      ]
+    },
+    {
+      "id": "song:10549",
+      "work_type": "Song",
+      "work_id": 10549,
+      "title": "Unfinished Conversations",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1993,
+      "single": true,
+      "own": true,
+      "artist_id": 5281,
+      "artist_name": "Ismet Heser",
+      "influence": 20,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 4,
+        "style": 4
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.845913
+        }
+      ]
     },
     {
       "id": "song:13984",
-      "song_id": 13984,
+      "work_type": "Song",
+      "work_id": 13984,
       "title": "Whispers of a Poet's Ink",
       "genre": "Indie Pop",
       "notable": true,
@@ -101,152 +201,73 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:3387",
-      "song_id": 3387,
-      "title": "Echoes Out of Time",
-      "genre": "Lo-Fi Electronica",
-      "notable": false,
-      "release_year": 2016,
-      "single": true,
-      "own": false,
-      "artist_id": 2538,
-      "artist_name": "Angelika Osojca",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
       ]
     },
     {
-      "id": "song:10090",
-      "song_id": 10090,
-      "title": "Candlelight Confessions",
+      "id": "song:15456",
+      "work_type": "Song",
+      "work_id": 15456,
+      "title": "Yolun Yarısı (Halfway Home)",
       "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 1998,
+      "release_year": 1999,
       "single": true,
-      "own": false,
-      "artist_id": 30,
-      "artist_name": "Megan Bennett",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:12396",
-      "song_id": 12396,
-      "title": "Across All Distances",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": false,
-      "artist_id": 2538,
-      "artist_name": "Angelika Osojca",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:13639",
-      "song_id": 13639,
-      "title": "Aqua Mechanica",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2000,
-      "single": true,
-      "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:14011",
-      "song_id": 14011,
-      "title": "Whispers of Potential",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2017,
-      "single": false,
-      "own": false,
-      "artist_id": 14012,
-      "artist_name": "James George",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:14299",
-      "song_id": 14299,
-      "title": "Crossroads at Dusk",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2005,
-      "single": false,
       "own": true,
       "artist_id": 5281,
       "artist_name": "Ismet Heser",
-      "influence": 0,
+      "influence": 41,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 5,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 4,
+        "style": 2
       },
-      "relation_types": [
-        "CoverOf",
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        }
       ]
     },
     {
-      "id": "song:8891",
-      "song_id": 8891,
-      "title": "The Pound of Flesh Sonata",
-      "genre": "Southern Gothic Rock",
+      "id": "album:8115",
+      "work_type": "Album",
+      "work_id": 8115,
+      "title": "Switchboard Serenade",
+      "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2009,
-      "single": true,
+      "release_year": 1999,
+      "single": false,
       "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
+      "artist_id": 8116,
+      "artist_name": "Samar Sarma",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -255,123 +276,52 @@
         "style": 0
       },
       "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:12041",
-      "song_id": 12041,
-      "title": "Whispers and Touches",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": false,
-      "artist_id": 2207,
-      "artist_name": "Brian Wright",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
-      ]
-    },
-    {
-      "id": "song:12105",
-      "song_id": 12105,
-      "title": "Mannequin's Whisper",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:13984",
-      "song_id": 13984,
-      "title": "Whispers of a Poet's Ink",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:15744",
-      "song_id": 15744,
-      "title": "Broken Again",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2014,
-      "single": true,
-      "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:16348",
-      "song_id": 16348,
-      "title": "Iron Hooves and Leather Reins",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2030,
-      "single": true,
-      "own": false,
-      "artist_id": 2069,
-      "artist_name": "Andrew Williams",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom",
-        "LyricalReferenceTo"
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 425,
+          "name": "Hazel Kara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9262712
+        },
+        {
+          "person_id": 4251,
+          "name": "Justin Thomas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0436146
+        },
+        {
+          "person_id": 8116,
+          "name": "Samar Sarma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        },
+        {
+          "person_id": 8117,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        }
       ]
     },
     {
       "id": "song:8708",
-      "song_id": 8708,
+      "work_type": "Song",
+      "work_id": 8708,
       "title": "Canvas Whispers",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -389,49 +339,1104 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "song:13984",
+      "work_type": "Song",
+      "work_id": 13984,
+      "title": "Whispers of a Poet's Ink",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2069,
+      "artist_name": "Andrew Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 5281,
+          "name": "Ismet Heser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.118744
+        }
+      ]
+    },
+    {
+      "id": "album:2666",
+      "work_type": "Album",
+      "work_id": 2666,
+      "title": "Lift Me Higher",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 2667,
+      "artist_name": "Fang Xue",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2667,
+          "name": "Fang Xue",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4013371
+        },
+        {
+          "person_id": 2669,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044204
+        }
+      ]
+    },
+    {
+      "id": "song:2972",
+      "work_type": "Song",
+      "work_id": 2972,
+      "title": "Shadows of an Unfinished Love",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2032,
+      "single": true,
+      "own": false,
+      "artist_id": 2973,
+      "artist_name": "Jun Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2974,
+          "name": "Ming Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7139742
+        },
+        {
+          "person_id": 2973,
+          "name": "Jun Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362709
+        }
+      ]
+    },
+    {
+      "id": "song:5839",
+      "work_type": "Song",
+      "work_id": 5839,
+      "title": "Permanent Horizon",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": true,
+      "own": false,
+      "artist_id": 2070,
+      "artist_name": "Jay Walters",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "song:10090",
+      "work_type": "Song",
+      "work_id": 10090,
+      "title": "Candlelight Confessions",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1998,
+      "single": true,
+      "own": false,
+      "artist_id": 30,
+      "artist_name": "Megan Bennett",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 2207,
+          "name": "Brian Wright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0227065
+        }
+      ]
+    },
+    {
+      "id": "song:12041",
+      "work_type": "Song",
+      "work_id": 12041,
+      "title": "Whispers and Touches",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 2207,
+      "artist_name": "Brian Wright",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 2207,
+          "name": "Brian Wright",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0227065
+        }
+      ]
+    },
+    {
+      "id": "song:13639",
+      "work_type": "Song",
+      "work_id": 13639,
+      "title": "Aqua Mechanica",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 2069,
+      "artist_name": "Andrew Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "song:14011",
+      "work_type": "Song",
+      "work_id": 14011,
+      "title": "Whispers of Potential",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 14012,
+      "artist_name": "James George",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3389,
+          "name": "Min Shen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4723341
+        },
+        {
+          "person_id": 2667,
+          "name": "Fang Xue",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4013371
+        },
+        {
+          "person_id": 14012,
+          "name": "James George",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983474
+        }
+      ]
+    },
+    {
+      "id": "song:14288",
+      "work_type": "Song",
+      "work_id": 14288,
+      "title": "Spectacles and Statecraft",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 8289,
+      "artist_name": "Ming Cai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7158923
+        },
+        {
+          "person_id": 8290,
+          "name": "Yan Shi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7077978
+        }
+      ]
+    },
+    {
+      "id": "song:14299",
+      "work_type": "Song",
+      "work_id": 14299,
+      "title": "Crossroads at Dusk",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2005,
+      "single": false,
+      "own": true,
+      "artist_id": 5281,
+      "artist_name": "Ismet Heser",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "DirectlySamples",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 5281,
+          "name": "Ismet Heser",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.118744
+        }
+      ]
+    },
+    {
+      "id": "song:14754",
+      "work_type": "Song",
+      "work_id": 14754,
+      "title": "Gossip's Flame",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2973,
+      "artist_name": "Jun Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158923
+        },
+        {
+          "person_id": 2974,
+          "name": "Ming Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7139742
+        },
+        {
+          "person_id": 8290,
+          "name": "Yan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7077978
+        },
+        {
+          "person_id": 2973,
+          "name": "Jun Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362709
+        }
+      ]
+    },
+    {
+      "id": "album:13001",
+      "work_type": "Album",
+      "work_id": 13001,
+      "title": "Wooden Heart's Whisper",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": false,
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "song:3387",
+      "work_type": "Song",
+      "work_id": 3387,
+      "title": "Echoes Out of Time",
+      "genre": "Lo-Fi Electronica",
+      "notable": false,
+      "release_year": 2016,
+      "single": true,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 3389,
+          "name": "Min Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4723341
+        },
+        {
+          "person_id": 3388,
+          "name": "Li Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010081
+        }
+      ]
+    },
+    {
+      "id": "song:12396",
+      "work_type": "Song",
+      "work_id": 12396,
+      "title": "Across All Distances",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2850,
+          "name": "Min Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.6156697
+        }
+      ]
+    },
+    {
+      "id": "album:13922",
+      "work_type": "Album",
+      "work_id": 13922,
+      "title": "Hooves and Hopes",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2850,
+          "name": "Min Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6156697
+        }
+      ]
+    },
+    {
+      "id": "song:16348",
+      "work_type": "Song",
+      "work_id": 16348,
+      "title": "Iron Hooves and Leather Reins",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "song:8891",
+      "work_type": "Song",
+      "work_id": 8891,
+      "title": "The Pound of Flesh Sonata",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 2069,
+      "artist_name": "Andrew Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:9586",
+      "work_type": "Album",
+      "work_id": 9586,
+      "title": "Reindeer Breath Melody",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 2069,
+      "artist_name": "Andrew Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:10085",
+      "work_type": "Album",
+      "work_id": 10085,
+      "title": "Whispers of Sacred Silence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 2070,
+      "artist_name": "Jay Walters",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "song:12105",
+      "work_type": "Song",
+      "work_id": 12105,
+      "title": "Mannequin's Whisper",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 2069,
+      "artist_name": "Andrew Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "song:15744",
+      "work_type": "Song",
+      "work_id": 15744,
+      "title": "Broken Again",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:12396",
+      "target": "song:10549",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:9586",
+      "target": "song:15456",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2972",
+      "target": "album:6868",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:13001",
+      "target": "song:15456",
+      "type": "CoverOf"
+    },
     {
       "source": "song:14299",
       "target": "song:15456",
       "type": "CoverOf"
     },
     {
-      "source": "song:12105",
-      "target": "song:15456",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:16348",
-      "target": "song:15456",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:10090",
-      "target": "song:10549",
+      "source": "song:5839",
+      "target": "album:6868",
       "type": "InStyleOf"
     },
     {
-      "source": "song:16348",
-      "target": "song:13984",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:14011",
+      "source": "album:2666",
       "target": "song:10549",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:12041",
-      "target": "song:15456",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:8891",
-      "target": "song:15456",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     },
     {
       "source": "song:3387",
@@ -439,14 +1444,9 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:13984",
-      "target": "song:15456",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13984",
-      "target": "song:5279",
-      "type": "InStyleOf"
+      "source": "song:10090",
+      "target": "album:6868",
+      "type": "CoverOf"
     },
     {
       "source": "song:13639",
@@ -459,19 +1459,119 @@
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:16348",
+      "target": "song:15456",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14754",
+      "target": "album:6868",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14299",
+      "target": "album:6868",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:13922",
+      "target": "song:10549",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:8891",
+      "target": "song:15456",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13984",
+      "target": "song:15456",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13874",
+      "target": "song:15456",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16348",
+      "target": "song:13984",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12041",
+      "target": "song:15456",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14011",
+      "target": "album:6868",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13984",
+      "target": "song:5279",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:14299",
       "target": "song:10549",
       "type": "InStyleOf"
     },
     {
-      "source": "song:12396",
-      "target": "song:10549",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:8708",
       "target": "song:5279",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:14011",
+      "target": "song:10549",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10090",
+      "target": "song:10549",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:8115",
+      "target": "song:5279",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:14288",
+      "target": "album:6868",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:2666",
+      "target": "album:6868",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13639",
+      "target": "album:6868",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:12041",
+      "target": "album:6868",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12105",
+      "target": "song:15456",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:13001",
+      "target": "album:13874",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10085",
+      "target": "song:15456",
+      "type": "CoverOf"
     }
   ]
 }

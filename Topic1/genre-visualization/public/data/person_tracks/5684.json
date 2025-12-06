@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5681",
-      "song_id": 5681,
+      "work_type": "Song",
+      "work_id": 5681,
       "title": "Iberian Intoxication",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5682,
+          "name": "Pamela Griffin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3983207
+        },
+        {
+          "person_id": 5683,
+          "name": "Sarah Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983207
+        }
+      ]
     },
     {
       "id": "song:15649",
-      "song_id": 15649,
+      "work_type": "Song",
+      "work_id": 15649,
       "title": "Echoes of Almaty",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +66,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15651,
+          "name": "Lucas Lenoir du Colin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398145
+        },
+        {
+          "person_id": 15650,
+          "name": "Richard Mathieu de Perrin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978722
+        }
       ]
     }
   ],

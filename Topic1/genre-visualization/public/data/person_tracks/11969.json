@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11967",
-      "song_id": 11967,
+      "work_type": "Song",
+      "work_id": 11967,
       "title": "Flames of Unity",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 11969,
       "artist_name": "Brandon Mccormick",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11968,
+          "name": "Jenny Dunn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972003
+        },
+        {
+          "person_id": 11970,
+          "name": "Allison Duran",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972003
+        },
+        {
+          "person_id": 11971,
+          "name": "Brandon Payne",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972003
+        }
+      ]
+    },
+    {
+      "id": "album:7286",
+      "work_type": "Album",
+      "work_id": 7286,
+      "title": "Woven Threads",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 7287,
+      "artist_name": "Dana Perkins",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7289,
+          "name": "Deborah Aguilar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969333
+        },
+        {
+          "person_id": 7288,
+          "name": "Christopher Young",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967636
+        },
+        {
+          "person_id": 7290,
+          "name": "Christopher Wood",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967636
+        },
+        {
+          "person_id": 7287,
+          "name": "Dana Perkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955817
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:7286",
+      "target": "song:11967",
+      "type": "InStyleOf"
+    }
+  ]
 }

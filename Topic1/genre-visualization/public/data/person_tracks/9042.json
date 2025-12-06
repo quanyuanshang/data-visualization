@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16652",
-      "song_id": 16652,
-      "title": "Endless July",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2027,
-      "single": true,
-      "own": true,
-      "artist_id": 9042,
-      "artist_name": "Emilie Rudolph",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9040",
-      "song_id": 9040,
+      "work_type": "Song",
+      "work_id": 9040,
       "title": "Meridian Drift",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,33 +22,93 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 9041,
+          "name": "Kimberly Howe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4199777
+        }
+      ]
     },
     {
-      "id": "song:14066",
-      "song_id": 14066,
-      "title": "Sally's Unsung Rebellion",
-      "genre": "Southern Gothic Rock",
+      "id": "song:16652",
+      "work_type": "Song",
+      "work_id": 16652,
+      "title": "Endless July",
+      "genre": "Alternative Rock",
       "notable": true,
-      "release_year": 2029,
+      "release_year": 2027,
       "single": true,
-      "own": false,
-      "artist_id": 1251,
-      "artist_name": "Eugenia Mitschke",
-      "influence": 0,
+      "own": true,
+      "artist_id": 9042,
+      "artist_name": "Emilie Rudolph",
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2834263
+        }
       ]
     },
     {
       "id": "song:7797",
-      "song_id": 7797,
+      "work_type": "Song",
+      "work_id": 7797,
       "title": "Mercy Beyond Measure",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -85,11 +126,24 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
       ]
     },
     {
       "id": "song:11562",
-      "song_id": 11562,
+      "work_type": "Song",
+      "work_id": 11562,
       "title": "Courtly Shadows and Silk",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -107,19 +161,130 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 8446,
+          "name": "Stephanie Robinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7064111
+        },
+        {
+          "person_id": 11563,
+          "name": "Michelle Atkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39891
+        }
+      ]
+    },
+    {
+      "id": "song:14066",
+      "work_type": "Song",
+      "work_id": 14066,
+      "title": "Sally's Unsung Rebellion",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1251,
+      "artist_name": "Eugenia Mitschke",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 8446,
+          "name": "Stephanie Robinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7064111
+        },
+        {
+          "person_id": 8447,
+          "name": "Amber Gibson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4366257
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7797",
-      "target": "song:9040",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:11562",
       "target": "song:9040",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:7797",
+      "target": "song:9040",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:14066",

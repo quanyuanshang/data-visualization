@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5051",
-      "song_id": 5051,
+      "work_type": "Song",
+      "work_id": 5051,
       "title": "Whispers of Summer Wings",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 5052,
       "artist_name": "Falko Mielcarek",
-      "influence": 21,
+      "influence": 26,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 1,
         "reference": 3,
         "style": 4
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 1956,
+          "name": "Dominic Riehl",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6828003
+        }
+      ]
     },
     {
       "id": "song:249",
-      "song_id": 249,
+      "work_type": "Song",
+      "work_id": 249,
       "title": "Sunbeams of Joy Cascading",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -43,11 +66,60 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 251,
+          "name": "Chantal Stadelmann",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.041048
+        },
+        {
+          "person_id": 252,
+          "name": "Stephanie Morales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041048
+        },
+        {
+          "person_id": 253,
+          "name": "Amanda Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041048
+        },
+        {
+          "person_id": 254,
+          "name": "Dörthe Dehmel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041048
+        }
       ]
     },
     {
       "id": "song:413",
-      "song_id": 413,
+      "work_type": "Song",
+      "work_id": 413,
       "title": "Embers of Inheritance",
       "genre": "Indie Pop",
       "notable": true,
@@ -65,11 +137,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 415,
+          "name": "Denise Bell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4360912
+        },
+        {
+          "person_id": 414,
+          "name": "Jimmy Brown",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972828
+        }
       ]
     },
     {
       "id": "song:2026",
-      "song_id": 2026,
+      "work_type": "Song",
+      "work_id": 2026,
       "title": "Scattered Light",
       "genre": "Indie Pop",
       "notable": true,
@@ -87,11 +181,86 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 2028,
+          "name": "Emin Mentzel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989563
+        },
+        {
+          "person_id": 2027,
+          "name": "Božena Dušková",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989356
+        }
+      ]
+    },
+    {
+      "id": "album:10294",
+      "work_type": "Album",
+      "work_id": 10294,
+      "title": "Canal Midnight",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2002,
+      "single": false,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        }
       ]
     },
     {
       "id": "song:11227",
-      "song_id": 11227,
+      "work_type": "Song",
+      "work_id": 11227,
       "title": "Harmonic Echoes of a Restless Mind",
       "genre": "Indie Pop",
       "notable": true,
@@ -109,11 +278,42 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 11228,
+          "name": "Patrizia Drewes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997731
+        },
+        {
+          "person_id": 11229,
+          "name": "Brady Brown",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3997731
+        }
       ]
     },
     {
       "id": "song:11520",
-      "song_id": 11520,
+      "work_type": "Song",
+      "work_id": 11520,
       "title": "Reflections of Ego",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -131,11 +331,61 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 250,
+          "name": "Mareen Schacht",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.876256
+        },
+        {
+          "person_id": 251,
+          "name": "Chantal Stadelmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041048
+        },
+        {
+          "person_id": 252,
+          "name": "Stephanie Morales",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041048
+        },
+        {
+          "person_id": 253,
+          "name": "Amanda Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041048
+        },
+        {
+          "person_id": 254,
+          "name": "Dörthe Dehmel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041048
+        }
       ]
     },
     {
       "id": "song:11936",
-      "song_id": 11936,
+      "work_type": "Song",
+      "work_id": 11936,
       "title": "Tender Destruction",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -153,11 +403,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 1248,
+          "name": "Gang Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.424843
+        },
+        {
+          "person_id": 11937,
+          "name": "Ashley Mahoney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993952
+        }
       ]
     },
     {
       "id": "song:16297",
-      "song_id": 16297,
+      "work_type": "Song",
+      "work_id": 16297,
       "title": "Roadside Heartbreak Motel",
       "genre": "Emo/Pop Punk",
       "notable": false,
@@ -175,11 +465,41 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1956,
+          "name": "Dominic Riehl",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6828003
+        }
       ]
     },
     {
       "id": "song:16327",
-      "song_id": 16327,
+      "work_type": "Song",
+      "work_id": 16327,
       "title": "Eternal Devotion",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -197,32 +517,40 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11520",
-      "target": "song:5051",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:16327",
-      "target": "song:5051",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:11227",
-      "target": "song:5051",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:16297",
+      "source": "song:413",
       "target": "song:5051",
       "type": "InStyleOf"
     },
     {
+      "source": "album:10294",
+      "target": "song:5051",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:11936",
+      "target": "song:5051",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16297",
       "target": "song:5051",
       "type": "InStyleOf"
     },
@@ -237,9 +565,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:413",
+      "source": "song:11227",
       "target": "song:5051",
-      "type": "InStyleOf"
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:16327",
+      "target": "song:5051",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11520",
+      "target": "song:5051",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

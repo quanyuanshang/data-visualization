@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15181",
-      "song_id": 15181,
-      "title": "Siren's Call at Nasso",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2000,
-      "single": true,
-      "own": true,
-      "artist_id": 9960,
-      "artist_name": "Li Cui",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9958",
-      "song_id": 9958,
+      "work_type": "Song",
+      "work_id": 9958,
       "title": "Fragments of Unspoken Harmony",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,7 +22,69 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2172,
+          "name": "Monica Nelson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9315295
+        },
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9261718
+        },
+        {
+          "person_id": 9959,
+          "name": "Wei Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4057126
+        }
+      ]
+    },
+    {
+      "id": "song:15181",
+      "work_type": "Song",
+      "work_id": 15181,
+      "title": "Siren's Call at Nasso",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 9960,
+      "artist_name": "Li Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261718
+        }
+      ]
     }
   ],
   "links": []

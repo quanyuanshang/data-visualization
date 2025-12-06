@@ -1,0 +1,110 @@
+{
+  "person_id": 73,
+  "name": "Yang Pan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:71",
+      "work_type": "Album",
+      "work_id": 71,
+      "title": "Forgotten Incantation",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 73,
+      "artist_name": "Yang Pan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 75,
+          "name": "Juan Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9476163
+        },
+        {
+          "person_id": 76,
+          "name": "Ming Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9242806
+        },
+        {
+          "person_id": 72,
+          "name": "Amy Mejia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000113
+        }
+      ]
+    },
+    {
+      "id": "song:7278",
+      "work_type": "Song",
+      "work_id": 7278,
+      "title": "Requiem for a Fading Self",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7278",
+      "target": "album:71",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

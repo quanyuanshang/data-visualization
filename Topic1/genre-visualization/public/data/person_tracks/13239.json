@@ -1,0 +1,90 @@
+{
+  "person_id": 13239,
+  "name": "Rosario Alsina Saez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13237",
+      "work_type": "Album",
+      "work_id": 13237,
+      "title": "Secrets Beyond Comprehension",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": false,
+      "own": true,
+      "artist_id": 13239,
+      "artist_name": "Rosario Alsina Saez",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13238,
+          "name": "Elisabet Manola Aguirre Solís",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0394359
+        }
+      ]
+    },
+    {
+      "id": "song:4725",
+      "work_type": "Song",
+      "work_id": 4725,
+      "title": "Shadows of Sundown",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 4727,
+      "artist_name": "Min Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4727,
+          "name": "Min Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0485852
+        },
+        {
+          "person_id": 4726,
+          "name": "Xiulan Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398328
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4725",
+      "target": "album:13237",
+      "type": "CoverOf"
+    }
+  ]
+}

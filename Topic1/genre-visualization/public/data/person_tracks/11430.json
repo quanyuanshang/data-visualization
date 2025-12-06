@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11429",
-      "song_id": 11429,
+      "work_type": "Song",
+      "work_id": 11429,
       "title": "Echoes of What We Were",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 11430,
       "artist_name": "Jing Tan",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7085,
+          "name": "Wendy Brown",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3945386
+        }
+      ]
     },
     {
       "id": "song:11957",
-      "song_id": 11957,
+      "work_type": "Song",
+      "work_id": 11957,
       "title": "Tender Roots, Unfurling Dreams",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,10 +57,90 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11958,
+          "name": "Steven Boyd",
+          "stage_name": " Sammy Cruz",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985124
+        },
+        {
+          "person_id": 11959,
+          "name": "Renee Carr",
+          "stage_name": "Runaway Liturgy",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985124
+        },
+        {
+          "person_id": 11960,
+          "name": "Stephanie Hanson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984916
+        }
+      ]
+    },
+    {
+      "id": "album:17362",
+      "work_type": "Album",
+      "work_id": 17362,
+      "title": "Tide-Worn Tales",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": 17349,
+      "artist_name": "Beatrice Albright (Bea Azure)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17355,
+          "name": "Daniel O'Connell",
+          "stage_name": "Kael Storm",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.224527
+        },
+        {
+          "person_id": 17349,
+          "name": "Beatrice Albright",
+          "stage_name": "Bea Azure",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.194851
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:17362",
+      "target": "song:11429",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:11957",
       "target": "song:11429",

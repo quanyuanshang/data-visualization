@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9416",
-      "song_id": 9416,
+      "work_type": "Song",
+      "work_id": 9416,
       "title": "Heartbeat of a Scandinavian Dream",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,67 @@
       "own": true,
       "artist_id": 9419,
       "artist_name": "Stacey Christensen",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 3690,
+          "name": "Gang Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3617463
+        },
+        {
+          "person_id": 9417,
+          "name": "Fang Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4065697
+        },
+        {
+          "person_id": 9418,
+          "name": "Qiang Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4065697
+        }
+      ]
+    },
+    {
+      "id": "album:12837",
+      "work_type": "Album",
+      "work_id": 12837,
+      "title": "Anchored Dreams",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 2023,
+      "artist_name": "Qiang Tang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +83,92 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 3690,
+          "name": "Gang Sun",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3617463
+        },
+        {
+          "person_id": 12840,
+          "name": "Xia Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.8910751
+        },
+        {
+          "person_id": 9417,
+          "name": "Fang Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4065697
+        },
+        {
+          "person_id": 9418,
+          "name": "Qiang Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4065697
+        },
+        {
+          "person_id": 12838,
+          "name": "Kristina Jones",
+          "stage_name": " Star XV",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3585083
+        },
+        {
+          "person_id": 12839,
+          "name": "Xiulan Hao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3585083
+        },
+        {
+          "person_id": 12841,
+          "name": "Yan Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3585083
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:12837",
+      "target": "song:9416",
+      "type": "InStyleOf"
+    }
+  ]
 }

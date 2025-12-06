@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15775",
-      "song_id": 15775,
-      "title": "Wildflower Whispers",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 4776,
-      "artist_name": "Michelle Vallenduuk",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:4774",
-      "song_id": 4774,
+      "work_type": "Song",
+      "work_id": 4774,
       "title": "Title of Power",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -41,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4775,
+          "name": "Sven Oude Heer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983092
+        }
+      ]
     },
     {
       "id": "song:9088",
-      "song_id": 9088,
+      "work_type": "Song",
+      "work_id": 9088,
       "title": "Whispers Without Words",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -61,11 +63,41 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 3290,
+          "name": "Jie Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9197183
+        },
+        {
+          "person_id": 2361,
+          "name": "Xiulan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8546515
+        }
+      ]
     },
     {
       "id": "song:12750",
-      "song_id": 12750,
+      "work_type": "Song",
+      "work_id": 12750,
       "title": "Lamentation in Minor Key",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -81,11 +113,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8816247
+        }
+      ]
     },
     {
       "id": "song:9807",
-      "song_id": 9807,
+      "work_type": "Song",
+      "work_id": 9807,
       "title": "White Picket Prison",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -101,15 +145,112 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2361,
+          "name": "Xiulan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8546515
+        }
+      ]
     },
     {
-      "id": "song:4774",
-      "song_id": 4774,
-      "title": "Title of Power",
+      "id": "song:15775",
+      "work_type": "Song",
+      "work_id": 15775,
+      "title": "Wildflower Whispers",
       "genre": "Lo-Fi Electronica",
       "notable": true,
-      "release_year": 2029,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4776,
+      "artist_name": "Michelle Vallenduuk",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        }
+      ]
+    },
+    {
+      "id": "song:12750",
+      "work_type": "Song",
+      "work_id": 12750,
+      "title": "Lamentation in Minor Key",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 16766,
+      "artist_name": "Synaptic Collapse（成员：Daniël Reijers｜预测 4.88、Michelle Vallenduuk｜预测 3.91）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9107525
+        }
+      ]
+    },
+    {
+      "id": "song:15775",
+      "work_type": "Song",
+      "work_id": 15775,
+      "title": "Wildflower Whispers",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2020,
       "single": true,
       "own": false,
       "artist_id": 2363,
@@ -123,35 +264,35 @@
       },
       "relation_types": [
         "CoverOf",
-        "DirectlySamples",
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:12750",
-      "song_id": 12750,
-      "title": "Lamentation in Minor Key",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2019,
-      "single": false,
-      "own": false,
-      "artist_id": 2363,
-      "artist_name": "Daniël Reijers",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9107525
+        }
       ]
     },
     {
       "id": "song:15424",
-      "song_id": 15424,
+      "work_type": "Song",
+      "work_id": 15424,
       "title": "Ozvěny Nebeského Jména",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -169,24 +310,45 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 13169,
+          "name": "Xiulan Sun",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.02761
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15775",
+      "source": "song:12750",
+      "target": "song:9088",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4774",
       "target": "song:9807",
       "type": "InStyleOf"
     },
     {
       "source": "song:15775",
-      "target": "song:9088",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:15424",
       "target": "song:12750",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     },
     {
       "source": "song:4774",
@@ -194,19 +356,19 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:4774",
+      "source": "song:15775",
+      "target": "song:9088",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15775",
       "target": "song:9807",
       "type": "InStyleOf"
     },
     {
-      "source": "song:12750",
-      "target": "song:9088",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:15775",
+      "source": "song:15424",
       "target": "song:12750",
-      "type": "CoverOf"
+      "type": "InStyleOf"
     },
     {
       "source": "song:4774",

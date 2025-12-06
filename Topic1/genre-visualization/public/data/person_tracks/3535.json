@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3531",
-      "song_id": 3531,
+      "work_type": "Song",
+      "work_id": 3531,
       "title": "Fence Line Whispers",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,57 @@
       "own": true,
       "artist_id": 3535,
       "artist_name": "Reginald Wallace",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1449,
+          "name": "Amanda Blake",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.419296
+        },
+        {
+          "person_id": 3532,
+          "name": "Alexandria Spencer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023876
+        },
+        {
+          "person_id": 3533,
+          "name": "William Stone",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023876
+        },
+        {
+          "person_id": 3534,
+          "name": "Jody Lopez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023876
+        }
+      ]
     },
     {
       "id": "song:16158",
-      "song_id": 16158,
+      "work_type": "Song",
+      "work_id": 16158,
       "title": "Whispers Along the Thames",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -34,18 +74,121 @@
       "own": true,
       "artist_id": 3535,
       "artist_name": "Reginald Wallace",
-      "influence": 8,
+      "influence": 16,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 3,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16159,
+          "name": "James Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994064
+        },
+        {
+          "person_id": 16160,
+          "name": "Thomas Bradley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994064
+        }
+      ]
+    },
+    {
+      "id": "album:3879",
+      "work_type": "Album",
+      "work_id": 3879,
+      "title": "Palabras del Corazón",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 594,
+      "artist_name": "Na Fan",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
-        "style": 1
+        "reference": 0,
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 594,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.100683
+        },
+        {
+          "person_id": 2426,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.449281
+        },
+        {
+          "person_id": 1433,
+          "name": "Justin King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.446718
+        },
+        {
+          "person_id": 2427,
+          "name": "Juan Kong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.037461
+        },
+        {
+          "person_id": 3880,
+          "name": "Gang Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947048
+        }
+      ]
     },
     {
       "id": "song:16323",
-      "song_id": 16323,
+      "work_type": "Song",
+      "work_id": 16323,
       "title": "Sacrifice My Heart",
       "genre": "Synthwave",
       "notable": true,
@@ -63,11 +206,199 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9375,
+          "name": "Biju Swamy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0484865
+        },
+        {
+          "person_id": 9373,
+          "name": "Shaan Jaggi",
+          "stage_name": " Mila Dawn",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0458088
+        },
+        {
+          "person_id": 9376,
+          "name": "Elakshi Venkataraman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0447204
+        },
+        {
+          "person_id": 9374,
+          "name": "Keya Kota",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0445564
+        },
+        {
+          "person_id": 16325,
+          "name": "Alberto Durante-Depero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990214
+        },
+        {
+          "person_id": 16324,
+          "name": "Farhan Bava",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988516
+        },
+        {
+          "person_id": 16326,
+          "name": "Eva Morosini-Procacci",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988516
+        }
+      ]
+    },
+    {
+      "id": "album:1813",
+      "work_type": "Album",
+      "work_id": 1813,
+      "title": "No Doubt, No Filter",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 300,
+      "artist_name": "Klaus-Günter Kensy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 302,
+          "name": "Cindy Lübs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2672186
+        },
+        {
+          "person_id": 300,
+          "name": "Klaus-Günter Kensy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7147388
+        }
+      ]
+    },
+    {
+      "id": "album:12515",
+      "work_type": "Album",
+      "work_id": 12515,
+      "title": "Melodic Gasp",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 75,
+      "artist_name": "Juan Feng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 75,
+          "name": "Juan Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9476163
+        },
+        {
+          "person_id": 2896,
+          "name": "Scott Sanders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4270062
+        },
+        {
+          "person_id": 3208,
+          "name": "Yang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0441458
+        },
+        {
+          "person_id": 12516,
+          "name": "Ashley Hanson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.38221
+        }
       ]
     },
     {
       "id": "song:13763",
-      "song_id": 13763,
+      "work_type": "Song",
+      "work_id": 13763,
       "title": "Tidal Memoir",
       "genre": "Desert Rock",
       "notable": false,
@@ -85,19 +416,60 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13766,
+          "name": "Bobby Hester",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 0.03536477
+        },
+        {
+          "person_id": 13767,
+          "name": "Matthew Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 0.030966822
+        },
+        {
+          "person_id": 13764,
+          "name": "Konrad Szpyt",
+          "stage_name": " Luna Rey",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 0.030655991
+        },
+        {
+          "person_id": 13765,
+          "name": "Jan Jaśko",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 0.030655991
+        }
       ]
     },
     {
       "id": "song:17103",
-      "song_id": 17103,
+      "work_type": "Song",
+      "work_id": 17103,
       "title": "The Notes You Left Behind",
       "genre": "Emo/Pop Punk",
       "notable": true,
       "release_year": 2033,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17100,
+      "artist_name": "Rainfall Fiction（成员：Cole Pierce｜预测 2.84、Holden Rhys｜预测 2.82…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -107,24 +479,40 @@
       },
       "relation_types": [
         "InterpolatesFrom"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
+    {
+      "source": "album:1813",
+      "target": "song:16158",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:12515",
+      "target": "song:16158",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:17103",
       "target": "song:16158",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:13763",
-      "target": "song:16158",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:3531",
       "target": "song:16158",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:3879",
+      "target": "song:3531",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13763",
+      "target": "song:16158",
+      "type": "InStyleOf"
     },
     {
       "source": "song:16323",

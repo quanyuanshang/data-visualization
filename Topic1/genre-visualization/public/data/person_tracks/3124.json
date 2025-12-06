@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3123",
-      "song_id": 3123,
-      "title": "Gentle Tempo of Sunlight",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2005,
-      "single": true,
-      "own": true,
-      "artist_id": 3124,
-      "artist_name": "Elżbieta Bociek",
-      "influence": 13,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 2,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:14482",
-      "song_id": 14482,
+      "work_type": "Song",
+      "work_id": 14482,
       "title": "Echoes of Your Smile",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,99 +22,76 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:8372",
-      "song_id": 8372,
-      "title": "Silver Spoon Tears",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": false,
-      "artist_id": 3125,
-      "artist_name": "Jana Lindner",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        }
       ]
     },
     {
-      "id": "song:9089",
-      "song_id": 9089,
-      "title": "First Contact Protocol",
+      "id": "song:3123",
+      "work_type": "Song",
+      "work_id": 3123,
+      "title": "Gentle Tempo of Sunlight",
       "genre": "Indie Pop",
       "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": false,
-      "artist_id": 3125,
-      "artist_name": "Jana Lindner",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:12866",
-      "song_id": 12866,
-      "title": "Jubilee Boulevard",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": false,
-      "artist_id": 3125,
-      "artist_name": "Jana Lindner",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:14482",
-      "song_id": 14482,
-      "title": "Echoes of Your Smile",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2009,
+      "release_year": 2005,
       "single": true,
       "own": true,
       "artist_id": 3124,
       "artist_name": "Elżbieta Bociek",
-      "influence": 0,
+      "influence": 13,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
+        "sample": 2,
+        "reference": 1,
+        "style": 1
       },
-      "relation_types": [
-        "DirectlySamples"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.3090324
+        }
       ]
     },
     {
       "id": "song:7797",
-      "song_id": 7797,
+      "work_type": "Song",
+      "work_id": 7797,
       "title": "Mercy Beyond Measure",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -151,11 +109,24 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
       ]
     },
     {
       "id": "song:15688",
-      "song_id": 15688,
+      "work_type": "Song",
+      "work_id": 15688,
       "title": "Shadows of the Quartet: Intimate Echoes",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -173,22 +144,150 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15689,
+          "name": "Jeffery Reese",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975012
+        }
+      ]
+    },
+    {
+      "id": "song:8372",
+      "work_type": "Song",
+      "work_id": 8372,
+      "title": "Silver Spoon Tears",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        }
+      ]
+    },
+    {
+      "id": "song:9089",
+      "work_type": "Song",
+      "work_id": 9089,
+      "title": "First Contact Protocol",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        }
+      ]
+    },
+    {
+      "id": "song:12866",
+      "work_type": "Song",
+      "work_id": 12866,
+      "title": "Jubilee Boulevard",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 3125,
+      "artist_name": "Jana Lindner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3125,
+          "name": "Jana Lindner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3090324
+        },
+        {
+          "person_id": 8395,
+          "name": "Olga Labudda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.707387
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:9089",
+      "source": "song:14482",
       "target": "song:3123",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:15688",
-      "target": "song:14482",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:14482",
+      "source": "song:9089",
       "target": "song:3123",
       "type": "DirectlySamples"
     },
@@ -198,13 +297,18 @@
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:8372",
+      "target": "song:3123",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:7797",
       "target": "song:14482",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:8372",
-      "target": "song:3123",
+      "source": "song:15688",
+      "target": "song:14482",
       "type": "InStyleOf"
     }
   ]

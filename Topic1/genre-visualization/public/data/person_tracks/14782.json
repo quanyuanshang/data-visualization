@@ -1,0 +1,118 @@
+{
+  "person_id": 14782,
+  "name": "Herr Stephan Tschentscher",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:14781",
+      "work_type": "Album",
+      "work_id": 14781,
+      "title": "Unspoken Connection",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 14782,
+      "artist_name": "Herr Stephan Tschentscher",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1173,
+          "name": "Lilian Gieß",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0510354
+        },
+        {
+          "person_id": 1175,
+          "name": "Mario Stumpf",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510354
+        },
+        {
+          "person_id": 1176,
+          "name": "Marvin Holzapfel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510354
+        },
+        {
+          "person_id": 14783,
+          "name": "Elfriede Reuter",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397739
+        }
+      ]
+    },
+    {
+      "id": "song:7195",
+      "work_type": "Song",
+      "work_id": 7195,
+      "title": "Echoes of Empty Rooms",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 529,
+      "artist_name": "Mai Sato",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 529,
+          "name": "Mai Sato",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4303045
+        },
+        {
+          "person_id": 7196,
+          "name": "Kumiko Sato",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400567
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7195",
+      "target": "album:14781",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

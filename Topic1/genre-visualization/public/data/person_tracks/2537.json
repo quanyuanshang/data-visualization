@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:5214",
-      "song_id": 5214,
-      "title": "Grammatical Gymnastics",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2012,
-      "single": false,
-      "own": true,
-      "artist_id": 2537,
-      "artist_name": "Gang Mo",
-      "influence": 21,
-      "influence_breakdown": {
-        "cover": 2,
-        "sample": 1,
-        "reference": 1,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:7249",
-      "song_id": 7249,
-      "title": "Vailla Toista (Without Another)",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 2537,
-      "artist_name": "Gang Mo",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9104",
-      "song_id": 9104,
+      "work_type": "Song",
+      "work_id": 9104,
       "title": "Echoes of Sunrise",
       "genre": "Indie Pop",
       "notable": true,
@@ -61,15 +22,176 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5215,
+          "name": "Kathleen Davis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.41498
+        }
+      ]
     },
     {
       "id": "song:13820",
-      "song_id": 13820,
+      "work_type": "Song",
+      "work_id": 13820,
       "title": "Mazovia's Pulse",
       "genre": "Lo-Fi Electronica",
       "notable": true,
       "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 2537,
+      "artist_name": "Gang Mo",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.383833
+        }
+      ]
+    },
+    {
+      "id": "album:2534",
+      "work_type": "Album",
+      "work_id": 2534,
+      "title": "Postcards from the South Pacific",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 2537,
+      "artist_name": "Gang Mo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
+      ]
+    },
+    {
+      "id": "album:10431",
+      "work_type": "Album",
+      "work_id": 10431,
+      "title": "Vague Silhouette",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 2537,
+      "artist_name": "Gang Mo",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
+      ]
+    },
+    {
+      "id": "song:5214",
+      "work_type": "Song",
+      "work_id": 5214,
+      "title": "Grammatical Gymnastics",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 2537,
+      "artist_name": "Gang Mo",
+      "influence": 21,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 1,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5215,
+          "name": "Kathleen Davis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.41498
+        }
+      ]
+    },
+    {
+      "id": "song:7249",
+      "work_type": "Song",
+      "work_id": 7249,
+      "title": "Vailla Toista (Without Another)",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2023,
       "single": true,
       "own": true,
       "artist_id": 2537,
@@ -81,11 +203,173 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
+      ]
+    },
+    {
+      "id": "album:2534",
+      "work_type": "Album",
+      "work_id": 2534,
+      "title": "Postcards from the South Pacific",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 2535,
+      "artist_name": "John Wilkinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
+      ]
+    },
+    {
+      "id": "song:7249",
+      "work_type": "Song",
+      "work_id": 7249,
+      "title": "Vailla Toista (Without Another)",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 2535,
+      "artist_name": "John Wilkinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
+      ]
+    },
+    {
+      "id": "song:15241",
+      "work_type": "Song",
+      "work_id": 15241,
+      "title": "Nordisk Ljusdans (Nordic Light Dance)",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 6159,
+      "artist_name": "Debra Martin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
+      ]
     },
     {
       "id": "song:4368",
-      "song_id": 4368,
+      "work_type": "Song",
+      "work_id": 4368,
       "title": "Vacancy of Memories",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -103,11 +387,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4369,
+          "name": "Manuel Morrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979309
+        },
+        {
+          "person_id": 4370,
+          "name": "Allison Williams",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979309
+        },
+        {
+          "person_id": 4371,
+          "name": "Nancy Myers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39791
+        }
       ]
     },
     {
       "id": "song:11477",
-      "song_id": 11477,
+      "work_type": "Song",
+      "work_id": 11477,
       "title": "Forever in My Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -125,11 +440,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 11478,
+          "name": "Min Liang",
+          "stage_name": "Tyler Sage",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0568004
+        }
       ]
     },
     {
       "id": "song:12008",
-      "song_id": 12008,
+      "work_type": "Song",
+      "work_id": 12008,
       "title": "Sovereign's Stride",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -147,11 +484,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 5215,
+          "name": "Kathleen Davis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.41498
+        }
       ]
     },
     {
       "id": "song:12577",
-      "song_id": 12577,
+      "work_type": "Song",
+      "work_id": 12577,
       "title": "Classic Courtship Crusader",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -169,33 +537,33 @@
       },
       "relation_types": [
         "CoverOf"
-      ]
-    },
-    {
-      "id": "song:13820",
-      "song_id": 13820,
-      "title": "Mazovia's Pulse",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2025,
-      "single": true,
-      "own": false,
-      "artist_id": 2536,
-      "artist_name": "Jun Zou",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 1283,
+          "name": "Tao Peng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1277795
+        }
       ]
     },
     {
       "id": "song:14904",
-      "song_id": 14904,
+      "work_type": "Song",
+      "work_id": 14904,
       "title": "Echoes of August",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -213,6 +581,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 968,
+          "name": "Ping Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.902861
+        },
+        {
+          "person_id": 14905,
+          "name": "Ming Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399967
+        },
+        {
+          "person_id": 14906,
+          "name": "Fang Lin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399967
+        }
       ]
     }
   ],
@@ -223,19 +621,9 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:4368",
+      "source": "song:13820",
       "target": "song:5214",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:12577",
-      "target": "song:5214",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:14904",
-      "target": "song:5214",
-      "type": "InStyleOf"
+      "type": "DirectlySamples"
     },
     {
       "source": "song:11477",
@@ -243,9 +631,34 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:13820",
+      "source": "song:12577",
       "target": "song:5214",
-      "type": "DirectlySamples"
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15241",
+      "target": "album:10431",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:2534",
+      "target": "song:13820",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4368",
+      "target": "song:5214",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14904",
+      "target": "song:5214",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7249",
+      "target": "album:10431",
+      "type": "InStyleOf"
     }
   ]
 }

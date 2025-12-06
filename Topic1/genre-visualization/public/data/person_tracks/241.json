@@ -4,8 +4,59 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:239",
+      "work_type": "Album",
+      "work_id": 239,
+      "title": "Radiant Morning, Endless Delight",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 241,
+      "artist_name": "Yan Jia",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 242,
+          "name": "Juan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0309627
+        },
+        {
+          "person_id": 240,
+          "name": "Matthieu-Daniel Launay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010944
+        },
+        {
+          "person_id": 243,
+          "name": "Saira Sood",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010944
+        }
+      ]
+    },
+    {
       "id": "song:1120",
-      "song_id": 1120,
+      "work_type": "Song",
+      "work_id": 1120,
       "title": "Serendipity's Smile",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +72,67 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 242,
+          "name": "Juan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0309627
+        }
+      ]
+    },
+    {
+      "id": "song:1120",
+      "work_type": "Song",
+      "work_id": 1120,
+      "title": "Serendipity's Smile",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 241,
+      "artist_name": "Yan Jia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 241,
+          "name": "Yan Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0340955
+        },
+        {
+          "person_id": 242,
+          "name": "Juan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0309627
+        }
+      ]
     },
     {
       "id": "song:9345",
-      "song_id": 9345,
+      "work_type": "Song",
+      "work_id": 9345,
       "title": "Midnight Movement",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,10 +150,77 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9346,
+          "name": "Larry Patel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993313
+        },
+        {
+          "person_id": 9347,
+          "name": "Dave Miller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993313
+        },
+        {
+          "person_id": 9348,
+          "name": "Arnav Saran",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993313
+        },
+        {
+          "person_id": 9349,
+          "name": "Donna Christensen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993313
+        },
+        {
+          "person_id": 9350,
+          "name": "Madhup Banerjee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993313
+        },
+        {
+          "person_id": 9351,
+          "name": "Anthony Bailey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993313
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:1120",
+      "target": "album:239",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9345",
+      "target": "album:239",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:9345",
       "target": "song:1120",

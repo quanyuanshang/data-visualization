@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5802",
-      "song_id": 5802,
+      "work_type": "Song",
+      "work_id": 5802,
       "title": "Tribal Waters",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +15,80 @@
       "own": true,
       "artist_id": 5803,
       "artist_name": "Kathleen Cunningham",
-      "influence": 2,
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 1914,
+          "name": "Ewelina Jeszke",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.405735
+        }
+      ]
+    },
+    {
+      "id": "album:16440",
+      "work_type": "Album",
+      "work_id": 16440,
+      "title": "Quiet Crosswalk",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1992,
+      "single": false,
+      "own": true,
+      "artist_id": 5803,
+      "artist_name": "Kathleen Cunningham",
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
-        "style": 1
+        "reference": 1,
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1914,
+          "name": "Ewelina Jeszke",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.405735
+        },
+        {
+          "person_id": 8395,
+          "name": "Olga Labudda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.707387
+        }
+      ]
     },
     {
       "id": "song:2331",
-      "song_id": 2331,
+      "work_type": "Song",
+      "work_id": 2331,
       "title": "Primavera's Whisper",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,10 +106,343 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 341,
+          "name": "Dierk Bohlander",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4293308
+        }
+      ]
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
+    },
+    {
+      "id": "album:11463",
+      "work_type": "Album",
+      "work_id": 11463,
+      "title": "Arctic Veins",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 11464,
+      "artist_name": "Katherine Davis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11464,
+          "name": "Katherine Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988652
+        }
+      ]
+    },
+    {
+      "id": "album:16440",
+      "work_type": "Album",
+      "work_id": 16440,
+      "title": "Quiet Crosswalk",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1992,
+      "single": false,
+      "own": true,
+      "artist_id": 5803,
+      "artist_name": "Kathleen Cunningham",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1914,
+          "name": "Ewelina Jeszke",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.405735
+        },
+        {
+          "person_id": 8395,
+          "name": "Olga Labudda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.707387
+        },
+        {
+          "person_id": 5803,
+          "name": "Kathleen Cunningham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0507286
+        }
+      ]
+    },
+    {
+      "id": "song:7658",
+      "work_type": "Song",
+      "work_id": 7658,
+      "title": "Battles Within",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": false,
+      "artist_id": 4380,
+      "artist_name": "Carolyn Hall",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4380,
+          "name": "Carolyn Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7174106
+        },
+        {
+          "person_id": 7661,
+          "name": "Kristina Boyer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398595
+        },
+        {
+          "person_id": 7659,
+          "name": "Morgan Shelton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        },
+        {
+          "person_id": 7660,
+          "name": "Ryan Morales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        }
+      ]
+    },
+    {
+      "id": "song:15099",
+      "work_type": "Song",
+      "work_id": 15099,
+      "title": "Impossible Light",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": false,
+      "artist_id": 7978,
+      "artist_name": "Anto Hornich",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7978,
+          "name": "Anto Hornich",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0319178
+        },
+        {
+          "person_id": 15100,
+          "name": "Albrecht Scholtz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989553
+        }
+      ]
+    },
+    {
+      "id": "song:15848",
+      "work_type": "Song",
+      "work_id": 15848,
+      "title": "Alone, Together",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": false,
+      "artist_id": 15850,
+      "artist_name": "William Navarro",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15849,
+          "name": "Aaron Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983474
+        },
+        {
+          "person_id": 15850,
+          "name": "William Navarro",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398242
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:11463",
+      "target": "song:5802",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:16440",
+      "target": "song:5802",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15848",
+      "target": "album:16440",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7658",
+      "target": "album:16440",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15099",
+      "target": "album:16440",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:4167",
+      "target": "song:5802",
+      "type": "CoverOf"
+    },
     {
       "source": "song:2331",
       "target": "song:5802",

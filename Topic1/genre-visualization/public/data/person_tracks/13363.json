@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13361",
-      "song_id": 13361,
+      "work_type": "Song",
+      "work_id": 13361,
       "title": "Soil, Sweat, and Solitude",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,18 +15,93 @@
       "own": true,
       "artist_id": 13363,
       "artist_name": "Erik Tucker",
-      "influence": 20,
+      "influence": 27,
       "influence_breakdown": {
-        "cover": 2,
+        "cover": 3,
         "sample": 0,
         "reference": 2,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1021,
+          "name": "Przemysław Grupa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.726551
+        },
+        {
+          "person_id": 13362,
+          "name": "Crystal Morse",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3912985
+        }
+      ]
+    },
+    {
+      "id": "album:169",
+      "work_type": "Album",
+      "work_id": 169,
+      "title": "Whispers of Spring's Memory",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 170,
+      "artist_name": "Chao Yu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.343267
+        },
+        {
+          "person_id": 170,
+          "name": "Chao Yu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7256129
+        },
+        {
+          "person_id": 171,
+          "name": "Chao Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4393616
+        }
+      ]
     },
     {
       "id": "song:4509",
-      "song_id": 4509,
+      "work_type": "Song",
+      "work_id": 4509,
       "title": "Transcendent Might",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -43,11 +119,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3352,
+          "name": "Marcus Spence",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7961016
+        },
+        {
+          "person_id": 3742,
+          "name": "David Wilcox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2791696
+        }
       ]
     },
     {
       "id": "song:6797",
-      "song_id": 6797,
+      "work_type": "Song",
+      "work_id": 6797,
       "title": "Echoes from Ancient Lips",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,11 +163,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.343267
+        },
+        {
+          "person_id": 171,
+          "name": "Chao Qiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4393616
+        }
       ]
     },
     {
       "id": "song:7969",
-      "song_id": 7969,
+      "work_type": "Song",
+      "work_id": 7969,
       "title": "Secrets Unspoken",
       "genre": "Indie Pop",
       "notable": true,
@@ -87,11 +207,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3352,
+          "name": "Marcus Spence",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.7961016
+        },
+        {
+          "person_id": 3742,
+          "name": "David Wilcox",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2791696
+        },
+        {
+          "person_id": 7970,
+          "name": "Jeremy Bryant",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3840709
+        }
       ]
     },
     {
       "id": "song:12350",
-      "song_id": 12350,
+      "work_type": "Song",
+      "work_id": 12350,
       "title": "Playground Panic",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -109,11 +260,85 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9001,
+          "name": "Johnathan Sanchez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0433671
+        },
+        {
+          "person_id": 12351,
+          "name": "Yang Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395147
+        }
+      ]
+    },
+    {
+      "id": "album:13720",
+      "work_type": "Album",
+      "work_id": 13720,
+      "title": "Raindrops and Rhythms",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 172,
+      "artist_name": "Lei Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 172,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.343267
+        },
+        {
+          "person_id": 171,
+          "name": "Chao Qiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4393616
+        },
+        {
+          "person_id": 5481,
+          "name": "Min Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297187
+        }
       ]
     },
     {
       "id": "song:14466",
-      "song_id": 14466,
+      "work_type": "Song",
+      "work_id": 14466,
       "title": "Touching Infinite Horizon",
       "genre": "Dream Pop",
       "notable": true,
@@ -131,11 +356,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 9738,
+          "name": "Jing Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4232712
+        },
+        {
+          "person_id": 14467,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984725
+        },
+        {
+          "person_id": 14468,
+          "name": "Ping Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984725
+        }
       ]
     },
     {
       "id": "song:15838",
-      "song_id": 15838,
+      "work_type": "Song",
+      "work_id": 15838,
       "title": "Groove Global",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -153,12 +419,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 1250,
+          "name": "Robin Webster",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.6556983
+        },
+        {
+          "person_id": 1252,
+          "name": "Clayton Reed",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.113808
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4509",
+      "source": "album:169",
       "target": "song:13361",
       "type": "InStyleOf"
     },
@@ -168,9 +464,14 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:6797",
+      "source": "song:12350",
       "target": "song:13361",
-      "type": "CoverOf"
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4509",
+      "target": "song:13361",
+      "type": "InStyleOf"
     },
     {
       "source": "song:15838",
@@ -178,14 +479,19 @@
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:6797",
+      "target": "song:13361",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:13720",
+      "target": "song:13361",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:14466",
       "target": "song:13361",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:12350",
-      "target": "song:13361",
-      "type": "InterpolatesFrom"
     }
   ]
 }

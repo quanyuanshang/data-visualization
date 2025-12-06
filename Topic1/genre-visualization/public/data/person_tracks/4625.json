@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4624",
-      "song_id": 4624,
+      "work_type": "Song",
+      "work_id": 4624,
       "title": "Street Corner Childhood Echoes",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1193,
+          "name": "Elizabeth Parker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040406
+        },
+        {
+          "person_id": 1192,
+          "name": "Brittany Harvey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0350325
+        }
+      ]
     },
     {
       "id": "song:12947",
-      "song_id": 12947,
+      "work_type": "Song",
+      "work_id": 12947,
       "title": "Gather, Believers!",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +63,24 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12948,
+          "name": "Brooke Olson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0405242
+        }
+      ]
     },
     {
       "id": "song:1190",
-      "song_id": 1190,
+      "work_type": "Song",
+      "work_id": 1190,
       "title": "Spinning Threads of Power",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,17 +98,47 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1193,
+          "name": "Elizabeth Parker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040406
+        },
+        {
+          "person_id": 1192,
+          "name": "Brittany Harvey",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0350325
+        },
+        {
+          "person_id": 1191,
+          "name": "Amanda Cole",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982728
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4624",
+      "source": "song:1190",
       "target": "song:12947",
       "type": "InStyleOf"
     },
     {
-      "source": "song:1190",
+      "source": "song:4624",
       "target": "song:12947",
       "type": "InStyleOf"
     }

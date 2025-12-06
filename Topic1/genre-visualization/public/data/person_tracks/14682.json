@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14678",
-      "song_id": 14678,
+      "work_type": "Song",
+      "work_id": 14678,
       "title": "Echoes of Vienna's Melodic Embrace",
       "genre": "Southern Gothic Rock",
       "notable": false,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 14682,
       "artist_name": "Niels Hering",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14680,
+          "name": "Freddy Dörr",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 0.028218402
+        },
+        {
+          "person_id": 14679,
+          "name": "Gina Lehmann-Nohlmans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 0.021777371
+        },
+        {
+          "person_id": 14681,
+          "name": "Hans-Ludwig Käster",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 0.021777371
+        }
+      ]
+    },
+    {
+      "id": "album:13001",
+      "work_type": "Album",
+      "work_id": 13001,
+      "title": "Wooden Heart's Whisper",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": false,
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,85 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:13874",
+      "work_type": "Album",
+      "work_id": 13874,
+      "title": "Whistle and Steel",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2006,
+      "single": false,
+      "own": false,
+      "artist_id": 5281,
+      "artist_name": "Ismet Heser",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 5281,
+          "name": "Ismet Heser",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.118744
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:13001",
+      "target": "song:14678",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13874",
+      "target": "song:14678",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

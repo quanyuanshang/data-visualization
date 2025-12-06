@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11966",
-      "song_id": 11966,
+      "work_type": "Song",
+      "work_id": 11966,
       "title": "Burning Bright",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,105 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2978,
+          "name": "Guiying Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.396549
+        },
+        {
+          "person_id": 3122,
+          "name": "Jing Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7180305
+        },
+        {
+          "person_id": 8064,
+          "name": "Lei Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4161851
+        }
+      ]
+    },
+    {
+      "id": "album:8060",
+      "work_type": "Album",
+      "work_id": 8060,
+      "title": "Wide Open Waves",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 8063,
+      "artist_name": "Na Zou",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2978,
+          "name": "Guiying Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.396549
+        },
+        {
+          "person_id": 8064,
+          "name": "Lei Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4161851
+        },
+        {
+          "person_id": 8061,
+          "name": "Nicole Bowers",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394519
+        },
+        {
+          "person_id": 8062,
+          "name": "Pam Cunningham",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394519
+        }
+      ]
     },
     {
       "id": "song:17019",
-      "song_id": 17019,
+      "work_type": "Song",
+      "work_id": 17019,
       "title": "Beneath the Sepulcher Moon",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +138,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17012,
+          "name": "Sienna Fox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9409828
+        }
       ]
     }
   ],
@@ -50,6 +156,11 @@
     {
       "source": "song:17019",
       "target": "song:11966",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11966",
+      "target": "album:8060",
       "type": "InStyleOf"
     }
   ]

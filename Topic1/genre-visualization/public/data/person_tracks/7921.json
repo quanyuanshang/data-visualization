@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7920",
-      "song_id": 7920,
+      "work_type": "Song",
+      "work_id": 7920,
       "title": "Manifest Destiny Blues",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,6 +15,66 @@
       "own": true,
       "artist_id": 7921,
       "artist_name": "Min Zheng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 267,
+          "name": "Walter White",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.710796
+        },
+        {
+          "person_id": 5345,
+          "name": "Xiulan Wang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6802955
+        },
+        {
+          "person_id": 7922,
+          "name": "Chao Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0136836
+        },
+        {
+          "person_id": 6347,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9642444
+        }
+      ]
+    },
+    {
+      "id": "album:7345",
+      "work_type": "Album",
+      "work_id": 7345,
+      "title": "Whispers Behind Walls",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 5549,
+      "artist_name": "Danielle Gray",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +82,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5549,
+          "name": "Danielle Gray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3172507
+        },
+        {
+          "person_id": 7346,
+          "name": "James Hart",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399594
+        },
+        {
+          "person_id": 7347,
+          "name": "Madhup Ganesh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399594
+        },
+        {
+          "person_id": 7348,
+          "name": "Taimur Iyer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399594
+        },
+        {
+          "person_id": 7349,
+          "name": "Diya Goyal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399594
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:7345",
+      "target": "song:7920",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

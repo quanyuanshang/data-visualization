@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10771",
-      "song_id": 10771,
-      "title": "Whispers from His Workshop",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2017,
-      "single": false,
-      "own": true,
-      "artist_id": 3529,
-      "artist_name": "Gang Tan",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3526",
-      "song_id": 3526,
+      "work_type": "Song",
+      "work_id": 3526,
       "title": "Sierra Winds and Jet Streams",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +22,75 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3527,
+          "name": "Min Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399001
+        },
+        {
+          "person_id": 3528,
+          "name": "Theresa Mason",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989801
+        }
+      ]
+    },
+    {
+      "id": "song:10771",
+      "work_type": "Song",
+      "work_id": 10771,
+      "title": "Whispers from His Workshop",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 3529,
+      "artist_name": "Gang Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3545,
+          "name": "Jonathan Diaz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2734904
+        },
+        {
+          "person_id": 10772,
+          "name": "Yang Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3972862
+        }
+      ]
     },
     {
       "id": "song:7118",
-      "song_id": 7118,
+      "work_type": "Song",
+      "work_id": 7118,
       "title": "Whispers of Pain",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,6 +108,45 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7121,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.03509
+        },
+        {
+          "person_id": 7119,
+          "name": "Yan Yu",
+          "stage_name": " Sasha James",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998501
+        },
+        {
+          "person_id": 7122,
+          "name": "Yong Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998501
+        },
+        {
+          "person_id": 7120,
+          "name": "Xiulan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994687
+        }
       ]
     }
   ],

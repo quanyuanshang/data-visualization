@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2990",
-      "song_id": 2990,
+      "work_type": "Song",
+      "work_id": 2990,
       "title": "Harmonic Whispers in Twilight",
       "genre": "Space Rock",
       "notable": true,
@@ -21,11 +22,50 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2993,
+          "name": "Lei Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2994,
+          "name": "Yan Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2995,
+          "name": "Tao Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2991,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400318
+        }
+      ]
     },
     {
       "id": "song:4981",
-      "song_id": 4981,
+      "work_type": "Song",
+      "work_id": 4981,
       "title": "Samba's Heartbeat",
       "genre": "Space Rock",
       "notable": true,
@@ -34,18 +74,76 @@
       "own": true,
       "artist_id": 2992,
       "artist_name": "Wei Wang",
-      "influence": 5,
+      "influence": 10,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2993,
+          "name": "Lei Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2994,
+          "name": "Yan Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2995,
+          "name": "Tao Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 4984,
+          "name": "Gang Fan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0351307
+        },
+        {
+          "person_id": 4982,
+          "name": "Xiulan Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4035711
+        },
+        {
+          "person_id": 4983,
+          "name": "Lei Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4035711
+        }
+      ]
     },
     {
       "id": "song:4981",
-      "song_id": 4981,
+      "work_type": "Song",
+      "work_id": 4981,
       "title": "Samba's Heartbeat",
       "genre": "Space Rock",
       "notable": true,
@@ -63,11 +161,149 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2992,
+          "name": "Wei Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2993,
+          "name": "Lei Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2994,
+          "name": "Yan Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 2995,
+          "name": "Tao Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481894
+        },
+        {
+          "person_id": 4984,
+          "name": "Gang Fan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0351307
+        },
+        {
+          "person_id": 4982,
+          "name": "Xiulan Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4035711
+        },
+        {
+          "person_id": 4983,
+          "name": "Lei Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4035711
+        }
+      ]
+    },
+    {
+      "id": "album:2030",
+      "work_type": "Album",
+      "work_id": 2030,
+      "title": "Aftershock Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 1139,
+      "artist_name": "Crystal Cruz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1201,
+          "name": "Xiuying Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2639523
+        },
+        {
+          "person_id": 1139,
+          "name": "Crystal Cruz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4299731
+        },
+        {
+          "person_id": 2031,
+          "name": "Yan Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4017503
+        },
+        {
+          "person_id": 2032,
+          "name": "Jie Song",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4004483
+        },
+        {
+          "person_id": 2033,
+          "name": "Xiuying Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004483
+        }
       ]
     },
     {
       "id": "song:8640",
-      "song_id": 8640,
+      "work_type": "Song",
+      "work_id": 8640,
       "title": "Sacred Soil's Lament",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -85,11 +321,78 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261718
+        },
+        {
+          "person_id": 8641,
+          "name": "Jun Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8642,
+          "name": "Min Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8643,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8644,
+          "name": "Yan Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8645,
+          "name": "Fang Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8646,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968868
+        }
       ]
     },
     {
       "id": "song:12478",
-      "song_id": 12478,
+      "work_type": "Song",
+      "work_id": 12478,
       "title": "Empty Ballrooms, Weary Hearts",
       "genre": "Dream Pop",
       "notable": true,
@@ -107,24 +410,131 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 170,
+          "name": "Chao Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7256129
+        },
+        {
+          "person_id": 12488,
+          "name": "Xia Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0609648
+        },
+        {
+          "person_id": 12480,
+          "name": "Fang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0482643
+        },
+        {
+          "person_id": 12483,
+          "name": "Yan Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0472856
+        },
+        {
+          "person_id": 12484,
+          "name": "Jie Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429113
+        },
+        {
+          "person_id": 12479,
+          "name": "Xiulan Song",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.396462
+        },
+        {
+          "person_id": 12481,
+          "name": "Steven Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396462
+        },
+        {
+          "person_id": 12482,
+          "name": "Wei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396462
+        },
+        {
+          "person_id": 12485,
+          "name": "Lei Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396462
+        },
+        {
+          "person_id": 12486,
+          "name": "Brittany Holmes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396462
+        },
+        {
+          "person_id": 12487,
+          "name": "Yan Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396462
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:12478",
+      "target": "song:4981",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:8640",
       "target": "song:4981",
       "type": "InStyleOf"
     },
     {
-      "source": "song:4981",
-      "target": "song:2990",
+      "source": "album:2030",
+      "target": "song:4981",
       "type": "CoverOf"
     },
     {
-      "source": "song:12478",
-      "target": "song:4981",
-      "type": "InterpolatesFrom"
+      "source": "song:4981",
+      "target": "song:2990",
+      "type": "CoverOf"
     }
   ]
 }

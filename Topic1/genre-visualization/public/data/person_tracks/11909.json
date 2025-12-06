@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11907",
-      "song_id": 11907,
+      "work_type": "Song",
+      "work_id": 11907,
       "title": "Champagne and Pretense",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11908,
+          "name": "Alison Armstrong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982182
+        }
+      ]
     },
     {
       "id": "song:6108",
-      "song_id": 6108,
+      "work_type": "Song",
+      "work_id": 6108,
       "title": "Pieces of a Puzzle",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +56,36 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5762,
+          "name": "William Knapp",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0412905
+        },
+        {
+          "person_id": 6109,
+          "name": "Margaret Mueller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982434
+        },
+        {
+          "person_id": 6110,
+          "name": "Charles Smith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982434
+        }
       ]
     }
   ],

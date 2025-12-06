@@ -1,0 +1,139 @@
+{
+  "person_id": 6838,
+  "name": "Marcel Kutek",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:6837",
+      "work_type": "Album",
+      "work_id": 6837,
+      "title": "Sunset of Perfection",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 6838,
+      "artist_name": "Marcel Kutek",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
+    },
+    {
+      "id": "song:10812",
+      "work_type": "Song",
+      "work_id": 10812,
+      "title": "Silent Protocol",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 10813,
+          "name": "Maks Bodek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969538
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:4167",
+      "target": "album:6837",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10812",
+      "target": "album:6837",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

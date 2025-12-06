@@ -1,0 +1,148 @@
+{
+  "person_id": 8928,
+  "name": "Anthony Farmer",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:8927",
+      "work_type": "Album",
+      "work_id": 8927,
+      "title": "Sorrow's Final Breath",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 8928,
+      "artist_name": "Anthony Farmer",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8929,
+          "name": "Timothy Rios",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4317675
+        }
+      ]
+    },
+    {
+      "id": "song:14007",
+      "work_type": "Song",
+      "work_id": 14007,
+      "title": "Tiny Seeds, Endless Horizons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 12667,
+      "artist_name": "Carsten Fritsch",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12667,
+          "name": "Carsten Fritsch",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032013
+        },
+        {
+          "person_id": 14008,
+          "name": "Eckard Werner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14009,
+          "name": "Zbigniew Stey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14010,
+          "name": "Milo Hendriks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        }
+      ]
+    },
+    {
+      "id": "song:14802",
+      "work_type": "Song",
+      "work_id": 14802,
+      "title": "Whispers in the Keep",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 14803,
+      "artist_name": "Joan Taylor",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14803,
+          "name": "Joan Taylor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396663
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14007",
+      "target": "album:8927",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14802",
+      "target": "album:8927",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

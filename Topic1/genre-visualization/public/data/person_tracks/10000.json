@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9999",
-      "song_id": 9999,
+      "work_type": "Song",
+      "work_id": 9999,
       "title": "Lessons from the Winter Graveyard",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 10000,
       "artist_name": "Julie Thompson",
-      "influence": 6,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 2,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7516,
+          "name": "Laura Turner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.258833
+        },
+        {
+          "person_id": 10001,
+          "name": "Laura Lee",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0295484
+        }
+      ]
     },
     {
       "id": "song:11602",
-      "song_id": 11602,
+      "work_type": "Song",
+      "work_id": 11602,
       "title": "The Twilight Spiral",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +64,34 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7516,
+          "name": "Laura Turner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.258833
+        },
+        {
+          "person_id": 10001,
+          "name": "Laura Lee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0295484
+        }
+      ]
     },
     {
       "id": "song:10142",
-      "song_id": 10142,
+      "work_type": "Song",
+      "work_id": 10142,
       "title": "Harmony of Heartache",
       "genre": "Doom Metal",
       "notable": true,
@@ -63,11 +109,25 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7774,
+          "name": "Claudia Lee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0258138
+        }
       ]
     },
     {
       "id": "song:11602",
-      "song_id": 11602,
+      "work_type": "Song",
+      "work_id": 11602,
       "title": "The Twilight Spiral",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,19 +145,90 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7516,
+          "name": "Laura Turner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.258833
+        },
+        {
+          "person_id": 10000,
+          "name": "Julie Thompson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0295484
+        },
+        {
+          "person_id": 10001,
+          "name": "Laura Lee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0295484
+        }
+      ]
+    },
+    {
+      "id": "album:16978",
+      "work_type": "Album",
+      "work_id": 16978,
+      "title": "Serpents & Salvations",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": 16977,
+      "artist_name": "Mira Everly (Ivy Lux)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16977,
+          "name": "Mira Everly",
+          "stage_name": "Ivy Lux",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4330566
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11602",
+      "source": "album:16978",
       "target": "song:9999",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     },
     {
       "source": "song:10142",
       "target": "song:9999",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11602",
+      "target": "song:9999",
+      "type": "InterpolatesFrom"
     }
   ]
 }

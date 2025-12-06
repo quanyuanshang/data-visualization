@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14784",
-      "song_id": 14784,
+      "work_type": "Song",
+      "work_id": 14784,
       "title": "Labels Don't Matter",
       "genre": "Synthwave",
       "notable": true,
@@ -14,6 +15,56 @@
       "own": true,
       "artist_id": 14787,
       "artist_name": "Megan Harris",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14788,
+          "name": "Christopher Robbins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999097
+        },
+        {
+          "person_id": 14785,
+          "name": "Rosalinde Tintzmann",
+          "stage_name": " Cleo Rose",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999062
+        },
+        {
+          "person_id": 14786,
+          "name": "Kevin King",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3999062
+        }
+      ]
+    },
+    {
+      "id": "album:14557",
+      "work_type": "Album",
+      "work_id": 14557,
+      "title": "Echoes from the Heart of El Salvador",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 617,
+      "artist_name": "Tao Yang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +72,140 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 3399,
+          "name": "Jing Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7040498
+        },
+        {
+          "person_id": 12423,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516064
+        },
+        {
+          "person_id": 12424,
+          "name": "Qiang Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516064
+        },
+        {
+          "person_id": 2911,
+          "name": "Xiulan Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0007012
+        },
+        {
+          "person_id": 14558,
+          "name": "Jing Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.376961
+        }
+      ]
+    },
+    {
+      "id": "album:17331",
+      "work_type": "Album",
+      "work_id": 17331,
+      "title": "Lodestone & Lament",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 17327,
+      "artist_name": "Drowned Harbor（成员：Orin Caldwell｜预测 3.71、Selena Marrow｜预测 3.71…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17326,
+          "name": "Jonas Fenwick",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7154114
+        },
+        {
+          "person_id": 17325,
+          "name": "Thorne Rivenhall",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7153614
+        },
+        {
+          "person_id": 17323,
+          "name": "Orin Caldwell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7138486
+        },
+        {
+          "person_id": 17324,
+          "name": "Selena Marrow",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7120118
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14557",
+      "target": "song:14784",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:17331",
+      "target": "song:14784",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

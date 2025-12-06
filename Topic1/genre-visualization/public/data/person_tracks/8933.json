@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8931",
-      "song_id": 8931,
+      "work_type": "Song",
+      "work_id": 8931,
       "title": "Bare Necessities",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 8933,
       "artist_name": "Jing Guo",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8934,
+          "name": "Guiying Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045077
+        },
+        {
+          "person_id": 8932,
+          "name": "Juan Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954778
+        },
+        {
+          "person_id": 8935,
+          "name": "Ping Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954778
+        }
+      ]
+    },
+    {
+      "id": "album:2889",
+      "work_type": "Album",
+      "work_id": 2889,
+      "title": "Silent Secrets",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 2891,
+      "artist_name": "Qiang Duan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2890,
+          "name": "Yan Ma",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982425
+        },
+        {
+          "person_id": 2891,
+          "name": "Qiang Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982217
+        },
+        {
+          "person_id": 2892,
+          "name": "Fang Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982217
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:2889",
+      "target": "song:8931",
+      "type": "CoverOf"
+    }
+  ]
 }

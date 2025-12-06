@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10931",
-      "song_id": 10931,
+      "work_type": "Song",
+      "work_id": 10931,
       "title": "Cryptic Wavelength",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10932,
+          "name": "Brandon Hoffman",
+          "stage_name": "Infinite Monsoon",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0398104
+        },
+        {
+          "person_id": 10933,
+          "name": "Joseph Chen",
+          "stage_name": "EAZY 9INE",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0383782
+        },
+        {
+          "person_id": 8175,
+          "name": "Dawn Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9900126
+        }
+      ]
     },
     {
       "id": "song:14197",
-      "song_id": 14197,
+      "work_type": "Song",
+      "work_id": 14197,
       "title": "Rumbo al Horizonte",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +76,26 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10932,
+          "name": "Brandon Hoffman",
+          "stage_name": "Infinite Monsoon",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0398104
+        },
+        {
+          "person_id": 10933,
+          "name": "Joseph Chen",
+          "stage_name": "EAZY 9INE",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0383782
+        }
       ]
     }
   ],

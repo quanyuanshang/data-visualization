@@ -4,28 +4,9 @@
   "stage_name": "JUXX 100",
   "nodes": [
     {
-      "id": "song:15406",
-      "song_id": 15406,
-      "title": "Ethereal Nuptials",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 7564,
-      "artist_name": "Ryan Cohen (JUXX 100)",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:11737",
-      "song_id": 11737,
+      "work_type": "Song",
+      "work_id": 11737,
       "title": "Shadows of a Distant Name",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +22,134 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 11738,
+          "name": "James Murray",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975458
+        },
+        {
+          "person_id": 11739,
+          "name": "Marilyn Austin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975458
+        }
+      ]
+    },
+    {
+      "id": "album:7563",
+      "work_type": "Album",
+      "work_id": 7563,
+      "title": "Blade of Sorrow's Embrace",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 7564,
+      "artist_name": "Ryan Cohen (JUXX 100)",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 7565,
+          "name": "Arne Baum",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343714
+        }
+      ]
+    },
+    {
+      "id": "song:15406",
+      "work_type": "Song",
+      "work_id": 15406,
+      "title": "Ethereal Nuptials",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 7564,
+      "artist_name": "Ryan Cohen (JUXX 100)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 7565,
+          "name": "Arne Baum",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343714
+        },
+        {
+          "person_id": 15407,
+          "name": "Beverly Pham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39981
+        }
+      ]
     },
     {
       "id": "song:6307",
-      "song_id": 6307,
+      "work_type": "Song",
+      "work_id": 6307,
       "title": "Gaze of Understanding",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +167,59 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6312,
+          "name": "Fang Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7013907
+        },
+        {
+          "person_id": 6308,
+          "name": "Li Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6309,
+          "name": "Yan He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6310,
+          "name": "Ping Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6311,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        }
       ]
     },
     {
       "id": "song:7611",
-      "song_id": 7611,
+      "work_type": "Song",
+      "work_id": 7611,
       "title": "Blurred Lines of Truth",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,19 +237,184 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 207,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7139308
+        },
+        {
+          "person_id": 7613,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0506666
+        },
+        {
+          "person_id": 7612,
+          "name": "Jennifer Garcia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981173
+        },
+        {
+          "person_id": 7614,
+          "name": "Cynthia Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981173
+        }
+      ]
+    },
+    {
+      "id": "song:8243",
+      "work_type": "Song",
+      "work_id": 8243,
+      "title": "Memories Packed in Silent Suitcases",
+      "genre": "Doom Metal",
+      "notable": false,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1066,
+      "artist_name": "Franck Hernandez Le Leclerc",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1066,
+          "name": "Franck Hernandez Le Leclerc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9391227
+        },
+        {
+          "person_id": 4438,
+          "name": "William Roux",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4343023
+        },
+        {
+          "person_id": 8244,
+          "name": "Dominique Letellier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3868299
+        }
+      ]
+    },
+    {
+      "id": "song:15406",
+      "work_type": "Song",
+      "work_id": 15406,
+      "title": "Ethereal Nuptials",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 5554,
+      "artist_name": "Gordon Cox",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 7564,
+          "name": "Ryan Cohen",
+          "stage_name": "JUXX 100",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4205143
+        },
+        {
+          "person_id": 7565,
+          "name": "Arne Baum",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343714
+        },
+        {
+          "person_id": 15407,
+          "name": "Beverly Pham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39981
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:8243",
+      "target": "album:7563",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7611",
+      "target": "song:11737",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:6307",
       "target": "song:11737",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:7611",
-      "target": "song:11737",
-      "type": "InStyleOf"
+      "source": "song:15406",
+      "target": "album:7563",
+      "type": "InterpolatesFrom"
     }
   ]
 }

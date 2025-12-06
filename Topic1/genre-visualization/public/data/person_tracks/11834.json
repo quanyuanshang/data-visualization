@@ -4,8 +4,60 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:11831",
+      "work_type": "Album",
+      "work_id": 11831,
+      "title": "Fragments of a Poet's Breath",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 11834,
+      "artist_name": "Zaira Balotelli-Peano",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11832,
+          "name": "Beppe Agazzi-Muratori",
+          "stage_name": " Foster",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.024069
+        },
+        {
+          "person_id": 11833,
+          "name": "Renata Manolesso",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962705
+        },
+        {
+          "person_id": 11835,
+          "name": "Elena Nibali",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962705
+        }
+      ]
+    },
+    {
       "id": "song:15851",
-      "song_id": 15851,
+      "work_type": "Song",
+      "work_id": 15851,
       "title": "Whispers in the Locket",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,8 +73,141 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14395,
+          "name": "Rosaria Ferrara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.045478
+        },
+        {
+          "person_id": 14396,
+          "name": "Valentina Ungaretti-Pucci",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045478
+        },
+        {
+          "person_id": 15853,
+          "name": "Nico Casalodi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3948543
+        },
+        {
+          "person_id": 15852,
+          "name": "Puccio Farnese",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946664
+        },
+        {
+          "person_id": 15854,
+          "name": "Lucia Ceci",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3946664
+        }
+      ]
+    },
+    {
+      "id": "album:14683",
+      "work_type": "Album",
+      "work_id": 14683,
+      "title": "Sunlight on Ivory and Bow",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 14685,
+      "artist_name": "Michael Gomez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14686,
+          "name": "Wanda Fuller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397932
+        },
+        {
+          "person_id": 14684,
+          "name": "Kelli Martinez",
+          "stage_name": "REIGNO",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977623
+        },
+        {
+          "person_id": 14685,
+          "name": "Michael Gomez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977623
+        },
+        {
+          "person_id": 14687,
+          "name": "Christopher Richards",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977623
+        },
+        {
+          "person_id": 14688,
+          "name": "Denise Moody",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977623
+        },
+        {
+          "person_id": 14689,
+          "name": "Mitchell Ross",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977623
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14683",
+      "target": "album:11831",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

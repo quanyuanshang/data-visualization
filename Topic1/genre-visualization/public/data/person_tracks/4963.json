@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:4961",
+      "work_type": "Song",
+      "work_id": 4961,
+      "title": "Cascading Shadows in C",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 4963,
+      "artist_name": "Lawrence Cooper",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2149,
+          "name": "Rudolf Malý",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.418768
+        },
+        {
+          "person_id": 4962,
+          "name": "Russell Ruiz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396962
+        }
+      ]
+    },
+    {
       "id": "song:6687",
-      "song_id": 6687,
+      "work_type": "Song",
+      "work_id": 6687,
       "title": "Embers and Memories",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,31 +64,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:4961",
-      "song_id": 4961,
-      "title": "Cascading Shadows in C",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 4963,
-      "artist_name": "Lawrence Cooper",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2149,
+          "name": "Rudolf Malý",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.418768
+        }
+      ]
     },
     {
       "id": "song:9412",
-      "song_id": 9412,
+      "work_type": "Song",
+      "work_id": 9412,
       "title": "Midnight in Stockholm: A Freedom Cry",
       "genre": "Alternative Rock",
       "notable": true,
@@ -54,6 +89,57 @@
       "own": true,
       "artist_id": 4963,
       "artist_name": "Lawrence Cooper",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3455,
+          "name": "Maria Carlson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4004025
+        },
+        {
+          "person_id": 4910,
+          "name": "Cengiz Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051749
+        },
+        {
+          "person_id": 9413,
+          "name": "Joseph Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980541
+        }
+      ]
+    },
+    {
+      "id": "album:4909",
+      "work_type": "Album",
+      "work_id": 4909,
+      "title": "Battlefield Ballad",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 4910,
+      "artist_name": "Cengiz Knappe",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -61,8 +147,78 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4910,
+          "name": "Cengiz Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051749
+        },
+        {
+          "person_id": 4911,
+          "name": "Nicolai Caspar",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982608
+        }
+      ]
+    },
+    {
+      "id": "album:13417",
+      "work_type": "Album",
+      "work_id": 13417,
+      "title": "Whispers of the Steppes",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 3605,
+      "artist_name": "Lei Cao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3605,
+          "name": "Lei Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0399735
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:13417",
+      "target": "song:9412",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:4909",
+      "target": "song:4961",
+      "type": "InStyleOf"
+    }
+  ]
 }

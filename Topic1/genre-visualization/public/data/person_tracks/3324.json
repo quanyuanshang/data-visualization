@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12425",
-      "song_id": 12425,
+      "work_type": "Song",
+      "work_id": 12425,
       "title": "Burning Chains of Desire",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,93 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 303,
+          "name": "Corinna Gute",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.703251
+        },
+        {
+          "person_id": 12427,
+          "name": "Fredy Lange",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041552
+        },
+        {
+          "person_id": 12426,
+          "name": "Heinz-Günter Kallert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999534
+        }
+      ]
+    },
+    {
+      "id": "album:3323",
+      "work_type": "Album",
+      "work_id": 3323,
+      "title": "Scholar's Rebellion",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 3324,
+      "artist_name": "Hans Georg Eigenwillig-Reising",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 303,
+          "name": "Corinna Gute",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.703251
+        }
+      ]
     },
     {
       "id": "song:6839",
-      "song_id": 6839,
+      "work_type": "Song",
+      "work_id": 6839,
       "title": "Street Dance Symphony",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,7 +126,151 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6840,
+          "name": "Fang Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9980547
+        },
+        {
+          "person_id": 6843,
+          "name": "Marc Raymond",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.988861
+        },
+        {
+          "person_id": 6841,
+          "name": "Jing Yao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4003663
+        },
+        {
+          "person_id": 6842,
+          "name": "Wei Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003663
+        }
       ]
+    },
+    {
+      "id": "album:1652",
+      "work_type": "Album",
+      "work_id": 1652,
+      "title": "Tusks and Mud",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 1653,
+      "artist_name": "Charo Cañas Saez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1653,
+          "name": "Charo Cañas Saez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1655,
+          "name": "Cayetana Bernal-Ocaña",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1656,
+          "name": "Alfonso Albero Cervera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1657,
+          "name": "Abigaíl Tovar Sainz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1654,
+          "name": "Concepción Ripoll",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398977
+        },
+        {
+          "person_id": 1658,
+          "name": "Anastasio Jiménez Ferrer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398977
+        }
+      ]
+    },
+    {
+      "id": "song:17038",
+      "work_type": "Song",
+      "work_id": 17038,
+      "title": "Skyline Glow",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2035,
+      "single": true,
+      "own": false,
+      "artist_id": 17032,
+      "artist_name": "Silver Veil（成员：Eliza Brooks (Midnight Atlas)｜预测 3.07、Jasper Reed｜预测 3.05）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": []
     }
   ],
   "links": [
@@ -51,6 +278,16 @@
       "source": "song:6839",
       "target": "song:12425",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:1652",
+      "target": "album:3323",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:17038",
+      "target": "album:3323",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

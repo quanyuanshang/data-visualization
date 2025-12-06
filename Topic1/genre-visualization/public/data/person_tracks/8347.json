@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8344",
-      "song_id": 8344,
+      "work_type": "Song",
+      "work_id": 8344,
       "title": "Fragments of My Universe",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8067,
+          "name": "Gang Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0865505
+        },
+        {
+          "person_id": 8066,
+          "name": "Lauren Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4753132
+        },
+        {
+          "person_id": 8345,
+          "name": "Patrick Bertin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3827274
+        },
+        {
+          "person_id": 8346,
+          "name": "Lindsey Jackson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3827274
+        }
+      ]
     },
     {
       "id": "song:8065",
-      "song_id": 8065,
+      "work_type": "Song",
+      "work_id": 8065,
       "title": "Broad Stroke Symphony",
       "genre": "Dream Pop",
       "notable": false,
@@ -43,6 +84,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8067,
+          "name": "Gang Du",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0865505
+        },
+        {
+          "person_id": 8066,
+          "name": "Lauren Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4753132
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2267",
-      "song_id": 2267,
+      "work_type": "Song",
+      "work_id": 2267,
       "title": "Temporary Address",
       "genre": "Dream Pop",
       "notable": false,
@@ -21,16 +22,107 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 934,
+          "name": "Jun Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9345489
+        },
+        {
+          "person_id": 2268,
+          "name": "Xia Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4362013
+        },
+        {
+          "person_id": 2269,
+          "name": "Yang Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3924963
+        },
+        {
+          "person_id": 2270,
+          "name": "Jing Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3833244
+        }
+      ]
     },
     {
       "id": "song:7326",
-      "song_id": 7326,
+      "work_type": "Song",
+      "work_id": 7326,
       "title": "Interstellar Highway Hymn",
       "genre": "Dream Pop",
       "notable": true,
       "release_year": 2028,
       "single": true,
+      "own": true,
+      "artist_id": 2001,
+      "artist_name": "Na Deng",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7328,
+          "name": "Xia Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0415542
+        },
+        {
+          "person_id": 7327,
+          "name": "Lei Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398812
+        },
+        {
+          "person_id": 7329,
+          "name": "Na Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398812
+        }
+      ]
+    },
+    {
+      "id": "album:10620",
+      "work_type": "Album",
+      "work_id": 10620,
+      "title": "Maestro's Whisper",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
       "own": true,
       "artist_id": 2001,
       "artist_name": "Na Deng",
@@ -41,11 +133,50 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7328,
+          "name": "Xia Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0415542
+        },
+        {
+          "person_id": 10622,
+          "name": "Dale Suarez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987663
+        },
+        {
+          "person_id": 10623,
+          "name": "Jie Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987663
+        },
+        {
+          "person_id": 10621,
+          "name": "Qiang Huang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3987455
+        }
+      ]
     },
     {
       "id": "song:1996",
-      "song_id": 1996,
+      "work_type": "Song",
+      "work_id": 1996,
       "title": "Twilight's Gentle Embrace",
       "genre": "Dream Pop",
       "notable": true,
@@ -61,11 +192,100 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1997,
+          "name": "Jie Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3987079
+        },
+        {
+          "person_id": 1999,
+          "name": "Tao Shi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3987079
+        },
+        {
+          "person_id": 2000,
+          "name": "Min Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987079
+        },
+        {
+          "person_id": 1998,
+          "name": "Yang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986871
+        }
+      ]
+    },
+    {
+      "id": "album:12009",
+      "work_type": "Album",
+      "work_id": 12009,
+      "title": "Drums of the Ascendant",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 2001,
+      "artist_name": "Na Deng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 934,
+          "name": "Jun Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9345489
+        },
+        {
+          "person_id": 147,
+          "name": "Na Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4046214
+        },
+        {
+          "person_id": 2269,
+          "name": "Yang Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3924963
+        }
+      ]
     },
     {
       "id": "song:13080",
-      "song_id": 13080,
+      "work_type": "Song",
+      "work_id": 13080,
       "title": "Wolf's Lament",
       "genre": "Dream Pop",
       "notable": true,
@@ -81,8 +301,147 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6083,
+          "name": "Xiulan Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7472978
+        },
+        {
+          "person_id": 7790,
+          "name": "Horst-Dieter Schleich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0453827
+        },
+        {
+          "person_id": 13081,
+          "name": "Guiying Cheng",
+          "stage_name": "Omen",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        },
+        {
+          "person_id": 13082,
+          "name": "Yan Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        },
+        {
+          "person_id": 13083,
+          "name": "Lei Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        },
+        {
+          "person_id": 13084,
+          "name": "Fang Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        }
+      ]
+    },
+    {
+      "id": "album:10620",
+      "work_type": "Album",
+      "work_id": 10620,
+      "title": "Maestro's Whisper",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 2001,
+      "artist_name": "Na Deng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2001,
+          "name": "Na Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.932276
+        },
+        {
+          "person_id": 7328,
+          "name": "Xia Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0415542
+        },
+        {
+          "person_id": 10622,
+          "name": "Dale Suarez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987663
+        },
+        {
+          "person_id": 10623,
+          "name": "Jie Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987663
+        },
+        {
+          "person_id": 10621,
+          "name": "Qiang Huang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3987455
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10620",
+      "target": "song:7326",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2267",
+      "target": "album:12009",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

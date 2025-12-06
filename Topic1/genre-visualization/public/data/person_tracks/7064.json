@@ -1,0 +1,127 @@
+{
+  "person_id": 7064,
+  "name": "Cynthia Johns",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:7063",
+      "work_type": "Album",
+      "work_id": 7063,
+      "title": "Portraits of Silence",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 7064,
+      "artist_name": "Cynthia Johns",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6138,
+          "name": "Jeffrey Phillips",
+          "stage_name": "Echelon",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7179081
+        },
+        {
+          "person_id": 7066,
+          "name": "Holly Stephens",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986912
+        },
+        {
+          "person_id": 7067,
+          "name": "Barbara Fox",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986912
+        },
+        {
+          "person_id": 7065,
+          "name": "Christopher Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398583
+        }
+      ]
+    },
+    {
+      "id": "song:6137",
+      "work_type": "Song",
+      "work_id": 6137,
+      "title": "Beyond the Moment",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 6139,
+      "artist_name": "Russell Barnes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6138,
+          "name": "Jeffrey Phillips",
+          "stage_name": "Echelon",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7179081
+        },
+        {
+          "person_id": 6139,
+          "name": "Russell Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4019432
+        },
+        {
+          "person_id": 6140,
+          "name": "Brian Brown",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4019432
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6137",
+      "target": "album:7063",
+      "type": "DirectlySamples"
+    }
+  ]
+}

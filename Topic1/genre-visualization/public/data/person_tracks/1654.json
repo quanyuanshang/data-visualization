@@ -1,0 +1,116 @@
+{
+  "person_id": 1654,
+  "name": "Concepción Ripoll",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:1652",
+      "work_type": "Album",
+      "work_id": 1652,
+      "title": "Tusks and Mud",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 1654,
+      "artist_name": "Concepción Ripoll",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1653,
+          "name": "Charo Cañas Saez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1655,
+          "name": "Cayetana Bernal-Ocaña",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1656,
+          "name": "Alfonso Albero Cervera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1657,
+          "name": "Abigaíl Tovar Sainz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989978
+        },
+        {
+          "person_id": 1658,
+          "name": "Anastasio Jiménez Ferrer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398977
+        }
+      ]
+    },
+    {
+      "id": "song:17154",
+      "work_type": "Song",
+      "work_id": 17154,
+      "title": "Silence at the End of the World",
+      "genre": "Indie Rock",
+      "notable": false,
+      "release_year": 2034,
+      "single": true,
+      "own": false,
+      "artist_id": 17146,
+      "artist_name": "Julia Carter (Jude Rivers)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17146,
+          "name": "Julia Carter",
+          "stage_name": "Jude Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1046424
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17154",
+      "target": "album:1652",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

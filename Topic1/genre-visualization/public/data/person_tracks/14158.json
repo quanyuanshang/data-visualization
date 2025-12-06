@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14157",
-      "song_id": 14157,
+      "work_type": "Song",
+      "work_id": 14157,
       "title": "Silhouettes of Uncertainty",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9281,
+          "name": "Heino Ladeck",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7037206
+        }
+      ]
     },
     {
       "id": "song:15055",
-      "song_id": 15055,
+      "work_type": "Song",
+      "work_id": 15055,
       "title": "Tre melankolske vers",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +54,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9281,
+          "name": "Heino Ladeck",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7037206
+        },
+        {
+          "person_id": 9691,
+          "name": "Brenda Dunn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0515783
+        }
+      ]
     },
     {
       "id": "song:11246",
-      "song_id": 11246,
+      "work_type": "Song",
+      "work_id": 11246,
       "title": "Shadows of the Last Goodbye",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -63,11 +97,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11247,
+          "name": "Catherine Parker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398354
+        },
+        {
+          "person_id": 11248,
+          "name": "Deborah Cruz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980644
+        }
       ]
     },
     {
       "id": "song:9280",
-      "song_id": 9280,
+      "work_type": "Song",
+      "work_id": 9280,
       "title": "Sunbeam Symphony",
       "genre": "Alternative Rock",
       "notable": true,
@@ -85,11 +141,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9281,
+          "name": "Heino Ladeck",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7037206
+        },
+        {
+          "person_id": 9282,
+          "name": "Asuka Fukuda",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0405188
+        }
       ]
     },
     {
       "id": "song:15425",
-      "song_id": 15425,
+      "work_type": "Song",
+      "work_id": 15425,
       "title": "Kadence Božské Identity",
       "genre": "Blues Rock",
       "notable": true,
@@ -107,10 +185,54 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15426,
+          "name": "Savannah Leblanc",
+          "stage_name": " Nina Sky",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994887
+        },
+        {
+          "person_id": 15427,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994887
+        },
+        {
+          "person_id": 15428,
+          "name": "Tao Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994887
+        },
+        {
+          "person_id": 15429,
+          "name": "Jie Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3994887
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:15425",
+      "target": "song:15055",
+      "type": "CoverOf"
+    },
     {
       "source": "song:9280",
       "target": "song:15055",
@@ -120,11 +242,6 @@
       "source": "song:11246",
       "target": "song:14157",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:15425",
-      "target": "song:15055",
-      "type": "CoverOf"
     }
   ]
 }

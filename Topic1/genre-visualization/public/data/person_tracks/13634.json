@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13632",
-      "song_id": 13632,
+      "work_type": "Song",
+      "work_id": 13632,
       "title": "The Dripping Diaries of Gerd",
       "genre": "Darkwave",
       "notable": true,
@@ -14,18 +15,58 @@
       "own": true,
       "artist_id": 13634,
       "artist_name": "Kathy Johnson",
-      "influence": 13,
+      "influence": 26,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 2,
-        "reference": 1,
-        "style": 1
+        "reference": 3,
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13633,
+          "name": "Erica Hernandez",
+          "stage_name": " Pete Castle",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399987
+        },
+        {
+          "person_id": 13635,
+          "name": "Lee Butler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399987
+        },
+        {
+          "person_id": 13636,
+          "name": "Jules Paris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399987
+        },
+        {
+          "person_id": 13637,
+          "name": "Livia Blewanus",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399987
+        }
+      ]
     },
     {
       "id": "song:4920",
-      "song_id": 4920,
+      "work_type": "Song",
+      "work_id": 4920,
       "title": "Comedic Conflict",
       "genre": "Darkwave",
       "notable": true,
@@ -43,11 +84,226 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4922,
+          "name": "Jeanette Bass",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3956008
+        },
+        {
+          "person_id": 4924,
+          "name": "Devon White",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956008
+        },
+        {
+          "person_id": 4921,
+          "name": "Nicholas Mckinney",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3954499
+        },
+        {
+          "person_id": 4923,
+          "name": "Jennifer Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954499
+        }
+      ]
+    },
+    {
+      "id": "album:7908",
+      "work_type": "Album",
+      "work_id": 7908,
+      "title": "Aerial Echoes of Freedom",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2861,
+      "artist_name": "Jie Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2861,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4371288
+        },
+        {
+          "person_id": 7909,
+          "name": "Tao Feng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7910,
+          "name": "Ming Fang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7911,
+          "name": "Qiang Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7912,
+          "name": "Jie Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3940048
+        }
+      ]
+    },
+    {
+      "id": "album:9749",
+      "work_type": "Album",
+      "work_id": 9749,
+      "title": "The Silence Between Heartbeats",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 9752,
+      "artist_name": "Chao Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        }
+      ]
+    },
+    {
+      "id": "album:11998",
+      "work_type": "Album",
+      "work_id": 11998,
+      "title": "Reborn from Ashes",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 12000,
+      "artist_name": "Angelica Ruiz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11999,
+          "name": "Chelsea Mata",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982227
+        },
+        {
+          "person_id": 12000,
+          "name": "Angelica Ruiz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977864
+        }
       ]
     },
     {
       "id": "song:12347",
-      "song_id": 12347,
+      "work_type": "Song",
+      "work_id": 12347,
       "title": "Broken Generation",
       "genre": "Darkwave",
       "notable": true,
@@ -65,11 +321,50 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2861,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4371288
+        },
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 12348,
+          "name": "Ming Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        },
+        {
+          "person_id": 12349,
+          "name": "Jing Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        }
       ]
     },
     {
       "id": "song:12535",
-      "song_id": 12535,
+      "work_type": "Song",
+      "work_id": 12535,
       "title": "Whispers from the Fifty States",
       "genre": "Darkwave",
       "notable": true,
@@ -87,11 +382,42 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 12537,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049924
+        },
+        {
+          "person_id": 12536,
+          "name": "Monica Coleman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973176
+        }
       ]
     },
     {
       "id": "song:13735",
-      "song_id": 13735,
+      "work_type": "Song",
+      "work_id": 13735,
       "title": "Echoes in the Silent North",
       "genre": "Darkwave",
       "notable": true,
@@ -109,17 +435,103 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.022782
+        }
+      ]
+    },
+    {
+      "id": "album:16205",
+      "work_type": "Album",
+      "work_id": 16205,
+      "title": "Incomplete Puzzle",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 16206,
+      "artist_name": "Pedro Mitschke",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16206,
+          "name": "Pedro Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976824
+        },
+        {
+          "person_id": 16207,
+          "name": "Natalija Täsche",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976824
+        },
+        {
+          "person_id": 16208,
+          "name": "Marcella Dobes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3976824
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4920",
-      "target": "song:13632",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:13735",
+      "source": "album:9749",
       "target": "song:13632",
       "type": "InStyleOf"
     },
@@ -129,9 +541,34 @@
       "type": "DirectlySamples"
     },
     {
+      "source": "album:16205",
+      "target": "song:13632",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:12347",
       "target": "song:13632",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4920",
+      "target": "song:13632",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:7908",
+      "target": "song:13632",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:11998",
+      "target": "song:13632",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13735",
+      "target": "song:13632",
+      "type": "InStyleOf"
     }
   ]
 }

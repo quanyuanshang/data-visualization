@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2303",
-      "song_id": 2303,
+      "work_type": "Song",
+      "work_id": 2303,
       "title": "Invisible Currents",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.5583477
+        }
+      ]
     },
     {
       "id": "song:15241",
-      "song_id": 15241,
+      "work_type": "Song",
+      "work_id": 15241,
       "title": "Nordisk Ljusdans (Nordic Light Dance)",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -43,6 +66,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
       ]
     }
   ],

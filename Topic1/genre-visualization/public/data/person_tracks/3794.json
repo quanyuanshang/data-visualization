@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3793",
-      "song_id": 3793,
+      "work_type": "Song",
+      "work_id": 3793,
       "title": "Monsoon Memories",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.4058466
+        }
+      ]
     },
     {
       "id": "song:15496",
-      "song_id": 15496,
+      "work_type": "Song",
+      "work_id": 15496,
       "title": "Vegan Dessert Disco",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -43,6 +57,54 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 15498,
+          "name": "Bertrand-Robert Duval",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9273462
+        },
+        {
+          "person_id": 15497,
+          "name": "Brian Mcbride",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398555
+        },
+        {
+          "person_id": 15499,
+          "name": "Yan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398555
+        }
       ]
     }
   ],

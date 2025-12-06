@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:11640",
-      "song_id": 11640,
-      "title": "Echoes of Faded Sweetness",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 4574,
-      "artist_name": "Margit Sölzer",
-      "influence": 8,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:4571",
-      "song_id": 4571,
+      "work_type": "Song",
+      "work_id": 4571,
       "title": "Healing Hours",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4573,
+          "name": "Edit Hethur",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        }
+      ]
     },
     {
       "id": "song:4613",
-      "song_id": 4613,
+      "work_type": "Song",
+      "work_id": 4613,
       "title": "Dancing Between the Oompah Notes",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,33 +64,73 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4573,
+          "name": "Edit Hethur",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        }
+      ]
     },
     {
-      "id": "song:4571",
-      "song_id": 4571,
-      "title": "Healing Hours",
-      "genre": "Indie Folk",
+      "id": "song:11640",
+      "work_type": "Song",
+      "work_id": 11640,
+      "title": "Echoes of Faded Sweetness",
+      "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2013,
+      "release_year": 2007,
       "single": true,
-      "own": false,
-      "artist_id": 4572,
-      "artist_name": "Janna Jäkel",
-      "influence": 0,
+      "own": true,
+      "artist_id": 4574,
+      "artist_name": "Margit Sölzer",
+      "influence": 8,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4573,
+          "name": "Edit Hethur",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        }
       ]
     },
     {
       "id": "song:4613",
-      "song_id": 4613,
+      "work_type": "Song",
+      "work_id": 4613,
       "title": "Dancing Between the Oompah Notes",
       "genre": "Alternative Rock",
       "notable": true,
@@ -106,11 +149,41 @@
       "relation_types": [
         "DirectlySamples",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4573,
+          "name": "Edit Hethur",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4574,
+          "name": "Margit Sölzer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        }
       ]
     },
     {
       "id": "song:17344",
-      "song_id": 17344,
+      "work_type": "Song",
+      "work_id": 17344,
       "title": "Riding the Moon's Reflection",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -128,10 +201,26 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17340,
+          "name": "Orla Seabloom",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.379677
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:4571",
+      "target": "song:11640",
+      "type": "CoverOf"
+    },
     {
       "source": "song:17344",
       "target": "song:4613",
@@ -146,11 +235,6 @@
       "source": "song:4613",
       "target": "song:4571",
       "type": "DirectlySamples"
-    },
-    {
-      "source": "song:4571",
-      "target": "song:11640",
-      "type": "CoverOf"
     }
   ]
 }

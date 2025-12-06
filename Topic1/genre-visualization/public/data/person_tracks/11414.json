@@ -1,0 +1,234 @@
+{
+  "person_id": 11414,
+  "name": "Benjamin Griffin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11413",
+      "work_type": "Album",
+      "work_id": 11413,
+      "title": "Wow, Wow! (Platinum Remix)",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": true,
+      "artist_id": 11414,
+      "artist_name": "Benjamin Griffin",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        }
+      ]
+    },
+    {
+      "id": "song:7034",
+      "work_type": "Song",
+      "work_id": 7034,
+      "title": "Identidad Privada",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 7035,
+      "artist_name": "Matthew Carter ( The Saint)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1534,
+          "name": "Holly Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7183068
+        },
+        {
+          "person_id": 7035,
+          "name": "Matthew Carter",
+          "stage_name": " The Saint",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0235913
+        }
+      ]
+    },
+    {
+      "id": "song:7271",
+      "work_type": "Song",
+      "work_id": 7271,
+      "title": "Surrender to the Silence",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 4255,
+      "artist_name": "Guiying Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4259,
+          "name": "Jie Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2570076
+        },
+        {
+          "person_id": 4258,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7324066
+        },
+        {
+          "person_id": 4255,
+          "name": "Guiying Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7200646
+        },
+        {
+          "person_id": 4257,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.426748
+        },
+        {
+          "person_id": 4256,
+          "name": "Ming Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.42026
+        },
+        {
+          "person_id": 7272,
+          "name": "Yan Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.382957
+        }
+      ]
+    },
+    {
+      "id": "album:14908",
+      "work_type": "Album",
+      "work_id": 14908,
+      "title": "The Adventurer's Lament",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 7035,
+      "artist_name": "Matthew Carter ( The Saint)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 7035,
+          "name": "Matthew Carter",
+          "stage_name": " The Saint",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0235913
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:14908",
+      "target": "album:11413",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7034",
+      "target": "album:11413",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:7271",
+      "target": "album:11413",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

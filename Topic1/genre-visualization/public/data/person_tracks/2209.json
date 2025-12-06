@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10156",
-      "song_id": 10156,
-      "title": "Woodland's Soft Luminescence",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 2209,
-      "artist_name": "Charles Delaunay",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2208",
-      "song_id": 2208,
+      "work_type": "Song",
+      "work_id": 2208,
       "title": "Infamy's Aria",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -41,7 +22,69 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2210,
+          "name": "Lei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0498252
+        },
+        {
+          "person_id": 2211,
+          "name": "Xiulan Deng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4600284
+        }
+      ]
+    },
+    {
+      "id": "song:10156",
+      "work_type": "Song",
+      "work_id": 10156,
+      "title": "Woodland's Soft Luminescence",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 2209,
+      "artist_name": "Charles Delaunay",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3062,
+          "name": "Laurent Breton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3699458
+        },
+        {
+          "person_id": 10157,
+          "name": "Isaac Huet du Cousin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983796
+        }
+      ]
     }
   ],
   "links": []

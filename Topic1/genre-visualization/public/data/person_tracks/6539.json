@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6535",
-      "song_id": 6535,
+      "work_type": "Song",
+      "work_id": 6535,
       "title": "Udder Rhythm",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6536,
+          "name": "Xiulan Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397213
+        },
+        {
+          "person_id": 6537,
+          "name": "Jie Fu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397213
+        },
+        {
+          "person_id": 6538,
+          "name": "Xiuying Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397213
+        }
+      ]
     },
     {
       "id": "song:4704",
-      "song_id": 4704,
+      "work_type": "Song",
+      "work_id": 4704,
       "title": "Memories in Sepia",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +75,88 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4710,
+          "name": "Qiang Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9755197
+        },
+        {
+          "person_id": 4705,
+          "name": "Jun Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990967
+        },
+        {
+          "person_id": 4706,
+          "name": "Fang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990967
+        },
+        {
+          "person_id": 4707,
+          "name": "Xiulan Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3990967
+        },
+        {
+          "person_id": 4708,
+          "name": "Jing Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990967
+        },
+        {
+          "person_id": 4709,
+          "name": "Min Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990967
+        },
+        {
+          "person_id": 4711,
+          "name": "Chao Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3990967
+        },
+        {
+          "person_id": 4712,
+          "name": "Ming Luo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990967
+        }
       ]
     },
     {
       "id": "song:6675",
-      "song_id": 6675,
+      "work_type": "Song",
+      "work_id": 6675,
       "title": "Vägen hem (The Way Home)",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -65,19 +174,48 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6676,
+          "name": "Anthony Salas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0304399
+        },
+        {
+          "person_id": 6677,
+          "name": "Nicole Williamson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0304399
+        },
+        {
+          "person_id": 6678,
+          "name": "Katrina Guzman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970854
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4704",
-      "target": "song:6535",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:6675",
       "target": "song:6535",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:4704",
+      "target": "song:6535",
+      "type": "InterpolatesFrom"
     }
   ]
 }

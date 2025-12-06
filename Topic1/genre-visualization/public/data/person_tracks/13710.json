@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16381",
-      "song_id": 16381,
-      "title": "Strength Beyond Sorrow",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2013,
-      "single": false,
-      "own": true,
-      "artist_id": 13710,
-      "artist_name": "Colin Wood",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13709",
-      "song_id": 13709,
+      "work_type": "Song",
+      "work_id": 13709,
       "title": "Pleasant",
       "genre": "Doom Metal",
       "notable": true,
@@ -41,7 +22,59 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:16381",
+      "work_type": "Song",
+      "work_id": 16381,
+      "title": "Strength Beyond Sorrow",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 13710,
+      "artist_name": "Colin Wood",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16382,
+          "name": "Amber Park",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983166
+        },
+        {
+          "person_id": 16383,
+          "name": "Sarah Sims",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983166
+        },
+        {
+          "person_id": 16384,
+          "name": "John Watts",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3983166
+        }
+      ]
     }
   ],
   "links": []

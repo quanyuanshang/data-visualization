@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9337",
-      "song_id": 9337,
+      "work_type": "Song",
+      "work_id": 9337,
       "title": "Rhythm of Her Steps",
       "genre": "Indie Folk",
       "notable": false,
@@ -21,11 +22,51 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5345,
+          "name": "Xiulan Wang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6802955
+        },
+        {
+          "person_id": 9339,
+          "name": "Mathew Chapman III",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0575647
+        },
+        {
+          "person_id": 1622,
+          "name": "Qiang Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4233065
+        },
+        {
+          "person_id": 9340,
+          "name": "Margaret Brun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3786557
+        }
+      ]
     },
     {
       "id": "song:9043",
-      "song_id": 9043,
+      "work_type": "Song",
+      "work_id": 9043,
       "title": "Highway Horizon Spell",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +84,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9047,
+          "name": "Li Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.041001
+        },
+        {
+          "person_id": 9044,
+          "name": "Qiang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981729
+        },
+        {
+          "person_id": 9046,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981729
+        },
+        {
+          "person_id": 9045,
+          "name": "Jing Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981595
+        }
       ]
     },
     {
       "id": "song:11839",
-      "song_id": 11839,
+      "work_type": "Song",
+      "work_id": 11839,
       "title": "Pilgrims of Hope",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,17 +146,37 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11841,
+          "name": "Hanna Aelftrud van Wessex",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988907
+        },
+        {
+          "person_id": 11840,
+          "name": "Imran de Bruijn-Hendrikse",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398197
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11839",
+      "source": "song:9043",
       "target": "song:9337",
       "type": "InStyleOf"
     },
     {
-      "source": "song:9043",
+      "source": "song:11839",
       "target": "song:9337",
       "type": "InStyleOf"
     }

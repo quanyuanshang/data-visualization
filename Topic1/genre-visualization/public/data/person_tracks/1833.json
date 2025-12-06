@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1830",
-      "song_id": 1830,
+      "work_type": "Song",
+      "work_id": 1830,
       "title": "Trouble's Favorite Son",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,61 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1650,
+          "name": "Daniel Lyons",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6096396
+        },
+        {
+          "person_id": 1831,
+          "name": "Jing Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3974617
+        },
+        {
+          "person_id": 1832,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974617
+        },
+        {
+          "person_id": 1834,
+          "name": "Jing Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974617
+        },
+        {
+          "person_id": 1835,
+          "name": "Yan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974617
+        }
+      ]
     },
     {
       "id": "song:17354",
-      "song_id": 17354,
+      "work_type": "Song",
+      "work_id": 17354,
       "title": "Seven Fathoms Deep",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,6 +94,17 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17349,
+          "name": "Beatrice Albright",
+          "stage_name": "Bea Azure",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.194851
+        }
       ]
     }
   ],

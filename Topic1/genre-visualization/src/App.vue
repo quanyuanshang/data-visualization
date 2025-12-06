@@ -2,7 +2,7 @@
 <template>
   <div class="app-container">
     <!-- 数据加载中提示 -->
-    <div v-if="!genresData && currentView === 'genres'" class="loading">
+    <div v-if="(!genresData || (isSuperstarMode && !superstarData)) && currentView === 'genres'" class="loading">
       <p>正在加载数据...</p>
     </div>
     
@@ -11,12 +11,15 @@
       <div class="genres-view-container">
         <FilterPanel
           :genres="genresData.genres"
+          :is-superstar-mode="isSuperstarMode"
           @apply-filter="handleFilterApply"
           @timeline-filter-change="handleTimelineFilterChange"
           @open-relation-view="handleOpenRelationView"
+          @toggle-superstar-mode="handleToggleSuperstarMode"
+          @update-superstar-count="handleUpdateSuperstarCount"
         />
         <GenreView 
-          :genres-data="genresData"
+          :genres-data="currentDisplayData"
           :genre-color-map="genreColorMap"
           :selected-genres="selectedGenresForTimeline"
           @select-genre="handleGenreSelect"
@@ -38,10 +41,12 @@
         :current-genre="selectedGenre"
         :current-artists-count="selectedArtistsAll.length"
         :is-artist-view="true"
+        :is-superstar-mode="isSuperstarMode"
         @apply-filter="handleFilterApply"
         @refine-filter="handleRefineFilter"
         @timeline-filter-change="handleTimelineFilterChange"
         @open-relation-view="handleOpenRelationView"
+        @toggle-superstar-mode="handleToggleSuperstarMode"
       />
       <ArtistView 
         :genre="selectedGenre"
@@ -94,7 +99,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import GenreView from './components/GenreView.vue'
 import ArtistView from './components/ArtistView.vue'
 import TrackView from './components/TrackView.vue'
@@ -120,6 +125,11 @@ const trackError = ref('')
 const personEvaluations = ref(null)
 const currentSortMetric = ref('score')
 
+// 超新星模式相关
+const isSuperstarMode = ref(false)
+const superstarData = ref(null) // 原始JSON数据
+const superstarCountFilter = ref(100) // 默认显示多少个
+
 const palette = [
   '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
   '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
@@ -136,6 +146,58 @@ const genreColorMap = computed(() => {
     map[genre] = palette[index % palette.length]
   })
   return map
+})
+
+// 计算当前传递给 GenreView 的数据
+// 如果是超新星模式，则聚合 superstarData 生成类似 genresData 的结构
+const currentDisplayData = computed(() => {
+  if (!isSuperstarMode.value) {
+    return genresData.value
+  }
+
+  if (!superstarData.value || !genresData.value) return null
+
+  // 1. 过滤前N名候选人
+  // superstarData is array of objects
+  let candidates = [...superstarData.value]
+  // sort by predicted_score desc
+  candidates.sort((a, b) => (b.metrics?.predicted_score || 0) - (a.metrics?.predicted_score || 0))
+  candidates = candidates.slice(0, superstarCountFilter.value)
+
+  // 2. 映射候选人到流派 (需要通过 name 或 ID 从主数据中查找流派)
+  // 建立 ID -> Genre 映射
+  const artistGenreMap = new Map()
+  Object.entries(genresData.value.genres_data).forEach(([genre, data]) => {
+    data.artists.forEach(artist => {
+      artistGenreMap.set(artist.person_id, genre)
+    })
+  })
+
+  // 3. 聚合数据
+  const genreGroups = {}
+  genresData.value.genres.forEach(g => {
+    genreGroups[g] = { count: 0, artists: [] }
+  })
+
+  candidates.forEach(candidate => {
+    const genre = artistGenreMap.get(candidate.id)
+    if (genre && genreGroups[genre]) {
+      genreGroups[genre].count++
+      // 将 candidate 数据 (含 shap_explanation) 这里的 metrics 映射到 artist 字段
+      genreGroups[genre].artists.push({
+        ...candidate,
+        person_id: candidate.id,
+        score: candidate.metrics?.predicted_score || 0,
+        genre_share: 1, // 假定值，确保显示
+        isSuperstar: true // 标记
+      })
+    }
+  })
+
+  return {
+    genres: genresData.value.genres,
+    genres_data: genreGroups
+  }
 })
 
 // ==================== 数据加载 ====================
@@ -155,6 +217,15 @@ onMounted(async () => {
       const timelineResponse = await fetch('/data/genre_timeline_data.json')
       if (timelineResponse.ok) timelineData.value = await timelineResponse.json()
     } catch (e) { console.warn('Timeline data failed', e) }
+
+    // 加载超新星数据
+    try {
+      const superstarResponse = await fetch('/data/potential_artists_shap_viz.json')
+      if (superstarResponse.ok) {
+        superstarData.value = await superstarResponse.json()
+        console.log('Loaded superstar candidates:', superstarData.value.length)
+      }
+    } catch (e) { console.warn('Superstar data failed', e) }
     
   } catch (error) {
     console.error('Load failed:', error)
@@ -163,20 +234,36 @@ onMounted(async () => {
 
 // ==================== 事件处理 ====================
 
+// 超新星模式切换
+function handleToggleSuperstarMode(isActive) {
+  isSuperstarMode.value = isActive
+  if (currentView.value === 'artists' || currentView.value === 'tracks') {
+    // 如果在详情页切换模式，最好返回主视图以免数据混乱
+    handleGoBack() 
+  }
+}
+
+function handleUpdateSuperstarCount(count) {
+  superstarCountFilter.value = count
+}
+
 // 1. Timeline Filter Change: 仅更新时间线和高亮，不切换视图
 function handleTimelineFilterChange(genres) {
   selectedGenresForTimeline.value = genres
-  console.log('Timeline selection updated:', genres)
 }
 
 // 2. Genre Click (Circle): 选中流派 -> 加载所有音乐人 -> 切换视图
 function handleGenreSelect(genre) {
   if (!genresData.value) return
   resetTrackState()
-  // 同步更新时间线筛选状态
   selectedGenresForTimeline.value = [genre]
-  // 加载并切换
-  loadAllArtistsForGenre(genre, 'score')
+  
+  // 这里的逻辑需要区分普通模式和超新星模式
+  if (isSuperstarMode.value) {
+    loadSuperstarsForGenre(genre)
+  } else {
+    loadAllArtistsForGenre(genre, 'score')
+  }
 }
 
 // 3. Filter Apply Button: 只有点击按钮才切换视图
@@ -184,7 +271,12 @@ function handleFilterApply(filter) {
   if (!filter || !filter.genre) return
   resetTrackState()
   currentSortMetric.value = filter.metric || 'score'
-  applyFilterToGenre(filter.genre, filter.metric, filter.topN)
+  
+  if (isSuperstarMode.value) {
+     loadSuperstarsForGenre(filter.genre)
+  } else {
+     applyFilterToGenre(filter.genre, filter.metric, filter.topN)
+  }
 }
 
 // 4. Refine Filter (in Artist View)
@@ -203,7 +295,7 @@ function handleRefineFilter(filter) {
   selectedArtists.value = refined.slice(0, pageSize)
 }
 
-// 逻辑核心：加载流派数据
+// 逻辑核心：加载流派数据 (普通模式)
 function loadAllArtistsForGenre(genre, metric = 'score') {
   const genreData = genresData.value.genres_data[genre]
   if (!genreData || !genreData.artists) return
@@ -229,9 +321,35 @@ function loadAllArtistsForGenre(genre, metric = 'score') {
   currentView.value = 'artists'
 }
 
+// 逻辑核心：加载流派数据 (超新星模式)
+function loadSuperstarsForGenre(genre) {
+  // 从 computed 属性 currentDisplayData 获取已经聚合好的数据
+  const genreGroup = currentDisplayData.value.genres_data[genre]
+  if (!genreGroup || !genreGroup.artists) {
+    selectedArtistsAll.value = []
+    totalArtists.value = 0
+    selectedArtists.value = []
+  } else {
+    let artists = genreGroup.artists.map(artist => ({
+      ...artist,
+      person_id: artist.person_id ?? artist.id
+    }))
+    // 超新星按预测分排序
+    artists.sort((a, b) => b.score - a.score)
+    
+    selectedArtistsAll.value = artists
+    totalArtists.value = artists.length
+    currentPage.value = 1
+    selectedArtists.value = artists.slice(0, pageSize)
+  }
+  
+  selectedGenre.value = genre
+  currentSortMetric.value = 'score' // 这里的 score 实际上是 predicted_score
+  currentView.value = 'artists'
+}
+
 function applyFilterToGenre(genre, metric, topN) {
    loadAllArtistsForGenre(genre, metric)
-   // Apply Top N restriction immediately
    if(selectedArtistsAll.value.length > topN) {
       selectedArtistsAll.value = selectedArtistsAll.value.slice(0, topN)
       totalArtists.value = selectedArtistsAll.value.length
@@ -251,21 +369,26 @@ function handlePageChange(page) {
 function handleGoBack() {
   currentView.value = 'genres'
   selectedGenre.value = null
-  // 保留 selectedGenresForTimeline 以便用户继续探索，或者清空看需求，这里保留
 }
 
 // View Tracks / Level 3
 async function handleViewTracks(artist) {
-  if (!artist?.person_id) return
+  if (!artist) return
+  const artistId = artist.person_id ?? artist.id
+  if (!artistId) return
   selectedArtist.value = {
-    id: artist.person_id,
+    id: artistId,
     name: artist.name,
     stage_name: artist.stage_name,
     score: artist.score,
-    genre: selectedGenre.value
+    genre: selectedGenre.value,
+    // 传递超新星特有数据
+    isSuperstar: artist.isSuperstar,
+    shap_explanation: artist.shap_explanation,
+    metrics: artist.metrics
   }
   currentView.value = 'tracks'
-  await fetchTrackData(artist.person_id)
+  await fetchTrackData(artistId)
 }
 
 async function fetchTrackData(personId) {

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:12833",
-      "song_id": 12833,
-      "title": "When Skies Wept",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": true,
-      "artist_id": 5465,
-      "artist_name": "Ippazio Barcella",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:5460",
-      "song_id": 5460,
+      "work_type": "Song",
+      "work_id": 5460,
       "title": "Shadows Behind Lace",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -41,8 +22,259 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5462,
+          "name": "Arnaldo Borzomì",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3971946
+        },
+        {
+          "person_id": 5463,
+          "name": "Pomponio Pometta",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971946
+        },
+        {
+          "person_id": 5466,
+          "name": "Aurora Alboni",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971946
+        },
+        {
+          "person_id": 5464,
+          "name": "Ottavio Barcella-Ritacca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397174
+        },
+        {
+          "person_id": 5467,
+          "name": "Coriolano Riccati",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397174
+        },
+        {
+          "person_id": 5461,
+          "name": "Letizia Agnesi-Piacentini",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.396863
+        }
+      ]
+    },
+    {
+      "id": "song:12833",
+      "work_type": "Song",
+      "work_id": 12833,
+      "title": "When Skies Wept",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 5465,
+      "artist_name": "Ippazio Barcella",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 12835,
+          "name": "Lauretta Pasolini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0585005
+        },
+        {
+          "person_id": 12834,
+          "name": "Mitchell Larson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956218
+        },
+        {
+          "person_id": 12836,
+          "name": "Maurice Nguyen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395452
+        }
+      ]
+    },
+    {
+      "id": "album:14410",
+      "work_type": "Album",
+      "work_id": 14410,
+      "title": "Manuscripts and Shadows",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 5465,
+      "artist_name": "Ippazio Barcella",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5608,
+          "name": "Bhamini Saini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4257095
+        },
+        {
+          "person_id": 12835,
+          "name": "Lauretta Pasolini",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0585005
+        }
+      ]
+    },
+    {
+      "id": "album:7700",
+      "work_type": "Album",
+      "work_id": 7700,
+      "title": "Invisible Crowds",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 1982,
+      "artist_name": "Travis Williams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 5890,
+          "name": "Allison Patterson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7244172
+        },
+        {
+          "person_id": 7702,
+          "name": "Cynthia Monroe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0035431
+        },
+        {
+          "person_id": 7701,
+          "name": "Harri Oderwald",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399075
+        },
+        {
+          "person_id": 7703,
+          "name": "Kick van Geffen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399075
+        },
+        {
+          "person_id": 7704,
+          "name": "Roy Dominguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399075
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:12833",
+      "target": "album:14410",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:7700",
+      "target": "song:12833",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:0",
-      "song_id": 0,
+      "work_type": "Song",
+      "work_id": 0,
       "title": "Breaking These Chains",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,7 +22,27 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2,
+          "name": "Min Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040416
+        },
+        {
+          "person_id": 1,
+          "name": "Carlos Duffy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.037273
+        }
+      ]
     }
   ],
   "links": []

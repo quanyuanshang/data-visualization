@@ -4,8 +4,60 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:6329",
+      "work_type": "Album",
+      "work_id": 6329,
+      "title": "Café Couleurs",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 6330,
+      "artist_name": "Gianpaolo Sibilia",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 332,
+          "name": "David Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136254
+        },
+        {
+          "person_id": 6332,
+          "name": "Karl-Heinz Bruder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046983
+        },
+        {
+          "person_id": 6331,
+          "name": "Cecilia Cusano-Squarcione",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0424068
+        }
+      ]
+    },
+    {
       "id": "song:8597",
-      "song_id": 8597,
+      "work_type": "Song",
+      "work_id": 8597,
       "title": "Electric Whispers",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,8 +73,137 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6331,
+          "name": "Cecilia Cusano-Squarcione",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0424068
+        },
+        {
+          "person_id": 8598,
+          "name": "Nino Pometta",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962681
+        }
+      ]
+    },
+    {
+      "id": "song:8597",
+      "work_type": "Song",
+      "work_id": 8597,
+      "title": "Electric Whispers",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 8598,
+      "artist_name": "Nino Pometta",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6330,
+          "name": "Gianpaolo Sibilia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0424068
+        },
+        {
+          "person_id": 6331,
+          "name": "Cecilia Cusano-Squarcione",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0424068
+        },
+        {
+          "person_id": 8598,
+          "name": "Nino Pometta",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962681
+        }
+      ]
+    },
+    {
+      "id": "song:14347",
+      "work_type": "Song",
+      "work_id": 14347,
+      "title": "Turning Pages",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 14348,
+      "artist_name": "Kabir Dutta",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14349,
+          "name": "Jayan Barman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982434
+        },
+        {
+          "person_id": 14348,
+          "name": "Kabir Dutta",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982127
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:14347",
+      "target": "album:6329",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8597",
+      "target": "album:6329",
+      "type": "InStyleOf"
+    }
+  ]
 }

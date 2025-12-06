@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3387",
-      "song_id": 3387,
+      "work_type": "Song",
+      "work_id": 3387,
       "title": "Echoes Out of Time",
       "genre": "Lo-Fi Electronica",
       "notable": false,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 3388,
       "artist_name": "Li Fang",
-      "influence": 13,
+      "influence": 16,
       "influence_breakdown": {
         "cover": 2,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 3389,
+          "name": "Min Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4723341
+        }
+      ]
     },
     {
       "id": "song:5",
-      "song_id": 5,
+      "work_type": "Song",
+      "work_id": 5,
       "title": "Unshackled Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,11 +75,41 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0771239
+        },
+        {
+          "person_id": 6,
+          "name": "Luke Payne",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3949904
+        }
       ]
     },
     {
       "id": "song:5804",
-      "song_id": 5804,
+      "work_type": "Song",
+      "work_id": 5804,
       "title": "Settler's Crossing",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -65,11 +127,95 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5805,
+          "name": "Yan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7060761
+        },
+        {
+          "person_id": 5806,
+          "name": "Xiuying Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297252
+        },
+        {
+          "person_id": 5807,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297252
+        }
+      ]
+    },
+    {
+      "id": "album:12099",
+      "work_type": "Album",
+      "work_id": 12099,
+      "title": "Destiny's Tender Embrace",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 4259,
+          "name": "Jie Tao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2570076
+        }
       ]
     },
     {
       "id": "song:14497",
-      "song_id": 14497,
+      "work_type": "Song",
+      "work_id": 14497,
       "title": "Decoding Silence",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -87,15 +233,31 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 11478,
+          "name": "Min Liang",
+          "stage_name": "Tyler Sage",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0568004
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:5804",
-      "target": "song:3387",
-      "type": "CoverOf"
-    },
     {
       "source": "song:14497",
       "target": "song:3387",
@@ -105,6 +267,16 @@
       "source": "song:5",
       "target": "song:3387",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:12099",
+      "target": "song:3387",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5804",
+      "target": "song:3387",
+      "type": "CoverOf"
     }
   ]
 }

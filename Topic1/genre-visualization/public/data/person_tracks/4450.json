@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:4447",
-      "song_id": 4447,
-      "title": "Concrete Horizon",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 1994,
-      "single": false,
-      "own": true,
-      "artist_id": 4450,
-      "artist_name": "Ping Jiang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15877",
-      "song_id": 15877,
+      "work_type": "Song",
+      "work_id": 15877,
       "title": "Psychoanalytic Desire",
       "genre": "Synthwave",
       "notable": true,
@@ -41,7 +22,157 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4449,
+          "name": "Yang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.997132
+        },
+        {
+          "person_id": 15880,
+          "name": "Jun Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396005
+        },
+        {
+          "person_id": 15878,
+          "name": "Ming Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395332
+        },
+        {
+          "person_id": 15879,
+          "name": "Wei Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947108
+        }
+      ]
+    },
+    {
+      "id": "song:4447",
+      "work_type": "Song",
+      "work_id": 4447,
+      "title": "Concrete Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 4450,
+      "artist_name": "Ping Jiang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4449,
+          "name": "Yang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.997132
+        },
+        {
+          "person_id": 4448,
+          "name": "Ping Song",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.401144
+        },
+        {
+          "person_id": 4451,
+          "name": "Xiuying Peng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401144
+        }
+      ]
+    },
+    {
+      "id": "song:4447",
+      "work_type": "Song",
+      "work_id": 4447,
+      "title": "Concrete Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": false,
+      "artist_id": 4449,
+      "artist_name": "Yang Mo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4450,
+          "name": "Ping Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0343678
+        },
+        {
+          "person_id": 4449,
+          "name": "Yang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.997132
+        },
+        {
+          "person_id": 4448,
+          "name": "Ping Song",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.401144
+        },
+        {
+          "person_id": 4451,
+          "name": "Xiuying Peng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401144
+        }
+      ]
     }
   ],
   "links": [

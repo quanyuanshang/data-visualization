@@ -5,12 +5,77 @@
   "nodes": [
     {
       "id": "song:8787",
-      "song_id": 8787,
+      "work_type": "Song",
+      "work_id": 8787,
       "title": "Countdown to Someday",
       "genre": "Dream Pop",
       "notable": true,
       "release_year": 2017,
       "single": true,
+      "own": true,
+      "artist_id": 8789,
+      "artist_name": "Sonia Krochmal",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8788,
+          "name": "Jeremi Wita",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0466433
+        }
+      ]
+    },
+    {
+      "id": "album:14699",
+      "work_type": "Album",
+      "work_id": 14699,
+      "title": "Infinite Dice of Astral Laughter",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 8789,
+      "artist_name": "Sonia Krochmal",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8788,
+          "name": "Jeremi Wita",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0466433
+        }
+      ]
+    },
+    {
+      "id": "album:14699",
+      "work_type": "Album",
+      "work_id": 14699,
+      "title": "Infinite Dice of Astral Laughter",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
       "own": true,
       "artist_id": 8789,
       "artist_name": "Sonia Krochmal",
@@ -21,8 +86,77 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8789,
+          "name": "Sonia Krochmal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047849
+        },
+        {
+          "person_id": 8788,
+          "name": "Jeremi Wita",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0466433
+        }
+      ]
+    },
+    {
+      "id": "album:17158",
+      "work_type": "Album",
+      "work_id": 17158,
+      "title": "Synthetic Daydreams",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 17155,
+      "artist_name": "Claire Holmes (Jaye Finch)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17155,
+          "name": "Claire Holmes",
+          "stage_name": "Jaye Finch",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9565325
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17158",
+      "target": "album:14699",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14699",
+      "target": "song:8787",
+      "type": "InStyleOf"
+    }
+  ]
 }

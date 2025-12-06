@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8551",
-      "song_id": 8551,
+      "work_type": "Song",
+      "work_id": 8551,
       "title": "Cánh Diều Quốc Gia (National Kite)",
       "genre": "Desert Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 4608,
+          "name": "Wei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.913909
+        }
+      ]
     },
     {
       "id": "song:4607",
-      "song_id": 4607,
+      "work_type": "Song",
+      "work_id": 4607,
       "title": "Spinning Skirts of Bavaria",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +66,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 594,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.100683
+        },
+        {
+          "person_id": 4608,
+          "name": "Wei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.913909
+        },
+        {
+          "person_id": 2426,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.449281
+        }
       ]
     },
     {
       "id": "song:6211",
-      "song_id": 6211,
+      "work_type": "Song",
+      "work_id": 6211,
       "title": "Broken Whispers to the Divine",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +128,75 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 4608,
+          "name": "Wei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.913909
+        },
+        {
+          "person_id": 6212,
+          "name": "Na Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958158
+        },
+        {
+          "person_id": 6213,
+          "name": "Yan Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958158
+        },
+        {
+          "person_id": 6214,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3958158
+        },
+        {
+          "person_id": 6215,
+          "name": "Chao Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958158
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6211",
-      "target": "song:8551",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:4607",
       "target": "song:8551",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:6211",
+      "target": "song:8551",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

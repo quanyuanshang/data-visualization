@@ -4,68 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10447",
-      "song_id": 10447,
-      "title": "Destiny's Calling",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": true,
-      "artist_id": 2108,
-      "artist_name": "Ryan Doyle",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:15642",
-      "song_id": 15642,
-      "title": "Breathe Through the Storm",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 2108,
-      "artist_name": "Ryan Doyle",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:2107",
-      "song_id": 2107,
-      "title": "Bedrock Rebellion",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 2108,
-      "artist_name": "Ryan Doyle",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9557",
-      "song_id": 9557,
+      "work_type": "Song",
+      "work_id": 9557,
       "title": "Unbreakable Journey",
       "genre": "Dream Pop",
       "notable": true,
@@ -81,35 +22,36 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9558,
+          "name": "Larry Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278525
+        }
+      ]
     },
     {
-      "id": "song:16210",
-      "song_id": 16210,
-      "title": "Echoes of What Could Be",
+      "id": "song:10447",
+      "work_type": "Song",
+      "work_id": 10447,
+      "title": "Destiny's Calling",
       "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2006,
-      "single": true,
-      "own": true,
-      "artist_id": 2108,
-      "artist_name": "Ryan Doyle",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:9557",
-      "song_id": 9557,
-      "title": "Unbreakable Journey",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2020,
+      "release_year": 2018,
       "single": true,
       "own": true,
       "artist_id": 2108,
@@ -121,13 +63,191 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        }
+      ]
+    },
+    {
+      "id": "song:16210",
+      "work_type": "Song",
+      "work_id": 16210,
+      "title": "Echoes of What Could Be",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2006,
+      "single": true,
+      "own": true,
+      "artist_id": 2108,
+      "artist_name": "Ryan Doyle",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.88256
+        }
+      ]
+    },
+    {
+      "id": "song:2107",
+      "work_type": "Song",
+      "work_id": 2107,
+      "title": "Bedrock Rebellion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 2108,
+      "artist_name": "Ryan Doyle",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.88256
+        }
+      ]
+    },
+    {
+      "id": "album:4361",
+      "work_type": "Album",
+      "work_id": 4361,
+      "title": "Presente Imperfetto (Imperfect Present)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 2108,
+      "artist_name": "Ryan Doyle",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.88256
+        }
+      ]
+    },
+    {
+      "id": "song:15642",
+      "work_type": "Song",
+      "work_id": 15642,
+      "title": "Breathe Through the Storm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 2108,
+      "artist_name": "Ryan Doyle",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 7867,
+          "name": "Frank Bonilla",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393202
+        }
       ]
     },
     {
       "id": "song:14567",
-      "song_id": 14567,
+      "work_type": "Song",
+      "work_id": 14567,
       "title": "Whispers of the Nordic Meadow",
       "genre": "Dream Pop",
       "notable": true,
@@ -146,19 +266,50 @@
       "relation_types": [
         "DirectlySamples",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9558,
+          "name": "Larry Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278525
+        },
+        {
+          "person_id": 14568,
+          "name": "Dawn Kelly",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980784
+        }
       ]
     },
     {
-      "id": "song:9474",
-      "song_id": 9474,
-      "title": "Tread Defiant",
+      "id": "song:2107",
+      "work_type": "Song",
+      "work_id": 2107,
+      "title": "Bedrock Rebellion",
       "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2026,
-      "single": false,
+      "release_year": 2007,
+      "single": true,
       "own": false,
-      "artist_id": 9476,
-      "artist_name": "Jing Zou",
+      "artist_id": 2109,
+      "artist_name": "Marcia Davis",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -167,12 +318,96 @@
         "style": 0
       },
       "relation_types": [
-        "InterpolatesFrom"
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.88256
+        }
+      ]
+    },
+    {
+      "id": "album:4361",
+      "work_type": "Album",
+      "work_id": 4361,
+      "title": "Presente Imperfetto (Imperfect Present)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 2110,
+      "artist_name": "Catherine Clay",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.88256
+        }
       ]
     },
     {
       "id": "song:10773",
-      "song_id": 10773,
+      "work_type": "Song",
+      "work_id": 10773,
       "title": "Grandfather's Weathered Hands",
       "genre": "Indie Folk",
       "notable": true,
@@ -190,14 +425,124 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5908,
+          "name": "Georges Besnard",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.706773
+        },
+        {
+          "person_id": 10776,
+          "name": "Chloë de Gruil",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7201512
+        },
+        {
+          "person_id": 10775,
+          "name": "Bernard-Alain Parent",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3960226
+        },
+        {
+          "person_id": 10774,
+          "name": "Marvin Heuser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955774
+        }
+      ]
+    },
+    {
+      "id": "song:9474",
+      "work_type": "Song",
+      "work_id": 9474,
+      "title": "Tread Defiant",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 9476,
+      "artist_name": "Jing Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3313,
+          "name": "Lei Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9413583
+        },
+        {
+          "person_id": 9477,
+          "name": "Jing Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977313
+        },
+        {
+          "person_id": 9478,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977313
+        },
+        {
+          "person_id": 9476,
+          "name": "Jing Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397718
+        },
+        {
+          "person_id": 9475,
+          "name": "Min Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977106
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:2107",
-      "target": "song:16210",
-      "type": "InStyleOf"
+      "source": "song:9474",
+      "target": "album:4361",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:9474",
@@ -210,9 +555,9 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:14567",
+      "source": "song:9557",
       "target": "song:15642",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:10773",
@@ -220,9 +565,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:9557",
+      "source": "song:2107",
+      "target": "song:16210",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:4361",
+      "target": "song:16210",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14567",
       "target": "song:15642",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     }
   ]
 }

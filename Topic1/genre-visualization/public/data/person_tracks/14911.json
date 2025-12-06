@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14909",
-      "song_id": 14909,
+      "work_type": "Song",
+      "work_id": 14909,
       "title": "Provence Dreams",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 14911,
       "artist_name": "Armaan Dalal",
-      "influence": 8,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 4287,
+          "name": "Kashvi Dhillon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.261915
+        },
+        {
+          "person_id": 11242,
+          "name": "Mannat Johal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0237284
+        },
+        {
+          "person_id": 14910,
+          "name": "Aradhya Dara",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966775
+        },
+        {
+          "person_id": 14912,
+          "name": "Drishya Srinivasan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966775
+        }
+      ]
     },
     {
       "id": "song:6154",
-      "song_id": 6154,
+      "work_type": "Song",
+      "work_id": 6154,
       "title": "Eclipse of Emotion",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,11 +93,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 4284,
+          "name": "Tarini Hans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.130689
+        },
+        {
+          "person_id": 6155,
+          "name": "Joann Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.421319
+        }
       ]
     },
     {
       "id": "song:6743",
-      "song_id": 6743,
+      "work_type": "Song",
+      "work_id": 6743,
       "title": "Epochs in Motion",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +146,107 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 6155,
+          "name": "Joann Johnson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.421319
+        },
+        {
+          "person_id": 6744,
+          "name": "Wei He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3815506
+        }
+      ]
+    },
+    {
+      "id": "album:13008",
+      "work_type": "Album",
+      "work_id": 13008,
+      "title": "The Puppet's Promise",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 4285,
+      "artist_name": "Navya Sastry",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 6155,
+          "name": "Joann Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.421319
+        },
+        {
+          "person_id": 13009,
+          "name": "Charles Spears",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980162
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6154",
+      "source": "song:6743",
+      "target": "song:14909",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:13008",
       "target": "song:14909",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:6743",
+      "source": "song:6154",
       "target": "song:14909",
-      "type": "CoverOf"
+      "type": "InterpolatesFrom"
     }
   ]
 }

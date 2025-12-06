@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15473",
-      "song_id": 15473,
+      "work_type": "Song",
+      "work_id": 15473,
       "title": "Baroque Fragments",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1650,
+          "name": "Daniel Lyons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6096396
+        },
+        {
+          "person_id": 12537,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.049924
+        }
+      ]
     },
     {
       "id": "song:14003",
-      "song_id": 14003,
+      "work_type": "Song",
+      "work_id": 14003,
       "title": "Breathe Through This",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +66,36 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14004,
+          "name": "Ping He",
+          "stage_name": "KING PROPH",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983095
+        },
+        {
+          "person_id": 14005,
+          "name": "Ming Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983095
+        },
+        {
+          "person_id": 14006,
+          "name": "Li Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3983095
+        }
       ]
     }
   ],

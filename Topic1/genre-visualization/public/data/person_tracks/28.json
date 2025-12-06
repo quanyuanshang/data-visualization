@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:26",
-      "song_id": 26,
+      "work_type": "Song",
+      "work_id": 26,
       "title": "Clean Lungs, Clear Mind",
       "genre": "Speed Metal",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 29,
+          "name": "Lorraine Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.222937
+        },
+        {
+          "person_id": 27,
+          "name": "Anatol Dietz",
+          "stage_name": "The Hollow Lantern",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4337676
+        }
+      ]
     },
     {
       "id": "song:11236",
-      "song_id": 11236,
+      "work_type": "Song",
+      "work_id": 11236,
       "title": "Unbroken Promise",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +76,46 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 11237,
+          "name": "Dawn Massey",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396161
+        },
+        {
+          "person_id": 11238,
+          "name": "Rachel Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959913
+        },
+        {
+          "person_id": 11239,
+          "name": "Ralph Bell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959913
+        }
       ]
     }
   ],

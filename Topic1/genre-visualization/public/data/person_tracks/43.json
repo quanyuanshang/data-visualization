@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16223",
-      "song_id": 16223,
-      "title": "Midnight in Kos",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 43,
-      "artist_name": "James Taylor",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:42",
-      "song_id": 42,
-      "title": "Midnight Clarity",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 43,
-      "artist_name": "James Taylor",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7406",
-      "song_id": 7406,
+      "work_type": "Song",
+      "work_id": 7406,
       "title": "Straight and Narrow",
       "genre": "Doom Metal",
       "notable": true,
@@ -61,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7407,
+          "name": "Deborah Young",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991923
+        }
+      ]
     },
     {
       "id": "song:16171",
-      "song_id": 16171,
+      "work_type": "Song",
+      "work_id": 16171,
       "title": "Silver in Her Palm",
       "genre": "Dream Pop",
       "notable": true,
@@ -81,19 +55,141 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 44,
+          "name": "Jennifer Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380185
+        },
+        {
+          "person_id": 45,
+          "name": "Kyle Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380185
+        },
+        {
+          "person_id": 16172,
+          "name": "Michael Pineda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398809
+        },
+        {
+          "person_id": 16173,
+          "name": "Gregory Romero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398809
+        },
+        {
+          "person_id": 16174,
+          "name": "James Rice",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398809
+        }
+      ]
     },
     {
-      "id": "song:16171",
-      "song_id": 16171,
-      "title": "Silver in Her Palm",
-      "genre": "Dream Pop",
+      "id": "song:42",
+      "work_type": "Song",
+      "work_id": 42,
+      "title": "Midnight Clarity",
+      "genre": "Synthwave",
       "notable": true,
-      "release_year": 2029,
+      "release_year": 2020,
       "single": true,
       "own": true,
       "artist_id": 43,
       "artist_name": "James Taylor",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 44,
+          "name": "Jennifer Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0380185
+        },
+        {
+          "person_id": 45,
+          "name": "Kyle Anderson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0380185
+        }
+      ]
+    },
+    {
+      "id": "song:16223",
+      "work_type": "Song",
+      "work_id": 16223,
+      "title": "Midnight in Kos",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 43,
+      "artist_name": "James Taylor",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16224,
+          "name": "Thomas Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994899
+        }
+      ]
+    },
+    {
+      "id": "song:16223",
+      "work_type": "Song",
+      "work_id": 16223,
+      "title": "Midnight in Kos",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 16224,
+      "artist_name": "Thomas Carson",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -103,17 +199,38 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 43,
+          "name": "James Taylor",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7163863
+        },
+        {
+          "person_id": 16224,
+          "name": "Thomas Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994899
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16171",
+      "source": "song:16223",
       "target": "song:42",
       "type": "InStyleOf"
     },
     {
-      "source": "song:16223",
+      "source": "song:16171",
       "target": "song:42",
       "type": "InStyleOf"
     }

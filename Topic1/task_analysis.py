@@ -80,17 +80,22 @@ class Task1_PersonEvaluation:
             if genre:
                 genre_distribution[genre] += 1
 
-        # 计算26流派占比（仅歌曲Song计入占比，Album不计）
-        song_genre_counts = Counter()
-        total_songs_for_share = 0
+        # 计算26流派占比（Song 与 Album 均计入，占比以作品数量为基础）
+        work_genre_counts = Counter()
+        total_works_for_share = 0
         for w in unique_works:
-            if w.get('Node Type') == 'Song':
+            if w.get('Node Type') in ['Song', 'Album']:
                 g = w.get('genre')
                 if g:
-                    song_genre_counts[g] += 1
-                    total_songs_for_share += 1
-        genre_share = {g: (song_genre_counts.get(g, 0) / total_songs_for_share if total_songs_for_share > 0 else 0.0)
-                       for g in self.all_genres}
+                    work_genre_counts[g] += 1
+                    total_works_for_share += 1
+        genre_share = {
+            g: (
+                work_genre_counts.get(g, 0) / total_works_for_share
+                if total_works_for_share > 0 else 0.0
+            )
+            for g in self.all_genres
+        }
         
         # 统计影响力（被翻唱、采样等）
         influence_score = 0
@@ -404,14 +409,14 @@ class Task3_OceanusFolkPrediction:
         of_notable_count = len(of_notable)
         of_notable_rate = of_notable_count / of_total if of_total > 0 else 0
         
-        # 特征2：上升趋势（最近5年：2024-2029）
+        # 特征2：上升趋势（最近5年：2035-2040）
         recent_works = []
         of_dates = []
         for w in of_works:
             date = self.processor.extract_date(w, ['release_date'])
             if date:
                 of_dates.append(date)
-                if 2024 <= date <= 2029:
+                if 2035 <= date <= 2040:
                     recent_works.append(w)
         
         recent_count = len(recent_works)

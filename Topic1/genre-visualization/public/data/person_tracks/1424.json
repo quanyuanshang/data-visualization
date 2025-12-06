@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1422",
-      "song_id": 1422,
+      "work_type": "Song",
+      "work_id": 1422,
       "title": "Radiant Grin",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1423,
+          "name": "Halil Neuschäfer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3921185
+        }
+      ]
     },
     {
       "id": "song:5001",
-      "song_id": 5001,
+      "work_type": "Song",
+      "work_id": 5001,
       "title": "Chamber of Seven Shadows",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +56,17 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5002,
+          "name": "Svetlana Freudenberger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4064145
+        }
       ]
     }
   ],

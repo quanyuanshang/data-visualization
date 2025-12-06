@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:6770",
-      "song_id": 6770,
-      "title": "Tender Green Awakening",
-      "genre": "Americana",
-      "notable": true,
-      "release_year": 2025,
-      "single": false,
-      "own": true,
-      "artist_id": 1912,
-      "artist_name": "Yan Lin",
-      "influence": 10,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1907",
-      "song_id": 1907,
+      "work_type": "Song",
+      "work_id": 1907,
       "title": "Echoes of Mirth",
       "genre": "Synthwave",
       "notable": true,
@@ -34,18 +15,59 @@
       "own": true,
       "artist_id": 1912,
       "artist_name": "Yan Lin",
-      "influence": 2,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1908,
+          "name": "Yong Cao",
+          "stage_name": "H3X MOBB",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1909,
+          "name": "Ming Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1910,
+          "name": "Min Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1911,
+          "name": "Min Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        }
+      ]
     },
     {
       "id": "song:5021",
-      "song_id": 5021,
+      "work_type": "Song",
+      "work_id": 5021,
       "title": "Patch Me Up, Henry",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -61,63 +83,213 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:491",
-      "song_id": 491,
-      "title": "After the Frost Surrenders",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": false,
-      "artist_id": 492,
-      "artist_name": "Yang Pan",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5026,
+          "name": "Cynthia Dixon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.338914
+        },
+        {
+          "person_id": 5024,
+          "name": "Na Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4228733
+        },
+        {
+          "person_id": 5022,
+          "name": "Yong Zhu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5023,
+          "name": "Yan Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5025,
+          "name": "Yan Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5027,
+          "name": "Xiuying Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0429394
+        }
       ]
     },
     {
-      "id": "song:5068",
-      "song_id": 5068,
-      "title": "Retrograde Rhythm",
+      "id": "album:9300",
+      "work_type": "Album",
+      "work_id": 9300,
+      "title": "Whispers of the Savanna",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 1912,
+      "artist_name": "Yan Lin",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5026,
+          "name": "Cynthia Dixon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.338914
+        },
+        {
+          "person_id": 5024,
+          "name": "Na Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4228733
+        },
+        {
+          "person_id": 5022,
+          "name": "Yong Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5023,
+          "name": "Yan Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5025,
+          "name": "Yan Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0429394
+        },
+        {
+          "person_id": 5027,
+          "name": "Xiuying Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0429394
+        }
+      ]
+    },
+    {
+      "id": "song:6770",
+      "work_type": "Song",
+      "work_id": 6770,
+      "title": "Tender Green Awakening",
       "genre": "Americana",
       "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": false,
-      "artist_id": 5069,
-      "artist_name": "Yan Cheng (Ivessa)",
-      "influence": 0,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 1912,
+      "artist_name": "Yan Lin",
+      "influence": 10,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 1,
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5026,
+          "name": "Cynthia Dixon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.338914
+        },
+        {
+          "person_id": 5024,
+          "name": "Na Xie",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4228733
+        },
+        {
+          "person_id": 6771,
+          "name": "Qiang Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990989
+        },
+        {
+          "person_id": 6772,
+          "name": "Xiulan Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990989
+        }
       ]
     },
     {
-      "id": "song:12694",
-      "song_id": 12694,
-      "title": "Whispers of Karelian Forests",
-      "genre": "Dream Pop",
+      "id": "album:2633",
+      "work_type": "Album",
+      "work_id": 2633,
+      "title": "Stoop Stories",
+      "genre": "Space Rock",
       "notable": true,
-      "release_year": 2029,
-      "single": true,
+      "release_year": 2026,
+      "single": false,
       "own": false,
-      "artist_id": 12695,
-      "artist_name": "Xiulan Du",
+      "artist_id": 2634,
+      "artist_name": "Chao Li",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -126,12 +298,51 @@
         "style": 0
       },
       "relation_types": [
-        "CoverOf"
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        }
       ]
     },
     {
       "id": "song:9940",
-      "song_id": 9940,
+      "work_type": "Song",
+      "work_id": 9940,
       "title": "Nightingale of the Trenches",
       "genre": "Space Rock",
       "notable": true,
@@ -149,11 +360,59 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 9941,
+          "name": "Juan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9924505
+        }
       ]
     },
     {
       "id": "song:14326",
-      "song_id": 14326,
+      "work_type": "Song",
+      "work_id": 14326,
       "title": "Frost's Whisper",
       "genre": "Synthwave",
       "notable": true,
@@ -171,14 +430,316 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14327,
+          "name": "Jing Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986962
+        },
+        {
+          "person_id": 14328,
+          "name": "Xiuying Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981168
+        }
+      ]
+    },
+    {
+      "id": "song:906",
+      "work_type": "Song",
+      "work_id": 906,
+      "title": "The Male Procession",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 907,
+      "artist_name": "Jun Jiang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 909,
+          "name": "Min Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.712886
+        },
+        {
+          "person_id": 908,
+          "name": "Juan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9976344
+        },
+        {
+          "person_id": 907,
+          "name": "Jun Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398198
+        },
+        {
+          "person_id": 910,
+          "name": "Isabella Turner",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398198
+        }
+      ]
+    },
+    {
+      "id": "song:491",
+      "work_type": "Song",
+      "work_id": 491,
+      "title": "After the Frost Surrenders",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 492,
+      "artist_name": "Yang Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 495,
+          "name": "Qiang Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.431209
+        },
+        {
+          "person_id": 492,
+          "name": "Yang Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4005244
+        },
+        {
+          "person_id": 493,
+          "name": "Chao Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4005244
+        },
+        {
+          "person_id": 494,
+          "name": "Fang Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4005244
+        }
+      ]
+    },
+    {
+      "id": "song:5068",
+      "work_type": "Song",
+      "work_id": 5068,
+      "title": "Retrograde Rhythm",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5069,
+      "artist_name": "Yan Cheng (Ivessa)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5071,
+          "name": "Lei Xiong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981414
+        },
+        {
+          "person_id": 5072,
+          "name": "Taylor Hayes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981302
+        },
+        {
+          "person_id": 5069,
+          "name": "Yan Cheng",
+          "stage_name": "Ivessa",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396976
+        },
+        {
+          "person_id": 5070,
+          "name": "Yong Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.396944
+        }
+      ]
+    },
+    {
+      "id": "song:12694",
+      "work_type": "Song",
+      "work_id": 12694,
+      "title": "Whispers of Karelian Forests",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 12695,
+      "artist_name": "Xiulan Du",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12695,
+          "name": "Xiulan Du",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977778
+        },
+        {
+          "person_id": 12696,
+          "name": "Tao Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977778
+        },
+        {
+          "person_id": 12697,
+          "name": "Chao Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977778
+        },
+        {
+          "person_id": 12699,
+          "name": "Gang Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977778
+        },
+        {
+          "person_id": 12700,
+          "name": "Fang Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977778
+        },
+        {
+          "person_id": 12701,
+          "name": "Xia Kang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977778
+        },
+        {
+          "person_id": 12698,
+          "name": "Xiuying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397757
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:491",
-      "target": "song:6770",
-      "type": "LyricalReferenceTo"
+      "source": "song:906",
+      "target": "album:9300",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:2633",
+      "target": "song:1907",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:5068",
@@ -186,9 +747,9 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:9940",
-      "target": "song:1907",
-      "type": "InStyleOf"
+      "source": "song:491",
+      "target": "song:6770",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:12694",
@@ -198,6 +759,11 @@
     {
       "source": "song:14326",
       "target": "song:5021",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9940",
+      "target": "song:1907",
       "type": "InStyleOf"
     }
   ]

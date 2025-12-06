@@ -1,0 +1,125 @@
+{
+  "person_id": 6728,
+  "name": "Alexander Rivera",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:6725",
+      "work_type": "Album",
+      "work_id": 6725,
+      "title": "Laughter in the Marketplace",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 6728,
+      "artist_name": "Alexander Rivera",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6726,
+          "name": "Nicholas Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0430803
+        },
+        {
+          "person_id": 6727,
+          "name": "Nichole Moore",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3935125
+        }
+      ]
+    },
+    {
+      "id": "song:14250",
+      "work_type": "Song",
+      "work_id": 14250,
+      "title": "Borrowed Noir Identity",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 10083,
+      "artist_name": "Brandi Riley",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10083,
+          "name": "Brandi Riley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0293417
+        },
+        {
+          "person_id": 14251,
+          "name": "Hiran Sarna",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398166
+        },
+        {
+          "person_id": 14252,
+          "name": "Elakshi Shukla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398166
+        },
+        {
+          "person_id": 14253,
+          "name": "Yang Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398166
+        },
+        {
+          "person_id": 14254,
+          "name": "Romil Sibal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398166
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14250",
+      "target": "album:6725",
+      "type": "CoverOf"
+    }
+  ]
+}

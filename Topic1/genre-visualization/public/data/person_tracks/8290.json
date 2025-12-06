@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14754",
-      "song_id": 14754,
-      "title": "Gossip's Flame",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 8290,
-      "artist_name": "Yan Shi",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8288",
-      "song_id": 8288,
+      "work_type": "Song",
+      "work_id": 8288,
       "title": "Ninth Inning Heartbreak",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4632,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9261239
+        },
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158923
+        }
+      ]
     },
     {
       "id": "song:14288",
-      "song_id": 14288,
+      "work_type": "Song",
+      "work_id": 14288,
       "title": "Spectacles and Statecraft",
       "genre": "Blues Rock",
       "notable": true,
@@ -61,8 +64,199 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7158923
+        }
+      ]
+    },
+    {
+      "id": "album:11144",
+      "work_type": "Album",
+      "work_id": 11144,
+      "title": "Unbreakable Spirit",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 8290,
+      "artist_name": "Yan Shi",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 3,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7158923
+        },
+        {
+          "person_id": 2846,
+          "name": "Yan Song",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468552
+        },
+        {
+          "person_id": 11145,
+          "name": "Tao Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969734
+        }
+      ]
+    },
+    {
+      "id": "song:14754",
+      "work_type": "Song",
+      "work_id": 14754,
+      "title": "Gossip's Flame",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 8290,
+      "artist_name": "Yan Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158923
+        },
+        {
+          "person_id": 2974,
+          "name": "Ming Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7139742
+        },
+        {
+          "person_id": 2973,
+          "name": "Jun Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362709
+        }
+      ]
+    },
+    {
+      "id": "song:14754",
+      "work_type": "Song",
+      "work_id": 14754,
+      "title": "Gossip's Flame",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2973,
+      "artist_name": "Jun Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158923
+        },
+        {
+          "person_id": 2974,
+          "name": "Ming Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7139742
+        },
+        {
+          "person_id": 8290,
+          "name": "Yan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7077978
+        },
+        {
+          "person_id": 2973,
+          "name": "Jun Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362709
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:8288",
+      "target": "album:11144",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14288",
+      "target": "album:11144",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14754",
+      "target": "album:11144",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

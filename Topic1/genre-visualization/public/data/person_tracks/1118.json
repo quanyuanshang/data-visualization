@@ -4,28 +4,9 @@
   "stage_name": " Scarlet Thorn",
   "nodes": [
     {
-      "id": "song:14376",
-      "song_id": 14376,
-      "title": "Winds of Arabesque",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2005,
-      "single": true,
-      "own": true,
-      "artist_id": 1118,
-      "artist_name": "Ping Liao ( Scarlet Thorn)",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1117",
-      "song_id": 1117,
+      "work_type": "Song",
+      "work_id": 1117,
       "title": "Turning Point",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:12997",
-      "song_id": 12997,
+      "work_type": "Song",
+      "work_id": 12997,
       "title": "Soul's Deep Cleansing Altar",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,19 +44,114 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:14376",
+      "work_type": "Song",
+      "work_id": 14376,
+      "title": "Winds of Arabesque",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": true,
+      "artist_id": 1118,
+      "artist_name": "Ping Liao ( Scarlet Thorn)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12166,
+          "name": "Li Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0444202
+        },
+        {
+          "person_id": 14377,
+          "name": "Ping Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977942
+        }
+      ]
+    },
+    {
+      "id": "song:14376",
+      "work_type": "Song",
+      "work_id": 14376,
+      "title": "Winds of Arabesque",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": true,
+      "artist_id": 1118,
+      "artist_name": "Ping Liao ( Scarlet Thorn)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1118,
+          "name": "Ping Liao",
+          "stage_name": " Scarlet Thorn",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4302628
+        },
+        {
+          "person_id": 12166,
+          "name": "Li Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0444202
+        },
+        {
+          "person_id": 14377,
+          "name": "Ping Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977942
+        }
+      ]
     }
   ],
   "links": [
     {
-      "source": "song:1117",
-      "target": "song:12997",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:14376",
       "target": "song:12997",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:1117",
+      "target": "song:12997",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

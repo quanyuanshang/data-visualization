@@ -4,8 +4,31 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:12634",
+      "work_type": "Album",
+      "work_id": 12634,
+      "title": "Fragments of a Forgotten Continent",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 12557,
+      "artist_name": "Jing Zhang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
       "id": "song:12554",
-      "song_id": 12554,
+      "work_type": "Song",
+      "work_id": 12554,
       "title": "Rhythm in Motion",
       "genre": "Desert Rock",
       "notable": true,
@@ -21,8 +44,124 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1467,
+          "name": "Yan Long",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2650585
+        },
+        {
+          "person_id": 12555,
+          "name": "Wei Ye",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985577
+        },
+        {
+          "person_id": 12556,
+          "name": "Lei Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985577
+        }
+      ]
+    },
+    {
+      "id": "album:10754",
+      "work_type": "Album",
+      "work_id": 10754,
+      "title": "Unified Steps of Joy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 817,
+      "artist_name": "Jing Tian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 817,
+          "name": "Jing Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4223018
+        },
+        {
+          "person_id": 2736,
+          "name": "Nanami Yoshida",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.409683
+        },
+        {
+          "person_id": 10755,
+          "name": "Qiang Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997169
+        },
+        {
+          "person_id": 10756,
+          "name": "Xia Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997169
+        },
+        {
+          "person_id": 10757,
+          "name": "Ming Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997169
+        },
+        {
+          "person_id": 10758,
+          "name": "Yong Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997169
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10754",
+      "target": "album:12634",
+      "type": "InStyleOf"
+    }
+  ]
 }

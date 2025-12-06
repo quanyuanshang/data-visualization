@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9716",
-      "song_id": 9716,
+      "work_type": "Song",
+      "work_id": 9716,
       "title": "Echoes of Trenches",
       "genre": "Americana",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 9717,
       "artist_name": "Jennifer Jackson",
-      "influence": 28,
+      "influence": 33,
       "influence_breakdown": {
         "cover": 2,
         "sample": 0,
-        "reference": 4,
-        "style": 3
+        "reference": 5,
+        "style": 4
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9718,
+          "name": "Nancy Pierce",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4032445
+        }
+      ]
     },
     {
       "id": "song:1585",
-      "song_id": 1585,
+      "work_type": "Song",
+      "work_id": 1585,
       "title": "Stringed Lamentations in Gray",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +57,25 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1586,
+          "name": "Christopher Ward",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402051
+        }
       ]
     },
     {
       "id": "song:2567",
-      "song_id": 2567,
+      "work_type": "Song",
+      "work_id": 2567,
       "title": "Ballad of the Noble Wanderer",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -65,11 +93,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2568,
+          "name": "Ping Cai",
+          "stage_name": " Tessa Blake",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2569,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2570,
+          "name": "Yong Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2571,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        }
       ]
     },
     {
       "id": "song:3160",
-      "song_id": 3160,
+      "work_type": "Song",
+      "work_id": 3160,
       "title": "Tied Together by Gravity",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -87,11 +155,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 3162,
+          "name": "Xiuying Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.067086
+        },
+        {
+          "person_id": 3161,
+          "name": "Min Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4027128
+        }
       ]
     },
     {
       "id": "song:4484",
-      "song_id": 4484,
+      "work_type": "Song",
+      "work_id": 4484,
       "title": "Breathing Shadows",
       "genre": "Doom Metal",
       "notable": true,
@@ -109,11 +208,78 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4485,
+          "name": "Gang Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979537
+        },
+        {
+          "person_id": 4487,
+          "name": "Jing Lin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979537
+        },
+        {
+          "person_id": 4486,
+          "name": "Jing Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397933
+        }
+      ]
+    },
+    {
+      "id": "album:11275",
+      "work_type": "Album",
+      "work_id": 11275,
+      "title": "Smiling So Hard It Hurts",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 1846,
+      "artist_name": "Friedrich-Wilhelm Ullmann",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1846,
+          "name": "Friedrich-Wilhelm Ullmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0217712
+        }
       ]
     },
     {
       "id": "song:11495",
-      "song_id": 11495,
+      "work_type": "Song",
+      "work_id": 11495,
       "title": "Whispers of a Blade",
       "genre": "Americana",
       "notable": true,
@@ -131,11 +297,69 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 657,
+          "name": "Min Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.432408
+        },
+        {
+          "person_id": 8778,
+          "name": "Xiulan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4321976
+        },
+        {
+          "person_id": 7968,
+          "name": "Qiang Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0405822
+        },
+        {
+          "person_id": 11496,
+          "name": "Wei Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009843
+        },
+        {
+          "person_id": 11497,
+          "name": "Tao Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009843
+        },
+        {
+          "person_id": 11498,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009843
+        }
       ]
     },
     {
       "id": "song:13140",
-      "song_id": 13140,
+      "work_type": "Song",
+      "work_id": 13140,
       "title": "Lunar Sabbat",
       "genre": "Dream Pop",
       "notable": true,
@@ -153,11 +377,41 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13141,
+          "name": "Wei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.458764
+        },
+        {
+          "person_id": 433,
+          "name": "Ping Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0121047
+        },
+        {
+          "person_id": 436,
+          "name": "Deborah Rogers",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0121047
+        }
       ]
     },
     {
       "id": "song:13681",
-      "song_id": 13681,
+      "work_type": "Song",
+      "work_id": 13681,
       "title": "Stitching Sacrifice",
       "genre": "Indie Folk",
       "notable": true,
@@ -175,11 +429,70 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13683,
+          "name": "Yong Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0143495
+        },
+        {
+          "person_id": 12846,
+          "name": "Patricia Humphrey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974574
+        },
+        {
+          "person_id": 13682,
+          "name": "Wei Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968983
+        },
+        {
+          "person_id": 13684,
+          "name": "Jun Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968983
+        },
+        {
+          "person_id": 13685,
+          "name": "Ping Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968983
+        },
+        {
+          "person_id": 13686,
+          "name": "Ming Xia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968983
+        }
       ]
     },
     {
       "id": "song:15080",
-      "song_id": 15080,
+      "work_type": "Song",
+      "work_id": 15080,
       "title": "Waves and Wanderlust",
       "genre": "Synthwave",
       "notable": true,
@@ -197,11 +510,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15081,
+          "name": "Honoré-Alexandre Vidal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964128
+        },
+        {
+          "person_id": 15082,
+          "name": "Haruka Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964128
+        },
+        {
+          "person_id": 15083,
+          "name": "Asuka Takahashi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3964128
+        }
       ]
     },
     {
       "id": "song:15622",
-      "song_id": 15622,
+      "work_type": "Song",
+      "work_id": 15622,
       "title": "Whispers of Finality",
       "genre": "Doom Metal",
       "notable": true,
@@ -219,19 +563,169 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2850,
+          "name": "Min Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6156697
+        },
+        {
+          "person_id": 9231,
+          "name": "Brett Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.754393
+        },
+        {
+          "person_id": 15623,
+          "name": "Lisa Evans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973796
+        },
+        {
+          "person_id": 15624,
+          "name": "Brittany Meyers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973796
+        },
+        {
+          "person_id": 15625,
+          "name": "Kristina Willis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973796
+        },
+        {
+          "person_id": 15626,
+          "name": "Corey Moody",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973796
+        },
+        {
+          "person_id": 15627,
+          "name": "Peter Huff",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973796
+        },
+        {
+          "person_id": 15628,
+          "name": "Thomas Kelly",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973796
+        },
+        {
+          "person_id": 15629,
+          "name": "Susan Richardson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973796
+        }
+      ]
+    },
+    {
+      "id": "album:16366",
+      "work_type": "Album",
+      "work_id": 16366,
+      "title": "Azure Horizons",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 9177,
+      "artist_name": "Rubén Medina-Casas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9178,
+          "name": "Bianca Sagnelli-Onio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4346268
+        },
+        {
+          "person_id": 9179,
+          "name": "Fernanda Guarneri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4346268
+        },
+        {
+          "person_id": 9176,
+          "name": "Pamela Roberts",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0472448
+        },
+        {
+          "person_id": 9177,
+          "name": "Rubén Medina-Casas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0472448
+        },
+        {
+          "person_id": 10729,
+          "name": "Pierluigi Telesio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0395522
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4484",
+      "source": "song:13681",
       "target": "song:9716",
       "type": "CoverOf"
-    },
-    {
-      "source": "song:3160",
-      "target": "song:9716",
-      "type": "InStyleOf"
     },
     {
       "source": "song:15080",
@@ -239,24 +733,24 @@
       "type": "InStyleOf"
     },
     {
+      "source": "album:16366",
+      "target": "song:9716",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1585",
+      "target": "song:9716",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:13140",
       "target": "song:9716",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:11495",
-      "target": "song:9716",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:15622",
+      "source": "song:3160",
       "target": "song:9716",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:13681",
-      "target": "song:9716",
-      "type": "CoverOf"
     },
     {
       "source": "song:2567",
@@ -264,7 +758,22 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:1585",
+      "source": "song:15622",
+      "target": "song:9716",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4484",
+      "target": "song:9716",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:11495",
+      "target": "song:9716",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:11275",
       "target": "song:9716",
       "type": "InterpolatesFrom"
     }

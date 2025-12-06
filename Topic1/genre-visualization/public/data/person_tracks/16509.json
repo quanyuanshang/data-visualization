@@ -1,0 +1,139 @@
+{
+  "person_id": 16509,
+  "name": "Randy Stewart",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:16508",
+      "work_type": "Album",
+      "work_id": 16508,
+      "title": "When Time Aligns",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 16509,
+      "artist_name": "Randy Stewart",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10212,
+          "name": "Robert Jenkins",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9731402
+        }
+      ]
+    },
+    {
+      "id": "album:13923",
+      "work_type": "Album",
+      "work_id": 13923,
+      "title": "Mint Julep Memories",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4888,
+      "artist_name": "Melissa Miller",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4888,
+          "name": "Melissa Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0506363
+        },
+        {
+          "person_id": 13924,
+          "name": "Ryohei Ito",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399036
+        },
+        {
+          "person_id": 13925,
+          "name": "Maaya Hayashi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399036
+        }
+      ]
+    },
+    {
+      "id": "album:17147",
+      "work_type": "Album",
+      "work_id": 17147,
+      "title": "Radio Silence",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": 17146,
+      "artist_name": "Julia Carter (Jude Rivers)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17146,
+          "name": "Julia Carter",
+          "stage_name": "Jude Rivers",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1046424
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:13923",
+      "target": "album:16508",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:17147",
+      "target": "album:16508",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

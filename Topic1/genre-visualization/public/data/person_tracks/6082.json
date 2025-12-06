@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6080",
-      "song_id": 6080,
+      "work_type": "Song",
+      "work_id": 6080,
       "title": "Starlit Chains",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,60 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6083,
+          "name": "Xiulan Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7472978
+        },
+        {
+          "person_id": 6084,
+          "name": "Ming Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0341628
+        },
+        {
+          "person_id": 6085,
+          "name": "Na Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0341628
+        },
+        {
+          "person_id": 6081,
+          "name": "Lei Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3947542
+        },
+        {
+          "person_id": 6086,
+          "name": "Fang Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947542
+        }
+      ]
     },
     {
       "id": "song:8477",
-      "song_id": 8477,
+      "work_type": "Song",
+      "work_id": 8477,
       "title": "Thursday Night Fever",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +93,51 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8479,
+          "name": "Laura Brown",
+          "stage_name": "Hunter Miles",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957536
+        },
+        {
+          "person_id": 8481,
+          "name": "James Calderon",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957536
+        },
+        {
+          "person_id": 8478,
+          "name": "John Wright",
+          "stage_name": " River",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3957329
+        },
+        {
+          "person_id": 8480,
+          "name": "Stephen Santiago",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957329
+        }
       ]
     },
     {
       "id": "song:11655",
-      "song_id": 11655,
+      "work_type": "Song",
+      "work_id": 11655,
       "title": "Whispers Between Lovers",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -65,17 +155,46 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11656,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398534
+        },
+        {
+          "person_id": 11657,
+          "name": "Jun Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398534
+        },
+        {
+          "person_id": 11658,
+          "name": "Lei Qiu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985133
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8477",
+      "source": "song:11655",
       "target": "song:6080",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:11655",
+      "source": "song:8477",
       "target": "song:6080",
       "type": "DirectlySamples"
     }

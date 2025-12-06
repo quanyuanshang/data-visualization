@@ -1,0 +1,91 @@
+{
+  "person_id": 13812,
+  "name": "Bruno Majtczak",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13811",
+      "work_type": "Album",
+      "work_id": 13811,
+      "title": "Dancing to Her Rhythm",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2002,
+      "single": false,
+      "own": true,
+      "artist_id": 13812,
+      "artist_name": "Bruno Majtczak",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2392383
+        }
+      ]
+    },
+    {
+      "id": "song:1772",
+      "work_type": "Song",
+      "work_id": 1772,
+      "title": "Heavy Eyelids of Twilight",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 1295,
+          "name": "Marek Oleksa",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9489913
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1772",
+      "target": "album:13811",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9123",
-      "song_id": 9123,
+      "work_type": "Song",
+      "work_id": 9123,
       "title": "Serenade of the Morning Star",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:5361",
-      "song_id": 5361,
+      "work_type": "Song",
+      "work_id": 5361,
       "title": "Echoes of Adoration",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -41,11 +44,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        }
+      ]
     },
     {
       "id": "song:970",
-      "song_id": 970,
+      "work_type": "Song",
+      "work_id": 970,
       "title": "Wooden Heart",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,11 +87,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 972,
+          "name": "Robin Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7224228
+        },
+        {
+          "person_id": 971,
+          "name": "Andrea Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984873
+        }
       ]
     },
     {
       "id": "song:12373",
-      "song_id": 12373,
+      "work_type": "Song",
+      "work_id": 12373,
       "title": "Proxy Battlefield",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -85,19 +131,48 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 968,
+          "name": "Ping Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.902861
+        },
+        {
+          "person_id": 967,
+          "name": "Chao Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4266002
+        },
+        {
+          "person_id": 12374,
+          "name": "Li Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0659711
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:970",
-      "target": "song:9123",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:12373",
       "target": "song:9123",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:970",
+      "target": "song:9123",
+      "type": "InterpolatesFrom"
     }
   ]
 }

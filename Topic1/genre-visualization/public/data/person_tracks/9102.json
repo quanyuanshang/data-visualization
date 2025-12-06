@@ -1,0 +1,126 @@
+{
+  "person_id": 9102,
+  "name": "Gang Yin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:9100",
+      "work_type": "Album",
+      "work_id": 9100,
+      "title": "Handshake Heartbeat",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 1981,
+      "single": false,
+      "own": true,
+      "artist_id": 9102,
+      "artist_name": "Gang Yin",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9101,
+          "name": "Jun Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3949978
+        },
+        {
+          "person_id": 9103,
+          "name": "Chao Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.394977
+        }
+      ]
+    },
+    {
+      "id": "song:2350",
+      "work_type": "Song",
+      "work_id": 2350,
+      "title": "The Silence Between Sentences",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2351,
+      "artist_name": "Li Cheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2355,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7207756
+        },
+        {
+          "person_id": 2351,
+          "name": "Li Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 2352,
+          "name": "Min Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 2353,
+          "name": "Yong Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 2354,
+          "name": "Tao Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984914
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2350",
+      "target": "album:9100",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

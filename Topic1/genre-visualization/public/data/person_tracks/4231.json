@@ -4,88 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:9902",
-      "song_id": 9902,
-      "title": "Sail Away with Me",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 1991,
-      "single": true,
-      "own": true,
-      "artist_id": 4231,
-      "artist_name": "Jonathan Poole",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:16179",
-      "song_id": 16179,
-      "title": "Currency of Remembrance",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2009,
-      "single": true,
-      "own": true,
-      "artist_id": 4231,
-      "artist_name": "Jonathan Poole",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:15980",
-      "song_id": 15980,
-      "title": "Vanished Without a Trace",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": true,
-      "artist_id": 4231,
-      "artist_name": "Jonathan Poole",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:12665",
-      "song_id": 12665,
-      "title": "Celestial Dust and Earthly Echoes",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2012,
-      "single": true,
-      "own": true,
-      "artist_id": 4231,
-      "artist_name": "Jonathan Poole",
-      "influence": 7,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:4606",
-      "song_id": 4606,
+      "work_type": "Song",
+      "work_id": 4606,
       "title": "Wooden Shoes and Accordion Dreams",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -101,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:4229",
-      "song_id": 4229,
+      "work_type": "Song",
+      "work_id": 4229,
       "title": "Silent Waters, Singing Paths",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -121,11 +44,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4230,
+          "name": "Ivana Bains",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.405384
+        }
+      ]
     },
     {
       "id": "song:15578",
-      "song_id": 15578,
+      "work_type": "Song",
+      "work_id": 15578,
       "title": "Nordic Passions Unfolding",
       "genre": "Indie Pop",
       "notable": true,
@@ -141,11 +77,480 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3909693
+        }
+      ]
+    },
+    {
+      "id": "song:15980",
+      "work_type": "Song",
+      "work_id": 15980,
+      "title": "Vanished Without a Trace",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 4231,
+      "artist_name": "Jonathan Poole",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:9902",
+      "work_type": "Song",
+      "work_id": 9902,
+      "title": "Sail Away with Me",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 4231,
+      "artist_name": "Jonathan Poole",
+      "influence": 16,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 3,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4380,
+          "name": "Carolyn Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7174106
+        }
+      ]
+    },
+    {
+      "id": "song:16179",
+      "work_type": "Song",
+      "work_id": 16179,
+      "title": "Currency of Remembrance",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 4231,
+      "artist_name": "Jonathan Poole",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4380,
+          "name": "Carolyn Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7174106
+        }
+      ]
+    },
+    {
+      "id": "song:12665",
+      "work_type": "Song",
+      "work_id": 12665,
+      "title": "Celestial Dust and Earthly Echoes",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 4231,
+      "artist_name": "Jonathan Poole",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12667,
+          "name": "Carsten Fritsch",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.032013
+        },
+        {
+          "person_id": 12666,
+          "name": "Christine Hauffer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4012098
+        }
+      ]
+    },
+    {
+      "id": "song:8288",
+      "work_type": "Song",
+      "work_id": 8288,
+      "title": "Ninth Inning Heartbreak",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4632,
+      "artist_name": "Tao Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4632,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9261239
+        },
+        {
+          "person_id": 8289,
+          "name": "Ming Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158923
+        },
+        {
+          "person_id": 8290,
+          "name": "Yan Shi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7077978
+        }
+      ]
+    },
+    {
+      "id": "song:2679",
+      "work_type": "Song",
+      "work_id": 2679,
+      "title": "Wingless Dreams",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2681,
+      "artist_name": "Kazuya Aoki",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2681,
+          "name": "Kazuya Aoki",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.428512
+        },
+        {
+          "person_id": 2680,
+          "name": "Satomi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0352416
+        }
+      ]
+    },
+    {
+      "id": "song:10513",
+      "work_type": "Song",
+      "work_id": 10513,
+      "title": "Silent Observer",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": false,
+      "artist_id": 4898,
+      "artist_name": "Scott Flores",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4898,
+          "name": "Scott Flores",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0743103
+        },
+        {
+          "person_id": 10514,
+          "name": "Paula Palmer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010718
+        }
+      ]
+    },
+    {
+      "id": "song:12953",
+      "work_type": "Song",
+      "work_id": 12953,
+      "title": "The Faithful's Call",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1993,
+      "single": false,
+      "own": false,
+      "artist_id": 12954,
+      "artist_name": "Rachel Lewis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10237,
+          "name": "Heather Lutz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.295115
+        },
+        {
+          "person_id": 12954,
+          "name": "Rachel Lewis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3786771
+        }
+      ]
+    },
+    {
+      "id": "album:1205",
+      "work_type": "Album",
+      "work_id": 1205,
+      "title": "Lancashire's Forgotten Sovereign",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 1206,
+      "artist_name": "Jędrzej Przeniosło",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1206,
+          "name": "Jędrzej Przeniosło",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963568
+        }
+      ]
+    },
+    {
+      "id": "album:2666",
+      "work_type": "Album",
+      "work_id": 2666,
+      "title": "Lift Me Higher",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 2667,
+      "artist_name": "Fang Xue",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2667,
+          "name": "Fang Xue",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4013371
+        },
+        {
+          "person_id": 2669,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044204
+        }
+      ]
+    },
+    {
+      "id": "album:8927",
+      "work_type": "Album",
+      "work_id": 8927,
+      "title": "Sorrow's Final Breath",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 8928,
+      "artist_name": "Anthony Farmer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8929,
+          "name": "Timothy Rios",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4317675
+        },
+        {
+          "person_id": 8928,
+          "name": "Anthony Farmer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017344
+        }
+      ]
     },
     {
       "id": "song:8997",
-      "song_id": 8997,
+      "work_type": "Song",
+      "work_id": 8997,
       "title": "Branded Dreams",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -163,11 +568,50 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2667,
+          "name": "Fang Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4013371
+        },
+        {
+          "person_id": 2669,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044204
+        }
       ]
     },
     {
       "id": "song:16179",
-      "song_id": 16179,
+      "work_type": "Song",
+      "work_id": 16179,
       "title": "Currency of Remembrance",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -185,11 +629,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4231,
+          "name": "Jonathan Poole",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.128045
+        },
+        {
+          "person_id": 4380,
+          "name": "Carolyn Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7174106
+        }
       ]
     },
     {
       "id": "song:14007",
-      "song_id": 14007,
+      "work_type": "Song",
+      "work_id": 14007,
       "title": "Tiny Seeds, Endless Horizons",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -208,129 +674,53 @@
       "relation_types": [
         "DirectlySamples",
         "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:4606",
-      "song_id": 4606,
-      "title": "Wooden Shoes and Accordion Dreams",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 4231,
-      "artist_name": "Jonathan Poole",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
-      ]
-    },
-    {
-      "id": "song:8288",
-      "song_id": 8288,
-      "title": "Ninth Inning Heartbreak",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": false,
-      "artist_id": 4632,
-      "artist_name": "Tao Zeng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:2679",
-      "song_id": 2679,
-      "title": "Wingless Dreams",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2007,
-      "single": false,
-      "own": false,
-      "artist_id": 2681,
-      "artist_name": "Kazuya Aoki",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:10513",
-      "song_id": 10513,
-      "title": "Silent Observer",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 1991,
-      "single": true,
-      "own": false,
-      "artist_id": 4898,
-      "artist_name": "Scott Flores",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:12953",
-      "song_id": 12953,
-      "title": "The Faithful's Call",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 1993,
-      "single": false,
-      "own": false,
-      "artist_id": 12954,
-      "artist_name": "Rachel Lewis",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12667,
+          "name": "Carsten Fritsch",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032013
+        },
+        {
+          "person_id": 14008,
+          "name": "Eckard Werner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14009,
+          "name": "Zbigniew Stey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14010,
+          "name": "Milo Hendriks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8997",
-      "target": "song:9902",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:14007",
-      "target": "song:12665",
-      "type": "InStyleOf"
+      "source": "song:4606",
+      "target": "song:15980",
+      "type": "CoverOf"
     },
     {
       "source": "song:14007",
@@ -338,24 +728,29 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:12953",
-      "target": "song:15578",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:4606",
-      "target": "song:12665",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:8288",
-      "target": "song:4229",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:16179",
       "target": "song:9902",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:2666",
+      "target": "song:9902",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:1205",
+      "target": "song:9902",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:8997",
+      "target": "song:9902",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:8927",
+      "target": "song:9902",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:10513",
@@ -363,14 +758,34 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:4606",
-      "target": "song:15980",
-      "type": "CoverOf"
+      "source": "song:8288",
+      "target": "song:4229",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:2679",
       "target": "song:15578",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:4606",
+      "target": "song:12665",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14007",
+      "target": "song:12665",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:8927",
+      "target": "song:16179",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12953",
+      "target": "song:15578",
+      "type": "CoverOf"
     }
   ]
 }

@@ -1,0 +1,202 @@
+{
+  "person_id": 8762,
+  "name": "Amanda Morales",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:8758",
+      "work_type": "Album",
+      "work_id": 8758,
+      "title": "Gaby's Lament",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 8762,
+      "artist_name": "Amanda Morales",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7301,
+          "name": "Michael Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4245415
+        },
+        {
+          "person_id": 8759,
+          "name": "Daniel Collins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0431097
+        },
+        {
+          "person_id": 8760,
+          "name": "Barbara Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0431097
+        },
+        {
+          "person_id": 8761,
+          "name": "David Bowen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.244247
+        }
+      ]
+    },
+    {
+      "id": "album:13960",
+      "work_type": "Album",
+      "work_id": 13960,
+      "title": "Whispers Beyond the Apocalypse",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1984,
+      "single": false,
+      "own": true,
+      "artist_id": 8762,
+      "artist_name": "Amanda Morales",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7301,
+          "name": "Michael Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4245415
+        },
+        {
+          "person_id": 12999,
+          "name": "Leah Anderson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.060043
+        },
+        {
+          "person_id": 8759,
+          "name": "Daniel Collins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0431097
+        },
+        {
+          "person_id": 8760,
+          "name": "Barbara Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0431097
+        }
+      ]
+    },
+    {
+      "id": "song:7299",
+      "work_type": "Song",
+      "work_id": 7299,
+      "title": "Footsteps of Memory",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 7300,
+      "artist_name": "Kayla Jenkins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7301,
+          "name": "Michael Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4245415
+        },
+        {
+          "person_id": 7300,
+          "name": "Kayla Jenkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984294
+        },
+        {
+          "person_id": 7302,
+          "name": "David Orr",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984294
+        },
+        {
+          "person_id": 7303,
+          "name": "Joseph Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984294
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7299",
+      "target": "album:8758",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:8758",
+      "target": "album:13960",
+      "type": "InStyleOf"
+    }
+  ]
+}

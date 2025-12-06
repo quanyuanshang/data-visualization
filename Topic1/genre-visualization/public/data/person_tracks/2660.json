@@ -4,68 +4,42 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2658",
-      "song_id": 2658,
-      "title": "Echoes of the Sacred Town",
+      "id": "album:5074",
+      "work_type": "Album",
+      "work_id": 5074,
+      "title": "Mirror Ball Memories",
       "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2007,
-      "single": true,
+      "release_year": 2010,
+      "single": false,
       "own": true,
       "artist_id": 2660,
       "artist_name": "Christopher Smith",
-      "influence": 8,
+      "influence": 13,
       "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 0,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:3151",
-      "song_id": 3151,
-      "title": "Smoke and Mirrors",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2015,
-      "single": true,
-      "own": true,
-      "artist_id": 2660,
-      "artist_name": "Christopher Smith",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:7100",
-      "song_id": 7100,
-      "title": "Hillside Harmony",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2012,
-      "single": true,
-      "own": true,
-      "artist_id": 2660,
-      "artist_name": "Christopher Smith",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
     },
     {
       "id": "song:6473",
-      "song_id": 6473,
+      "work_type": "Song",
+      "work_id": 6473,
       "title": "Stockholm Serenade",
       "genre": "Dream Pop",
       "notable": true,
@@ -81,11 +55,173 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 3152,
+          "name": "Stacy Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516133
+        }
+      ]
+    },
+    {
+      "id": "album:10155",
+      "work_type": "Album",
+      "work_id": 10155,
+      "title": "Emerald Canopy Sings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 2660,
+      "artist_name": "Christopher Smith",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
+    },
+    {
+      "id": "song:7100",
+      "work_type": "Song",
+      "work_id": 7100,
+      "title": "Hillside Harmony",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 2660,
+      "artist_name": "Christopher Smith",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
+    },
+    {
+      "id": "song:2658",
+      "work_type": "Song",
+      "work_id": 2658,
+      "title": "Echoes of the Sacred Town",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 2660,
+      "artist_name": "Christopher Smith",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 3
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
     },
     {
       "id": "song:3151",
-      "song_id": 3151,
+      "work_type": "Song",
+      "work_id": 3151,
+      "title": "Smoke and Mirrors",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": true,
+      "own": true,
+      "artist_id": 2660,
+      "artist_name": "Christopher Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 3152,
+          "name": "Stacy Hendricks",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516133
+        }
+      ]
+    },
+    {
+      "id": "song:3151",
+      "work_type": "Song",
+      "work_id": 3151,
       "title": "Smoke and Mirrors",
       "genre": "Alternative Rock",
       "notable": true,
@@ -104,11 +240,95 @@
       "relation_types": [
         "CoverOf",
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.076866
+        },
+        {
+          "person_id": 3152,
+          "name": "Stacy Hendricks",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516133
+        }
+      ]
+    },
+    {
+      "id": "song:6473",
+      "work_type": "Song",
+      "work_id": 6473,
+      "title": "Stockholm Serenade",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2014,
+      "single": false,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.076866
+        },
+        {
+          "person_id": 3152,
+          "name": "Stacy Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516133
+        }
       ]
     },
     {
       "id": "song:7100",
-      "song_id": 7100,
+      "work_type": "Song",
+      "work_id": 7100,
       "title": "Hillside Harmony",
       "genre": "Alternative Rock",
       "notable": true,
@@ -125,20 +345,97 @@
         "style": 0
       },
       "relation_types": [
-        "InStyleOf"
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.076866
+        }
       ]
     },
     {
-      "id": "song:15046",
-      "song_id": 15046,
-      "title": "Lipstick and Celluloid",
+      "id": "album:9871",
+      "work_type": "Album",
+      "work_id": 9871,
+      "title": "Crossroads of Silence",
       "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2010,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.937547
+        },
+        {
+          "person_id": 9872,
+          "name": "Jordan Collins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.045954
+        }
+      ]
+    },
+    {
+      "id": "song:13900",
+      "work_type": "Song",
+      "work_id": 13900,
+      "title": "Peels and Wheels",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
       "single": true,
       "own": false,
-      "artist_id": 10403,
-      "artist_name": "Elizabeth Nguyen",
+      "artist_id": 13901,
+      "artist_name": "Ryan Richards",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -148,11 +445,94 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 13901,
+          "name": "Ryan Richards",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399802
+        },
+        {
+          "person_id": 13902,
+          "name": "Tracy Vazquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399802
+        }
+      ]
+    },
+    {
+      "id": "album:1804",
+      "work_type": "Album",
+      "work_id": 1804,
+      "title": "Midsummer Memories",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 1805,
+      "artist_name": "Vedika Dar",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1806,
+          "name": "Ahana Babu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3999395
+        },
+        {
+          "person_id": 1805,
+          "name": "Vedika Dar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999221
+        }
       ]
     },
     {
       "id": "song:11357",
-      "song_id": 11357,
+      "work_type": "Song",
+      "work_id": 11357,
       "title": "Sharp Edge of Desire",
       "genre": "Alternative Rock",
       "notable": true,
@@ -170,12 +550,92 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 11358,
+          "name": "Ronald Warner",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003086
+        }
+      ]
+    },
+    {
+      "id": "song:15046",
+      "work_type": "Song",
+      "work_id": 15046,
+      "title": "Lipstick and Celluloid",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 10403,
+      "artist_name": "Elizabeth Nguyen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 10403,
+          "name": "Elizabeth Nguyen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0664647
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7100",
+      "source": "song:3151",
+      "target": "song:6473",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:1804",
+      "target": "song:7100",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3151",
+      "target": "song:2658",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:9871",
       "target": "song:2658",
       "type": "InStyleOf"
     },
@@ -185,14 +645,39 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:3151",
-      "target": "song:6473",
-      "type": "CoverOf"
+      "source": "song:7100",
+      "target": "album:10155",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7100",
+      "target": "song:2658",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7100",
+      "target": "album:5074",
+      "type": "InStyleOf"
     },
     {
       "source": "song:3151",
-      "target": "song:2658",
-      "type": "DirectlySamples"
+      "target": "album:5074",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13900",
+      "target": "album:10155",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:9871",
+      "target": "album:5074",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6473",
+      "target": "album:5074",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:11357",

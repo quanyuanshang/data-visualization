@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14021",
-      "song_id": 14021,
+      "work_type": "Song",
+      "work_id": 14021,
       "title": "The Quiet Spark",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3775,
+          "name": "Yang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7250676
+        },
+        {
+          "person_id": 3774,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4085824
+        }
+      ]
     },
     {
       "id": "song:3773",
-      "song_id": 3773,
+      "work_type": "Song",
+      "work_id": 3773,
       "title": "Kindred OdysseyFragile Lola",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +65,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3775,
+          "name": "Yang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7250676
+        },
+        {
+          "person_id": 3774,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4085824
+        }
       ]
     },
     {
       "id": "song:6376",
-      "song_id": 6376,
+      "work_type": "Song",
+      "work_id": 6376,
       "title": "Temptation's Edge",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,17 +109,37 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3775,
+          "name": "Yang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7250676
+        },
+        {
+          "person_id": 3774,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4085824
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:3773",
+      "source": "song:6376",
       "target": "song:14021",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:6376",
+      "source": "song:3773",
       "target": "song:14021",
       "type": "InterpolatesFrom"
     }

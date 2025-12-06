@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10562",
-      "song_id": 10562,
+      "work_type": "Song",
+      "work_id": 10562,
       "title": "Unheard Lamentations",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10564,
+          "name": "Daniel Aubert-Brunet",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0544574
+        },
+        {
+          "person_id": 10563,
+          "name": "Robert Carlson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398336
+        }
+      ]
     },
     {
       "id": "song:10818",
-      "song_id": 10818,
+      "work_type": "Song",
+      "work_id": 10818,
       "title": "Echoes of the Drumline",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +66,19 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10564,
+          "name": "Daniel Aubert-Brunet",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0544574
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9637",
-      "song_id": 9637,
+      "work_type": "Song",
+      "work_id": 9637,
       "title": "Annabel's Lament",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9638,
+          "name": "Lei Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977277
+        }
+      ]
     },
     {
       "id": "song:4559",
-      "song_id": 4559,
+      "work_type": "Song",
+      "work_id": 4559,
       "title": "Silent Sorrow",
       "genre": "Americana",
       "notable": false,
@@ -43,11 +57,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4560,
+          "name": "Michael Potts",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398743
+        },
+        {
+          "person_id": 4561,
+          "name": "Yang Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986664
+        }
       ]
     },
     {
       "id": "song:12196",
-      "song_id": 12196,
+      "work_type": "Song",
+      "work_id": 12196,
       "title": "Ringing Through Silence",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,6 +101,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12198,
+          "name": "Ryan Howard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980834
+        },
+        {
+          "person_id": 12197,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977664
+        }
       ]
     }
   ],

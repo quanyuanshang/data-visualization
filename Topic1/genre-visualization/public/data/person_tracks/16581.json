@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16580",
-      "song_id": 16580,
+      "work_type": "Song",
+      "work_id": 16580,
       "title": "Liquid Escape",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0131726
+        }
+      ]
     },
     {
       "id": "song:9428",
-      "song_id": 9428,
+      "work_type": "Song",
+      "work_id": 9428,
       "title": "Sonata for Whispered Strings",
       "genre": "Lo-Fi Electronica",
       "notable": false,
@@ -43,6 +57,26 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2685,
+          "name": "Na Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.706405
+        },
+        {
+          "person_id": 9429,
+          "name": "Qiang Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39813
+        }
       ]
     }
   ],

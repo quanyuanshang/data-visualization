@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:371",
-      "song_id": 371,
+      "work_type": "Song",
+      "work_id": 371,
       "title": "Wandering Without End",
       "genre": "Synthwave",
       "notable": true,
@@ -21,31 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:13396",
-      "song_id": 13396,
-      "title": "Waiting by the Phone",
-      "genre": "Oceanus Folk",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 372,
-      "artist_name": "Tao Cui ( FL∆ME)",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 373,
+          "name": "Na Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399538
+        },
+        {
+          "person_id": 374,
+          "name": "Tao Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399538
+        }
+      ]
     },
     {
       "id": "song:10426",
-      "song_id": 10426,
+      "work_type": "Song",
+      "work_id": 10426,
       "title": "Somewhere Between Somewhere",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -61,11 +63,101 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 10427,
+          "name": "Xiulan Mo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0343351
+        },
+        {
+          "person_id": 10428,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000509
+        },
+        {
+          "person_id": 10429,
+          "name": "Min Xia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000509
+        }
+      ]
+    },
+    {
+      "id": "song:13396",
+      "work_type": "Song",
+      "work_id": 13396,
+      "title": "Waiting by the Phone",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 372,
+      "artist_name": "Tao Cui ( FL∆ME)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10427,
+          "name": "Xiulan Mo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0343351
+        },
+        {
+          "person_id": 13397,
+          "name": "Yan Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398647
+        },
+        {
+          "person_id": 13398,
+          "name": "Yong Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398647
+        }
+      ]
     },
     {
       "id": "song:13768",
-      "song_id": 13768,
+      "work_type": "Song",
+      "work_id": 13768,
       "title": "Salt-Stained Serenade",
       "genre": "Dream Pop",
       "notable": true,
@@ -83,6 +175,63 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1198,
+          "name": "Qiang He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.393461
+        },
+        {
+          "person_id": 1202,
+          "name": "Emily Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.393461
+        },
+        {
+          "person_id": 1200,
+          "name": "Qiang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.269271
+        },
+        {
+          "person_id": 13769,
+          "name": "Ming Hou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397103
+        },
+        {
+          "person_id": 13770,
+          "name": "Chao Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397103
+        },
+        {
+          "person_id": 13771,
+          "name": "Lei Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397103
+        }
       ]
     }
   ],

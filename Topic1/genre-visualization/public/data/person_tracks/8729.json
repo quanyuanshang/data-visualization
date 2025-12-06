@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8727",
-      "song_id": 8727,
+      "work_type": "Song",
+      "work_id": 8727,
       "title": "The Hallowed Darkness",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2355,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7207756
+        },
+        {
+          "person_id": 8728,
+          "name": "Holly Riley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980079
+        },
+        {
+          "person_id": 8730,
+          "name": "Jun Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980079
+        }
+      ]
     },
     {
       "id": "song:4172",
-      "song_id": 4172,
+      "work_type": "Song",
+      "work_id": 4172,
       "title": "Echoes of Recognition",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +76,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4176,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.5098946
+        },
+        {
+          "person_id": 4173,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3884134
+        },
+        {
+          "person_id": 4174,
+          "name": "Ming Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3884134
+        },
+        {
+          "person_id": 4175,
+          "name": "Lei Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3815
+        }
       ]
     },
     {
       "id": "song:15723",
-      "song_id": 15723,
+      "work_type": "Song",
+      "work_id": 15723,
       "title": "Collision Course",
       "genre": "Desert Rock",
       "notable": true,
@@ -65,19 +138,57 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15724,
+          "name": "Anthony Peters",
+          "stage_name": "Neon Cascade",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399022
+        },
+        {
+          "person_id": 15725,
+          "name": "Li Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399022
+        },
+        {
+          "person_id": 15726,
+          "name": "Qiang Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399022
+        },
+        {
+          "person_id": 15727,
+          "name": "Joshua Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399022
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15723",
-      "target": "song:8727",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:4172",
       "target": "song:8727",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15723",
+      "target": "song:8727",
+      "type": "InStyleOf"
     }
   ]
 }

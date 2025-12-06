@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:3163",
+      "work_type": "Album",
+      "work_id": 3163,
+      "title": "Parallel Descent",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2001,
+      "single": false,
+      "own": true,
+      "artist_id": 3165,
+      "artist_name": "Jamie Ramos",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3166,
+          "name": "Ricky Silva",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6956441
+        },
+        {
+          "person_id": 3164,
+          "name": "Jeremy Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4511569
+        }
+      ]
+    },
+    {
       "id": "song:5546",
-      "song_id": 5546,
+      "work_type": "Song",
+      "work_id": 5546,
       "title": "Sweet Metabolism",
       "genre": "Speed Metal",
       "notable": true,
@@ -14,18 +57,81 @@
       "own": true,
       "artist_id": 3165,
       "artist_name": "Jamie Ramos",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3166,
+          "name": "Ricky Silva",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6956441
+        },
+        {
+          "person_id": 3164,
+          "name": "Jeremy Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4511569
+        }
+      ]
+    },
+    {
+      "id": "album:11680",
+      "work_type": "Album",
+      "work_id": 11680,
+      "title": "Twenty-Four Hours Unfolding",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2003,
+      "single": false,
+      "own": true,
+      "artist_id": 3165,
+      "artist_name": "Jamie Ramos",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3166,
+          "name": "Ricky Silva",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6956441
+        },
+        {
+          "person_id": 3164,
+          "name": "Jeremy Li",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4511569
+        }
+      ]
     },
     {
       "id": "song:14094",
-      "song_id": 14094,
+      "work_type": "Song",
+      "work_id": 14094,
       "title": "Moonlit Metamorphosis",
       "genre": "Speed Metal",
       "notable": true,
@@ -34,18 +140,83 @@
       "own": true,
       "artist_id": 3165,
       "artist_name": "Jamie Ramos",
-      "influence": 7,
+      "influence": 13,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3166,
+          "name": "Ricky Silva",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6956441
+        }
+      ]
+    },
+    {
+      "id": "album:11680",
+      "work_type": "Album",
+      "work_id": 11680,
+      "title": "Twenty-Four Hours Unfolding",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2003,
+      "single": false,
+      "own": false,
+      "artist_id": 3166,
+      "artist_name": "Ricky Silva",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3165,
+          "name": "Jamie Ramos",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6960506
+        },
+        {
+          "person_id": 3166,
+          "name": "Ricky Silva",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6956441
+        },
+        {
+          "person_id": 3164,
+          "name": "Jeremy Li",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4511569
+        }
+      ]
     },
     {
       "id": "song:16269",
-      "song_id": 16269,
+      "work_type": "Song",
+      "work_id": 16269,
       "title": "Regal Advance",
       "genre": "Speed Metal",
       "notable": true,
@@ -63,15 +234,61 @@
       },
       "relation_types": [
         "CoverOf",
-        "InterpolatesFrom"
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 151,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.626964
+        },
+        {
+          "person_id": 150,
+          "name": "Li Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6011453
+        },
+        {
+          "person_id": 149,
+          "name": "Xia Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1142097
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16269",
+      "source": "album:3163",
       "target": "song:14094",
-      "type": "CoverOf"
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:16269",
+      "target": "song:5546",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16269",
+      "target": "album:3163",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:11680",
+      "target": "song:14094",
+      "type": "InStyleOf"
     },
     {
       "source": "song:5546",
@@ -79,9 +296,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:16269",
+      "source": "album:11680",
       "target": "song:5546",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:11680",
+      "target": "album:3163",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16269",
+      "target": "song:14094",
+      "type": "CoverOf"
     }
   ]
 }

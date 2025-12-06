@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7727",
-      "song_id": 7727,
+      "work_type": "Song",
+      "work_id": 7727,
       "title": "Last Call for Heartache",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 873,
+          "name": "Angelita Belda Enríquez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9287317
+        }
+      ]
     },
     {
       "id": "song:13615",
-      "song_id": 13615,
+      "work_type": "Song",
+      "work_id": 13615,
       "title": "Walls I've Built",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -41,11 +54,32 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 873,
+          "name": "Angelita Belda Enríquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9287317
+        },
+        {
+          "person_id": 872,
+          "name": "Marina Acedo Montaña",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4323611
+        }
+      ]
     },
     {
       "id": "song:13615",
-      "song_id": 13615,
+      "work_type": "Song",
+      "work_id": 13615,
       "title": "Walls I've Built",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -63,11 +97,41 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 873,
+          "name": "Angelita Belda Enríquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9287317
+        },
+        {
+          "person_id": 872,
+          "name": "Marina Acedo Montaña",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4323611
+        },
+        {
+          "person_id": 7728,
+          "name": "Ian Foster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0267794
+        }
       ]
     },
     {
       "id": "song:871",
-      "song_id": 871,
+      "work_type": "Song",
+      "work_id": 871,
       "title": "Confident Whispers",
       "genre": "Synthwave",
       "notable": true,
@@ -85,11 +149,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 873,
+          "name": "Angelita Belda Enríquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9287317
+        },
+        {
+          "person_id": 872,
+          "name": "Marina Acedo Montaña",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4323611
+        },
+        {
+          "person_id": 874,
+          "name": "Paco Yáñez Bravo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401164
+        }
       ]
     },
     {
       "id": "song:12751",
-      "song_id": 12751,
+      "work_type": "Song",
+      "work_id": 12751,
       "title": "Echoes of Suffering's Symphony",
       "genre": "Dream Pop",
       "notable": true,
@@ -107,6 +202,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12754,
+          "name": "Sharon Roberts",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983574
+        },
+        {
+          "person_id": 12753,
+          "name": "Jason Robles",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983366
+        },
+        {
+          "person_id": 12752,
+          "name": "Nancy Franklin",
+          "stage_name": "Prysm",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397077
+        }
       ]
     }
   ],
@@ -117,14 +242,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:13615",
-      "target": "song:7727",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:871",
       "target": "song:13615",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13615",
+      "target": "song:7727",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

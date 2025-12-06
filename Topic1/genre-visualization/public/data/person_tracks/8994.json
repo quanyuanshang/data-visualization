@@ -4,8 +4,50 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:8992",
+      "work_type": "Song",
+      "work_id": 8992,
+      "title": "Corporate Ladder",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 8994,
+      "artist_name": "Adam Carpenter",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8995,
+          "name": "Lei Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0492296
+        },
+        {
+          "person_id": 8993,
+          "name": "Cody Rowe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3935738
+        }
+      ]
+    },
+    {
       "id": "song:9689",
-      "song_id": 9689,
+      "work_type": "Song",
+      "work_id": 9689,
       "title": "No Retreat",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,30 +63,132 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8995,
+          "name": "Lei Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0492296
+        }
+      ]
     },
     {
-      "id": "song:8992",
-      "song_id": 8992,
-      "title": "Corporate Ladder",
+      "id": "album:7286",
+      "work_type": "Album",
+      "work_id": 7286,
+      "title": "Woven Threads",
       "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2003,
-      "single": true,
-      "own": true,
-      "artist_id": 8994,
-      "artist_name": "Adam Carpenter",
-      "influence": 4,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 7287,
+      "artist_name": "Dana Perkins",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 1,
+        "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7289,
+          "name": "Deborah Aguilar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969333
+        },
+        {
+          "person_id": 7288,
+          "name": "Christopher Young",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967636
+        },
+        {
+          "person_id": 7290,
+          "name": "Christopher Wood",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967636
+        },
+        {
+          "person_id": 7287,
+          "name": "Dana Perkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955817
+        }
+      ]
+    },
+    {
+      "id": "song:9689",
+      "work_type": "Song",
+      "work_id": 9689,
+      "title": "No Retreat",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 8995,
+      "artist_name": "Lei Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8995,
+          "name": "Lei Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0492296
+        },
+        {
+          "person_id": 8994,
+          "name": "Adam Carpenter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0417185
+        }
+      ]
     }
   ],
   "links": [
+    {
+      "source": "album:7286",
+      "target": "song:8992",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:9689",
       "target": "song:8992",

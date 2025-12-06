@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10398",
-      "song_id": 10398,
+      "work_type": "Song",
+      "work_id": 10398,
       "title": "Shadows of Mistaken Identity",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10400,
+          "name": "Fang Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966885
+        },
+        {
+          "person_id": 10401,
+          "name": "Lei Yao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3966885
+        }
+      ]
     },
     {
       "id": "song:1902",
-      "song_id": 1902,
+      "work_type": "Song",
+      "work_id": 1902,
       "title": "Özgürlük Şarkısı (Song of Freedom)",
       "genre": "Americana",
       "notable": true,
@@ -43,6 +65,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1904,
+          "name": "Cynthia Hoover",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985782
+        },
+        {
+          "person_id": 1903,
+          "name": "Brandon Horton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985574
+        },
+        {
+          "person_id": 1905,
+          "name": "Brian Melton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985574
+        }
       ]
     }
   ],

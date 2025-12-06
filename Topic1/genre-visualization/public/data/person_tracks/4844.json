@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4843",
-      "song_id": 4843,
+      "work_type": "Song",
+      "work_id": 4843,
       "title": "Wanderer's Path to the City of Jute",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,63 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:8099",
+      "work_type": "Album",
+      "work_id": 8099,
+      "title": "Midnight Impulse",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 4844,
+      "artist_name": "Capucine Pasquier",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8100,
+          "name": "Marc-Raymond Durand",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3704894
+        },
+        {
+          "person_id": 8101,
+          "name": "Eugène Lemaire",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0314736
+        },
+        {
+          "person_id": 8102,
+          "name": "Franck-Georges Delattre",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0314736
+        }
+      ]
     },
     {
       "id": "song:11525",
-      "song_id": 11525,
+      "work_type": "Song",
+      "work_id": 11525,
       "title": "Shadows of the Forgotten Meadow",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -41,11 +94,41 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8100,
+          "name": "Marc-Raymond Durand",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3704894
+        },
+        {
+          "person_id": 8101,
+          "name": "Eugène Lemaire",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0314736
+        },
+        {
+          "person_id": 8102,
+          "name": "Franck-Georges Delattre",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0314736
+        }
+      ]
     },
     {
       "id": "song:10944",
-      "song_id": 10944,
+      "work_type": "Song",
+      "work_id": 10944,
       "title": "Homebound Heart",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,19 +146,39 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10946,
+          "name": "William Fritz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397942
+        },
+        {
+          "person_id": 10945,
+          "name": "Pamela Moran",
+          "stage_name": "Seraphine",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397726
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4843",
-      "target": "song:11525",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:10944",
       "target": "song:11525",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:4843",
+      "target": "song:11525",
+      "type": "DirectlySamples"
     }
   ]
 }

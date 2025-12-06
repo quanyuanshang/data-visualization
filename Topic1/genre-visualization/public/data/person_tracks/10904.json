@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10903",
-      "song_id": 10903,
+      "work_type": "Song",
+      "work_id": 10903,
       "title": "Parallel Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,52 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10905,
+          "name": "Tao Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979287
+        },
+        {
+          "person_id": 10907,
+          "name": "Lei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397922
+        },
+        {
+          "person_id": 10908,
+          "name": "Wei Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397922
+        },
+        {
+          "person_id": 10906,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397879
+        }
+      ]
     },
     {
       "id": "song:17286",
-      "song_id": 17286,
+      "work_type": "Song",
+      "work_id": 17286,
       "title": "Saltwater Hymn",
       "genre": "Oceanus Folk",
       "notable": false,
@@ -43,6 +85,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5372",
-      "song_id": 5372,
+      "work_type": "Song",
+      "work_id": 5372,
       "title": "Caribbean Courage",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5373,
+          "name": "Victoria Pierce",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0352418
+        }
+      ]
     },
     {
       "id": "song:14197",
-      "song_id": 14197,
+      "work_type": "Song",
+      "work_id": 14197,
       "title": "Rumbo al Horizonte",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +57,26 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10932,
+          "name": "Brandon Hoffman",
+          "stage_name": "Infinite Monsoon",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0398104
+        },
+        {
+          "person_id": 10933,
+          "name": "Joseph Chen",
+          "stage_name": "EAZY 9INE",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0383782
+        }
       ]
     }
   ],

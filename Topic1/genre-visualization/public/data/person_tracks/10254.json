@@ -1,0 +1,203 @@
+{
+  "person_id": 10254,
+  "name": "Chao Cui",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10252",
+      "work_type": "Album",
+      "work_id": 10252,
+      "title": "Hollow Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 10254,
+      "artist_name": "Chao Cui",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10253,
+          "name": "Na Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990285
+        },
+        {
+          "person_id": 10255,
+          "name": "Na Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990285
+        },
+        {
+          "person_id": 10256,
+          "name": "Lei Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990285
+        },
+        {
+          "person_id": 10257,
+          "name": "Guiying Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990285
+        }
+      ]
+    },
+    {
+      "id": "song:1693",
+      "work_type": "Song",
+      "work_id": 1693,
+      "title": "Blood and Imperial Desire",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 1695,
+      "artist_name": "Wei Xue",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1695,
+          "name": "Wei Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987494
+        },
+        {
+          "person_id": 1697,
+          "name": "Xiuying Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987494
+        },
+        {
+          "person_id": 1698,
+          "name": "Xiulan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987494
+        },
+        {
+          "person_id": 1696,
+          "name": "Ming He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987286
+        },
+        {
+          "person_id": 1694,
+          "name": "Gang Guo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3984215
+        }
+      ]
+    },
+    {
+      "id": "album:16183",
+      "work_type": "Album",
+      "work_id": 16183,
+      "title": "Echoes from a Fallen Fortress",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 15671,
+      "artist_name": "Xiulan Liang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15671,
+          "name": "Xiulan Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388033
+        },
+        {
+          "person_id": 15672,
+          "name": "Deanna Hines",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388033
+        },
+        {
+          "person_id": 16184,
+          "name": "Xia Tao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967185
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:16183",
+      "target": "album:10252",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1693",
+      "target": "album:10252",
+      "type": "InStyleOf"
+    }
+  ]
+}

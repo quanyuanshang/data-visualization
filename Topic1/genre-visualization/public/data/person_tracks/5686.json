@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5685",
-      "song_id": 5685,
+      "work_type": "Song",
+      "work_id": 5685,
       "title": "Liquid Legions",
       "genre": "Space Rock",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 5686,
       "artist_name": "Matthew Brown",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4494,
+          "name": "Thomas Harrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.440943
+        },
+        {
+          "person_id": 4495,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.440943
+        }
+      ]
     },
     {
       "id": "song:5818",
-      "song_id": 5818,
+      "work_type": "Song",
+      "work_id": 5818,
       "title": "Two Souls, One Rhythm",
       "genre": "Synthwave",
       "notable": true,
@@ -43,12 +65,173 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1649,
+          "name": "Lei He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938424
+        },
+        {
+          "person_id": 5822,
+          "name": "Wei Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0590332
+        },
+        {
+          "person_id": 5819,
+          "name": "Sara Ramirez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5820,
+          "name": "Ping Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5821,
+          "name": "Xia Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5823,
+          "name": "Lei Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979313
+        }
+      ]
+    },
+    {
+      "id": "album:6435",
+      "work_type": "Album",
+      "work_id": 6435,
+      "title": "Triumph's Embrace",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 6437,
+      "artist_name": "Na Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2603,
+          "name": "Gang Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4197462
+        },
+        {
+          "person_id": 6436,
+          "name": "Xiuying Ma",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6437,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6440,
+          "name": "Chao Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6441,
+          "name": "Li Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6442,
+          "name": "Lei Du",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6438,
+          "name": "Jun Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933666
+        },
+        {
+          "person_id": 6439,
+          "name": "Christine Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933666
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:5818",
+      "target": "song:5685",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:6435",
       "target": "song:5685",
       "type": "InStyleOf"
     }

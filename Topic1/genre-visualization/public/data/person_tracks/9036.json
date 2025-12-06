@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9033",
-      "song_id": 9033,
+      "work_type": "Song",
+      "work_id": 9033,
       "title": "Lone Star Twilight",
       "genre": "Synthwave",
       "notable": true,
@@ -21,8 +22,121 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2978,
+          "name": "Guiying Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396549
+        },
+        {
+          "person_id": 9037,
+          "name": "Heather Moss",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448227
+        },
+        {
+          "person_id": 9034,
+          "name": "Fang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439265
+        },
+        {
+          "person_id": 9038,
+          "name": "Elijah Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439265
+        },
+        {
+          "person_id": 9035,
+          "name": "Heidi Henry",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396727
+        },
+        {
+          "person_id": 9039,
+          "name": "Elizabeth Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396727
+        }
+      ]
+    },
+    {
+      "id": "album:9854",
+      "work_type": "Album",
+      "work_id": 9854,
+      "title": "The Ballad of Nikolai Shchors",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 9036,
+      "artist_name": "Christine Bartlett",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2978,
+          "name": "Guiying Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396549
+        },
+        {
+          "person_id": 9034,
+          "name": "Fang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439265
+        },
+        {
+          "person_id": 9038,
+          "name": "Elijah Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439265
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:9033",
+      "target": "album:9854",
+      "type": "CoverOf"
+    }
+  ]
 }

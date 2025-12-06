@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:999",
-      "song_id": 999,
+      "work_type": "Song",
+      "work_id": 999,
       "title": "Gray Lungs, Aged Soul",
       "genre": "Americana",
       "notable": true,
@@ -21,7 +22,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1005,
+          "name": "Ping Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0393157
+        },
+        {
+          "person_id": 1002,
+          "name": "Li Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0312202
+        },
+        {
+          "person_id": 1000,
+          "name": "Juan Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398918
+        },
+        {
+          "person_id": 1001,
+          "name": "Scott Daniel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398918
+        },
+        {
+          "person_id": 1003,
+          "name": "Ming Cheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398918
+        }
+      ]
     }
   ],
   "links": []

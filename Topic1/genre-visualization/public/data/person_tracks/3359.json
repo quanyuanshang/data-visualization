@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3358",
-      "song_id": 3358,
+      "work_type": "Song",
+      "work_id": 3358,
       "title": "Carry Me Through",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 2004,
+          "name": "Martino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.253776
+        },
+        {
+          "person_id": 3360,
+          "name": "Isabella Farinelli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9629836
+        }
+      ]
     },
     {
       "id": "song:12332",
-      "song_id": 12332,
+      "work_type": "Song",
+      "work_id": 12332,
       "title": "Whispers in Maria's Slumber",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -34,18 +65,58 @@
       "own": true,
       "artist_id": 3359,
       "artist_name": "Aneta Pruschke-Sölzer",
-      "influence": 9,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
         "reference": 0,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 3360,
+          "name": "Isabella Farinelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9629836
+        },
+        {
+          "person_id": 2005,
+          "name": "Coriolano Luria-Scialpi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4334447
+        },
+        {
+          "person_id": 8080,
+          "name": "Cesare Cicilia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0499225
+        }
+      ]
     },
     {
       "id": "song:8079",
-      "song_id": 8079,
+      "work_type": "Song",
+      "work_id": 8079,
       "title": "Glance My Way",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -61,11 +132,43 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 3360,
+          "name": "Isabella Farinelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9629836
+        },
+        {
+          "person_id": 8080,
+          "name": "Cesare Cicilia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0499225
+        }
+      ]
     },
     {
       "id": "song:8079",
-      "song_id": 8079,
+      "work_type": "Song",
+      "work_id": 8079,
       "title": "Glance My Way",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -83,11 +186,115 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2006,
+          "name": "Filippo Pelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.615231
+        },
+        {
+          "person_id": 3360,
+          "name": "Isabella Farinelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9629836
+        },
+        {
+          "person_id": 3359,
+          "name": "Aneta Pruschke-Sölzer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4313087
+        },
+        {
+          "person_id": 8080,
+          "name": "Cesare Cicilia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0499225
+        }
+      ]
+    },
+    {
+      "id": "album:12362",
+      "work_type": "Album",
+      "work_id": 12362,
+      "title": "Dust and Spurs",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 4355,
+      "artist_name": "Ping Peng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4356,
+          "name": "Xia Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.104307
+        },
+        {
+          "person_id": 4355,
+          "name": "Ping Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3846188
+        },
+        {
+          "person_id": 12363,
+          "name": "Xiulan Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3930278
+        },
+        {
+          "person_id": 12364,
+          "name": "Xiulan Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3930278
+        }
       ]
     },
     {
       "id": "song:12574",
-      "song_id": 12574,
+      "work_type": "Song",
+      "work_id": 12574,
       "title": "Analog Affection Anthem",
       "genre": "Doom Metal",
       "notable": true,
@@ -105,11 +312,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1485,
+          "name": "Janina Kałek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6986258
+        },
+        {
+          "person_id": 3338,
+          "name": "Justin Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0301597
+        },
+        {
+          "person_id": 12575,
+          "name": "Jun Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400141
+        },
+        {
+          "person_id": 12576,
+          "name": "Jun Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400141
+        }
       ]
     },
     {
       "id": "song:12882",
-      "song_id": 12882,
+      "work_type": "Song",
+      "work_id": 12882,
       "title": "Cardiac Whispers",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -127,11 +374,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12884,
+          "name": "Andrew Carrillo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986073
+        },
+        {
+          "person_id": 12883,
+          "name": "John Maldonado",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984375
+        },
+        {
+          "person_id": 12885,
+          "name": "Nancy Arnold",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3984375
+        }
       ]
     },
     {
       "id": "song:15851",
-      "song_id": 15851,
+      "work_type": "Song",
+      "work_id": 15851,
       "title": "Whispers in the Locket",
       "genre": "Indie Folk",
       "notable": true,
@@ -149,27 +427,69 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14395,
+          "name": "Rosaria Ferrara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.045478
+        },
+        {
+          "person_id": 14396,
+          "name": "Valentina Ungaretti-Pucci",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045478
+        },
+        {
+          "person_id": 11834,
+          "name": "Zaira Balotelli-Peano",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388315
+        },
+        {
+          "person_id": 15853,
+          "name": "Nico Casalodi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3948543
+        },
+        {
+          "person_id": 15852,
+          "name": "Puccio Farnese",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946664
+        },
+        {
+          "person_id": 15854,
+          "name": "Lucia Ceci",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3946664
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12574",
-      "target": "song:12332",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:15851",
-      "target": "song:8079",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:3358",
-      "target": "song:8079",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:12882",
+      "source": "album:12362",
       "target": "song:12332",
       "type": "InStyleOf"
     },
@@ -177,6 +497,26 @@
       "source": "song:8079",
       "target": "song:12332",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:12882",
+      "target": "song:12332",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15851",
+      "target": "song:8079",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12574",
+      "target": "song:12332",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:3358",
+      "target": "song:8079",
+      "type": "CoverOf"
     }
   ]
 }

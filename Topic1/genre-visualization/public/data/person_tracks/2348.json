@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2347",
-      "song_id": 2347,
+      "work_type": "Song",
+      "work_id": 2347,
       "title": "Words Fail Me Now",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2349,
+          "name": "Ming Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4059472
+        }
+      ]
     },
     {
       "id": "song:2734",
-      "song_id": 2734,
+      "work_type": "Song",
+      "work_id": 2734,
       "title": "Whatever It Takes",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,11 +57,43 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2736,
+          "name": "Nanami Yoshida",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.409683
+        },
+        {
+          "person_id": 2737,
+          "name": "Jie Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.017226
+        },
+        {
+          "person_id": 2735,
+          "name": "Na Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997838
+        }
       ]
     },
     {
       "id": "song:6148",
-      "song_id": 6148,
+      "work_type": "Song",
+      "work_id": 6148,
       "title": "Sundown's Sorrow",
       "genre": "Synthpop",
       "notable": true,
@@ -65,11 +111,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 6149,
+          "name": "Tao Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962007
+        },
+        {
+          "person_id": 6150,
+          "name": "Yong Chen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962007
+        }
       ]
     },
     {
       "id": "song:8803",
-      "song_id": 8803,
+      "work_type": "Song",
+      "work_id": 8803,
       "title": "Shadows Between the Scales",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -87,11 +164,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2736,
+          "name": "Nanami Yoshida",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.409683
+        },
+        {
+          "person_id": 2737,
+          "name": "Jie Kang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.017226
+        },
+        {
+          "person_id": 8804,
+          "name": "Yan Yi",
+          "stage_name": "Verona Static",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4003592
+        },
+        {
+          "person_id": 8805,
+          "name": "Louis Herman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4003592
+        }
       ]
     },
     {
       "id": "song:12352",
-      "song_id": 12352,
+      "work_type": "Song",
+      "work_id": 12352,
       "title": "Silenced Screams",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,19 +226,54 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10914,
+          "name": "Min Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7164886
+        },
+        {
+          "person_id": 12353,
+          "name": "Sherry Bell",
+          "stage_name": "Echo Epoch",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946998
+        },
+        {
+          "person_id": 12354,
+          "name": "James Middleton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3946998
+        },
+        {
+          "person_id": 12355,
+          "name": "Jacob Gomez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946998
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8803",
+      "source": "song:12352",
       "target": "song:2347",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:2734",
-      "target": "song:2347",
-      "type": "LyricalReferenceTo"
+      "type": "DirectlySamples"
     },
     {
       "source": "song:6148",
@@ -129,9 +281,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:12352",
+      "source": "song:2734",
       "target": "song:2347",
-      "type": "DirectlySamples"
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:8803",
+      "target": "song:2347",
+      "type": "CoverOf"
     }
   ]
 }

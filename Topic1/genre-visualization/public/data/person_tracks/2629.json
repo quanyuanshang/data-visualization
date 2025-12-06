@@ -1,0 +1,159 @@
+{
+  "person_id": 2629,
+  "name": "Megan Franklin",
+  "stage_name": "Synthetic Prophet",
+  "nodes": [
+    {
+      "id": "album:2628",
+      "work_type": "Album",
+      "work_id": 2628,
+      "title": "Brick and Mortar Memories",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 2629,
+      "artist_name": "Megan Franklin (Synthetic Prophet)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2630,
+          "name": "Felicia Gilbert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3941545
+        },
+        {
+          "person_id": 2631,
+          "name": "Erik Sharp",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3941545
+        }
+      ]
+    },
+    {
+      "id": "song:2851",
+      "work_type": "Song",
+      "work_id": 2851,
+      "title": "Glasses Raised",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1304,
+      "artist_name": "Rüdiger Graf",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1304,
+          "name": "Rüdiger Graf",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5105996
+        }
+      ]
+    },
+    {
+      "id": "album:8115",
+      "work_type": "Album",
+      "work_id": 8115,
+      "title": "Switchboard Serenade",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": false,
+      "artist_id": 8116,
+      "artist_name": "Samar Sarma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 425,
+          "name": "Hazel Kara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9262712
+        },
+        {
+          "person_id": 4251,
+          "name": "Justin Thomas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0436146
+        },
+        {
+          "person_id": 8116,
+          "name": "Samar Sarma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        },
+        {
+          "person_id": 8117,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:8115",
+      "target": "album:2628",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:2851",
+      "target": "album:2628",
+      "type": "InStyleOf"
+    }
+  ]
+}

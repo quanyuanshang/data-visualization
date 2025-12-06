@@ -1,0 +1,99 @@
+{
+  "person_id": 7456,
+  "name": "Michael Wise",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:7454",
+      "work_type": "Album",
+      "work_id": 7454,
+      "title": "Ephemeral Midsummer Illusion",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1993,
+      "single": false,
+      "own": true,
+      "artist_id": 7456,
+      "artist_name": "Michael Wise",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7455,
+          "name": "Kyle Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4037302
+        }
+      ]
+    },
+    {
+      "id": "song:11813",
+      "work_type": "Song",
+      "work_id": 11813,
+      "title": "Voltage Celebration",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": false,
+      "own": false,
+      "artist_id": 1131,
+      "artist_name": "Reinhild Krein",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1131,
+          "name": "Reinhild Krein",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0512958
+        },
+        {
+          "person_id": 1132,
+          "name": "Mehdi Hering",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0512958
+        },
+        {
+          "person_id": 11814,
+          "name": "Torsten Etzold",
+          "stage_name": "Ardent",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397945
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11813",
+      "target": "album:7454",
+      "type": "InStyleOf"
+    }
+  ]
+}

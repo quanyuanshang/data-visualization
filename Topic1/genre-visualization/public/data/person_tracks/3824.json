@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3823",
-      "song_id": 3823,
+      "work_type": "Song",
+      "work_id": 3823,
       "title": "Arrows of Yearning",
       "genre": "Americana",
       "notable": true,
@@ -21,7 +22,79 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 936,
+          "name": "Fang Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7049956
+        },
+        {
+          "person_id": 3825,
+          "name": "Min Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0310044
+        }
+      ]
+    },
+    {
+      "id": "album:8663",
+      "work_type": "Album",
+      "work_id": 8663,
+      "title": "Whispers of Insignificance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 3824,
+      "artist_name": "Na Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3825,
+          "name": "Min Cui",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0310044
+        },
+        {
+          "person_id": 8664,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398017
+        },
+        {
+          "person_id": 8665,
+          "name": "Juan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398017
+        }
+      ]
     }
   ],
   "links": []

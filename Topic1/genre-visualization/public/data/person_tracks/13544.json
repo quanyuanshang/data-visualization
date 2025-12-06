@@ -1,0 +1,157 @@
+{
+  "person_id": 13544,
+  "name": "Jun Xie",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13543",
+      "work_type": "Album",
+      "work_id": 13543,
+      "title": "Brightness Beyond the Shadows",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 13544,
+      "artist_name": "Jun Xie",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7415,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.7844315
+        }
+      ]
+    },
+    {
+      "id": "song:478",
+      "work_type": "Song",
+      "work_id": 478,
+      "title": "Whispers of Green Hope",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 480,
+      "artist_name": "Jun Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 480,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7072566
+        },
+        {
+          "person_id": 479,
+          "name": "Yong Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398349
+        }
+      ]
+    },
+    {
+      "id": "song:16724",
+      "work_type": "Song",
+      "work_id": 16724,
+      "title": "Sole Survivor",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 2656,
+      "artist_name": "Brandon Santos",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10841,
+          "name": "Leslie Moore",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9917715
+        },
+        {
+          "person_id": 2656,
+          "name": "Brandon Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.517714
+        },
+        {
+          "person_id": 16726,
+          "name": "Christopher Martinez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3357594
+        },
+        {
+          "person_id": 16725,
+          "name": "Russell Blake",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.267805
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16724",
+      "target": "album:13543",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:478",
+      "target": "album:13543",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

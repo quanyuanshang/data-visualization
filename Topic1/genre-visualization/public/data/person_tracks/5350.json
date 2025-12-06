@@ -1,0 +1,144 @@
+{
+  "person_id": 5350,
+  "name": "Wei Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:5348",
+      "work_type": "Album",
+      "work_id": 5348,
+      "title": "Porcelain Rebellion",
+      "genre": "Americana",
+      "notable": false,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 5350,
+      "artist_name": "Wei Zeng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5349,
+          "name": "Wei Zhong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979797
+        }
+      ]
+    },
+    {
+      "id": "song:128",
+      "work_type": "Song",
+      "work_id": 128,
+      "title": "Sovereign Echoes",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 131,
+      "artist_name": "Li Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 130,
+          "name": "Yang Gu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984265
+        },
+        {
+          "person_id": 131,
+          "name": "Li Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984265
+        },
+        {
+          "person_id": 133,
+          "name": "Juan Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984265
+        },
+        {
+          "person_id": 134,
+          "name": "Steven Cordova",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984265
+        },
+        {
+          "person_id": 136,
+          "name": "Fang Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984265
+        },
+        {
+          "person_id": 129,
+          "name": "Kim Gonzalez",
+          "stage_name": " Ray Phoenix",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984058
+        },
+        {
+          "person_id": 132,
+          "name": "Jie Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984058
+        },
+        {
+          "person_id": 135,
+          "name": "Xia Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984058
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:128",
+      "target": "album:5348",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

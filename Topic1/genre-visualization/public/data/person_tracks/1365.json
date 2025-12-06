@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1364",
-      "song_id": 1364,
+      "work_type": "Song",
+      "work_id": 1364,
       "title": "Echoes of a Puppet State",
       "genre": "Speed Metal",
       "notable": true,
@@ -21,11 +22,34 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1367,
+          "name": "Cheryl Malone",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0364668
+        },
+        {
+          "person_id": 1366,
+          "name": "Julie Griffin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977888
+        }
+      ]
     },
     {
       "id": "song:9827",
-      "song_id": 9827,
+      "work_type": "Song",
+      "work_id": 9827,
       "title": "Evighetens Sång (Song of Eternity)",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +65,65 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1367,
+          "name": "Cheryl Malone",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0364668
+        },
+        {
+          "person_id": 9828,
+          "name": "Allison Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979878
+        }
+      ]
+    },
+    {
+      "id": "album:15252",
+      "work_type": "Album",
+      "work_id": 15252,
+      "title": "God Save Our Noble Realm",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 1365,
+      "artist_name": "Valerie Brown",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15253,
+          "name": "Jeffrey Morgan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978617
+        }
+      ]
     },
     {
       "id": "song:11439",
-      "song_id": 11439,
+      "work_type": "Song",
+      "work_id": 11439,
       "title": "Carmela's Midnight Dance",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -63,6 +141,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11440,
+          "name": "Tiffany Fitzpatrick",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988025
+        },
+        {
+          "person_id": 11441,
+          "name": "Hannah Richard",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988001
+        }
       ]
     }
   ],

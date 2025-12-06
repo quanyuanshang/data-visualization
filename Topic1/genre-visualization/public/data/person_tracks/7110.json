@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7107",
-      "song_id": 7107,
+      "work_type": "Song",
+      "work_id": 7107,
       "title": "Traces of Yesterday",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,120 @@
       "own": true,
       "artist_id": 7110,
       "artist_name": "Lei Qiu",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4678,
+          "name": "Jun Han",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4357004
+        },
+        {
+          "person_id": 7108,
+          "name": "Wei Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398841
+        },
+        {
+          "person_id": 7109,
+          "name": "Qiang Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398841
+        },
+        {
+          "person_id": 7111,
+          "name": "Yang Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398841
+        },
+        {
+          "person_id": 7112,
+          "name": "Ping Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398841
+        }
+      ]
+    },
+    {
+      "id": "album:11888",
+      "work_type": "Album",
+      "work_id": 11888,
+      "title": "Mette's Promise",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 6355,
+      "artist_name": "Ping Tao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9994,
+          "name": "Juan Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302747
+        },
+        {
+          "person_id": 6355,
+          "name": "Ping Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0495055
+        },
+        {
+          "person_id": 6352,
+          "name": "Wei Wei",
+          "stage_name": "Shadow Choir",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0371997
+        }
+      ]
     },
     {
       "id": "song:17238",
-      "song_id": 17238,
+      "work_type": "Song",
+      "work_id": 17238,
       "title": "Ocean Breeze",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,6 +146,17 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17235,
+          "name": "Genevieve Bell",
+          "stage_name": "Lux Ravenna",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0722814
+        }
       ]
     }
   ],
@@ -51,6 +165,11 @@
       "source": "song:17238",
       "target": "song:7107",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:11888",
+      "target": "song:7107",
+      "type": "InterpolatesFrom"
     }
   ]
 }

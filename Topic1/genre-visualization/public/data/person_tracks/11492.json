@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11491",
-      "song_id": 11491,
+      "work_type": "Song",
+      "work_id": 11491,
       "title": "Crimson Betrayal",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 11492,
       "artist_name": "Hector Porcel Gomis",
-      "influence": 16,
+      "influence": 19,
       "influence_breakdown": {
         "cover": 1,
         "sample": 2,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11493,
+          "name": "Francisco Lyons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000924
+        },
+        {
+          "person_id": 11494,
+          "name": "Nicolasa Zaragoza Asenjo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000924
+        }
+      ]
     },
     {
       "id": "song:5911",
-      "song_id": 5911,
+      "work_type": "Song",
+      "work_id": 5911,
       "title": "Sleepless Memories",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,11 +66,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 5912,
+          "name": "Xia Xue",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0053184
+        }
       ]
     },
     {
       "id": "song:6351",
-      "song_id": 6351,
+      "work_type": "Song",
+      "work_id": 6351,
       "title": "Rain of Affection",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -65,11 +110,52 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6355,
+          "name": "Ping Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0495055
+        },
+        {
+          "person_id": 6352,
+          "name": "Wei Wei",
+          "stage_name": "Shadow Choir",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0371997
+        },
+        {
+          "person_id": 6353,
+          "name": "Chao Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4011524
+        },
+        {
+          "person_id": 6354,
+          "name": "Jun Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4011524
+        }
       ]
     },
     {
       "id": "song:7936",
-      "song_id": 7936,
+      "work_type": "Song",
+      "work_id": 7936,
       "title": "Olśnienie",
       "genre": "Indie Rock",
       "notable": true,
@@ -87,11 +173,86 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9371912
+        }
+      ]
+    },
+    {
+      "id": "album:14795",
+      "work_type": "Album",
+      "work_id": 14795,
+      "title": "Tender Fragments and Musical Pauses",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2740,
+      "artist_name": "Carolyn Salas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2740,
+          "name": "Carolyn Salas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0349295
+        },
+        {
+          "person_id": 14796,
+          "name": "Bobby Guzman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978767
+        },
+        {
+          "person_id": 14797,
+          "name": "Rachel Curry",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978767
+        }
       ]
     },
     {
       "id": "song:14897",
-      "song_id": 14897,
+      "work_type": "Song",
+      "work_id": 14897,
       "title": "Half-Light Harmony",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -109,19 +270,63 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14898,
+          "name": "Darshit Mannan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 14899,
+          "name": "Nirvaan Thaker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 14900,
+          "name": "Tammy Campos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        },
+        {
+          "person_id": 14901,
+          "name": "Parinaaz Deshmukh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985121
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6351",
+      "source": "song:7936",
+      "target": "song:11491",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14897",
       "target": "song:11491",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:7936",
+      "source": "album:14795",
       "target": "song:11491",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:5911",
@@ -129,7 +334,7 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:14897",
+      "source": "song:6351",
       "target": "song:11491",
       "type": "DirectlySamples"
     }

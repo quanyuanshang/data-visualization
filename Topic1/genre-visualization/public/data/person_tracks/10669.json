@@ -5,12 +5,73 @@
   "nodes": [
     {
       "id": "song:11729",
-      "song_id": 11729,
+      "work_type": "Song",
+      "work_id": 11729,
       "title": "Whispers of Unexpected Joy",
       "genre": "Americana",
       "notable": true,
       "release_year": 2013,
       "single": true,
+      "own": true,
+      "artist_id": 10669,
+      "artist_name": "Yan Kang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6866,
+          "name": "Kimberly Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.437869
+        },
+        {
+          "person_id": 10670,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        },
+        {
+          "person_id": 10671,
+          "name": "Yan Guo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        },
+        {
+          "person_id": 10672,
+          "name": "Jun Shao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0481358
+        }
+      ]
+    },
+    {
+      "id": "album:10668",
+      "work_type": "Album",
+      "work_id": 10668,
+      "title": "Riverbed Memories",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
       "own": true,
       "artist_id": 10669,
       "artist_name": "Yan Kang",
@@ -21,8 +82,122 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6866,
+          "name": "Kimberly Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.437869
+        },
+        {
+          "person_id": 10670,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        },
+        {
+          "person_id": 10671,
+          "name": "Yan Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        },
+        {
+          "person_id": 10672,
+          "name": "Jun Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        }
+      ]
+    },
+    {
+      "id": "album:10668",
+      "work_type": "Album",
+      "work_id": 10668,
+      "title": "Riverbed Memories",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 6866,
+      "artist_name": "Kimberly Roberts",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6866,
+          "name": "Kimberly Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.437869
+        },
+        {
+          "person_id": 10669,
+          "name": "Yan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        },
+        {
+          "person_id": 10670,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        },
+        {
+          "person_id": 10671,
+          "name": "Yan Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        },
+        {
+          "person_id": 10672,
+          "name": "Jun Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481358
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10668",
+      "target": "song:11729",
+      "type": "InStyleOf"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2704",
-      "song_id": 2704,
+      "work_type": "Song",
+      "work_id": 2704,
       "title": "Theatrical Tempest",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2706,
+          "name": "Zachary Francis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7104144
+        },
+        {
+          "person_id": 2707,
+          "name": "Robert Woods",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4413185
+        }
+      ]
     },
     {
       "id": "song:10534",
-      "song_id": 10534,
+      "work_type": "Song",
+      "work_id": 10534,
       "title": "Twelve Bells of Augsburg",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -41,11 +63,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2706,
+          "name": "Zachary Francis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7104144
+        },
+        {
+          "person_id": 2707,
+          "name": "Robert Woods",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4413185
+        }
+      ]
     },
     {
       "id": "song:10534",
-      "song_id": 10534,
+      "work_type": "Song",
+      "work_id": 10534,
       "title": "Twelve Bells of Augsburg",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -63,11 +107,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2706,
+          "name": "Zachary Francis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7104144
+        },
+        {
+          "person_id": 2707,
+          "name": "Robert Woods",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4413185
+        },
+        {
+          "person_id": 2705,
+          "name": "Jeremiah Love",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0207887
+        }
       ]
     },
     {
       "id": "song:17280",
-      "song_id": 17280,
+      "work_type": "Song",
+      "work_id": 17280,
       "title": "Electric Eel Love",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -85,6 +161,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],

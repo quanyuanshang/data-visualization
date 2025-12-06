@@ -9,7 +9,7 @@
       <div class="title-info">
         <h1>{{ genre }}</h1>
         <p class="subtitle">
-          共 {{ props.totalArtists }} 位音乐人
+          共 {{ props.totalArtists }} 位{{ isSuperstarView ? '超新星候选人' : '音乐人' }}
           <span v-if="totalPages > 1">｜每页 {{ props.pageSize }} 位｜第 {{ props.currentPage }} / {{ totalPages }} 页</span>
         </p>
       </div>
@@ -23,6 +23,10 @@
           <radialGradient id="artist-gradient" cx="30%" cy="30%">
             <stop offset="0%" :stop-color="genreColor" stop-opacity="1" />
             <stop offset="100%" :stop-color="genreColor" stop-opacity="0.6" />
+          </radialGradient>
+          <radialGradient id="superstar-gradient" cx="30%" cy="30%">
+            <stop offset="0%" stop-color="#ffd700" stop-opacity="1" />
+            <stop offset="100%" stop-color="#b8860b" stop-opacity="0.8" />
           </radialGradient>
         </defs>
         
@@ -110,59 +114,48 @@
           >
             <circle
               :r="node.radius"
-              fill="url(#artist-gradient)"
-              :stroke="genreColor"
-              :stroke-width="1.5"
+              :fill="node.isSuperstar ? 'url(#superstar-gradient)' : 'url(#artist-gradient)'"
+              :stroke="node.isSuperstar ? '#fff' : genreColor"
+              :stroke-width="node.isSuperstar ? 2 : 1.5"
               class="artist-circle"
               :class="{ 'hovered': hoveredArtist === node.artist.person_id }"
               @click="handleArtistClick(node.artist)"
-              @mouseenter="hoveredArtist = node.artist.person_id"
-              @mouseleave="hoveredArtist = null"
+              @mouseenter="handleArtistHover($event, node)"
+              @mouseleave="handleArtistLeave"
             />
-            
-            <!-- 音乐人名称标签（只在悬停时显示） -->
-            <g
-              v-show="hoveredArtist === node.artist.person_id"
-              class="artist-label-group"
-            >
-              <rect
-                :x="-node.labelWidth / 2 - 4"
-                :y="-node.radius - 25"
-                :width="node.labelWidth + 8"
-                :height="20"
-                fill="rgba(0, 0, 0, 0.8)"
-                rx="4"
-              />
-              <text
-                :y="-node.radius - 12"
-                fill="white"
-                text-anchor="middle"
-                dominant-baseline="middle"
-                class="artist-label"
-                font-size="12"
-              >
-                {{ node.artist.name }}
-              </text>
-              <text
-                :y="-node.radius - 2"
-                fill="white"
-                text-anchor="middle"
-                dominant-baseline="middle"
-                class="artist-score"
-                font-size="10"
-              >
-                {{ getMetricLabel(props.sortMetric) }}: {{ formatMetricValue(node.artist[props.sortMetric], props.sortMetric) }}
-              </text>
-            </g>
           </g>
         </g>
       </svg>
       
+      <!-- 音乐人名称标签/Tooltip（悬停显示，位置跟随） -->
+      <div
+        v-if="hoveredNode"
+        class="artist-tooltip"
+        :style="{ left: tooltipPos.x + 'px', top: tooltipPos.y + 'px' }"
+      >
+        <div class="tooltip-header">
+           <strong class="tooltip-name">{{ hoveredNode.artist.name }}</strong>
+           <span class="tooltip-score" v-if="!isSuperstarView">{{ getMetricLabel(props.sortMetric) }}: {{ formatMetricValue(hoveredNode.artist[props.sortMetric], props.sortMetric) }}</span>
+           <span class="tooltip-score" v-else>预测潜力: {{ formatMetricValue(hoveredNode.artist.score, 'score') }}</span>
+        </div>
+
+        <!-- 超新星模式：SHAP 因子图表 -->
+        <div v-if="isSuperstarView && hoveredNode.artist.shap_explanation" class="shap-chart">
+          <div class="shap-title">✨ 核心潜力因素 (Top 5)</div>
+          <div class="shap-bar-container" v-for="(factor, idx) in getTopPositiveFactors(hoveredNode.artist.shap_explanation)" :key="idx">
+             <div class="shap-label">{{ getFeatureLabel(factor.feature) }}</div>
+             <div class="shap-bar-bg">
+                <div class="shap-bar-fill" :style="{ width: (factor.impact * 100) + '%' }"></div>
+             </div>
+          </div>
+        </div>
+      </div>
+      
       <!-- 图例 -->
       <div class="legend">
         <div class="legend-item">
-          <div class="legend-circle" :style="{ background: genreColor }"></div>
-          <span>圆圈大小 = {{ getMetricLabel(props.sortMetric) }}</span>
+          <div class="legend-circle" :style="{ background: isSuperstarView ? '#ffd700' : genreColor }"></div>
+          <span>圆圈大小 = {{ isSuperstarView ? 'AI预测潜力值' : getMetricLabel(props.sortMetric) }}</span>
         </div>
         <div class="legend-item">
           <span>悬停查看详细信息</span>
@@ -245,6 +238,9 @@ const svgRef = ref(null)
 const width = ref(1200)
 const height = ref(800)
 const hoveredArtist = ref(null)
+const hoveredNode = ref(null) // 存储当前悬停的节点对象，用于Tooltip
+const tooltipPos = ref({ x: 0, y: 0 })
+
 const hoveredSoundWaveBar = ref(null)
 const sankeyTooltipX = ref(0)
 const sankeyTooltipY = ref(0)
@@ -259,6 +255,11 @@ const centerY = computed(() => height.value / 2)
 const centerRadius = computed(() => Math.min(width.value, height.value) * 0.15) // 增大一点中心半径以展示唱片细节
 const ringInnerRadius = computed(() => centerRadius.value + 15) // 音波起始半径
 const maxWaveLength = computed(() => 120) // 音波最大长度
+
+// 判断是否为超新星视图
+const isSuperstarView = computed(() => {
+  return props.artists.length > 0 && props.artists[0].isSuperstar
+})
 
 // ==================== 计算属性 ====================
 /**
@@ -363,13 +364,14 @@ function initForceSimulation() {
     simulation.stop()
   }
   
-  const metricKey = props.sortMetric || 'score'
+  const metricKey = isSuperstarView.value ? 'score' : (props.sortMetric || 'score')
   const nodes = props.artists.map(artist => {
     const metricValue = artist[metricKey] ?? 0
     return {
       artist,
       score: artist.score || 0,
-      metricValue
+      metricValue,
+      isSuperstar: artist.isSuperstar // Pass through flag
     }
   })
   
@@ -389,15 +391,8 @@ function initForceSimulation() {
       .range([minRadius, maxRadius])
   }
   
-  const metricLabel = getMetricLabel(metricKey)
-  
   nodes.forEach((node, i) => {
     node.radius = radiusScale(node.metricValue)
-    const valueText = formatMetricValue(node.artist[metricKey], metricKey)
-    node.labelWidth = Math.max(
-      node.artist.name.length * 7,
-      (`${metricLabel}: ${valueText}`).length * 6
-    )
     // 初始位置：围绕中心圆圈均匀分布，距离中心稍远一点
     const angle = (i / nodes.length) * 2 * Math.PI
     const initialRadius = centerRadius.value + maxWaveLength.value + 80 
@@ -472,25 +467,6 @@ function initForceSimulation() {
     })
     artistNodes.value = [...nodes]
   })
-  
-  simulation.on('end', () => {
-      // Same boundary logic
-      nodes.forEach(node => {
-      const dx = node.x - centerX.value
-      const dy = node.y - centerY.value
-      const distance = Math.sqrt(dx * dx + dy * dy)
-      const minDistance = centerRadius.value + maxWaveLength.value + node.radius + 20
-      if (distance < minDistance) {
-        const angle = Math.atan2(dy, dx)
-        node.x = centerX.value + Math.cos(angle) * minDistance
-        node.y = centerY.value + Math.sin(angle) * minDistance
-      }
-      const margin = node.radius + 5
-      node.x = Math.max(margin, Math.min(width.value - margin, node.x))
-      node.y = Math.max(margin, Math.min(height.value - margin, node.y))
-    })
-    artistNodes.value = [...nodes]
-  })
 }
 
 // ==================== 方法 ====================
@@ -522,6 +498,39 @@ function formatMetricValue(value, metric) {
 
 function handleArtistClick(artist) {
   emit('view-tracks', artist)
+}
+
+function handleArtistHover(event, node) {
+  hoveredArtist.value = node.artist.person_id
+  hoveredNode.value = node
+  tooltipPos.value = { x: event.clientX + 15, y: event.clientY - 15 }
+}
+
+function handleArtistLeave() {
+  hoveredArtist.value = null
+  hoveredNode.value = null
+}
+
+function getTopPositiveFactors(shapExplanation) {
+  if (!shapExplanation || !shapExplanation.factors) return []
+  // Filter positive impacts and sort descending
+  return shapExplanation.factors
+    .filter(f => f.impact > 0)
+    .sort((a, b) => b.impact - a.impact)
+    .slice(0, 5)
+}
+
+function getFeatureLabel(featureKey) {
+   const map = {
+     'total_works': '作品总量',
+     'pagerank': '核心程度 (PageRank)',
+     'hub_score': '枢纽指数',
+     'authority_score': '权威指数',
+     'leverage_ratio': '杠杆率',
+     'notable_works': '成名作数量',
+     'time_span': '生涯跨度'
+   }
+   return map[featureKey] || featureKey
 }
 
 function handleGoBack() {
@@ -668,17 +677,77 @@ svg {
   filter: brightness(1.3);
 }
 
-.artist-label-group {
+.artist-tooltip {
+  position: fixed; /* Ensure it's on top of everything */
+  z-index: 2000;
+  background: rgba(20, 20, 20, 0.95);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: white;
   pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  min-width: 200px;
 }
 
-.artist-label {
-  font-weight: 600;
+.tooltip-header {
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 6px;
 }
 
-.artist-score {
-  opacity: 0.9;
+.tooltip-name {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 2px;
 }
+
+.tooltip-score {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* SHAP Chart Styles */
+.shap-chart {
+  margin-top: 8px;
+}
+
+.shap-title {
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffd700;
+  margin-bottom: 6px;
+}
+
+.shap-bar-container {
+  margin-bottom: 4px;
+}
+
+.shap-label {
+  font-size: 10px;
+  color: #ccc;
+  margin-bottom: 2px;
+}
+
+.shap-bar-bg {
+  width: 100%;
+  height: 6px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.shap-bar-fill {
+  height: 100%;
+  background: #667eea; /* Default blueish */
+  border-radius: 3px;
+}
+
+/* Use yellow/gold for superstar positive factors */
+.artist-view:has(.shap-chart) .shap-bar-fill {
+  background: #ffd700;
+}
+
 
 .legend {
   position: absolute;

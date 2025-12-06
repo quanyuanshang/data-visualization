@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:5113",
-      "song_id": 5113,
-      "title": "Gravity of Collapse",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 5115,
-      "artist_name": "Adam Nelson",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6106",
-      "song_id": 6106,
+      "work_type": "Song",
+      "work_id": 6106,
       "title": "Unanswered Questions",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,33 +22,138 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5114,
+          "name": "Evelyn Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5117,
+          "name": "Kevin Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5118,
+          "name": "Kathryn Sherman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 622,
+          "name": "Andrew Snyder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.1768644
+        },
+        {
+          "person_id": 5116,
+          "name": "James Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0197237
+        },
+        {
+          "person_id": 6107,
+          "name": "Natalie Fields",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395186
+        }
+      ]
     },
     {
-      "id": "song:5614",
-      "song_id": 5614,
-      "title": "Echoes of Your Memory",
-      "genre": "Synthwave",
+      "id": "song:5113",
+      "work_type": "Song",
+      "work_id": 5113,
+      "title": "Gravity of Collapse",
+      "genre": "Indie Rock",
       "notable": true,
       "release_year": 2026,
       "single": true,
-      "own": false,
-      "artist_id": 5615,
-      "artist_name": "Derek Cline",
-      "influence": 0,
+      "own": true,
+      "artist_id": 5115,
+      "artist_name": "Adam Nelson",
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5114,
+          "name": "Evelyn Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5117,
+          "name": "Kevin Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5118,
+          "name": "Kathryn Sherman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 622,
+          "name": "Andrew Snyder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.1768644
+        },
+        {
+          "person_id": 5116,
+          "name": "James Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0197237
+        }
       ]
     },
     {
       "id": "song:621",
-      "song_id": 621,
+      "work_type": "Song",
+      "work_id": 621,
       "title": "Leaves of Legacy",
       "genre": "Doom Metal",
       "notable": false,
@@ -85,6 +171,133 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 622,
+          "name": "Andrew Snyder",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.1768644
+        }
+      ]
+    },
+    {
+      "id": "song:5113",
+      "work_type": "Song",
+      "work_id": 5113,
+      "title": "Gravity of Collapse",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 622,
+      "artist_name": "Andrew Snyder",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5114,
+          "name": "Evelyn Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5117,
+          "name": "Kevin Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5118,
+          "name": "Kathryn Sherman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 622,
+          "name": "Andrew Snyder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.1768644
+        },
+        {
+          "person_id": 5115,
+          "name": "Adam Nelson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0197237
+        },
+        {
+          "person_id": 5116,
+          "name": "James Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0197237
+        }
+      ]
+    },
+    {
+      "id": "song:5614",
+      "work_type": "Song",
+      "work_id": 5614,
+      "title": "Echoes of Your Memory",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5615,
+      "artist_name": "Derek Cline",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5615,
+          "name": "Derek Cline",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0411105
+        }
       ]
     }
   ],
@@ -95,14 +308,14 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:5614",
-      "target": "song:5113",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:621",
       "target": "song:6106",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:5614",
+      "target": "song:5113",
+      "type": "InStyleOf"
     }
   ]
 }

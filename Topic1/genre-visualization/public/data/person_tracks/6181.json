@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6180",
-      "song_id": 6180,
+      "work_type": "Song",
+      "work_id": 6180,
       "title": "Dusk's Lingering Embrace",
       "genre": "Desert Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 6182,
+          "name": "Shirley Riley",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4423041
+        }
+      ]
     },
     {
       "id": "song:6643",
-      "song_id": 6643,
+      "work_type": "Song",
+      "work_id": 6643,
       "title": "The Companion's Heart",
       "genre": "Indie Folk",
       "notable": true,
@@ -34,18 +57,39 @@
       "own": true,
       "artist_id": 6181,
       "artist_name": "Ming Tan",
-      "influence": 14,
+      "influence": 16,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
         "reference": 2,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 6182,
+          "name": "Shirley Riley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4423041
+        }
+      ]
     },
     {
       "id": "song:2433",
-      "song_id": 2433,
+      "work_type": "Song",
+      "work_id": 2433,
       "title": "Weekend Escape",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +107,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 2434,
+          "name": "Lei Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7158253
+        },
+        {
+          "person_id": 2435,
+          "name": "Shelly Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4000354
+        }
       ]
     },
     {
       "id": "song:6643",
-      "song_id": 6643,
+      "work_type": "Song",
+      "work_id": 6643,
       "title": "The Companion's Heart",
       "genre": "Indie Folk",
       "notable": true,
@@ -85,11 +160,41 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 6182,
+          "name": "Shirley Riley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4423041
+        },
+        {
+          "person_id": 6181,
+          "name": "Ming Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0499709
+        }
       ]
     },
     {
       "id": "song:3426",
-      "song_id": 3426,
+      "work_type": "Song",
+      "work_id": 3426,
       "title": "Silver's Gallop",
       "genre": "Desert Rock",
       "notable": true,
@@ -107,11 +212,69 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3430,
+          "name": "Ming Xiong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047089
+        },
+        {
+          "person_id": 3427,
+          "name": "Yan Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972008
+        },
+        {
+          "person_id": 3428,
+          "name": "Qiang Shao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3972008
+        },
+        {
+          "person_id": 3429,
+          "name": "Guiying Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972008
+        },
+        {
+          "person_id": 3431,
+          "name": "Tao Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972008
+        },
+        {
+          "person_id": 3432,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3972008
+        }
       ]
     },
     {
       "id": "song:7646",
-      "song_id": 7646,
+      "work_type": "Song",
+      "work_id": 7646,
       "title": "Rough Road Ahead",
       "genre": "Indie Folk",
       "notable": true,
@@ -129,11 +292,112 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7648,
+          "name": "Yan Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398166
+        },
+        {
+          "person_id": 7649,
+          "name": "Juan Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398166
+        },
+        {
+          "person_id": 7647,
+          "name": "Rebecca Schultz",
+          "stage_name": "Zephyr Saint",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981245
+        },
+        {
+          "person_id": 7650,
+          "name": "Qiang Xu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398098
+        }
+      ]
+    },
+    {
+      "id": "album:9749",
+      "work_type": "Album",
+      "work_id": 9749,
+      "title": "The Silence Between Heartbeats",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 9752,
+      "artist_name": "Chao Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        }
       ]
     },
     {
       "id": "song:12540",
-      "song_id": 12540,
+      "work_type": "Song",
+      "work_id": 12540,
       "title": "Klíče od cizího života (Keys to a Stranger's Life)",
       "genre": "Indie Folk",
       "notable": true,
@@ -151,11 +415,51 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 6182,
+          "name": "Shirley Riley",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4423041
+        },
+        {
+          "person_id": 12541,
+          "name": "Wei Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968143
+        },
+        {
+          "person_id": 12542,
+          "name": "Jie Fang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968143
+        }
       ]
     },
     {
       "id": "song:15444",
-      "song_id": 15444,
+      "work_type": "Song",
+      "work_id": 15444,
       "title": "Geri Dönüş (Return Journey)",
       "genre": "Desert Rock",
       "notable": true,
@@ -173,12 +477,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15446,
+          "name": "Li Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397871
+        },
+        {
+          "person_id": 15445,
+          "name": "Yong Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978288
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:3426",
+      "source": "song:2433",
+      "target": "song:6643",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2433",
+      "target": "song:6180",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:9749",
       "target": "song:6643",
       "type": "InStyleOf"
     },
@@ -188,9 +523,9 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:2433",
-      "target": "song:6180",
-      "type": "InStyleOf"
+      "source": "song:7646",
+      "target": "song:6643",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:15444",
@@ -198,19 +533,14 @@
       "type": "InterpolatesFrom"
     },
     {
+      "source": "song:3426",
+      "target": "song:6643",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:6643",
       "target": "song:6180",
       "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:7646",
-      "target": "song:6643",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:2433",
-      "target": "song:6643",
-      "type": "InStyleOf"
     }
   ]
 }

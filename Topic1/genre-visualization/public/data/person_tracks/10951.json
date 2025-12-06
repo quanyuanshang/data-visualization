@@ -1,0 +1,110 @@
+{
+  "person_id": 10951,
+  "name": "Brandon Wilson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10950",
+      "work_type": "Album",
+      "work_id": 10950,
+      "title": "Slumbering Visions",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 10951,
+      "artist_name": "Brandon Wilson",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4176,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.5098946
+        }
+      ]
+    },
+    {
+      "id": "song:12877",
+      "work_type": "Song",
+      "work_id": 12877,
+      "title": "Fragmented Chambers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 12878,
+      "artist_name": "Juan He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12880,
+          "name": "Wei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0087123
+        },
+        {
+          "person_id": 12881,
+          "name": "Frieda Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999305
+        },
+        {
+          "person_id": 12878,
+          "name": "Juan He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997607
+        },
+        {
+          "person_id": 12879,
+          "name": "Tao Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3995173
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12877",
+      "target": "album:10950",
+      "type": "InStyleOf"
+    }
+  ]
+}

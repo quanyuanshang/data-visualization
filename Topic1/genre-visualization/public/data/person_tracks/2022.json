@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2019",
-      "song_id": 2019,
+      "work_type": "Song",
+      "work_id": 2019,
       "title": "Detonation Point",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,50 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 2024,
+          "name": "Juan Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9287055
+        },
+        {
+          "person_id": 2020,
+          "name": "Ping Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958356
+        },
+        {
+          "person_id": 2021,
+          "name": "Xiuying Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958356
+        }
+      ]
     },
     {
       "id": "song:17161",
-      "song_id": 17161,
+      "work_type": "Song",
+      "work_id": 17161,
       "title": "Glass Towers, Broken Hearts",
       "genre": "Synthpop",
       "notable": true,
@@ -43,6 +83,17 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17155,
+          "name": "Claire Holmes",
+          "stage_name": "Jaye Finch",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9565325
+        }
       ]
     }
   ],

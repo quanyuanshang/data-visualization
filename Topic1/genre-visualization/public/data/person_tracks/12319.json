@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12316",
-      "song_id": 12316,
+      "work_type": "Song",
+      "work_id": 12316,
       "title": "Rhythm of Us",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12317,
+          "name": "Riaan Balan",
+          "stage_name": " Ben Echo",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399343
+        },
+        {
+          "person_id": 12318,
+          "name": "Alicia Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993223
+        },
+        {
+          "person_id": 12320,
+          "name": "Prisha Varkey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993223
+        }
+      ]
     },
     {
       "id": "song:17010",
-      "song_id": 17010,
+      "work_type": "Song",
+      "work_id": 17010,
       "title": "Paper Sunsets",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,6 +75,17 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17004,
+          "name": "Willow Sage",
+          "stage_name": "Horizon Fable",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9185874
+        }
       ]
     }
   ],

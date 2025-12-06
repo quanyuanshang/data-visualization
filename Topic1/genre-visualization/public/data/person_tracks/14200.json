@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14198",
-      "song_id": 14198,
+      "work_type": "Song",
+      "work_id": 14198,
       "title": "Timón de Esperanza",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,11 +22,52 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2613,
+          "name": "Yong Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.673987
+        },
+        {
+          "person_id": 11149,
+          "name": "Jie Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0449102
+        },
+        {
+          "person_id": 10887,
+          "name": "Jing Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.033993
+        },
+        {
+          "person_id": 14199,
+          "name": "Juan Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3916442
+        }
+      ]
     },
     {
       "id": "song:9631",
-      "song_id": 9631,
+      "work_type": "Song",
+      "work_id": 9631,
       "title": "Fading Echoes of Annabel",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,11 +85,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9633,
+          "name": "Bryan Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4291606
+        },
+        {
+          "person_id": 9635,
+          "name": "Ronald Kennedy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4291606
+        },
+        {
+          "person_id": 9632,
+          "name": "Allison Curtis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4000652
+        },
+        {
+          "person_id": 9634,
+          "name": "Kevin Ross",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4000652
+        }
       ]
     },
     {
       "id": "song:9861",
-      "song_id": 9861,
+      "work_type": "Song",
+      "work_id": 9861,
       "title": "Stalemate",
       "genre": "Desert Rock",
       "notable": true,
@@ -65,19 +147,76 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4185,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2553897
+        },
+        {
+          "person_id": 9863,
+          "name": "Qiang Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0360744
+        },
+        {
+          "person_id": 9866,
+          "name": "Ping Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0360744
+        },
+        {
+          "person_id": 9862,
+          "name": "Ronald Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3990157
+        },
+        {
+          "person_id": 9864,
+          "name": "Ping Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990157
+        },
+        {
+          "person_id": 9865,
+          "name": "Ping Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990157
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:9861",
-      "target": "song:14198",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:9631",
       "target": "song:14198",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9861",
+      "target": "song:14198",
+      "type": "CoverOf"
     }
   ]
 }

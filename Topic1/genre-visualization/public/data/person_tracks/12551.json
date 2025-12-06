@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12550",
-      "song_id": 12550,
+      "work_type": "Song",
+      "work_id": 12550,
       "title": "Shake What You've Got",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12552,
+          "name": "Jie Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953934
+        },
+        {
+          "person_id": 12553,
+          "name": "Yan Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3953934
+        }
+      ]
     },
     {
       "id": "song:12535",
-      "song_id": 12535,
+      "work_type": "Song",
+      "work_id": 12535,
       "title": "Whispers from the Fifty States",
       "genre": "Darkwave",
       "notable": true,
@@ -43,6 +65,36 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 12537,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049924
+        },
+        {
+          "person_id": 12536,
+          "name": "Monica Coleman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973176
+        }
       ]
     }
   ],

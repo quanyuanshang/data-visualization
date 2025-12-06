@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7958",
-      "song_id": 7958,
+      "work_type": "Song",
+      "work_id": 7958,
       "title": "Symphonies of the Creator",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,6 +15,49 @@
       "own": true,
       "artist_id": 7960,
       "artist_name": "Dagmara Smorąg",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 7959,
+          "name": "Kaja Juroszek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4365463
+        }
+      ]
+    },
+    {
+      "id": "album:3449",
+      "work_type": "Album",
+      "work_id": 3449,
+      "title": "Shadows of What We Pretend",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +65,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 3450,
+          "name": "Julianna Mytnik",
+          "stage_name": "Runaway Orchestra",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3962605
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:3449",
+      "target": "song:7958",
+      "type": "DirectlySamples"
+    }
+  ]
 }

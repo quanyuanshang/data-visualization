@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15881",
-      "song_id": 15881,
+      "work_type": "Song",
+      "work_id": 15881,
       "title": "Nietzsche's Muse",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,110 @@
       "own": true,
       "artist_id": 15883,
       "artist_name": "Debra Curry",
-      "influence": 2,
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8262,
+          "name": "Lorenzo Morabito",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0861514
+        },
+        {
+          "person_id": 5778,
+          "name": "Xiuying Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0397701
+        },
+        {
+          "person_id": 15882,
+          "name": "Tao Du",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978965
+        },
+        {
+          "person_id": 15884,
+          "name": "Lei Mao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978965
+        }
+      ]
+    },
+    {
+      "id": "album:13813",
+      "work_type": "Album",
+      "work_id": 13813,
+      "title": "Wrapped Around Her Wishes",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 13814,
+      "artist_name": "Jing Cui",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13814,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980188
+        },
+        {
+          "person_id": 13816,
+          "name": "Jie Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980188
+        },
+        {
+          "person_id": 13815,
+          "name": "Jing Hu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980055
+        }
+      ]
     },
     {
       "id": "song:15699",
-      "song_id": 15699,
+      "work_type": "Song",
+      "work_id": 15699,
       "title": "Chamber of Secrets: A Musical Dialogue",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +136,54 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13153,
+          "name": "Min Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4423532
+        },
+        {
+          "person_id": 10223,
+          "name": "Lei Lu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4346054
+        },
+        {
+          "person_id": 10224,
+          "name": "Xia Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4346054
+        },
+        {
+          "person_id": 15701,
+          "name": "Juan Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0438728
+        },
+        {
+          "person_id": 15700,
+          "name": "Ping Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980954
+        }
       ]
     }
   ],
@@ -51,6 +192,11 @@
       "source": "song:15699",
       "target": "song:15881",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:13813",
+      "target": "song:15881",
+      "type": "DirectlySamples"
     }
   ]
 }

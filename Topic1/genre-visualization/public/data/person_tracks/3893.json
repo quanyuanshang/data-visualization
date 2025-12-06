@@ -4,8 +4,60 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:3891",
+      "work_type": "Album",
+      "work_id": 3891,
+      "title": "Melodía de Sentimientos",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 3893,
+      "artist_name": "Tao Du",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3895,
+          "name": "Yoko Fujita",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7223434
+        },
+        {
+          "person_id": 3894,
+          "name": "Yan Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439017
+        },
+        {
+          "person_id": 3892,
+          "name": "Ming Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9883323
+        }
+      ]
+    },
+    {
       "id": "song:11567",
-      "song_id": 11567,
+      "work_type": "Song",
+      "work_id": 11567,
       "title": "Wild Tonight",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,8 +73,115 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3895,
+          "name": "Yoko Fujita",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7223434
+        },
+        {
+          "person_id": 3894,
+          "name": "Yan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439017
+        },
+        {
+          "person_id": 3892,
+          "name": "Ming Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9883323
+        }
+      ]
+    },
+    {
+      "id": "song:10636",
+      "work_type": "Song",
+      "work_id": 10636,
+      "title": "Prophetic Shadows",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 3089,
+      "artist_name": "Ping Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3089,
+          "name": "Ping Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4249942
+        },
+        {
+          "person_id": 10637,
+          "name": "Ming Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0415232
+        },
+        {
+          "person_id": 10638,
+          "name": "Juan Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0415232
+        },
+        {
+          "person_id": 10639,
+          "name": "Min Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0415232
+        },
+        {
+          "person_id": 10640,
+          "name": "Tao Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986964
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:10636",
+      "target": "album:3891",
+      "type": "InStyleOf"
+    }
+  ]
 }

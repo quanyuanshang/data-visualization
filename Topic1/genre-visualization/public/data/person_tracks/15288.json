@@ -1,0 +1,166 @@
+{
+  "person_id": 15288,
+  "name": "Travis Gonzales",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:15287",
+      "work_type": "Album",
+      "work_id": 15287,
+      "title": "Terms of Alignment",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 15288,
+      "artist_name": "Travis Gonzales",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13054,
+          "name": "Karina Gunpf",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0081923
+        },
+        {
+          "person_id": 15289,
+          "name": "Donald Cooper",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3965158
+        }
+      ]
+    },
+    {
+      "id": "song:8731",
+      "work_type": "Song",
+      "work_id": 8731,
+      "title": "Winter's First Light",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 1103,
+      "artist_name": "Ekkehard Förster",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
+      ]
+    },
+    {
+      "id": "song:16716",
+      "work_type": "Song",
+      "work_id": 16716,
+      "title": "Echoes of the Incomplete",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 16718,
+      "artist_name": "Kim Craig",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16718,
+          "name": "Kim Craig",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983645
+        },
+        {
+          "person_id": 16717,
+          "name": "Vincent Berg",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982153
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16716",
+      "target": "album:15287",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:8731",
+      "target": "album:15287",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

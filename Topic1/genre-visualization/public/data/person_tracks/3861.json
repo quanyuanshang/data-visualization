@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3859",
-      "song_id": 3859,
-      "title": "The Eternal Tributary",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 3861,
-      "artist_name": "Matthäus Ladeck",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:6113",
-      "song_id": 6113,
-      "title": "The Mystery Remains",
-      "genre": "Alternative Rock",
-      "notable": false,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 3861,
-      "artist_name": "Matthäus Ladeck",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7157",
-      "song_id": 7157,
+      "work_type": "Song",
+      "work_id": 7157,
       "title": "Salt and Silence",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -61,19 +22,162 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7158,
+          "name": "Bartek Krzysiek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        },
+        {
+          "person_id": 7159,
+          "name": "Michael Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        },
+        {
+          "person_id": 7160,
+          "name": "Franck Gillet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        }
+      ]
     },
     {
-      "id": "song:9549",
-      "song_id": 9549,
-      "title": "Right Path Ahead",
-      "genre": "Dream Pop",
-      "notable": false,
+      "id": "song:3859",
+      "work_type": "Song",
+      "work_id": 3859,
+      "title": "The Eternal Tributary",
+      "genre": "Blues Rock",
+      "notable": true,
       "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 3861,
+      "artist_name": "Matthäus Ladeck",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3860,
+          "name": "Folkert Schmidtke",
+          "stage_name": "Abyssal Cadence",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984685
+        }
+      ]
+    },
+    {
+      "id": "song:6113",
+      "work_type": "Song",
+      "work_id": 6113,
+      "title": "The Mystery Remains",
+      "genre": "Alternative Rock",
+      "notable": false,
+      "release_year": 2020,
       "single": true,
+      "own": true,
+      "artist_id": 3861,
+      "artist_name": "Matthäus Ladeck",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6117,
+          "name": "Felix Hornich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.7976396
+        },
+        {
+          "person_id": 4993,
+          "name": "Hans-Eberhard Schleich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4409952
+        },
+        {
+          "person_id": 6114,
+          "name": "Frau Sybille Becker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.368524
+        },
+        {
+          "person_id": 6115,
+          "name": "Radmila Stey-Kambs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.368524
+        },
+        {
+          "person_id": 6116,
+          "name": "John Goodwin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.368524
+        },
+        {
+          "person_id": 6118,
+          "name": "Miranda Page",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.368524
+        }
+      ]
+    },
+    {
+      "id": "song:3859",
+      "work_type": "Song",
+      "work_id": 3859,
+      "title": "The Eternal Tributary",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
       "own": false,
-      "artist_id": 7993,
-      "artist_name": "Qiang Cheng",
+      "artist_id": 3860,
+      "artist_name": "Folkert Schmidtke (Abyssal Cadence)",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -82,12 +186,34 @@
         "style": 0
       },
       "relation_types": [
-        "CoverOf"
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3861,
+          "name": "Matthäus Ladeck",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.1577482
+        },
+        {
+          "person_id": 3860,
+          "name": "Folkert Schmidtke",
+          "stage_name": "Abyssal Cadence",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984685
+        }
       ]
     },
     {
       "id": "song:9647",
-      "song_id": 9647,
+      "work_type": "Song",
+      "work_id": 9647,
       "title": "Vivace: Bright Horizons",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -105,11 +231,33 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2080,
+          "name": "Ellen Ford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4679987
+        },
+        {
+          "person_id": 9648,
+          "name": "Gunther Hendriks",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0286164
+        }
       ]
     },
     {
       "id": "song:11363",
-      "song_id": 11363,
+      "work_type": "Song",
+      "work_id": 11363,
       "title": "Fragile Wounds of Passion",
       "genre": "Blues Rock",
       "notable": true,
@@ -127,10 +275,97 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6948,
+          "name": "Lori Hall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9119942
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6836832
+        },
+        {
+          "person_id": 11364,
+          "name": "Gwendolyn Fitzgerald",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4947286
+        }
+      ]
+    },
+    {
+      "id": "song:9549",
+      "work_type": "Song",
+      "work_id": 9549,
+      "title": "Right Path Ahead",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7993,
+      "artist_name": "Qiang Cheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7993,
+          "name": "Qiang Cheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.5188966
+        },
+        {
+          "person_id": 9550,
+          "name": "Kristen Lucero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947935
+        },
+        {
+          "person_id": 9551,
+          "name": "William Torres",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3947935
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:3859",
+      "target": "song:7157",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:9549",
       "target": "song:6113",
@@ -145,11 +380,6 @@
       "source": "song:11363",
       "target": "song:7157",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:3859",
-      "target": "song:7157",
-      "type": "InterpolatesFrom"
     }
   ]
 }

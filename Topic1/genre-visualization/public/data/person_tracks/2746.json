@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2743",
-      "song_id": 2743,
-      "title": "Right Here",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 2746,
-      "artist_name": "Linda Reed",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:16741",
-      "song_id": 16741,
+      "work_type": "Song",
+      "work_id": 16741,
       "title": "Harmonic Fragments",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,7 +22,122 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16742,
+          "name": "Edward Ellis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4008493
+        },
+        {
+          "person_id": 16743,
+          "name": "Holly Lucero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4008493
+        }
+      ]
+    },
+    {
+      "id": "song:2743",
+      "work_type": "Song",
+      "work_id": 2743,
+      "title": "Right Here",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 2746,
+      "artist_name": "Linda Reed",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2744,
+          "name": "Margot Adam",
+          "stage_name": " Reign",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398134
+        },
+        {
+          "person_id": 2745,
+          "name": "Frau Raphaela Bohnbach",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398134
+        }
+      ]
+    },
+    {
+      "id": "song:2743",
+      "work_type": "Song",
+      "work_id": 2743,
+      "title": "Right Here",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 2745,
+      "artist_name": "Frau Raphaela Bohnbach",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2746,
+          "name": "Linda Reed",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.052877
+        },
+        {
+          "person_id": 2744,
+          "name": "Margot Adam",
+          "stage_name": " Reign",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398134
+        },
+        {
+          "person_id": 2745,
+          "name": "Frau Raphaela Bohnbach",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398134
+        }
+      ]
     }
   ],
   "links": [

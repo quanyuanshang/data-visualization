@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:485",
-      "song_id": 485,
+      "work_type": "Song",
+      "work_id": 485,
       "title": "Resilience in Renewal",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 487,
+          "name": "Andrew Lang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0280397
+        }
+      ]
     },
     {
       "id": "song:1544",
-      "song_id": 1544,
+      "work_type": "Song",
+      "work_id": 1544,
       "title": "Tesadüfün Dansı (Dance of Coincidence)",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,6 +57,19 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 487,
+          "name": "Andrew Lang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0280397
+        }
       ]
     }
   ],

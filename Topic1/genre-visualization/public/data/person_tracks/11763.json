@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11753",
-      "song_id": 11753,
+      "work_type": "Song",
+      "work_id": 11753,
       "title": "Fragile Lotus: A Ballad for Juan",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -14,6 +15,129 @@
       "own": true,
       "artist_id": 11763,
       "artist_name": "Xiulan Guo",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1651,
+          "name": "Jun Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.020769
+        },
+        {
+          "person_id": 11759,
+          "name": "Fang Liu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9754622
+        },
+        {
+          "person_id": 11757,
+          "name": "Guiying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397443
+        },
+        {
+          "person_id": 11755,
+          "name": "Xiuying Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972552
+        },
+        {
+          "person_id": 11758,
+          "name": "Qiang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972552
+        },
+        {
+          "person_id": 11760,
+          "name": "Jing Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972552
+        },
+        {
+          "person_id": 11761,
+          "name": "Jun Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972552
+        },
+        {
+          "person_id": 11764,
+          "name": "Ming Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972552
+        },
+        {
+          "person_id": 11754,
+          "name": "Fang Qian",
+          "stage_name": " Solar Fang",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972344
+        },
+        {
+          "person_id": 11756,
+          "name": "Yang Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972344
+        },
+        {
+          "person_id": 11762,
+          "name": "Tao Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972344
+        }
+      ]
+    },
+    {
+      "id": "album:4046",
+      "work_type": "Album",
+      "work_id": 4046,
+      "title": "Sweet Katharina's Lament",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 4047,
+      "artist_name": "Qiang Shen",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +145,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4047,
+          "name": "Qiang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4048,
+          "name": "Fang Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4049,
+          "name": "Dora Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4050,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4046",
+      "target": "song:11753",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

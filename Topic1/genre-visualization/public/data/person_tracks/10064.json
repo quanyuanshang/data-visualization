@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10063",
-      "song_id": 10063,
+      "work_type": "Song",
+      "work_id": 10063,
       "title": "Seven Year Itch (And I Can't Scratch)",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10065,
+          "name": "Robert Cannon",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399898
+        },
+        {
+          "person_id": 10066,
+          "name": "Craig Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399898
+        }
+      ]
     },
     {
       "id": "song:1007",
-      "song_id": 1007,
+      "work_type": "Song",
+      "work_id": 1007,
       "title": "Nicotine Memories",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +66,36 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1008,
+          "name": "Valerio Zapata-Rico",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398311
+        },
+        {
+          "person_id": 1009,
+          "name": "Cecilia Parejo Carrillo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398311
+        },
+        {
+          "person_id": 1010,
+          "name": "Belén de Trillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398311
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14647",
-      "song_id": 14647,
+      "work_type": "Song",
+      "work_id": 14647,
       "title": "Spelling Rebellion",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,59 @@
       "own": true,
       "artist_id": 14649,
       "artist_name": "Jing Du",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6555,
+          "name": "Jasmine Adams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7076294
+        },
+        {
+          "person_id": 14648,
+          "name": "Gang Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399651
+        },
+        {
+          "person_id": 14650,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399651
+        },
+        {
+          "person_id": 14651,
+          "name": "Catherine Brooks",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399651
+        }
+      ]
     },
     {
       "id": "song:7045",
-      "song_id": 7045,
+      "work_type": "Song",
+      "work_id": 7045,
       "title": "Shadows of Sanctuary",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +85,124 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1360,
+          "name": "Jie Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4074876
+        },
+        {
+          "person_id": 7046,
+          "name": "Xiuying Bai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39856
+        },
+        {
+          "person_id": 7047,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39856
+        },
+        {
+          "person_id": 7048,
+          "name": "Lei Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39856
+        },
+        {
+          "person_id": 7049,
+          "name": "Chao Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39856
+        },
+        {
+          "person_id": 7050,
+          "name": "Yong Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39856
+        },
+        {
+          "person_id": 7051,
+          "name": "Xia Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39856
+        }
+      ]
+    },
+    {
+      "id": "album:14524",
+      "work_type": "Album",
+      "work_id": 14524,
+      "title": "Melodic Exposition",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 2383,
+      "artist_name": "Xavier Leclerc",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2383,
+          "name": "Xavier Leclerc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9075449
+        },
+        {
+          "person_id": 14525,
+          "name": "Rodney Hayes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980339
+        },
+        {
+          "person_id": 14526,
+          "name": "Janet Aguilar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980339
+        }
       ]
     }
   ],
@@ -51,6 +211,11 @@
       "source": "song:7045",
       "target": "song:14647",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14524",
+      "target": "song:14647",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

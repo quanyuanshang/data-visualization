@@ -1,0 +1,181 @@
+{
+  "person_id": 11940,
+  "name": "Elias Rouwenhorst",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11939",
+      "work_type": "Album",
+      "work_id": 11939,
+      "title": "Poison of Affection",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 11940,
+      "artist_name": "Elias Rouwenhorst",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5646,
+          "name": "Fang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9316685
+        }
+      ]
+    },
+    {
+      "id": "song:4774",
+      "work_type": "Song",
+      "work_id": 4774,
+      "title": "Title of Power",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2363,
+      "artist_name": "Daniël Reijers",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9107525
+        },
+        {
+          "person_id": 4775,
+          "name": "Sven Oude Heer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983092
+        }
+      ]
+    },
+    {
+      "id": "song:7261",
+      "work_type": "Song",
+      "work_id": 7261,
+      "title": "Candlelight Sonata",
+      "genre": "Alternative Rock",
+      "notable": false,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 7262,
+      "artist_name": "Xia Lin ( Knight IX)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7262,
+          "name": "Xia Lin",
+          "stage_name": " Knight IX",
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297585
+        }
+      ]
+    },
+    {
+      "id": "song:14240",
+      "work_type": "Song",
+      "work_id": 14240,
+      "title": "Shadows of a Celluloid Soul",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": false,
+      "artist_id": 7262,
+      "artist_name": "Xia Lin ( Knight IX)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7262,
+          "name": "Xia Lin",
+          "stage_name": " Knight IX",
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297585
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7261",
+      "target": "album:11939",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14240",
+      "target": "album:11939",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4774",
+      "target": "album:11939",
+      "type": "CoverOf"
+    }
+  ]
+}

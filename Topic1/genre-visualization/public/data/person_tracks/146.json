@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14778",
-      "song_id": 14778,
-      "title": "Nameless Emotion",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 146,
-      "artist_name": "Na Tang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:144",
-      "song_id": 144,
+      "work_type": "Song",
+      "work_id": 144,
       "title": "Echoes of Forgotten Memories",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +22,66 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 145,
+          "name": "Adrien Charles",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7255015
+        },
+        {
+          "person_id": 147,
+          "name": "Na Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4046214
+        }
+      ]
+    },
+    {
+      "id": "song:14778",
+      "work_type": "Song",
+      "work_id": 14778,
+      "title": "Nameless Emotion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 146,
+      "artist_name": "Na Tang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14779,
+          "name": "Li Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993788
+        }
+      ]
     },
     {
       "id": "song:4183",
-      "song_id": 4183,
+      "work_type": "Song",
+      "work_id": 4183,
       "title": "Familiar Fragments",
       "genre": "Doom Metal",
       "notable": true,
@@ -63,11 +99,50 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 4185,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2553897
+        },
+        {
+          "person_id": 1714,
+          "name": "Fang Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4236531
+        },
+        {
+          "person_id": 4184,
+          "name": "Chao Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007554
+        }
       ]
     },
     {
       "id": "song:14432",
-      "song_id": 14432,
+      "work_type": "Song",
+      "work_id": 14432,
       "title": "Love on the Kalamazoo River",
       "genre": "Doom Metal",
       "notable": true,
@@ -85,19 +160,58 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3441,
+          "name": "Li Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0391097
+        },
+        {
+          "person_id": 3440,
+          "name": "Guiying Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.030213
+        },
+        {
+          "person_id": 14433,
+          "name": "Juan Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982437
+        },
+        {
+          "person_id": 14434,
+          "name": "Min Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982437
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14432",
-      "target": "song:144",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:4183",
       "target": "song:144",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:14432",
+      "target": "song:144",
+      "type": "InterpolatesFrom"
     }
   ]
 }

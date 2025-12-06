@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12721",
-      "song_id": 12721,
+      "work_type": "Song",
+      "work_id": 12721,
       "title": "Sizzling Secrets",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,157 @@
       "own": true,
       "artist_id": 6002,
       "artist_name": "Charles Chase",
-      "influence": 4,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
         "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12722,
+          "name": "Robert Velasquez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4003155
+        }
+      ]
+    },
+    {
+      "id": "album:6001",
+      "work_type": "Album",
+      "work_id": 6001,
+      "title": "Constant, Wavering, Wavering",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": false,
+      "own": true,
+      "artist_id": 6002,
+      "artist_name": "Charles Chase",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        }
+      ]
+    },
+    {
+      "id": "album:8364",
+      "work_type": "Album",
+      "work_id": 8364,
+      "title": "The Destructive Impulse",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 6002,
+      "artist_name": "Charles Chase",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8365,
+          "name": "Calvin Kemp",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.40163
+        }
+      ]
+    },
+    {
+      "id": "album:10676",
+      "work_type": "Album",
+      "work_id": 10676,
+      "title": "Forgotten Creek Path",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 10677,
+      "artist_name": "Jason Chavez ( Echo Phoenix)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10677,
+          "name": "Jason Chavez",
+          "stage_name": " Echo Phoenix",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976185
+        },
+        {
+          "person_id": 10679,
+          "name": "Sharon Mitchell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3976185
+        },
+        {
+          "person_id": 10680,
+          "name": "Timothy Sanders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976185
+        },
+        {
+          "person_id": 10678,
+          "name": "Derek Robinson",
+          "stage_name": "Feral Aria",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975978
+        }
+      ]
     },
     {
       "id": "song:14474",
-      "song_id": 14474,
+      "work_type": "Song",
+      "work_id": 14474,
       "title": "Hunger Pangs",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,14 +183,94 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14475,
+          "name": "Janet Powers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978317
+        },
+        {
+          "person_id": 14476,
+          "name": "Jorge Atkinson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977382
+        }
+      ]
+    },
+    {
+      "id": "album:35",
+      "work_type": "Album",
+      "work_id": 35,
+      "title": "Sober Streets",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 37,
+      "artist_name": "Hansh Ramanathan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 37,
+          "name": "Hansh Ramanathan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0905833
+        },
+        {
+          "person_id": 36,
+          "name": "Alexis Church",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397526
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:35",
+      "target": "album:8364",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:14474",
       "target": "song:12721",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:6001",
+      "target": "album:8364",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:10676",
+      "target": "song:12721",
+      "type": "InStyleOf"
     }
   ]
 }

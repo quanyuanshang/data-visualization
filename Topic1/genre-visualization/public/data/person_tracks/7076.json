@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7074",
-      "song_id": 7074,
+      "work_type": "Song",
+      "work_id": 7074,
       "title": "Fractured Expressions",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,162 @@
       "own": true,
       "artist_id": 7076,
       "artist_name": "Benjamin Mercer",
-      "influence": 5,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
         "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 7075,
+          "name": "Fang Hou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4017737
+        }
+      ]
+    },
+    {
+      "id": "album:12328",
+      "work_type": "Album",
+      "work_id": 12328,
+      "title": "Maria's Celestial Reverie",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 7076,
+      "artist_name": "Benjamin Mercer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 7075,
+          "name": "Fang Hou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4017737
+        },
+        {
+          "person_id": 12331,
+          "name": "Lei Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985085
+        },
+        {
+          "person_id": 12329,
+          "name": "Min Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984878
+        },
+        {
+          "person_id": 12330,
+          "name": "Yong Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977318
+        }
+      ]
+    },
+    {
+      "id": "album:2889",
+      "work_type": "Album",
+      "work_id": 2889,
+      "title": "Silent Secrets",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 2891,
+      "artist_name": "Qiang Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2890,
+          "name": "Yan Ma",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982425
+        },
+        {
+          "person_id": 2891,
+          "name": "Qiang Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982217
+        },
+        {
+          "person_id": 2892,
+          "name": "Fang Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982217
+        }
+      ]
     },
     {
       "id": "song:4890",
-      "song_id": 4890,
+      "work_type": "Song",
+      "work_id": 4890,
       "title": "Naked Spectrum",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,6 +188,62 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1953,
+          "name": "Xiuying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7739844
+        },
+        {
+          "person_id": 3410,
+          "name": "Xia Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4275756
+        },
+        {
+          "person_id": 4891,
+          "name": "Jing Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.050012
+        },
+        {
+          "person_id": 3318,
+          "name": "Li Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3320,
+          "name": "Xia Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3322,
+          "name": "Wei Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        }
       ]
     }
   ],
@@ -51,6 +252,11 @@
       "source": "song:4890",
       "target": "song:7074",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:2889",
+      "target": "song:7074",
+      "type": "InStyleOf"
     }
   ]
 }

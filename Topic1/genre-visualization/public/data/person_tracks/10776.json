@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10773",
-      "song_id": 10773,
-      "title": "Grandfather's Weathered Hands",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": true,
-      "artist_id": 10776,
-      "artist_name": "Chloë de Gruil",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:12594",
-      "song_id": 12594,
-      "title": "Scaffolding of Silence",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2003,
-      "single": true,
-      "own": true,
-      "artist_id": 10776,
-      "artist_name": "Chloë de Gruil",
-      "influence": 7,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:14289",
-      "song_id": 14289,
+      "work_type": "Song",
+      "work_id": 14289,
       "title": "William Howard's Weighty Legacy",
       "genre": "Dream Pop",
       "notable": true,
@@ -61,11 +22,138 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14290,
+          "name": "Evie Feenstra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3950758
+        }
+      ]
+    },
+    {
+      "id": "song:10773",
+      "work_type": "Song",
+      "work_id": 10773,
+      "title": "Grandfather's Weathered Hands",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 10776,
+      "artist_name": "Chloë de Gruil",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5908,
+          "name": "Georges Besnard",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.706773
+        },
+        {
+          "person_id": 10775,
+          "name": "Bernard-Alain Parent",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3960226
+        },
+        {
+          "person_id": 10774,
+          "name": "Marvin Heuser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955774
+        }
+      ]
+    },
+    {
+      "id": "song:12594",
+      "work_type": "Song",
+      "work_id": 12594,
+      "title": "Scaffolding of Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": true,
+      "artist_id": 10776,
+      "artist_name": "Chloë de Gruil",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12595,
+          "name": "Lenn Blaak",
+          "stage_name": " Phoenix",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.051926
+        }
+      ]
+    },
+    {
+      "id": "album:13303",
+      "work_type": "Album",
+      "work_id": 13303,
+      "title": "Oxygen Rush",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 10776,
+      "artist_name": "Chloë de Gruil",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12595,
+          "name": "Lenn Blaak",
+          "stage_name": " Phoenix",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.051926
+        }
+      ]
     },
     {
       "id": "song:10616",
-      "song_id": 10616,
+      "work_type": "Song",
+      "work_id": 10616,
       "title": "Allegro",
       "genre": "Indie Folk",
       "notable": true,
@@ -82,20 +170,62 @@
         "style": 0
       },
       "relation_types": [
+        "CoverOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5910,
+          "name": "Jeanne Guillou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9483147
+        },
+        {
+          "person_id": 10617,
+          "name": "Alexa Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972275
+        },
+        {
+          "person_id": 10618,
+          "name": "George Snyder",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972275
+        },
+        {
+          "person_id": 10619,
+          "name": "Kelly Sanders",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3972275
+        }
       ]
     },
     {
-      "id": "song:14289",
-      "song_id": 14289,
-      "title": "William Howard's Weighty Legacy",
+      "id": "album:4361",
+      "work_type": "Album",
+      "work_id": 4361,
+      "title": "Presente Imperfetto (Imperfect Present)",
       "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2023,
-      "single": true,
+      "release_year": 2013,
+      "single": false,
       "own": false,
-      "artist_id": 14290,
-      "artist_name": "Evie Feenstra",
+      "artist_id": 2110,
+      "artist_name": "Catherine Clay",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -104,7 +234,37 @@
         "style": 0
       },
       "relation_types": [
-        "DirectlySamples"
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.88256
+        }
       ]
     }
   ],
@@ -113,6 +273,16 @@
       "source": "song:10616",
       "target": "song:12594",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:4361",
+      "target": "album:13303",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10616",
+      "target": "album:13303",
+      "type": "CoverOf"
     },
     {
       "source": "song:14289",

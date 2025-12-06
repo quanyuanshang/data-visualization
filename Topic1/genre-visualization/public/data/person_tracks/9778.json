@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9777",
-      "song_id": 9777,
+      "work_type": "Song",
+      "work_id": 9777,
       "title": "Melancholy in Miniature",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9779,
+          "name": "Katie Johnston",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007003
+        }
+      ]
     },
     {
       "id": "song:5146",
-      "song_id": 5146,
+      "work_type": "Song",
+      "work_id": 5146,
       "title": "Waste Management Waltz",
       "genre": "Darkwave",
       "notable": true,
@@ -43,11 +57,70 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5151,
+          "name": "Linda Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393343
+        },
+        {
+          "person_id": 5147,
+          "name": "Yong Xia",
+          "stage_name": "Neon Solstice",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5148,
+          "name": "Matthew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5149,
+          "name": "Lei Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5150,
+          "name": "Kenneth Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5152,
+          "name": "Jason Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        }
       ]
     },
     {
       "id": "song:5923",
-      "song_id": 5923,
+      "work_type": "Song",
+      "work_id": 5923,
       "title": "Kurashiki Blues",
       "genre": "Darkwave",
       "notable": true,
@@ -65,11 +138,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5924,
+          "name": "Na Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5925,
+          "name": "Jie Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5926,
+          "name": "Lei Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5927,
+          "name": "Megan Marsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        }
       ]
     },
     {
       "id": "song:16354",
-      "song_id": 16354,
+      "work_type": "Song",
+      "work_id": 16354,
       "title": "Farmland Titans",
       "genre": "Darkwave",
       "notable": true,
@@ -87,15 +200,40 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15794,
+          "name": "Ming Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054135
+        },
+        {
+          "person_id": 5151,
+          "name": "Linda Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393343
+        },
+        {
+          "person_id": 16355,
+          "name": "Robert King",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397444
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:5146",
-      "target": "song:9777",
-      "type": "LyricalReferenceTo"
-    },
     {
       "source": "song:5923",
       "target": "song:9777",
@@ -105,6 +243,11 @@
       "source": "song:16354",
       "target": "song:9777",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:5146",
+      "target": "song:9777",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

@@ -1,0 +1,154 @@
+{
+  "person_id": 16257,
+  "name": "Wei Gu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:16256",
+      "work_type": "Album",
+      "work_id": 16256,
+      "title": "Seven Days of Leisure",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 16257,
+      "artist_name": "Wei Gu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16049,
+          "name": "Min Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0417373
+        },
+        {
+          "person_id": 16050,
+          "name": "Min Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0417373
+        },
+        {
+          "person_id": 16052,
+          "name": "Ming Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0417373
+        },
+        {
+          "person_id": 16053,
+          "name": "Qiang Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0417373
+        },
+        {
+          "person_id": 16258,
+          "name": "Yong Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398947
+        }
+      ]
+    },
+    {
+      "id": "song:2019",
+      "work_type": "Song",
+      "work_id": 2019,
+      "title": "Detonation Point",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2020,
+      "artist_name": "Ping Guo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 2024,
+          "name": "Juan Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9287055
+        },
+        {
+          "person_id": 2020,
+          "name": "Ping Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958356
+        },
+        {
+          "person_id": 2021,
+          "name": "Xiuying Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958356
+        },
+        {
+          "person_id": 2022,
+          "name": "Wei He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958356
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2019",
+      "target": "album:16256",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

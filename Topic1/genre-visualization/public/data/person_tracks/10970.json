@@ -4,8 +4,79 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:10968",
+      "work_type": "Song",
+      "work_id": 10968,
+      "title": "Dribble Dance",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 10970,
+      "artist_name": "Andrea Smith",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10969,
+          "name": "Alexander Parsons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047687
+        },
+        {
+          "person_id": 10973,
+          "name": "Michael Craig",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047687
+        },
+        {
+          "person_id": 10974,
+          "name": "Martin Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047687
+        },
+        {
+          "person_id": 10971,
+          "name": "Ashley Jennings",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988688
+        },
+        {
+          "person_id": 10972,
+          "name": "Nicholas Bond",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988688
+        }
+      ]
+    },
+    {
       "id": "song:14506",
-      "song_id": 14506,
+      "work_type": "Song",
+      "work_id": 14506,
       "title": "Unspoken Signature",
       "genre": "Synthwave",
       "notable": true,
@@ -21,39 +92,50 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10969,
+          "name": "Alexander Parsons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047687
+        },
+        {
+          "person_id": 10973,
+          "name": "Michael Craig",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047687
+        },
+        {
+          "person_id": 10974,
+          "name": "Martin Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047687
+        }
+      ]
     },
     {
-      "id": "song:10968",
-      "song_id": 10968,
-      "title": "Dribble Dance",
-      "genre": "Synthwave",
+      "id": "album:14411",
+      "work_type": "Album",
+      "work_id": 14411,
+      "title": "The Scholar's Whisper",
+      "genre": "Post-Apocalyptic Folk",
       "notable": true,
-      "release_year": 2019,
-      "single": true,
-      "own": true,
-      "artist_id": 10970,
-      "artist_name": "Andrea Smith",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:10968",
-      "song_id": 10968,
-      "title": "Dribble Dance",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2019,
-      "single": true,
+      "release_year": 2028,
+      "single": false,
       "own": false,
-      "artist_id": 10969,
-      "artist_name": "Alexander Parsons",
+      "artist_id": 14412,
+      "artist_name": "Min Lin",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -62,7 +144,47 @@
         "style": 0
       },
       "relation_types": [
-        "CoverOf"
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14412,
+          "name": "Min Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977814
+        },
+        {
+          "person_id": 14413,
+          "name": "Ming Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977814
+        },
+        {
+          "person_id": 14415,
+          "name": "Ming Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977814
+        },
+        {
+          "person_id": 14414,
+          "name": "Carla Holden",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977606
+        }
       ]
     }
   ],
@@ -71,6 +193,11 @@
       "source": "song:10968",
       "target": "song:14506",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:14411",
+      "target": "song:10968",
+      "type": "InStyleOf"
     }
   ]
 }

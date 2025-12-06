@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15374",
-      "song_id": 15374,
+      "work_type": "Song",
+      "work_id": 15374,
       "title": "The Labyrinth's Echo",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,66 @@
       "own": true,
       "artist_id": 15379,
       "artist_name": "Devin Mccoy",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15375,
+          "name": "Luke Murray",
+          "stage_name": " THA KING",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971987
+        },
+        {
+          "person_id": 15377,
+          "name": "Angel Henderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971987
+        },
+        {
+          "person_id": 15376,
+          "name": "Manfred Schmiedecke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397162
+        },
+        {
+          "person_id": 15378,
+          "name": "Hannah Garrett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971364
+        }
+      ]
+    },
+    {
+      "id": "album:11985",
+      "work_type": "Album",
+      "work_id": 11985,
+      "title": "Faithful Travelers, Guided Home",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 904,
+      "artist_name": "Min Duan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +82,82 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6528,
+          "name": "Vanessa Ramos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2690573
+        },
+        {
+          "person_id": 905,
+          "name": "Daniel Mitchell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0144453
+        },
+        {
+          "person_id": 11791,
+          "name": "Bradley Brooks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9723825
+        },
+        {
+          "person_id": 904,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.454734
+        },
+        {
+          "person_id": 11986,
+          "name": "Xiulan Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392962
+        },
+        {
+          "person_id": 11987,
+          "name": "Yang Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392962
+        },
+        {
+          "person_id": 11988,
+          "name": "Ming Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392962
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11985",
+      "target": "song:15374",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

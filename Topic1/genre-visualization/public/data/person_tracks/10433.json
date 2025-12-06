@@ -1,0 +1,222 @@
+{
+  "person_id": 10433,
+  "name": "Xia Chen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10432",
+      "work_type": "Album",
+      "work_id": 10432,
+      "title": "The Undefined Feeling",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2002,
+      "single": false,
+      "own": true,
+      "artist_id": 10433,
+      "artist_name": "Xia Chen",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3455,
+          "name": "Maria Carlson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4004025
+        },
+        {
+          "person_id": 3456,
+          "name": "Robin Russell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.039466
+        }
+      ]
+    },
+    {
+      "id": "song:4406",
+      "work_type": "Song",
+      "work_id": 4406,
+      "title": "Staircase to Silence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 4407,
+      "artist_name": "Kimberly Fernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4407,
+          "name": "Kimberly Fernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984473
+        },
+        {
+          "person_id": 4408,
+          "name": "Adam Harmon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3984473
+        },
+        {
+          "person_id": 4409,
+          "name": "Tracy Williamson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984473
+        }
+      ]
+    },
+    {
+      "id": "song:10435",
+      "work_type": "Song",
+      "work_id": 10435,
+      "title": "Unseen Currents",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 10436,
+      "artist_name": "Julie Larson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10436,
+          "name": "Julie Larson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393408
+        }
+      ]
+    },
+    {
+      "id": "album:15807",
+      "work_type": "Album",
+      "work_id": 15807,
+      "title": "Climbing Heart's Summit",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 15808,
+      "artist_name": "Cathy Oconnor",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5968,
+          "name": "Dorota Cierpka",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0512786
+        },
+        {
+          "person_id": 15808,
+          "name": "Cathy Oconnor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978655
+        },
+        {
+          "person_id": 15809,
+          "name": "Timothy Robinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978655
+        },
+        {
+          "person_id": 15811,
+          "name": "Magnus Speer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978655
+        },
+        {
+          "person_id": 15810,
+          "name": "Isabel Wilson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978522
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:15807",
+      "target": "album:10432",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10435",
+      "target": "album:10432",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4406",
+      "target": "album:10432",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3479",
-      "song_id": 3479,
+      "work_type": "Song",
+      "work_id": 3479,
       "title": "Silhouette of Want",
       "genre": "Space Rock",
       "notable": true,
@@ -21,11 +22,52 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3480,
+          "name": "Cécile Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986669
+        },
+        {
+          "person_id": 3481,
+          "name": "Laura Mann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986669
+        },
+        {
+          "person_id": 3482,
+          "name": "Caroline Navarro",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986669
+        },
+        {
+          "person_id": 3484,
+          "name": "Adrienne Bouchet",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986669
+        }
+      ]
     },
     {
       "id": "song:11442",
-      "song_id": 11442,
+      "work_type": "Song",
+      "work_id": 11442,
       "title": "The Forgotten Serenade of Carmela",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +85,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11444,
+          "name": "Robert Strickland",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39836
+        },
+        {
+          "person_id": 11443,
+          "name": "Brandon Waller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982587
+        }
       ]
     },
     {
       "id": "song:12622",
-      "song_id": 12622,
+      "work_type": "Song",
+      "work_id": 12622,
       "title": "Levitating Beyond Contact",
       "genre": "Darkwave",
       "notable": true,
@@ -65,19 +129,66 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 9941,
+          "name": "Juan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9924505
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12622",
-      "target": "song:3479",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:11442",
       "target": "song:3479",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12622",
+      "target": "song:3479",
+      "type": "CoverOf"
     }
   ]
 }

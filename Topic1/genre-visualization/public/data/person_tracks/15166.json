@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15165",
-      "song_id": 15165,
+      "work_type": "Song",
+      "work_id": 15165,
       "title": "Whispers from the Forgotten Shore",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,8 +22,212 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15169,
+          "name": "Gang Liu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4312594
+        },
+        {
+          "person_id": 15168,
+          "name": "Yan Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0463548
+        },
+        {
+          "person_id": 15167,
+          "name": "Guiying Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.391493
+        }
+      ]
+    },
+    {
+      "id": "album:15242",
+      "work_type": "Album",
+      "work_id": 15242,
+      "title": "Culloden's Lament",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1998,
+      "single": false,
+      "own": true,
+      "artist_id": 15166,
+      "artist_name": "Ming Cui ( Bishop VII)",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 455,
+          "name": "Yang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2669816
+        },
+        {
+          "person_id": 15169,
+          "name": "Gang Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4312594
+        },
+        {
+          "person_id": 15168,
+          "name": "Yan Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0463548
+        },
+        {
+          "person_id": 15243,
+          "name": "Xiulan Xiang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3807662
+        }
+      ]
+    },
+    {
+      "id": "album:14485",
+      "work_type": "Album",
+      "work_id": 14485,
+      "title": "Whispers in the Rearview",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 14487,
+      "artist_name": "Thomas Ball",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14487,
+          "name": "Thomas Ball",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0397766
+        },
+        {
+          "person_id": 14486,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.401919
+        },
+        {
+          "person_id": 14488,
+          "name": "Qiang Yang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4017284
+        }
+      ]
+    },
+    {
+      "id": "song:15181",
+      "work_type": "Song",
+      "work_id": 15181,
+      "title": "Siren's Call at Nasso",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 7398,
+      "artist_name": "Charles Vazquez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261718
+        },
+        {
+          "person_id": 9960,
+          "name": "Li Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.024069
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:15165",
+      "target": "album:15242",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:14485",
+      "target": "album:15242",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15181",
+      "target": "album:15242",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

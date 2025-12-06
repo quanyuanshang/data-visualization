@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16402",
-      "song_id": 16402,
-      "title": "Les Ailes Célestes",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2029,
-      "single": false,
-      "own": true,
-      "artist_id": 8657,
-      "artist_name": "Xiulan Zhang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8655",
-      "song_id": 8655,
+      "work_type": "Song",
+      "work_id": 8655,
       "title": "Small Shadows",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -41,7 +22,61 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7432,
+          "name": "Mikayla Cook",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.458542
+        },
+        {
+          "person_id": 8656,
+          "name": "Justin Berry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0239432
+        }
+      ]
+    },
+    {
+      "id": "song:16402",
+      "work_type": "Song",
+      "work_id": 16402,
+      "title": "Les Ailes Célestes",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 8657,
+      "artist_name": "Xiulan Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16403,
+          "name": "Juan Fang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989346
+        }
+      ]
     }
   ],
   "links": []

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12209",
-      "song_id": 12209,
+      "work_type": "Song",
+      "work_id": 12209,
       "title": "Whispers of the Dnieper",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12210,
+          "name": "Rémy-Richard Devaux",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3995204
+        },
+        {
+          "person_id": 12212,
+          "name": "Rosita Vollbrecht",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995204
+        }
+      ]
     },
     {
       "id": "song:4281",
-      "song_id": 4281,
+      "work_type": "Song",
+      "work_id": 4281,
       "title": "Lunar Whispers",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,11 +65,25 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4282,
+          "name": "Becky Walters",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.031468
+        }
       ]
     },
     {
       "id": "song:15075",
-      "song_id": 15075,
+      "work_type": "Song",
+      "work_id": 15075,
       "title": "Boarding the Coastal Express",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,19 +101,32 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4282,
+          "name": "Becky Walters",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.031468
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4281",
-      "target": "song:12209",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:15075",
       "target": "song:12209",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4281",
+      "target": "song:12209",
+      "type": "CoverOf"
     }
   ]
 }

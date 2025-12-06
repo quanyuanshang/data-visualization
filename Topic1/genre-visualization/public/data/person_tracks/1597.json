@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:1596",
-      "song_id": 1596,
-      "title": "The King's Last Move",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2005,
-      "single": true,
-      "own": true,
-      "artist_id": 1597,
-      "artist_name": "Walentina Ernst-Klingelhöfer",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6300",
-      "song_id": 6300,
+      "work_type": "Song",
+      "work_id": 6300,
       "title": "Fading Strength, Rising Insight",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +22,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1598,
+          "name": "Nikolas Naser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0527298
+        }
+      ]
+    },
+    {
+      "id": "song:1596",
+      "work_type": "Song",
+      "work_id": 1596,
+      "title": "The King's Last Move",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2005,
+      "single": true,
+      "own": true,
+      "artist_id": 1597,
+      "artist_name": "Walentina Ernst-Klingelhöfer",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1598,
+          "name": "Nikolas Naser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0527298
+        }
+      ]
     },
     {
       "id": "song:6339",
-      "song_id": 6339,
+      "work_type": "Song",
+      "work_id": 6339,
       "title": "Glitz and Glamour",
       "genre": "Blues Rock",
       "notable": true,
@@ -63,6 +89,19 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6340,
+          "name": "Matthew Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4025593
+        }
       ]
     }
   ],

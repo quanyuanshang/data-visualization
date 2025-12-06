@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10421",
-      "song_id": 10421,
+      "work_type": "Song",
+      "work_id": 10421,
       "title": "Anything But Nothing",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,65 @@
       "own": true,
       "artist_id": 10423,
       "artist_name": "Tao Fang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7900,
+          "name": "Rachel Stein",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0404778
+        },
+        {
+          "person_id": 10422,
+          "name": "Chao Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982198
+        },
+        {
+          "person_id": 10424,
+          "name": "Karen Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982198
+        },
+        {
+          "person_id": 10425,
+          "name": "Ming Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982198
+        }
+      ]
+    },
+    {
+      "id": "album:5173",
+      "work_type": "Album",
+      "work_id": 5173,
+      "title": "Echoes of the Wandering Wheels",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 5175,
+      "artist_name": "Lei Zhou",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +81,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5174,
+          "name": "Christina Mckay",
+          "stage_name": " NITE",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985584
+        },
+        {
+          "person_id": 5175,
+          "name": "Lei Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985584
+        },
+        {
+          "person_id": 5176,
+          "name": "Wei Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985584
+        },
+        {
+          "person_id": 5177,
+          "name": "Jing Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985584
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:5173",
+      "target": "song:10421",
+      "type": "CoverOf"
+    }
+  ]
 }

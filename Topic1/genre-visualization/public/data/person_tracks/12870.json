@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12867",
-      "song_id": 12867,
+      "work_type": "Song",
+      "work_id": 12867,
       "title": "Pulse of Desire",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,18 +15,138 @@
       "own": true,
       "artist_id": 12870,
       "artist_name": "Cosima Mülichen",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12868,
+          "name": "Ninetta Spinelli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966684
+        },
+        {
+          "person_id": 12869,
+          "name": "Gerhild Patberg",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964806
+        },
+        {
+          "person_id": 12872,
+          "name": "Hilda Plath",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3964806
+        },
+        {
+          "person_id": 12873,
+          "name": "Ludger Ladeck",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964806
+        },
+        {
+          "person_id": 12874,
+          "name": "Anneliese Döhn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964806
+        },
+        {
+          "person_id": 12875,
+          "name": "Paloma Tomaselli",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964806
+        },
+        {
+          "person_id": 12871,
+          "name": "Valentine Peukert",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396149
+        },
+        {
+          "person_id": 12876,
+          "name": "Eva Seidel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396149
+        }
+      ]
+    },
+    {
+      "id": "album:6655",
+      "work_type": "Album",
+      "work_id": 6655,
+      "title": "Unspoken Bond",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 6656,
+      "artist_name": "Ronald Barnett ( $KY)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6656,
+          "name": "Ronald Barnett",
+          "stage_name": " $KY",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980641
+        },
+        {
+          "person_id": 6657,
+          "name": "Kenneth Guerra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980286
+        }
+      ]
     },
     {
       "id": "song:17342",
-      "song_id": 17342,
+      "work_type": "Song",
+      "work_id": 17342,
       "title": "Beneath the Whispering Waves",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,12 +164,28 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17340,
+          "name": "Orla Seabloom",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.379677
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:17342",
+      "target": "song:12867",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:6655",
       "target": "song:12867",
       "type": "InterpolatesFrom"
     }

@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:9706",
+      "work_type": "Song",
+      "work_id": 9706,
+      "title": "Unwritten Monologues",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 9707,
+      "artist_name": "Jason Underwood",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4356,
+          "name": "Xia Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.104307
+        },
+        {
+          "person_id": 9708,
+          "name": "Brett Whitehead",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3979146
+        }
+      ]
+    },
+    {
       "id": "song:13256",
-      "song_id": 13256,
+      "work_type": "Song",
+      "work_id": 13256,
       "title": "Capricious Melody",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,53 +64,24 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:9706",
-      "song_id": 9706,
-      "title": "Unwritten Monologues",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 9707,
-      "artist_name": "Jason Underwood",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:9706",
-      "song_id": 9706,
-      "title": "Unwritten Monologues",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": false,
-      "artist_id": 4356,
-      "artist_name": "Xia Jia",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4356,
+          "name": "Xia Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.104307
+        }
       ]
     },
     {
       "id": "song:12322",
-      "song_id": 12322,
+      "work_type": "Song",
+      "work_id": 12322,
       "title": "The Vision of Maria",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,19 +99,85 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1227,
+          "name": "Jun Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5173717
+        },
+        {
+          "person_id": 2237,
+          "name": "Guiying Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4340136
+        },
+        {
+          "person_id": 12324,
+          "name": "Linda Garza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997478
+        },
+        {
+          "person_id": 12325,
+          "name": "Jie Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997478
+        },
+        {
+          "person_id": 12326,
+          "name": "Ming Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997478
+        },
+        {
+          "person_id": 12327,
+          "name": "Fang Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997478
+        },
+        {
+          "person_id": 12323,
+          "name": "Matthew Lopez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997345
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:9706",
-      "target": "song:13256",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:12322",
       "target": "song:13256",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:9706",
+      "target": "song:13256",
+      "type": "InterpolatesFrom"
     }
   ]
 }

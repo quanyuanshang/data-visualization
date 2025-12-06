@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14175",
-      "song_id": 14175,
-      "title": "Our Unwritten Story",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2031,
-      "single": true,
-      "own": true,
-      "artist_id": 7,
-      "artist_name": "Xiulan Zeng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:9808",
-      "song_id": 9808,
-      "title": "Lawn Mower Lament",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": true,
-      "artist_id": 7,
-      "artist_name": "Xiulan Zeng",
-      "influence": 7,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:5088",
-      "song_id": 5088,
+      "work_type": "Song",
+      "work_id": 5088,
       "title": "Echoes of a Lonely Gaze",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -54,18 +15,20 @@
       "own": true,
       "artist_id": 7,
       "artist_name": "Xiulan Zeng",
-      "influence": 9,
+      "influence": 14,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 3,
-        "style": 0
+        "reference": 4,
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:5",
-      "song_id": 5,
+      "work_type": "Song",
+      "work_id": 5,
       "title": "Unshackled Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -81,11 +44,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0771239
+        },
+        {
+          "person_id": 6,
+          "name": "Luke Payne",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3949904
+        }
+      ]
+    },
+    {
+      "id": "album:6231",
+      "work_type": "Album",
+      "work_id": 6231,
+      "title": "Echoes from Zion's Walls",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6232,
+          "name": "Jing Ren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3955789
+        }
+      ]
     },
     {
       "id": "song:7054",
-      "song_id": 7054,
+      "work_type": "Song",
+      "work_id": 7054,
       "title": "Whispers of the Caravan",
       "genre": "Lo-Fi Electronica",
       "notable": false,
@@ -101,11 +117,96 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0771239
+        }
+      ]
+    },
+    {
+      "id": "song:9808",
+      "work_type": "Song",
+      "work_id": 9808,
+      "title": "Lawn Mower Lament",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9809,
+          "name": "Guiying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4022245
+        }
+      ]
+    },
+    {
+      "id": "album:13567",
+      "work_type": "Album",
+      "work_id": 13567,
+      "title": "Lowered Expectations",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0771239
+        }
+      ]
     },
     {
       "id": "song:16514",
-      "song_id": 16514,
+      "work_type": "Song",
+      "work_id": 16514,
       "title": "Singular Constellation",
       "genre": "Americana",
       "notable": true,
@@ -121,41 +222,58 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:4738",
-      "song_id": 4738,
-      "title": "Scent of Desire",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": false,
-      "artist_id": 4740,
-      "artist_name": "Victoria Higgins",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5422,
+          "name": "Yan Qiu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4369023
+        },
+        {
+          "person_id": 8768,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0277665
+        },
+        {
+          "person_id": 16515,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959937
+        },
+        {
+          "person_id": 16516,
+          "name": "Ryan Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959937
+        }
       ]
     },
     {
-      "id": "song:11249",
-      "song_id": 11249,
-      "title": "Silence Between Departures",
-      "genre": "Indie Rock",
+      "id": "song:14175",
+      "work_type": "Song",
+      "work_id": 14175,
+      "title": "Our Unwritten Story",
+      "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2026,
+      "release_year": 2031,
       "single": true,
-      "own": false,
-      "artist_id": 1873,
-      "artist_name": "Li Ma",
+      "own": true,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -163,13 +281,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14176,
+          "name": "Fang Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959937
+        }
       ]
     },
     {
       "id": "song:5",
-      "song_id": 5,
+      "work_type": "Song",
+      "work_id": 5,
       "title": "Unshackled Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -187,11 +316,85 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0771239
+        },
+        {
+          "person_id": 6,
+          "name": "Luke Payne",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3949904
+        }
+      ]
+    },
+    {
+      "id": "album:6231",
+      "work_type": "Album",
+      "work_id": 6231,
+      "title": "Echoes from Zion's Walls",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 6232,
+          "name": "Jing Ren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3955789
+        }
       ]
     },
     {
       "id": "song:7054",
-      "song_id": 7054,
+      "work_type": "Song",
+      "work_id": 7054,
       "title": "Whispers of the Caravan",
       "genre": "Lo-Fi Electronica",
       "notable": false,
@@ -209,11 +412,245 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0771239
+        }
+      ]
+    },
+    {
+      "id": "album:13567",
+      "work_type": "Album",
+      "work_id": 13567,
+      "title": "Lowered Expectations",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0771239
+        }
+      ]
+    },
+    {
+      "id": "song:14175",
+      "work_type": "Song",
+      "work_id": 14175,
+      "title": "Our Unwritten Story",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": false,
+      "artist_id": 14176,
+      "artist_name": "Fang Ren",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 14176,
+          "name": "Fang Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959937
+        }
+      ]
+    },
+    {
+      "id": "song:4738",
+      "work_type": "Song",
+      "work_id": 4738,
+      "title": "Scent of Desire",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4740,
+      "artist_name": "Victoria Higgins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4740,
+          "name": "Victoria Higgins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0374432
+        },
+        {
+          "person_id": 4739,
+          "name": "Gang Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980832
+        },
+        {
+          "person_id": 4741,
+          "name": "Guiying Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979135
+        }
+      ]
+    },
+    {
+      "id": "song:11249",
+      "work_type": "Song",
+      "work_id": 11249,
+      "title": "Silence Between Departures",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1873,
+      "artist_name": "Li Ma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9371912
+        },
+        {
+          "person_id": 6375,
+          "name": "Michael Peterson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047103
+        },
+        {
+          "person_id": 11250,
+          "name": "Min Gu",
+          "stage_name": "The Glitch Monarch",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999574
+        }
       ]
     },
     {
       "id": "song:4421",
-      "song_id": 4421,
+      "work_type": "Song",
+      "work_id": 4421,
       "title": "Reset and Renew: The Next Chapter",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -231,11 +668,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4423,
+          "name": "Fang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.05428
+        },
+        {
+          "person_id": 4424,
+          "name": "Na Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.05428
+        },
+        {
+          "person_id": 4422,
+          "name": "Lei Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3949277
+        }
       ]
     },
     {
       "id": "song:10535",
-      "song_id": 10535,
+      "work_type": "Song",
+      "work_id": 10535,
       "title": "Memories Along the Lech River",
       "genre": "Indie Folk",
       "notable": true,
@@ -253,15 +721,58 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4665,
+          "name": "Gino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.08105
+        },
+        {
+          "person_id": 4503,
+          "name": "Fredo Grossi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9326928
+        },
+        {
+          "person_id": 4664,
+          "name": "Antonietta Ceravolo-Condoleo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7092457
+        },
+        {
+          "person_id": 10536,
+          "name": "Kunigunde Pechel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041086
+        },
+        {
+          "person_id": 10537,
+          "name": "Hortense du Dijoux",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041086
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:4738",
-      "target": "song:9808",
-      "type": "CoverOf"
-    },
     {
       "source": "song:11249",
       "target": "song:9808",
@@ -273,16 +784,6 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:5",
-      "target": "song:5088",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:4421",
-      "target": "song:16514",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:10535",
       "target": "song:16514",
       "type": "InStyleOf"
@@ -291,6 +792,36 @@
       "source": "song:7054",
       "target": "song:5088",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5",
+      "target": "song:5088",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4738",
+      "target": "song:9808",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14175",
+      "target": "album:13567",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:4421",
+      "target": "song:16514",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:6231",
+      "target": "song:5088",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:13567",
+      "target": "song:5088",
+      "type": "InStyleOf"
     }
   ]
 }

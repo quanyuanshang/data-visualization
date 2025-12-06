@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15362",
-      "song_id": 15362,
+      "work_type": "Song",
+      "work_id": 15362,
       "title": "Starbridge Crossing",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5338,
+          "name": "Colton Dickerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0647418
+        }
+      ]
     },
     {
       "id": "song:16720",
-      "song_id": 16720,
+      "work_type": "Song",
+      "work_id": 16720,
       "title": "Silent Movements Unresolved",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,6 +57,36 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16721,
+          "name": "Andrea Hamilton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975613
+        },
+        {
+          "person_id": 16722,
+          "name": "Sandra Hunter",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975613
+        },
+        {
+          "person_id": 16723,
+          "name": "Alexis Griffith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975613
+        }
       ]
     }
   ],

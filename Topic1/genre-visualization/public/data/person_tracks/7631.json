@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7630",
-      "song_id": 7630,
+      "work_type": "Song",
+      "work_id": 7630,
       "title": "The Stinky Chore Shuffle",
       "genre": "Speed Metal",
       "notable": true,
@@ -14,18 +15,20 @@
       "own": true,
       "artist_id": 7631,
       "artist_name": "Marianna Polasik",
-      "influence": 8,
+      "influence": 13,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:7826",
-      "song_id": 7826,
+      "work_type": "Song",
+      "work_id": 7826,
       "title": "Silver Screen Ghosts",
       "genre": "Speed Metal",
       "notable": true,
@@ -43,11 +46,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4433,
+          "name": "Dhanuk Hari",
+          "stage_name": " Marble Wolf",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 7827,
+          "name": "Ritvik Raman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051411
+        }
       ]
     },
     {
       "id": "song:11826",
-      "song_id": 11826,
+      "work_type": "Song",
+      "work_id": 11826,
       "title": "Whispers of Ink and Memory",
       "genre": "Speed Metal",
       "notable": true,
@@ -65,11 +99,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11827,
+          "name": "David Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983514
+        },
+        {
+          "person_id": 11828,
+          "name": "Jeff Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980083
+        }
       ]
     },
     {
       "id": "song:12692",
-      "song_id": 12692,
+      "work_type": "Song",
+      "work_id": 12692,
       "title": "Steel and Green: A Biscayan Tale",
       "genre": "Speed Metal",
       "notable": false,
@@ -87,10 +143,82 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12693,
+          "name": "Jennifer Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3859327
+        }
+      ]
+    },
+    {
+      "id": "album:15270",
+      "work_type": "Album",
+      "work_id": 15270,
+      "title": "Soft Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4433,
+      "artist_name": "Dhanuk Hari ( Marble Wolf)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4433,
+          "name": "Dhanuk Hari",
+          "stage_name": " Marble Wolf",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 7827,
+          "name": "Ritvik Raman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.051411
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:15270",
+      "target": "song:7630",
+      "type": "CoverOf"
+    },
     {
       "source": "song:7826",
       "target": "song:7630",

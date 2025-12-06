@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8823",
-      "song_id": 8823,
+      "work_type": "Song",
+      "work_id": 8823,
       "title": "Thirty Dawns, Thirty Shadows",
       "genre": "Space Rock",
       "notable": true,
@@ -14,18 +15,174 @@
       "own": true,
       "artist_id": 8829,
       "artist_name": "Juan Pan",
-      "influence": 8,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
         "reference": 0,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8831,
+          "name": "Yong Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4336917
+        },
+        {
+          "person_id": 4601,
+          "name": "Fang Zhou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3342688
+        },
+        {
+          "person_id": 8824,
+          "name": "Fang Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8825,
+          "name": "Li Du",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8826,
+          "name": "Fang Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8827,
+          "name": "Fang Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8828,
+          "name": "Yong Lei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8830,
+          "name": "Li Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        }
+      ]
+    },
+    {
+      "id": "album:1080",
+      "work_type": "Album",
+      "work_id": 1080,
+      "title": "Trapped in the Border",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1081,
+      "artist_name": "Ping He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 1084,
+          "name": "Qiang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179704
+        },
+        {
+          "person_id": 1083,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054744
+        },
+        {
+          "person_id": 1081,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0521207
+        },
+        {
+          "person_id": 1082,
+          "name": "Juan Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958273
+        }
+      ]
     },
     {
       "id": "song:5053",
-      "song_id": 5053,
+      "work_type": "Song",
+      "work_id": 5053,
       "title": "Sunlit Serenade",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +200,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2050,
+          "name": "Na Lai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.261977
+        },
+        {
+          "person_id": 5054,
+          "name": "Ping Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0416005
+        }
       ]
     },
     {
       "id": "song:7133",
-      "song_id": 7133,
+      "work_type": "Song",
+      "work_id": 7133,
       "title": "Flicker's Last Breath",
       "genre": "Space Rock",
       "notable": true,
@@ -65,11 +244,51 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 7134,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.040878
+        },
+        {
+          "person_id": 7136,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0408216
+        },
+        {
+          "person_id": 7135,
+          "name": "Wei Liang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3998458
+        }
       ]
     },
     {
       "id": "song:15779",
-      "song_id": 15779,
+      "work_type": "Song",
+      "work_id": 15779,
       "title": "Whisper Your Truth",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,12 +306,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15781,
+          "name": "Brandi Bates",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0311227
+        },
+        {
+          "person_id": 7894,
+          "name": "Jeanne Miller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.430886
+        },
+        {
+          "person_id": 15780,
+          "name": "Ming Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958566
+        },
+        {
+          "person_id": 15782,
+          "name": "Yan Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3958566
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5053",
+      "source": "album:1080",
       "target": "song:8823",
       "type": "InStyleOf"
     },
@@ -105,6 +362,11 @@
       "source": "song:7133",
       "target": "song:8823",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:5053",
+      "target": "song:8823",
+      "type": "InStyleOf"
     }
   ]
 }

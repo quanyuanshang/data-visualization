@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14091",
-      "song_id": 14091,
+      "work_type": "Song",
+      "work_id": 14091,
       "title": "Tides of Transformation",
       "genre": "Synthwave",
       "notable": true,
@@ -14,6 +15,47 @@
       "own": true,
       "artist_id": 14093,
       "artist_name": "Juan Yang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8778,
+          "name": "Xiulan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4321976
+        },
+        {
+          "person_id": 14092,
+          "name": "Wei Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986528
+        }
+      ]
+    },
+    {
+      "id": "album:17156",
+      "work_type": "Album",
+      "work_id": 17156,
+      "title": "City Lights & Cigarette Dreams",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": 17155,
+      "artist_name": "Claire Holmes (Jaye Finch)",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +63,28 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17155,
+          "name": "Claire Holmes",
+          "stage_name": "Jaye Finch",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9565325
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17156",
+      "target": "song:14091",
+      "type": "InStyleOf"
+    }
+  ]
 }

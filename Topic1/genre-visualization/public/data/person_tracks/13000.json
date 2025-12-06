@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12998",
-      "song_id": 12998,
+      "work_type": "Song",
+      "work_id": 12998,
       "title": "Purified by Divine Light",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 13000,
       "artist_name": "Steven Ray",
-      "influence": 17,
+      "influence": 22,
       "influence_breakdown": {
-        "cover": 2,
+        "cover": 3,
         "sample": 1,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12999,
+          "name": "Leah Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.060043
+        },
+        {
+          "person_id": 4686,
+          "name": "Kristina Gonzales",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0337803
+        }
+      ]
     },
     {
       "id": "song:2107",
-      "song_id": 2107,
+      "work_type": "Song",
+      "work_id": 2107,
       "title": "Bedrock Rebellion",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +66,95 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.88256
+        }
+      ]
+    },
+    {
+      "id": "album:4361",
+      "work_type": "Album",
+      "work_id": 4361,
+      "title": "Presente Imperfetto (Imperfect Present)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 2110,
+      "artist_name": "Catherine Clay",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.88256
+        }
       ]
     },
     {
       "id": "song:9474",
-      "song_id": 9474,
+      "work_type": "Song",
+      "work_id": 9474,
       "title": "Tread Defiant",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +172,59 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3313,
+          "name": "Lei Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9413583
+        },
+        {
+          "person_id": 9477,
+          "name": "Jing Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977313
+        },
+        {
+          "person_id": 9478,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977313
+        },
+        {
+          "person_id": 9476,
+          "name": "Jing Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397718
+        },
+        {
+          "person_id": 9475,
+          "name": "Min Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977106
+        }
       ]
     },
     {
       "id": "song:12546",
-      "song_id": 12546,
+      "work_type": "Song",
+      "work_id": 12546,
       "title": "Stěny mluví tiše (Walls Speak Softly)",
       "genre": "Alternative Rock",
       "notable": true,
@@ -87,11 +242,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 5908,
+          "name": "Georges Besnard",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.706773
+        },
+        {
+          "person_id": 9537,
+          "name": "Flora Karz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.435403
+        }
       ]
     },
     {
       "id": "song:12594",
-      "song_id": 12594,
+      "work_type": "Song",
+      "work_id": 12594,
       "title": "Scaffolding of Silence",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,15 +295,31 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10776,
+          "name": "Chloë de Gruil",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7201512
+        },
+        {
+          "person_id": 12595,
+          "name": "Lenn Blaak",
+          "stage_name": " Phoenix",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.051926
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:12546",
-      "target": "song:12998",
-      "type": "CoverOf"
-    },
     {
       "source": "song:2107",
       "target": "song:12998",
@@ -129,7 +331,17 @@
       "type": "DirectlySamples"
     },
     {
+      "source": "song:12546",
+      "target": "song:12998",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:9474",
+      "target": "song:12998",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:4361",
       "target": "song:12998",
       "type": "CoverOf"
     }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5389",
-      "song_id": 5389,
+      "work_type": "Song",
+      "work_id": 5389,
       "title": "If Only You Had Stayed in Your Hometown",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5390,
+          "name": "Wei Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4080405
+        }
+      ]
     },
     {
       "id": "song:1830",
-      "song_id": 1830,
+      "work_type": "Song",
+      "work_id": 1830,
       "title": "Trouble's Favorite Son",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,11 +57,70 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1650,
+          "name": "Daniel Lyons",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6096396
+        },
+        {
+          "person_id": 1831,
+          "name": "Jing Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3974617
+        },
+        {
+          "person_id": 1832,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974617
+        },
+        {
+          "person_id": 1833,
+          "name": "Brian Gross",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974617
+        },
+        {
+          "person_id": 1834,
+          "name": "Jing Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974617
+        },
+        {
+          "person_id": 1835,
+          "name": "Yan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974617
+        }
       ]
     },
     {
       "id": "song:2402",
-      "song_id": 2402,
+      "work_type": "Song",
+      "work_id": 2402,
       "title": "Unsung Boulevard",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -65,11 +138,61 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 1084,
+          "name": "Qiang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179704
+        },
+        {
+          "person_id": 1083,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054744
+        },
+        {
+          "person_id": 1081,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0521207
+        }
       ]
     },
     {
       "id": "song:2567",
-      "song_id": 2567,
+      "work_type": "Song",
+      "work_id": 2567,
       "title": "Ballad of the Noble Wanderer",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -87,10 +210,54 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2568,
+          "name": "Ping Cai",
+          "stage_name": " Tessa Blake",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2569,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2570,
+          "name": "Yong Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2571,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:1830",
+      "target": "song:5389",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:2402",
       "target": "song:5389",
@@ -100,11 +267,6 @@
       "source": "song:2567",
       "target": "song:5389",
       "type": "DirectlySamples"
-    },
-    {
-      "source": "song:1830",
-      "target": "song:5389",
-      "type": "InterpolatesFrom"
     }
   ]
 }

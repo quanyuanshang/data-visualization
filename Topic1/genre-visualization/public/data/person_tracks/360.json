@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:358",
-      "song_id": 358,
+      "work_type": "Song",
+      "work_id": 358,
       "title": "Endless Horizon",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 361,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4429567
+        },
+        {
+          "person_id": 362,
+          "name": "Yong Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0407915
+        },
+        {
+          "person_id": 359,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401129
+        }
+      ]
     },
     {
       "id": "song:13658",
-      "song_id": 13658,
+      "work_type": "Song",
+      "work_id": 13658,
       "title": "Wishful Thinking",
       "genre": "Synthwave",
       "notable": true,
@@ -34,18 +66,40 @@
       "own": true,
       "artist_id": 360,
       "artist_name": "Wei Xiao",
-      "influence": 10,
+      "influence": 15,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 361,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4429567
+        },
+        {
+          "person_id": 362,
+          "name": "Yong Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0407915
+        }
+      ]
     },
     {
       "id": "song:504",
-      "song_id": 504,
+      "work_type": "Song",
+      "work_id": 504,
       "title": "Never Stop the Boogie",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +117,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 508,
+          "name": "Tao He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0221422
+        },
+        {
+          "person_id": 505,
+          "name": "Juan Shi",
+          "stage_name": " Storm",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986921
+        },
+        {
+          "person_id": 506,
+          "name": "Erin Mitchell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986921
+        },
+        {
+          "person_id": 507,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986921
+        }
       ]
     },
     {
       "id": "song:2831",
-      "song_id": 2831,
+      "work_type": "Song",
+      "work_id": 2831,
       "title": "Shadows on Polished Keys",
       "genre": "Synthpop",
       "notable": true,
@@ -85,6 +180,126 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2832,
+          "name": "Ping Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977325
+        },
+        {
+          "person_id": 2833,
+          "name": "Juan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977325
+        },
+        {
+          "person_id": 2834,
+          "name": "Juan Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977325
+        },
+        {
+          "person_id": 2835,
+          "name": "Tao Huang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977325
+        },
+        {
+          "person_id": 2836,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977325
+        }
+      ]
+    },
+    {
+      "id": "album:3787",
+      "work_type": "Album",
+      "work_id": 3787,
+      "title": "Silk Road Serenade",
+      "genre": "Darkwave",
+      "notable": false,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 3788,
+      "artist_name": "Jie Cao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3792,
+          "name": "Yong Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.410212
+        },
+        {
+          "person_id": 3788,
+          "name": "Jie Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969393
+        },
+        {
+          "person_id": 3789,
+          "name": "Xia Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969393
+        },
+        {
+          "person_id": 3790,
+          "name": "Chao Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969393
+        },
+        {
+          "person_id": 3791,
+          "name": "Lei Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969393
+        }
       ]
     }
   ],
@@ -103,6 +318,11 @@
       "source": "song:504",
       "target": "song:13658",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:3787",
+      "target": "song:13658",
+      "type": "CoverOf"
     }
   ]
 }

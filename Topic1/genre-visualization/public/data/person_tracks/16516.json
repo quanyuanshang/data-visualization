@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16514",
-      "song_id": 16514,
+      "work_type": "Song",
+      "work_id": 16514,
       "title": "Singular Constellation",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,50 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 5422,
+          "name": "Yan Qiu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4369023
+        },
+        {
+          "person_id": 8768,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0277665
+        },
+        {
+          "person_id": 16515,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959937
+        }
+      ]
     },
     {
       "id": "song:4421",
-      "song_id": 4421,
+      "work_type": "Song",
+      "work_id": 4421,
       "title": "Reset and Renew: The Next Chapter",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +83,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4423,
+          "name": "Fang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.05428
+        },
+        {
+          "person_id": 4424,
+          "name": "Na Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.05428
+        },
+        {
+          "person_id": 4422,
+          "name": "Lei Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3949277
+        }
       ]
     },
     {
       "id": "song:10535",
-      "song_id": 10535,
+      "work_type": "Song",
+      "work_id": 10535,
       "title": "Memories Along the Lech River",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,17 +136,65 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4665,
+          "name": "Gino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.08105
+        },
+        {
+          "person_id": 4503,
+          "name": "Fredo Grossi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9326928
+        },
+        {
+          "person_id": 4664,
+          "name": "Antonietta Ceravolo-Condoleo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7092457
+        },
+        {
+          "person_id": 10536,
+          "name": "Kunigunde Pechel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041086
+        },
+        {
+          "person_id": 10537,
+          "name": "Hortense du Dijoux",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041086
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10535",
+      "source": "song:4421",
       "target": "song:16514",
       "type": "InStyleOf"
     },
     {
-      "source": "song:4421",
+      "source": "song:10535",
       "target": "song:16514",
       "type": "InStyleOf"
     }

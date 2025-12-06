@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5436",
-      "song_id": 5436,
+      "work_type": "Song",
+      "work_id": 5436,
       "title": "Fields of Golden Promise",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,93 @@
       "own": true,
       "artist_id": 5437,
       "artist_name": "Anaya Randhawa",
-      "influence": 4,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
         "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.791139
+        }
+      ]
+    },
+    {
+      "id": "album:7101",
+      "work_type": "Album",
+      "work_id": 7101,
+      "title": "Whispers in the Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 7102,
+      "artist_name": "Mannat Edwin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7102,
+          "name": "Mannat Edwin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7103,
+          "name": "Mahika Basu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7104,
+          "name": "Manjari Bobal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7105,
+          "name": "Nakul Gole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        }
+      ]
     },
     {
       "id": "song:10354",
-      "song_id": 10354,
+      "work_type": "Song",
+      "work_id": 10354,
       "title": "Mercy's Embrace",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +119,124 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.791139
+        },
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 4287,
+          "name": "Kashvi Dhillon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.261915
+        },
+        {
+          "person_id": 4284,
+          "name": "Tarini Hans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.130689
+        },
+        {
+          "person_id": 10355,
+          "name": "Ishaan Mahal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4029512
+        },
+        {
+          "person_id": 10356,
+          "name": "Yuvaan Chopra",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4029512
+        },
+        {
+          "person_id": 10357,
+          "name": "Heer Balan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4029512
+        }
+      ]
+    },
+    {
+      "id": "album:11001",
+      "work_type": "Album",
+      "work_id": 11001,
+      "title": "Whispers of Melodic Mentors",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1928,
+      "artist_name": "Zara Trivedi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.791139
+        },
+        {
+          "person_id": 1929,
+          "name": "Rhea Wali",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7036529
+        },
+        {
+          "person_id": 1928,
+          "name": "Zara Trivedi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3671927
+        }
       ]
     }
   ],
@@ -51,6 +245,16 @@
       "source": "song:10354",
       "target": "song:5436",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:7101",
+      "target": "song:5436",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:11001",
+      "target": "song:5436",
+      "type": "InStyleOf"
     }
   ]
 }

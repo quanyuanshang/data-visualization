@@ -1,0 +1,137 @@
+{
+  "person_id": 2758,
+  "name": "Fang Zhou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2755",
+      "work_type": "Album",
+      "work_id": 2755,
+      "title": "Shadows of a Silent Chair",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 2758,
+      "artist_name": "Fang Zhou",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2757,
+          "name": "Wei Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0471349
+        },
+        {
+          "person_id": 2756,
+          "name": "Tiffany Mckee",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3992124
+        },
+        {
+          "person_id": 2759,
+          "name": "Yong Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3992124
+        }
+      ]
+    },
+    {
+      "id": "song:12369",
+      "work_type": "Song",
+      "work_id": 12369,
+      "title": "Fallout Shelter Lullaby",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 11475,
+      "artist_name": "Juan Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4779,
+          "name": "Patricia-Julie Lopes",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.426063
+        },
+        {
+          "person_id": 11475,
+          "name": "Juan Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0254662
+        },
+        {
+          "person_id": 12370,
+          "name": "Guiying Chang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988645
+        },
+        {
+          "person_id": 12371,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988645
+        },
+        {
+          "person_id": 12372,
+          "name": "Jing Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988645
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12369",
+      "target": "album:2755",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

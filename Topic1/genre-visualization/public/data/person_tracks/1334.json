@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1333",
-      "song_id": 1333,
+      "work_type": "Song",
+      "work_id": 1333,
       "title": "Blossoming Smiles",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,18 +15,120 @@
       "own": true,
       "artist_id": 1334,
       "artist_name": "Arthur Sparks",
-      "influence": 7,
+      "influence": 12,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 1337,
+          "name": "Guiying Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4376602
+        },
+        {
+          "person_id": 1336,
+          "name": "Yong Lu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4374611
+        }
+      ]
+    },
+    {
+      "id": "album:683",
+      "work_type": "Album",
+      "work_id": 683,
+      "title": "Whispers of a Father's Heart",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 684,
+      "artist_name": "Gang Zhao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 687,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044944
+        },
+        {
+          "person_id": 685,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044094
+        },
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 688,
+          "name": "Ming Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997517
+        }
+      ]
     },
     {
       "id": "song:5216",
-      "song_id": 5216,
+      "work_type": "Song",
+      "work_id": 5216,
       "title": "Twilight's Gypsy Memories",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +146,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 5217,
+          "name": "Yang Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960042
+        }
       ]
     },
     {
       "id": "song:14429",
-      "song_id": 14429,
+      "work_type": "Song",
+      "work_id": 14429,
       "title": "Sweethearts of the Midwest",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -65,11 +199,52 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.02
+        },
+        {
+          "person_id": 14430,
+          "name": "Xia Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        },
+        {
+          "person_id": 14431,
+          "name": "Ethan Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        }
       ]
     },
     {
       "id": "song:16584",
-      "song_id": 16584,
+      "work_type": "Song",
+      "work_id": 16584,
       "title": "Byte by Byte",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -87,14 +262,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 5661,
+          "name": "Na Wei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0298502
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5216",
+      "source": "album:683",
       "target": "song:1333",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     },
     {
       "source": "song:14429",
@@ -103,6 +316,11 @@
     },
     {
       "source": "song:16584",
+      "target": "song:1333",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5216",
       "target": "song:1333",
       "type": "InStyleOf"
     }

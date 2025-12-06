@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1018",
-      "song_id": 1018,
+      "work_type": "Song",
+      "work_id": 1018,
       "title": "Wrinkled Rebellion",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 1020,
       "artist_name": "Theresa Pena",
-      "influence": 32,
+      "influence": 40,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 1,
-        "reference": 3,
+        "reference": 4,
         "style": 7
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1021,
+          "name": "Przemysław Grupa",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.726551
+        },
+        {
+          "person_id": 1019,
+          "name": "William Mcfarland",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.40483
+        }
+      ]
     },
     {
       "id": "song:1853",
-      "song_id": 1853,
+      "work_type": "Song",
+      "work_id": 1853,
       "title": "Reflections on the Water's Rim",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -43,11 +66,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1854,
+          "name": "Mary Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036334
+        },
+        {
+          "person_id": 1855,
+          "name": "Marie James",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.036334
+        }
       ]
     },
     {
       "id": "song:3512",
-      "song_id": 3512,
+      "work_type": "Song",
+      "work_id": 3512,
       "title": "Andalusian Rhythm",
       "genre": "Indie Pop",
       "notable": true,
@@ -65,11 +109,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 1021,
+          "name": "Przemysław Grupa",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.726551
+        }
       ]
     },
     {
       "id": "song:5407",
-      "song_id": 5407,
+      "work_type": "Song",
+      "work_id": 5407,
       "title": "The Whispers of Walborg",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -87,11 +162,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.5583477
+        },
+        {
+          "person_id": 5408,
+          "name": "Yong Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9828632
+        }
       ]
     },
     {
       "id": "song:6158",
-      "song_id": 6158,
+      "work_type": "Song",
+      "work_id": 6158,
       "title": "They Won't Understand Our Vision",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -109,11 +215,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
       ]
     },
     {
       "id": "song:6864",
-      "song_id": 6864,
+      "work_type": "Song",
+      "work_id": 6864,
       "title": "Echoes from the Elfin Veil",
       "genre": "Avant-Garde Folk",
       "notable": false,
@@ -131,11 +259,95 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
+      ]
+    },
+    {
+      "id": "album:7012",
+      "work_type": "Album",
+      "work_id": 7012,
+      "title": "Keyboard's Ethereal Dance",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 1855,
+      "artist_name": "Marie James",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1854,
+          "name": "Mary Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.036334
+        },
+        {
+          "person_id": 1855,
+          "name": "Marie James",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036334
+        },
+        {
+          "person_id": 7013,
+          "name": "Kari Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400831
+        }
       ]
     },
     {
       "id": "song:7568",
-      "song_id": 7568,
+      "work_type": "Song",
+      "work_id": 7568,
       "title": "Heartstrings and Steel",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -153,11 +365,52 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
       ]
     },
     {
       "id": "song:7842",
-      "song_id": 7842,
+      "work_type": "Song",
+      "work_id": 7842,
       "title": "Lifted High, His Name Divine",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -175,11 +428,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 7843,
+          "name": "Jun Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9450507
+        }
       ]
     },
     {
       "id": "song:8731",
-      "song_id": 8731,
+      "work_type": "Song",
+      "work_id": 8731,
       "title": "Winter's First Light",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -197,11 +472,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
       ]
     },
     {
       "id": "song:10120",
-      "song_id": 10120,
+      "work_type": "Song",
+      "work_id": 10120,
       "title": "Devour My Heart",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -219,11 +534,42 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 696,
+          "name": "Fang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.5583477
+        },
+        {
+          "person_id": 5408,
+          "name": "Yong Mao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9828632
+        }
       ]
     },
     {
       "id": "song:12344",
-      "song_id": 12344,
+      "work_type": "Song",
+      "work_id": 12344,
       "title": "Whispers from the Bamboo Grove",
       "genre": "Alternative Rock",
       "notable": true,
@@ -241,11 +587,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2762475
+        }
       ]
     },
     {
       "id": "song:15241",
-      "song_id": 15241,
+      "work_type": "Song",
+      "work_id": 15241,
       "title": "Nordisk Ljusdans (Nordic Light Dance)",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -263,11 +631,86 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2305,
+          "name": "Li Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2762475
+        },
+        {
+          "person_id": 6159,
+          "name": "Debra Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0730824
+        }
+      ]
+    },
+    {
+      "id": "album:15745",
+      "work_type": "Album",
+      "work_id": 15745,
+      "title": "Defeat's Refrain",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 15746,
+      "artist_name": "Natasha Mcdaniel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15746,
+          "name": "Natasha Mcdaniel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0754194
+        },
+        {
+          "person_id": 15259,
+          "name": "Jacqueline Monroe",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.043209
+        },
+        {
+          "person_id": 15747,
+          "name": "Henry Scott",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3860805
+        }
       ]
     },
     {
       "id": "song:16404",
-      "song_id": 16404,
+      "work_type": "Song",
+      "work_id": 16404,
       "title": "Murmures Angéliques",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -285,35 +728,49 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.5112824
+        },
+        {
+          "person_id": 3107,
+          "name": "Laura Sanchez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1009955
+        },
+        {
+          "person_id": 7569,
+          "name": "Raissa Anders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.720514
+        },
+        {
+          "person_id": 7570,
+          "name": "Jacob Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4375923
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:1853",
-      "target": "song:1018",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:6864",
-      "target": "song:1018",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:10120",
-      "target": "song:1018",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:8731",
-      "target": "song:1018",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:15241",
-      "target": "song:1018",
-      "type": "CoverOf"
-    },
     {
       "source": "song:3512",
       "target": "song:1018",
@@ -325,7 +782,47 @@
       "type": "InStyleOf"
     },
     {
+      "source": "song:10120",
+      "target": "song:1018",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:6864",
+      "target": "song:1018",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15241",
+      "target": "song:1018",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:16404",
+      "target": "song:1018",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1853",
+      "target": "song:1018",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7842",
+      "target": "song:1018",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:15745",
+      "target": "song:1018",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:8731",
+      "target": "song:1018",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5407",
       "target": "song:1018",
       "type": "InStyleOf"
     },
@@ -335,14 +832,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:7842",
+      "source": "album:7012",
       "target": "song:1018",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:5407",
-      "target": "song:1018",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     },
     {
       "source": "song:7568",

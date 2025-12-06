@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8095",
-      "song_id": 8095,
-      "title": "Midnight in the Tearscape",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2006,
-      "single": true,
-      "own": true,
-      "artist_id": 1934,
-      "artist_name": "Aleksander Przybyś",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1933",
-      "song_id": 1933,
+      "work_type": "Song",
+      "work_id": 1933,
       "title": "Wandering Miles",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -41,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:6503",
-      "song_id": 6503,
+      "work_type": "Song",
+      "work_id": 6503,
       "title": "Bund Boogie",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -61,11 +44,13 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:3386",
-      "song_id": 3386,
+      "work_type": "Song",
+      "work_id": 3386,
       "title": "Temporal Dissonance",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -81,11 +66,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
     },
     {
       "id": "song:7740",
-      "song_id": 7740,
+      "work_type": "Song",
+      "work_id": 7740,
       "title": "Amor Sem Limites (Love Without Limits)",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -94,26 +91,71 @@
       "own": true,
       "artist_id": 1934,
       "artist_name": "Aleksander Przybyś",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
     },
     {
-      "id": "song:1933",
-      "song_id": 1933,
-      "title": "Wandering Miles",
-      "genre": "Avant-Garde Folk",
+      "id": "song:8095",
+      "work_type": "Song",
+      "work_id": 8095,
+      "title": "Midnight in the Tearscape",
+      "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2025,
+      "release_year": 2006,
       "single": true,
       "own": true,
       "artist_id": 1934,
       "artist_name": "Aleksander Przybyś",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        }
+      ]
+    },
+    {
+      "id": "album:3449",
+      "work_type": "Album",
+      "work_id": 3449,
+      "title": "Shadows of What We Pretend",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -122,13 +164,34 @@
         "style": 0
       },
       "relation_types": [
-        "InterpolatesFrom",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 3450,
+          "name": "Julianna Mytnik",
+          "stage_name": "Runaway Orchestra",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3962605
+        }
       ]
     },
     {
       "id": "song:7138",
-      "song_id": 7138,
+      "work_type": "Song",
+      "work_id": 7138,
       "title": "Kerosene Memories",
       "genre": "Speed Metal",
       "notable": true,
@@ -146,10 +209,49 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7139,
+          "name": "Maura Jovinelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7132678
+        },
+        {
+          "person_id": 2328,
+          "name": "Martino Toninelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4525156
+        },
+        {
+          "person_id": 2329,
+          "name": "Ludovico Mondadori",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4525156
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:7138",
+      "target": "song:8095",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:3449",
+      "target": "song:7740",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:1933",
       "target": "song:6503",
@@ -159,11 +261,6 @@
       "source": "song:1933",
       "target": "song:8095",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:7138",
-      "target": "song:8095",
-      "type": "InStyleOf"
     }
   ]
 }

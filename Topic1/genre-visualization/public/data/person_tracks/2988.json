@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2982",
-      "song_id": 2982,
+      "work_type": "Song",
+      "work_id": 2982,
       "title": "Between Longing and Belonging",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,11 +22,61 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2983,
+          "name": "Hiroshi Nakamura",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2984,
+          "name": "Sotaro Sato",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2985,
+          "name": "Yasuhiro Yamamoto",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2986,
+          "name": "Yosuke Yamamoto",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2987,
+          "name": "Akemi Sato",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.042901
+        }
+      ]
     },
     {
       "id": "song:11612",
-      "song_id": 11612,
+      "work_type": "Song",
+      "work_id": 11612,
       "title": "Growing Silhouettes",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +92,61 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2983,
+          "name": "Hiroshi Nakamura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2984,
+          "name": "Sotaro Sato",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2985,
+          "name": "Yasuhiro Yamamoto",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2986,
+          "name": "Yosuke Yamamoto",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042901
+        },
+        {
+          "person_id": 2987,
+          "name": "Akemi Sato",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.042901
+        }
+      ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -63,19 +164,66 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:2982",
-      "target": "song:11612",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:3362",
       "target": "song:2982",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:2982",
+      "target": "song:11612",
+      "type": "DirectlySamples"
     }
   ]
 }

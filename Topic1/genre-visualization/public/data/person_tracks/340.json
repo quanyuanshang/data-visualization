@@ -1,0 +1,109 @@
+{
+  "person_id": 340,
+  "name": "Kornelia Raczkiewicz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:339",
+      "work_type": "Album",
+      "work_id": 339,
+      "title": "Whispers of a Thousand Moons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 340,
+      "artist_name": "Kornelia Raczkiewicz",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 341,
+          "name": "Dierk Bohlander",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4293308
+        }
+      ]
+    },
+    {
+      "id": "song:11936",
+      "work_type": "Song",
+      "work_id": 11936,
+      "title": "Tender Destruction",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 1248,
+          "name": "Gang Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.424843
+        },
+        {
+          "person_id": 11937,
+          "name": "Ashley Mahoney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993952
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11936",
+      "target": "album:339",
+      "type": "CoverOf"
+    }
+  ]
+}

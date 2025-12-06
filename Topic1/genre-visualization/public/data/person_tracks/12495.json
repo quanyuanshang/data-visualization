@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12494",
-      "song_id": 12494,
+      "work_type": "Song",
+      "work_id": 12494,
       "title": "Echoes from the Sacred",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 217,
+          "name": "Honoré Foucher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7349598
+        }
+      ]
     },
     {
       "id": "song:216",
-      "song_id": 216,
+      "work_type": "Song",
+      "work_id": 216,
       "title": "Spurs and Wedding Rings",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,19 +57,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 217,
+          "name": "Honoré Foucher",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7349598
+        }
       ]
     },
     {
       "id": "song:17068",
-      "song_id": 17068,
+      "work_type": "Song",
+      "work_id": 17068,
       "title": "Classified Groove",
       "genre": "Jazz Surf Rock",
       "notable": true,
       "release_year": 2036,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17063,
+      "artist_name": "The Phantom Operators（成员：Juno Ray｜预测 2.72、Savannah Teal｜预测 2.72）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -65,7 +92,8 @@
       },
       "relation_types": [
         "InterpolatesFrom"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [

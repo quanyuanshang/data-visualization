@@ -1,0 +1,167 @@
+{
+  "accuracy": 0.23988970588235295,
+  "classification_report": {
+    "Alternative Rock": {
+      "precision": 0.21176470588235294,
+      "recall": 0.18556701030927836,
+      "f1-score": 0.1978021978021978,
+      "support": 97.0
+    },
+    "Americana": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 119.0
+    },
+    "Blues Rock": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 36.0
+    },
+    "Darkwave": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 73.0
+    },
+    "Desert Rock": {
+      "precision": 0.16666666666666666,
+      "recall": 0.01098901098901099,
+      "f1-score": 0.020618556701030927,
+      "support": 91.0
+    },
+    "Doom Metal": {
+      "precision": 0.21818181818181817,
+      "recall": 0.05687203791469194,
+      "f1-score": 0.09022556390977443,
+      "support": 211.0
+    },
+    "Dream Pop": {
+      "precision": 0.2414844941535333,
+      "recall": 0.9368836291913215,
+      "f1-score": 0.3839935327405012,
+      "support": 507.0
+    },
+    "Indie Folk": {
+      "precision": 0.18181818181818182,
+      "recall": 0.008130081300813009,
+      "f1-score": 0.01556420233463035,
+      "support": 246.0
+    },
+    "Indie Pop": {
+      "precision": 0.2857142857142857,
+      "recall": 0.06451612903225806,
+      "f1-score": 0.10526315789473684,
+      "support": 31.0
+    },
+    "Indie Rock": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 93.0
+    },
+    "Jazz Surf Rock": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 66.0
+    },
+    "Oceanus Folk": {
+      "precision": 0.29411764705882354,
+      "recall": 0.043478260869565216,
+      "f1-score": 0.07575757575757576,
+      "support": 115.0
+    },
+    "Post-Apocalyptic Folk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 40.0
+    },
+    "Psychedelic Rock": {
+      "precision": 0.8,
+      "recall": 0.03125,
+      "f1-score": 0.06015037593984962,
+      "support": 128.0
+    },
+    "Southern Gothic Rock": {
+      "precision": 0.2727272727272727,
+      "recall": 0.058823529411764705,
+      "f1-score": 0.0967741935483871,
+      "support": 51.0
+    },
+    "Space Rock": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 73.0
+    },
+    "Symphonic Metal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 30.0
+    },
+    "Synthwave": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 169.0
+    },
+    "accuracy": 0.23988970588235295,
+    "macro avg": {
+      "precision": 0.1484708373446075,
+      "recall": 0.07758387161215022,
+      "f1-score": 0.05811940870159355,
+      "support": 2176.0
+    },
+    "weighted avg": {
+      "precision": 0.18745123217588744,
+      "recall": 0.23988970588235295,
+      "f1-score": 0.12096701369643803,
+      "support": 2176.0
+    }
+  },
+  "n_train": 8702,
+  "n_test": 2176,
+  "kept_genres": [
+    "Alternative Rock",
+    "Americana",
+    "Blues Rock",
+    "Darkwave",
+    "Desert Rock",
+    "Doom Metal",
+    "Dream Pop",
+    "Indie Folk",
+    "Indie Pop",
+    "Indie Rock",
+    "Jazz Surf Rock",
+    "Oceanus Folk",
+    "Post-Apocalyptic Folk",
+    "Psychedelic Rock",
+    "Southern Gothic Rock",
+    "Space Rock",
+    "Symphonic Metal",
+    "Synthwave"
+  ],
+  "feature_columns": [
+    "total_works",
+    "songs",
+    "albums",
+    "notable_works",
+    "notable_rate",
+    "time_span",
+    "role_count",
+    "influence_score",
+    "collaborators_count",
+    "record_labels_count",
+    "score",
+    "dominant_genre_share",
+    "genre_diversity",
+    "role_PerformerOf",
+    "role_ComposerOf",
+    "role_LyricistOf",
+    "role_ProducerOf"
+  ]
+}

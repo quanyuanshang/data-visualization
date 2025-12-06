@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7320",
-      "song_id": 7320,
+      "work_type": "Song",
+      "work_id": 7320,
       "title": "Lunar Transit Groove",
       "genre": "Americana",
       "notable": true,
@@ -14,6 +15,48 @@
       "own": true,
       "artist_id": 7322,
       "artist_name": "Nehmat Chaudhary",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7321,
+          "name": "Divit Khanna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396736
+        },
+        {
+          "person_id": 7323,
+          "name": "Dishani Goswami",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.396736
+        }
+      ]
+    },
+    {
+      "id": "album:3663",
+      "work_type": "Album",
+      "work_id": 3663,
+      "title": "Dimmsdale Dreams",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 3664,
+      "artist_name": "Daniel Nelson",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +64,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3665,
+          "name": "Diana Taylor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 3666,
+          "name": "Kayla Gomez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 3664,
+          "name": "Daniel Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.021215
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:3663",
+      "target": "song:7320",
+      "type": "CoverOf"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2299",
-      "song_id": 2299,
+      "work_type": "Song",
+      "work_id": 2299,
       "title": "Windswept Wanderer",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 235,
+          "name": "Shannon Gordon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2519875
+        },
+        {
+          "person_id": 2300,
+          "name": "Herr Detlef Geißler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978424
+        }
+      ]
     },
     {
       "id": "song:10124",
-      "song_id": 10124,
+      "work_type": "Song",
+      "work_id": 10124,
       "title": "Hunger for Your Love",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +66,36 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10125,
+          "name": "Maaya Suzuki",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966844
+        },
+        {
+          "person_id": 10126,
+          "name": "Hiroshi Yamamoto",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966844
+        },
+        {
+          "person_id": 10127,
+          "name": "Chiyo Ota",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966844
+        }
       ]
     }
   ],

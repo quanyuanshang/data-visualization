@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8969",
-      "song_id": 8969,
+      "work_type": "Song",
+      "work_id": 8969,
       "title": "Daughter's Choice, Mother's Verdict",
       "genre": "Darkwave",
       "notable": true,
@@ -14,6 +15,84 @@
       "own": true,
       "artist_id": 8972,
       "artist_name": "Lauren Mclean",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8970,
+          "name": "Justin Hensley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971207
+        },
+        {
+          "person_id": 8971,
+          "name": "Amy Marshall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971207
+        },
+        {
+          "person_id": 8973,
+          "name": "Andrea Brooks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971207
+        },
+        {
+          "person_id": 8974,
+          "name": "Emily Taylor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971207
+        },
+        {
+          "person_id": 8975,
+          "name": "Kathryn Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3971207
+        },
+        {
+          "person_id": 8976,
+          "name": "James Bishop",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3971207
+        }
+      ]
+    },
+    {
+      "id": "album:13150",
+      "work_type": "Album",
+      "work_id": 13150,
+      "title": "Echoes from a Dutch Horizon",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 13151,
+      "artist_name": "Ping Fang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +100,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13153,
+          "name": "Min Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4423532
+        },
+        {
+          "person_id": 13151,
+          "name": "Ping Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400218
+        },
+        {
+          "person_id": 13152,
+          "name": "Qiang Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400218
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:13150",
+      "target": "song:8969",
+      "type": "CoverOf"
+    }
+  ]
 }

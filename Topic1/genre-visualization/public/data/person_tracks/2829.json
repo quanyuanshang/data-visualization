@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2828",
-      "song_id": 2828,
+      "work_type": "Song",
+      "work_id": 2828,
       "title": "Nocturnal Echoes of Ivory",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,38 @@
       "own": true,
       "artist_id": 2829,
       "artist_name": "Wei Pan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2830,
+          "name": "Jun Qiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4188123
+        }
+      ]
+    },
+    {
+      "id": "album:8795",
+      "work_type": "Album",
+      "work_id": 8795,
+      "title": "Moonlight's Whisper in G Minor",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 8796,
+      "artist_name": "Ferdinando Nordio",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +54,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8799,
+          "name": "Eleanora Bersani",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0183384
+        },
+        {
+          "person_id": 8796,
+          "name": "Ferdinando Nordio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980966
+        },
+        {
+          "person_id": 8797,
+          "name": "Richard Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980966
+        },
+        {
+          "person_id": 8798,
+          "name": "Steven Calderon",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980966
+        },
+        {
+          "person_id": 8800,
+          "name": "Yvonne Morris",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980758
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8795",
+      "target": "song:2828",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

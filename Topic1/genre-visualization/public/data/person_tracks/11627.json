@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11623",
-      "song_id": 11623,
+      "work_type": "Song",
+      "work_id": 11623,
       "title": "Whispers of Tenderness",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11624,
+          "name": "Gianfranco Trentini",
+          "stage_name": "Trentini",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987455
+        },
+        {
+          "person_id": 11625,
+          "name": "Nicola Napolitano",
+          "stage_name": "Nicola",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3987455
+        },
+        {
+          "person_id": 11626,
+          "name": "Cassandra Zito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987455
+        },
+        {
+          "person_id": 11628,
+          "name": "Antonietta Chittolini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987455
+        }
+      ]
     },
     {
       "id": "song:17018",
-      "song_id": 17018,
+      "work_type": "Song",
+      "work_id": 17018,
       "title": "Chants for the Devoured",
       "genre": "Indie Rock",
       "notable": false,
@@ -43,6 +84,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17012,
+          "name": "Sienna Fox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9409828
+        }
       ]
     }
   ],

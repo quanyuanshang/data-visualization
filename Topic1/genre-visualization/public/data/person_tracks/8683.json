@@ -1,0 +1,201 @@
+{
+  "person_id": 8683,
+  "name": "Tao Bai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:8681",
+      "work_type": "Album",
+      "work_id": 8681,
+      "title": "Fence Line Kindness",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 8683,
+      "artist_name": "Tao Bai",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3937,
+          "name": "Lei Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410585
+        },
+        {
+          "person_id": 8685,
+          "name": "Gang Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0459118
+        },
+        {
+          "person_id": 8684,
+          "name": "Xiuying Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3948863
+        },
+        {
+          "person_id": 8686,
+          "name": "Qiang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947165
+        },
+        {
+          "person_id": 8682,
+          "name": "Jie Wan",
+          "stage_name": " Drew Silver",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3946958
+        }
+      ]
+    },
+    {
+      "id": "song:14778",
+      "work_type": "Song",
+      "work_id": 14778,
+      "title": "Nameless Emotion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 14779,
+      "artist_name": "Li Deng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 146,
+          "name": "Na Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9596112
+        },
+        {
+          "person_id": 14779,
+          "name": "Li Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993788
+        }
+      ]
+    },
+    {
+      "id": "song:14964",
+      "work_type": "Song",
+      "work_id": 14964,
+      "title": "White Veil Serenade",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 6889,
+      "artist_name": "Xia Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6889,
+          "name": "Xia Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439679
+        },
+        {
+          "person_id": 6890,
+          "name": "Nicole Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4395657
+        },
+        {
+          "person_id": 6891,
+          "name": "Xia Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4387205
+        },
+        {
+          "person_id": 7956,
+          "name": "Jie Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0479836
+        },
+        {
+          "person_id": 7957,
+          "name": "Xia Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.03477
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14778",
+      "target": "album:8681",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14964",
+      "target": "album:8681",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

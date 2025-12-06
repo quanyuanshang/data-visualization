@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5100",
-      "song_id": 5100,
+      "work_type": "Song",
+      "work_id": 5100,
       "title": "Sylvan Bride's Lament",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,85 @@
       "own": true,
       "artist_id": 5102,
       "artist_name": "Yan Fang",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5106,
+          "name": "Yan Liang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7208247
+        },
+        {
+          "person_id": 5108,
+          "name": "Ping Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0475612
+        },
+        {
+          "person_id": 5107,
+          "name": "Tao Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0245712
+        },
+        {
+          "person_id": 5101,
+          "name": "Ethan Sanchez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993356
+        },
+        {
+          "person_id": 5103,
+          "name": "Xiuying Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993356
+        },
+        {
+          "person_id": 5104,
+          "name": "Fang Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993356
+        },
+        {
+          "person_id": 5105,
+          "name": "Na Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993356
+        }
+      ]
     },
     {
       "id": "song:3991",
-      "song_id": 3991,
+      "work_type": "Song",
+      "work_id": 3991,
       "title": "Instrument Failure",
       "genre": "Synthwave",
       "notable": false,
@@ -43,11 +111,124 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1493,
+          "name": "Lei Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.727368
+        },
+        {
+          "person_id": 1490,
+          "name": "Yong Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1491,
+          "name": "Yong Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1492,
+          "name": "Juan Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1494,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9724717
+        },
+        {
+          "person_id": 3992,
+          "name": "Yang Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 0.15309839
+        }
+      ]
+    },
+    {
+      "id": "album:5616",
+      "work_type": "Album",
+      "work_id": 5616,
+      "title": "Invisible Strings",
+      "genre": "Space Rock",
+      "notable": false,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 5617,
+      "artist_name": "Kimberly Walker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5619,
+          "name": "Wei Han",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9414132
+        },
+        {
+          "person_id": 5617,
+          "name": "Kimberly Walker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991714
+        },
+        {
+          "person_id": 5618,
+          "name": "Heidi Dudley",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3991714
+        }
       ]
     },
     {
       "id": "song:6474",
-      "song_id": 6474,
+      "work_type": "Song",
+      "work_id": 6474,
       "title": "Midsummer's Melody",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,6 +246,46 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 314,
+          "name": "Cristian Bonilla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5058427
+        },
+        {
+          "person_id": 316,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9232433
+        },
+        {
+          "person_id": 6475,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.043481
+        },
+        {
+          "person_id": 3437,
+          "name": "Qiang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.029727
+        }
       ]
     }
   ],
@@ -76,6 +297,11 @@
     },
     {
       "source": "song:6474",
+      "target": "song:5100",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:5616",
       "target": "song:5100",
       "type": "InterpolatesFrom"
     }

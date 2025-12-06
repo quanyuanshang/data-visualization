@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15469",
-      "song_id": 15469,
+      "work_type": "Song",
+      "work_id": 15469,
       "title": "Chromatic Memory",
       "genre": "Synthwave",
       "notable": false,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15470,
+          "name": "Yong Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3997285
+        }
+      ]
     },
     {
       "id": "song:6844",
-      "song_id": 6844,
+      "work_type": "Song",
+      "work_id": 6844,
       "title": "Rhythm of the Alleyways",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +56,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6845,
+          "name": "Guiying Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963943
+        },
+        {
+          "person_id": 6846,
+          "name": "Qiang Dai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963943
+        },
+        {
+          "person_id": 6847,
+          "name": "Na Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963237
+        }
       ]
     },
     {
       "id": "song:11130",
-      "song_id": 11130,
+      "work_type": "Song",
+      "work_id": 11130,
       "title": "Denali's Whisper",
       "genre": "Space Rock",
       "notable": true,
@@ -65,19 +109,67 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11132,
+          "name": "Xia Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11134,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11131,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11133,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11135,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960795
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6844",
-      "target": "song:15469",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:11130",
       "target": "song:15469",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6844",
+      "target": "song:15469",
+      "type": "InStyleOf"
     }
   ]
 }

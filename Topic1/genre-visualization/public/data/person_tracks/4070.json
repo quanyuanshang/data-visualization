@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4069",
-      "song_id": 4069,
+      "work_type": "Song",
+      "work_id": 4069,
       "title": "Juliet's Fever",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 217,
+          "name": "Honoré Foucher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7349598
+        }
+      ]
     },
     {
       "id": "song:10309",
-      "song_id": 10309,
+      "work_type": "Song",
+      "work_id": 10309,
       "title": "Flickering Flames of Romance",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +57,36 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 634,
+          "name": "Jie Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2982986
+        },
+        {
+          "person_id": 819,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362248
+        }
       ]
     }
   ],

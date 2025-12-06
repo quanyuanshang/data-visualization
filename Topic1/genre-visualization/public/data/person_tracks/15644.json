@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15643",
-      "song_id": 15643,
+      "work_type": "Song",
+      "work_id": 15643,
       "title": "Steppe of My Soul",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 15644,
       "artist_name": "Natasza Sygut",
-      "influence": 12,
+      "influence": 14,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 4,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
     },
     {
       "id": "song:1933",
-      "song_id": 1933,
+      "work_type": "Song",
+      "work_id": 1933,
       "title": "Wandering Miles",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -43,11 +56,68 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
+      ]
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
       ]
     },
     {
       "id": "song:6503",
-      "song_id": 6503,
+      "work_type": "Song",
+      "work_id": 6503,
       "title": "Bund Boogie",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -65,11 +135,24 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
       ]
     },
     {
       "id": "song:10812",
-      "song_id": 10812,
+      "work_type": "Song",
+      "work_id": 10812,
       "title": "Silent Protocol",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -87,11 +170,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 10813,
+          "name": "Maks Bodek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969538
+        }
       ]
     },
     {
       "id": "song:11904",
-      "song_id": 11904,
+      "work_type": "Song",
+      "work_id": 11904,
       "title": "The Polite Appointments",
       "genre": "Alternative Rock",
       "notable": true,
@@ -109,14 +214,35 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6836832
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6503",
+      "source": "album:4167",
       "target": "song:15643",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
     },
     {
       "source": "song:1933",
@@ -124,14 +250,19 @@
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:11904",
+      "target": "song:15643",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:10812",
       "target": "song:15643",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:11904",
+      "source": "song:6503",
       "target": "song:15643",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     }
   ]
 }

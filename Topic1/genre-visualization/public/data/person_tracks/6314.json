@@ -4,8 +4,41 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:14628",
+      "work_type": "Album",
+      "work_id": 14628,
+      "title": "Kırık Kalp Melody",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 6314,
+      "artist_name": "Phillip Hamilton",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 2,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        }
+      ]
+    },
+    {
       "id": "song:6313",
-      "song_id": 6313,
+      "work_type": "Song",
+      "work_id": 6313,
       "title": "Unspoken Connections",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +54,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        }
+      ]
     },
     {
       "id": "song:3634",
-      "song_id": 3634,
+      "work_type": "Song",
+      "work_id": 3634,
       "title": "Boundary Lines",
       "genre": "Dream Pop",
       "notable": true,
@@ -42,7 +88,73 @@
         "style": 0
       },
       "relation_types": [
+        "DirectlySamples",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 3635,
+          "name": "Natasha Wood",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988643
+        }
+      ]
+    },
+    {
+      "id": "song:6313",
+      "work_type": "Song",
+      "work_id": 6313,
+      "title": "Unspoken Connections",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 2110,
+      "artist_name": "Catherine Clay",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 6314,
+          "name": "Phillip Hamilton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0499132
+        }
       ]
     }
   ],
@@ -51,6 +163,16 @@
       "source": "song:3634",
       "target": "song:6313",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3634",
+      "target": "album:14628",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:6313",
+      "target": "album:14628",
+      "type": "DirectlySamples"
     }
   ]
 }

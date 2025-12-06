@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4933",
-      "song_id": 4933,
+      "work_type": "Song",
+      "work_id": 4933,
       "title": "Whispers and Echoes",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 566,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.914547
+        }
+      ]
     },
     {
       "id": "song:12289",
-      "song_id": 12289,
+      "work_type": "Song",
+      "work_id": 12289,
       "title": "Shadows of Les Invalides",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -43,6 +57,18 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12290,
+          "name": "Andrea Green",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4302344
+        }
       ]
     }
   ],

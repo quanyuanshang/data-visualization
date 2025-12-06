@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8910",
-      "song_id": 8910,
+      "work_type": "Song",
+      "work_id": 8910,
       "title": "Romantic Relay",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 8913,
+          "name": "Richard Goodman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0329998
+        },
+        {
+          "person_id": 8912,
+          "name": "Garrett Salazar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394692
+        }
+      ]
     },
     {
       "id": "song:14697",
-      "song_id": 14697,
+      "work_type": "Song",
+      "work_id": 14697,
       "title": "Starlight's Rolling Probability",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +75,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2207,
+          "name": "Brian Wright",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0227065
+        },
+        {
+          "person_id": 14698,
+          "name": "Sabrina Hughes",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980021
+        }
       ]
     }
   ],

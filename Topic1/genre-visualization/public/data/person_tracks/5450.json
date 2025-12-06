@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5448",
-      "song_id": 5448,
+      "work_type": "Song",
+      "work_id": 5448,
       "title": "Masked Moments",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5449,
+          "name": "Jonathan Fisher",
+          "stage_name": " Palmer",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987496
+        },
+        {
+          "person_id": 5451,
+          "name": "Jun Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3987496
+        }
+      ]
     },
     {
       "id": "song:15372",
-      "song_id": 15372,
+      "work_type": "Song",
+      "work_id": 15372,
       "title": "Nebula Highway",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +65,17 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15373,
+          "name": "Lisa Maxwell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988652
+        }
       ]
     }
   ],

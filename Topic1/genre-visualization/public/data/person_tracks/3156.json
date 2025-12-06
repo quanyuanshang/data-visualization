@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3154",
-      "song_id": 3154,
+      "work_type": "Song",
+      "work_id": 3154,
       "title": "Delusion's Embrace",
       "genre": "Americana",
       "notable": true,
@@ -14,18 +15,130 @@
       "own": true,
       "artist_id": 3156,
       "artist_name": "Jun Meng",
-      "influence": 3,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
+        "sample": 1,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3158,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.512865
+        },
+        {
+          "person_id": 3157,
+          "name": "Jun Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1045165
+        },
+        {
+          "person_id": 3155,
+          "name": "Lei Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4395945
+        },
+        {
+          "person_id": 3159,
+          "name": "Ping Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0473459
+        }
+      ]
+    },
+    {
+      "id": "album:2852",
+      "work_type": "Album",
+      "work_id": 2852,
+      "title": "Between Day and Night",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 2853,
+      "artist_name": "Min Ren",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2853,
+          "name": "Min Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998048
+        },
+        {
+          "person_id": 2855,
+          "name": "Nicole Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3998048
+        },
+        {
+          "person_id": 2857,
+          "name": "Yong Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3998048
+        },
+        {
+          "person_id": 2854,
+          "name": "Guiying Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997915
+        },
+        {
+          "person_id": 2856,
+          "name": "William Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997915
+        }
+      ]
     },
     {
       "id": "song:8862",
-      "song_id": 8862,
+      "work_type": "Song",
+      "work_id": 8862,
       "title": "Harmonic Deconstruction No. 7",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -43,10 +156,63 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2325,
+          "name": "Chao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.114213
+        },
+        {
+          "person_id": 8866,
+          "name": "Jun Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0425694
+        },
+        {
+          "person_id": 8863,
+          "name": "Xiuying Zeng",
+          "stage_name": " The Phoenix",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399143
+        },
+        {
+          "person_id": 8864,
+          "name": "Ming Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399143
+        },
+        {
+          "person_id": 8865,
+          "name": "Yan He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399143
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:2852",
+      "target": "song:3154",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:8862",
       "target": "song:3154",

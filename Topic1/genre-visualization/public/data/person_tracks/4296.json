@@ -1,0 +1,118 @@
+{
+  "person_id": 4296,
+  "name": "Yong Ma",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:4294",
+      "work_type": "Album",
+      "work_id": 4294,
+      "title": "Midnight's Embrace",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 4296,
+      "artist_name": "Yong Ma",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1079,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.8661966
+        },
+        {
+          "person_id": 4298,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0224628
+        },
+        {
+          "person_id": 4295,
+          "name": "Wei Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004185
+        },
+        {
+          "person_id": 4297,
+          "name": "Na Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4004185
+        }
+      ]
+    },
+    {
+      "id": "song:3719",
+      "work_type": "Song",
+      "work_id": 3719,
+      "title": "Skybound Pioneers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 1429,
+      "artist_name": "Li Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1429,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7063024
+        },
+        {
+          "person_id": 3720,
+          "name": "Tao Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4009385
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3719",
+      "target": "album:4294",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14007",
-      "song_id": 14007,
-      "title": "Tiny Seeds, Endless Horizons",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2021,
-      "single": true,
-      "own": true,
-      "artist_id": 12667,
-      "artist_name": "Carsten Fritsch",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:12665",
-      "song_id": 12665,
+      "work_type": "Song",
+      "work_id": 12665,
       "title": "Celestial Dust and Earthly Echoes",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +22,83 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4231,
+          "name": "Jonathan Poole",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.128045
+        },
+        {
+          "person_id": 12666,
+          "name": "Christine Hauffer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4012098
+        }
+      ]
+    },
+    {
+      "id": "song:14007",
+      "work_type": "Song",
+      "work_id": 14007,
+      "title": "Tiny Seeds, Endless Horizons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 12667,
+      "artist_name": "Carsten Fritsch",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14008,
+          "name": "Eckard Werner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14009,
+          "name": "Zbigniew Stey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14010,
+          "name": "Milo Hendriks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        }
+      ]
     },
     {
       "id": "song:4606",
-      "song_id": 4606,
+      "work_type": "Song",
+      "work_id": 4606,
       "title": "Wooden Shoes and Accordion Dreams",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -63,19 +116,93 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4231,
+          "name": "Jonathan Poole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.128045
+        }
+      ]
+    },
+    {
+      "id": "song:14007",
+      "work_type": "Song",
+      "work_id": 14007,
+      "title": "Tiny Seeds, Endless Horizons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 12667,
+      "artist_name": "Carsten Fritsch",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12667,
+          "name": "Carsten Fritsch",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032013
+        },
+        {
+          "person_id": 14008,
+          "name": "Eckard Werner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14009,
+          "name": "Zbigniew Stey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14010,
+          "name": "Milo Hendriks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14007",
-      "target": "song:12665",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:4606",
       "target": "song:12665",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:14007",
+      "target": "song:12665",
+      "type": "InStyleOf"
     }
   ]
 }

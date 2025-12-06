@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1524",
-      "song_id": 1524,
+      "work_type": "Song",
+      "work_id": 1524,
       "title": "Baroque Whispers of the Throne",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,83 @@
       "own": true,
       "artist_id": 1525,
       "artist_name": "Brian Mclaughlin",
-      "influence": 7,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1526,
+          "name": "Christina Bowers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0299146
+        },
+        {
+          "person_id": 1527,
+          "name": "Carl Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299146
+        }
+      ]
+    },
+    {
+      "id": "album:830",
+      "work_type": "Album",
+      "work_id": 830,
+      "title": "Just You Wait and See",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 831,
+      "artist_name": "Kyle Cook",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 831,
+          "name": "Kyle Cook",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398055
+        },
+        {
+          "person_id": 832,
+          "name": "Albert White",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978477
+        }
+      ]
     },
     {
       "id": "song:14580",
-      "song_id": 14580,
+      "work_type": "Song",
+      "work_id": 14580,
       "title": "Matchstick Memories",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +109,51 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9242,
+          "name": "Reyansh Bir",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0433705
+        },
+        {
+          "person_id": 14581,
+          "name": "Indrajit Borra",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987837
+        },
+        {
+          "person_id": 14582,
+          "name": "Sharon Bray",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987837
+        },
+        {
+          "person_id": 14583,
+          "name": "James Bauer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987837
+        }
       ]
     },
     {
       "id": "song:16658",
-      "song_id": 16658,
+      "work_type": "Song",
+      "work_id": 16658,
       "title": "Barefoot Horizons",
       "genre": "Synthwave",
       "notable": true,
@@ -65,19 +171,45 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2404,
+          "name": "Amanda Ochoa",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0499234
+        },
+        {
+          "person_id": 2405,
+          "name": "Jonathan Wade",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0493054
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16658",
-      "target": "song:1524",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:14580",
       "target": "song:1524",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:830",
+      "target": "song:1524",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16658",
+      "target": "song:1524",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

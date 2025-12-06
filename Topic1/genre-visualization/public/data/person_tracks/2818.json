@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2815",
-      "song_id": 2815,
+      "work_type": "Song",
+      "work_id": 2815,
       "title": "Misdirected",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2816,
+          "name": "Anthony Erickson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39792
+        },
+        {
+          "person_id": 2817,
+          "name": "Virginia White",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39792
+        },
+        {
+          "person_id": 2819,
+          "name": "Aaron Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39792
+        }
+      ]
     },
     {
       "id": "song:9890",
-      "song_id": 9890,
+      "work_type": "Song",
+      "work_id": 9890,
       "title": "Lazy Light Cascade",
       "genre": "Blues Rock",
       "notable": true,
@@ -34,18 +66,30 @@
       "own": true,
       "artist_id": 2818,
       "artist_name": "Sonia Suda",
-      "influence": 4,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9891,
+          "name": "Jeffrey Ward",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3729148
+        }
+      ]
     },
     {
       "id": "song:4606",
-      "song_id": 4606,
+      "work_type": "Song",
+      "work_id": 4606,
       "title": "Wooden Shoes and Accordion Dreams",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -63,11 +107,24 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4231,
+          "name": "Jonathan Poole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.128045
+        }
       ]
     },
     {
       "id": "song:6794",
-      "song_id": 6794,
+      "work_type": "Song",
+      "work_id": 6794,
       "title": "Whispers of Carmentea",
       "genre": "Alternative Rock",
       "notable": true,
@@ -85,11 +142,85 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1650,
+          "name": "Daniel Lyons",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6096396
+        },
+        {
+          "person_id": 6795,
+          "name": "Na Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        }
+      ]
+    },
+    {
+      "id": "album:8930",
+      "work_type": "Album",
+      "work_id": 8930,
+      "title": "Tears of Mortal Surrender",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7169764
+        }
       ]
     },
     {
       "id": "song:15396",
-      "song_id": 15396,
+      "work_type": "Song",
+      "work_id": 15396,
       "title": "Maiden's Footsteps on Soft Grass",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -107,22 +238,48 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2528,
+          "name": "Larry Fields",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9760733
+        },
+        {
+          "person_id": 15397,
+          "name": "Sherri Mclaughlin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3726494
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:6794",
-      "target": "song:9890",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:4606",
       "target": "song:2815",
       "type": "InStyleOf"
     },
     {
+      "source": "album:8930",
+      "target": "song:9890",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:15396",
+      "target": "song:9890",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6794",
       "target": "song:9890",
       "type": "InStyleOf"
     }

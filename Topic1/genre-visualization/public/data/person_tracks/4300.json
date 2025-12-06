@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:4299",
-      "song_id": 4299,
-      "title": "Último intento (Last attempt)",
-      "genre": "Desert Rock",
-      "notable": false,
-      "release_year": 2030,
-      "single": true,
-      "own": true,
-      "artist_id": 4300,
-      "artist_name": "Pamela Johnson",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:5660",
-      "song_id": 5660,
+      "work_type": "Song",
+      "work_id": 5660,
       "title": "Vacant Brain Waves",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,11 +22,120 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 5662,
+          "name": "Min Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0399978
+        },
+        {
+          "person_id": 5661,
+          "name": "Na Wei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0298502
+        }
+      ]
+    },
+    {
+      "id": "song:4299",
+      "work_type": "Song",
+      "work_id": 4299,
+      "title": "Último intento (Last attempt)",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2030,
+      "single": true,
+      "own": true,
+      "artist_id": 4300,
+      "artist_name": "Pamela Johnson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4301,
+          "name": "Na Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4302,
+          "name": "Guiying Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4303,
+          "name": "Xiuying Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4304,
+          "name": "Jun Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957763
+        },
+        {
+          "person_id": 4305,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3957763
+        }
+      ]
     },
     {
       "id": "song:9808",
-      "song_id": 9808,
+      "work_type": "Song",
+      "work_id": 9808,
       "title": "Lawn Mower Lament",
       "genre": "Indie Rock",
       "notable": true,
@@ -63,11 +153,33 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 9809,
+          "name": "Guiying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4022245
+        }
       ]
     },
     {
       "id": "song:11249",
-      "song_id": 11249,
+      "work_type": "Song",
+      "work_id": 11249,
       "title": "Silence Between Departures",
       "genre": "Indie Rock",
       "notable": true,
@@ -85,19 +197,58 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9371912
+        },
+        {
+          "person_id": 6375,
+          "name": "Michael Peterson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047103
+        },
+        {
+          "person_id": 11250,
+          "name": "Min Gu",
+          "stage_name": "The Glitch Monarch",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999574
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11249",
-      "target": "song:5660",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:9808",
       "target": "song:5660",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:11249",
+      "target": "song:5660",
+      "type": "CoverOf"
     }
   ]
 }

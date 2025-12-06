@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15025",
-      "song_id": 15025,
+      "work_type": "Song",
+      "work_id": 15025,
       "title": "Echoes of Uncertain Hands",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +15,63 @@
       "own": true,
       "artist_id": 13238,
       "artist_name": "Elisabet Manola Aguirre Solís",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15026,
+          "name": "Juanita Galván",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3996027
+        }
+      ]
+    },
+    {
+      "id": "album:13237",
+      "work_type": "Album",
+      "work_id": 13237,
+      "title": "Secrets Beyond Comprehension",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": false,
+      "own": true,
+      "artist_id": 13238,
+      "artist_name": "Elisabet Manola Aguirre Solís",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13239,
+          "name": "Rosario Alsina Saez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3934293
+        }
+      ]
     },
     {
       "id": "song:4725",
-      "song_id": 4725,
+      "work_type": "Song",
+      "work_id": 4725,
       "title": "Shadows of Sundown",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -42,11 +88,87 @@
         "style": 0
       },
       "relation_types": [
+        "CoverOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4727,
+          "name": "Min Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0485852
+        },
+        {
+          "person_id": 4726,
+          "name": "Xiulan Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398328
+        }
+      ]
+    },
+    {
+      "id": "album:13237",
+      "work_type": "Album",
+      "work_id": 13237,
+      "title": "Secrets Beyond Comprehension",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": false,
+      "own": false,
+      "artist_id": 13239,
+      "artist_name": "Rosario Alsina Saez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13238,
+          "name": "Elisabet Manola Aguirre Solís",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0394359
+        },
+        {
+          "person_id": 13239,
+          "name": "Rosario Alsina Saez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3934293
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:4725",
+      "target": "album:13237",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:13237",
+      "target": "song:15025",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:4725",
       "target": "song:15025",

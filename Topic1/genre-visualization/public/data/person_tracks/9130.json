@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9129",
-      "song_id": 9129,
+      "work_type": "Song",
+      "work_id": 9129,
       "title": "Tipsy Toes Tango",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,110 @@
       "own": true,
       "artist_id": 9130,
       "artist_name": "Charvi Bains",
-      "influence": 7,
+      "influence": 14,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 1,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.791139
+        },
+        {
+          "person_id": 9131,
+          "name": "Hrishita Sura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999958
+        }
+      ]
+    },
+    {
+      "id": "album:1927",
+      "work_type": "Album",
+      "work_id": 1927,
+      "title": "Footprints in Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2011,
+      "single": false,
+      "own": false,
+      "artist_id": 1928,
+      "artist_name": "Zara Trivedi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.791139
+        },
+        {
+          "person_id": 1929,
+          "name": "Rhea Wali",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7036529
+        },
+        {
+          "person_id": 1928,
+          "name": "Zara Trivedi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3671927
+        },
+        {
+          "person_id": 1930,
+          "name": "Nitya Dass",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392466
+        },
+        {
+          "person_id": 1931,
+          "name": "Anahi Sachdeva",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392466
+        }
+      ]
     },
     {
       "id": "song:11765",
-      "song_id": 11765,
+      "work_type": "Song",
+      "work_id": 11765,
       "title": "Toxic Pulse",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +136,25 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11766,
+          "name": "Anna Reyes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957849
+        }
       ]
     },
     {
       "id": "song:15539",
-      "song_id": 15539,
+      "work_type": "Song",
+      "work_id": 15539,
       "title": "Soft Petals, Quiet Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +172,138 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.791139
+        },
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 4287,
+          "name": "Kashvi Dhillon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.261915
+        },
+        {
+          "person_id": 4284,
+          "name": "Tarini Hans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.130689
+        }
+      ]
+    },
+    {
+      "id": "album:16635",
+      "work_type": "Album",
+      "work_id": 16635,
+      "title": "Cascade of Devotion",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 1928,
+      "artist_name": "Zara Trivedi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.791139
+        },
+        {
+          "person_id": 1929,
+          "name": "Rhea Wali",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7036529
+        },
+        {
+          "person_id": 1928,
+          "name": "Zara Trivedi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3671927
+        },
+        {
+          "person_id": 16636,
+          "name": "Hansh Dyal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4048312
+        },
+        {
+          "person_id": 16637,
+          "name": "Nishith Sachar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4048312
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:15539",
+      "target": "song:9129",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:11765",
       "target": "song:9129",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:15539",
+      "source": "album:16635",
       "target": "song:9129",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:1927",
+      "target": "song:9129",
+      "type": "CoverOf"
     }
   ]
 }

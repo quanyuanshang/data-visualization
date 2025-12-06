@@ -1,0 +1,117 @@
+{
+  "person_id": 5709,
+  "name": "Adrien Gonzalez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:5706",
+      "work_type": "Album",
+      "work_id": 5706,
+      "title": "Sleigh Ride to Destiny",
+      "genre": "Americana",
+      "notable": false,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 5709,
+      "artist_name": "Adrien Gonzalez",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5707,
+          "name": "Anastasie Auger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3932707
+        },
+        {
+          "person_id": 5708,
+          "name": "Georges-Grégoire Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3932707
+        }
+      ]
+    },
+    {
+      "id": "song:2418",
+      "work_type": "Song",
+      "work_id": 2418,
+      "title": "Chill Zone",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 2419,
+      "artist_name": "Kristen Stanley",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2421,
+          "name": "William Delacruz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976505
+        },
+        {
+          "person_id": 2422,
+          "name": "Shannon Jacobson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976505
+        },
+        {
+          "person_id": 2419,
+          "name": "Kristen Stanley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976297
+        },
+        {
+          "person_id": 2420,
+          "name": "Richard Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976297
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2418",
+      "target": "album:5706",
+      "type": "DirectlySamples"
+    }
+  ]
+}

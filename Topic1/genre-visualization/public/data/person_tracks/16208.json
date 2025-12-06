@@ -1,0 +1,80 @@
+{
+  "person_id": 16208,
+  "name": "Marcella Dobes",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:16205",
+      "work_type": "Album",
+      "work_id": 16205,
+      "title": "Incomplete Puzzle",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 16208,
+      "artist_name": "Marcella Dobes",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16206,
+          "name": "Pedro Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976824
+        },
+        {
+          "person_id": 16207,
+          "name": "Natalija Täsche",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976824
+        }
+      ]
+    },
+    {
+      "id": "song:17000",
+      "work_type": "Song",
+      "work_id": 17000,
+      "title": "Dust and Whiskey",
+      "genre": "Americana",
+      "notable": false,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 16996,
+      "artist_name": "Crimson Carriage（成员：Olivia Carter (Echo Wilde)｜预测 2.40、Lucas Bennett｜预测 2.41…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": []
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17000",
+      "target": "album:16205",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14466",
-      "song_id": 14466,
-      "title": "Touching Infinite Horizon",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2028,
-      "single": true,
-      "own": true,
-      "artist_id": 9738,
-      "artist_name": "Jing Pan",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15005",
-      "song_id": 15005,
+      "work_type": "Song",
+      "work_id": 15005,
       "title": "Espejismo del Corazón",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,7 +22,111 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5795,
+          "name": "Li Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4190419
+        },
+        {
+          "person_id": 15006,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.395725
+        }
+      ]
+    },
+    {
+      "id": "album:9737",
+      "work_type": "Album",
+      "work_id": 9737,
+      "title": "Whispers of the Underworld Helm",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 9738,
+      "artist_name": "Jing Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5795,
+          "name": "Li Shi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4190419
+        }
+      ]
+    },
+    {
+      "id": "song:14466",
+      "work_type": "Song",
+      "work_id": 14466,
+      "title": "Touching Infinite Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 9738,
+      "artist_name": "Jing Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 14467,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984725
+        },
+        {
+          "person_id": 14468,
+          "name": "Ping Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984725
+        }
+      ]
     }
   ],
   "links": []

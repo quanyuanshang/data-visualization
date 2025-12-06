@@ -4,8 +4,41 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:597",
+      "work_type": "Album",
+      "work_id": 597,
+      "title": "Fragments of Daylight",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 598,
+      "artist_name": "Kayla Campbell",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 599,
+          "name": "Stacey Bruce",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4095452
+        }
+      ]
+    },
+    {
       "id": "song:5837",
-      "song_id": 5837,
+      "work_type": "Song",
+      "work_id": 5837,
       "title": "Promises Etched in Starlight",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +54,131 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5043,
+          "name": "Meik Plath",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3572807
+        },
+        {
+          "person_id": 5838,
+          "name": "Graziella Marenzio-Scialpi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007707
+        }
+      ]
+    },
+    {
+      "id": "song:14146",
+      "work_type": "Song",
+      "work_id": 14146,
+      "title": "Armor of Passion",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 1074,
+      "artist_name": "Jing Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 9380,
+          "name": "Jun Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1067395
+        },
+        {
+          "person_id": 12337,
+          "name": "Li Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9436727
+        },
+        {
+          "person_id": 13285,
+          "name": "Tao Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4167626
+        },
+        {
+          "person_id": 14147,
+          "name": "Yan Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953695
+        },
+        {
+          "person_id": 14148,
+          "name": "Min Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953695
+        },
+        {
+          "person_id": 14149,
+          "name": "Guiying Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953695
+        },
+        {
+          "person_id": 14150,
+          "name": "Tao Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953695
+        }
+      ]
     },
     {
       "id": "song:5040",
-      "song_id": 5040,
+      "work_type": "Song",
+      "work_id": 5040,
       "title": "Eldgamle Stier (Ancient Paths)",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,10 +196,45 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5043,
+          "name": "Meik Plath",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3572807
+        },
+        {
+          "person_id": 5041,
+          "name": "Astrid Weinhold",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980625
+        },
+        {
+          "person_id": 5042,
+          "name": "Janin Hartmann",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980417
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:14146",
+      "target": "album:597",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:5040",
       "target": "song:5837",

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2470",
-      "song_id": 2470,
+      "work_type": "Song",
+      "work_id": 2470,
       "title": "Midnight's Matchstick Lullaby",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2471,
+          "name": "Antoine Barthelemy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.389443
+        }
+      ]
     },
     {
       "id": "song:13994",
-      "song_id": 13994,
+      "work_type": "Song",
+      "work_id": 13994,
       "title": "After the Storm",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +54,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 13995,
+          "name": "Martin Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399554
+        }
+      ]
     },
     {
       "id": "song:13994",
-      "song_id": 13994,
+      "work_type": "Song",
+      "work_id": 13994,
       "title": "After the Storm",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +98,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 2472,
+          "name": "Bryan Richardson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0060618
+        },
+        {
+          "person_id": 13995,
+          "name": "Martin Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399554
+        }
       ]
     },
     {
       "id": "song:14880",
-      "song_id": 14880,
+      "work_type": "Song",
+      "work_id": 14880,
       "title": "Whispers of the Watery Grave",
       "genre": "Indie Folk",
       "notable": true,
@@ -85,19 +151,67 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7864,
+          "name": "Pénélope du Cohen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7095792
+        },
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4295757
+        },
+        {
+          "person_id": 2471,
+          "name": "Antoine Barthelemy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.389443
+        },
+        {
+          "person_id": 14882,
+          "name": "Victoire Roger-Noël",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399569
+        },
+        {
+          "person_id": 14881,
+          "name": "Auguste Perrin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995483
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14880",
-      "target": "song:2470",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:13994",
       "target": "song:2470",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:14880",
+      "target": "song:2470",
+      "type": "InterpolatesFrom"
     }
   ]
 }

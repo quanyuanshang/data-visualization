@@ -4,8 +4,130 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:11037",
+      "work_type": "Song",
+      "work_id": 11037,
+      "title": "Whispers from a New World",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": true,
+      "artist_id": 8181,
+      "artist_name": "Gang Wan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11039,
+          "name": "Wei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040776
+        },
+        {
+          "person_id": 11040,
+          "name": "Chao Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0289605
+        },
+        {
+          "person_id": 11038,
+          "name": "Wei Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980176
+        },
+        {
+          "person_id": 11041,
+          "name": "Lei Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980176
+        }
+      ]
+    },
+    {
+      "id": "album:12508",
+      "work_type": "Album",
+      "work_id": 12508,
+      "title": "Silent Exclamation",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 8181,
+      "artist_name": "Gang Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12510,
+          "name": "Min Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4402542
+        },
+        {
+          "person_id": 11040,
+          "name": "Chao Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0289605
+        },
+        {
+          "person_id": 12509,
+          "name": "Yang Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977697
+        },
+        {
+          "person_id": 12511,
+          "name": "Juan Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977697
+        }
+      ]
+    },
+    {
       "id": "song:8179",
-      "song_id": 8179,
+      "work_type": "Song",
+      "work_id": 8179,
       "title": "Silenced Multitudes",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,16 +143,29 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8180,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980029
+        }
+      ]
     },
     {
-      "id": "song:11037",
-      "song_id": 11037,
-      "title": "Whispers from a New World",
-      "genre": "Psychedelic Rock",
+      "id": "album:12508",
+      "work_type": "Album",
+      "work_id": 12508,
+      "title": "Silent Exclamation",
+      "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2014,
-      "single": true,
+      "release_year": 2025,
+      "single": false,
       "own": true,
       "artist_id": 8181,
       "artist_name": "Gang Wan",
@@ -41,8 +176,66 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12510,
+          "name": "Min Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4402542
+        },
+        {
+          "person_id": 8181,
+          "name": "Gang Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3214297
+        },
+        {
+          "person_id": 11040,
+          "name": "Chao Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0289605
+        },
+        {
+          "person_id": 12509,
+          "name": "Yang Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977697
+        },
+        {
+          "person_id": 12511,
+          "name": "Juan Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977697
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:12508",
+      "target": "song:11037",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

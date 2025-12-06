@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12100",
-      "song_id": 12100,
+      "work_type": "Song",
+      "work_id": 12100,
       "title": "Soulmates Across the Winds",
       "genre": "Indie Pop",
       "notable": false,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2080,
+          "name": "Ellen Ford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4679987
+        },
+        {
+          "person_id": 11364,
+          "name": "Gwendolyn Fitzgerald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4947286
+        }
+      ]
     },
     {
       "id": "song:17011",
-      "song_id": 17011,
+      "work_type": "Song",
+      "work_id": 17011,
       "title": "Velvet Catacombs",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,6 +66,17 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17004,
+          "name": "Willow Sage",
+          "stage_name": "Horizon Fable",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9185874
+        }
       ]
     }
   ],

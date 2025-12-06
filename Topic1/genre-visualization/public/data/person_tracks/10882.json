@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10880",
-      "song_id": 10880,
+      "work_type": "Song",
+      "work_id": 10880,
       "title": "Vinyl Virgin",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 10882,
       "artist_name": "Traci Thomas",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3613,
+          "name": "Xiulan Yan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.11822
+        },
+        {
+          "person_id": 1979,
+          "name": "Anouk Schatteleijn",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4477396
+        },
+        {
+          "person_id": 10881,
+          "name": "Xiulan Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970451
+        }
+      ]
+    },
+    {
+      "id": "album:15522",
+      "work_type": "Album",
+      "work_id": 15522,
+      "title": "Whispers from the Brigantine's Bow",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 9142,
+      "artist_name": "Jun Meng",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1465,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6118836
+        },
+        {
+          "person_id": 12749,
+          "name": "Yan Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4328046
+        },
+        {
+          "person_id": 9142,
+          "name": "Jun Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0230756
+        },
+        {
+          "person_id": 15523,
+          "name": "Li Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980176
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:15522",
+      "target": "song:10880",
+      "type": "CoverOf"
+    }
+  ]
 }

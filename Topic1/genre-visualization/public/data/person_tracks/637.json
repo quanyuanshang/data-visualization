@@ -1,0 +1,146 @@
+{
+  "person_id": 637,
+  "name": "Ping Zhang",
+  "stage_name": " Zara Moon",
+  "nodes": [
+    {
+      "id": "album:636",
+      "work_type": "Album",
+      "work_id": 636,
+      "title": "Oh, Steven",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": true,
+      "artist_id": 637,
+      "artist_name": "Ping Zhang ( Zara Moon)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 639,
+          "name": "Ming Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.05393
+        },
+        {
+          "person_id": 638,
+          "name": "Guiying Gu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3928227
+        }
+      ]
+    },
+    {
+      "id": "song:3881",
+      "work_type": "Song",
+      "work_id": 3881,
+      "title": "Susurros de Pasión",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 934,
+      "artist_name": "Jun Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 934,
+          "name": "Jun Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9345489
+        },
+        {
+          "person_id": 3761,
+          "name": "Gang Shao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.435597
+        },
+        {
+          "person_id": 3764,
+          "name": "Wei Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.435597
+        },
+        {
+          "person_id": 3760,
+          "name": "Min Long",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4275122
+        },
+        {
+          "person_id": 3763,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0507543
+        },
+        {
+          "person_id": 3883,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036893
+        },
+        {
+          "person_id": 3882,
+          "name": "Juan Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4042804
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:3881",
+      "target": "album:636",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7990",
-      "song_id": 7990,
-      "title": "Snapshot Serenade",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2025,
-      "single": true,
-      "own": true,
-      "artist_id": 7993,
-      "artist_name": "Qiang Cheng",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9549",
-      "song_id": 9549,
+      "work_type": "Song",
+      "work_id": 9549,
       "title": "Right Path Ahead",
       "genre": "Dream Pop",
       "notable": false,
@@ -41,7 +22,79 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9550,
+          "name": "Kristen Lucero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947935
+        },
+        {
+          "person_id": 9551,
+          "name": "William Torres",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3947935
+        }
+      ]
+    },
+    {
+      "id": "song:7990",
+      "work_type": "Song",
+      "work_id": 7990,
+      "title": "Snapshot Serenade",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": true,
+      "artist_id": 7993,
+      "artist_name": "Qiang Cheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1376,
+          "name": "Dawn Ramsey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.424916
+        },
+        {
+          "person_id": 7992,
+          "name": "Na Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9835196
+        },
+        {
+          "person_id": 7991,
+          "name": "Jie Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392092
+        }
+      ]
     }
   ],
   "links": []

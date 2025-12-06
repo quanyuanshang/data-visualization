@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12685",
-      "song_id": 12685,
+      "work_type": "Song",
+      "work_id": 12685,
       "title": "Coastal Whispers of Biscay",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12686,
+          "name": "James Medina",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397877
+        },
+        {
+          "person_id": 12687,
+          "name": "Matthew Best",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397877
+        }
+      ]
     },
     {
       "id": "song:17290",
-      "song_id": 17290,
+      "work_type": "Song",
+      "work_id": 17290,
       "title": "Fog & Fiddle",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,6 +66,17 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],

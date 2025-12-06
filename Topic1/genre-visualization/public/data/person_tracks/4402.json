@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4400",
-      "song_id": 4400,
+      "work_type": "Song",
+      "work_id": 4400,
       "title": "The Lower Depths",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4403,
+          "name": "Mariah Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7198555
+        },
+        {
+          "person_id": 4401,
+          "name": "Malwina Penar",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.711405
+        }
+      ]
     },
     {
       "id": "song:15590",
-      "song_id": 15590,
+      "work_type": "Song",
+      "work_id": 15590,
       "title": "Beyond Moderation",
       "genre": "Indie Rock",
       "notable": false,
@@ -43,6 +65,37 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3754,
+          "name": "Annetta Passalacqua",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4334188
+        },
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
       ]
     }
   ],

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15332",
-      "song_id": 15332,
-      "title": "Moderate Momentum",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 3628,
-      "artist_name": "Xiulan Zhou",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3627",
-      "song_id": 3627,
+      "work_type": "Song",
+      "work_id": 3627,
       "title": "Masked Shadows",
       "genre": "Southern Gothic Rock",
       "notable": false,
@@ -41,11 +22,83 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3629,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0835075
+        },
+        {
+          "person_id": 2210,
+          "name": "Lei Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0498252
+        },
+        {
+          "person_id": 2211,
+          "name": "Xiulan Deng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4600284
+        }
+      ]
+    },
+    {
+      "id": "song:15332",
+      "work_type": "Song",
+      "work_id": 15332,
+      "title": "Moderate Momentum",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 3628,
+      "artist_name": "Xiulan Zhou",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 2210,
+          "name": "Lei Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0498252
+        }
+      ]
     },
     {
       "id": "song:11438",
-      "song_id": 11438,
+      "work_type": "Song",
+      "work_id": 11438,
       "title": "Whispers of Carmela",
       "genre": "Indie Pop",
       "notable": true,
@@ -63,6 +116,36 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        }
       ]
     }
   ],

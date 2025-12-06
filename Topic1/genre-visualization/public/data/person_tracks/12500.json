@@ -1,0 +1,118 @@
+{
+  "person_id": 12500,
+  "name": "Steven Smith",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:12498",
+      "work_type": "Album",
+      "work_id": 12498,
+      "title": "Launch Protocol",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 12500,
+      "artist_name": "Steven Smith",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10239,
+          "name": "Kimberly Nelson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0453434
+        },
+        {
+          "person_id": 12499,
+          "name": "Steven Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401517
+        }
+      ]
+    },
+    {
+      "id": "song:6746",
+      "work_type": "Song",
+      "work_id": 6746,
+      "title": "Sunset Continuum",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 6747,
+      "artist_name": "Štěpánka Bártová",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6748,
+          "name": "Miloslava Nováková",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983052
+        },
+        {
+          "person_id": 6747,
+          "name": "Štěpánka Bártová",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979037
+        },
+        {
+          "person_id": 6749,
+          "name": "Lukáš Strnad",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3979037
+        },
+        {
+          "person_id": 6750,
+          "name": "Momoko Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979037
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6746",
+      "target": "album:12498",
+      "type": "InStyleOf"
+    }
+  ]
+}

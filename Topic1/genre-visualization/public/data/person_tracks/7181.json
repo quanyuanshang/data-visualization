@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7180",
-      "song_id": 7180,
+      "work_type": "Song",
+      "work_id": 7180,
       "title": "Aviator's First Dance",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7182,
+          "name": "Yong Xia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991275
+        }
+      ]
     },
     {
       "id": "song:17354",
-      "song_id": 17354,
+      "work_type": "Song",
+      "work_id": 17354,
       "title": "Seven Fathoms Deep",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,6 +56,17 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17349,
+          "name": "Beatrice Albright",
+          "stage_name": "Bea Azure",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.194851
+        }
       ]
     }
   ],

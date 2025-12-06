@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10",
-      "song_id": 10,
+      "work_type": "Song",
+      "work_id": 10,
       "title": "No Limits Left",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11,
+          "name": "Gang Long",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4306552
+        },
+        {
+          "person_id": 13,
+          "name": "Li Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049953
+        }
+      ]
     },
     {
       "id": "song:11459",
-      "song_id": 11459,
+      "work_type": "Song",
+      "work_id": 11459,
       "title": "Glacial Pulse",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -41,7 +64,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11,
+          "name": "Gang Long",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4306552
+        },
+        {
+          "person_id": 11460,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0500538
+        },
+        {
+          "person_id": 13,
+          "name": "Li Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049953
+        },
+        {
+          "person_id": 11461,
+          "name": "Juan Song",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4027152
+        },
+        {
+          "person_id": 11462,
+          "name": "Juan Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4027152
+        }
+      ]
     }
   ],
   "links": []

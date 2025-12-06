@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14769",
-      "song_id": 14769,
+      "work_type": "Song",
+      "work_id": 14769,
       "title": "Clock Out Confession",
       "genre": "Synthpop",
       "notable": true,
@@ -21,11 +22,60 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2830,
+          "name": "Jun Qiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4188123
+        },
+        {
+          "person_id": 9037,
+          "name": "Heather Moss",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448227
+        },
+        {
+          "person_id": 14770,
+          "name": "Yong Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100091
+        },
+        {
+          "person_id": 14771,
+          "name": "Diane Robbins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100091
+        },
+        {
+          "person_id": 14773,
+          "name": "Wei Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100091
+        }
+      ]
     },
     {
       "id": "song:14778",
-      "song_id": 14778,
+      "work_type": "Song",
+      "work_id": 14778,
       "title": "Nameless Emotion",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +93,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 146,
+          "name": "Na Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9596112
+        },
+        {
+          "person_id": 14779,
+          "name": "Li Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993788
+        }
       ]
     },
     {
       "id": "song:16686",
-      "song_id": 16686,
+      "work_type": "Song",
+      "work_id": 16686,
       "title": "Thunderstruck Memories",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,17 +137,73 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2850,
+          "name": "Min Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6156697
+        },
+        {
+          "person_id": 6312,
+          "name": "Fang Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7013907
+        },
+        {
+          "person_id": 3430,
+          "name": "Ming Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047089
+        },
+        {
+          "person_id": 16687,
+          "name": "Ping Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974006
+        },
+        {
+          "person_id": 16688,
+          "name": "Robin Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974006
+        },
+        {
+          "person_id": 16689,
+          "name": "Lei Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974006
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16686",
+      "source": "song:14778",
       "target": "song:14769",
       "type": "InStyleOf"
     },
     {
-      "source": "song:14778",
+      "source": "song:16686",
       "target": "song:14769",
       "type": "InStyleOf"
     }

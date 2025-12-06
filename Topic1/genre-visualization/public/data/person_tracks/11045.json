@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11042",
-      "song_id": 11042,
+      "work_type": "Song",
+      "work_id": 11042,
       "title": "Amor's Victorious March",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11046,
+          "name": "Gang Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4750962
+        },
+        {
+          "person_id": 11043,
+          "name": "Xiulan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0396166
+        },
+        {
+          "person_id": 11044,
+          "name": "Sarah Fernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0396166
+        }
+      ]
     },
     {
       "id": "song:6675",
-      "song_id": 6675,
+      "work_type": "Song",
+      "work_id": 6675,
       "title": "Vägen hem (The Way Home)",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,6 +75,35 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6676,
+          "name": "Anthony Salas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0304399
+        },
+        {
+          "person_id": 6677,
+          "name": "Nicole Williamson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0304399
+        },
+        {
+          "person_id": 6678,
+          "name": "Katrina Guzman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970854
+        }
       ]
     }
   ],

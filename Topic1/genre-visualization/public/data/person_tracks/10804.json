@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10800",
-      "song_id": 10800,
+      "work_type": "Song",
+      "work_id": 10800,
       "title": "Whispers in Echo",
       "genre": "Darkwave",
       "notable": true,
@@ -21,8 +22,94 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10803,
+          "name": "Fateh Dube",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.045829
+        },
+        {
+          "person_id": 10801,
+          "name": "Devansh Divan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045795
+        },
+        {
+          "person_id": 10802,
+          "name": "Misha Batta",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045795
+        }
+      ]
+    },
+    {
+      "id": "album:13418",
+      "work_type": "Album",
+      "work_id": 13418,
+      "title": "Lara's Lament",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 10804,
+      "artist_name": "Sumer Kakar",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10803,
+          "name": "Fateh Dube",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045829
+        },
+        {
+          "person_id": 10801,
+          "name": "Devansh Divan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045795
+        },
+        {
+          "person_id": 10802,
+          "name": "Misha Batta",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.045795
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:10800",
+      "target": "album:13418",
+      "type": "CoverOf"
+    }
+  ]
 }

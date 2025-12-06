@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13487",
-      "song_id": 13487,
+      "work_type": "Song",
+      "work_id": 13487,
       "title": "Oval Office Acorn",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,6 +15,38 @@
       "own": true,
       "artist_id": 13488,
       "artist_name": "Donna Anderson",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1103,
+          "name": "Ekkehard Förster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5112824
+        }
+      ]
+    },
+    {
+      "id": "album:3302",
+      "work_type": "Album",
+      "work_id": 3302,
+      "title": "Urugum Ninaivugal (Melting Memories)",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1530,
+      "artist_name": "Deborah Lucas",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +54,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 3303,
+          "name": "Kenneth Hall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973007
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:3302",
+      "target": "song:13487",
+      "type": "DirectlySamples"
+    }
+  ]
 }

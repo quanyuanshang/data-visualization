@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12807",
-      "song_id": 12807,
+      "work_type": "Song",
+      "work_id": 12807,
       "title": "Midnight's Lament in E-flat Major",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12809,
+          "name": "Kashvi Dutt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980713
+        },
+        {
+          "person_id": 12808,
+          "name": "Pihu Ahuja",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980505
+        }
+      ]
     },
     {
       "id": "song:14347",
-      "song_id": 14347,
+      "work_type": "Song",
+      "work_id": 14347,
       "title": "Turning Pages",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,6 +66,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14349,
+          "name": "Jayan Barman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982434
+        },
+        {
+          "person_id": 14348,
+          "name": "Kabir Dutta",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982127
+        }
       ]
     }
   ],

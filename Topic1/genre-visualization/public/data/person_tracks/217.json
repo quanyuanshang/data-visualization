@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:4069",
-      "song_id": 4069,
-      "title": "Juliet's Fever",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 1993,
-      "single": false,
-      "own": true,
-      "artist_id": 217,
-      "artist_name": "Honoré Foucher",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:12494",
-      "song_id": 12494,
-      "title": "Echoes from the Sacred",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2022,
-      "single": false,
-      "own": true,
-      "artist_id": 217,
-      "artist_name": "Honoré Foucher",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:216",
-      "song_id": 216,
+      "work_type": "Song",
+      "work_id": 216,
       "title": "Spurs and Wedding Rings",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,11 +22,182 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:11179",
+      "work_type": "Album",
+      "work_id": 11179,
+      "title": "Backup's Lament",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 217,
+      "artist_name": "Honoré Foucher",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11180,
+          "name": "Jennifer Alvarez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993692
+        },
+        {
+          "person_id": 11181,
+          "name": "Laurent-Léon Morvan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993692
+        },
+        {
+          "person_id": 11182,
+          "name": "Ronald Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993692
+        },
+        {
+          "person_id": 11183,
+          "name": "Philippe Carre de la Humbert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993692
+        }
+      ]
+    },
+    {
+      "id": "song:4069",
+      "work_type": "Song",
+      "work_id": 4069,
+      "title": "Juliet's Fever",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1993,
+      "single": false,
+      "own": true,
+      "artist_id": 217,
+      "artist_name": "Honoré Foucher",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4070,
+          "name": "Michel Pichon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3767083
+        }
+      ]
+    },
+    {
+      "id": "song:12494",
+      "work_type": "Song",
+      "work_id": 12494,
+      "title": "Echoes from the Sacred",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 217,
+      "artist_name": "Honoré Foucher",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12495,
+          "name": "Marguerite Faure",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4023752
+        }
+      ]
+    },
+    {
+      "id": "song:12494",
+      "work_type": "Song",
+      "work_id": 12494,
+      "title": "Echoes from the Sacred",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 217,
+      "artist_name": "Honoré Foucher",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 217,
+          "name": "Honoré Foucher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7349598
+        },
+        {
+          "person_id": 12495,
+          "name": "Marguerite Faure",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4023752
+        }
+      ]
     },
     {
       "id": "song:10309",
-      "song_id": 10309,
+      "work_type": "Song",
+      "work_id": 10309,
       "title": "Flickering Flames of Romance",
       "genre": "Alternative Rock",
       "notable": true,
@@ -83,41 +215,50 @@
       },
       "relation_types": [
         "CoverOf"
-      ]
-    },
-    {
-      "id": "song:216",
-      "song_id": 216,
-      "title": "Spurs and Wedding Rings",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 217,
-      "artist_name": "Honoré Foucher",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 634,
+          "name": "Jie Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2982986
+        },
+        {
+          "person_id": 819,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362248
+        }
       ]
     },
     {
       "id": "song:17068",
-      "song_id": 17068,
+      "work_type": "Song",
+      "work_id": 17068,
       "title": "Classified Groove",
       "genre": "Jazz Surf Rock",
       "notable": true,
       "release_year": 2036,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17063,
+      "artist_name": "The Phantom Operators（成员：Juno Ray｜预测 2.72、Savannah Teal｜预测 2.72）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -127,7 +268,8 @@
       },
       "relation_types": [
         "InterpolatesFrom"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
@@ -138,13 +280,23 @@
     },
     {
       "source": "song:216",
-      "target": "song:12494",
+      "target": "album:11179",
       "type": "InStyleOf"
     },
     {
       "source": "song:10309",
       "target": "song:4069",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:12494",
+      "target": "album:11179",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:216",
+      "target": "song:12494",
+      "type": "InStyleOf"
     }
   ]
 }

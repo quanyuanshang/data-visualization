@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:1845",
-      "song_id": 1845,
-      "title": "Shoreline Secrets",
-      "genre": "Synthpop",
+      "id": "album:11275",
+      "work_type": "Album",
+      "work_id": 11275,
+      "title": "Smiling So Hard It Hurts",
+      "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2010,
-      "single": true,
+      "release_year": 2013,
+      "single": false,
       "own": true,
       "artist_id": 1846,
       "artist_name": "Friedrich-Wilhelm Ullmann",
@@ -21,8 +22,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:1845",
+      "work_type": "Song",
+      "work_id": 1845,
+      "title": "Shoreline Secrets",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 1846,
+      "artist_name": "Friedrich-Wilhelm Ullmann",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1848,
+          "name": "Ulrike Ziegert",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0387707
+        },
+        {
+          "person_id": 1847,
+          "name": "Violetta Peukert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993087
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11275",
+      "target": "song:1845",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

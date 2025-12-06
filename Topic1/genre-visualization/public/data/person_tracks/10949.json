@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10948",
-      "song_id": 10948,
+      "work_type": "Song",
+      "work_id": 10948,
       "title": "Whispers of Your Phantom",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:7448",
-      "song_id": 7448,
+      "work_type": "Song",
+      "work_id": 7448,
       "title": "Whispers of Moonlit Reverie",
       "genre": "Darkwave",
       "notable": true,
@@ -43,6 +46,18 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7449,
+          "name": "Konrad Koźlak",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4037592
+        }
       ]
     }
   ],

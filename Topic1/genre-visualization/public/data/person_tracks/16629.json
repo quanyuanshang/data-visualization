@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16626",
-      "song_id": 16626,
+      "work_type": "Song",
+      "work_id": 16626,
       "title": "Whispers of Her Resilience",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 16629,
       "artist_name": "Qiang Ye",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16628,
+          "name": "Qiang Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961384
+        },
+        {
+          "person_id": 16630,
+          "name": "Lei Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3961384
+        },
+        {
+          "person_id": 16627,
+          "name": "Xiuying Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960469
+        }
+      ]
+    },
+    {
+      "id": "album:4253",
+      "work_type": "Album",
+      "work_id": 4253,
+      "title": "Unsilenced Voice",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 99,
+      "artist_name": "Miki Hayashi",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,81 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 99,
+          "name": "Miki Hayashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.263342
+        },
+        {
+          "person_id": 4259,
+          "name": "Jie Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2570076
+        },
+        {
+          "person_id": 4258,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7324066
+        },
+        {
+          "person_id": 4255,
+          "name": "Guiying Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7200646
+        },
+        {
+          "person_id": 4257,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.426748
+        },
+        {
+          "person_id": 4256,
+          "name": "Ming Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.42026
+        },
+        {
+          "person_id": 4254,
+          "name": "Juan Xia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3963306
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4253",
+      "target": "song:16626",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

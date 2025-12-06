@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14672",
-      "song_id": 14672,
+      "work_type": "Song",
+      "work_id": 14672,
       "title": "Inches from Infinity",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,47 @@
       "own": true,
       "artist_id": 14674,
       "artist_name": "Maurizio Curatoli",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2677,
+          "name": "Christine Lam",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7025228
+        },
+        {
+          "person_id": 14673,
+          "name": "Calogero Zamorani",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399948
+        }
+      ]
+    },
+    {
+      "id": "album:6830",
+      "work_type": "Album",
+      "work_id": 6830,
+      "title": "When Memories Dissolve",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 2677,
+      "artist_name": "Christine Lam",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +63,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2677,
+          "name": "Christine Lam",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7025228
+        },
+        {
+          "person_id": 6831,
+          "name": "James Gibbs",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397767
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:6830",
+      "target": "song:14672",
+      "type": "DirectlySamples"
+    }
+  ]
 }

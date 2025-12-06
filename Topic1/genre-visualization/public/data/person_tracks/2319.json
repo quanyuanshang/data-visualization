@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2316",
-      "song_id": 2316,
+      "work_type": "Song",
+      "work_id": 2316,
       "title": "Keyboard Echoes",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2317,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.393877
+        },
+        {
+          "person_id": 2318,
+          "name": "Mai Yamada",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393877
+        }
+      ]
     },
     {
       "id": "song:1162",
-      "song_id": 1162,
+      "work_type": "Song",
+      "work_id": 1162,
       "title": "Battlefield Mascara",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +66,61 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1163,
+          "name": "Todd Mcbride",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 1164,
+          "name": "Min Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 1165,
+          "name": "Xia Fang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 1166,
+          "name": "Lonnie Estrada",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 1167,
+          "name": "Kimberly Knight",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3996558
+        }
       ]
     },
     {
       "id": "song:13735",
-      "song_id": 13735,
+      "work_type": "Song",
+      "work_id": 13735,
       "title": "Echoes in the Silent North",
       "genre": "Darkwave",
       "notable": true,
@@ -65,11 +138,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.022782
+        }
       ]
     },
     {
       "id": "song:15444",
-      "song_id": 15444,
+      "work_type": "Song",
+      "work_id": 15444,
       "title": "Geri Dönüş (Return Journey)",
       "genre": "Desert Rock",
       "notable": true,
@@ -87,14 +199,35 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15446,
+          "name": "Li Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397871
+        },
+        {
+          "person_id": 15445,
+          "name": "Yong Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978288
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:1162",
+      "source": "song:15444",
       "target": "song:2316",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
     },
     {
       "source": "song:13735",
@@ -102,9 +235,9 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:15444",
+      "source": "song:1162",
       "target": "song:2316",
-      "type": "InStyleOf"
+      "type": "LyricalReferenceTo"
     }
   ]
 }

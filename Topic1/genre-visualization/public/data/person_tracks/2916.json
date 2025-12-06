@@ -1,0 +1,135 @@
+{
+  "person_id": 2916,
+  "name": "Jie Wei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2915",
+      "work_type": "Album",
+      "work_id": 2915,
+      "title": "First Light of Reverence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 2916,
+      "artist_name": "Jie Wei",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 863,
+          "name": "Jie Cui",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4255862
+        },
+        {
+          "person_id": 2918,
+          "name": "Guiying Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997812
+        },
+        {
+          "person_id": 2919,
+          "name": "Yong Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997812
+        },
+        {
+          "person_id": 2917,
+          "name": "Jie Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997605
+        }
+      ]
+    },
+    {
+      "id": "song:4821",
+      "work_type": "Song",
+      "work_id": 4821,
+      "title": "Single-Handed Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 4822,
+      "artist_name": "John Rivera (Hollow Reverberation)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4822,
+          "name": "John Rivera",
+          "stage_name": "Hollow Reverberation",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4823,
+          "name": "William Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4824,
+          "name": "Ashley Olsen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4825,
+          "name": "Michael Watson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958654
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4821",
+      "target": "album:2915",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

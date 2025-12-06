@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1869",
-      "song_id": 1869,
+      "work_type": "Song",
+      "work_id": 1869,
       "title": "Echoes from the Dark Chord",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 1870,
       "artist_name": "Fang Xie",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9371912
+        },
+        {
+          "person_id": 1871,
+          "name": "Jie Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.424265
+        },
+        {
+          "person_id": 1872,
+          "name": "Yang Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968053
+        }
+      ]
     },
     {
       "id": "song:16437",
-      "song_id": 16437,
+      "work_type": "Song",
+      "work_id": 16437,
       "title": "Regiments and Rainbows",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,10 +75,125 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6622,
+          "name": "Xia Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.92736
+        },
+        {
+          "person_id": 6620,
+          "name": "Guiying Zeng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.708163
+        },
+        {
+          "person_id": 8948,
+          "name": "Jing Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.434054
+        },
+        {
+          "person_id": 6623,
+          "name": "Billy Thompson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0181537
+        },
+        {
+          "person_id": 16438,
+          "name": "Jun Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399462
+        },
+        {
+          "person_id": 16439,
+          "name": "Na Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399462
+        }
+      ]
+    },
+    {
+      "id": "album:17101",
+      "work_type": "Album",
+      "work_id": 17101,
+      "title": "Everything Feels Like Yesterday",
+      "genre": "Emo/Pop Punk",
+      "notable": false,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 17100,
+      "artist_name": "Rainfall Fiction（成员：Cole Pierce｜预测 2.84、Holden Rhys｜预测 2.82…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17097,
+          "name": "Cole Pierce",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.8443508
+        },
+        {
+          "person_id": 17099,
+          "name": "Max Everhart",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.8443508
+        },
+        {
+          "person_id": 17098,
+          "name": "Holden Rhys",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.822468
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:17101",
+      "target": "song:1869",
+      "type": "CoverOf"
+    },
     {
       "source": "song:16437",
       "target": "song:1869",

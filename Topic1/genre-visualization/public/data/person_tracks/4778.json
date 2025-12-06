@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4777",
-      "song_id": 4777,
+      "work_type": "Song",
+      "work_id": 4777,
       "title": "Autumno's Golden Whispers",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 314,
+          "name": "Cristian Bonilla",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.5058427
+        },
+        {
+          "person_id": 317,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.399503
+        },
+        {
+          "person_id": 4780,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4360526
+        },
+        {
+          "person_id": 4779,
+          "name": "Patricia-Julie Lopes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.426063
+        }
+      ]
     },
     {
       "id": "song:2863",
-      "song_id": 2863,
+      "work_type": "Song",
+      "work_id": 2863,
       "title": "Whirling Whispers",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,11 +84,50 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 314,
+          "name": "Cristian Bonilla",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5058427
+        },
+        {
+          "person_id": 317,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.399503
+        },
+        {
+          "person_id": 825,
+          "name": "Xiuying Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.055547
+        },
+        {
+          "person_id": 2864,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036948
+        }
       ]
     },
     {
       "id": "song:7838",
-      "song_id": 7838,
+      "work_type": "Song",
+      "work_id": 7838,
       "title": "Frames of Remembrance",
       "genre": "Synthwave",
       "notable": true,
@@ -65,19 +145,40 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 317,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.399503
+        },
+        {
+          "person_id": 3629,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0835075
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7838",
-      "target": "song:4777",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:2863",
       "target": "song:4777",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7838",
+      "target": "song:4777",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

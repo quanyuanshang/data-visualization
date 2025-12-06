@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2541",
-      "song_id": 2541,
+      "work_type": "Song",
+      "work_id": 2541,
       "title": "Coconut Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,76 @@
       "own": true,
       "artist_id": 2545,
       "artist_name": "Paul Burns",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2546,
+          "name": "Erdogan Baum",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9297671
+        },
+        {
+          "person_id": 2542,
+          "name": "Xiuying Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0513139
+        },
+        {
+          "person_id": 2544,
+          "name": "Yan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0513139
+        },
+        {
+          "person_id": 2543,
+          "name": "Qiang Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0056136
+        },
+        {
+          "person_id": 2547,
+          "name": "Min Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3969946
+        }
+      ]
+    },
+    {
+      "id": "album:17073",
+      "work_type": "Album",
+      "work_id": 17073,
+      "title": "Vultures & Violins",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 17071,
+      "artist_name": "Cosmic Reverberation（成员：Quinn Rivers｜预测 2.42、Ryder Lyons｜预测 2.42）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +92,36 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17070,
+          "name": "Ryder Lyons",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4207327
+        },
+        {
+          "person_id": 17069,
+          "name": "Quinn Rivers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.418877
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17073",
+      "target": "song:2541",
+      "type": "InStyleOf"
+    }
+  ]
 }

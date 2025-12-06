@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2489",
-      "song_id": 2489,
+      "work_type": "Song",
+      "work_id": 2489,
       "title": "Unwritten Horizons",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,11 +22,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2490,
+          "name": "Karol Indyk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4013245
+        }
+      ]
+    },
+    {
+      "id": "album:15909",
+      "work_type": "Album",
+      "work_id": 15909,
+      "title": "Silent Confessions",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 2491,
+      "artist_name": "Franciszek Filusz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15910,
+          "name": "Maks Grębowiec",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988562
+        }
+      ]
     },
     {
       "id": "song:16631",
-      "song_id": 16631,
+      "work_type": "Song",
+      "work_id": 16631,
       "title": "Daughters Rising",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,6 +89,55 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 8446,
+          "name": "Stephanie Robinson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7064111
+        },
+        {
+          "person_id": 8447,
+          "name": "Amber Gibson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4366257
+        }
       ]
     }
   ],

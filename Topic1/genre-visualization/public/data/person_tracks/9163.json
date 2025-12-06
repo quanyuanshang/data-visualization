@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9161",
-      "song_id": 9161,
+      "work_type": "Song",
+      "work_id": 9161,
       "title": "Whispers on Platform Seven",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9162,
+          "name": "Gioele Monte",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0438504
+        },
+        {
+          "person_id": 9164,
+          "name": "Greco Guarato",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397201
+        }
+      ]
     },
     {
       "id": "song:8220",
-      "song_id": 8220,
+      "work_type": "Song",
+      "work_id": 8220,
       "title": "Silk Road Memories",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +66,55 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8011,
+          "name": "Baccio Muti",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299604
+        },
+        {
+          "person_id": 8221,
+          "name": "Liliana Morellato",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396945
+        },
+        {
+          "person_id": 8222,
+          "name": "Miss Jeanette Marshall",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396945
+        },
+        {
+          "person_id": 8223,
+          "name": "Éric Louis-Lévy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396945
+        },
+        {
+          "person_id": 8224,
+          "name": "Lina Tirabassi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3969243
+        }
       ]
     }
   ],

@@ -1,0 +1,194 @@
+{
+  "person_id": 13885,
+  "name": "Clemens Henck",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13883",
+      "work_type": "Album",
+      "work_id": 13883,
+      "title": "Conductor's Heartbeat",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 13885,
+      "artist_name": "Clemens Henck",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13884,
+          "name": "Viktor Kreusel",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4011025
+        },
+        {
+          "person_id": 13886,
+          "name": "Diether Lachmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4011025
+        },
+        {
+          "person_id": 13887,
+          "name": "Marlene Juncken",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4011025
+        }
+      ]
+    },
+    {
+      "id": "song:15971",
+      "work_type": "Song",
+      "work_id": 15971,
+      "title": "Celestial Descent",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 378,
+      "artist_name": "Rosalie Hettner-Warmer",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 380,
+          "name": "Hanne-Lore Scholl-Heser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0178304
+        },
+        {
+          "person_id": 379,
+          "name": "Jutta Matthäi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.00661
+        },
+        {
+          "person_id": 378,
+          "name": "Rosalie Hettner-Warmer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.006327
+        },
+        {
+          "person_id": 377,
+          "name": "Hildegund Wilmsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9903812
+        },
+        {
+          "person_id": 15972,
+          "name": "Herr Ilhan Mülichen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995864
+        }
+      ]
+    },
+    {
+      "id": "album:16944",
+      "work_type": "Album",
+      "work_id": 16944,
+      "title": "Salt",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": 16943,
+      "artist_name": "The Lunar Tides（成员：Luna Skye｜预测 2.43、Max Wilder｜预测 2.42…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16940,
+          "name": "Luna Skye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4264064
+        },
+        {
+          "person_id": 16941,
+          "name": "Max Wilder",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4201555
+        },
+        {
+          "person_id": 16942,
+          "name": "Nova Blaze",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4012225
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15971",
+      "target": "album:13883",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:16944",
+      "target": "album:13883",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4784",
-      "song_id": 4784,
+      "work_type": "Song",
+      "work_id": 4784,
       "title": "Fading Sunlight on Tuscan Fields",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,47 @@
       "own": true,
       "artist_id": 4787,
       "artist_name": "Gang Peng",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4785,
+          "name": "Jing Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992338
+        },
+        {
+          "person_id": 4786,
+          "name": "Lei Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992338
+        }
+      ]
+    },
+    {
+      "id": "album:14562",
+      "work_type": "Album",
+      "work_id": 14562,
+      "title": "Rhythms of a Small City's Soul",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 14564,
+      "artist_name": "Alexis Moore",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +63,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3122,
+          "name": "Jing Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7180305
+        },
+        {
+          "person_id": 14563,
+          "name": "Yan Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.400408
+        },
+        {
+          "person_id": 14564,
+          "name": "Alexis Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400408
+        },
+        {
+          "person_id": 14565,
+          "name": "Yong Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400408
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14562",
+      "target": "song:4784",
+      "type": "InStyleOf"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4897",
-      "song_id": 4897,
+      "work_type": "Song",
+      "work_id": 4897,
       "title": "Unfiltered Light",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4899,
+          "name": "Mark Singleton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982635
+        }
+      ]
     },
     {
       "id": "song:10513",
-      "song_id": 10513,
+      "work_type": "Song",
+      "work_id": 10513,
       "title": "Silent Observer",
       "genre": "Blues Rock",
       "notable": true,
@@ -34,19 +47,79 @@
       "own": true,
       "artist_id": 4898,
       "artist_name": "Scott Flores",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10514,
+          "name": "Paula Palmer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010718
+        }
+      ]
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
     }
   ],
   "links": [
     {
       "source": "song:4897",
+      "target": "song:10513",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:4167",
       "target": "song:10513",
       "type": "InterpolatesFrom"
     }

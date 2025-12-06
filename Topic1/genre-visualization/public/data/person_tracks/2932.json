@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2931",
-      "song_id": 2931,
+      "work_type": "Song",
+      "work_id": 2931,
       "title": "Breaking Dawn",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -21,11 +22,103 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 1347,
+          "name": "Guiying Cao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9293087
+        },
+        {
+          "person_id": 1348,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9293087
+        }
+      ]
+    },
+    {
+      "id": "album:10159",
+      "work_type": "Album",
+      "work_id": 10159,
+      "title": "Synaptic Cereal Spoon",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 2932,
+      "artist_name": "Xia Xia",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 1347,
+          "name": "Guiying Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9293087
+        },
+        {
+          "person_id": 1348,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9293087
+        },
+        {
+          "person_id": 9915,
+          "name": "Na Wen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4566844
+        }
+      ]
     },
     {
       "id": "song:10561",
-      "song_id": 10561,
+      "work_type": "Song",
+      "work_id": 10561,
       "title": "Silent Scream",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +134,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 1347,
+          "name": "Guiying Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9293087
+        },
+        {
+          "person_id": 1348,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9293087
+        }
+      ]
     },
     {
       "id": "song:10561",
-      "song_id": 10561,
+      "work_type": "Song",
+      "work_id": 10561,
       "title": "Silent Scream",
       "genre": "Indie Folk",
       "notable": true,
@@ -63,14 +187,178 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 1347,
+          "name": "Guiying Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9293087
+        },
+        {
+          "person_id": 1348,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9293087
+        },
+        {
+          "person_id": 2932,
+          "name": "Xia Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4399693
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
+      ]
+    },
+    {
+      "id": "album:10173",
+      "work_type": "Album",
+      "work_id": 10173,
+      "title": "Echoes of Yesterday",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2896,
+      "artist_name": "Scott Sanders",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2896,
+          "name": "Scott Sanders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4270062
+        },
+        {
+          "person_id": 5902,
+          "name": "Juan Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0468624
+        },
+        {
+          "person_id": 2895,
+          "name": "Qiang Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.041401
+        },
+        {
+          "person_id": 10174,
+          "name": "Yan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994246
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:10173",
+      "target": "album:10159",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:10561",
       "target": "song:2931",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:5035",
+      "target": "album:10159",
+      "type": "InStyleOf"
     }
   ]
 }

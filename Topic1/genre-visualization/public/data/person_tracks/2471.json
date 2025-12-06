@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:12146",
-      "song_id": 12146,
-      "title": "Stronghold of Eternal Promise",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2013,
-      "single": false,
-      "own": true,
-      "artist_id": 2471,
-      "artist_name": "Antoine Barthelemy",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2470",
-      "song_id": 2470,
+      "work_type": "Song",
+      "work_id": 2470,
       "title": "Midnight's Matchstick Lullaby",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +22,24 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2472,
+          "name": "Bryan Richardson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0060618
+        }
+      ]
     },
     {
       "id": "song:14880",
-      "song_id": 14880,
+      "work_type": "Song",
+      "work_id": 14880,
       "title": "Whispers of the Watery Grave",
       "genre": "Indie Folk",
       "notable": true,
@@ -61,11 +55,146 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7864,
+          "name": "Pénélope du Cohen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7095792
+        },
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4295757
+        },
+        {
+          "person_id": 14882,
+          "name": "Victoire Roger-Noël",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399569
+        },
+        {
+          "person_id": 14881,
+          "name": "Auguste Perrin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995483
+        }
+      ]
+    },
+    {
+      "id": "song:12146",
+      "work_type": "Song",
+      "work_id": 12146,
+      "title": "Stronghold of Eternal Promise",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 2471,
+      "artist_name": "Antoine Barthelemy",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7864,
+          "name": "Pénélope du Cohen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7095792
+        },
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4295757
+        }
+      ]
+    },
+    {
+      "id": "song:13994",
+      "work_type": "Song",
+      "work_id": 13994,
+      "title": "After the Storm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 835,
+      "artist_name": "Franck Prévost de la Bertrand",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 2472,
+          "name": "Bryan Richardson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0060618
+        },
+        {
+          "person_id": 13995,
+          "name": "Martin Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399554
+        }
+      ]
     },
     {
       "id": "song:14880",
-      "song_id": 14880,
+      "work_type": "Song",
+      "work_id": 14880,
       "title": "Whispers of the Watery Grave",
       "genre": "Indie Folk",
       "notable": true,
@@ -84,37 +213,58 @@
       "relation_types": [
         "InterpolatesFrom",
         "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:13994",
-      "song_id": 13994,
-      "title": "After the Storm",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": false,
-      "artist_id": 835,
-      "artist_name": "Franck Prévost de la Bertrand",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7864,
+          "name": "Pénélope du Cohen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7095792
+        },
+        {
+          "person_id": 7865,
+          "name": "Margaret Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4295757
+        },
+        {
+          "person_id": 2471,
+          "name": "Antoine Barthelemy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.389443
+        },
+        {
+          "person_id": 14882,
+          "name": "Victoire Roger-Noël",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399569
+        },
+        {
+          "person_id": 14881,
+          "name": "Auguste Perrin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995483
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:14880",
-      "target": "song:2470",
-      "type": "InterpolatesFrom"
-    },
     {
       "source": "song:14880",
       "target": "song:12146",
@@ -124,6 +274,11 @@
       "source": "song:13994",
       "target": "song:2470",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:14880",
+      "target": "song:2470",
+      "type": "InterpolatesFrom"
     }
   ]
 }

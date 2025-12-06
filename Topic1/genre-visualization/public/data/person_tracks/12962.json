@@ -1,0 +1,215 @@
+{
+  "person_id": 12962,
+  "name": "Chao Xiang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:12961",
+      "work_type": "Album",
+      "work_id": 12961,
+      "title": "Monologue in Minor",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 12962,
+      "artist_name": "Chao Xiang",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6652,
+          "name": "Min Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8784983
+        },
+        {
+          "person_id": 6653,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044179
+        }
+      ]
+    },
+    {
+      "id": "song:6651",
+      "work_type": "Song",
+      "work_id": 6651,
+      "title": "Whispers of Affection",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1996,
+      "single": false,
+      "own": false,
+      "artist_id": 6653,
+      "artist_name": "Na Dong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6652,
+          "name": "Min Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.8784983
+        },
+        {
+          "person_id": 6653,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044179
+        }
+      ]
+    },
+    {
+      "id": "song:9669",
+      "work_type": "Song",
+      "work_id": 9669,
+      "title": "Wisdom in Her Whispers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 9670,
+      "artist_name": "Jie Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9670,
+          "name": "Jie Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398355
+        },
+        {
+          "person_id": 9671,
+          "name": "Guiying Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980482
+        }
+      ]
+    },
+    {
+      "id": "song:10648",
+      "work_type": "Song",
+      "work_id": 10648,
+      "title": "Passionate Pianissimo Passages",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": false,
+      "artist_id": 4045,
+      "artist_name": "Yan Tang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6652,
+          "name": "Min Su",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.8784983
+        },
+        {
+          "person_id": 4045,
+          "name": "Yan Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041453
+        },
+        {
+          "person_id": 10650,
+          "name": "Lei Guo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4001856
+        },
+        {
+          "person_id": 10649,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4000158
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10648",
+      "target": "album:12961",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6651",
+      "target": "album:12961",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9669",
+      "target": "album:12961",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

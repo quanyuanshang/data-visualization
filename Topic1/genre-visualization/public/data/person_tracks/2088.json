@@ -4,8 +4,60 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:2087",
+      "work_type": "Album",
+      "work_id": 2087,
+      "title": "Sunlight's Whisper",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 2088,
+      "artist_name": "Na Mo",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2089,
+          "name": "Wei Liao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.027701
+        },
+        {
+          "person_id": 2091,
+          "name": "Juan Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.027701
+        },
+        {
+          "person_id": 2090,
+          "name": "Min Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3451848
+        }
+      ]
+    },
+    {
       "id": "song:8314",
-      "song_id": 8314,
+      "work_type": "Song",
+      "work_id": 8314,
       "title": "Lost in My Own Coordinates",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,8 +73,104 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2089,
+          "name": "Wei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.027701
+        },
+        {
+          "person_id": 2091,
+          "name": "Juan Ma",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.027701
+        },
+        {
+          "person_id": 8315,
+          "name": "Xiuying Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398856
+        }
+      ]
+    },
+    {
+      "id": "song:8314",
+      "work_type": "Song",
+      "work_id": 8314,
+      "title": "Lost in My Own Coordinates",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 8315,
+      "artist_name": "Xiuying Zhao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2088,
+          "name": "Na Mo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.027701
+        },
+        {
+          "person_id": 2089,
+          "name": "Wei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.027701
+        },
+        {
+          "person_id": 2091,
+          "name": "Juan Ma",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.027701
+        },
+        {
+          "person_id": 8315,
+          "name": "Xiuying Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398856
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:8314",
+      "target": "album:2087",
+      "type": "InStyleOf"
+    }
+  ]
 }

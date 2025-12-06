@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3743",
-      "song_id": 3743,
+      "work_type": "Song",
+      "work_id": 3743,
       "title": "Denim Diary",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 3744,
       "artist_name": "Kimberly Weaver",
-      "influence": 8,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3745,
+          "name": "Elizabeth Shepherd",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0505896
+        }
+      ]
     },
     {
       "id": "song:1596",
-      "song_id": 1596,
+      "work_type": "Song",
+      "work_id": 1596,
       "title": "The King's Last Move",
       "genre": "Indie Pop",
       "notable": true,
@@ -43,11 +56,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1598,
+          "name": "Nikolas Naser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0527298
+        },
+        {
+          "person_id": 1597,
+          "name": "Walentina Ernst-Klingelhöfer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.042115
+        }
       ]
     },
     {
       "id": "song:6300",
-      "song_id": 6300,
+      "work_type": "Song",
+      "work_id": 6300,
       "title": "Fading Strength, Rising Insight",
       "genre": "Blues Rock",
       "notable": true,
@@ -65,11 +100,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1598,
+          "name": "Nikolas Naser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0527298
+        },
+        {
+          "person_id": 1597,
+          "name": "Walentina Ernst-Klingelhöfer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042115
+        }
       ]
     },
     {
       "id": "song:6339",
-      "song_id": 6339,
+      "work_type": "Song",
+      "work_id": 6339,
       "title": "Glitz and Glamour",
       "genre": "Blues Rock",
       "notable": true,
@@ -87,6 +144,63 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6340,
+          "name": "Matthew Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4025593
+        }
+      ]
+    },
+    {
+      "id": "album:8075",
+      "work_type": "Album",
+      "work_id": 8075,
+      "title": "Catch Her Eye",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1990,
+      "single": false,
+      "own": false,
+      "artist_id": 3745,
+      "artist_name": "Elizabeth Shepherd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3745,
+          "name": "Elizabeth Shepherd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0505896
+        },
+        {
+          "person_id": 8076,
+          "name": "Luc van Poppel-Hulskes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4016001
+        }
       ]
     }
   ],
@@ -95,6 +209,11 @@
       "source": "song:1596",
       "target": "song:3743",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:8075",
+      "target": "song:3743",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:6339",

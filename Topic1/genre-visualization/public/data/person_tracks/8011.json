@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:8009",
+      "work_type": "Album",
+      "work_id": 8009,
+      "title": "Voiceless Rebellion",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2001,
+      "single": false,
+      "own": true,
+      "artist_id": 8011,
+      "artist_name": "Baccio Muti",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7731,
+          "name": "Astrid Gomes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0558999
+        },
+        {
+          "person_id": 8010,
+          "name": "Guy Martel",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.044573
+        }
+      ]
+    },
+    {
       "id": "song:8220",
-      "song_id": 8220,
+      "work_type": "Song",
+      "work_id": 8220,
       "title": "Silk Road Memories",
       "genre": "Synthwave",
       "notable": true,
@@ -21,8 +64,106 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8221,
+          "name": "Liliana Morellato",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396945
+        },
+        {
+          "person_id": 8222,
+          "name": "Miss Jeanette Marshall",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396945
+        },
+        {
+          "person_id": 8223,
+          "name": "Éric Louis-Lévy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396945
+        },
+        {
+          "person_id": 8224,
+          "name": "Lina Tirabassi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3969243
+        }
+      ]
+    },
+    {
+      "id": "song:8634",
+      "work_type": "Song",
+      "work_id": 8634,
+      "title": "Ancestral Whispers",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 8010,
+      "artist_name": "Guy Martel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7731,
+          "name": "Astrid Gomes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0558999
+        },
+        {
+          "person_id": 8010,
+          "name": "Guy Martel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044573
+        },
+        {
+          "person_id": 8635,
+          "name": "Henriette Pierre",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3964717
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:8634",
+      "target": "album:8009",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6201",
-      "song_id": 6201,
+      "work_type": "Song",
+      "work_id": 6201,
       "title": "Whispers of Winter's Embrace",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6203,
+          "name": "Kimberly Cain",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3974519
+        }
+      ]
     },
     {
       "id": "song:13260",
-      "song_id": 13260,
+      "work_type": "Song",
+      "work_id": 13260,
       "title": "Whispers of Harvest Stillness",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +56,54 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4418,
+          "name": "Jun Fang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.256413
+        },
+        {
+          "person_id": 10914,
+          "name": "Min Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7164886
+        },
+        {
+          "person_id": 6807,
+          "name": "Min Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0465977
+        },
+        {
+          "person_id": 1073,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.949374
+        },
+        {
+          "person_id": 13261,
+          "name": "Chao Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393542
+        }
       ]
     }
   ],

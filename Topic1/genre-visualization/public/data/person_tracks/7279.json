@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:9564",
-      "song_id": 9564,
-      "title": "Tears of a Broken King",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 7279,
-      "artist_name": "Keith Larsen",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7278",
-      "song_id": 7278,
+      "work_type": "Song",
+      "work_id": 7278,
       "title": "Requiem for a Fading Self",
       "genre": "Synthwave",
       "notable": true,
@@ -34,18 +15,20 @@
       "own": true,
       "artist_id": 7279,
       "artist_name": "Keith Larsen",
-      "influence": 100,
+      "influence": 116,
       "influence_breakdown": {
         "cover": 9,
-        "sample": 4,
-        "reference": 9,
-        "style": 6
+        "sample": 5,
+        "reference": 11,
+        "style": 9
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:11206",
-      "song_id": 11206,
+      "work_type": "Song",
+      "work_id": 11206,
       "title": "Beyond the Breakwater",
       "genre": "Indie Rock",
       "notable": true,
@@ -61,11 +44,74 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11207,
+          "name": "Jeremy Russell",
+          "stage_name": "Theo Vance",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986576
+        },
+        {
+          "person_id": 11208,
+          "name": "Jeremy Griffith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985283
+        },
+        {
+          "person_id": 11209,
+          "name": "Yolanda Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985283
+        }
+      ]
+    },
+    {
+      "id": "song:9564",
+      "work_type": "Song",
+      "work_id": 9564,
+      "title": "Tears of a Broken King",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9565,
+          "name": "Jacob Bryant",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3997884
+        }
+      ]
     },
     {
       "id": "song:210",
-      "song_id": 210,
+      "work_type": "Song",
+      "work_id": 210,
       "title": "Luminous Path",
       "genre": "Darkwave",
       "notable": true,
@@ -83,11 +129,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 212,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299516
+        },
+        {
+          "person_id": 211,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 213,
+          "name": "Lei Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 214,
+          "name": "Qiang Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 215,
+          "name": "Qiang Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        }
       ]
     },
     {
       "id": "song:901",
-      "song_id": 901,
+      "work_type": "Song",
+      "work_id": 901,
       "title": "Approaching Silhouettes",
       "genre": "Space Rock",
       "notable": false,
@@ -105,11 +200,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 355,
+          "name": "Juan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659535
+        },
+        {
+          "person_id": 905,
+          "name": "Daniel Mitchell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0144453
+        },
+        {
+          "person_id": 904,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.454734
+        },
+        {
+          "person_id": 902,
+          "name": "Min Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3803794
+        },
+        {
+          "person_id": 903,
+          "name": "Xia Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3803794
+        }
       ]
     },
     {
       "id": "song:1358",
-      "song_id": 1358,
+      "work_type": "Song",
+      "work_id": 1358,
       "title": "If Freedom Were an Open Door",
       "genre": "Dream Pop",
       "notable": true,
@@ -127,11 +271,174 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1360,
+          "name": "Jie Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4074876
+        },
+        {
+          "person_id": 1361,
+          "name": "Elizabeth Mccarthy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054934
+        },
+        {
+          "person_id": 1359,
+          "name": "Yong Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0542462
+        },
+        {
+          "person_id": 1363,
+          "name": "Fang Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516925
+        },
+        {
+          "person_id": 1362,
+          "name": "Xia Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049387
+        }
+      ]
+    },
+    {
+      "id": "album:2009",
+      "work_type": "Album",
+      "work_id": 2009,
+      "title": "The Wisdom of Weathered Seasons",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 2012,
+      "artist_name": "Jing Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2012,
+          "name": "Jing Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036113
+        },
+        {
+          "person_id": 2010,
+          "name": "Yong Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984401
+        },
+        {
+          "person_id": 2011,
+          "name": "Xiulan Fu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984194
+        }
+      ]
+    },
+    {
+      "id": "album:2959",
+      "work_type": "Album",
+      "work_id": 2959,
+      "title": "Sitaron Ki Kahani",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 2383,
+      "artist_name": "Xavier Leclerc",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2383,
+          "name": "Xavier Leclerc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9075449
+        },
+        {
+          "person_id": 2960,
+          "name": "Qiang Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977144
+        },
+        {
+          "person_id": 2961,
+          "name": "Xiulan Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977144
+        },
+        {
+          "person_id": 2962,
+          "name": "Hannah Hopkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977144
+        }
       ]
     },
     {
       "id": "song:3652",
-      "song_id": 3652,
+      "work_type": "Song",
+      "work_id": 3652,
       "title": "Wishful Thinking Anthem",
       "genre": "Dream Pop",
       "notable": true,
@@ -149,11 +456,138 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3655,
+          "name": "Jing Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481408
+        },
+        {
+          "person_id": 3658,
+          "name": "Min Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980365
+        },
+        {
+          "person_id": 3653,
+          "name": "Lei Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978667
+        },
+        {
+          "person_id": 3654,
+          "name": "Na Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978667
+        },
+        {
+          "person_id": 3656,
+          "name": "Ryohei Ito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978667
+        },
+        {
+          "person_id": 3657,
+          "name": "Ming Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978667
+        },
+        {
+          "person_id": 3659,
+          "name": "Guiying Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978667
+        }
+      ]
+    },
+    {
+      "id": "album:4576",
+      "work_type": "Album",
+      "work_id": 4576,
+      "title": "Life's Remedy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 4577,
+      "artist_name": "Julie Reynolds ( Quantum Drift)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4579,
+          "name": "Kathryn Ward",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.426875
+        },
+        {
+          "person_id": 4577,
+          "name": "Julie Reynolds",
+          "stage_name": " Quantum Drift",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.426389
+        },
+        {
+          "person_id": 4580,
+          "name": "Heidi Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0541255
+        },
+        {
+          "person_id": 4578,
+          "name": "Arhaan Batta",
+          "stage_name": "Arhaan",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.050327
+        }
       ]
     },
     {
       "id": "song:4821",
-      "song_id": 4821,
+      "work_type": "Song",
+      "work_id": 4821,
       "title": "Single-Handed Horizon",
       "genre": "Dream Pop",
       "notable": true,
@@ -171,11 +605,50 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4822,
+          "name": "John Rivera",
+          "stage_name": "Hollow Reverberation",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4823,
+          "name": "William Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4824,
+          "name": "Ashley Olsen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958862
+        },
+        {
+          "person_id": 4825,
+          "name": "Michael Watson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958654
+        }
       ]
     },
     {
       "id": "song:5559",
-      "song_id": 5559,
+      "work_type": "Song",
+      "work_id": 5559,
       "title": "Infused Intentions",
       "genre": "Synthpop",
       "notable": true,
@@ -193,11 +666,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5560,
+          "name": "Bruce Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5561,
+          "name": "Donna Ellison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5562,
+          "name": "Mitchell Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968368
+        }
       ]
     },
     {
       "id": "song:6054",
-      "song_id": 6054,
+      "work_type": "Song",
+      "work_id": 6054,
       "title": "Colorful Traditions",
       "genre": "Dream Pop",
       "notable": true,
@@ -215,11 +719,81 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1304,
+          "name": "Rüdiger Graf",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5105996
+        },
+        {
+          "person_id": 6055,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 6056,
+          "name": "Xiulan Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 6060,
+          "name": "Xiulan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0449867
+        },
+        {
+          "person_id": 6057,
+          "name": "Anthony Hancock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0446894
+        },
+        {
+          "person_id": 6058,
+          "name": "Li Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986783
+        },
+        {
+          "person_id": 6059,
+          "name": "Brandon Kirby",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986783
+        }
       ]
     },
     {
       "id": "song:6307",
-      "song_id": 6307,
+      "work_type": "Song",
+      "work_id": 6307,
       "title": "Gaze of Understanding",
       "genre": "Dream Pop",
       "notable": true,
@@ -237,11 +811,59 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6312,
+          "name": "Fang Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7013907
+        },
+        {
+          "person_id": 6308,
+          "name": "Li Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6309,
+          "name": "Yan He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6310,
+          "name": "Ping Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6311,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        }
       ]
     },
     {
       "id": "song:7949",
-      "song_id": 7949,
+      "work_type": "Song",
+      "work_id": 7949,
       "title": "Whispers of the Infinite",
       "genre": "Dream Pop",
       "notable": true,
@@ -259,11 +881,60 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7951,
+          "name": "Sonia Innocenti-Gasperi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399452
+        },
+        {
+          "person_id": 7950,
+          "name": "Fernanda Lamborghini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992822
+        },
+        {
+          "person_id": 7952,
+          "name": "Donatello Schiaparelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992822
+        },
+        {
+          "person_id": 7954,
+          "name": "Greco Duse-Liverotti",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992822
+        },
+        {
+          "person_id": 7953,
+          "name": "Paloma Merisi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992615
+        }
       ]
     },
     {
       "id": "song:8483",
-      "song_id": 8483,
+      "work_type": "Song",
+      "work_id": 8483,
       "title": "Whispers of the Heartbound",
       "genre": "Indie Folk",
       "notable": true,
@@ -281,11 +952,42 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8484,
+          "name": "Sahil Khalsa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0342426
+        },
+        {
+          "person_id": 8486,
+          "name": "Manjari Varty",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978617
+        },
+        {
+          "person_id": 8485,
+          "name": "Devansh Bakshi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968709
+        }
       ]
     },
     {
       "id": "song:8837",
-      "song_id": 8837,
+      "work_type": "Song",
+      "work_id": 8837,
       "title": "The Unfolding: Thirty Breaths",
       "genre": "Darkwave",
       "notable": true,
@@ -303,11 +1005,33 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8839,
+          "name": "Lori Schmidt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982437
+        },
+        {
+          "person_id": 8838,
+          "name": "Nathan Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980384
+        }
       ]
     },
     {
       "id": "song:9069",
-      "song_id": 9069,
+      "work_type": "Song",
+      "work_id": 9069,
       "title": "Boise Bound",
       "genre": "Indie Folk",
       "notable": true,
@@ -325,11 +1049,77 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9071,
+          "name": "Ashley Brooks",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0434558
+        },
+        {
+          "person_id": 9070,
+          "name": "Stacey Perry",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39957
+        }
+      ]
+    },
+    {
+      "id": "song:9564",
+      "work_type": "Song",
+      "work_id": 9564,
+      "title": "Tears of a Broken King",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4293177
+        },
+        {
+          "person_id": 9565,
+          "name": "Jacob Bryant",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3997884
+        }
       ]
     },
     {
       "id": "song:10338",
-      "song_id": 10338,
+      "work_type": "Song",
+      "work_id": 10338,
       "title": "Frostbitten Symphony",
       "genre": "Dream Pop",
       "notable": true,
@@ -347,11 +1137,50 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 10339,
+          "name": "Xia Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972588
+        },
+        {
+          "person_id": 10340,
+          "name": "Li Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972588
+        },
+        {
+          "person_id": 10341,
+          "name": "Jun Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972588
+        }
       ]
     },
     {
       "id": "song:10385",
-      "song_id": 10385,
+      "work_type": "Song",
+      "work_id": 10385,
       "title": "Whispers of Innocence",
       "genre": "Space Rock",
       "notable": true,
@@ -369,11 +1198,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1093,
+          "name": "Li Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6390505
+        },
+        {
+          "person_id": 3655,
+          "name": "Jing Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481408
+        },
+        {
+          "person_id": 10387,
+          "name": "Tao Yan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990402
+        },
+        {
+          "person_id": 10386,
+          "name": "Ping Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398803
+        }
       ]
     },
     {
       "id": "song:10535",
-      "song_id": 10535,
+      "work_type": "Song",
+      "work_id": 10535,
       "title": "Memories Along the Lech River",
       "genre": "Indie Folk",
       "notable": true,
@@ -391,11 +1260,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4665,
+          "name": "Gino Michelangeli",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.08105
+        },
+        {
+          "person_id": 4503,
+          "name": "Fredo Grossi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9326928
+        },
+        {
+          "person_id": 4664,
+          "name": "Antonietta Ceravolo-Condoleo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7092457
+        },
+        {
+          "person_id": 10536,
+          "name": "Kunigunde Pechel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041086
+        },
+        {
+          "person_id": 10537,
+          "name": "Hortense du Dijoux",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041086
+        }
       ]
     },
     {
       "id": "song:10767",
-      "song_id": 10767,
+      "work_type": "Song",
+      "work_id": 10767,
       "title": "Fragments of an Unwritten Letter",
       "genre": "Dream Pop",
       "notable": true,
@@ -413,11 +1331,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10770,
+          "name": "Brian Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0460484
+        },
+        {
+          "person_id": 10768,
+          "name": "Dean Stevens",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0451252
+        },
+        {
+          "person_id": 10769,
+          "name": "Stephen Chavez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397087
+        }
       ]
     },
     {
       "id": "song:11029",
-      "song_id": 11029,
+      "work_type": "Song",
+      "work_id": 11029,
       "title": "Tiny Heartbeat Symphony",
       "genre": "Synthwave",
       "notable": true,
@@ -435,11 +1384,61 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3686,
+          "name": "Xia Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.930391
+        },
+        {
+          "person_id": 6956,
+          "name": "Chao Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032513
+        },
+        {
+          "person_id": 11031,
+          "name": "Jie Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397292
+        },
+        {
+          "person_id": 11032,
+          "name": "Ping Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972785
+        },
+        {
+          "person_id": 11030,
+          "name": "Jing Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972712
+        }
       ]
     },
     {
       "id": "song:11206",
-      "song_id": 11206,
+      "work_type": "Song",
+      "work_id": 11206,
       "title": "Beyond the Breakwater",
       "genre": "Indie Rock",
       "notable": true,
@@ -457,11 +1456,52 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        },
+        {
+          "person_id": 11207,
+          "name": "Jeremy Russell",
+          "stage_name": "Theo Vance",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986576
+        },
+        {
+          "person_id": 11208,
+          "name": "Jeremy Griffith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985283
+        },
+        {
+          "person_id": 11209,
+          "name": "Yolanda Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985283
+        }
       ]
     },
     {
       "id": "song:11280",
-      "song_id": 11280,
+      "work_type": "Song",
+      "work_id": 11280,
       "title": "Euphoria's Overflow",
       "genre": "Darkwave",
       "notable": true,
@@ -479,11 +1519,50 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10768,
+          "name": "Dean Stevens",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0451252
+        },
+        {
+          "person_id": 11281,
+          "name": "Kevin Davidson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402303
+        },
+        {
+          "person_id": 11282,
+          "name": "Na Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402303
+        },
+        {
+          "person_id": 11283,
+          "name": "Nicole Clark",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402303
+        }
       ]
     },
     {
       "id": "song:11442",
-      "song_id": 11442,
+      "work_type": "Song",
+      "work_id": 11442,
       "title": "The Forgotten Serenade of Carmela",
       "genre": "Dream Pop",
       "notable": true,
@@ -501,11 +1580,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11444,
+          "name": "Robert Strickland",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39836
+        },
+        {
+          "person_id": 11443,
+          "name": "Brandon Waller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982587
+        }
       ]
     },
     {
       "id": "song:11499",
-      "song_id": 11499,
+      "work_type": "Song",
+      "work_id": 11499,
       "title": "Scarred Intentions",
       "genre": "Dream Pop",
       "notable": true,
@@ -523,11 +1624,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11501,
+          "name": "Nancy Arnold",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984528
+        },
+        {
+          "person_id": 11500,
+          "name": "Christy Hicks",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979998
+        }
       ]
     },
     {
       "id": "song:12418",
-      "song_id": 12418,
+      "work_type": "Song",
+      "work_id": 12418,
       "title": "Echoes of My Inner Voice",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -545,11 +1668,164 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12420,
+          "name": "Martha Patrick",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980582
+        },
+        {
+          "person_id": 12419,
+          "name": "Li Fan",
+          "stage_name": " Pearl",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978884
+        },
+        {
+          "person_id": 12421,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978884
+        }
+      ]
+    },
+    {
+      "id": "album:12558",
+      "work_type": "Album",
+      "work_id": 12558,
+      "title": "Dancing Through Life",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 12560,
+      "artist_name": "Juan Chen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12559,
+          "name": "Xiuying Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12560,
+          "name": "Juan Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12561,
+          "name": "Tao Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12562,
+          "name": "Yang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12563,
+          "name": "Qiang Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        }
+      ]
+    },
+    {
+      "id": "album:12723",
+      "work_type": "Album",
+      "work_id": 12723,
+      "title": "Liquid Gold Lament",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 12724,
+      "artist_name": "Gang Sun ( Ivory Hawk)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12724,
+          "name": "Gang Sun",
+          "stage_name": " Ivory Hawk",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975592
+        },
+        {
+          "person_id": 12725,
+          "name": "Chao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975592
+        },
+        {
+          "person_id": 12726,
+          "name": "Xia Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3975592
+        }
       ]
     },
     {
       "id": "song:13088",
-      "song_id": 13088,
+      "work_type": "Song",
+      "work_id": 13088,
       "title": "Grandfather's Warning",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -567,11 +1843,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13090,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4196846
+        },
+        {
+          "person_id": 13091,
+          "name": "Sherry Powell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0439756
+        },
+        {
+          "person_id": 13089,
+          "name": "Matthew Roberson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988597
+        },
+        {
+          "person_id": 13092,
+          "name": "Joseph Brooks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988597
+        },
+        {
+          "person_id": 13093,
+          "name": "Elizabeth Martin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988597
+        }
       ]
     },
     {
       "id": "song:13321",
-      "song_id": 13321,
+      "work_type": "Song",
+      "work_id": 13321,
       "title": "Rootless Heart",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -589,11 +1914,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13322,
+          "name": "Danielle Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4002445
+        },
+        {
+          "person_id": 13323,
+          "name": "Jonathan Vasquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993657
+        }
       ]
     },
     {
       "id": "song:14182",
-      "song_id": 14182,
+      "work_type": "Song",
+      "work_id": 14182,
       "title": "The Spaces We Inhabit",
       "genre": "Dream Pop",
       "notable": false,
@@ -611,11 +1958,115 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7692,
+          "name": "Juan Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.452628
+        },
+        {
+          "person_id": 14183,
+          "name": "Yong Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14184,
+          "name": "Xia Ma",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14185,
+          "name": "James Weber",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14186,
+          "name": "Guiying Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974853
+        }
+      ]
+    },
+    {
+      "id": "album:14547",
+      "work_type": "Album",
+      "work_id": 14547,
+      "title": "Dark Clock's Silence",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 14548,
+      "artist_name": "Wei Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14549,
+          "name": "Juan Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396763
+        },
+        {
+          "person_id": 14548,
+          "name": "Wei Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967423
+        },
+        {
+          "person_id": 14550,
+          "name": "Na Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3967395
+        }
       ]
     },
     {
       "id": "song:15590",
-      "song_id": 15590,
+      "work_type": "Song",
+      "work_id": 15590,
       "title": "Beyond Moderation",
       "genre": "Indie Rock",
       "notable": false,
@@ -633,11 +2084,43 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3754,
+          "name": "Annetta Passalacqua",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4334188
+        },
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
       ]
     },
     {
       "id": "song:15817",
-      "song_id": 15817,
+      "work_type": "Song",
+      "work_id": 15817,
       "title": "Ridges of Romance",
       "genre": "Americana",
       "notable": true,
@@ -655,14 +2138,171 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6424,
+          "name": "Cheryl Carter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8186002
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:13321",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11206",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3652",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15590",
+      "target": "song:7278",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12418",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10338",
+      "target": "song:7278",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14182",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:12723",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:10767",
       "target": "song:7278",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:6307",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10385",
+      "target": "song:7278",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:12558",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4821",
+      "target": "song:7278",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:4576",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:2009",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:901",
+      "target": "song:7278",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:14547",
+      "target": "song:7278",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:11442",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6054",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:9069",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11280",
+      "target": "song:7278",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:5559",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8837",
+      "target": "song:7278",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:13088",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:1358",
+      "target": "song:7278",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9564",
+      "target": "song:7278",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:8483",
+      "target": "song:7278",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:11029",
+      "target": "song:7278",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:2959",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:210",
+      "target": "song:7278",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:11499",
@@ -675,129 +2315,14 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:10338",
-      "target": "song:7278",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:8837",
-      "target": "song:7278",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:1358",
-      "target": "song:7278",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:11280",
-      "target": "song:7278",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:4821",
-      "target": "song:7278",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:210",
-      "target": "song:7278",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:9069",
-      "target": "song:7278",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:11206",
-      "target": "song:7278",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:901",
-      "target": "song:7278",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:11442",
-      "target": "song:7278",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13321",
-      "target": "song:7278",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:9564",
-      "target": "song:7278",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:3652",
-      "target": "song:7278",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:5559",
-      "target": "song:7278",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:8483",
-      "target": "song:7278",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:7949",
-      "target": "song:7278",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:10385",
-      "target": "song:7278",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:6054",
-      "target": "song:7278",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:12418",
-      "target": "song:7278",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:13088",
-      "target": "song:7278",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:15817",
       "target": "song:7278",
       "type": "CoverOf"
     },
     {
-      "source": "song:14182",
+      "source": "song:7949",
       "target": "song:7278",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:6307",
-      "target": "song:7278",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:11029",
-      "target": "song:7278",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:15590",
-      "target": "song:7278",
-      "type": "LyricalReferenceTo"
+      "type": "DirectlySamples"
     }
   ]
 }

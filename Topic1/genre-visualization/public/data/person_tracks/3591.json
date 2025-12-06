@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3587",
-      "song_id": 3587,
+      "work_type": "Song",
+      "work_id": 3587,
       "title": "The Unnamed Heir",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,56 @@
       "own": true,
       "artist_id": 3591,
       "artist_name": "Jermaine Gibbs",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3589,
+          "name": "Laetitia Bertrand-Becker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.264468
+        },
+        {
+          "person_id": 3588,
+          "name": "Antonietta Zaccagnini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4405305
+        },
+        {
+          "person_id": 3590,
+          "name": "Lindsay Ponce",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395071
+        }
+      ]
+    },
+    {
+      "id": "album:4945",
+      "work_type": "Album",
+      "work_id": 4945,
+      "title": "Beyond the Price Tag",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 4946,
+      "artist_name": "Christopher Conway",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +72,45 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4947,
+          "name": "Samantha Mcneil",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4948,
+          "name": "Isaac Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4946,
+          "name": "Christopher Conway",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961337
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4945",
+      "target": "song:3587",
+      "type": "DirectlySamples"
+    }
+  ]
 }

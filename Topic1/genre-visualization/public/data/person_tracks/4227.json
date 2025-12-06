@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4222",
-      "song_id": 4222,
+      "work_type": "Song",
+      "work_id": 4222,
       "title": "Whispers of the Woodland Brook",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,26 +15,126 @@
       "own": true,
       "artist_id": 4227,
       "artist_name": "Ashley Robinson",
-      "influence": 2,
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4223,
+          "name": "Warren Fleming",
+          "stage_name": " Cipher",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987148
+        },
+        {
+          "person_id": 4226,
+          "name": "Mary Combs",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3987148
+        },
+        {
+          "person_id": 4225,
+          "name": "Nancy Mitchell",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398694
+        },
+        {
+          "person_id": 4224,
+          "name": "Mackenzie Greene",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978674
+        }
+      ]
+    },
+    {
+      "id": "album:4046",
+      "work_type": "Album",
+      "work_id": 4046,
+      "title": "Sweet Katharina's Lament",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 4047,
+      "artist_name": "Qiang Shen",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4047,
+          "name": "Qiang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4048,
+          "name": "Fang Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4049,
+          "name": "Dora Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4050,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        }
+      ]
     },
     {
       "id": "song:17333",
-      "song_id": 17333,
+      "work_type": "Song",
+      "work_id": 17333,
       "title": "The Undertow Waltz",
       "genre": "Oceanus Folk",
       "notable": false,
       "release_year": 2005,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17327,
+      "artist_name": "Drowned Harbor（成员：Orin Caldwell｜预测 3.71、Selena Marrow｜预测 3.71…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -43,10 +144,16 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
+    {
+      "source": "album:4046",
+      "target": "song:4222",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:17333",
       "target": "song:4222",

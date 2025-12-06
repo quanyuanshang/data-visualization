@@ -4,8 +4,41 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:11262",
+      "work_type": "Album",
+      "work_id": 11262,
+      "title": "Hooves and Horizons",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 7887,
+      "artist_name": "Marianne Sanchez-Hebert",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7888,
+          "name": "Corinne du Bazin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4386559
+        }
+      ]
+    },
+    {
       "id": "song:14645",
-      "song_id": 14645,
+      "work_type": "Song",
+      "work_id": 14645,
       "title": "Linguistic Liberation",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,8 +54,80 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7888,
+          "name": "Corinne du Bazin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4386559
+        },
+        {
+          "person_id": 14646,
+          "name": "Michelle Gilbert",
+          "stage_name": " Midnight Moss",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398831
+        }
+      ]
+    },
+    {
+      "id": "album:7886",
+      "work_type": "Album",
+      "work_id": 7886,
+      "title": "Trembling on the Edge",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 7887,
+      "artist_name": "Marianne Sanchez-Hebert",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7888,
+          "name": "Corinne du Bazin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4386559
+        },
+        {
+          "person_id": 7889,
+          "name": "Jon Harris",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980649
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:14645",
+      "target": "album:7886",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:11262",
+      "target": "album:7886",
+      "type": "InStyleOf"
+    }
+  ]
 }

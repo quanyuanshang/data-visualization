@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2424",
-      "song_id": 2424,
+      "work_type": "Song",
+      "work_id": 2424,
       "title": "Unwind Tonight",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,59 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 594,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.100683
+        },
+        {
+          "person_id": 2426,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.449281
+        },
+        {
+          "person_id": 435,
+          "name": "Juan Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4306495
+        },
+        {
+          "person_id": 2427,
+          "name": "Juan Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.037461
+        }
+      ]
     },
     {
       "id": "song:5647",
-      "song_id": 5647,
+      "work_type": "Song",
+      "work_id": 5647,
       "title": "The Last Goodbye",
       "genre": "Darkwave",
       "notable": false,
@@ -43,11 +92,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 5649,
+          "name": "Wei Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4591036
+        },
+        {
+          "person_id": 5648,
+          "name": "Mark Dunlap",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3964274
+        },
+        {
+          "person_id": 5650,
+          "name": "Yang Shao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3964274
+        },
+        {
+          "person_id": 5651,
+          "name": "Lucas Smith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964274
+        }
       ]
     },
     {
       "id": "song:16292",
-      "song_id": 16292,
+      "work_type": "Song",
+      "work_id": 16292,
       "title": "Whispers of Goodbye",
       "genre": "Darkwave",
       "notable": true,
@@ -65,19 +163,49 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 16293,
+          "name": "Juan Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.395112
+        },
+        {
+          "person_id": 16294,
+          "name": "Min Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.395112
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5647",
-      "target": "song:2424",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:16292",
       "target": "song:2424",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5647",
+      "target": "song:2424",
+      "type": "CoverOf"
     }
   ]
 }

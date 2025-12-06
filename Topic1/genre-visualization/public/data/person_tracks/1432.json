@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1431",
-      "song_id": 1431,
+      "work_type": "Song",
+      "work_id": 1431,
       "title": "Gleaming Happiness",
       "genre": "Darkwave",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 1432,
       "artist_name": "David White",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1433,
+          "name": "Justin King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.446718
+        }
+      ]
     },
     {
       "id": "song:1024",
-      "song_id": 1024,
+      "work_type": "Song",
+      "work_id": 1024,
       "title": "Whispers from the Gold Rush",
       "genre": "Dream Pop",
       "notable": false,
@@ -43,6 +57,116 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 145,
+          "name": "Adrien Charles",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7255015
+        },
+        {
+          "person_id": 1025,
+          "name": "Julien Collin-Texier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1026,
+          "name": "Sylvie-Chantal Schmitt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1027,
+          "name": "Claudine Leleu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1028,
+          "name": "Augustin Raymond",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1029,
+          "name": "Antoine du Adam",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1030,
+          "name": "Chantal Gérard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        }
+      ]
+    },
+    {
+      "id": "album:13031",
+      "work_type": "Album",
+      "work_id": 13031,
+      "title": "Desert Moon's Whisper",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 13032,
+      "artist_name": "Christopher Brown",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1433,
+          "name": "Justin King",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.446718
+        },
+        {
+          "person_id": 13032,
+          "name": "Christopher Brown",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994098
+        }
       ]
     }
   ],
@@ -51,6 +175,11 @@
       "source": "song:1024",
       "target": "song:1431",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:13031",
+      "target": "song:1431",
+      "type": "InStyleOf"
     }
   ]
 }

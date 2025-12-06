@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:4517",
-      "song_id": 4517,
-      "title": "Resilience in Verse",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 2772,
-      "artist_name": "Stephen Bell",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2770",
-      "song_id": 2770,
+      "work_type": "Song",
+      "work_id": 2770,
       "title": "Memories Between Empty Spaces",
       "genre": "Synthwave",
       "notable": true,
@@ -41,8 +22,191 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2773,
+          "name": "Christopher Reed",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4215047
+        },
+        {
+          "person_id": 2771,
+          "name": "Bethany Jennings",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0566452
+        }
+      ]
+    },
+    {
+      "id": "song:4517",
+      "work_type": "Song",
+      "work_id": 4517,
+      "title": "Resilience in Verse",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 2772,
+      "artist_name": "Stephen Bell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2773,
+          "name": "Christopher Reed",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4215047
+        },
+        {
+          "person_id": 2771,
+          "name": "Bethany Jennings",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0566452
+        }
+      ]
+    },
+    {
+      "id": "album:9115",
+      "work_type": "Album",
+      "work_id": 9115,
+      "title": "Melodies of Memory",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 2772,
+      "artist_name": "Stephen Bell",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2773,
+          "name": "Christopher Reed",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4215047
+        }
+      ]
+    },
+    {
+      "id": "song:2292",
+      "work_type": "Song",
+      "work_id": 2292,
+      "title": "Vagrant's Horizon",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 2293,
+      "artist_name": "Xia Ren",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2296,
+          "name": "Jordan Baxter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.394767
+        },
+        {
+          "person_id": 2293,
+          "name": "Xia Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0487053
+        },
+        {
+          "person_id": 2294,
+          "name": "Xiuying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0487053
+        },
+        {
+          "person_id": 2297,
+          "name": "Ping Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0487053
+        },
+        {
+          "person_id": 2295,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960972
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:4517",
+      "target": "album:9115",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:2292",
+      "target": "album:9115",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2770",
+      "target": "album:9115",
+      "type": "CoverOf"
+    }
+  ]
 }

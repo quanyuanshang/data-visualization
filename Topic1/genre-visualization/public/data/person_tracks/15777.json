@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15776",
-      "song_id": 15776,
+      "work_type": "Song",
+      "work_id": 15776,
       "title": "Hands of Fragrant Memory",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,34 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1275,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5120125
+        },
+        {
+          "person_id": 15778,
+          "name": "Guiying Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952897
+        }
+      ]
     },
     {
       "id": "song:15207",
-      "song_id": 15207,
+      "work_type": "Song",
+      "work_id": 15207,
       "title": "Goodbye Terminal",
       "genre": "Space Rock",
       "notable": true,
@@ -43,6 +67,35 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11375,
+          "name": "Jie Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0485618
+        },
+        {
+          "person_id": 15209,
+          "name": "James Beard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980703
+        },
+        {
+          "person_id": 15208,
+          "name": "Na Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978124
+        }
       ]
     }
   ],

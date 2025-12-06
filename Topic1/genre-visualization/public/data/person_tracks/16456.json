@@ -1,0 +1,89 @@
+{
+  "person_id": 16456,
+  "name": "Chloe Little",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:16454",
+      "work_type": "Album",
+      "work_id": 16454,
+      "title": "Donkey's Lament",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1998,
+      "single": false,
+      "own": true,
+      "artist_id": 16456,
+      "artist_name": "Chloe Little",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16455,
+          "name": "Chelsea Mclean",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4386995
+        }
+      ]
+    },
+    {
+      "id": "song:6072",
+      "work_type": "Song",
+      "work_id": 6072,
+      "title": "Whispers of My Homeland",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1998,
+      "single": true,
+      "own": false,
+      "artist_id": 6073,
+      "artist_name": "Agnès de Leroy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 6073,
+          "name": "Agnès de Leroy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3852036
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6072",
+      "target": "album:16454",
+      "type": "CoverOf"
+    }
+  ]
+}

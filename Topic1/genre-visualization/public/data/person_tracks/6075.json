@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6074",
-      "song_id": 6074,
+      "work_type": "Song",
+      "work_id": 6074,
       "title": "Borders of the Heart",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,23 +15,44 @@
       "own": true,
       "artist_id": 6075,
       "artist_name": "Elizabeth Myers",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5558,
+          "name": "William Mcclain",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7153006
+        },
+        {
+          "person_id": 5557,
+          "name": "Kendra Green",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4310572
+        }
+      ]
     },
     {
-      "id": "song:10158",
-      "song_id": 10158,
-      "title": "Branches Breathing Moonlight",
+      "id": "album:5556",
+      "work_type": "Album",
+      "work_id": 5556,
+      "title": "Gummy Galaxy",
       "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2028,
-      "single": true,
+      "release_year": 2029,
+      "single": false,
       "own": false,
       "artist_id": 5557,
       "artist_name": "Kendra Green",
@@ -43,12 +65,81 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5558,
+          "name": "William Mcclain",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7153006
+        },
+        {
+          "person_id": 5557,
+          "name": "Kendra Green",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4310572
+        }
+      ]
+    },
+    {
+      "id": "song:10158",
+      "work_type": "Song",
+      "work_id": 10158,
+      "title": "Branches Breathing Moonlight",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 16855,
+      "artist_name": "Velvet Prism（成员：Kendra Green｜预测 3.43、William Mcclain｜预测 3.72）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5558,
+          "name": "William Mcclain",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7153006
+        },
+        {
+          "person_id": 5557,
+          "name": "Kendra Green",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4310572
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:10158",
+      "target": "song:6074",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:5556",
       "target": "song:6074",
       "type": "InStyleOf"
     }

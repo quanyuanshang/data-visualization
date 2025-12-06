@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12010",
-      "song_id": 12010,
+      "work_type": "Song",
+      "work_id": 12010,
       "title": "William's Victorious Path",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 12011,
       "artist_name": "Shray Agarwal",
-      "influence": 13,
+      "influence": 25,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
-        "reference": 2,
-        "style": 1
+        "sample": 1,
+        "reference": 4,
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 12012,
+          "name": "Jivika Tank",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.913256
+        }
+      ]
     },
     {
       "id": "song:2549",
-      "song_id": 2549,
+      "work_type": "Song",
+      "work_id": 2549,
       "title": "Island Time Suspension",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +65,86 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 2550,
+          "name": "Kashvi Keer",
+          "stage_name": "S-KRIPTA",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0633216
+        },
+        {
+          "person_id": 2551,
+          "name": "Lindsay Nichols",
+          "stage_name": "Lindsay Sage",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0452938
+        }
+      ]
+    },
+    {
+      "id": "album:8801",
+      "work_type": "Album",
+      "work_id": 8801,
+      "title": "Twilight Sonata for Forgotten Keys",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 8802,
+      "artist_name": "Anya Krishnan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 8802,
+          "name": "Anya Krishnan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047664
+        }
       ]
     },
     {
       "id": "song:10698",
-      "song_id": 10698,
+      "work_type": "Song",
+      "work_id": 10698,
       "title": "Whispers of the Armenian Heart",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,11 +162,121 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 8802,
+          "name": "Anya Krishnan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047664
+        }
+      ]
+    },
+    {
+      "id": "album:11446",
+      "work_type": "Album",
+      "work_id": 11446,
+      "title": "Echoes from Carmela's Heart",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 2550,
+      "artist_name": "Kashvi Keer (S-KRIPTA)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 2550,
+          "name": "Kashvi Keer",
+          "stage_name": "S-KRIPTA",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0633216
+        }
+      ]
+    },
+    {
+      "id": "album:14351",
+      "work_type": "Album",
+      "work_id": 14351,
+      "title": "Echoes of Time",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 12012,
+      "artist_name": "Jivika Tank",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 12012,
+          "name": "Jivika Tank",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.913256
+        }
       ]
     },
     {
       "id": "song:14749",
-      "song_id": 14749,
+      "work_type": "Song",
+      "work_id": 14749,
       "title": "Whispers About Wendy",
       "genre": "Alternative Rock",
       "notable": true,
@@ -87,11 +294,76 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 12012,
+          "name": "Jivika Tank",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.913256
+        }
+      ]
+    },
+    {
+      "id": "album:15252",
+      "work_type": "Album",
+      "work_id": 15252,
+      "title": "God Save Our Noble Realm",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 15253,
+      "artist_name": "Jeffrey Morgan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1365,
+          "name": "Valerie Brown",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4297123
+        },
+        {
+          "person_id": 15253,
+          "name": "Jeffrey Morgan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978617
+        }
       ]
     },
     {
       "id": "song:15633",
-      "song_id": 15633,
+      "work_type": "Song",
+      "work_id": 15633,
       "title": "Calm in the Chaos",
       "genre": "Alternative Rock",
       "notable": true,
@@ -109,24 +381,65 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2552,
+          "name": "Vidur Kapadia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.506143
+        },
+        {
+          "person_id": 12012,
+          "name": "Jivika Tank",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.913256
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:2549",
-      "target": "song:12010",
-      "type": "InterpolatesFrom"
-    },
     {
       "source": "song:14749",
       "target": "song:12010",
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "album:15252",
+      "target": "song:12010",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:11446",
+      "target": "song:12010",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:8801",
+      "target": "song:12010",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:10698",
       "target": "song:12010",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:14351",
+      "target": "song:12010",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:2549",
+      "target": "song:12010",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:15633",

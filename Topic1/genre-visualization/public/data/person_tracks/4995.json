@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4992",
-      "song_id": 4992,
+      "work_type": "Song",
+      "work_id": 4992,
       "title": "Carnival's Pulse",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +15,191 @@
       "own": true,
       "artist_id": 4995,
       "artist_name": "Carmine Harloff",
-      "influence": 8,
+      "influence": 15,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4993,
+          "name": "Hans-Eberhard Schleich",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4409952
+        },
+        {
+          "person_id": 4994,
+          "name": "Ida Stolze-Lübs",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962593
+        }
+      ]
+    },
+    {
+      "id": "album:4937",
+      "work_type": "Album",
+      "work_id": 4937,
+      "title": "Priceless Heart",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 4940,
+      "artist_name": "Alicia Heinz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4941,
+          "name": "Rose-Marie Schmidtke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4257333
+        },
+        {
+          "person_id": 4940,
+          "name": "Alicia Heinz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4073312
+        },
+        {
+          "person_id": 4943,
+          "name": "Ilona Stolze",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4073312
+        },
+        {
+          "person_id": 4938,
+          "name": "Frau Viola Ullmann",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3822896
+        },
+        {
+          "person_id": 4939,
+          "name": "Thies Seifert",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3822896
+        },
+        {
+          "person_id": 4942,
+          "name": "Ivona Žáková",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3817208
+        }
+      ]
+    },
+    {
+      "id": "album:11629",
+      "work_type": "Album",
+      "work_id": 11629,
+      "title": "Unspoken Embrace",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 11630,
+      "artist_name": "Océane Bouchet",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11630,
+          "name": "Océane Bouchet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976133
+        },
+        {
+          "person_id": 11631,
+          "name": "Célina Collin de la Chauveau",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976133
+        },
+        {
+          "person_id": 11632,
+          "name": "Stéphanie Parent",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976133
+        },
+        {
+          "person_id": 11633,
+          "name": "Yves Gaudin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976133
+        },
+        {
+          "person_id": 11634,
+          "name": "Michelle Monnier",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3976133
+        }
+      ]
     },
     {
       "id": "song:13727",
-      "song_id": 13727,
+      "work_type": "Song",
+      "work_id": 13727,
       "title": "Indiana Heartache",
       "genre": "Indie Pop",
       "notable": true,
@@ -43,11 +217,41 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10917,
+          "name": "Bryan Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516725
+        },
+        {
+          "person_id": 10918,
+          "name": "Brad Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0473967
+        },
+        {
+          "person_id": 13728,
+          "name": "Ian Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980126
+        }
       ]
     },
     {
       "id": "song:15135",
-      "song_id": 15135,
+      "work_type": "Song",
+      "work_id": 15135,
       "title": "Martyrdom's Embrace",
       "genre": "Blues Rock",
       "notable": true,
@@ -65,6 +269,55 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4941,
+          "name": "Rose-Marie Schmidtke",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4257333
+        },
+        {
+          "person_id": 4940,
+          "name": "Alicia Heinz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4073312
+        },
+        {
+          "person_id": 4943,
+          "name": "Ilona Stolze",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4073312
+        },
+        {
+          "person_id": 15136,
+          "name": "Brandon Flores",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397486
+        },
+        {
+          "person_id": 15137,
+          "name": "Enno Reinhardt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3971543
+        }
       ]
     }
   ],
@@ -73,6 +326,16 @@
       "source": "song:13727",
       "target": "song:4992",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:4937",
+      "target": "song:4992",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:11629",
+      "target": "song:4992",
+      "type": "InStyleOf"
     },
     {
       "source": "song:15135",

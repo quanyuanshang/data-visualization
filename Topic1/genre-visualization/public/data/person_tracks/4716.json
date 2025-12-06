@@ -5,12 +5,73 @@
   "nodes": [
     {
       "id": "song:4713",
-      "song_id": 4713,
+      "work_type": "Song",
+      "work_id": 4713,
       "title": "The Age of Unfolding",
       "genre": "Dream Pop",
       "notable": true,
       "release_year": 2000,
       "single": true,
+      "own": true,
+      "artist_id": 4716,
+      "artist_name": "Mary Maxwell",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3511,
+          "name": "David Miles",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4352496
+        },
+        {
+          "person_id": 4714,
+          "name": "Katie Anderson",
+          "stage_name": " Tony Steel",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023328
+        },
+        {
+          "person_id": 4715,
+          "name": "Prerak Majumdar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023328
+        },
+        {
+          "person_id": 4717,
+          "name": "Yong Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023328
+        }
+      ]
+    },
+    {
+      "id": "album:15403",
+      "work_type": "Album",
+      "work_id": 15403,
+      "title": "Whispers of the Veiled Maiden",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
       "own": true,
       "artist_id": 4716,
       "artist_name": "Mary Maxwell",
@@ -21,8 +82,106 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3511,
+          "name": "David Miles",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4352496
+        },
+        {
+          "person_id": 15404,
+          "name": "Bryan Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398569
+        },
+        {
+          "person_id": 15405,
+          "name": "Selena Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398569
+        }
+      ]
+    },
+    {
+      "id": "album:15403",
+      "work_type": "Album",
+      "work_id": 15403,
+      "title": "Whispers of the Veiled Maiden",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 3511,
+      "artist_name": "David Miles",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3511,
+          "name": "David Miles",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4352496
+        },
+        {
+          "person_id": 4716,
+          "name": "Mary Maxwell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0239809
+        },
+        {
+          "person_id": 15404,
+          "name": "Bryan Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398569
+        },
+        {
+          "person_id": 15405,
+          "name": "Selena Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398569
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:15403",
+      "target": "song:4713",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

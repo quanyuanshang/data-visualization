@@ -1,0 +1,157 @@
+{
+  "person_id": 2036,
+  "name": "Guy Arnaud",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2034",
+      "work_type": "Album",
+      "work_id": 2034,
+      "title": "Hearts Like Honey",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 2036,
+      "artist_name": "Guy Arnaud",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2037,
+          "name": "Rico Weimer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977182
+        },
+        {
+          "person_id": 2035,
+          "name": "Maryse-Margaux Pinto",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976974
+        },
+        {
+          "person_id": 2038,
+          "name": "Todd Lopez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976974
+        }
+      ]
+    },
+    {
+      "id": "song:11354",
+      "work_type": "Song",
+      "work_id": 11354,
+      "title": "Bleeding Hearts and Razor Blades",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 11355,
+      "artist_name": "Erin Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11355,
+          "name": "Erin Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398387
+        },
+        {
+          "person_id": 11356,
+          "name": "Teresa Bohlander",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980827
+        }
+      ]
+    },
+    {
+      "id": "song:12202",
+      "work_type": "Song",
+      "work_id": 12202,
+      "title": "The Invisible Thread",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 12203,
+      "artist_name": "Joe Mccarthy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8833,
+          "name": "Lori Lee",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7165387
+        },
+        {
+          "person_id": 12203,
+          "name": "Joe Mccarthy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980837
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11354",
+      "target": "album:2034",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:12202",
+      "target": "album:2034",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

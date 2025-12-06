@@ -4,33 +4,46 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:6074",
-      "song_id": 6074,
-      "title": "Borders of the Heart",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 5557,
-      "artist_name": "Kendra Green",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:10158",
-      "song_id": 10158,
+      "work_type": "Song",
+      "work_id": 10158,
       "title": "Branches Breathing Moonlight",
       "genre": "Southern Gothic Rock",
       "notable": true,
       "release_year": 2028,
       "single": true,
+      "own": true,
+      "artist_id": 5557,
+      "artist_name": "Kendra Green",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5558,
+          "name": "William Mcclain",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7153006
+        }
+      ]
+    },
+    {
+      "id": "album:5556",
+      "work_type": "Album",
+      "work_id": 5556,
+      "title": "Gummy Galaxy",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
       "own": true,
       "artist_id": 5557,
       "artist_name": "Kendra Green",
@@ -41,16 +54,70 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5558,
+          "name": "William Mcclain",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7153006
+        }
+      ]
     },
     {
-      "id": "song:10158",
-      "song_id": 10158,
-      "title": "Branches Breathing Moonlight",
+      "id": "song:6074",
+      "work_type": "Song",
+      "work_id": 6074,
+      "title": "Borders of the Heart",
       "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2028,
+      "release_year": 2023,
       "single": true,
+      "own": true,
+      "artist_id": 5557,
+      "artist_name": "Kendra Green",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5558,
+          "name": "William Mcclain",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7153006
+        },
+        {
+          "person_id": 6075,
+          "name": "Elizabeth Myers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4116824
+        }
+      ]
+    },
+    {
+      "id": "album:5556",
+      "work_type": "Album",
+      "work_id": 5556,
+      "title": "Gummy Galaxy",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
       "own": true,
       "artist_id": 5557,
       "artist_name": "Kendra Green",
@@ -62,13 +129,45 @@
         "style": 0
       },
       "relation_types": [
-        "InStyleOf"
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5558,
+          "name": "William Mcclain",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7153006
+        },
+        {
+          "person_id": 5557,
+          "name": "Kendra Green",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4310572
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:5556",
+      "target": "song:10158",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:10158",
+      "target": "song:6074",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:5556",
       "target": "song:6074",
       "type": "InStyleOf"
     }

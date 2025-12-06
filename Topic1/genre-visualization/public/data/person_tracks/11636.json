@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11635",
-      "song_id": 11635,
+      "work_type": "Song",
+      "work_id": 11635,
       "title": "Echoes of Intimacy",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,94 @@
       "own": true,
       "artist_id": 11636,
       "artist_name": "Lucie Tanguy",
-      "influence": 5,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 836,
+          "name": "Adrien Techer du Voisin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0315928
+        }
+      ]
+    },
+    {
+      "id": "album:833",
+      "work_type": "Album",
+      "work_id": 833,
+      "title": "Someday Never Comes",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 834,
+      "artist_name": "Jessica Bernard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 836,
+          "name": "Adrien Techer du Voisin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0315928
+        },
+        {
+          "person_id": 834,
+          "name": "Jessica Bernard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4015145
+        }
+      ]
     },
     {
       "id": "song:16333",
-      "song_id": 16333,
+      "work_type": "Song",
+      "work_id": 16333,
       "title": "Love's Ultimate Pledge",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +120,37 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 835,
+          "name": "Franck Prévost de la Bertrand",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7097917
+        },
+        {
+          "person_id": 8585,
+          "name": "Michel Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4417253
+        },
+        {
+          "person_id": 16334,
+          "name": "Robert Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997629
+        }
       ]
     }
   ],
@@ -51,6 +159,11 @@
       "source": "song:16333",
       "target": "song:11635",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:833",
+      "target": "song:11635",
+      "type": "DirectlySamples"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10102",
-      "song_id": 10102,
+      "work_type": "Song",
+      "work_id": 10102,
       "title": "Harmony in Green",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2590,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.119318
+        },
+        {
+          "person_id": 10103,
+          "name": "Yan Yao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3957694
+        }
+      ]
     },
     {
       "id": "song:10806",
-      "song_id": 10806,
+      "work_type": "Song",
+      "work_id": 10806,
       "title": "Mechanical Heartbeat",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,6 +65,54 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10811,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397215
+        },
+        {
+          "person_id": 10807,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970451
+        },
+        {
+          "person_id": 10809,
+          "name": "Yan Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970451
+        },
+        {
+          "person_id": 10810,
+          "name": "Chao Shao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3970451
+        },
+        {
+          "person_id": 10808,
+          "name": "Xia Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964868
+        }
       ]
     }
   ],

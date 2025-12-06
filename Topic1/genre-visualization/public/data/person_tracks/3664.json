@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:3663",
+      "work_type": "Album",
+      "work_id": 3663,
+      "title": "Dimmsdale Dreams",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 3664,
+      "artist_name": "Daniel Nelson",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3665,
+          "name": "Diana Taylor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 3666,
+          "name": "Kayla Gomez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7166417
+        }
+      ]
+    },
+    {
       "id": "song:15488",
-      "song_id": 15488,
+      "work_type": "Song",
+      "work_id": 15488,
       "title": "Fermented Sweet Rebellion",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +64,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3665,
+          "name": "Diana Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 3666,
+          "name": "Kayla Gomez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7166417
+        }
+      ]
     },
     {
       "id": "song:11381",
-      "song_id": 11381,
+      "work_type": "Song",
+      "work_id": 11381,
       "title": "Perfectly Polished Persona",
       "genre": "Americana",
       "notable": true,
@@ -42,15 +107,127 @@
         "style": 0
       },
       "relation_types": [
+        "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3665,
+          "name": "Diana Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 3666,
+          "name": "Kayla Gomez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 11382,
+          "name": "Jeffery Mitchell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983254
+        },
+        {
+          "person_id": 11383,
+          "name": "Michelle Aguirre",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983254
+        },
+        {
+          "person_id": 11384,
+          "name": "Alexis Vincent",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983254
+        }
+      ]
+    },
+    {
+      "id": "song:15488",
+      "work_type": "Song",
+      "work_id": 15488,
+      "title": "Fermented Sweet Rebellion",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 3665,
+      "artist_name": "Diana Taylor",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3665,
+          "name": "Diana Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 3666,
+          "name": "Kayla Gomez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7166417
+        },
+        {
+          "person_id": 3664,
+          "name": "Daniel Nelson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.021215
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:11381",
+      "target": "album:3663",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11381",
       "target": "song:15488",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15488",
+      "target": "album:3663",
+      "type": "InStyleOf"
     }
   ]
 }

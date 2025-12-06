@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:13423",
-      "song_id": 13423,
-      "title": "Stereotype Rebel",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 10452,
-      "artist_name": "Erkan Barkholz",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:15621",
-      "song_id": 15621,
-      "title": "Chapters Unwritten",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": true,
-      "artist_id": 10452,
-      "artist_name": "Erkan Barkholz",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:10448",
-      "song_id": 10448,
+      "work_type": "Song",
+      "work_id": 10448,
       "title": "Captured Heart",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -61,11 +22,41 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10451,
+          "name": "Erdmute Hermann-Karge",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4497552
+        },
+        {
+          "person_id": 10449,
+          "name": "Samantha Munoz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975236
+        },
+        {
+          "person_id": 10450,
+          "name": "Urte Bachmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975236
+        }
+      ]
     },
     {
       "id": "song:12367",
-      "song_id": 12367,
+      "work_type": "Song",
+      "work_id": 12367,
       "title": "Sunset in the Saddle",
       "genre": "Indie Folk",
       "notable": true,
@@ -74,18 +65,39 @@
       "own": true,
       "artist_id": 10452,
       "artist_name": "Erkan Barkholz",
-      "influence": 5,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
+        "sample": 1,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10451,
+          "name": "Erdmute Hermann-Karge",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4497552
+        },
+        {
+          "person_id": 12368,
+          "name": "Jolanda Salz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4160216
+        }
+      ]
     },
     {
       "id": "song:13104",
-      "song_id": 13104,
+      "work_type": "Song",
+      "work_id": 13104,
       "title": "The Vertical Fall",
       "genre": "Synthwave",
       "notable": false,
@@ -101,19 +113,133 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13105,
+          "name": "Brigitte Gotthard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0072684
+        },
+        {
+          "person_id": 13106,
+          "name": "Herr Heinfried Kraushaar",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.374926
+        }
+      ]
     },
     {
-      "id": "song:10448",
-      "song_id": 10448,
-      "title": "Captured Heart",
-      "genre": "Jazz Surf Rock",
+      "id": "song:15621",
+      "work_type": "Song",
+      "work_id": 15621,
+      "title": "Chapters Unwritten",
+      "genre": "Indie Folk",
       "notable": true,
-      "release_year": 2015,
+      "release_year": 2004,
       "single": true,
+      "own": true,
+      "artist_id": 10452,
+      "artist_name": "Erkan Barkholz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12368,
+          "name": "Jolanda Salz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4160216
+        },
+        {
+          "person_id": 13105,
+          "name": "Brigitte Gotthard",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0072684
+        }
+      ]
+    },
+    {
+      "id": "song:13423",
+      "work_type": "Song",
+      "work_id": 13423,
+      "title": "Stereotype Rebel",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 10452,
+      "artist_name": "Erkan Barkholz",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10451,
+          "name": "Erdmute Hermann-Karge",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4497552
+        },
+        {
+          "person_id": 12368,
+          "name": "Jolanda Salz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4160216
+        },
+        {
+          "person_id": 160,
+          "name": "Hans-Theo Eckbauer-Dehmel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0280106
+        }
+      ]
+    },
+    {
+      "id": "album:2928",
+      "work_type": "Album",
+      "work_id": 2928,
+      "title": "Ascension",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
       "own": false,
-      "artist_id": 10450,
-      "artist_name": "Urte Bachmann",
+      "artist_id": 2930,
+      "artist_name": "Na Ding",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -122,12 +248,34 @@
         "style": 0
       },
       "relation_types": [
-        "InStyleOf"
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2929,
+          "name": "Qiang Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981218
+        },
+        {
+          "person_id": 2930,
+          "name": "Na Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398114
+        }
       ]
     },
     {
       "id": "song:11117",
-      "song_id": 11117,
+      "work_type": "Song",
+      "work_id": 11117,
       "title": "Glömda Konturer (Forgotten Contours)",
       "genre": "Synthwave",
       "notable": true,
@@ -145,11 +293,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11118,
+          "name": "Jing Jia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399904
+        },
+        {
+          "person_id": 11119,
+          "name": "Yong Guo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399904
+        },
+        {
+          "person_id": 11120,
+          "name": "Jun Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399904
+        }
       ]
     },
     {
       "id": "song:563",
-      "song_id": 563,
+      "work_type": "Song",
+      "work_id": 563,
       "title": "Destination You",
       "genre": "Synthwave",
       "notable": true,
@@ -167,11 +346,50 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 566,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.914547
+        },
+        {
+          "person_id": 567,
+          "name": "Juan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.442312
+        },
+        {
+          "person_id": 564,
+          "name": "Yan Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.431904
+        },
+        {
+          "person_id": 565,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4247894
+        }
       ]
     },
     {
       "id": "song:3064",
-      "song_id": 3064,
+      "work_type": "Song",
+      "work_id": 3064,
       "title": "Wandering Without Shelter",
       "genre": "Desert Rock",
       "notable": true,
@@ -189,6 +407,53 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 566,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.914547
+        },
+        {
+          "person_id": 567,
+          "name": "Juan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.442312
+        },
+        {
+          "person_id": 564,
+          "name": "Yan Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.431904
+        },
+        {
+          "person_id": 3066,
+          "name": "Na Liao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990667
+        },
+        {
+          "person_id": 3065,
+          "name": "Qiang Deng",
+          "stage_name": "Lucian",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979657
+        }
       ]
     }
   ],
@@ -207,6 +472,11 @@
       "source": "song:11117",
       "target": "song:12367",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:2928",
+      "target": "song:12367",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:563",

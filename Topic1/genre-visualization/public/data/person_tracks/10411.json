@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10406",
-      "song_id": 10406,
+      "work_type": "Song",
+      "work_id": 10406,
       "title": "The Misplaced Heir",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,6 +15,74 @@
       "own": true,
       "artist_id": 10411,
       "artist_name": "Gang Meng",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8726,
+          "name": "Xia Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7202435
+        },
+        {
+          "person_id": 10407,
+          "name": "Guiying Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0478454
+        },
+        {
+          "person_id": 10408,
+          "name": "Xiuying Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0478454
+        },
+        {
+          "person_id": 10410,
+          "name": "Na Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0478454
+        },
+        {
+          "person_id": 10409,
+          "name": "Ping Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39705
+        }
+      ]
+    },
+    {
+      "id": "album:14444",
+      "work_type": "Album",
+      "work_id": 14444,
+      "title": "Workers' Bloom",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 10407,
+      "artist_name": "Guiying Pan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +90,65 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8726,
+          "name": "Xia Zhu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7202435
+        },
+        {
+          "person_id": 10407,
+          "name": "Guiying Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0478454
+        },
+        {
+          "person_id": 10408,
+          "name": "Xiuying Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0478454
+        },
+        {
+          "person_id": 10410,
+          "name": "Na Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0478454
+        },
+        {
+          "person_id": 14445,
+          "name": "Guiying Fan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39935
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14444",
+      "target": "song:10406",
+      "type": "InStyleOf"
+    }
+  ]
 }

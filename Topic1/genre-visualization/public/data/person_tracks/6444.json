@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6443",
-      "song_id": 6443,
+      "work_type": "Song",
+      "work_id": 6443,
       "title": "Radiant Hope",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,18 +15,41 @@
       "own": true,
       "artist_id": 6444,
       "artist_name": "Adira Ramaswamy",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6445,
+          "name": "Drishya Setty",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970683
+        },
+        {
+          "person_id": 6446,
+          "name": "Samar Dutta",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3970683
+        }
+      ]
     },
     {
       "id": "song:5178",
-      "song_id": 5178,
+      "work_type": "Song",
+      "work_id": 5178,
       "title": "Rhythm of Seven Steps",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,12 +67,71 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5179,
+          "name": "Haley Silva",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970437
+        }
+      ]
+    },
+    {
+      "id": "album:14828",
+      "work_type": "Album",
+      "work_id": 14828,
+      "title": "Barn Door Dialogues",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 8913,
+      "artist_name": "Richard Goodman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8913,
+          "name": "Richard Goodman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0329998
+        },
+        {
+          "person_id": 14829,
+          "name": "Cynthia Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968341
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:5178",
+      "target": "song:6443",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:14828",
       "target": "song:6443",
       "type": "InStyleOf"
     }

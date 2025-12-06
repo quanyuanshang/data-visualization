@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10185",
-      "song_id": 10185,
+      "work_type": "Song",
+      "work_id": 10185,
       "title": "Le Chemin des Mélodies",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,69 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3176,
+          "name": "Christine Gonzales",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1128507
+        },
+        {
+          "person_id": 10188,
+          "name": "Lisa Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.028963
+        },
+        {
+          "person_id": 10187,
+          "name": "Alexander Carr",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4011264
+        },
+        {
+          "person_id": 10186,
+          "name": "Amanda Peterson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990328
+        },
+        {
+          "person_id": 10190,
+          "name": "Colleen Richards",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990328
+        },
+        {
+          "person_id": 10191,
+          "name": "Jie Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990328
+        }
+      ]
     },
     {
       "id": "song:3174",
-      "song_id": 3174,
+      "work_type": "Song",
+      "work_id": 3174,
       "title": "Intertwined Free Fall",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +102,89 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3176,
+          "name": "Christine Gonzales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1128507
+        },
+        {
+          "person_id": 3175,
+          "name": "Joshua Cruz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.733871
+        },
+        {
+          "person_id": 3177,
+          "name": "Michael Holloway",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4042213
+        },
+        {
+          "person_id": 3178,
+          "name": "Carrie Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991036
+        },
+        {
+          "person_id": 3179,
+          "name": "Isaiah Gonzales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991036
+        },
+        {
+          "person_id": 3180,
+          "name": "Raven Bowman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991036
+        },
+        {
+          "person_id": 3181,
+          "name": "Timothy Beck",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991036
+        },
+        {
+          "person_id": 3182,
+          "name": "Juan Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991036
+        }
       ]
     },
     {
       "id": "song:7374",
-      "song_id": 7374,
+      "work_type": "Song",
+      "work_id": 7374,
       "title": "Peak Performance",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +202,76 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3176,
+          "name": "Christine Gonzales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1128507
+        },
+        {
+          "person_id": 7375,
+          "name": "Maria Morris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992503
+        },
+        {
+          "person_id": 7376,
+          "name": "Sharon Crawford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992503
+        },
+        {
+          "person_id": 7377,
+          "name": "Michelle Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992503
+        },
+        {
+          "person_id": 7378,
+          "name": "Dylan Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992503
+        },
+        {
+          "person_id": 7379,
+          "name": "Antonio Allen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3992503
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:3174",
-      "target": "song:10185",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:7374",
       "target": "song:10185",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3174",
+      "target": "song:10185",
+      "type": "CoverOf"
     }
   ]
 }

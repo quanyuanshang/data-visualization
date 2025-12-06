@@ -1,0 +1,88 @@
+{
+  "person_id": 7098,
+  "name": "Yang Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:7097",
+      "work_type": "Album",
+      "work_id": 7097,
+      "title": "Echoes of the Pasture",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 7098,
+      "artist_name": "Yang Zeng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:17244",
+      "work_type": "Album",
+      "work_id": 17244,
+      "title": "Harbor Lights",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 17243,
+      "artist_name": "Mariner's Refrain（成员：Leo Hamilton｜预测 2.93、Noah Bennett｜预测 2.93…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17241,
+          "name": "Noah Bennett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9343176
+        },
+        {
+          "person_id": 17240,
+          "name": "Leo Hamilton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9308178
+        },
+        {
+          "person_id": 17242,
+          "name": "Ella Parker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.5092478
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:17244",
+      "target": "album:7097",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

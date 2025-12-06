@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10419",
-      "song_id": 10419,
+      "work_type": "Song",
+      "work_id": 10419,
       "title": "Lagoon's Legacy",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,93 @@
       "own": true,
       "artist_id": 10420,
       "artist_name": "Yang Tian",
-      "influence": 8,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        }
+      ]
+    },
+    {
+      "id": "album:1804",
+      "work_type": "Album",
+      "work_id": 1804,
+      "title": "Midsummer Memories",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 1805,
+      "artist_name": "Vedika Dar",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1806,
+          "name": "Ahana Babu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3999395
+        },
+        {
+          "person_id": 1805,
+          "name": "Vedika Dar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999221
+        }
+      ]
     },
     {
       "id": "song:9387",
-      "song_id": 9387,
+      "work_type": "Song",
+      "work_id": 9387,
       "title": "Pyongyang's Immortal Son",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +119,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.937547
+        }
       ]
     },
     {
       "id": "song:11905",
-      "song_id": 11905,
+      "work_type": "Song",
+      "work_id": 11905,
       "title": "Dinner Party Diplomacy",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,6 +163,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 11906,
+          "name": "Katrina Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4424434
+        }
       ]
     }
   ],
@@ -76,6 +195,11 @@
     },
     {
       "source": "song:9387",
+      "target": "song:10419",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:1804",
       "target": "song:10419",
       "type": "LyricalReferenceTo"
     }

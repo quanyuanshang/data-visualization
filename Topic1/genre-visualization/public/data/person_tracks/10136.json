@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10135",
-      "song_id": 10135,
+      "work_type": "Song",
+      "work_id": 10135,
       "title": "Another Year Unfolding",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10137,
+          "name": "Olaf Dymarczyk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982232
+        }
+      ]
     },
     {
       "id": "song:3559",
-      "song_id": 3559,
+      "work_type": "Song",
+      "work_id": 3559,
       "title": "Emotional Landscapes",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,6 +56,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3560,
+          "name": "Hans-Joachim Seip",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981671
+        },
+        {
+          "person_id": 3561,
+          "name": "Max Brown",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980172
+        }
       ]
     }
   ],

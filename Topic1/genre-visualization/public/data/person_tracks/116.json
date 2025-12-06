@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8650",
-      "song_id": 8650,
-      "title": "Vocal Echoes",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 116,
-      "artist_name": "Wei Ye",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:112",
-      "song_id": 112,
+      "work_type": "Song",
+      "work_id": 112,
       "title": "Cartographic Dreams",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -41,7 +22,131 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 114,
+          "name": "Jie Long",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.435698
+        },
+        {
+          "person_id": 113,
+          "name": "Fang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0498235
+        }
+      ]
+    },
+    {
+      "id": "song:8650",
+      "work_type": "Song",
+      "work_id": 8650,
+      "title": "Vocal Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 116,
+      "artist_name": "Wei Ye",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 113,
+          "name": "Fang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0498235
+        }
+      ]
+    },
+    {
+      "id": "song:8650",
+      "work_type": "Song",
+      "work_id": 8650,
+      "title": "Vocal Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 113,
+      "artist_name": "Fang Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 113,
+          "name": "Fang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0498235
+        },
+        {
+          "person_id": 116,
+          "name": "Wei Ye",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0498235
+        }
+      ]
     }
   ],
   "links": [

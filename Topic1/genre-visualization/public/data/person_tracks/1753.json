@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14202",
-      "song_id": 14202,
-      "title": "Whispers of the Wind",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": true,
-      "artist_id": 1753,
-      "artist_name": "Christopher Andrews",
-      "influence": 9,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 3,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1748",
-      "song_id": 1748,
+      "work_type": "Song",
+      "work_id": 1748,
       "title": "Shadows of the Imperial Throne",
       "genre": "Dream Pop",
       "notable": true,
@@ -34,84 +15,120 @@
       "own": true,
       "artist_id": 1753,
       "artist_name": "Christopher Andrews",
-      "influence": 9,
+      "influence": 12,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
-        "reference": 1,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1752,
+          "name": "Tao Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168887
+        },
+        {
+          "person_id": 1749,
+          "name": "Jeffrey Herring",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0447187
+        },
+        {
+          "person_id": 1754,
+          "name": "Ashley Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0447187
+        },
+        {
+          "person_id": 1750,
+          "name": "Lori Delgado",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957615
+        },
+        {
+          "person_id": 1751,
+          "name": "Levi Stewart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957615
+        }
+      ]
     },
     {
-      "id": "song:4547",
-      "song_id": 4547,
-      "title": "Concrete Crown",
+      "id": "song:14202",
+      "work_type": "Song",
+      "work_id": 14202,
+      "title": "Whispers of the Wind",
       "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": false,
-      "artist_id": 4549,
-      "artist_name": "Ping Li",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:4626",
-      "song_id": 4626,
-      "title": "Whispers of the Wild Meridian",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": false,
-      "artist_id": 4627,
-      "artist_name": "Lukas Waltrade Walderade-van Dam",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:9437",
-      "song_id": 9437,
-      "title": "Harmonic Whispers of the Keyboard",
-      "genre": "Doom Metal",
       "notable": true,
       "release_year": 2017,
       "single": true,
-      "own": false,
-      "artist_id": 7880,
-      "artist_name": "Yang Liang",
-      "influence": 0,
+      "own": true,
+      "artist_id": 1753,
+      "artist_name": "Christopher Andrews",
+      "influence": 11,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 3,
+        "style": 1
       },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1752,
+          "name": "Tao Cui",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168887
+        },
+        {
+          "person_id": 1749,
+          "name": "Jeffrey Herring",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0447187
+        },
+        {
+          "person_id": 1754,
+          "name": "Ashley Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0447187
+        }
       ]
     },
     {
       "id": "song:5029",
-      "song_id": 5029,
+      "work_type": "Song",
+      "work_id": 5029,
       "title": "Landsbyens Drøm (Village's Dream)",
       "genre": "Desert Rock",
       "notable": true,
@@ -129,11 +146,169 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1785,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.475672
+        },
+        {
+          "person_id": 5033,
+          "name": "Fang Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0496407
+        },
+        {
+          "person_id": 3486,
+          "name": "Jing Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048528
+        },
+        {
+          "person_id": 5030,
+          "name": "Wei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398608
+        },
+        {
+          "person_id": 5031,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398608
+        },
+        {
+          "person_id": 5032,
+          "name": "Richard Reyes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985872
+        }
+      ]
+    },
+    {
+      "id": "album:11342",
+      "work_type": "Album",
+      "work_id": 11342,
+      "title": "Fading Postcards from the Coast",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 11343,
+      "artist_name": "Min Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11346,
+          "name": "Jie Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4290311
+        },
+        {
+          "person_id": 11343,
+          "name": "Min Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042127
+        },
+        {
+          "person_id": 11344,
+          "name": "Xia Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975224
+        },
+        {
+          "person_id": 11345,
+          "name": "Lei Huang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975224
+        },
+        {
+          "person_id": 11347,
+          "name": "Angela Kelly",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975224
+        },
+        {
+          "person_id": 11348,
+          "name": "Wei Wang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975224
+        },
+        {
+          "person_id": 11349,
+          "name": "Xiuying Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975224
+        },
+        {
+          "person_id": 11350,
+          "name": "Chao Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975224
+        }
       ]
     },
     {
       "id": "song:15690",
-      "song_id": 15690,
+      "work_type": "Song",
+      "work_id": 15690,
       "title": "Nocturnal Harmonies: Four Voices Intertwined",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -151,11 +326,88 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15691,
+          "name": "Shannon Bennett",
+          "stage_name": " Demi Lane",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39874
+        },
+        {
+          "person_id": 15692,
+          "name": "Juan Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39874
+        },
+        {
+          "person_id": 15693,
+          "name": "Wei Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39874
+        },
+        {
+          "person_id": 15694,
+          "name": "Min Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39874
+        },
+        {
+          "person_id": 15695,
+          "name": "Juan Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39874
+        },
+        {
+          "person_id": 15696,
+          "name": "Tao Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39874
+        },
+        {
+          "person_id": 15697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39874
+        },
+        {
+          "person_id": 15698,
+          "name": "Na Kong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39874
+        }
       ]
     },
     {
       "id": "song:16287",
-      "song_id": 16287,
+      "work_type": "Song",
+      "work_id": 16287,
       "title": "Balanced Fever",
       "genre": "Synthwave",
       "notable": true,
@@ -173,22 +425,338 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5366,
+          "name": "Xiuying Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.106161
+        },
+        {
+          "person_id": 5368,
+          "name": "Xia Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.106161
+        },
+        {
+          "person_id": 5370,
+          "name": "Xiuying Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.106161
+        },
+        {
+          "person_id": 5367,
+          "name": "Juan Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4348083
+        },
+        {
+          "person_id": 6605,
+          "name": "Jun Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4027991
+        },
+        {
+          "person_id": 16288,
+          "name": "Na Xiang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398805
+        }
+      ]
+    },
+    {
+      "id": "song:4547",
+      "work_type": "Song",
+      "work_id": 4547,
+      "title": "Concrete Crown",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 4549,
+      "artist_name": "Ping Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4550,
+          "name": "Aimée van Dijk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2558746
+        },
+        {
+          "person_id": 4551,
+          "name": "Sander Veenstra",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0521035
+        },
+        {
+          "person_id": 4548,
+          "name": "Juan Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399515
+        },
+        {
+          "person_id": 4549,
+          "name": "Ping Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399515
+        },
+        {
+          "person_id": 4552,
+          "name": "Guiying Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399515
+        },
+        {
+          "person_id": 4553,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399515
+        }
+      ]
+    },
+    {
+      "id": "song:4626",
+      "work_type": "Song",
+      "work_id": 4626,
+      "title": "Whispers of the Wild Meridian",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4627,
+      "artist_name": "Lukas Waltrade Walderade-van Dam",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 769,
+          "name": "Florian van Santen-Sanders",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.411819
+        },
+        {
+          "person_id": 4550,
+          "name": "Aimée van Dijk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2558746
+        },
+        {
+          "person_id": 4627,
+          "name": "Lukas Waltrade Walderade-van Dam",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0629604
+        },
+        {
+          "person_id": 4630,
+          "name": "Duuk Schokman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0629604
+        },
+        {
+          "person_id": 4628,
+          "name": "Jurre Kunen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0452464
+        },
+        {
+          "person_id": 4629,
+          "name": "Mila Hellevoort-Robbrechts Bruijne",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0452464
+        }
+      ]
+    },
+    {
+      "id": "album:4658",
+      "work_type": "Album",
+      "work_id": 4658,
+      "title": "Scars That Shine",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 4659,
+      "artist_name": "Katherine Stevens",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4659,
+          "name": "Katherine Stevens",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995423
+        }
+      ]
+    },
+    {
+      "id": "song:9437",
+      "work_type": "Song",
+      "work_id": 9437,
+      "title": "Harmonic Whispers of the Keyboard",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 7880,
+      "artist_name": "Yang Liang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7880,
+          "name": "Yang Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0340793
+        },
+        {
+          "person_id": 9438,
+          "name": "Gang Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971622
+        },
+        {
+          "person_id": 9439,
+          "name": "Na Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971622
+        },
+        {
+          "person_id": 9440,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968167
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:16287",
-      "target": "song:1748",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:15690",
       "target": "song:1748",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:5029",
+      "source": "song:4626",
+      "target": "song:14202",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:11342",
       "target": "song:1748",
       "type": "InterpolatesFrom"
     },
@@ -203,8 +771,18 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:4626",
+      "source": "song:16287",
+      "target": "song:1748",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:4658",
       "target": "song:14202",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5029",
+      "target": "song:1748",
       "type": "InterpolatesFrom"
     }
   ]

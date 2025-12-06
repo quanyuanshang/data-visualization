@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12650",
-      "song_id": 12650,
+      "work_type": "Song",
+      "work_id": 12650,
       "title": "Untamed Verdict",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 12651,
       "artist_name": "Melissa Rush",
-      "influence": 6,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1158,
+          "name": "Juan Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0369186
+        },
+        {
+          "person_id": 1160,
+          "name": "Jie Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0325751
+        },
+        {
+          "person_id": 6907,
+          "name": "Jie Shao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0143394
+        }
+      ]
     },
     {
       "id": "song:1156",
-      "song_id": 1156,
+      "work_type": "Song",
+      "work_id": 1156,
       "title": "Loving Myself First",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +75,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1158,
+          "name": "Juan Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0369186
+        },
+        {
+          "person_id": 1160,
+          "name": "Jie Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0325751
+        },
+        {
+          "person_id": 1157,
+          "name": "Lei Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996434
+        },
+        {
+          "person_id": 1159,
+          "name": "James Simon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996434
+        }
       ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -65,6 +137,132 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
+      ]
+    },
+    {
+      "id": "album:12282",
+      "work_type": "Album",
+      "work_id": 12282,
+      "title": "Les: A Forgotten Memoir",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 12283,
+      "artist_name": "Yong Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12287,
+          "name": "Ryan Adams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4348578
+        },
+        {
+          "person_id": 12285,
+          "name": "Li Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.37651
+        },
+        {
+          "person_id": 12286,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.044484
+        },
+        {
+          "person_id": 12288,
+          "name": "Min Huang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.044484
+        },
+        {
+          "person_id": 12284,
+          "name": "Li Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984022
+        },
+        {
+          "person_id": 12283,
+          "name": "Yong Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982325
+        }
       ]
     }
   ],
@@ -76,6 +274,11 @@
     },
     {
       "source": "song:1156",
+      "target": "song:12650",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:12282",
       "target": "song:12650",
       "type": "LyricalReferenceTo"
     }

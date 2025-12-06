@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12025",
-      "song_id": 12025,
+      "work_type": "Song",
+      "work_id": 12025,
       "title": "Nocturnal Reverie",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 114,
+          "name": "Jie Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.435698
+        }
+      ]
     },
     {
       "id": "song:14045",
-      "song_id": 14045,
+      "work_type": "Song",
+      "work_id": 14045,
       "title": "Seine's Midnight Bloom",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -34,18 +57,49 @@
       "own": true,
       "artist_id": 12026,
       "artist_name": "Na Ma",
-      "influence": 18,
+      "influence": 23,
       "influence_breakdown": {
-        "cover": 2,
+        "cover": 3,
         "sample": 0,
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 8775,
+          "name": "Jessica Peck",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4113777
+        },
+        {
+          "person_id": 14046,
+          "name": "Yan Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0569372
+        }
+      ]
     },
     {
       "id": "song:8698",
-      "song_id": 8698,
+      "work_type": "Song",
+      "work_id": 8698,
       "title": "Brushstrokes and Shadows",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -63,11 +117,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8701,
+          "name": "Yang Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.446699
+        },
+        {
+          "person_id": 8700,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4221156
+        },
+        {
+          "person_id": 8699,
+          "name": "Tao Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.391462
+        },
+        {
+          "person_id": 8702,
+          "name": "Jun Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.391462
+        }
       ]
     },
     {
       "id": "song:12983",
-      "song_id": 12983,
+      "work_type": "Song",
+      "work_id": 12983,
       "title": "Knees to the Ground",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -86,11 +181,33 @@
       "relation_types": [
         "CoverOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12985,
+          "name": "Megan Humphrey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980317
+        },
+        {
+          "person_id": 12984,
+          "name": "Juan Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978107
+        }
       ]
     },
     {
       "id": "song:2234",
-      "song_id": 2234,
+      "work_type": "Song",
+      "work_id": 2234,
       "title": "Whispers of Surrender",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -108,11 +225,104 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2237,
+          "name": "Guiying Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4340136
+        },
+        {
+          "person_id": 2235,
+          "name": "Gang Han",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977122
+        },
+        {
+          "person_id": 2236,
+          "name": "Fang He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977122
+        }
+      ]
+    },
+    {
+      "id": "album:2534",
+      "work_type": "Album",
+      "work_id": 2534,
+      "title": "Postcards from the South Pacific",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 2535,
+      "artist_name": "John Wilkinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
       ]
     },
     {
       "id": "song:4368",
-      "song_id": 4368,
+      "work_type": "Song",
+      "work_id": 4368,
       "title": "Vacancy of Memories",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -130,11 +340,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4369,
+          "name": "Manuel Morrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979309
+        },
+        {
+          "person_id": 4370,
+          "name": "Allison Williams",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979309
+        },
+        {
+          "person_id": 4371,
+          "name": "Nancy Myers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39791
+        }
       ]
     },
     {
       "id": "song:13820",
-      "song_id": 13820,
+      "work_type": "Song",
+      "work_id": 13820,
       "title": "Mazovia's Pulse",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -152,11 +393,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.383833
+        },
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9519293
+        }
       ]
     },
     {
       "id": "song:14780",
-      "song_id": 14780,
+      "work_type": "Song",
+      "work_id": 14780,
       "title": "Beyond Words",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -174,24 +437,49 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 2536,
+          "name": "Jun Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.383833
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:13820",
-      "target": "song:14045",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:12983",
-      "target": "song:14045",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:2234",
       "target": "song:14045",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:12983",
+      "target": "song:12025",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:4368",
@@ -199,19 +487,29 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:12983",
-      "target": "song:12025",
-      "type": "LyricalReferenceTo"
+      "source": "album:2534",
+      "target": "song:14045",
+      "type": "CoverOf"
     },
     {
-      "source": "song:14780",
+      "source": "song:12983",
       "target": "song:14045",
-      "type": "InterpolatesFrom"
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13820",
+      "target": "song:14045",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:8698",
       "target": "song:12025",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:14780",
+      "target": "song:14045",
+      "type": "InterpolatesFrom"
     }
   ]
 }

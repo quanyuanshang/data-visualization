@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:9256",
-      "song_id": 9256,
-      "title": "Climbing Higher Ground",
-      "genre": "Symphonic Metal",
-      "notable": false,
-      "release_year": 2027,
-      "single": false,
-      "own": true,
-      "artist_id": 9258,
-      "artist_name": "Minoru Nakajima",
-      "influence": 11,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 1,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:10582",
-      "song_id": 10582,
+      "work_type": "Song",
+      "work_id": 10582,
       "title": "The Shared Desire",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -41,11 +22,66 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9257,
+          "name": "Chao Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4155343
+        },
+        {
+          "person_id": 10583,
+          "name": "Lei Shao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3930774
+        }
+      ]
+    },
+    {
+      "id": "song:9256",
+      "work_type": "Song",
+      "work_id": 9256,
+      "title": "Climbing Higher Ground",
+      "genre": "Symphonic Metal",
+      "notable": false,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 9258,
+      "artist_name": "Minoru Nakajima",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9257,
+          "name": "Chao Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4155343
+        }
+      ]
     },
     {
       "id": "song:210",
-      "song_id": 210,
+      "work_type": "Song",
+      "work_id": 210,
       "title": "Luminous Path",
       "genre": "Darkwave",
       "notable": true,
@@ -63,11 +99,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 212,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299516
+        },
+        {
+          "person_id": 211,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 213,
+          "name": "Lei Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 214,
+          "name": "Qiang Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 215,
+          "name": "Qiang Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        }
       ]
     },
     {
       "id": "song:2406",
-      "song_id": 2406,
+      "work_type": "Song",
+      "work_id": 2406,
       "title": "The Sovereign's Heart",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -85,36 +170,63 @@
       },
       "relation_types": [
         "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:10582",
-      "song_id": 10582,
-      "title": "The Shared Desire",
-      "genre": "Symphonic Metal",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": false,
-      "artist_id": 9257,
-      "artist_name": "Chao Ye",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1410,
+          "name": "Guiying Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.384091
+        },
+        {
+          "person_id": 579,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4243224
+        },
+        {
+          "person_id": 2407,
+          "name": "Yuki Saito",
+          "stage_name": " Vale",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9851894
+        },
+        {
+          "person_id": 2408,
+          "name": "Pamela Mitchell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953576
+        },
+        {
+          "person_id": 2409,
+          "name": "Chad Gibson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3953576
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:2406",
+      "source": "song:210",
       "target": "song:9256",
-      "type": "DirectlySamples"
+      "type": "CoverOf"
     },
     {
       "source": "song:10582",
@@ -122,9 +234,9 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:210",
+      "source": "song:2406",
       "target": "song:9256",
-      "type": "CoverOf"
+      "type": "DirectlySamples"
     }
   ]
 }

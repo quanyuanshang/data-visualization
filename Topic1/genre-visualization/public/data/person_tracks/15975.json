@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15973",
-      "song_id": 15973,
+      "work_type": "Song",
+      "work_id": 15973,
       "title": "When Angels Breathe",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,6 +15,65 @@
       "own": true,
       "artist_id": 15975,
       "artist_name": "Tammie Johnson",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 15974,
+          "name": "Rachel Rios",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929458
+        },
+        {
+          "person_id": 15976,
+          "name": "Xia Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929458
+        },
+        {
+          "person_id": 15977,
+          "name": "Gang Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929458
+        }
+      ]
+    },
+    {
+      "id": "album:3711",
+      "work_type": "Album",
+      "work_id": 3711,
+      "title": "Wings of the Southern Cross",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 3712,
+      "artist_name": "Fang Duan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +81,74 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3717,
+          "name": "Albert Miller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9215956
+        },
+        {
+          "person_id": 3716,
+          "name": "Qiang Xie",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7220554
+        },
+        {
+          "person_id": 3712,
+          "name": "Fang Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4381058
+        },
+        {
+          "person_id": 3714,
+          "name": "Chao Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4323912
+        },
+        {
+          "person_id": 3713,
+          "name": "Yong Dai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963363
+        },
+        {
+          "person_id": 3715,
+          "name": "Wei Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963363
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:3711",
+      "target": "song:15973",
+      "type": "InStyleOf"
+    }
+  ]
 }

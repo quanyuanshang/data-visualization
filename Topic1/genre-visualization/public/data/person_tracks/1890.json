@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1888",
-      "song_id": 1888,
+      "work_type": "Song",
+      "work_id": 1888,
       "title": "Backroad FreedomCumhuriyet'in İzinde (On the Path of the Republic)",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1891,
+          "name": "Rachel Hill",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9302983
+        },
+        {
+          "person_id": 1889,
+          "name": "Lawrence Larson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994899
+        }
+      ]
     },
     {
       "id": "song:10142",
-      "song_id": 10142,
+      "work_type": "Song",
+      "work_id": 10142,
       "title": "Harmony of Heartache",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +66,19 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7774,
+          "name": "Claudia Lee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0258138
+        }
       ]
     }
   ],

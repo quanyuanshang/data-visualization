@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13214",
-      "song_id": 13214,
+      "work_type": "Song",
+      "work_id": 13214,
       "title": "Catalog of My Existence",
       "genre": "Darkwave",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 13215,
       "artist_name": "Kai-Uwe Döring",
-      "influence": 10,
+      "influence": 12,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
         "reference": 2,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4386,
+          "name": "Bertram Hübel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4254358
+        },
+        {
+          "person_id": 4508,
+          "name": "Edward Siering",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4131215
+        }
+      ]
     },
     {
       "id": "song:1024",
-      "song_id": 1024,
+      "work_type": "Song",
+      "work_id": 1024,
       "title": "Whispers from the Gold Rush",
       "genre": "Dream Pop",
       "notable": false,
@@ -43,11 +66,140 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 145,
+          "name": "Adrien Charles",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7255015
+        },
+        {
+          "person_id": 1025,
+          "name": "Julien Collin-Texier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1026,
+          "name": "Sylvie-Chantal Schmitt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1027,
+          "name": "Claudine Leleu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1028,
+          "name": "Augustin Raymond",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1029,
+          "name": "Antoine du Adam",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        },
+        {
+          "person_id": 1030,
+          "name": "Chantal Gérard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402673
+        }
+      ]
+    },
+    {
+      "id": "album:4505",
+      "work_type": "Album",
+      "work_id": 4505,
+      "title": "Supreme Authority",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 4386,
+      "artist_name": "Bertram Hübel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4386,
+          "name": "Bertram Hübel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4254358
+        },
+        {
+          "person_id": 4508,
+          "name": "Edward Siering",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4131215
+        },
+        {
+          "person_id": 4507,
+          "name": "Alix Chevallier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399166
+        },
+        {
+          "person_id": 4506,
+          "name": "Jose Manuel Quintana Borrell",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989964
+        }
       ]
     },
     {
       "id": "song:4920",
-      "song_id": 4920,
+      "work_type": "Song",
+      "work_id": 4920,
       "title": "Comedic Conflict",
       "genre": "Darkwave",
       "notable": true,
@@ -65,11 +217,51 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4922,
+          "name": "Jeanette Bass",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3956008
+        },
+        {
+          "person_id": 4924,
+          "name": "Devon White",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956008
+        },
+        {
+          "person_id": 4921,
+          "name": "Nicholas Mckinney",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3954499
+        },
+        {
+          "person_id": 4923,
+          "name": "Jennifer Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954499
+        }
       ]
     },
     {
       "id": "song:8894",
-      "song_id": 8894,
+      "work_type": "Song",
+      "work_id": 8894,
       "title": "Picnic Vessel Memories",
       "genre": "Darkwave",
       "notable": true,
@@ -87,17 +279,71 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4508,
+          "name": "Edward Siering",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4131215
+        },
+        {
+          "person_id": 8895,
+          "name": "Na Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3972533
+        },
+        {
+          "person_id": 8896,
+          "name": "Jun Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972533
+        },
+        {
+          "person_id": 8897,
+          "name": "Xia Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972533
+        },
+        {
+          "person_id": 8898,
+          "name": "Nadja Gnatz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972533
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8894",
+      "source": "album:4505",
+      "target": "song:13214",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1024",
       "target": "song:13214",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:1024",
+      "source": "song:8894",
       "target": "song:13214",
       "type": "InterpolatesFrom"
     },

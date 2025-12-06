@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2679",
-      "song_id": 2679,
-      "title": "Wingless Dreams",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2007,
-      "single": false,
-      "own": true,
-      "artist_id": 2680,
-      "artist_name": "Satomi Kobayashi",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 2
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:14378",
-      "song_id": 14378,
+      "work_type": "Song",
+      "work_id": 14378,
       "title": "Cash and Promises",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +22,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2681,
+          "name": "Kazuya Aoki",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.428512
+        }
+      ]
+    },
+    {
+      "id": "song:2679",
+      "work_type": "Song",
+      "work_id": 2679,
+      "title": "Wingless Dreams",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 2680,
+      "artist_name": "Satomi Kobayashi",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2681,
+          "name": "Kazuya Aoki",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.428512
+        }
+      ]
     },
     {
       "id": "song:6633",
-      "song_id": 6633,
+      "work_type": "Song",
+      "work_id": 6633,
       "title": "Tumbling into Us",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -63,28 +89,26 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:14378",
-      "song_id": 14378,
-      "title": "Cash and Promises",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 2680,
-      "artist_name": "Satomi Kobayashi",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5266,
+          "name": "Guiying Hou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7168627
+        },
+        {
+          "person_id": 6634,
+          "name": "Timothy Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.369968
+        }
       ]
     }
   ],

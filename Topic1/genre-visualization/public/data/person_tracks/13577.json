@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16290",
-      "song_id": 16290,
+      "work_type": "Song",
+      "work_id": 16290,
       "title": "Measured Euphoria",
       "genre": "Americana",
       "notable": true,
@@ -21,8 +22,85 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13579,
+          "name": "Adriano Tomei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0539494
+        },
+        {
+          "person_id": 13578,
+          "name": "Lodovico Interminei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0531368
+        },
+        {
+          "person_id": 16291,
+          "name": "Paloma Fogazzaro",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399999
+        }
+      ]
+    },
+    {
+      "id": "album:13576",
+      "work_type": "Album",
+      "work_id": 13576,
+      "title": "Whisper Me Your Lover's Name",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 13577,
+      "artist_name": "Fiamma Baracca",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13579,
+          "name": "Adriano Tomei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0539494
+        },
+        {
+          "person_id": 13578,
+          "name": "Lodovico Interminei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0531368
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:16290",
+      "target": "album:13576",
+      "type": "InStyleOf"
+    }
+  ]
 }

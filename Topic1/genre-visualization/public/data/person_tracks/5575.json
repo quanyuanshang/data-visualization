@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5574",
-      "song_id": 5574,
+      "work_type": "Song",
+      "work_id": 5574,
       "title": "Our Inevitable Path",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:17289",
-      "song_id": 17289,
+      "work_type": "Song",
+      "work_id": 17289,
       "title": "Barnacle Heart",
       "genre": "Oceanus Folk",
       "notable": false,
@@ -43,6 +46,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],

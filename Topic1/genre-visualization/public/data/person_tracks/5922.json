@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:5921",
-      "song_id": 5921,
-      "title": "Peach Blossoms of the Kibi Plain",
-      "genre": "Speed Metal",
-      "notable": true,
-      "release_year": 2002,
-      "single": true,
-      "own": true,
-      "artist_id": 5922,
-      "artist_name": "Dwayne Wilson",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7033",
-      "song_id": 7033,
+      "work_type": "Song",
+      "work_id": 7033,
       "title": "Mi Propio Camino",
       "genre": "Speed Metal",
       "notable": true,
@@ -41,11 +22,55 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 480,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7072566
+        }
+      ]
+    },
+    {
+      "id": "song:5921",
+      "work_type": "Song",
+      "work_id": 5921,
+      "title": "Peach Blossoms of the Kibi Plain",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2002,
+      "single": true,
+      "own": true,
+      "artist_id": 5922,
+      "artist_name": "Dwayne Wilson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 480,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7072566
+        }
+      ]
     },
     {
       "id": "song:13228",
-      "song_id": 13228,
+      "work_type": "Song",
+      "work_id": 13228,
       "title": "Whispers in the Royal Nursery",
       "genre": "Speed Metal",
       "notable": true,
@@ -63,6 +88,18 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 480,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7072566
+        }
       ]
     }
   ],

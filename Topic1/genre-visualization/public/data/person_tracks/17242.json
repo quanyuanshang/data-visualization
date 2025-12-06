@@ -4,8 +4,100 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:17244",
+      "work_type": "Album",
+      "work_id": 17244,
+      "title": "Harbor Lights",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 17242,
+      "artist_name": "Ella Parker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 17241,
+          "name": "Noah Bennett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9343176
+        },
+        {
+          "person_id": 17240,
+          "name": "Leo Hamilton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9308178
+        }
+      ]
+    },
+    {
+      "id": "album:17245",
+      "work_type": "Album",
+      "work_id": 17245,
+      "title": "Cresting Waves",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2030,
+      "single": false,
+      "own": true,
+      "artist_id": 17242,
+      "artist_name": "Ella Parker",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 17241,
+          "name": "Noah Bennett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9343176
+        },
+        {
+          "person_id": 17240,
+          "name": "Leo Hamilton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9308178
+        },
+        {
+          "person_id": 17396,
+          "name": "Bronze Tiger",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.394148
+        }
+      ]
+    },
+    {
       "id": "song:17247",
-      "song_id": 17247,
+      "work_type": "Song",
+      "work_id": 17247,
       "title": "Anchored Love",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,8 +113,49 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 17259,
+          "name": "Sophie Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8605592
+        }
+      ]
+    },
+    {
+      "id": "song:17125",
+      "work_type": "Song",
+      "work_id": 17125,
+      "title": "When the Tide Calls My Name",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2037,
+      "single": false,
+      "own": false,
+      "artist_id": 17120,
+      "artist_name": "Selkie's Hollow（成员：Zachary Cole｜预测 2.40、Lia Grant｜预测 2.40）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": []
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:17125",
+      "target": "album:17245",
+      "type": "InStyleOf"
+    }
+  ]
 }

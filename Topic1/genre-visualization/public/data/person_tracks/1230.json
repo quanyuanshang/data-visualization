@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1229",
-      "song_id": 1229,
+      "work_type": "Song",
+      "work_id": 1229,
       "title": "Hay and Hooves",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1232,
+          "name": "Li Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4307604
+        },
+        {
+          "person_id": 1233,
+          "name": "Yang Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4305549
+        },
+        {
+          "person_id": 1231,
+          "name": "Tao Qiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993728
+        }
+      ]
     },
     {
       "id": "song:13800",
-      "song_id": 13800,
+      "work_type": "Song",
+      "work_id": 13800,
       "title": "The Artful Dodger's Lament",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,6 +74,37 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13801,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969972
+        },
+        {
+          "person_id": 13802,
+          "name": "Jim Miller",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969972
+        },
+        {
+          "person_id": 13803,
+          "name": "Yong Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3969972
+        }
       ]
     }
   ],

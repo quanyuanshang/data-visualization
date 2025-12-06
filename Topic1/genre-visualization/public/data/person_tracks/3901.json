@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3898",
-      "song_id": 3898,
+      "work_type": "Song",
+      "work_id": 3898,
       "title": "Hysteria of the Heartbroken",
       "genre": "Desert Rock",
       "notable": true,
@@ -14,6 +15,58 @@
       "own": true,
       "artist_id": 3901,
       "artist_name": "Juan Zhu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3900,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990695
+        },
+        {
+          "person_id": 3899,
+          "name": "Tao Cai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399064
+        },
+        {
+          "person_id": 3902,
+          "name": "Juan Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399064
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +74,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:5035",
+      "target": "song:3898",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

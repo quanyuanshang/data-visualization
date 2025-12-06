@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5218",
-      "song_id": 5218,
+      "work_type": "Song",
+      "work_id": 5218,
       "title": "Sunset Over Wandering Hearts",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 5219,
       "artist_name": "Arsenio Berengario",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 235,
+          "name": "Shannon Gordon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2519875
+        }
+      ]
+    },
+    {
+      "id": "album:10350",
+      "work_type": "Album",
+      "work_id": 10350,
+      "title": "Winterwind Refrain",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 5908,
+      "artist_name": "Georges Besnard",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5908,
+          "name": "Georges Besnard",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.706773
+        },
+        {
+          "person_id": 5910,
+          "name": "Jeanne Guillou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9483147
+        },
+        {
+          "person_id": 10351,
+          "name": "Rémy Jourdan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959913
+        },
+        {
+          "person_id": 10352,
+          "name": "Brigitte Langlois",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3959913
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10350",
+      "target": "song:5218",
+      "type": "InStyleOf"
+    }
+  ]
 }

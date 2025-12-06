@@ -1,0 +1,126 @@
+{
+  "person_id": 4182,
+  "name": "Juan Ding",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:4178",
+      "work_type": "Album",
+      "work_id": 4178,
+      "title": "Unveiling Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 4182,
+      "artist_name": "Juan Ding",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4181,
+          "name": "Xiulan Xue",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8731103
+        },
+        {
+          "person_id": 4179,
+          "name": "Eugene Turner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4014623
+        },
+        {
+          "person_id": 4180,
+          "name": "Jamie Rodgers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4014623
+        }
+      ]
+    },
+    {
+      "id": "song:8439",
+      "work_type": "Song",
+      "work_id": 8439,
+      "title": "Nautical Legends in Blue",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 8441,
+      "artist_name": "Heather Miller",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8440,
+          "name": "Kenneth Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984628
+        },
+        {
+          "person_id": 8441,
+          "name": "Heather Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984628
+        },
+        {
+          "person_id": 8442,
+          "name": "Yong Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984628
+        },
+        {
+          "person_id": 8443,
+          "name": "Christopher Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984628
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8439",
+      "target": "album:4178",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

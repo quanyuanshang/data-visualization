@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7763",
-      "song_id": 7763,
+      "work_type": "Song",
+      "work_id": 7763,
       "title": "Saltwater Serenade",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,18 +15,119 @@
       "own": true,
       "artist_id": 7766,
       "artist_name": "Ping Mo",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7764,
+          "name": "Jing Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986447
+        },
+        {
+          "person_id": 7765,
+          "name": "Jing Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986447
+        },
+        {
+          "person_id": 7767,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986447
+        }
+      ]
+    },
+    {
+      "id": "album:11166",
+      "work_type": "Album",
+      "work_id": 11166,
+      "title": "Voices Without Walls",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 11167,
+      "artist_name": "Min Hou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11170,
+          "name": "Yong Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343082
+        },
+        {
+          "person_id": 11167,
+          "name": "Min Hou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11168,
+          "name": "Chao Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11169,
+          "name": "Maria Fletcher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11171,
+          "name": "Chao Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978205
+        }
+      ]
     },
     {
       "id": "song:12418",
-      "song_id": 12418,
+      "work_type": "Song",
+      "work_id": 12418,
       "title": "Echoes of My Inner Voice",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,12 +145,47 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12420,
+          "name": "Martha Patrick",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980582
+        },
+        {
+          "person_id": 12419,
+          "name": "Li Fan",
+          "stage_name": " Pearl",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978884
+        },
+        {
+          "person_id": 12421,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978884
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:12418",
+      "target": "song:7763",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:11166",
       "target": "song:7763",
       "type": "LyricalReferenceTo"
     }

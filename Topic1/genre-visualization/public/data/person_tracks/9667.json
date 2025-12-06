@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9666",
-      "song_id": 9666,
+      "work_type": "Song",
+      "work_id": 9666,
       "title": "The Professor of My Heart",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2407,
+          "name": "Yuki Saito",
+          "stage_name": " Vale",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9851894
+        },
+        {
+          "person_id": 9668,
+          "name": "Xia Hu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3939657
+        }
+      ]
     },
     {
       "id": "song:9795",
-      "song_id": 9795,
+      "work_type": "Song",
+      "work_id": 9795,
       "title": "Sleight of Hand",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +65,36 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1510,
+          "name": "Tao Dai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.107179
+        },
+        {
+          "person_id": 1513,
+          "name": "Na Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0353649
+        },
+        {
+          "person_id": 9796,
+          "name": "Jing Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395739
+        }
       ]
     }
   ],

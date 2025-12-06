@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5079",
-      "song_id": 5079,
+      "work_type": "Song",
+      "work_id": 5079,
       "title": "The Pool of Self-Obsession",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,101 @@
       "own": true,
       "artist_id": 5082,
       "artist_name": "Karen Schultz",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 65,
+          "name": "Sara Parker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8744657
+        },
+        {
+          "person_id": 5087,
+          "name": "Debbie Mcgrath",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0406783
+        },
+        {
+          "person_id": 5080,
+          "name": "Melody Cuevas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988216
+        },
+        {
+          "person_id": 5081,
+          "name": "Christy Lewis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988216
+        },
+        {
+          "person_id": 5083,
+          "name": "Ryan Baxter",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988216
+        },
+        {
+          "person_id": 5084,
+          "name": "Stanley Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988216
+        },
+        {
+          "person_id": 5085,
+          "name": "Christopher Wilcox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988216
+        },
+        {
+          "person_id": 5086,
+          "name": "William Vollbrecht",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988216
+        }
+      ]
+    },
+    {
+      "id": "album:16429",
+      "work_type": "Album",
+      "work_id": 16429,
+      "title": "Cavalry of Color",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 65,
+      "artist_name": "Sara Parker",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +117,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 65,
+          "name": "Sara Parker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8744657
+        },
+        {
+          "person_id": 5087,
+          "name": "Debbie Mcgrath",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0406783
+        },
+        {
+          "person_id": 16430,
+          "name": "Michael Hayes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954453
+        },
+        {
+          "person_id": 16431,
+          "name": "Teresa Nelson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954453
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:16429",
+      "target": "song:5079",
+      "type": "DirectlySamples"
+    }
+  ]
 }

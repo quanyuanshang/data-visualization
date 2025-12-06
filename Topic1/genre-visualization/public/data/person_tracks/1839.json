@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1837",
-      "song_id": 1837,
+      "work_type": "Song",
+      "work_id": 1837,
       "title": "Bad to the Bone Billy",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 1839,
       "artist_name": "Miguel Johnston",
-      "influence": 5,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
+        "sample": 1,
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9644623
+        }
+      ]
     },
     {
       "id": "song:5058",
-      "song_id": 5058,
+      "work_type": "Song",
+      "work_id": 5058,
       "title": "Rhythm of the Heated Skies",
       "genre": "Lo-Fi Electronica",
       "notable": false,
@@ -41,11 +55,139 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9644623
+        }
+      ]
+    },
+    {
+      "id": "album:11125",
+      "work_type": "Album",
+      "work_id": 11125,
+      "title": "Glacial Heartlines",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 1839,
+      "artist_name": "Miguel Johnston",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 11126,
+          "name": "Zaina Zacharia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004881
+        }
+      ]
+    },
+    {
+      "id": "album:4602",
+      "work_type": "Album",
+      "work_id": 4602,
+      "title": "Moonlit Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 1839,
+      "artist_name": "Miguel Johnston",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 4603,
+          "name": "Tammy Fields",
+          "stage_name": " Ruby Chase",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0306346
+        }
+      ]
+    },
+    {
+      "id": "album:14798",
+      "work_type": "Album",
+      "work_id": 14798,
+      "title": "Delicate Interludes of the Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 1839,
+      "artist_name": "Miguel Johnston",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9644623
+        }
+      ]
     },
     {
       "id": "song:4593",
-      "song_id": 4593,
+      "work_type": "Song",
+      "work_id": 4593,
       "title": "Whispers of the Heart",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,11 +205,43 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 4594,
+          "name": "Austin Adams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995872
+        },
+        {
+          "person_id": 4595,
+          "name": "Jeanette Wagner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995872
+        }
       ]
     },
     {
       "id": "song:5058",
-      "song_id": 5058,
+      "work_type": "Song",
+      "work_id": 5058,
       "title": "Rhythm of the Heated Skies",
       "genre": "Lo-Fi Electronica",
       "notable": false,
@@ -85,11 +259,77 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 1839,
+          "name": "Miguel Johnston",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7364244
+        }
+      ]
+    },
+    {
+      "id": "album:14798",
+      "work_type": "Album",
+      "work_id": 14798,
+      "title": "Delicate Interludes of the Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 1838,
+      "artist_name": "Carolyn Schultz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 1839,
+          "name": "Miguel Johnston",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7364244
+        }
       ]
     },
     {
       "id": "song:16452",
-      "song_id": 16452,
+      "work_type": "Song",
+      "work_id": 16452,
       "title": "Star of the Stable",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -107,14 +347,146 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 5286,
+          "name": "Amanda Hill",
+          "stage_name": " R.E.D.",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4383142
+        },
+        {
+          "person_id": 16453,
+          "name": "Laura Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993697
+        }
+      ]
+    },
+    {
+      "id": "song:10419",
+      "work_type": "Song",
+      "work_id": 10419,
+      "title": "Lagoon's Legacy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 10420,
+          "name": "Yang Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999915
+        }
+      ]
+    },
+    {
+      "id": "song:11357",
+      "work_type": "Song",
+      "work_id": 11357,
+      "title": "Sharp Edge of Desire",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 11358,
+      "artist_name": "Ronald Warner",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 11358,
+          "name": "Ronald Warner",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003086
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4593",
+      "source": "song:10419",
+      "target": "album:11125",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14798",
       "target": "song:1837",
-      "type": "InStyleOf"
+      "type": "DirectlySamples"
     },
     {
       "source": "song:5058",
@@ -124,6 +496,16 @@
     {
       "source": "song:16452",
       "target": "song:5058",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:4593",
+      "target": "song:1837",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11357",
+      "target": "album:4602",
       "type": "CoverOf"
     }
   ]

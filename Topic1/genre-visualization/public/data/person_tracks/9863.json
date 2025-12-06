@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9861",
-      "song_id": 9861,
+      "work_type": "Song",
+      "work_id": 9861,
       "title": "Stalemate",
       "genre": "Desert Rock",
       "notable": true,
@@ -21,11 +22,60 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4185,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2553897
+        },
+        {
+          "person_id": 9866,
+          "name": "Ping Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0360744
+        },
+        {
+          "person_id": 9862,
+          "name": "Ronald Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3990157
+        },
+        {
+          "person_id": 9864,
+          "name": "Ping Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990157
+        },
+        {
+          "person_id": 9865,
+          "name": "Ping Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990157
+        }
+      ]
     },
     {
       "id": "song:11329",
-      "song_id": 11329,
+      "work_type": "Song",
+      "work_id": 11329,
       "title": "Crown and Conscience",
       "genre": "Space Rock",
       "notable": true,
@@ -34,18 +84,59 @@
       "own": true,
       "artist_id": 9863,
       "artist_name": "Qiang Gao",
-      "influence": 4,
+      "influence": 9,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4185,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2553897
+        },
+        {
+          "person_id": 5106,
+          "name": "Yan Liang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7208247
+        },
+        {
+          "person_id": 9866,
+          "name": "Ping Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0360744
+        },
+        {
+          "person_id": 11330,
+          "name": "Ping Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3928468
+        }
+      ]
     },
     {
       "id": "song:12138",
-      "song_id": 12138,
+      "work_type": "Song",
+      "work_id": 12138,
       "title": "Unbreakable Divine Shelter",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -63,17 +154,107 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9593,
+          "name": "Chao Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.418618
+        },
+        {
+          "person_id": 9595,
+          "name": "Jie Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.418618
+        },
+        {
+          "person_id": 12139,
+          "name": "Amber Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989744
+        },
+        {
+          "person_id": 12140,
+          "name": "Gang Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989537
+        },
+        {
+          "person_id": 12141,
+          "name": "Min Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989537
+        }
+      ]
+    },
+    {
+      "id": "album:17148",
+      "work_type": "Album",
+      "work_id": 17148,
+      "title": "Ghosts in the Rearview",
+      "genre": "Indie Rock",
+      "notable": false,
+      "release_year": 2038,
+      "single": false,
+      "own": false,
+      "artist_id": 17146,
+      "artist_name": "Julia Carter (Jude Rivers)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17146,
+          "name": "Julia Carter",
+          "stage_name": "Jude Rivers",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1046424
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12138",
+      "source": "album:17148",
+      "target": "song:11329",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9861",
       "target": "song:11329",
       "type": "InStyleOf"
     },
     {
-      "source": "song:9861",
+      "source": "song:12138",
       "target": "song:11329",
       "type": "InStyleOf"
     }

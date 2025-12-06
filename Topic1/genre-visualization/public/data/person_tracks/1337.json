@@ -5,12 +5,64 @@
   "nodes": [
     {
       "id": "song:1333",
-      "song_id": 1333,
+      "work_type": "Song",
+      "work_id": 1333,
       "title": "Blossoming Smiles",
       "genre": "Jazz Surf Rock",
       "notable": true,
       "release_year": 2010,
       "single": true,
+      "own": true,
+      "artist_id": 1337,
+      "artist_name": "Guiying Ding",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 1336,
+          "name": "Yong Lu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4374611
+        },
+        {
+          "person_id": 1334,
+          "name": "Arthur Sparks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.408846
+        }
+      ]
+    },
+    {
+      "id": "album:3828",
+      "work_type": "Album",
+      "work_id": 3828,
+      "title": "Fragments of Flight",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
       "own": true,
       "artist_id": 1337,
       "artist_name": "Guiying Ding",
@@ -21,11 +73,88 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3835,
+          "name": "Tao Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7239642
+        },
+        {
+          "person_id": 3833,
+          "name": "Wei Chang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032749
+        },
+        {
+          "person_id": 3829,
+          "name": "Li Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974736
+        },
+        {
+          "person_id": 3830,
+          "name": "Xiuying Du",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974736
+        },
+        {
+          "person_id": 3831,
+          "name": "Chao Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974736
+        },
+        {
+          "person_id": 3832,
+          "name": "Gang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974736
+        },
+        {
+          "person_id": 3834,
+          "name": "Gang Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974736
+        },
+        {
+          "person_id": 3836,
+          "name": "Na Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974736
+        }
+      ]
     },
     {
       "id": "song:6293",
-      "song_id": 6293,
+      "work_type": "Song",
+      "work_id": 6293,
       "title": "Scars of Knowledge",
       "genre": "Dream Pop",
       "notable": true,
@@ -34,18 +163,130 @@
       "own": true,
       "artist_id": 1337,
       "artist_name": "Guiying Ding",
-      "influence": 17,
+      "influence": 20,
       "influence_breakdown": {
         "cover": 1,
         "sample": 1,
-        "reference": 2,
+        "reference": 3,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3883,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036893
+        },
+        {
+          "person_id": 6294,
+          "name": "Yang Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984656
+        },
+        {
+          "person_id": 6295,
+          "name": "Xia Yuan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984656
+        },
+        {
+          "person_id": 6296,
+          "name": "Lindsey Walker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984656
+        }
+      ]
+    },
+    {
+      "id": "album:683",
+      "work_type": "Album",
+      "work_id": 683,
+      "title": "Whispers of a Father's Heart",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 684,
+      "artist_name": "Gang Zhao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 687,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044944
+        },
+        {
+          "person_id": 685,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044094
+        },
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 688,
+          "name": "Ming Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997517
+        }
+      ]
     },
     {
       "id": "song:5216",
-      "song_id": 5216,
+      "work_type": "Song",
+      "work_id": 5216,
       "title": "Twilight's Gypsy Memories",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -63,11 +304,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 5217,
+          "name": "Yang Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960042
+        }
       ]
     },
     {
       "id": "song:14429",
-      "song_id": 14429,
+      "work_type": "Song",
+      "work_id": 14429,
       "title": "Sweethearts of the Midwest",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -85,11 +357,52 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.02
+        },
+        {
+          "person_id": 14430,
+          "name": "Xia Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        },
+        {
+          "person_id": 14431,
+          "name": "Ethan Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        }
       ]
     },
     {
       "id": "song:16584",
-      "song_id": 16584,
+      "work_type": "Song",
+      "work_id": 16584,
       "title": "Byte by Byte",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -107,11 +420,235 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 5661,
+          "name": "Na Wei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0298502
+        }
+      ]
+    },
+    {
+      "id": "album:4945",
+      "work_type": "Album",
+      "work_id": 4945,
+      "title": "Beyond the Price Tag",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 4946,
+      "artist_name": "Christopher Conway",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4947,
+          "name": "Samantha Mcneil",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4948,
+          "name": "Isaac Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4946,
+          "name": "Christopher Conway",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961337
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
+      ]
+    },
+    {
+      "id": "song:6065",
+      "work_type": "Song",
+      "work_id": 6065,
+      "title": "Push Through the Doubt",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2355,
+      "artist_name": "Qiang Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2355,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7207756
+        },
+        {
+          "person_id": 6067,
+          "name": "Yong Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042643
+        },
+        {
+          "person_id": 6066,
+          "name": "Jun Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0409074
+        },
+        {
+          "person_id": 4298,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0224628
+        },
+        {
+          "person_id": 6069,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990526
+        },
+        {
+          "person_id": 6068,
+          "name": "Tao Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990319
+        }
       ]
     },
     {
       "id": "song:210",
-      "song_id": 210,
+      "work_type": "Song",
+      "work_id": 210,
       "title": "Luminous Path",
       "genre": "Darkwave",
       "notable": true,
@@ -129,11 +666,60 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 212,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0299516
+        },
+        {
+          "person_id": 211,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 213,
+          "name": "Lei Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 214,
+          "name": "Qiang Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        },
+        {
+          "person_id": 215,
+          "name": "Qiang Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990006
+        }
       ]
     },
     {
       "id": "song:2402",
-      "song_id": 2402,
+      "work_type": "Song",
+      "work_id": 2402,
       "title": "Unsung Boulevard",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -151,11 +737,133 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 1084,
+          "name": "Qiang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179704
+        },
+        {
+          "person_id": 1083,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054744
+        },
+        {
+          "person_id": 1081,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0521207
+        }
+      ]
+    },
+    {
+      "id": "album:2915",
+      "work_type": "Album",
+      "work_id": 2915,
+      "title": "First Light of Reverence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2916,
+      "artist_name": "Jie Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 863,
+          "name": "Jie Cui",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4255862
+        },
+        {
+          "person_id": 2916,
+          "name": "Jie Wei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997812
+        },
+        {
+          "person_id": 2918,
+          "name": "Guiying Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997812
+        },
+        {
+          "person_id": 2919,
+          "name": "Yong Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997812
+        },
+        {
+          "person_id": 2917,
+          "name": "Jie Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997605
+        }
       ]
     },
     {
       "id": "song:8823",
-      "song_id": 8823,
+      "work_type": "Song",
+      "work_id": 8823,
       "title": "Thirty Dawns, Thirty Shadows",
       "genre": "Space Rock",
       "notable": true,
@@ -173,11 +881,97 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8831,
+          "name": "Yong Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4336917
+        },
+        {
+          "person_id": 4601,
+          "name": "Fang Zhou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3342688
+        },
+        {
+          "person_id": 8824,
+          "name": "Fang Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8825,
+          "name": "Li Du",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8826,
+          "name": "Fang Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8827,
+          "name": "Fang Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8828,
+          "name": "Yong Lei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8829,
+          "name": "Juan Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        },
+        {
+          "person_id": 8830,
+          "name": "Li Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986242
+        }
       ]
     },
     {
       "id": "song:13080",
-      "song_id": 13080,
+      "work_type": "Song",
+      "work_id": 13080,
       "title": "Wolf's Lament",
       "genre": "Dream Pop",
       "notable": true,
@@ -195,11 +989,78 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2001,
+          "name": "Na Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.932276
+        },
+        {
+          "person_id": 6083,
+          "name": "Xiulan Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7472978
+        },
+        {
+          "person_id": 7790,
+          "name": "Horst-Dieter Schleich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0453827
+        },
+        {
+          "person_id": 13081,
+          "name": "Guiying Cheng",
+          "stage_name": "Omen",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        },
+        {
+          "person_id": 13082,
+          "name": "Yan Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        },
+        {
+          "person_id": 13083,
+          "name": "Lei Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        },
+        {
+          "person_id": 13084,
+          "name": "Fang Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994062
+        }
       ]
     },
     {
       "id": "song:14702",
-      "song_id": 14702,
+      "work_type": "Song",
+      "work_id": 14702,
       "title": "Molecular Membrane",
       "genre": "Dream Pop",
       "notable": true,
@@ -217,24 +1078,49 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5822,
+          "name": "Wei Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0590332
+        },
+        {
+          "person_id": 14703,
+          "name": "Xia Han",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979003
+        },
+        {
+          "person_id": 14704,
+          "name": "Min Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979003
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14702",
+      "source": "album:2915",
       "target": "song:6293",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:16584",
-      "target": "song:1333",
+      "source": "song:6065",
+      "target": "album:3828",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:2402",
-      "target": "song:6293",
-      "type": "CoverOf"
     },
     {
       "source": "song:8823",
@@ -242,12 +1128,17 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:5216",
+      "source": "album:683",
       "target": "song:1333",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     },
     {
-      "source": "song:13080",
+      "source": "song:2402",
+      "target": "song:6293",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14702",
       "target": "song:6293",
       "type": "InterpolatesFrom"
     },
@@ -257,9 +1148,34 @@
       "type": "DirectlySamples"
     },
     {
+      "source": "song:13080",
+      "target": "song:6293",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:14429",
       "target": "song:1333",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5216",
+      "target": "song:1333",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:5035",
+      "target": "album:3828",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:4945",
+      "target": "album:3828",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16584",
+      "target": "song:1333",
+      "type": "InStyleOf"
     }
   ]
 }

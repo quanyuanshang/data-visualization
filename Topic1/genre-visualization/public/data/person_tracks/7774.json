@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10142",
-      "song_id": 10142,
+      "work_type": "Song",
+      "work_id": 10142,
       "title": "Harmony of Heartache",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:7773",
-      "song_id": 7773,
+      "work_type": "Song",
+      "work_id": 7773,
       "title": "Sunset Whispers",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,11 +44,23 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7775,
+          "name": "Veronica Bell",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3907979
+        }
+      ]
     },
     {
       "id": "song:8766",
-      "song_id": 8766,
+      "work_type": "Song",
+      "work_id": 8766,
       "title": "Echoes of a Name",
       "genre": "Desert Rock",
       "notable": true,
@@ -63,11 +78,59 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6528,
+          "name": "Vanessa Ramos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2690573
+        },
+        {
+          "person_id": 5422,
+          "name": "Yan Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4369023
+        },
+        {
+          "person_id": 8768,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0277665
+        },
+        {
+          "person_id": 8769,
+          "name": "Yong Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981876
+        },
+        {
+          "person_id": 8767,
+          "name": "Lei Chen",
+          "stage_name": "Stellar Lei",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981802
+        }
       ]
     },
     {
       "id": "song:15817",
-      "song_id": 15817,
+      "work_type": "Song",
+      "work_id": 15817,
       "title": "Ridges of Romance",
       "genre": "Americana",
       "notable": true,
@@ -85,15 +148,22 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6424,
+          "name": "Cheryl Carter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8186002
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:15817",
-      "target": "song:7773",
-      "type": "CoverOf"
-    },
     {
       "source": "song:10142",
       "target": "song:7773",
@@ -103,6 +173,11 @@
       "source": "song:8766",
       "target": "song:7773",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:15817",
+      "target": "song:7773",
+      "type": "CoverOf"
     }
   ]
 }

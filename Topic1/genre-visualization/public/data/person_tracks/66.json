@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:60",
-      "song_id": 60,
+      "work_type": "Song",
+      "work_id": 60,
       "title": "Runes and Riddles",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,68 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 65,
+          "name": "Sara Parker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8744657
+        },
+        {
+          "person_id": 67,
+          "name": "Guiying Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.5881574
+        },
+        {
+          "person_id": 61,
+          "name": "Mitchell Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3990483
+        },
+        {
+          "person_id": 62,
+          "name": "Christopher Harris",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990483
+        },
+        {
+          "person_id": 63,
+          "name": "Min Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990483
+        },
+        {
+          "person_id": 64,
+          "name": "April Morris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990483
+        }
+      ]
     },
     {
       "id": "song:1797",
-      "song_id": 1797,
+      "work_type": "Song",
+      "work_id": 1797,
       "title": "Scandinavian Dreams",
       "genre": "Americana",
       "notable": true,
@@ -43,11 +101,70 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1802,
+          "name": "Chao Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9427521
+        },
+        {
+          "person_id": 1803,
+          "name": "Na Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993316
+        },
+        {
+          "person_id": 1798,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993242
+        },
+        {
+          "person_id": 1799,
+          "name": "Steve Guzman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993242
+        },
+        {
+          "person_id": 1800,
+          "name": "Qiang Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993242
+        },
+        {
+          "person_id": 1801,
+          "name": "Fang Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993242
+        }
       ]
     },
     {
       "id": "song:15295",
-      "song_id": 15295,
+      "work_type": "Song",
+      "work_id": 15295,
       "title": "The Color of Resilience",
       "genre": "Americana",
       "notable": true,
@@ -65,19 +182,58 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3068,
+          "name": "Tao Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4318156
+        },
+        {
+          "person_id": 3070,
+          "name": "Min Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4318156
+        },
+        {
+          "person_id": 15296,
+          "name": "Yang Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399328
+        },
+        {
+          "person_id": 15297,
+          "name": "Gang Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399328
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:1797",
-      "target": "song:60",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:15295",
       "target": "song:60",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:1797",
+      "target": "song:60",
+      "type": "CoverOf"
     }
   ]
 }

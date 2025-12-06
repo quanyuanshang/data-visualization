@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2525",
-      "song_id": 2525,
+      "work_type": "Song",
+      "work_id": 2525,
       "title": "Coordinates of Time",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2526,
+          "name": "Kimberly Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989177
+        },
+        {
+          "person_id": 2527,
+          "name": "Joel Foster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989043
+        },
+        {
+          "person_id": 2529,
+          "name": "Kathy Green",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989043
+        }
+      ]
     },
     {
       "id": "song:15396",
-      "song_id": 15396,
+      "work_type": "Song",
+      "work_id": 15396,
       "title": "Maiden's Footsteps on Soft Grass",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -34,18 +66,74 @@
       "own": true,
       "artist_id": 2528,
       "artist_name": "Larry Fields",
-      "influence": 11,
+      "influence": 19,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15397,
+          "name": "Sherri Mclaughlin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3726494
+        }
+      ]
+    },
+    {
+      "id": "album:339",
+      "work_type": "Album",
+      "work_id": 339,
+      "title": "Whispers of a Thousand Moons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 341,
+      "artist_name": "Dierk Bohlander",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 341,
+          "name": "Dierk Bohlander",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4293308
+        },
+        {
+          "person_id": 340,
+          "name": "Kornelia Raczkiewicz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984332
+        }
+      ]
     },
     {
       "id": "song:2865",
-      "song_id": 2865,
+      "work_type": "Song",
+      "work_id": 2865,
       "title": "Choreographed Heartbeat",
       "genre": "Blues Rock",
       "notable": true,
@@ -63,11 +151,25 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2866,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974543
+        }
       ]
     },
     {
       "id": "song:6794",
-      "song_id": 6794,
+      "work_type": "Song",
+      "work_id": 6794,
       "title": "Whispers of Carmentea",
       "genre": "Alternative Rock",
       "notable": true,
@@ -85,10 +187,93 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1650,
+          "name": "Daniel Lyons",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6096396
+        },
+        {
+          "person_id": 6795,
+          "name": "Na Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        }
+      ]
+    },
+    {
+      "id": "album:8930",
+      "work_type": "Album",
+      "work_id": 8930,
+      "title": "Tears of Mortal Surrender",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7169764
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:8930",
+      "target": "song:15396",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2865",
+      "target": "song:15396",
+      "type": "CoverOf"
+    },
     {
       "source": "song:2525",
       "target": "song:15396",
@@ -100,7 +285,7 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:2865",
+      "source": "album:339",
       "target": "song:15396",
       "type": "CoverOf"
     }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14210",
-      "song_id": 14210,
+      "work_type": "Song",
+      "work_id": 14210,
       "title": "Sacred Reverence",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,18 +15,169 @@
       "own": true,
       "artist_id": 9872,
       "artist_name": "Jordan Collins",
-      "influence": 5,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
+    },
+    {
+      "id": "album:9871",
+      "work_type": "Album",
+      "work_id": 9871,
+      "title": "Crossroads of Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 9872,
+      "artist_name": "Jordan Collins",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.937547
+        }
+      ]
+    },
+    {
+      "id": "album:4602",
+      "work_type": "Album",
+      "work_id": 4602,
+      "title": "Moonlit Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1839,
+      "artist_name": "Miguel Johnston",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 1839,
+          "name": "Miguel Johnston",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7364244
+        },
+        {
+          "person_id": 4603,
+          "name": "Tammy Fields",
+          "stage_name": " Ruby Chase",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0306346
+        }
+      ]
+    },
+    {
+      "id": "album:5285",
+      "work_type": "Album",
+      "work_id": 5285,
+      "title": "White Noise Between Us",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 5287,
+      "artist_name": "Darshit Gandhi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5286,
+          "name": "Amanda Hill",
+          "stage_name": " R.E.D.",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4383142
+        },
+        {
+          "person_id": 5287,
+          "name": "Darshit Gandhi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004319
+        }
+      ]
     },
     {
       "id": "song:16209",
-      "song_id": 16209,
+      "work_type": "Song",
+      "work_id": 16209,
       "title": "The Void Inside",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,14 +195,218 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7552,
+          "name": "Elizabeth Willis",
+          "stage_name": "Lizzy West",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0422177
+        }
+      ]
+    },
+    {
+      "id": "song:2495",
+      "work_type": "Song",
+      "work_id": 2495,
+      "title": "White Space Between",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 2496,
+      "artist_name": "Abram Kala ( Atlas King)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2496,
+          "name": "Abram Kala",
+          "stage_name": " Atlas King",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979023
+        },
+        {
+          "person_id": 2497,
+          "name": "Sara Sharaf",
+          "stage_name": " V.I.C",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979023
+        },
+        {
+          "person_id": 2498,
+          "name": "Farhan Seshadri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979023
+        }
+      ]
+    },
+    {
+      "id": "song:11136",
+      "work_type": "Song",
+      "work_id": 11136,
+      "title": "Spinning Sideways",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 11137,
+      "artist_name": "Seth Duncan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11137,
+          "name": "Seth Duncan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0542722
+        },
+        {
+          "person_id": 11138,
+          "name": "Heidelore Meister",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982048
+        },
+        {
+          "person_id": 11139,
+          "name": "John Carlson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982048
+        },
+        {
+          "person_id": 11140,
+          "name": "Brandon Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982048
+        }
+      ]
+    },
+    {
+      "id": "song:14907",
+      "work_type": "Song",
+      "work_id": 14907,
+      "title": "Forgotten Summer Embrace",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 6659,
+      "artist_name": "Helen Simon ( The Shadow)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.937547
+        },
+        {
+          "person_id": 4603,
+          "name": "Tammy Fields",
+          "stage_name": " Ruby Chase",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0306346
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:14907",
+      "target": "album:9871",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:16209",
       "target": "song:14210",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:11136",
+      "target": "album:9871",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:5285",
+      "target": "song:14210",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:4602",
+      "target": "song:14210",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2495",
+      "target": "album:9871",
+      "type": "InStyleOf"
     }
   ]
 }

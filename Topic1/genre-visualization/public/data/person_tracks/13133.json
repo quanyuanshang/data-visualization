@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:13132",
-      "song_id": 13132,
-      "title": "Coven's Whisper",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 13133,
-      "artist_name": "Elizabeth Cochran PhD",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13143",
-      "song_id": 13143,
+      "work_type": "Song",
+      "work_id": 13143,
       "title": "Hometown Hero (Johnny's Tale)",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,7 +22,95 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13134,
+          "name": "Susan Willis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448563
+        }
+      ]
+    },
+    {
+      "id": "song:13132",
+      "work_type": "Song",
+      "work_id": 13132,
+      "title": "Coven's Whisper",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 13133,
+      "artist_name": "Elizabeth Cochran PhD",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13134,
+          "name": "Susan Willis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448563
+        }
+      ]
+    },
+    {
+      "id": "song:13132",
+      "work_type": "Song",
+      "work_id": 13132,
+      "title": "Coven's Whisper",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 13133,
+      "artist_name": "Elizabeth Cochran PhD",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13134,
+          "name": "Susan Willis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448563
+        },
+        {
+          "person_id": 13133,
+          "name": "Elizabeth Cochran PhD",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0423975
+        }
+      ]
     }
   ],
   "links": [

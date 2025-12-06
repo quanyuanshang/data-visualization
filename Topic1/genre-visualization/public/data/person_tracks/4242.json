@@ -4,8 +4,50 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:4239",
+      "work_type": "Album",
+      "work_id": 4239,
+      "title": "Whisper My Name",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 4242,
+      "artist_name": "Gerold Mangold",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4240,
+          "name": "Frau Melissa Neuschäfer",
+          "stage_name": " Grace",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.057438
+        },
+        {
+          "person_id": 4241,
+          "name": "Margrit Stiffel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.057438
+        }
+      ]
+    },
+    {
       "id": "song:4649",
-      "song_id": 4649,
+      "work_type": "Song",
+      "work_id": 4649,
       "title": "Boots and Brass: A Soldier's Honor",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,8 +63,86 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4240,
+          "name": "Frau Melissa Neuschäfer",
+          "stage_name": " Grace",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.057438
+        },
+        {
+          "person_id": 4241,
+          "name": "Margrit Stiffel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.057438
+        }
+      ]
+    },
+    {
+      "id": "song:4649",
+      "work_type": "Song",
+      "work_id": 4649,
+      "title": "Boots and Brass: A Soldier's Honor",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4240,
+      "artist_name": "Frau Melissa Neuschäfer ( Grace)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4240,
+          "name": "Frau Melissa Neuschäfer",
+          "stage_name": " Grace",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.057438
+        },
+        {
+          "person_id": 4241,
+          "name": "Margrit Stiffel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.057438
+        },
+        {
+          "person_id": 4242,
+          "name": "Gerold Mangold",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.057438
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:4649",
+      "target": "album:4239",
+      "type": "CoverOf"
+    }
+  ]
 }

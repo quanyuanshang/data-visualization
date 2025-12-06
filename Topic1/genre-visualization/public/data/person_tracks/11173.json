@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11172",
-      "song_id": 11172,
+      "work_type": "Song",
+      "work_id": 11172,
       "title": "The Calm Chorus",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
     },
     {
       "id": "song:2927",
-      "song_id": 2927,
+      "work_type": "Song",
+      "work_id": 2927,
       "title": "Sacred Invocation",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,6 +57,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        }
       ]
     }
   ],

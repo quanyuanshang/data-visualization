@@ -4,8 +4,41 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:690",
+      "work_type": "Album",
+      "work_id": 690,
+      "title": "Lullaby of Generations",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 692,
+      "artist_name": "Carrie Martin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 691,
+          "name": "Blake Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0518854
+        }
+      ]
+    },
+    {
       "id": "song:1135",
-      "song_id": 1135,
+      "work_type": "Song",
+      "work_id": 1135,
       "title": "Soft Sole, Tender Soul",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,8 +54,70 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 691,
+          "name": "Blake Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0518854
+        }
+      ]
+    },
+    {
+      "id": "song:1135",
+      "work_type": "Song",
+      "work_id": 1135,
+      "title": "Soft Sole, Tender Soul",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": false,
+      "artist_id": 691,
+      "artist_name": "Blake Rodriguez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 692,
+          "name": "Carrie Martin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0605006
+        },
+        {
+          "person_id": 691,
+          "name": "Blake Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0518854
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:1135",
+      "target": "album:690",
+      "type": "CoverOf"
+    }
+  ]
 }

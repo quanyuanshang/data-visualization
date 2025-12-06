@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15986",
-      "song_id": 15986,
-      "title": "Sweat Equity",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": true,
-      "artist_id": 2151,
-      "artist_name": "Vito Stroh",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3454",
-      "song_id": 3454,
+      "work_type": "Song",
+      "work_id": 3454,
       "title": "The Lie We Call Romance",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -34,18 +15,40 @@
       "own": true,
       "artist_id": 2151,
       "artist_name": "Vito Stroh",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3455,
+          "name": "Maria Carlson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4004025
+        },
+        {
+          "person_id": 3456,
+          "name": "Robin Russell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.039466
+        }
+      ]
     },
     {
       "id": "song:15214",
-      "song_id": 15214,
+      "work_type": "Song",
+      "work_id": 15214,
       "title": "Steel Wings, Gentle Soul",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -61,11 +64,166 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13463,
+          "name": "Henri Drubin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.044097
+        },
+        {
+          "person_id": 15215,
+          "name": "Fanny Dörschner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981264
+        },
+        {
+          "person_id": 15216,
+          "name": "Pascal Pärtzelt-Jockel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981264
+        }
+      ]
+    },
+    {
+      "id": "album:2148",
+      "work_type": "Album",
+      "work_id": 2148,
+      "title": "Rolling Out",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 2151,
+      "artist_name": "Vito Stroh",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2149,
+          "name": "Rudolf Malý",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.418768
+        },
+        {
+          "person_id": 2150,
+          "name": "Marlene Rose",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0604563
+        }
+      ]
+    },
+    {
+      "id": "album:9817",
+      "work_type": "Album",
+      "work_id": 9817,
+      "title": "Gudomlig Vandring (Divine Journey)",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1992,
+      "single": false,
+      "own": true,
+      "artist_id": 2151,
+      "artist_name": "Vito Stroh",
+      "influence": 14,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 334,
+          "name": "Christopher Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9250906
+        },
+        {
+          "person_id": 5995,
+          "name": "Francesca Krebs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.060887
+        }
+      ]
+    },
+    {
+      "id": "song:15986",
+      "work_type": "Song",
+      "work_id": 15986,
+      "title": "Sweat Equity",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 2151,
+      "artist_name": "Vito Stroh",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15987,
+          "name": "Kaitlyn Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4016223
+        },
+        {
+          "person_id": 15988,
+          "name": "Dustin Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4016223
+        }
+      ]
     },
     {
       "id": "song:10765",
-      "song_id": 10765,
+      "work_type": "Song",
+      "work_id": 10765,
       "title": "Shadows of Your Silence",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -83,14 +241,447 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4058466
+        },
+        {
+          "person_id": 10766,
+          "name": "Taichi Watanabe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3910449
+        }
+      ]
+    },
+    {
+      "id": "album:17112",
+      "work_type": "Album",
+      "work_id": 17112,
+      "title": "Embers & Echoes",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": 17110,
+      "artist_name": "The Hollow Monarchs（成员：Chloe Montgomery (Lane Taylor)｜预测 2.36、Nathaniel Brooks (David Cole)｜预测 2.36…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17406,
+          "name": "Ivy Steele",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4257202
+        },
+        {
+          "person_id": 17407,
+          "name": "Nate Wild",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4257202
+        },
+        {
+          "person_id": 17408,
+          "name": "Scarlett Moon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3744082
+        },
+        {
+          "person_id": 17402,
+          "name": "N.V. Blake",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.7431831
+        }
+      ]
+    },
+    {
+      "id": "song:6687",
+      "work_type": "Song",
+      "work_id": 6687,
+      "title": "Embers and Memories",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 4963,
+      "artist_name": "Lawrence Cooper",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4963,
+          "name": "Lawrence Cooper",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4397337
+        },
+        {
+          "person_id": 2149,
+          "name": "Rudolf Malý",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.418768
+        }
+      ]
+    },
+    {
+      "id": "song:9412",
+      "work_type": "Song",
+      "work_id": 9412,
+      "title": "Midnight in Stockholm: A Freedom Cry",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 3455,
+      "artist_name": "Maria Carlson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4963,
+          "name": "Lawrence Cooper",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4397337
+        },
+        {
+          "person_id": 3455,
+          "name": "Maria Carlson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4004025
+        },
+        {
+          "person_id": 4910,
+          "name": "Cengiz Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051749
+        },
+        {
+          "person_id": 9413,
+          "name": "Joseph Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980541
+        }
+      ]
+    },
+    {
+      "id": "song:8209",
+      "work_type": "Song",
+      "work_id": 8209,
+      "title": "Pale Silhouettes",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7169764
+        }
+      ]
+    },
+    {
+      "id": "song:8821",
+      "work_type": "Song",
+      "work_id": 8821,
+      "title": "Chamber of Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2008,
+      "single": true,
+      "own": false,
+      "artist_id": 2281,
+      "artist_name": "Michelotto Comisso",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2281,
+          "name": "Michelotto Comisso",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.607843
+        },
+        {
+          "person_id": 2282,
+          "name": "Angelina Dallapé-Brunelleschi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.607843
+        },
+        {
+          "person_id": 3336,
+          "name": "Lucrezia Zamengo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.515507
+        },
+        {
+          "person_id": 8822,
+          "name": "Giacinto Maderna",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0084698
+        }
+      ]
+    },
+    {
+      "id": "album:8930",
+      "work_type": "Album",
+      "work_id": 8930,
+      "title": "Tears of Mortal Surrender",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7169764
+        }
+      ]
+    },
+    {
+      "id": "song:14109",
+      "work_type": "Song",
+      "work_id": 14109,
+      "title": "Frozen Boulevards",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1993,
+      "single": true,
+      "own": false,
+      "artist_id": 14110,
+      "artist_name": "Abraham Becker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14111,
+          "name": "Juliusz Hawrylak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3914077
+        },
+        {
+          "person_id": 14110,
+          "name": "Abraham Becker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3910217
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:9412",
+      "target": "album:2148",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:10765",
       "target": "song:3454",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:8821",
+      "target": "album:9817",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8209",
+      "target": "album:9817",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:14109",
+      "target": "album:9817",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6687",
+      "target": "album:2148",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:17112",
+      "target": "song:3454",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:8930",
+      "target": "album:9817",
+      "type": "CoverOf"
     }
   ]
 }

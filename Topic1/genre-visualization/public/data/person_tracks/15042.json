@@ -1,0 +1,202 @@
+{
+  "person_id": 15042,
+  "name": "Brian Carter",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:15040",
+      "work_type": "Album",
+      "work_id": 15040,
+      "title": "Shadows of Berlin",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 15042,
+      "artist_name": "Brian Carter",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15041,
+          "name": "Lisa Peterson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3970923
+        },
+        {
+          "person_id": 15043,
+          "name": "Anthony Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970923
+        },
+        {
+          "person_id": 15044,
+          "name": "Steve Young",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970923
+        },
+        {
+          "person_id": 15045,
+          "name": "Kristin Sullivan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970923
+        }
+      ]
+    },
+    {
+      "id": "song:970",
+      "work_type": "Song",
+      "work_id": 970,
+      "title": "Wooden Heart",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 972,
+      "artist_name": "Robin Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 972,
+          "name": "Robin Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7224228
+        },
+        {
+          "person_id": 971,
+          "name": "Andrea Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984873
+        }
+      ]
+    },
+    {
+      "id": "song:6482",
+      "work_type": "Song",
+      "work_id": 6482,
+      "title": "Daydream's Descent",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 6483,
+      "artist_name": "Yan Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6483,
+          "name": "Yan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7110448
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 6485,
+          "name": "Juan Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439007
+        },
+        {
+          "person_id": 6486,
+          "name": "Stephanie Montoya",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439007
+        },
+        {
+          "person_id": 6487,
+          "name": "Min Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439007
+        },
+        {
+          "person_id": 6488,
+          "name": "Ming Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439007
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6482",
+      "target": "album:15040",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:970",
+      "target": "album:15040",
+      "type": "InStyleOf"
+    }
+  ]
+}

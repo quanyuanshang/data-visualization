@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7944",
-      "song_id": 7944,
+      "work_type": "Song",
+      "work_id": 7944,
       "title": "Niepojęte Piękno",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7945,
+          "name": "Samaira Borah",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399675
+        }
+      ]
     },
     {
       "id": "song:14464",
-      "song_id": 14464,
+      "work_type": "Song",
+      "work_id": 14464,
       "title": "Celestial Breath",
       "genre": "Doom Metal",
       "notable": true,
@@ -34,18 +48,74 @@
       "own": true,
       "artist_id": 7946,
       "artist_name": "Kelly Brown",
-      "influence": 9,
+      "influence": 12,
       "influence_breakdown": {
         "cover": 1,
         "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14465,
+          "name": "John Campbell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985586
+        }
+      ]
+    },
+    {
+      "id": "album:12976",
+      "work_type": "Album",
+      "work_id": 12976,
+      "title": "Longing Between the Streetlights",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 12977,
+      "artist_name": "Sara Levy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12978,
+          "name": "Gregory Evans",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3961027
+        },
+        {
+          "person_id": 12977,
+          "name": "Sara Levy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960457
+        }
+      ]
     },
     {
       "id": "song:15833",
-      "song_id": 15833,
+      "work_type": "Song",
+      "work_id": 15833,
       "title": "Heartbeat Highway",
       "genre": "Indie Rock",
       "notable": true,
@@ -63,19 +133,62 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15834,
+          "name": "Erica Chandler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991106
+        },
+        {
+          "person_id": 15835,
+          "name": "Summer Mahoney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399
+        },
+        {
+          "person_id": 15837,
+          "name": "Jonathan Barker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399
+        },
+        {
+          "person_id": 15836,
+          "name": "Sheena Lane",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986683
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7944",
+      "source": "album:12976",
       "target": "song:14464",
-      "type": "CoverOf"
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:15833",
       "target": "song:14464",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:7944",
+      "target": "song:14464",
+      "type": "CoverOf"
     }
   ]
 }

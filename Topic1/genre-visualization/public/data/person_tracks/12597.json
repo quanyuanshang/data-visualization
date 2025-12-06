@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12596",
-      "song_id": 12596,
+      "work_type": "Song",
+      "work_id": 12596,
       "title": "Concrete and Consequence",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,26 +15,83 @@
       "own": true,
       "artist_id": 12597,
       "artist_name": "Jeremy Little (Vortex & The Sages)",
-      "influence": 9,
+      "influence": 16,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 4,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12598,
+          "name": "James Stevens",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397167
+        }
+      ]
+    },
+    {
+      "id": "album:830",
+      "work_type": "Album",
+      "work_id": 830,
+      "title": "Just You Wait and See",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 831,
+      "artist_name": "Kyle Cook",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 3,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 831,
+          "name": "Kyle Cook",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398055
+        },
+        {
+          "person_id": 832,
+          "name": "Albert White",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978477
+        }
+      ]
     },
     {
       "id": "song:985",
-      "song_id": 985,
+      "work_type": "Song",
+      "work_id": 985,
       "title": "Uncertain Heartlines",
       "genre": "Dream Pop",
       "notable": true,
       "release_year": 2025,
       "single": true,
       "own": false,
-      "artist_id": 707,
-      "artist_name": "Kelsey Campbell",
+      "artist_id": 16845,
+      "artist_name": "Bureaucracy（成员：Kelsey Campbell｜预测 4.11、Karl-Otto Käster｜预测 3.43）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -43,11 +101,94 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 707,
+          "name": "Kelsey Campbell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.107502
+        },
+        {
+          "person_id": 987,
+          "name": "Karl-Otto Käster",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4301465
+        },
+        {
+          "person_id": 986,
+          "name": "Carl Benjamin",
+          "stage_name": "DOLLAH V",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975372
+        }
+      ]
+    },
+    {
+      "id": "album:13298",
+      "work_type": "Album",
+      "work_id": 13298,
+      "title": "Balanced Ledger",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 13299,
+      "artist_name": "Shohei Ito",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13301,
+          "name": "Haruka Nishimura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0542376
+        },
+        {
+          "person_id": 13299,
+          "name": "Shohei Ito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.048475
+        },
+        {
+          "person_id": 13300,
+          "name": "Rika Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4044611
+        }
       ]
     },
     {
       "id": "song:15820",
-      "song_id": 15820,
+      "work_type": "Song",
+      "work_id": 15820,
       "title": "Wing Whispers",
       "genre": "Indie Pop",
       "notable": true,
@@ -65,11 +206,78 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8659,
+          "name": "Ping Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0511138
+        },
+        {
+          "person_id": 8660,
+          "name": "Edward Jacobs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0446634
+        },
+        {
+          "person_id": 12097,
+          "name": "Laura Braun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0340557
+        },
+        {
+          "person_id": 15821,
+          "name": "David Cannon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4004824
+        },
+        {
+          "person_id": 15822,
+          "name": "Rachel Carroll",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004824
+        },
+        {
+          "person_id": 15823,
+          "name": "Kayla Holmes",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4004824
+        },
+        {
+          "person_id": 15824,
+          "name": "Timothy Moore",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004824
+        }
       ]
     },
     {
       "id": "song:16441",
-      "song_id": 16441,
+      "work_type": "Song",
+      "work_id": 16441,
       "title": "Weekend Wanderings",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -87,17 +295,70 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1526,
+          "name": "Christina Bowers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0299146
+        },
+        {
+          "person_id": 1527,
+          "name": "Carl Jones",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0299146
+        },
+        {
+          "person_id": 16442,
+          "name": "Jonathan Hayes",
+          "stage_name": " K!NG",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100666
+        },
+        {
+          "person_id": 16443,
+          "name": "Terri Cortez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100666
+        },
+        {
+          "person_id": 16444,
+          "name": "Amanda Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4100666
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:985",
+      "source": "album:13298",
       "target": "song:12596",
-      "type": "LyricalReferenceTo"
+      "type": "DirectlySamples"
     },
     {
-      "source": "song:15820",
+      "source": "album:830",
+      "target": "song:12596",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:985",
       "target": "song:12596",
       "type": "LyricalReferenceTo"
     },
@@ -105,6 +366,11 @@
       "source": "song:16441",
       "target": "song:12596",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15820",
+      "target": "song:12596",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

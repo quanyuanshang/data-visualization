@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:940",
-      "song_id": 940,
+      "work_type": "Song",
+      "work_id": 940,
       "title": "Latidos del Corazón (Heartbeats)",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,31 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:5928",
-      "song_id": 5928,
-      "title": "Mist Over Mount Washu",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2019,
-      "single": false,
-      "own": true,
-      "artist_id": 941,
-      "artist_name": "Na Yao",
-      "influence": 7,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 943,
+          "name": "Kevin Carney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4104638
+        },
+        {
+          "person_id": 942,
+          "name": "Jun Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39776
+        }
+      ]
     },
     {
       "id": "song:13310",
-      "song_id": 13310,
+      "work_type": "Song",
+      "work_id": 13310,
       "title": "Wildfire Euphoria",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -61,11 +63,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 13311,
+          "name": "Na Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399141
+        }
+      ]
     },
     {
       "id": "song:14134",
-      "song_id": 14134,
+      "work_type": "Song",
+      "work_id": 14134,
       "title": "Stratford's Prodigy",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -81,11 +104,76 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 943,
+          "name": "Kevin Carney",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4104638
+        },
+        {
+          "person_id": 14135,
+          "name": "Gang Zou",
+          "stage_name": "Lunar Confetti",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973756
+        }
+      ]
+    },
+    {
+      "id": "song:5928",
+      "work_type": "Song",
+      "work_id": 5928,
+      "title": "Mist Over Mount Washu",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 941,
+      "artist_name": "Na Yao",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 943,
+          "name": "Kevin Carney",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4104638
+        },
+        {
+          "person_id": 5929,
+          "name": "Xiulan Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980923
+        }
+      ]
     },
     {
       "id": "song:5",
-      "song_id": 5,
+      "work_type": "Song",
+      "work_id": 5,
       "title": "Unshackled Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -103,11 +191,85 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0771239
+        },
+        {
+          "person_id": 6,
+          "name": "Luke Payne",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3949904
+        }
+      ]
+    },
+    {
+      "id": "album:13567",
+      "work_type": "Album",
+      "work_id": 13567,
+      "title": "Lowered Expectations",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 7,
+      "artist_name": "Xiulan Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0771239
+        }
       ]
     },
     {
       "id": "song:15424",
-      "song_id": 15424,
+      "work_type": "Song",
+      "work_id": 15424,
       "title": "Ozvěny Nebeského Jména",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -125,10 +287,36 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 13169,
+          "name": "Xiulan Sun",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.02761
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:13567",
+      "target": "song:5928",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:15424",
       "target": "song:5928",

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1605",
-      "song_id": 1605,
+      "work_type": "Song",
+      "work_id": 1605,
       "title": "Checkmate in Silence",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1607,
+          "name": "Lei Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3961756
+        }
+      ]
     },
     {
       "id": "song:3913",
-      "song_id": 3913,
+      "work_type": "Song",
+      "work_id": 3913,
       "title": "Perfectly Okay",
       "genre": "Synthwave",
       "notable": true,
@@ -41,7 +55,97 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3915,
+          "name": "Xiuying Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9838166
+        },
+        {
+          "person_id": 3914,
+          "name": "Gang Zhou",
+          "stage_name": " The Element",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3973382
+        },
+        {
+          "person_id": 3916,
+          "name": "Jing Zhu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3973382
+        }
+      ]
+    },
+    {
+      "id": "album:8782",
+      "work_type": "Album",
+      "work_id": 8782,
+      "title": "Patience's Whisper",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 1606,
+      "artist_name": "Jun Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4456,
+          "name": "Yang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.039169
+        },
+        {
+          "person_id": 3915,
+          "name": "Xiuying Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9838166
+        },
+        {
+          "person_id": 8784,
+          "name": "Jun Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971062
+        },
+        {
+          "person_id": 8783,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969364
+        }
+      ]
     }
   ],
   "links": []

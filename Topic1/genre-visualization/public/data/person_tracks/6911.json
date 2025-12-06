@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6909",
-      "song_id": 6909,
+      "work_type": "Song",
+      "work_id": 6909,
       "title": "Echoes of Goodbye",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6910,
+          "name": "Krish Thaker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400182
+        }
+      ]
     },
     {
       "id": "song:14711",
-      "song_id": 14711,
+      "work_type": "Song",
+      "work_id": 14711,
       "title": "Light-Hearted Escape",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +56,35 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14712,
+          "name": "Ming Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979115
+        },
+        {
+          "person_id": 14713,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979115
+        },
+        {
+          "person_id": 14714,
+          "name": "Xia Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978982
+        }
       ]
     }
   ],

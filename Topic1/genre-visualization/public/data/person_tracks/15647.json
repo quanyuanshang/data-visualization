@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15646",
-      "song_id": 15646,
+      "work_type": "Song",
+      "work_id": 15646,
       "title": "Motherland's Golden Horizon",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 15647,
       "artist_name": "Gang Zeng (Nightshade Paradox)",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15648,
+          "name": "Min Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4000711
+        }
+      ]
     },
     {
       "id": "song:13431",
-      "song_id": 13431,
+      "work_type": "Song",
+      "work_id": 13431,
       "title": "Constellation of Us",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,6 +57,107 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13432,
+          "name": "Chao Xiao",
+          "stage_name": "FLEX ALPHA",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993514
+        },
+        {
+          "person_id": 13433,
+          "name": "Ping Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993514
+        },
+        {
+          "person_id": 13434,
+          "name": "Lei Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993514
+        },
+        {
+          "person_id": 13435,
+          "name": "Xiulan Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993514
+        }
+      ]
+    },
+    {
+      "id": "album:15027",
+      "work_type": "Album",
+      "work_id": 15027,
+      "title": "Fragments of Unresolved Dialogues",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 15029,
+      "artist_name": "Tomoya Takahashi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15028,
+          "name": "Kana Mori",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978398
+        },
+        {
+          "person_id": 15029,
+          "name": "Tomoya Takahashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978398
+        },
+        {
+          "person_id": 15030,
+          "name": "Yuki Hashimoto",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978398
+        },
+        {
+          "person_id": 15031,
+          "name": "Taichi Sasaki",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978398
+        }
       ]
     }
   ],
@@ -51,6 +166,11 @@
       "source": "song:13431",
       "target": "song:15646",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:15027",
+      "target": "song:15646",
+      "type": "InStyleOf"
     }
   ]
 }

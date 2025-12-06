@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:39",
-      "song_id": 39,
+      "work_type": "Song",
+      "work_id": 39,
       "title": "Healthier Than Yesterday",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,20 @@
       "own": true,
       "artist_id": 40,
       "artist_name": "Na Dong",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:5519",
-      "song_id": 5519,
+      "work_type": "Song",
+      "work_id": 5519,
       "title": "Garden's Symphony",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,8 +44,142 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 779,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3984494
+        },
+        {
+          "person_id": 5520,
+          "name": "Lei Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985512
+        },
+        {
+          "person_id": 5521,
+          "name": "Matthew Burton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985512
+        },
+        {
+          "person_id": 5522,
+          "name": "Lindsey Simpson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985512
+        },
+        {
+          "person_id": 5523,
+          "name": "Yang Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985512
+        }
+      ]
+    },
+    {
+      "id": "album:12328",
+      "work_type": "Album",
+      "work_id": 12328,
+      "title": "Maria's Celestial Reverie",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2589,
+      "artist_name": "Lei Yuan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 7075,
+          "name": "Fang Hou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4017737
+        },
+        {
+          "person_id": 7076,
+          "name": "Benjamin Mercer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0563293
+        },
+        {
+          "person_id": 12331,
+          "name": "Lei Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985085
+        },
+        {
+          "person_id": 12329,
+          "name": "Min Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984878
+        },
+        {
+          "person_id": 12330,
+          "name": "Yong Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977318
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:12328",
+      "target": "song:39",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1907",
-      "song_id": 1907,
+      "work_type": "Song",
+      "work_id": 1907,
       "title": "Echoes of Mirth",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,120 @@
       "own": true,
       "artist_id": 1910,
       "artist_name": "Min Wen",
-      "influence": 2,
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1912,
+          "name": "Yan Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7187116
+        },
+        {
+          "person_id": 1908,
+          "name": "Yong Cao",
+          "stage_name": "H3X MOBB",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1909,
+          "name": "Ming Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1911,
+          "name": "Min Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        }
+      ]
+    },
+    {
+      "id": "album:2633",
+      "work_type": "Album",
+      "work_id": 2633,
+      "title": "Stoop Stories",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2634,
+      "artist_name": "Chao Li",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        }
+      ]
     },
     {
       "id": "song:9940",
-      "song_id": 9940,
+      "work_type": "Song",
+      "work_id": 9940,
       "title": "Nightingale of the Trenches",
       "genre": "Space Rock",
       "notable": true,
@@ -43,6 +146,53 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 9941,
+          "name": "Juan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9924505
+        }
       ]
     }
   ],
@@ -51,6 +201,11 @@
       "source": "song:9940",
       "target": "song:1907",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:2633",
+      "target": "song:1907",
+      "type": "InterpolatesFrom"
     }
   ]
 }

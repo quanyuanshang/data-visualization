@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16180",
-      "song_id": 16180,
-      "title": "Siege of Barcelona's Twilight",
-      "genre": "Oceanus Folk",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 2,
-      "artist_name": "Min Qin",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:0",
-      "song_id": 0,
+      "work_type": "Song",
+      "work_id": 0,
       "title": "Breaking These Chains",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -41,7 +22,69 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1,
+          "name": "Carlos Duffy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.037273
+        },
+        {
+          "person_id": 3,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980122
+        }
+      ]
+    },
+    {
+      "id": "song:16180",
+      "work_type": "Song",
+      "work_id": 16180,
+      "title": "Siege of Barcelona's Twilight",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 2,
+      "artist_name": "Min Qin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1,
+          "name": "Carlos Duffy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.037273
+        },
+        {
+          "person_id": 16181,
+          "name": "Yong Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978705
+        }
+      ]
     }
   ],
   "links": []

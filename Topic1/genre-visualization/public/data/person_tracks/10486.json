@@ -1,0 +1,109 @@
+{
+  "person_id": 10486,
+  "name": "Gang Lei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10484",
+      "work_type": "Album",
+      "work_id": 10484,
+      "title": "The Concession's Sting",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 10486,
+      "artist_name": "Gang Lei",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10485,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968005
+        },
+        {
+          "person_id": 10487,
+          "name": "Guiying Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968005
+        }
+      ]
+    },
+    {
+      "id": "song:5559",
+      "work_type": "Song",
+      "work_id": 5559,
+      "title": "Infused Intentions",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 5562,
+      "artist_name": "Mitchell Mcdonald",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5560,
+          "name": "Bruce Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5561,
+          "name": "Donna Ellison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5562,
+          "name": "Mitchell Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968368
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:5559",
+      "target": "album:10484",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

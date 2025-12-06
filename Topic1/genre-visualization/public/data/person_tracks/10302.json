@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10301",
-      "song_id": 10301,
+      "work_type": "Song",
+      "work_id": 10301,
       "title": "Silver Screen Soirée",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -14,6 +15,75 @@
       "own": true,
       "artist_id": 10302,
       "artist_name": "Fabian Durys",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10303,
+          "name": "Konrad Meissner",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4265566
+        },
+        {
+          "person_id": 10306,
+          "name": "Natasza Dydo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4265091
+        },
+        {
+          "person_id": 10304,
+          "name": "Ida Ryfa",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        },
+        {
+          "person_id": 10307,
+          "name": "Klara Parkitna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        },
+        {
+          "person_id": 10305,
+          "name": "Magdalene Fliegner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995073
+        }
+      ]
+    },
+    {
+      "id": "album:7782",
+      "work_type": "Album",
+      "work_id": 7782,
+      "title": "Divine Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 6862,
+      "artist_name": "Xia Qiu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +91,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6862,
+          "name": "Xia Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3470175
+        },
+        {
+          "person_id": 7784,
+          "name": "Sarah Caldwell",
+          "stage_name": "Solenne",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996882
+        },
+        {
+          "person_id": 7783,
+          "name": "Lei Jiang",
+          "stage_name": " BLVE",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996675
+        },
+        {
+          "person_id": 7785,
+          "name": "Stephanie Gray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996675
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:7782",
+      "target": "song:10301",
+      "type": "CoverOf"
+    }
+  ]
 }

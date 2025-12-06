@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:13046",
-      "song_id": 13046,
-      "title": "Mercy's Melody",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 1999,
-      "single": true,
-      "own": true,
-      "artist_id": 6948,
-      "artist_name": "Lori Hall",
-      "influence": 8,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 2,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13799",
-      "song_id": 13799,
+      "work_type": "Song",
+      "work_id": 13799,
       "title": "Bread and Misery",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:15715",
-      "song_id": 15715,
+      "work_type": "Song",
+      "work_id": 15715,
       "title": "Echoes of the Forgotten Stream",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -61,11 +44,13 @@
         "reference": 2,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:6946",
-      "song_id": 6946,
+      "work_type": "Song",
+      "work_id": 6946,
       "title": "Harmony in Three Voices",
       "genre": "Blues Rock",
       "notable": true,
@@ -81,11 +66,23 @@
         "reference": 4,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6947,
+          "name": "Lisa Thornton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032124
+        }
+      ]
     },
     {
       "id": "song:11363",
-      "song_id": 11363,
+      "work_type": "Song",
+      "work_id": 11363,
       "title": "Fragile Wounds of Passion",
       "genre": "Blues Rock",
       "notable": true,
@@ -101,81 +98,64 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:7157",
-      "song_id": 7157,
-      "title": "Salt and Silence",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 1997,
-      "single": true,
-      "own": false,
-      "artist_id": 3861,
-      "artist_name": "Matthäus Ladeck",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf",
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6836832
+        },
+        {
+          "person_id": 11364,
+          "name": "Gwendolyn Fitzgerald",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4947286
+        }
       ]
     },
     {
-      "id": "song:9647",
-      "song_id": 9647,
-      "title": "Vivace: Bright Horizons",
+      "id": "song:13046",
+      "work_type": "Song",
+      "work_id": 13046,
+      "title": "Mercy's Melody",
       "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2006,
-      "single": true,
-      "own": false,
-      "artist_id": 2080,
-      "artist_name": "Ellen Ford",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom",
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:11363",
-      "song_id": 11363,
-      "title": "Fragile Wounds of Passion",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2010,
+      "release_year": 1999,
       "single": true,
       "own": true,
       "artist_id": 6948,
       "artist_name": "Lori Hall",
-      "influence": 0,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 2,
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf",
-        "InterpolatesFrom",
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6947,
+          "name": "Lisa Thornton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.032124
+        }
       ]
     },
     {
       "id": "song:2078",
-      "song_id": 2078,
+      "work_type": "Song",
+      "work_id": 2078,
       "title": "Dawning Breaths",
       "genre": "Indie Pop",
       "notable": true,
@@ -195,11 +175,32 @@
         "CoverOf",
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2080,
+          "name": "Ellen Ford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4679987
+        },
+        {
+          "person_id": 2079,
+          "name": "Jason Mendoza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3639107
+        }
       ]
     },
     {
       "id": "song:3859",
-      "song_id": 3859,
+      "work_type": "Song",
+      "work_id": 3859,
       "title": "The Eternal Tributary",
       "genre": "Blues Rock",
       "notable": true,
@@ -217,11 +218,240 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3861,
+          "name": "Matthäus Ladeck",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.1577482
+        },
+        {
+          "person_id": 3860,
+          "name": "Folkert Schmidtke",
+          "stage_name": "Abyssal Cadence",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984685
+        }
+      ]
+    },
+    {
+      "id": "song:7157",
+      "work_type": "Song",
+      "work_id": 7157,
+      "title": "Salt and Silence",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 3861,
+      "artist_name": "Matthäus Ladeck",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3861,
+          "name": "Matthäus Ladeck",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.1577482
+        },
+        {
+          "person_id": 7158,
+          "name": "Bartek Krzysiek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        },
+        {
+          "person_id": 7159,
+          "name": "Michael Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        },
+        {
+          "person_id": 7160,
+          "name": "Franck Gillet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        }
+      ]
+    },
+    {
+      "id": "song:11363",
+      "work_type": "Song",
+      "work_id": 11363,
+      "title": "Fragile Wounds of Passion",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 6948,
+      "artist_name": "Lori Hall",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6948,
+          "name": "Lori Hall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9119942
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6836832
+        },
+        {
+          "person_id": 11364,
+          "name": "Gwendolyn Fitzgerald",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4947286
+        }
+      ]
+    },
+    {
+      "id": "song:13046",
+      "work_type": "Song",
+      "work_id": 13046,
+      "title": "Mercy's Melody",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1999,
+      "single": true,
+      "own": true,
+      "artist_id": 6948,
+      "artist_name": "Lori Hall",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6948,
+          "name": "Lori Hall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9119942
+        },
+        {
+          "person_id": 6947,
+          "name": "Lisa Thornton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.032124
+        }
+      ]
+    },
+    {
+      "id": "song:9647",
+      "work_type": "Song",
+      "work_id": 9647,
+      "title": "Vivace: Bright Horizons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2006,
+      "single": true,
+      "own": false,
+      "artist_id": 2080,
+      "artist_name": "Ellen Ford",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2080,
+          "name": "Ellen Ford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4679987
+        },
+        {
+          "person_id": 9648,
+          "name": "Gunther Hendriks",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0286164
+        }
       ]
     },
     {
       "id": "song:12100",
-      "song_id": 12100,
+      "work_type": "Song",
+      "work_id": 12100,
       "title": "Soulmates Across the Winds",
       "genre": "Indie Pop",
       "notable": false,
@@ -240,52 +470,52 @@
       "relation_types": [
         "InterpolatesFrom",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2080,
+          "name": "Ellen Ford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4679987
+        },
+        {
+          "person_id": 11364,
+          "name": "Gwendolyn Fitzgerald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4947286
+        },
+        {
+          "person_id": 12101,
+          "name": "Phillip Barnes",
+          "stage_name": "Radiant",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.385847
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7157",
-      "target": "song:13046",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:7157",
-      "target": "song:15715",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:11363",
-      "target": "song:15715",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:7157",
-      "target": "song:6946",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:11363",
-      "target": "song:6946",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13046",
-      "target": "song:15715",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:2078",
-      "target": "song:6946",
-      "type": "CoverOf"
+      "target": "song:15715",
+      "type": "InterpolatesFrom"
     },
     {
-      "source": "song:12100",
-      "target": "song:11363",
-      "type": "LyricalReferenceTo"
+      "source": "song:7157",
+      "target": "song:15715",
+      "type": "InStyleOf"
     },
     {
-      "source": "song:12100",
+      "source": "song:7157",
       "target": "song:6946",
       "type": "InterpolatesFrom"
     },
@@ -295,14 +525,34 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:2078",
-      "target": "song:15715",
+      "source": "song:13046",
+      "target": "song:6946",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9647",
+      "target": "song:6946",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12100",
+      "target": "song:11363",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:11363",
       "target": "song:13046",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11363",
+      "target": "song:6946",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2078",
+      "target": "song:6946",
+      "type": "CoverOf"
     },
     {
       "source": "song:2078",
@@ -315,18 +565,28 @@
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:7157",
+      "target": "song:13046",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12100",
+      "target": "song:6946",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:3859",
       "target": "song:15715",
       "type": "InStyleOf"
     },
     {
       "source": "song:13046",
-      "target": "song:6946",
-      "type": "LyricalReferenceTo"
+      "target": "song:15715",
+      "type": "CoverOf"
     },
     {
-      "source": "song:9647",
-      "target": "song:6946",
+      "source": "song:11363",
+      "target": "song:15715",
       "type": "InterpolatesFrom"
     }
   ]

@@ -1,0 +1,195 @@
+{
+  "person_id": 5914,
+  "name": "Whitney Yates",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:5913",
+      "work_type": "Album",
+      "work_id": 5913,
+      "title": "Love's Ghosting",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 5914,
+      "artist_name": "Whitney Yates",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5915,
+          "name": "Mary Frank",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4003701
+        }
+      ]
+    },
+    {
+      "id": "song:8445",
+      "work_type": "Song",
+      "work_id": 8445,
+      "title": "Currents of Ancient Mariners",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1251,
+      "artist_name": "Eugenia Mitschke",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 8446,
+          "name": "Stephanie Robinson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7064111
+        },
+        {
+          "person_id": 8447,
+          "name": "Amber Gibson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4366257
+        }
+      ]
+    },
+    {
+      "id": "song:16631",
+      "work_type": "Song",
+      "work_id": 16631,
+      "title": "Daughters Rising",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 1251,
+      "artist_name": "Eugenia Mitschke",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 8446,
+          "name": "Stephanie Robinson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7064111
+        },
+        {
+          "person_id": 8447,
+          "name": "Amber Gibson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4366257
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16631",
+      "target": "album:5913",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8445",
+      "target": "album:5913",
+      "type": "DirectlySamples"
+    }
+  ]
+}

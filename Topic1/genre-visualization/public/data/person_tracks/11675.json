@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11672",
-      "song_id": 11672,
+      "work_type": "Song",
+      "work_id": 11672,
       "title": "Sappho's Secret Garden",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 11675,
       "artist_name": "Haley Campbell",
-      "influence": 8,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11673,
+          "name": "Megan Bowers",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3975637
+        },
+        {
+          "person_id": 11674,
+          "name": "Cameron Cohen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975637
+        }
+      ]
     },
     {
       "id": "song:4718",
-      "song_id": 4718,
+      "work_type": "Song",
+      "work_id": 4718,
       "title": "Twilight's Whisper",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +65,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4720,
+          "name": "Erica Shaffer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982022
+        },
+        {
+          "person_id": 4719,
+          "name": "Krystal Reese",
+          "stage_name": " Leo III",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981678
+        },
+        {
+          "person_id": 4721,
+          "name": "Thomas Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3981678
+        }
       ]
     },
     {
       "id": "song:7161",
-      "song_id": 7161,
+      "work_type": "Song",
+      "work_id": 7161,
       "title": "Midnight Howl Symphony",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +118,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7162,
+          "name": "Lei Zou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977087
+        },
+        {
+          "person_id": 7163,
+          "name": "Li Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977087
+        },
+        {
+          "person_id": 7164,
+          "name": "Tao Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977087
+        }
       ]
     },
     {
       "id": "song:12001",
-      "song_id": 12001,
+      "work_type": "Song",
+      "work_id": 12001,
       "title": "Phantom's Second Chance",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -87,14 +171,95 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12002,
+          "name": "Caroline Lloyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396128
+        }
+      ]
+    },
+    {
+      "id": "album:16555",
+      "work_type": "Album",
+      "work_id": 16555,
+      "title": "Pajama Parade",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 16556,
+      "artist_name": "Brian Oneal (C4$H LEGION)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16556,
+          "name": "Brian Oneal",
+          "stage_name": "C4$H LEGION",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998246
+        },
+        {
+          "person_id": 16557,
+          "name": "Catherine Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3998246
+        },
+        {
+          "person_id": 16559,
+          "name": "Jacqueline Miller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998113
+        },
+        {
+          "person_id": 16558,
+          "name": "Michael Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998039
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7161",
+      "source": "song:4718",
       "target": "song:11672",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:16555",
+      "target": "song:11672",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:12001",
@@ -102,7 +267,7 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:4718",
+      "source": "song:7161",
       "target": "song:11672",
       "type": "LyricalReferenceTo"
     }

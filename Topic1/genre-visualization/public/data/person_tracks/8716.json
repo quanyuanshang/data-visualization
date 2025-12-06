@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8714",
-      "song_id": 8714,
+      "work_type": "Song",
+      "work_id": 8714,
       "title": "Luminous Silence",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8715,
+          "name": "Ann Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980753
+        }
+      ]
     },
     {
       "id": "song:9628",
-      "song_id": 9628,
+      "work_type": "Song",
+      "work_id": 9628,
       "title": "Needle's Nostalgic Dance",
       "genre": "Desert Rock",
       "notable": true,
@@ -41,11 +54,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9629,
+          "name": "Min Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983736
+        }
+      ]
     },
     {
       "id": "song:9446",
-      "song_id": 9446,
+      "work_type": "Song",
+      "work_id": 9446,
       "title": "Classical Fragments",
       "genre": "Desert Rock",
       "notable": true,
@@ -63,6 +89,36 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1785,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.475672
+        },
+        {
+          "person_id": 9447,
+          "name": "Jie Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985531
+        },
+        {
+          "person_id": 9448,
+          "name": "Yan Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985531
+        }
       ]
     }
   ],

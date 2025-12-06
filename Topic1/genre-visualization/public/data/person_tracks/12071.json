@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12067",
-      "song_id": 12067,
+      "work_type": "Song",
+      "work_id": 12067,
       "title": "Fragments of Friendship",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12068,
+          "name": "Xia Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3992066
+        },
+        {
+          "person_id": 12069,
+          "name": "Jessica Beck",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991785
+        },
+        {
+          "person_id": 12070,
+          "name": "Gang Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991785
+        }
+      ]
     },
     {
       "id": "song:1629",
-      "song_id": 1629,
+      "work_type": "Song",
+      "work_id": 1629,
       "title": "Legionary's Lament",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,11 +75,52 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1630,
+          "name": "Nath Henry",
+          "stage_name": "Revel",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984818
+        },
+        {
+          "person_id": 1631,
+          "name": "Odette Dupuy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398414
+        },
+        {
+          "person_id": 1632,
+          "name": "Xavier Baron",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978994
+        },
+        {
+          "person_id": 1633,
+          "name": "Guillaume Petitjean",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978522
+        }
       ]
     },
     {
       "id": "song:6065",
-      "song_id": 6065,
+      "work_type": "Song",
+      "work_id": 6065,
       "title": "Push Through the Doubt",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +138,69 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2355,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7207756
+        },
+        {
+          "person_id": 6067,
+          "name": "Yong Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042643
+        },
+        {
+          "person_id": 6066,
+          "name": "Jun Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0409074
+        },
+        {
+          "person_id": 4298,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0224628
+        },
+        {
+          "person_id": 6069,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990526
+        },
+        {
+          "person_id": 6068,
+          "name": "Tao Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990319
+        }
       ]
     },
     {
       "id": "song:13396",
-      "song_id": 13396,
+      "work_type": "Song",
+      "work_id": 13396,
       "title": "Waiting by the Phone",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -87,14 +218,53 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 372,
+          "name": "Tao Cui",
+          "stage_name": " FL∆ME",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4397278
+        },
+        {
+          "person_id": 10427,
+          "name": "Xiulan Mo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0343351
+        },
+        {
+          "person_id": 13397,
+          "name": "Yan Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398647
+        },
+        {
+          "person_id": 13398,
+          "name": "Yong Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398647
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:13396",
+      "source": "song:6065",
       "target": "song:12067",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     },
     {
       "source": "song:1629",
@@ -102,9 +272,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6065",
+      "source": "song:13396",
       "target": "song:12067",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     }
   ]
 }

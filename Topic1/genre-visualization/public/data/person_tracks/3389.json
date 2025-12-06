@@ -4,28 +4,60 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14011",
-      "song_id": 14011,
-      "title": "Whispers of Potential",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2017,
-      "single": false,
+      "id": "song:3387",
+      "work_type": "Song",
+      "work_id": 3387,
+      "title": "Echoes Out of Time",
+      "genre": "Lo-Fi Electronica",
+      "notable": false,
+      "release_year": 2016,
+      "single": true,
       "own": true,
       "artist_id": 3389,
       "artist_name": "Min Shen",
-      "influence": 0,
+      "influence": 16,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 2,
         "sample": 0,
-        "reference": 0,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 3388,
+          "name": "Li Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010081
+        }
+      ]
     },
     {
       "id": "song:9705",
-      "song_id": 9705,
+      "work_type": "Song",
+      "work_id": 9705,
       "title": "Silent Whispers",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,31 +73,116 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 1246,
+          "name": "Amber Allen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0461965
+        }
+      ]
     },
     {
-      "id": "song:3387",
-      "song_id": 3387,
-      "title": "Echoes Out of Time",
-      "genre": "Lo-Fi Electronica",
-      "notable": false,
-      "release_year": 2016,
-      "single": true,
+      "id": "album:15408",
+      "work_type": "Album",
+      "work_id": 15408,
+      "title": "The Bride's Spectral Serenade",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
       "own": true,
       "artist_id": 3389,
       "artist_name": "Min Shen",
-      "influence": 13,
+      "influence": 10,
       "influence_breakdown": {
-        "cover": 2,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        }
+      ]
+    },
+    {
+      "id": "song:14011",
+      "work_type": "Song",
+      "work_id": 14011,
+      "title": "Whispers of Potential",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 3389,
+      "artist_name": "Min Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2667,
+          "name": "Fang Xue",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4013371
+        },
+        {
+          "person_id": 14012,
+          "name": "James George",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983474
+        }
+      ]
     },
     {
       "id": "song:5",
-      "song_id": 5,
+      "work_type": "Song",
+      "work_id": 5,
       "title": "Unshackled Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -83,11 +200,41 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 8,
+          "name": "David Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0771239
+        },
+        {
+          "person_id": 6,
+          "name": "Luke Payne",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3949904
+        }
       ]
     },
     {
       "id": "song:5804",
-      "song_id": 5804,
+      "work_type": "Song",
+      "work_id": 5804,
       "title": "Settler's Crossing",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -105,11 +252,95 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5805,
+          "name": "Yan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7060761
+        },
+        {
+          "person_id": 5806,
+          "name": "Xiuying Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297252
+        },
+        {
+          "person_id": 5807,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297252
+        }
+      ]
+    },
+    {
+      "id": "album:12099",
+      "work_type": "Album",
+      "work_id": 12099,
+      "title": "Destiny's Tender Embrace",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 4259,
+          "name": "Jie Tao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2570076
+        }
       ]
     },
     {
       "id": "song:14497",
-      "song_id": 14497,
+      "work_type": "Song",
+      "work_id": 14497,
       "title": "Decoding Silence",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -127,19 +358,148 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 11478,
+          "name": "Min Liang",
+          "stage_name": "Tyler Sage",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0568004
+        }
+      ]
+    },
+    {
+      "id": "album:10441",
+      "work_type": "Album",
+      "work_id": 10441,
+      "title": "Moment of Triumph",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 3662,
+      "artist_name": "David Wilkerson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        },
+        {
+          "person_id": 10442,
+          "name": "Kelly Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4265654
+        }
+      ]
+    },
+    {
+      "id": "song:14513",
+      "work_type": "Song",
+      "work_id": 14513,
+      "title": "Noble Harvest",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2002,
+      "single": true,
+      "own": false,
+      "artist_id": 2668,
+      "artist_name": "Ping Tian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4815354
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5804",
-      "target": "song:3387",
+      "source": "album:10441",
+      "target": "album:15408",
       "type": "CoverOf"
     },
     {
       "source": "song:14497",
       "target": "song:3387",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:9705",
+      "target": "album:15408",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14513",
+      "target": "album:15408",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5804",
+      "target": "song:3387",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:12099",
+      "target": "song:3387",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:5",

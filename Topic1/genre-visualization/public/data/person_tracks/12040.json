@@ -1,0 +1,166 @@
+{
+  "person_id": 12040,
+  "name": "Robert Johnson",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:12039",
+      "work_type": "Album",
+      "work_id": 12039,
+      "title": "Tiny Spark of Desire",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 12040,
+      "artist_name": "Robert Johnson",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 5909,
+          "name": "Kaitlyn Warren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9466932
+        },
+        {
+          "person_id": 9537,
+          "name": "Flora Karz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.435403
+        }
+      ]
+    },
+    {
+      "id": "song:10094",
+      "work_type": "Song",
+      "work_id": 10094,
+      "title": "Earth's Melody",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": true,
+      "own": false,
+      "artist_id": 10096,
+      "artist_name": "Qiang Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10095,
+          "name": "Fang Xiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3991303
+        },
+        {
+          "person_id": 10097,
+          "name": "Ping Zhang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991303
+        },
+        {
+          "person_id": 10096,
+          "name": "Qiang Gu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399098
+        }
+      ]
+    },
+    {
+      "id": "song:12594",
+      "work_type": "Song",
+      "work_id": 12594,
+      "title": "Scaffolding of Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": false,
+      "artist_id": 10776,
+      "artist_name": "Chloë de Gruil",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10776,
+          "name": "Chloë de Gruil",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7201512
+        },
+        {
+          "person_id": 12595,
+          "name": "Lenn Blaak",
+          "stage_name": " Phoenix",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.051926
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12594",
+      "target": "album:12039",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10094",
+      "target": "album:12039",
+      "type": "InStyleOf"
+    }
+  ]
+}

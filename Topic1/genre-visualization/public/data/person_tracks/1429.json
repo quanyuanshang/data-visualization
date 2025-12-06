@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1425",
-      "song_id": 1425,
+      "work_type": "Song",
+      "work_id": 1425,
       "title": "Sunlit Laughter",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1428,
+          "name": "Fang Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9880037
+        },
+        {
+          "person_id": 1426,
+          "name": "Susan Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973398
+        },
+        {
+          "person_id": 1427,
+          "name": "Miss Cynthia Myers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973398
+        }
+      ]
     },
     {
       "id": "song:3719",
-      "song_id": 3719,
+      "work_type": "Song",
+      "work_id": 3719,
       "title": "Skybound Pioneers",
       "genre": "Space Rock",
       "notable": true,
@@ -41,11 +73,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3720,
+          "name": "Tao Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4009385
+        }
+      ]
     },
     {
       "id": "song:8203",
-      "song_id": 8203,
+      "work_type": "Song",
+      "work_id": 8203,
       "title": "Translucent Memories",
       "genre": "Indie Folk",
       "notable": true,
@@ -61,11 +105,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8204,
+          "name": "Jing Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984149
+        },
+        {
+          "person_id": 8205,
+          "name": "Xiuying Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984149
+        },
+        {
+          "person_id": 8206,
+          "name": "Jie Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984149
+        }
+      ]
     },
     {
       "id": "song:11842",
-      "song_id": 11842,
+      "work_type": "Song",
+      "work_id": 11842,
       "title": "Crossing Continents, Sharing Faith",
       "genre": "Americana",
       "notable": true,
@@ -74,18 +149,121 @@
       "own": true,
       "artist_id": 1429,
       "artist_name": "Li Yang",
-      "influence": 5,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9255,
+          "name": "Lei Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7122939
+        },
+        {
+          "person_id": 11843,
+          "name": "Tao Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973496
+        },
+        {
+          "person_id": 11844,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973496
+        },
+        {
+          "person_id": 11845,
+          "name": "Min Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973496
+        },
+        {
+          "person_id": 11846,
+          "name": "Chao Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973496
+        }
+      ]
+    },
+    {
+      "id": "album:14814",
+      "work_type": "Album",
+      "work_id": 14814,
+      "title": "Hay Whispers",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 2650,
+      "artist_name": "Lisa Castillo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2651,
+          "name": "Renee Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088463
+        },
+        {
+          "person_id": 2650,
+          "name": "Lisa Castillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.41222
+        },
+        {
+          "person_id": 14815,
+          "name": "Thomas Boyle",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995743
+        }
+      ]
     },
     {
       "id": "song:15552",
-      "song_id": 15552,
+      "work_type": "Song",
+      "work_id": 15552,
       "title": "Tomorrow's Whisper",
       "genre": "Dream Pop",
       "notable": true,
@@ -103,10 +281,53 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14056,
+          "name": "Miss Allison King",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0447817
+        },
+        {
+          "person_id": 13939,
+          "name": "Hüseyin Paffrath",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0410912
+        },
+        {
+          "person_id": 15554,
+          "name": "Tao Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978229
+        },
+        {
+          "person_id": 15553,
+          "name": "Lei Gong",
+          "stage_name": "Cameron Fox",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397802
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:14814",
+      "target": "song:11842",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:15552",
       "target": "song:11842",

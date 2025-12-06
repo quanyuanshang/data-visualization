@@ -1,0 +1,158 @@
+{
+  "person_id": 14555,
+  "name": "Amanda Kennedy",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:14551",
+      "work_type": "Album",
+      "work_id": 14551,
+      "title": "Whispers of the Cojutepeque Streets",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 14555,
+      "artist_name": "Amanda Kennedy",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14552,
+          "name": "Christina Cunningham",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39864
+        },
+        {
+          "person_id": 14553,
+          "name": "Carrie Lee",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39864
+        },
+        {
+          "person_id": 14554,
+          "name": "Theresa Webster",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39864
+        }
+      ]
+    },
+    {
+      "id": "song:7077",
+      "work_type": "Song",
+      "work_id": 7077,
+      "title": "Mercy Beyond Blades",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 7078,
+      "artist_name": "Ping Xu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7078,
+          "name": "Ping Xu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3843877
+        },
+        {
+          "person_id": 7079,
+          "name": "Jing Huang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.381167
+        }
+      ]
+    },
+    {
+      "id": "song:13321",
+      "work_type": "Song",
+      "work_id": 13321,
+      "title": "Rootless Heart",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 13322,
+      "artist_name": "Danielle Martin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13322,
+          "name": "Danielle Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4002445
+        },
+        {
+          "person_id": 13323,
+          "name": "Jonathan Vasquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993657
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7077",
+      "target": "album:14551",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13321",
+      "target": "album:14551",
+      "type": "CoverOf"
+    }
+  ]
+}

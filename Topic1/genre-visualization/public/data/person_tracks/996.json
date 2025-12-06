@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:995",
-      "song_id": 995,
+      "work_type": "Song",
+      "work_id": 995,
       "title": "The Unwritten Answer",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:10023",
-      "song_id": 10023,
+      "work_type": "Song",
+      "work_id": 10023,
       "title": "Sleeping Vengeance",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +46,89 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10024,
+          "name": "Yan Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3972108
+        },
+        {
+          "person_id": 10026,
+          "name": "Jing Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3972108
+        },
+        {
+          "person_id": 10027,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972108
+        },
+        {
+          "person_id": 10028,
+          "name": "Yang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3972108
+        },
+        {
+          "person_id": 10029,
+          "name": "Tao Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972108
+        },
+        {
+          "person_id": 10030,
+          "name": "Tao Xia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972108
+        },
+        {
+          "person_id": 10031,
+          "name": "Li Luo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972108
+        },
+        {
+          "person_id": 10025,
+          "name": "Juan Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39719
+        }
       ]
     },
     {
       "id": "song:12877",
-      "song_id": 12877,
+      "work_type": "Song",
+      "work_id": 12877,
       "title": "Fragmented Chambers",
       "genre": "Space Rock",
       "notable": true,
@@ -65,17 +146,57 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12880,
+          "name": "Wei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0087123
+        },
+        {
+          "person_id": 12881,
+          "name": "Frieda Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999305
+        },
+        {
+          "person_id": 12878,
+          "name": "Juan He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997607
+        },
+        {
+          "person_id": 12879,
+          "name": "Tao Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3995173
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10023",
+      "source": "song:12877",
       "target": "song:995",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:12877",
+      "source": "song:10023",
       "target": "song:995",
       "type": "LyricalReferenceTo"
     }

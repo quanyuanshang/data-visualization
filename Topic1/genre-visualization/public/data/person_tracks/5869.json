@@ -4,8 +4,119 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:5866",
+      "work_type": "Album",
+      "work_id": 5866,
+      "title": "Radiant Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 5869,
+      "artist_name": "Alex Halama",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 222,
+          "name": "Jakub Dziuda",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1210656
+        },
+        {
+          "person_id": 5870,
+          "name": "Tymon Miszta",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0455565
+        },
+        {
+          "person_id": 5867,
+          "name": "Anastazja Brózda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992379
+        },
+        {
+          "person_id": 5868,
+          "name": "Marcelina Wochnik",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992379
+        }
+      ]
+    },
+    {
+      "id": "album:8750",
+      "work_type": "Album",
+      "work_id": 8750,
+      "title": "Rhapsody in Urban Rhythm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 5869,
+      "artist_name": "Alex Halama",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 223,
+          "name": "Borys Kościk",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.378246
+        },
+        {
+          "person_id": 222,
+          "name": "Jakub Dziuda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1210656
+        },
+        {
+          "person_id": 221,
+          "name": "Olaf Szumny",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4386246
+        }
+      ]
+    },
+    {
       "id": "song:15582",
-      "song_id": 15582,
+      "work_type": "Song",
+      "work_id": 15582,
       "title": "Drowning in Abundance",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,8 +132,214 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 223,
+          "name": "Borys Kościk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.378246
+        },
+        {
+          "person_id": 222,
+          "name": "Jakub Dziuda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1210656
+        },
+        {
+          "person_id": 15583,
+          "name": "Monika Bochnia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400662
+        }
+      ]
+    },
+    {
+      "id": "song:14295",
+      "work_type": "Song",
+      "work_id": 14295,
+      "title": "Streetlight Serenade",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 223,
+      "artist_name": "Borys Kościk",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 223,
+          "name": "Borys Kościk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.378246
+        },
+        {
+          "person_id": 5870,
+          "name": "Tymon Miszta",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0455565
+        }
+      ]
+    },
+    {
+      "id": "song:15582",
+      "work_type": "Song",
+      "work_id": 15582,
+      "title": "Drowning in Abundance",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 222,
+      "artist_name": "Jakub Dziuda",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 223,
+          "name": "Borys Kościk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.378246
+        },
+        {
+          "person_id": 222,
+          "name": "Jakub Dziuda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1210656
+        },
+        {
+          "person_id": 5869,
+          "name": "Alex Halama",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4475305
+        },
+        {
+          "person_id": 15583,
+          "name": "Monika Bochnia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400662
+        }
+      ]
+    },
+    {
+      "id": "album:13956",
+      "work_type": "Album",
+      "work_id": 13956,
+      "title": "Sunbleached Memory",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": false,
+      "artist_id": 223,
+      "artist_name": "Borys Kościk",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 223,
+          "name": "Borys Kościk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.378246
+        },
+        {
+          "person_id": 221,
+          "name": "Olaf Szumny",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4386246
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:15582",
+      "target": "album:8750",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14295",
+      "target": "album:8750",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13956",
+      "target": "album:8750",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14295",
+      "target": "album:5866",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15582",
+      "target": "album:5866",
+      "type": "InStyleOf"
+    }
+  ]
 }

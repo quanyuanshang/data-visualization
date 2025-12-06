@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3133",
-      "song_id": 3133,
+      "work_type": "Song",
+      "work_id": 3133,
       "title": "Melodic Passage",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,48 @@
       "own": true,
       "artist_id": 3134,
       "artist_name": "Jennifer Davis (YVNG PHXNX)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 1891,
+          "name": "Rachel Hill",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9302983
+        }
+      ]
+    },
+    {
+      "id": "album:13222",
+      "work_type": "Album",
+      "work_id": 13222,
+      "title": "Beacon of Love",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 3135,
+      "artist_name": "Chelsea Martinez",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +64,112 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 7513,
+          "name": "Matthew Griffin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9343436
+        },
+        {
+          "person_id": 3632,
+          "name": "David Miller",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4372256
+        }
+      ]
+    },
+    {
+      "id": "album:17064",
+      "work_type": "Album",
+      "work_id": 17064,
+      "title": "Secret Frequencies",
+      "genre": "Jazz Surf Rock",
+      "notable": false,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": 17063,
+      "artist_name": "The Phantom Operators（成员：Juno Ray｜预测 2.72、Savannah Teal｜预测 2.72）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17062,
+          "name": "Savannah Teal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.7240825
+        },
+        {
+          "person_id": 17061,
+          "name": "Juno Ray",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.7204814
+        },
+        {
+          "person_id": 17395,
+          "name": "B.D. Wolf",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3209684
+        },
+        {
+          "person_id": 17398,
+          "name": "Eon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3201218
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:13222",
+      "target": "song:3133",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:17064",
+      "target": "song:3133",
+      "type": "InStyleOf"
+    }
+  ]
 }

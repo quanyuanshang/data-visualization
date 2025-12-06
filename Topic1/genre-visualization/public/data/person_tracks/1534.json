@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:1533",
-      "song_id": 1533,
-      "title": "Rastgele (Randomly)",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 1999,
-      "single": true,
-      "own": true,
-      "artist_id": 1534,
-      "artist_name": "Holly Gonzalez",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:16714",
-      "song_id": 16714,
-      "title": "Roots and Waves of the Island",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2007,
-      "single": false,
-      "own": true,
-      "artist_id": 1534,
-      "artist_name": "Holly Gonzalez",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7034",
-      "song_id": 7034,
+      "work_type": "Song",
+      "work_id": 7034,
       "title": "Identidad Privada",
       "genre": "Alternative Rock",
       "notable": true,
@@ -54,18 +15,39 @@
       "own": true,
       "artist_id": 1534,
       "artist_name": "Holly Gonzalez",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 7035,
+          "name": "Matthew Carter",
+          "stage_name": " The Saint",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0235913
+        }
+      ]
     },
     {
       "id": "song:15734",
-      "song_id": 15734,
+      "work_type": "Song",
+      "work_id": 15734,
       "title": "One Moment, One Movement, One Embrace",
       "genre": "Alternative Rock",
       "notable": true,
@@ -74,18 +56,221 @@
       "own": true,
       "artist_id": 1534,
       "artist_name": "Holly Gonzalez",
-      "influence": 9,
+      "influence": 20,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 3,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 11906,
+          "name": "Katrina Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4424434
+        }
+      ]
+    },
+    {
+      "id": "song:1533",
+      "work_type": "Song",
+      "work_id": 1533,
+      "title": "Rastgele (Randomly)",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1999,
+      "single": true,
+      "own": true,
+      "artist_id": 1534,
+      "artist_name": "Holly Gonzalez",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1536,
+          "name": "Ronnie Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988411
+        }
+      ]
+    },
+    {
+      "id": "song:16714",
+      "work_type": "Song",
+      "work_id": 16714,
+      "title": "Roots and Waves of the Island",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 1534,
+      "artist_name": "Holly Gonzalez",
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 3,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 11906,
+          "name": "Katrina Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4424434
+        }
+      ]
+    },
+    {
+      "id": "album:14908",
+      "work_type": "Album",
+      "work_id": 14908,
+      "title": "The Adventurer's Lament",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 7035,
+      "artist_name": "Matthew Carter ( The Saint)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 7035,
+          "name": "Matthew Carter",
+          "stage_name": " The Saint",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0235913
+        }
+      ]
+    },
+    {
+      "id": "album:1804",
+      "work_type": "Album",
+      "work_id": 1804,
+      "title": "Midsummer Memories",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 1805,
+      "artist_name": "Vedika Dar",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1806,
+          "name": "Ahana Babu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3999395
+        },
+        {
+          "person_id": 1805,
+          "name": "Vedika Dar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999221
+        }
+      ]
     },
     {
       "id": "song:3748",
-      "song_id": 3748,
+      "work_type": "Song",
+      "work_id": 3748,
       "title": "Threadbare Thursdays",
       "genre": "Alternative Rock",
       "notable": true,
@@ -104,19 +289,41 @@
       "relation_types": [
         "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 3749,
+          "name": "Paul Contreras",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993735
+        }
       ]
     },
     {
-      "id": "song:7034",
-      "song_id": 7034,
-      "title": "Identidad Privada",
+      "id": "album:11413",
+      "work_type": "Album",
+      "work_id": 11413,
+      "title": "Wow, Wow! (Platinum Remix)",
       "genre": "Alternative Rock",
       "notable": true,
-      "release_year": 2010,
-      "single": true,
+      "release_year": 2009,
+      "single": false,
       "own": false,
-      "artist_id": 7035,
-      "artist_name": "Matthew Carter ( The Saint)",
+      "artist_id": 1535,
+      "artist_name": "Chad Hampton",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -125,12 +332,35 @@
         "style": 0
       },
       "relation_types": [
-        "LyricalReferenceTo"
+        "CoverOf",
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 11414,
+          "name": "Benjamin Griffin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4134235
+        }
       ]
     },
     {
       "id": "song:11905",
-      "song_id": 11905,
+      "work_type": "Song",
+      "work_id": 11905,
       "title": "Dinner Party Diplomacy",
       "genre": "Alternative Rock",
       "notable": true,
@@ -148,6 +378,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 11906,
+          "name": "Katrina Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4424434
+        }
       ]
     }
   ],
@@ -158,14 +409,44 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:3748",
-      "target": "song:1533",
+      "source": "album:1804",
+      "target": "song:15734",
       "type": "InStyleOf"
     },
     {
+      "source": "album:14908",
+      "target": "song:16714",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:7034",
       "target": "song:15734",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:14908",
+      "target": "song:15734",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:3748",
+      "target": "song:15734",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:11413",
+      "target": "song:15734",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:11413",
+      "target": "song:1533",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:14908",
+      "target": "song:7034",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:7034",
@@ -174,8 +455,8 @@
     },
     {
       "source": "song:3748",
-      "target": "song:15734",
-      "type": "LyricalReferenceTo"
+      "target": "song:1533",
+      "type": "InStyleOf"
     }
   ]
 }

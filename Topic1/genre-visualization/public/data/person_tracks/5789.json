@@ -1,0 +1,206 @@
+{
+  "person_id": 5789,
+  "name": "Thilo Sölzer",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:5787",
+      "work_type": "Album",
+      "work_id": 5787,
+      "title": "Courage Stitched in Camouflage",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 5789,
+      "artist_name": "Thilo Sölzer",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5788,
+          "name": "Rocco Hauffer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3954475
+        }
+      ]
+    },
+    {
+      "id": "album:4190",
+      "work_type": "Album",
+      "work_id": 4190,
+      "title": "Tunnel's Heartbeat",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 4192,
+      "artist_name": "Nino Canova-Esposito",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4191,
+          "name": "Gianmarco Verga",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982267
+        },
+        {
+          "person_id": 4192,
+          "name": "Nino Canova-Esposito",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397917
+        }
+      ]
+    },
+    {
+      "id": "song:6928",
+      "work_type": "Song",
+      "work_id": 6928,
+      "title": "Candlelight Pilgrimage",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 6929,
+      "artist_name": "Amanda Hardy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6929,
+          "name": "Amanda Hardy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986573
+        },
+        {
+          "person_id": 6931,
+          "name": "Amanda Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986573
+        },
+        {
+          "person_id": 6932,
+          "name": "Thilo Schmiedt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986573
+        },
+        {
+          "person_id": 6933,
+          "name": "Matthew Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986573
+        },
+        {
+          "person_id": 6930,
+          "name": "Marilyn Douglas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983257
+        }
+      ]
+    },
+    {
+      "id": "song:10996",
+      "work_type": "Song",
+      "work_id": 10996,
+      "title": "Echoes from the Vocal Shrine",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 3820,
+      "artist_name": "Melanie Jimenez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3820,
+          "name": "Melanie Jimenez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659273
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10996",
+      "target": "album:5787",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:4190",
+      "target": "album:5787",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6928",
+      "target": "album:5787",
+      "type": "InStyleOf"
+    }
+  ]
+}

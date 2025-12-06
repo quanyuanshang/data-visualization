@@ -1,0 +1,108 @@
+{
+  "person_id": 6775,
+  "name": "Leocadia Falcón Diez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:6773",
+      "work_type": "Album",
+      "work_id": 6773,
+      "title": "Petals and Promises",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 6775,
+      "artist_name": "Leocadia Falcón Diez",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6774,
+          "name": "Sara Jover Iglesias",
+          "stage_name": " Queen IV",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988266
+        },
+        {
+          "person_id": 6776,
+          "name": "Carlito Martí Jaume",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988059
+        }
+      ]
+    },
+    {
+      "id": "song:258",
+      "work_type": "Song",
+      "work_id": 258,
+      "title": "When Happiness Breaks Through",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 261,
+      "artist_name": "Shawn Hart",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 259,
+          "name": "David Sloan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990984
+        },
+        {
+          "person_id": 260,
+          "name": "Gerald Shepherd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990984
+        },
+        {
+          "person_id": 261,
+          "name": "Shawn Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990984
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:258",
+      "target": "album:6773",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14352",
-      "song_id": 14352,
+      "work_type": "Song",
+      "work_id": 14352,
       "title": "Weathered Miles",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,102 @@
       "own": true,
       "artist_id": 14360,
       "artist_name": "Michael Nixon",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14353,
+          "name": "Debra Graham",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397814
+        },
+        {
+          "person_id": 14354,
+          "name": "Edward Evans",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397814
+        },
+        {
+          "person_id": 14355,
+          "name": "Dylan Schwartz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397814
+        },
+        {
+          "person_id": 14357,
+          "name": "Amy Powell",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397814
+        },
+        {
+          "person_id": 14358,
+          "name": "Shawn Johnson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397814
+        },
+        {
+          "person_id": 14359,
+          "name": "Joel Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397814
+        },
+        {
+          "person_id": 14361,
+          "name": "Nathan Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397814
+        },
+        {
+          "person_id": 14356,
+          "name": "James Henderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397387
+        }
+      ]
+    },
+    {
+      "id": "album:17231",
+      "work_type": "Album",
+      "work_id": 17231,
+      "title": "Tides of Echos",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 17230,
+      "artist_name": "The Wave Riders（成员：Kai Reynolds｜预测 2.80、Aiden Harper｜预测 2.96…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +118,63 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.271183
+        },
+        {
+          "person_id": 17227,
+          "name": "Aiden Harper",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.96245
+        },
+        {
+          "person_id": 17229,
+          "name": "Skylar Brooks",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.96245
+        },
+        {
+          "person_id": 17228,
+          "name": "Finn Morgan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.946525
+        },
+        {
+          "person_id": 17226,
+          "name": "Kai Reynolds",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.7951815
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17231",
+      "target": "song:14352",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

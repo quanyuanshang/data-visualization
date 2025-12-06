@@ -4,8 +4,31 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:16099",
+      "work_type": "Album",
+      "work_id": 16099,
+      "title": "Cerulean Rhythm Pulse",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 3424,
+      "artist_name": "Stilla Koch",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
       "id": "song:3422",
-      "song_id": 3422,
+      "work_type": "Song",
+      "work_id": 3422,
       "title": "Masked Frontier",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,8 +44,86 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3425,
+          "name": "Holger Trupp",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396954
+        },
+        {
+          "person_id": 3423,
+          "name": "Marika Rörricht",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969407
+        }
+      ]
+    },
+    {
+      "id": "song:3422",
+      "work_type": "Song",
+      "work_id": 3422,
+      "title": "Masked Frontier",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 3425,
+      "artist_name": "Holger Trupp",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3424,
+          "name": "Stilla Koch",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0435789
+        },
+        {
+          "person_id": 3425,
+          "name": "Holger Trupp",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396954
+        },
+        {
+          "person_id": 3423,
+          "name": "Marika Rörricht",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969407
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:3422",
+      "target": "album:16099",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

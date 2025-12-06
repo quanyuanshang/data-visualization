@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15552",
-      "song_id": 15552,
-      "title": "Tomorrow's Whisper",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 13939,
-      "artist_name": "Hüseyin Paffrath",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13934",
-      "song_id": 13934,
+      "work_type": "Song",
+      "work_id": 13934,
       "title": "Bridges Between Words and Worlds",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +22,101 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13935,
+          "name": "Jun Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39686
+        },
+        {
+          "person_id": 13936,
+          "name": "Qiang Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39686
+        },
+        {
+          "person_id": 13937,
+          "name": "Juan Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39686
+        },
+        {
+          "person_id": 13938,
+          "name": "Yang Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39686
+        }
+      ]
+    },
+    {
+      "id": "song:15552",
+      "work_type": "Song",
+      "work_id": 15552,
+      "title": "Tomorrow's Whisper",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 13939,
+      "artist_name": "Hüseyin Paffrath",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14056,
+          "name": "Miss Allison King",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0447817
+        },
+        {
+          "person_id": 15554,
+          "name": "Tao Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978229
+        },
+        {
+          "person_id": 15553,
+          "name": "Lei Gong",
+          "stage_name": "Cameron Fox",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397802
+        }
+      ]
     },
     {
       "id": "song:10142",
-      "song_id": 10142,
+      "work_type": "Song",
+      "work_id": 10142,
       "title": "Harmony of Heartache",
       "genre": "Doom Metal",
       "notable": true,
@@ -63,6 +134,19 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7774,
+          "name": "Claudia Lee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0258138
+        }
       ]
     }
   ],

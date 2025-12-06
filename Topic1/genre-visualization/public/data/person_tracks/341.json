@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2331",
-      "song_id": 2331,
-      "title": "Primavera's Whisper",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2011,
-      "single": true,
-      "own": true,
-      "artist_id": 341,
-      "artist_name": "Dierk Bohlander",
-      "influence": 16,
-      "influence_breakdown": {
-        "cover": 2,
-        "sample": 0,
-        "reference": 2,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15104",
-      "song_id": 15104,
+      "work_type": "Song",
+      "work_id": 15104,
       "title": "Silent Grace",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -34,106 +15,95 @@
       "own": true,
       "artist_id": 341,
       "artist_name": "Dierk Bohlander",
-      "influence": 20,
+      "influence": 22,
       "influence_breakdown": {
         "cover": 2,
         "sample": 0,
         "reference": 2,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:1933",
-      "song_id": 1933,
-      "title": "Wandering Miles",
-      "genre": "Avant-Garde Folk",
-      "notable": true,
-      "release_year": 2025,
-      "single": true,
-      "own": false,
-      "artist_id": 1934,
-      "artist_name": "Aleksander Przybyś",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.705118
+        }
       ]
     },
     {
-      "id": "song:6503",
-      "song_id": 6503,
-      "title": "Bund Boogie",
-      "genre": "Emo/Pop Punk",
+      "id": "album:339",
+      "work_type": "Album",
+      "work_id": 339,
+      "title": "Whispers of a Thousand Moons",
+      "genre": "Southern Gothic Rock",
       "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": false,
-      "artist_id": 1934,
-      "artist_name": "Aleksander Przybyś",
-      "influence": 0,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 341,
+      "artist_name": "Dierk Bohlander",
+      "influence": 5,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 340,
+          "name": "Kornelia Raczkiewicz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984332
+        }
       ]
     },
     {
-      "id": "song:10812",
-      "song_id": 10812,
-      "title": "Silent Protocol",
-      "genre": "Emo/Pop Punk",
+      "id": "song:2331",
+      "work_type": "Song",
+      "work_id": 2331,
+      "title": "Primavera's Whisper",
+      "genre": "Blues Rock",
       "notable": true,
-      "release_year": 2017,
+      "release_year": 2011,
       "single": true,
-      "own": false,
-      "artist_id": 551,
-      "artist_name": "Szymon Pyć",
-      "influence": 0,
+      "own": true,
+      "artist_id": 341,
+      "artist_name": "Dierk Bohlander",
+      "influence": 19,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 2,
         "sample": 0,
-        "reference": 0,
+        "reference": 3,
         "style": 0
       },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:15894",
-      "song_id": 15894,
-      "title": "Ethereal Threshold",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2014,
-      "single": true,
-      "own": false,
-      "artist_id": 8037,
-      "artist_name": "Olga Kosałka",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
       ]
     },
     {
       "id": "song:4631",
-      "song_id": 4631,
+      "work_type": "Song",
+      "work_id": 4631,
       "title": "Botanical Echoes and Forgotten Rhythms",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -151,11 +121,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4633,
+          "name": "Juan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1070886
+        },
+        {
+          "person_id": 4632,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261239
+        }
       ]
     },
     {
       "id": "song:5361",
-      "song_id": 5361,
+      "work_type": "Song",
+      "work_id": 5361,
       "title": "Echoes of Adoration",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -173,11 +165,41 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        },
+        {
+          "person_id": 5363,
+          "name": "Jing Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9405258
+        }
       ]
     },
     {
       "id": "song:8949",
-      "song_id": 8949,
+      "work_type": "Song",
+      "work_id": 8949,
       "title": "The Silent Paths of Rosvina",
       "genre": "Alternative Rock",
       "notable": true,
@@ -195,11 +217,25 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8950,
+          "name": "Carolyn Donovan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4422855
+        }
       ]
     },
     {
       "id": "song:10247",
-      "song_id": 10247,
+      "work_type": "Song",
+      "work_id": 10247,
       "title": "Empty Spaces",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -217,11 +253,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.705118
+        },
+        {
+          "person_id": 10248,
+          "name": "Melissa Watson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.393814
+        }
       ]
     },
     {
       "id": "song:11878",
-      "song_id": 11878,
+      "work_type": "Song",
+      "work_id": 11878,
       "title": "Glowing Connection",
       "genre": "Alternative Rock",
       "notable": true,
@@ -239,11 +297,95 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        },
+        {
+          "person_id": 11879,
+          "name": "Jing Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961942
+        }
+      ]
+    },
+    {
+      "id": "album:13196",
+      "work_type": "Album",
+      "work_id": 13196,
+      "title": "Frostbound Choreography",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 2668,
+      "artist_name": "Ping Tian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 9809,
+          "name": "Guiying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4022245
+        }
       ]
     },
     {
       "id": "song:14834",
-      "song_id": 14834,
+      "work_type": "Song",
+      "work_id": 14834,
       "title": "Honestly Honestly",
       "genre": "Indie Pop",
       "notable": true,
@@ -261,19 +403,315 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.705118
+        }
+      ]
+    },
+    {
+      "id": "song:11936",
+      "work_type": "Song",
+      "work_id": 11936,
+      "title": "Tender Destruction",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 1248,
+          "name": "Gang Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.424843
+        },
+        {
+          "person_id": 11937,
+          "name": "Ashley Mahoney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993952
+        }
+      ]
+    },
+    {
+      "id": "song:1933",
+      "work_type": "Song",
+      "work_id": 1933,
+      "title": "Wandering Miles",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 1934,
+      "artist_name": "Aleksander Przybyś",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
+      ]
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
+    },
+    {
+      "id": "song:6503",
+      "work_type": "Song",
+      "work_id": 6503,
+      "title": "Bund Boogie",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 1934,
+      "artist_name": "Aleksander Przybyś",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
+      ]
+    },
+    {
+      "id": "song:10812",
+      "work_type": "Song",
+      "work_id": 10812,
+      "title": "Silent Protocol",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 10813,
+          "name": "Maks Bodek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969538
+        }
+      ]
+    },
+    {
+      "id": "song:15894",
+      "work_type": "Song",
+      "work_id": 15894,
+      "title": "Ethereal Threshold",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2014,
+      "single": true,
+      "own": false,
+      "artist_id": 8037,
+      "artist_name": "Olga Kosałka",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 8037,
+          "name": "Olga Kosałka",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4373233
+        },
+        {
+          "person_id": 15895,
+          "name": "Sandra Majak",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.423195
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4631",
-      "target": "song:15104",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:1933",
       "target": "song:2331",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11878",
+      "target": "song:15104",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10812",
+      "target": "song:2331",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:4631",
+      "target": "song:15104",
+      "type": "CoverOf"
     },
     {
       "source": "song:10247",
@@ -281,9 +719,24 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:11878",
-      "target": "song:15104",
+      "source": "album:4167",
+      "target": "song:2331",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14834",
+      "target": "song:15104",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:13196",
+      "target": "song:15104",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15894",
+      "target": "song:2331",
+      "type": "CoverOf"
     },
     {
       "source": "song:6503",
@@ -296,23 +749,13 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:14834",
+      "source": "song:5361",
       "target": "song:15104",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:15894",
-      "target": "song:2331",
       "type": "CoverOf"
     },
     {
-      "source": "song:10812",
-      "target": "song:2331",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:5361",
-      "target": "song:15104",
+      "source": "song:11936",
+      "target": "album:339",
       "type": "CoverOf"
     }
   ]

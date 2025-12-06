@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14107",
-      "song_id": 14107,
+      "work_type": "Song",
+      "work_id": 14107,
       "title": "Folklore's Heartbeat",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,6 +15,38 @@
       "own": true,
       "artist_id": 14108,
       "artist_name": "Tao Hu",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12948,
+          "name": "Brooke Olson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0405242
+        }
+      ]
+    },
+    {
+      "id": "album:17049",
+      "work_type": "Album",
+      "work_id": 17049,
+      "title": "Electric Reverie",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2038,
+      "single": false,
+      "own": false,
+      "artist_id": 17046,
+      "artist_name": "The Brine Choir（成员：Arlo Sterling｜预测 3.42、Lyra Blaze｜预测 3.36…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +54,72 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.271183
+        },
+        {
+          "person_id": 17041,
+          "name": "Arlo Sterling",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4184065
+        },
+        {
+          "person_id": 17044,
+          "name": "Elara May",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.418181
+        },
+        {
+          "person_id": 17042,
+          "name": "Lyra Blaze",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3638554
+        },
+        {
+          "person_id": 17043,
+          "name": "Orion Cruz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3583899
+        },
+        {
+          "person_id": 17045,
+          "name": "Cassian Rae",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3576283
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17049",
+      "target": "song:14107",
+      "type": "InStyleOf"
+    }
+  ]
 }

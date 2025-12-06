@@ -1,0 +1,109 @@
+{
+  "person_id": 11126,
+  "name": "Zaina Zacharia",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11125",
+      "work_type": "Album",
+      "work_id": 11125,
+      "title": "Glacial Heartlines",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 11126,
+      "artist_name": "Zaina Zacharia",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 1839,
+          "name": "Miguel Johnston",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7364244
+        }
+      ]
+    },
+    {
+      "id": "song:10419",
+      "work_type": "Song",
+      "work_id": 10419,
+      "title": "Lagoon's Legacy",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 10420,
+          "name": "Yang Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999915
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10419",
+      "target": "album:11125",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -4,8 +4,41 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:11949",
+      "work_type": "Album",
+      "work_id": 11949,
+      "title": "Whispers of Verdant Awakening",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 7735,
+      "artist_name": "Joseph Jackson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11950,
+          "name": "Yong Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3992157
+        }
+      ]
+    },
+    {
       "id": "song:7733",
-      "song_id": 7733,
+      "work_type": "Song",
+      "work_id": 7733,
       "title": "The Price of Belonging",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +47,30 @@
       "own": true,
       "artist_id": 7735,
       "artist_name": "Joseph Jackson",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7734,
+          "name": "Christina Villa",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399425
+        }
+      ]
     },
     {
       "id": "song:6205",
-      "song_id": 6205,
+      "work_type": "Song",
+      "work_id": 6205,
       "title": "Candlelight Memories",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,10 +88,44 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6206,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975096
+        },
+        {
+          "person_id": 6207,
+          "name": "Chao Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975096
+        },
+        {
+          "person_id": 6208,
+          "name": "Yang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975096
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:11949",
+      "target": "song:7733",
+      "type": "CoverOf"
+    },
     {
       "source": "song:6205",
       "target": "song:7733",

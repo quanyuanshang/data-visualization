@@ -1,0 +1,210 @@
+{
+  "person_id": 2442,
+  "name": "Fang Liao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2440",
+      "work_type": "Album",
+      "work_id": 2440,
+      "title": "Falling Without Landing",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 2442,
+      "artist_name": "Fang Liao",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2443,
+          "name": "Lei Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4102592
+        },
+        {
+          "person_id": 2441,
+          "name": "Juan Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989985
+        },
+        {
+          "person_id": 2444,
+          "name": "Yan Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989985
+        }
+      ]
+    },
+    {
+      "id": "song:395",
+      "work_type": "Song",
+      "work_id": 395,
+      "title": "Broken Mugs and Memories",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 396,
+      "artist_name": "Min Chang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 397,
+          "name": "Qiang Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.416152
+        },
+        {
+          "person_id": 396,
+          "name": "Min Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960595
+        },
+        {
+          "person_id": 398,
+          "name": "Xia Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960595
+        },
+        {
+          "person_id": 399,
+          "name": "Wei Bai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960595
+        }
+      ]
+    },
+    {
+      "id": "song:7672",
+      "work_type": "Song",
+      "work_id": 7672,
+      "title": "Mineral Whispers",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 7673,
+      "artist_name": "Alicia Rice",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7673,
+          "name": "Alicia Rice",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4000027
+        },
+        {
+          "person_id": 7674,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7675,
+          "name": "Fang Qin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7676,
+          "name": "Yan Qiu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7677,
+          "name": "Katherine Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7678,
+          "name": "Ming Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399833
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:395",
+      "target": "album:2440",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7672",
+      "target": "album:2440",
+      "type": "InStyleOf"
+    }
+  ]
+}

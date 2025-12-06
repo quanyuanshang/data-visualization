@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7624",
-      "song_id": 7624,
+      "work_type": "Song",
+      "work_id": 7624,
       "title": "Bin Roulette",
       "genre": "Synthpop",
       "notable": true,
@@ -14,6 +15,76 @@
       "own": true,
       "artist_id": 7625,
       "artist_name": "Li Ding",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2144,
+          "name": "Yong Yi",
+          "stage_name": "YNG LUX",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0576487
+        },
+        {
+          "person_id": 7626,
+          "name": "Yan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3967354
+        },
+        {
+          "person_id": 7627,
+          "name": "Xiuying Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3967354
+        },
+        {
+          "person_id": 7628,
+          "name": "Lei Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967354
+        },
+        {
+          "person_id": 7629,
+          "name": "Li Zou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3967354
+        }
+      ]
+    },
+    {
+      "id": "album:2143",
+      "work_type": "Album",
+      "work_id": 2143,
+      "title": "Momentum Amplified",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 2144,
+      "artist_name": "Yong Yi (YNG LUX)",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +92,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2144,
+          "name": "Yong Yi",
+          "stage_name": "YNG LUX",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0576487
+        },
+        {
+          "person_id": 2145,
+          "name": "Trevor Gonzales",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990638
+        },
+        {
+          "person_id": 2146,
+          "name": "Li Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990638
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:2143",
+      "target": "song:7624",
+      "type": "DirectlySamples"
+    }
+  ]
 }

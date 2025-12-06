@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10301",
-      "song_id": 10301,
-      "title": "Silver Screen Soirée",
-      "genre": "Symphonic Metal",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 10303,
-      "artist_name": "Konrad Meissner",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:10859",
-      "song_id": 10859,
+      "work_type": "Song",
+      "work_id": 10859,
       "title": "Bortglömd Brevlåda vid Landsvägen (Forgotten Mailbox by the Road)",
       "genre": "Doom Metal",
       "notable": true,
@@ -34,18 +15,58 @@
       "own": true,
       "artist_id": 10303,
       "artist_name": "Konrad Meissner",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10306,
+          "name": "Natasza Dydo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4265091
+        },
+        {
+          "person_id": 10304,
+          "name": "Ida Ryfa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        },
+        {
+          "person_id": 10307,
+          "name": "Klara Parkitna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        },
+        {
+          "person_id": 10860,
+          "name": "Roksana Kurzyna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993506
+        }
+      ]
     },
     {
       "id": "song:15839",
-      "song_id": 15839,
+      "work_type": "Song",
+      "work_id": 15839,
       "title": "She's Not The Same Anymore",
       "genre": "Doom Metal",
       "notable": true,
@@ -61,11 +82,147 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4753,
+          "name": "Bartek Krężołek",
+          "stage_name": " Neon Ghost",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.0770826
+        },
+        {
+          "person_id": 4756,
+          "name": "Stefan Berus",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9292412
+        },
+        {
+          "person_id": 15840,
+          "name": "Adrianna Kurc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985941
+        }
+      ]
+    },
+    {
+      "id": "song:10301",
+      "work_type": "Song",
+      "work_id": 10301,
+      "title": "Silver Screen Soirée",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 10303,
+      "artist_name": "Konrad Meissner",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10306,
+          "name": "Natasza Dydo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4265091
+        },
+        {
+          "person_id": 10304,
+          "name": "Ida Ryfa",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        },
+        {
+          "person_id": 10307,
+          "name": "Klara Parkitna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        },
+        {
+          "person_id": 10302,
+          "name": "Fabian Durys",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995073
+        },
+        {
+          "person_id": 10305,
+          "name": "Magdalene Fliegner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995073
+        }
+      ]
+    },
+    {
+      "id": "album:13254",
+      "work_type": "Album",
+      "work_id": 13254,
+      "title": "Pristine Falling Apart",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 126,
+      "artist_name": "Miloš Pokorný",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 126,
+          "name": "Miloš Pokorný",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.019742
+        }
+      ]
     },
     {
       "id": "song:4752",
-      "song_id": 4752,
+      "work_type": "Song",
+      "work_id": 4752,
       "title": "Olfactory Obsession",
       "genre": "Doom Metal",
       "notable": true,
@@ -83,13 +240,126 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4753,
+          "name": "Bartek Krężołek",
+          "stage_name": " Neon Ghost",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0770826
+        },
+        {
+          "person_id": 4756,
+          "name": "Stefan Berus",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9292412
+        },
+        {
+          "person_id": 4755,
+          "name": "Mikołaj Rosłoń",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4273274
+        },
+        {
+          "person_id": 4754,
+          "name": "Julita Kudełka",
+          "stage_name": "Julita",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979225
+        }
+      ]
+    },
+    {
+      "id": "album:7782",
+      "work_type": "Album",
+      "work_id": 7782,
+      "title": "Divine Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 6862,
+      "artist_name": "Xia Qiu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6862,
+          "name": "Xia Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3470175
+        },
+        {
+          "person_id": 7784,
+          "name": "Sarah Caldwell",
+          "stage_name": "Solenne",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996882
+        },
+        {
+          "person_id": 7783,
+          "name": "Lei Jiang",
+          "stage_name": " BLVE",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996675
+        },
+        {
+          "person_id": 7785,
+          "name": "Stephanie Gray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996675
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:7782",
+      "target": "song:10301",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:4752",
       "target": "song:15839",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13254",
+      "target": "song:10859",
       "type": "InStyleOf"
     }
   ]

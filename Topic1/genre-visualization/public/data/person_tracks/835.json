@@ -4,8 +4,93 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:16333",
+      "work_type": "Song",
+      "work_id": 16333,
+      "title": "Love's Ultimate Pledge",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 835,
+      "artist_name": "Franck Prévost de la Bertrand",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8585,
+          "name": "Michel Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4417253
+        },
+        {
+          "person_id": 16334,
+          "name": "Robert Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997629
+        }
+      ]
+    },
+    {
+      "id": "album:833",
+      "work_type": "Album",
+      "work_id": 833,
+      "title": "Someday Never Comes",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 835,
+      "artist_name": "Franck Prévost de la Bertrand",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 836,
+          "name": "Adrien Techer du Voisin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0315928
+        },
+        {
+          "person_id": 834,
+          "name": "Jessica Bernard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4015145
+        }
+      ]
+    },
+    {
       "id": "song:11635",
-      "song_id": 11635,
+      "work_type": "Song",
+      "work_id": 11635,
       "title": "Echoes of Intimacy",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +99,39 @@
       "own": true,
       "artist_id": 835,
       "artist_name": "Franck Prévost de la Bertrand",
-      "influence": 5,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
+        "sample": 1,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 836,
+          "name": "Adrien Techer du Voisin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0315928
+        },
+        {
+          "person_id": 11636,
+          "name": "Lucie Tanguy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4311068
+        }
+      ]
     },
     {
       "id": "song:13994",
-      "song_id": 13994,
+      "work_type": "Song",
+      "work_id": 13994,
       "title": "After the Storm",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,48 +147,26 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:16333",
-      "song_id": 16333,
-      "title": "Love's Ultimate Pledge",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": true,
-      "artist_id": 835,
-      "artist_name": "Franck Prévost de la Bertrand",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:16333",
-      "song_id": 16333,
-      "title": "Love's Ultimate Pledge",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": true,
-      "artist_id": 835,
-      "artist_name": "Franck Prévost de la Bertrand",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2472,
+          "name": "Bryan Richardson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0060618
+        },
+        {
+          "person_id": 13995,
+          "name": "Martin Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399554
+        }
       ]
     }
   ],
@@ -91,6 +175,16 @@
       "source": "song:16333",
       "target": "song:11635",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:16333",
+      "target": "album:833",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:833",
+      "target": "song:11635",
+      "type": "DirectlySamples"
     }
   ]
 }

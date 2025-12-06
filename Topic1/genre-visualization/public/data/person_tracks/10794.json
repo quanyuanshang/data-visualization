@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10793",
-      "song_id": 10793,
-      "title": "Miles From Where I Belong",
-      "genre": "Synthwave",
-      "notable": false,
-      "release_year": 2013,
-      "single": true,
+      "id": "album:13342",
+      "work_type": "Album",
+      "work_id": 13342,
+      "title": "Unaccompanied Breath",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
       "own": true,
       "artist_id": 10794,
       "artist_name": "Frédéric de la Coulon",
@@ -21,11 +22,50 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10798,
+          "name": "Valérie Mathieu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0678878
+        },
+        {
+          "person_id": 13343,
+          "name": "Michelle Weiss",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3920145
+        },
+        {
+          "person_id": 13344,
+          "name": "Paul-Louis Benard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3920145
+        },
+        {
+          "person_id": 13345,
+          "name": "Éric Lamy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3920145
+        }
+      ]
     },
     {
       "id": "song:13591",
-      "song_id": 13591,
+      "work_type": "Song",
+      "work_id": 13591,
       "title": "Echoes of a Sylvan Daydream",
       "genre": "Doom Metal",
       "notable": true,
@@ -34,14 +74,156 @@
       "own": true,
       "artist_id": 10794,
       "artist_name": "Frédéric de la Coulon",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10798,
+          "name": "Valérie Mathieu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0678878
+        }
+      ]
+    },
+    {
+      "id": "song:10793",
+      "work_type": "Song",
+      "work_id": 10793,
+      "title": "Miles From Where I Belong",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 10794,
+      "artist_name": "Frédéric de la Coulon",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10798,
+          "name": "Valérie Mathieu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0678878
+        },
+        {
+          "person_id": 10795,
+          "name": "Kristina Lang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3926363
+        },
+        {
+          "person_id": 10796,
+          "name": "Tiffany Cain",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3926363
+        },
+        {
+          "person_id": 10797,
+          "name": "Aarav Chada",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3926363
+        }
+      ]
+    },
+    {
+      "id": "song:10793",
+      "work_type": "Song",
+      "work_id": 10793,
+      "title": "Miles From Where I Belong",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 10795,
+      "artist_name": "Kristina Lang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10794,
+          "name": "Frédéric de la Coulon",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0678878
+        },
+        {
+          "person_id": 10798,
+          "name": "Valérie Mathieu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0678878
+        },
+        {
+          "person_id": 10795,
+          "name": "Kristina Lang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3926363
+        },
+        {
+          "person_id": 10796,
+          "name": "Tiffany Cain",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3926363
+        },
+        {
+          "person_id": 10797,
+          "name": "Aarav Chada",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3926363
+        }
+      ]
     }
   ],
   "links": [
@@ -49,6 +231,16 @@
       "source": "song:10793",
       "target": "song:13591",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:13342",
+      "target": "song:13591",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13342",
+      "target": "song:10793",
+      "type": "InterpolatesFrom"
     }
   ]
 }

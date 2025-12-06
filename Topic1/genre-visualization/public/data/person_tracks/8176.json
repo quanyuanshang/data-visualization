@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8811",
-      "song_id": 8811,
-      "title": "Cherry Blossoms and Distance",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 8176,
-      "artist_name": "Melissa Wilson",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8174",
-      "song_id": 8174,
+      "work_type": "Song",
+      "work_id": 8174,
       "title": "Pellon Reunalla (At the Edge of the Field)",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,7 +22,104 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8175,
+          "name": "Dawn Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9900126
+        },
+        {
+          "person_id": 8177,
+          "name": "Francisco Manning",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9484005
+        }
+      ]
+    },
+    {
+      "id": "song:8811",
+      "work_type": "Song",
+      "work_id": 8811,
+      "title": "Cherry Blossoms and Distance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 8176,
+      "artist_name": "Melissa Wilson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8177,
+          "name": "Francisco Manning",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9484005
+        }
+      ]
+    },
+    {
+      "id": "song:8811",
+      "work_type": "Song",
+      "work_id": 8811,
+      "title": "Cherry Blossoms and Distance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 8177,
+      "artist_name": "Francisco Manning",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8176,
+          "name": "Melissa Wilson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.954571
+        },
+        {
+          "person_id": 8177,
+          "name": "Francisco Manning",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9484005
+        }
+      ]
     }
   ],
   "links": [

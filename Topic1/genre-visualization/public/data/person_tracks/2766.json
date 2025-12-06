@@ -4,8 +4,77 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:7913",
+      "work_type": "Album",
+      "work_id": 7913,
+      "title": "Stars and Fractures",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 2766,
+      "artist_name": "Jun Zhang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7916,
+          "name": "Yong Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4380143
+        },
+        {
+          "person_id": 2763,
+          "name": "Jun Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.371815
+        },
+        {
+          "person_id": 7915,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0454261
+        },
+        {
+          "person_id": 7914,
+          "name": "Ping Mo",
+          "stage_name": "Shane Walker",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397225
+        },
+        {
+          "person_id": 7917,
+          "name": "Ming Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397225
+        }
+      ]
+    },
+    {
       "id": "song:2761",
-      "song_id": 2761,
+      "work_type": "Song",
+      "work_id": 2761,
       "title": "Echoes Without Footsteps",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,8 +90,143 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 540,
+          "name": "Rei Ito",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7094824
+        },
+        {
+          "person_id": 2763,
+          "name": "Jun Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.371815
+        },
+        {
+          "person_id": 2762,
+          "name": "Tao Chen",
+          "stage_name": "Dusk Fugue",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990393
+        },
+        {
+          "person_id": 2764,
+          "name": "Fang Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990393
+        },
+        {
+          "person_id": 2765,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990393
+        }
+      ]
+    },
+    {
+      "id": "song:12661",
+      "work_type": "Song",
+      "work_id": 12661,
+      "title": "Wilderness of Judgment",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2014,
+      "single": false,
+      "own": false,
+      "artist_id": 2763,
+      "artist_name": "Jun Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7916,
+          "name": "Yong Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4380143
+        },
+        {
+          "person_id": 2763,
+          "name": "Jun Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.371815
+        },
+        {
+          "person_id": 7915,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0454261
+        },
+        {
+          "person_id": 12662,
+          "name": "Noah Braun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989518
+        },
+        {
+          "person_id": 12663,
+          "name": "Wei Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3989518
+        },
+        {
+          "person_id": 12664,
+          "name": "Min Wang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398728
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:12661",
+      "target": "album:7913",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

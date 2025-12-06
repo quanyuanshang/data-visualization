@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6777",
-      "song_id": 6777,
+      "work_type": "Song",
+      "work_id": 6777,
       "title": "Springtime's First Breath",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,143 @@
       "own": true,
       "artist_id": 869,
       "artist_name": "Tillmann Klemm",
-      "influence": 3,
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 870,
+          "name": "Janine Berger",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7088265
+        }
+      ]
+    },
+    {
+      "id": "album:866",
+      "work_type": "Album",
+      "work_id": 866,
+      "title": "Uncut Treasure",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 869,
+      "artist_name": "Tillmann Klemm",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 870,
+          "name": "Janine Berger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088265
+        },
+        {
+          "person_id": 867,
+          "name": "Anna Fechner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4019363
+        },
+        {
+          "person_id": 868,
+          "name": "Beatrice Albers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4019363
+        }
+      ]
+    },
+    {
+      "id": "album:866",
+      "work_type": "Album",
+      "work_id": 866,
+      "title": "Uncut Treasure",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 867,
+      "artist_name": "Anna Fechner",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 870,
+          "name": "Janine Berger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088265
+        },
+        {
+          "person_id": 869,
+          "name": "Tillmann Klemm",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0236807
+        },
+        {
+          "person_id": 867,
+          "name": "Anna Fechner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4019363
+        },
+        {
+          "person_id": 868,
+          "name": "Beatrice Albers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4019363
+        }
+      ]
     },
     {
       "id": "song:13973",
-      "song_id": 13973,
+      "work_type": "Song",
+      "work_id": 13973,
       "title": "Loose Change Lullaby",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,14 +169,182 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 870,
+          "name": "Janine Berger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7088265
+        },
+        {
+          "person_id": 13974,
+          "name": "Agata Bähr-Metz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982127
+        },
+        {
+          "person_id": 13975,
+          "name": "Gudrun Atzler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981276
+        }
+      ]
+    },
+    {
+      "id": "album:14461",
+      "work_type": "Album",
+      "work_id": 14461,
+      "title": "Clouds Beneath My Skin",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 14462,
+      "artist_name": "Harriet Wilms-Segebahn",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 870,
+          "name": "Janine Berger",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7088265
+        },
+        {
+          "person_id": 14463,
+          "name": "Eugenie Scheel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992598
+        },
+        {
+          "person_id": 14462,
+          "name": "Harriet Wilms-Segebahn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985205
+        }
+      ]
+    },
+    {
+      "id": "song:10283",
+      "work_type": "Song",
+      "work_id": 10283,
+      "title": "Windmill's Whisper",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 10284,
+      "artist_name": "Terry Nelson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10284,
+          "name": "Terry Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398808
+        },
+        {
+          "person_id": 10285,
+          "name": "Phillip Kane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398808
+        },
+        {
+          "person_id": 10286,
+          "name": "Michael Perez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398808
+        },
+        {
+          "person_id": 10287,
+          "name": "Benjamin Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398808
+        },
+        {
+          "person_id": 10288,
+          "name": "Jeffrey Butler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398808
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:14461",
+      "target": "song:6777",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:13973",
       "target": "song:6777",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:866",
+      "target": "song:6777",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10283",
+      "target": "album:866",
+      "type": "CoverOf"
     }
   ]
 }

@@ -1,0 +1,149 @@
+{
+  "person_id": 13569,
+  "name": "Amanda Frazier",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13568",
+      "work_type": "Album",
+      "work_id": 13568,
+      "title": "Prostrate Passion",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 13569,
+      "artist_name": "Amanda Frazier",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4504,
+          "name": "Charles Delahaye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0378788
+        }
+      ]
+    },
+    {
+      "id": "song:1384",
+      "work_type": "Song",
+      "work_id": 1384,
+      "title": "Mercy's Gentle Whisper",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1385,
+      "artist_name": "Xiulan Liu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1386,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982358
+        },
+        {
+          "person_id": 1385,
+          "name": "Xiulan Liu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398012
+        }
+      ]
+    },
+    {
+      "id": "song:1680",
+      "work_type": "Song",
+      "work_id": 1680,
+      "title": "Riddle of the Frozen Princess",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1683,
+      "artist_name": "Jing Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1681,
+          "name": "Lei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1682,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1683,
+          "name": "Jing Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981771
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1384",
+      "target": "album:13568",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:1680",
+      "target": "album:13568",
+      "type": "InStyleOf"
+    }
+  ]
+}

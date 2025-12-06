@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8174",
-      "song_id": 8174,
-      "title": "Pellon Reunalla (At the Edge of the Field)",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2020,
-      "single": false,
-      "own": true,
-      "artist_id": 8175,
-      "artist_name": "Dawn Johnson",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:10931",
-      "song_id": 10931,
+      "work_type": "Song",
+      "work_id": 10931,
       "title": "Cryptic Wavelength",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,33 +22,83 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10932,
+          "name": "Brandon Hoffman",
+          "stage_name": "Infinite Monsoon",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0398104
+        },
+        {
+          "person_id": 10933,
+          "name": "Joseph Chen",
+          "stage_name": "EAZY 9INE",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0383782
+        },
+        {
+          "person_id": 10934,
+          "name": "Shelby Hunt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993669
+        }
+      ]
     },
     {
-      "id": "song:8811",
-      "song_id": 8811,
-      "title": "Cherry Blossoms and Distance",
-      "genre": "Dream Pop",
+      "id": "song:8174",
+      "work_type": "Song",
+      "work_id": 8174,
+      "title": "Pellon Reunalla (At the Edge of the Field)",
+      "genre": "Indie Folk",
       "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": false,
-      "artist_id": 8177,
-      "artist_name": "Francisco Manning",
-      "influence": 0,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 8175,
+      "artist_name": "Dawn Johnson",
+      "influence": 5,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8176,
+          "name": "Melissa Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.954571
+        },
+        {
+          "person_id": 8177,
+          "name": "Francisco Manning",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9484005
+        }
       ]
     },
     {
       "id": "song:14197",
-      "song_id": 14197,
+      "work_type": "Song",
+      "work_id": 14197,
       "title": "Rumbo al Horizonte",
       "genre": "Indie Rock",
       "notable": true,
@@ -85,6 +116,70 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10932,
+          "name": "Brandon Hoffman",
+          "stage_name": "Infinite Monsoon",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0398104
+        },
+        {
+          "person_id": 10933,
+          "name": "Joseph Chen",
+          "stage_name": "EAZY 9INE",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0383782
+        }
+      ]
+    },
+    {
+      "id": "song:8811",
+      "work_type": "Song",
+      "work_id": 8811,
+      "title": "Cherry Blossoms and Distance",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 8177,
+      "artist_name": "Francisco Manning",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8176,
+          "name": "Melissa Wilson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.954571
+        },
+        {
+          "person_id": 8177,
+          "name": "Francisco Manning",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9484005
+        }
       ]
     }
   ],

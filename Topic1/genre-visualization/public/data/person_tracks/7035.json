@@ -5,12 +5,54 @@
   "nodes": [
     {
       "id": "song:7034",
-      "song_id": 7034,
+      "work_type": "Song",
+      "work_id": 7034,
       "title": "Identidad Privada",
       "genre": "Alternative Rock",
       "notable": true,
       "release_year": 2010,
       "single": true,
+      "own": true,
+      "artist_id": 7035,
+      "artist_name": "Matthew Carter ( The Saint)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1534,
+          "name": "Holly Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7183068
+        }
+      ]
+    },
+    {
+      "id": "album:14908",
+      "work_type": "Album",
+      "work_id": 14908,
+      "title": "The Adventurer's Lament",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
       "own": true,
       "artist_id": 7035,
       "artist_name": "Matthew Carter ( The Saint)",
@@ -21,8 +63,69 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.60809
+        }
+      ]
+    },
+    {
+      "id": "album:14908",
+      "work_type": "Album",
+      "work_id": 14908,
+      "title": "The Adventurer's Lament",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": true,
+      "artist_id": 7035,
+      "artist_name": "Matthew Carter ( The Saint)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 7035,
+          "name": "Matthew Carter",
+          "stage_name": " The Saint",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0235913
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14908",
+      "target": "song:7034",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

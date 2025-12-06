@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15889",
-      "song_id": 15889,
-      "title": "Whispers in Shadows",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 2780,
-      "artist_name": "Melina Tebaldi",
-      "influence": 9,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 1,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2779",
-      "song_id": 2779,
+      "work_type": "Song",
+      "work_id": 2779,
       "title": "Rhythmic Regiment",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -41,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2781,
+          "name": "Michelangelo Berlusconi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.716518
+        },
+        {
+          "person_id": 2782,
+          "name": "Stephen Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6581423
+        }
+      ]
     },
     {
       "id": "song:4534",
-      "song_id": 4534,
+      "work_type": "Song",
+      "work_id": 4534,
       "title": "Whispers Between Lines",
       "genre": "Dream Pop",
       "notable": true,
@@ -61,11 +64,93 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2782,
+          "name": "Stephen Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6581423
+        },
+        {
+          "person_id": 4535,
+          "name": "Kelsey Martinez",
+          "stage_name": "TRU VZN (True Vision)",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3953273
+        },
+        {
+          "person_id": 4536,
+          "name": "Amy Coleman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953273
+        },
+        {
+          "person_id": 4537,
+          "name": "Elizabeth Newton PhD",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953273
+        }
+      ]
+    },
+    {
+      "id": "song:15889",
+      "work_type": "Song",
+      "work_id": 15889,
+      "title": "Whispers in Shadows",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 2780,
+      "artist_name": "Melina Tebaldi",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2781,
+          "name": "Michelangelo Berlusconi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.716518
+        },
+        {
+          "person_id": 2782,
+          "name": "Stephen Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6581423
+        }
+      ]
     },
     {
       "id": "song:15316",
-      "song_id": 15316,
+      "work_type": "Song",
+      "work_id": 15316,
       "title": "Bloodline Legacy",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -85,19 +170,50 @@
         "CoverOf",
         "DirectlySamples",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2781,
+          "name": "Michelangelo Berlusconi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.716518
+        },
+        {
+          "person_id": 2782,
+          "name": "Stephen Meyer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6581423
+        },
+        {
+          "person_id": 15317,
+          "name": "Douglas Roberts",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966115
+        }
       ]
     },
     {
       "id": "song:17122",
-      "song_id": 17122,
+      "work_type": "Song",
+      "work_id": 17122,
       "title": "Skin and Saltwater",
       "genre": "Oceanus Folk",
       "notable": false,
       "release_year": 2037,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17120,
+      "artist_name": "Selkie's Hollow（成员：Zachary Cole｜预测 2.40、Lia Grant｜预测 2.40）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -107,10 +223,16 @@
       },
       "relation_types": [
         "DirectlySamples"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
+    {
+      "source": "song:15316",
+      "target": "song:15889",
+      "type": "CoverOf"
+    },
     {
       "source": "song:15316",
       "target": "song:2779",
@@ -120,11 +242,6 @@
       "source": "song:15316",
       "target": "song:4534",
       "type": "DirectlySamples"
-    },
-    {
-      "source": "song:15316",
-      "target": "song:15889",
-      "type": "CoverOf"
     },
     {
       "source": "song:17122",

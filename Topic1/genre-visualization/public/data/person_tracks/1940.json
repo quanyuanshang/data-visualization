@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1939",
-      "song_id": 1939,
+      "work_type": "Song",
+      "work_id": 1939,
       "title": "Paths Untrodden",
       "genre": "Space Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1662,
+          "name": "Yan Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2514086
+        },
+        {
+          "person_id": 1942,
+          "name": "Yan Han",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.926998
+        },
+        {
+          "person_id": 1941,
+          "name": "Yang Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7043383
+        }
+      ]
     },
     {
       "id": "song:15057",
-      "song_id": 15057,
+      "work_type": "Song",
+      "work_id": 15057,
       "title": "Nordiske stemninger",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +75,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15059,
+          "name": "Yan Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978057
+        },
+        {
+          "person_id": 15058,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397759
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6189",
-      "song_id": 6189,
+      "work_type": "Song",
+      "work_id": 6189,
       "title": "Riverstone Whispers",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:5663",
-      "song_id": 5663,
+      "work_type": "Song",
+      "work_id": 5663,
       "title": "Cognitive Disconnect",
       "genre": "Indie Folk",
       "notable": true,
@@ -34,18 +37,30 @@
       "own": true,
       "artist_id": 4483,
       "artist_name": "Catherine Prévost",
-      "influence": 3,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
-        "style": 0
+        "reference": 2,
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        }
+      ]
     },
     {
       "id": "song:8812",
-      "song_id": 8812,
+      "work_type": "Song",
+      "work_id": 8812,
       "title": "Tokyo Horizon",
       "genre": "Synthwave",
       "notable": true,
@@ -54,18 +69,30 @@
       "own": true,
       "artist_id": 4483,
       "artist_name": "Catherine Prévost",
-      "influence": 12,
+      "influence": 20,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 1,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        }
+      ]
     },
     {
       "id": "song:9143",
-      "song_id": 9143,
+      "work_type": "Song",
+      "work_id": 9143,
       "title": "Moment's Courage",
       "genre": "Indie Folk",
       "notable": true,
@@ -74,6 +101,80 @@
       "own": true,
       "artist_id": 4483,
       "artist_name": "Catherine Prévost",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        }
+      ]
+    },
+    {
+      "id": "album:4481",
+      "work_type": "Album",
+      "work_id": 4481,
+      "title": "The Fallibility of Me",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2001,
+      "single": false,
+      "own": true,
+      "artist_id": 4483,
+      "artist_name": "Catherine Prévost",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4482,
+          "name": "Jeanne Perrin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4107704
+        }
+      ]
+    },
+    {
+      "id": "album:4481",
+      "work_type": "Album",
+      "work_id": 4481,
+      "title": "The Fallibility of Me",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2001,
+      "single": false,
+      "own": false,
+      "artist_id": 2752,
+      "artist_name": "Thibault Potier",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -81,11 +182,108 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9300425
+        },
+        {
+          "person_id": 4482,
+          "name": "Jeanne Perrin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4107704
+        }
+      ]
+    },
+    {
+      "id": "album:7101",
+      "work_type": "Album",
+      "work_id": 7101,
+      "title": "Whispers in the Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 7102,
+      "artist_name": "Mannat Edwin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7102,
+          "name": "Mannat Edwin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7103,
+          "name": "Mahika Basu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7104,
+          "name": "Manjari Bobal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7105,
+          "name": "Nakul Gole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        }
+      ]
     },
     {
       "id": "song:8812",
-      "song_id": 8812,
+      "work_type": "Song",
+      "work_id": 8812,
       "title": "Tokyo Horizon",
       "genre": "Synthwave",
       "notable": true,
@@ -103,11 +301,132 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
+      ]
+    },
+    {
+      "id": "album:12710",
+      "work_type": "Album",
+      "work_id": 12710,
+      "title": "Karelia's Forgotten Echo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": false,
+      "artist_id": 2050,
+      "artist_name": "Na Lai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2050,
+          "name": "Na Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.261977
+        },
+        {
+          "person_id": 12714,
+          "name": "Yang Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977542
+        },
+        {
+          "person_id": 12716,
+          "name": "Li Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977542
+        },
+        {
+          "person_id": 12711,
+          "name": "Wei Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12713,
+          "name": "Jing Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12715,
+          "name": "Lei Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12717,
+          "name": "Jing Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975844
+        },
+        {
+          "person_id": 12712,
+          "name": "Jun Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971186
+        }
       ]
     },
     {
       "id": "song:9143",
-      "song_id": 9143,
+      "work_type": "Song",
+      "work_id": 9143,
       "title": "Moment's Courage",
       "genre": "Indie Folk",
       "notable": true,
@@ -125,19 +444,41 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
       ]
     },
     {
       "id": "song:17308",
-      "song_id": 17308,
+      "work_type": "Song",
+      "work_id": 17308,
       "title": "By the Stars",
       "genre": "Oceanus Folk",
       "notable": false,
       "release_year": 2001,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17299,
+      "artist_name": "The Saltwater Weavers（成员：Silas Finch｜预测 3.71、Coralia Bellweather｜预测 3.93…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -147,14 +488,98 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": []
+    },
+    {
+      "id": "album:1310",
+      "work_type": "Album",
+      "work_id": 1310,
+      "title": "Alleys and Ambition",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 753,
+      "artist_name": "Lei Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1312,
+          "name": "Barbara Weitzel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158084
+        },
+        {
+          "person_id": 1311,
+          "name": "Juan Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398836
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:6189",
+      "target": "song:8812",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6189",
+      "target": "album:4481",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:1310",
+      "target": "song:9143",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:9143",
+      "target": "song:8812",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:7101",
+      "target": "song:8812",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:17308",
       "target": "song:8812",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:4481",
+      "target": "song:5663",
+      "type": "InStyleOf"
     },
     {
       "source": "song:8812",
@@ -162,14 +587,24 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6189",
-      "target": "song:8812",
-      "type": "InterpolatesFrom"
+      "source": "album:12710",
+      "target": "song:5663",
+      "type": "InStyleOf"
     },
     {
       "source": "song:9143",
-      "target": "song:8812",
+      "target": "album:4481",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:7101",
+      "target": "song:5663",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:4481",
+      "target": "song:8812",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

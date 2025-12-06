@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8311",
-      "song_id": 8311,
-      "title": "Immaculate Echoes",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 8312,
-      "artist_name": "Eric Lewis",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:16034",
-      "song_id": 16034,
-      "title": "Halfway Between Us",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2000,
-      "single": true,
-      "own": true,
-      "artist_id": 8312,
-      "artist_name": "Eric Lewis",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:16507",
-      "song_id": 16507,
+      "work_type": "Song",
+      "work_id": 16507,
       "title": "Someday Soon",
       "genre": "Blues Rock",
       "notable": true,
@@ -61,7 +22,128 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8313,
+          "name": "William Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4452221
+        }
+      ]
+    },
+    {
+      "id": "song:16034",
+      "work_type": "Song",
+      "work_id": 16034,
+      "title": "Halfway Between Us",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": true,
+      "own": true,
+      "artist_id": 8312,
+      "artist_name": "Eric Lewis",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8313,
+          "name": "William Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4452221
+        }
+      ]
+    },
+    {
+      "id": "song:8311",
+      "work_type": "Song",
+      "work_id": 8311,
+      "title": "Immaculate Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 8312,
+      "artist_name": "Eric Lewis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8313,
+          "name": "William Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4452221
+        }
+      ]
+    },
+    {
+      "id": "song:8311",
+      "work_type": "Song",
+      "work_id": 8311,
+      "title": "Immaculate Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 8313,
+      "artist_name": "William Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8312,
+          "name": "Eric Lewis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.446154
+        },
+        {
+          "person_id": 8313,
+          "name": "William Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4452221
+        }
+      ]
     }
   ],
   "links": [

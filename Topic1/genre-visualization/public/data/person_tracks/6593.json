@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6592",
-      "song_id": 6592,
+      "work_type": "Song",
+      "work_id": 6592,
       "title": "When the Bar Lights Go Up",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:3627",
-      "song_id": 3627,
+      "work_type": "Song",
+      "work_id": 3627,
       "title": "Masked Shadows",
       "genre": "Southern Gothic Rock",
       "notable": false,
@@ -43,11 +46,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3629,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0835075
+        },
+        {
+          "person_id": 2210,
+          "name": "Lei Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0498252
+        },
+        {
+          "person_id": 2211,
+          "name": "Xiulan Deng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4600284
+        },
+        {
+          "person_id": 3628,
+          "name": "Xiulan Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4454014
+        }
       ]
     },
     {
       "id": "song:17292",
-      "song_id": 17292,
+      "work_type": "Song",
+      "work_id": 17292,
       "title": "Stormsong",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -65,6 +107,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],

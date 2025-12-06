@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:13819",
-      "song_id": 13819,
-      "title": "Ancestral Crimson",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 1995,
-      "single": true,
-      "own": true,
-      "artist_id": 7392,
-      "artist_name": "Paige Adams",
-      "influence": 10,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7389",
-      "song_id": 7389,
+      "work_type": "Song",
+      "work_id": 7389,
       "title": "Empathy's Embrace",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7390,
+          "name": "Ashley Cabrera",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0292776
+        },
+        {
+          "person_id": 7391,
+          "name": "Juan Shelton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4001062
+        },
+        {
+          "person_id": 7393,
+          "name": "Bonnie Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001062
+        }
+      ]
     },
     {
       "id": "song:7671",
-      "song_id": 7671,
+      "work_type": "Song",
+      "work_id": 7671,
       "title": "Champagne and Sunshine",
       "genre": "Alternative Rock",
       "notable": true,
@@ -54,18 +66,71 @@
       "own": true,
       "artist_id": 7392,
       "artist_name": "Paige Adams",
-      "influence": 18,
+      "influence": 21,
       "influence_breakdown": {
         "cover": 1,
         "sample": 1,
-        "reference": 3,
+        "reference": 4,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3909693
+        },
+        {
+          "person_id": 7390,
+          "name": "Ashley Cabrera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0292776
+        }
+      ]
+    },
+    {
+      "id": "song:13819",
+      "work_type": "Song",
+      "work_id": 13819,
+      "title": "Ancestral Crimson",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1995,
+      "single": true,
+      "own": true,
+      "artist_id": 7392,
+      "artist_name": "Paige Adams",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3597,
+          "name": "Kaylee Freeman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0271149
+        }
+      ]
     },
     {
       "id": "song:6699",
-      "song_id": 6699,
+      "work_type": "Song",
+      "work_id": 6699,
       "title": "Beside Me",
       "genre": "Indie Rock",
       "notable": true,
@@ -84,11 +149,95 @@
       "relation_types": [
         "InterpolatesFrom",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6700,
+          "name": "Tara Ghose",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3981051
+        },
+        {
+          "person_id": 6701,
+          "name": "Tiya Desai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976176
+        }
+      ]
+    },
+    {
+      "id": "album:11352",
+      "work_type": "Album",
+      "work_id": 11352,
+      "title": "Whispers of the Sussex Shoreline",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": false,
+      "artist_id": 334,
+      "artist_name": "Christopher Lee",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.4058466
+        },
+        {
+          "person_id": 5213,
+          "name": "Samantha Bullock",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3909693
+        },
+        {
+          "person_id": 334,
+          "name": "Christopher Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9250906
+        },
+        {
+          "person_id": 11353,
+          "name": "Debra Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4055827
+        }
       ]
     },
     {
       "id": "song:13035",
-      "song_id": 13035,
+      "work_type": "Song",
+      "work_id": 13035,
       "title": "Mirage of Midnight Sands",
       "genre": "Indie Rock",
       "notable": true,
@@ -107,11 +256,42 @@
       "relation_types": [
         "CoverOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13037,
+          "name": "Janet Lewis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0501926
+        },
+        {
+          "person_id": 13038,
+          "name": "Lisa Wolfe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0501926
+        },
+        {
+          "person_id": 13036,
+          "name": "Julia Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001036
+        }
       ]
     },
     {
       "id": "song:13627",
-      "song_id": 13627,
+      "work_type": "Song",
+      "work_id": 13627,
       "title": "Roots and Resonance",
       "genre": "Indie Rock",
       "notable": true,
@@ -130,34 +310,84 @@
       "relation_types": [
         "CoverOf",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13037,
+          "name": "Janet Lewis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0501926
+        },
+        {
+          "person_id": 13038,
+          "name": "Lisa Wolfe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0501926
+        }
+      ]
+    },
+    {
+      "id": "song:13819",
+      "work_type": "Song",
+      "work_id": 13819,
+      "title": "Ancestral Crimson",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1995,
+      "single": true,
+      "own": true,
+      "artist_id": 7392,
+      "artist_name": "Paige Adams",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7392,
+          "name": "Paige Adams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4044034
+        },
+        {
+          "person_id": 3597,
+          "name": "Kaylee Freeman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0271149
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:6699",
-      "target": "song:7671",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:7389",
-      "target": "song:7671",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:13819",
-      "target": "song:7671",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:13035",
-      "target": "song:7671",
-      "type": "InterpolatesFrom"
+      "target": "song:13819",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:6699",
-      "target": "song:13819",
-      "type": "LyricalReferenceTo"
+      "target": "song:7671",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:13627",
@@ -165,6 +395,11 @@
       "type": "InStyleOf"
     },
     {
+      "source": "song:7389",
+      "target": "song:7671",
+      "type": "DirectlySamples"
+    },
+    {
       "source": "song:13627",
       "target": "song:7671",
       "type": "CoverOf"
@@ -173,6 +408,21 @@
       "source": "song:13035",
       "target": "song:13819",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:13035",
+      "target": "song:7671",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:11352",
+      "target": "song:7671",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:13819",
+      "target": "song:7671",
+      "type": "InterpolatesFrom"
     }
   ]
 }

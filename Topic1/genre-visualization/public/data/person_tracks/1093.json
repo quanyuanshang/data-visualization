@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10385",
-      "song_id": 10385,
-      "title": "Whispers of Innocence",
-      "genre": "Space Rock",
-      "notable": true,
-      "release_year": 2028,
-      "single": true,
-      "own": true,
-      "artist_id": 1093,
-      "artist_name": "Li Gong",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:10505",
-      "song_id": 10505,
+      "work_type": "Song",
+      "work_id": 10505,
       "title": "Leave Everything Untouched",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -41,31 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:1091",
-      "song_id": 1091,
-      "title": "Alevi Dağlarının Türküsü (Ballad of the Alevi Mountains)",
-      "genre": "Space Rock",
-      "notable": true,
-      "release_year": 2026,
-      "single": false,
-      "own": true,
-      "artist_id": 1093,
-      "artist_name": "Li Gong",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1094,
+          "name": "Xiulan Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4272726
+        },
+        {
+          "person_id": 10506,
+          "name": "Xia Yuan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3997927
+        }
+      ]
     },
     {
       "id": "song:14589",
-      "song_id": 14589,
+      "work_type": "Song",
+      "work_id": 14589,
       "title": "Digital Frontier",
       "genre": "Americana",
       "notable": true,
@@ -81,7 +64,119 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1094,
+          "name": "Xiulan Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4272726
+        },
+        {
+          "person_id": 10664,
+          "name": "Elizabeth Garcia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0239863
+        }
+      ]
+    },
+    {
+      "id": "song:1091",
+      "work_type": "Song",
+      "work_id": 1091,
+      "title": "Alevi Dağlarının Türküsü (Ballad of the Alevi Mountains)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 1093,
+      "artist_name": "Li Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1094,
+          "name": "Xiulan Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4272726
+        },
+        {
+          "person_id": 1092,
+          "name": "Fang Deng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3926024
+        }
+      ]
+    },
+    {
+      "id": "song:10385",
+      "work_type": "Song",
+      "work_id": 10385,
+      "title": "Whispers of Innocence",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": true,
+      "artist_id": 1093,
+      "artist_name": "Li Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3655,
+          "name": "Jing Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0481408
+        },
+        {
+          "person_id": 10387,
+          "name": "Tao Yan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990402
+        },
+        {
+          "person_id": 10386,
+          "name": "Ping Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398803
+        }
+      ]
     }
   ],
   "links": []

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13220",
-      "song_id": 13220,
+      "work_type": "Song",
+      "work_id": 13220,
       "title": "Glowing Embrace",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 190,
+          "name": "Peter Haering",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7093635
+        },
+        {
+          "person_id": 845,
+          "name": "Kläre Schacht-Mielcarek",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7012684
+        }
+      ]
     },
     {
       "id": "song:6358",
-      "song_id": 6358,
+      "work_type": "Song",
+      "work_id": 6358,
       "title": "Deluge of Devotion",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +65,61 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 845,
+          "name": "Kläre Schacht-Mielcarek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7012684
+        },
+        {
+          "person_id": 6360,
+          "name": "Leo Schuster",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0465672
+        },
+        {
+          "person_id": 6361,
+          "name": "Thekla Schuster",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994005
+        },
+        {
+          "person_id": 6362,
+          "name": "Herr Reinald Roht",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994005
+        },
+        {
+          "person_id": 6359,
+          "name": "Dierk Reichmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993797
+        }
       ]
     },
     {
       "id": "song:14314",
-      "song_id": 14314,
+      "work_type": "Song",
+      "work_id": 14314,
       "title": "Midnight in the Machine Age",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,19 +137,50 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 190,
+          "name": "Peter Haering",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.7093635
+        },
+        {
+          "person_id": 845,
+          "name": "Kläre Schacht-Mielcarek",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7012684
+        },
+        {
+          "person_id": 14315,
+          "name": "Ernestine Franke-Kade",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957477
+        }
       ]
     },
     {
       "id": "song:17036",
-      "song_id": 17036,
+      "work_type": "Song",
+      "work_id": 17036,
       "title": "Summer’s End (Forever)",
       "genre": "Indie Pop",
       "notable": true,
       "release_year": 2031,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17032,
+      "artist_name": "Silver Veil（成员：Eliza Brooks (Midnight Atlas)｜预测 3.07、Jasper Reed｜预测 3.05）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -87,14 +190,15 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
     {
-      "source": "song:17036",
+      "source": "song:14314",
       "target": "song:13220",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:6358",
@@ -102,9 +206,9 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:14314",
+      "source": "song:17036",
       "target": "song:13220",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8624",
-      "song_id": 8624,
+      "work_type": "Song",
+      "work_id": 8624,
       "title": "Luminous Echo",
       "genre": "Darkwave",
       "notable": true,
@@ -14,6 +15,66 @@
       "own": true,
       "artist_id": 8628,
       "artist_name": "Yang Shen",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 316,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9232433
+        },
+        {
+          "person_id": 8625,
+          "name": "Guiying Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981218
+        },
+        {
+          "person_id": 8626,
+          "name": "Min Huang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981218
+        },
+        {
+          "person_id": 8627,
+          "name": "Gang Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981218
+        }
+      ]
+    },
+    {
+      "id": "album:8892",
+      "work_type": "Album",
+      "work_id": 8892,
+      "title": "Sun-Baked Terracotta",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 593,
+      "artist_name": "Li Lei",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +82,65 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 4608,
+          "name": "Wei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.913909
+        },
+        {
+          "person_id": 5649,
+          "name": "Wei Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4591036
+        },
+        {
+          "person_id": 8893,
+          "name": "Christopher Evans",
+          "stage_name": "Dylan Reed",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3859143
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8892",
+      "target": "song:8624",
+      "type": "InStyleOf"
+    }
+  ]
 }

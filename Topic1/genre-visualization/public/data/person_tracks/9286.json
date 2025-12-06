@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9285",
-      "song_id": 9285,
+      "work_type": "Song",
+      "work_id": 9285,
       "title": "Unbridled Bliss",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,19 +22,82 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9288,
+          "name": "Anthony Ortega",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4364867
+        },
+        {
+          "person_id": 9287,
+          "name": "Alex Thomas",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0337427
+        }
+      ]
+    },
+    {
+      "id": "album:13903",
+      "work_type": "Album",
+      "work_id": 13903,
+      "title": "Nasal Meatball Misadventures",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 9286,
+      "artist_name": "Amber Watson",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9288,
+          "name": "Anthony Ortega",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4364867
+        },
+        {
+          "person_id": 9287,
+          "name": "Alex Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0337427
+        }
+      ]
     },
     {
       "id": "song:17117",
-      "song_id": 17117,
+      "work_type": "Song",
+      "work_id": 17117,
       "title": "Farewell to the Fading Sun",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
       "release_year": 2035,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17110,
+      "artist_name": "The Hollow Monarchs（成员：Chloe Montgomery (Lane Taylor)｜预测 2.36、Nathaniel Brooks (David Cole)｜预测 2.36…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -43,10 +107,57 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": []
+    },
+    {
+      "id": "song:3856",
+      "work_type": "Song",
+      "work_id": 3856,
+      "title": "Cascading Origins",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 3857,
+      "artist_name": "Pihu Gulati",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3857,
+          "name": "Pihu Gulati",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0451655
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:9285",
+      "target": "album:13903",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3856",
+      "target": "album:13903",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:17117",
       "target": "song:9285",

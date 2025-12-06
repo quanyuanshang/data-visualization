@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8952",
-      "song_id": 8952,
+      "work_type": "Song",
+      "work_id": 8952,
       "title": "Forest Echoes and Forgotten Dreams",
       "genre": "Synthwave",
       "notable": false,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 75,
+          "name": "Juan Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9476163
+        },
+        {
+          "person_id": 3162,
+          "name": "Xiuying Cai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.067086
+        }
+      ]
     },
     {
       "id": "song:11655",
-      "song_id": 11655,
+      "work_type": "Song",
+      "work_id": 11655,
       "title": "Whispers Between Lovers",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,11 +66,41 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11656,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398534
+        },
+        {
+          "person_id": 11657,
+          "name": "Jun Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398534
+        },
+        {
+          "person_id": 11658,
+          "name": "Lei Qiu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985133
+        }
       ]
     },
     {
       "id": "song:15080",
-      "song_id": 15080,
+      "work_type": "Song",
+      "work_id": 15080,
       "title": "Waves and Wanderlust",
       "genre": "Synthwave",
       "notable": true,
@@ -65,19 +118,49 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15081,
+          "name": "Honoré-Alexandre Vidal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964128
+        },
+        {
+          "person_id": 15082,
+          "name": "Haruka Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964128
+        },
+        {
+          "person_id": 15083,
+          "name": "Asuka Takahashi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3964128
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11655",
-      "target": "song:8952",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:15080",
       "target": "song:8952",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:11655",
+      "target": "song:8952",
+      "type": "InterpolatesFrom"
     }
   ]
 }

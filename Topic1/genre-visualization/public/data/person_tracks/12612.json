@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12611",
-      "song_id": 12611,
+      "work_type": "Song",
+      "work_id": 12611,
       "title": "Forgotten Lullaby of the North",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 11321,
+          "name": "Lucas Potter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.081073
+        }
+      ]
     },
     {
       "id": "song:11249",
-      "song_id": 11249,
+      "work_type": "Song",
+      "work_id": 11249,
       "title": "Silence Between Departures",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,19 +65,59 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9371912
+        },
+        {
+          "person_id": 6375,
+          "name": "Michael Peterson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047103
+        },
+        {
+          "person_id": 11250,
+          "name": "Min Gu",
+          "stage_name": "The Glitch Monarch",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999574
+        }
       ]
     },
     {
       "id": "song:11941",
-      "song_id": 11941,
+      "work_type": "Song",
+      "work_id": 11941,
       "title": "Embrace and Erase",
       "genre": "Indie Rock",
       "notable": true,
       "release_year": 2024,
       "single": true,
       "own": false,
-      "artist_id": 7937,
-      "artist_name": "Na Zhou",
+      "artist_id": 16853,
+      "artist_name": "Stormens Sång（成员：Na Zhou｜预测 4.26、Lucas Potter｜预测 3.08）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -65,19 +127,39 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 11321,
+          "name": "Lucas Potter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.081073
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11249",
-      "target": "song:12611",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:11941",
       "target": "song:12611",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11249",
+      "target": "song:12611",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

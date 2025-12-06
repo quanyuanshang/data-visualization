@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10361",
-      "song_id": 10361,
+      "work_type": "Song",
+      "work_id": 10361,
       "title": "Unbroken Chains",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -14,18 +15,99 @@
       "own": true,
       "artist_id": 10365,
       "artist_name": "Tao Hou",
-      "influence": 17,
+      "influence": 29,
       "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 2,
+        "cover": 2,
+        "sample": 1,
+        "reference": 3,
         "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10364,
+          "name": "Jing Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.451669
+        },
+        {
+          "person_id": 10363,
+          "name": "Guiying Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0334268
+        },
+        {
+          "person_id": 10362,
+          "name": "Ming Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.405035
+        }
+      ]
+    },
+    {
+      "id": "album:13717",
+      "work_type": "Album",
+      "work_id": 13717,
+      "title": "Gray Day Tango",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 10365,
+      "artist_name": "Tao Hou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10375,
+          "name": "Yong Hu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0424366
+        },
+        {
+          "person_id": 13718,
+          "name": "Jeremy Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998225
+        },
+        {
+          "person_id": 13719,
+          "name": "Yang Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998225
+        }
+      ]
     },
     {
       "id": "song:846",
-      "song_id": 846,
+      "work_type": "Song",
+      "work_id": 846,
       "title": "Polished Perfection",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +125,158 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 850,
+          "name": "Leo Eberth",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9209633
+        },
+        {
+          "person_id": 847,
+          "name": "Robert Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987918
+        },
+        {
+          "person_id": 848,
+          "name": "Douglas Griffin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398622
+        },
+        {
+          "person_id": 849,
+          "name": "Anastasios Hölzenbecher-Henschel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398622
+        }
+      ]
+    },
+    {
+      "id": "album:1012",
+      "work_type": "Album",
+      "work_id": 1012,
+      "title": "Sunset and Cigarettes",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": false,
+      "artist_id": 1013,
+      "artist_name": "Lei Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1014,
+          "name": "Li Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.702599
+        },
+        {
+          "person_id": 1013,
+          "name": "Lei Wei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.024717
+        },
+        {
+          "person_id": 1015,
+          "name": "Xiuying Kang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398811
+        }
+      ]
+    },
+    {
+      "id": "album:3876",
+      "work_type": "Album",
+      "work_id": 3876,
+      "title": "Elevation Harmony",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 3878,
+      "artist_name": "Li Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3877,
+          "name": "Wei Tan",
+          "stage_name": "Waytawn",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980598
+        },
+        {
+          "person_id": 3878,
+          "name": "Li Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979788
+        }
       ]
     },
     {
       "id": "song:5559",
-      "song_id": 5559,
+      "work_type": "Song",
+      "work_id": 5559,
       "title": "Infused Intentions",
       "genre": "Synthpop",
       "notable": true,
@@ -65,11 +294,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5560,
+          "name": "Bruce Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5561,
+          "name": "Donna Ellison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5562,
+          "name": "Mitchell Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968368
+        }
       ]
     },
     {
       "id": "song:7278",
-      "song_id": 7278,
+      "work_type": "Song",
+      "work_id": 7278,
       "title": "Requiem for a Fading Self",
       "genre": "Synthwave",
       "notable": true,
@@ -87,11 +347,25 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        }
       ]
     },
     {
       "id": "song:7611",
-      "song_id": 7611,
+      "work_type": "Song",
+      "work_id": 7611,
       "title": "Blurred Lines of Truth",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,11 +383,104 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 207,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7139308
+        },
+        {
+          "person_id": 7613,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0506666
+        },
+        {
+          "person_id": 7612,
+          "name": "Jennifer Garcia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981173
+        },
+        {
+          "person_id": 7614,
+          "name": "Cynthia Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981173
+        }
+      ]
+    },
+    {
+      "id": "album:10484",
+      "work_type": "Album",
+      "work_id": 10484,
+      "title": "The Concession's Sting",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 10485,
+      "artist_name": "Chao Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10485,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968005
+        },
+        {
+          "person_id": 10486,
+          "name": "Gang Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968005
+        },
+        {
+          "person_id": 10487,
+          "name": "Guiying Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968005
+        }
       ]
     },
     {
       "id": "song:13088",
-      "song_id": 13088,
+      "work_type": "Song",
+      "work_id": 13088,
       "title": "Grandfather's Warning",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -131,11 +498,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13090,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4196846
+        },
+        {
+          "person_id": 13091,
+          "name": "Sherry Powell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0439756
+        },
+        {
+          "person_id": 13089,
+          "name": "Matthew Roberson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988597
+        },
+        {
+          "person_id": 13092,
+          "name": "Joseph Brooks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988597
+        },
+        {
+          "person_id": 13093,
+          "name": "Elizabeth Martin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988597
+        }
       ]
     },
     {
       "id": "song:16672",
-      "song_id": 16672,
+      "work_type": "Song",
+      "work_id": 16672,
       "title": "Echoes of Electric Rage",
       "genre": "Dream Pop",
       "notable": true,
@@ -153,12 +569,79 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16673,
+          "name": "Radomír Hruška",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976054
+        },
+        {
+          "person_id": 16674,
+          "name": "Miloš Horváth",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976054
+        },
+        {
+          "person_id": 16676,
+          "name": "Vlastimil Pokorný",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976054
+        },
+        {
+          "person_id": 16677,
+          "name": "Jaroslava Hrubá",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976054
+        },
+        {
+          "person_id": 16678,
+          "name": "Jindřich Zeman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976054
+        },
+        {
+          "person_id": 16675,
+          "name": "Leonard Schwital",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974957
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5559",
+      "source": "song:846",
+      "target": "song:10361",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:3876",
+      "target": "song:10361",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:10484",
       "target": "song:10361",
       "type": "InterpolatesFrom"
     },
@@ -168,9 +651,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:846",
+      "source": "song:7278",
       "target": "song:10361",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:5559",
+      "target": "song:10361",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:13088",
@@ -183,9 +671,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:7278",
+      "source": "album:1012",
       "target": "song:10361",
-      "type": "InStyleOf"
+      "type": "DirectlySamples"
     }
   ]
 }

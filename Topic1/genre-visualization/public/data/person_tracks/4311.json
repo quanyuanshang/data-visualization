@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4306",
-      "song_id": 4306,
+      "work_type": "Song",
+      "work_id": 4306,
       "title": "Repetir el momento (Repeat the moment)",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,93 @@
       "own": true,
       "artist_id": 4311,
       "artist_name": "Xia Cai",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 2172,
+          "name": "Monica Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9315295
+        },
+        {
+          "person_id": 4307,
+          "name": "Juan Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979216
+        },
+        {
+          "person_id": 4308,
+          "name": "Francis Kaufman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979216
+        },
+        {
+          "person_id": 4309,
+          "name": "Wei Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979216
+        },
+        {
+          "person_id": 4310,
+          "name": "Na Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979216
+        },
+        {
+          "person_id": 4312,
+          "name": "Jun Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979216
+        }
+      ]
+    },
+    {
+      "id": "album:11166",
+      "work_type": "Album",
+      "work_id": 11166,
+      "title": "Voices Without Walls",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 11167,
+      "artist_name": "Min Hou",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +109,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11170,
+          "name": "Yong Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343082
+        },
+        {
+          "person_id": 11167,
+          "name": "Min Hou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11168,
+          "name": "Chao Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11169,
+          "name": "Maria Fletcher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11171,
+          "name": "Chao Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978205
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11166",
+      "target": "song:4306",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

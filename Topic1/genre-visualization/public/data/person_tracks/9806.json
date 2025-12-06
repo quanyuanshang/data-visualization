@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9803",
-      "song_id": 9803,
+      "work_type": "Song",
+      "work_id": 9803,
       "title": "Crossroads of Chance",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,66 @@
       "own": true,
       "artist_id": 9806,
       "artist_name": "Li Xiong",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 891,
+          "name": "Jie Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9367123
+        },
+        {
+          "person_id": 7004,
+          "name": "Yang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0387049
+        },
+        {
+          "person_id": 9804,
+          "name": "Tao Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399685
+        },
+        {
+          "person_id": 9805,
+          "name": "Bradley Mendez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399685
+        }
+      ]
+    },
+    {
+      "id": "album:4046",
+      "work_type": "Album",
+      "work_id": 4046,
+      "title": "Sweet Katharina's Lament",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 4047,
+      "artist_name": "Qiang Shen",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +82,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4047,
+          "name": "Qiang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4048,
+          "name": "Fang Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4049,
+          "name": "Dora Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        },
+        {
+          "person_id": 4050,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996558
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4046",
+      "target": "song:9803",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15673",
-      "song_id": 15673,
+      "work_type": "Song",
+      "work_id": 15673,
       "title": "Tears Between the Silences",
       "genre": "Darkwave",
       "notable": true,
@@ -14,6 +15,89 @@
       "own": true,
       "artist_id": 14115,
       "artist_name": "Barbara Smith",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14113,
+          "name": "Cheryl Delgado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0503
+        },
+        {
+          "person_id": 14114,
+          "name": "Vittoria Mazzanti",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046757
+        }
+      ]
+    },
+    {
+      "id": "album:14112",
+      "work_type": "Album",
+      "work_id": 14112,
+      "title": "Streetlights in Snow",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": true,
+      "artist_id": 14115,
+      "artist_name": "Barbara Smith",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14113,
+          "name": "Cheryl Delgado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0503
+        },
+        {
+          "person_id": 14114,
+          "name": "Vittoria Mazzanti",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.046757
+        }
+      ]
+    },
+    {
+      "id": "album:14112",
+      "work_type": "Album",
+      "work_id": 14112,
+      "title": "Streetlights in Snow",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 14113,
+      "artist_name": "Cheryl Delgado",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +105,104 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14113,
+          "name": "Cheryl Delgado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0503
+        },
+        {
+          "person_id": 14115,
+          "name": "Barbara Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046977
+        },
+        {
+          "person_id": 14114,
+          "name": "Vittoria Mazzanti",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.046757
+        }
+      ]
+    },
+    {
+      "id": "song:14424",
+      "work_type": "Song",
+      "work_id": 14424,
+      "title": "Waiting by the Lakeshore",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 14425,
+      "artist_name": "Min Du",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14426,
+          "name": "Na Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979821
+        },
+        {
+          "person_id": 14427,
+          "name": "Ping Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979821
+        },
+        {
+          "person_id": 14425,
+          "name": "Min Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979688
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:14424",
+      "target": "album:14112",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14112",
+      "target": "song:15673",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

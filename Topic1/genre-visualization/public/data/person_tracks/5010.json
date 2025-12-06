@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5009",
-      "song_id": 5009,
+      "work_type": "Song",
+      "work_id": 5009,
       "title": "Echoes of Eight Strings",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,26 +15,38 @@
       "own": true,
       "artist_id": 5010,
       "artist_name": "William White ( J.T. Rose)",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5011,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4540932
+        }
+      ]
     },
     {
       "id": "song:16957",
-      "song_id": 16957,
+      "work_type": "Song",
+      "work_id": 16957,
       "title": "Stories Left Untold",
       "genre": "Indie Folk",
       "notable": false,
       "release_year": 2037,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 16952,
+      "artist_name": "Rust & Reverie（成员：Aria Stone (Rune Aurora)｜预测 2.41、Jaxon Rivers (Zephyr Wilds)｜预测 2.41…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -43,6 +56,50 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": []
+    },
+    {
+      "id": "album:17072",
+      "work_type": "Album",
+      "work_id": 17072,
+      "title": "Time Loops & Stargazing",
+      "genre": "Space Rock",
+      "notable": false,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 17071,
+      "artist_name": "Cosmic Reverberation（成员：Quinn Rivers｜预测 2.42、Ryder Lyons｜预测 2.42）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17070,
+          "name": "Ryder Lyons",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4207327
+        },
+        {
+          "person_id": 17069,
+          "name": "Quinn Rivers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.418877
+        }
       ]
     }
   ],
@@ -51,6 +108,11 @@
       "source": "song:16957",
       "target": "song:5009",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:17072",
+      "target": "song:5009",
+      "type": "InterpolatesFrom"
     }
   ]
 }

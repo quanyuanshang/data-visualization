@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5588",
-      "song_id": 5588,
+      "work_type": "Song",
+      "work_id": 5588,
       "title": "Skinned Knees and Daydreams",
       "genre": "Space Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5589,
+          "name": "Paul-Robert Bodin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398099
+        }
+      ]
     },
     {
       "id": "song:6024",
-      "song_id": 6024,
+      "work_type": "Song",
+      "work_id": 6024,
       "title": "Unsilenced Whispers",
       "genre": "Space Rock",
       "notable": true,
@@ -43,6 +57,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6026,
+          "name": "Gang Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982146
+        },
+        {
+          "person_id": 6025,
+          "name": "Xia Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39821
+        }
       ]
     }
   ],

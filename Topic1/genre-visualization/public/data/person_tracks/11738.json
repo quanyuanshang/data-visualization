@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11737",
-      "song_id": 11737,
+      "work_type": "Song",
+      "work_id": 11737,
       "title": "Shadows of a Distant Name",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 7564,
+          "name": "Ryan Cohen",
+          "stage_name": "JUXX 100",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4205143
+        },
+        {
+          "person_id": 11739,
+          "name": "Marilyn Austin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975458
+        }
+      ]
     },
     {
       "id": "song:6307",
-      "song_id": 6307,
+      "work_type": "Song",
+      "work_id": 6307,
       "title": "Gaze of Understanding",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +75,59 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6312,
+          "name": "Fang Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7013907
+        },
+        {
+          "person_id": 6308,
+          "name": "Li Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6309,
+          "name": "Yan He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6310,
+          "name": "Ping Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        },
+        {
+          "person_id": 6311,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3929648
+        }
       ]
     },
     {
       "id": "song:7611",
-      "song_id": 7611,
+      "work_type": "Song",
+      "work_id": 7611,
       "title": "Blurred Lines of Truth",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +145,58 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 207,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7139308
+        },
+        {
+          "person_id": 7613,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0506666
+        },
+        {
+          "person_id": 7612,
+          "name": "Jennifer Garcia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981173
+        },
+        {
+          "person_id": 7614,
+          "name": "Cynthia Jones",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981173
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6307",
-      "target": "song:11737",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:7611",
       "target": "song:11737",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:6307",
+      "target": "song:11737",
+      "type": "InterpolatesFrom"
     }
   ]
 }

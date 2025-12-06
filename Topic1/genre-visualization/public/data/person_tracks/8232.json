@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8231",
-      "song_id": 8231,
+      "work_type": "Song",
+      "work_id": 8231,
       "title": "Distant Horizons, Tender Goodbyes",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 440,
+          "name": "Gang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938246
+        },
+        {
+          "person_id": 441,
+          "name": "Alisha Fuller",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938246
+        },
+        {
+          "person_id": 443,
+          "name": "Guiying Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938246
+        },
+        {
+          "person_id": 442,
+          "name": "John Ferguson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.412735
+        }
+      ]
     },
     {
       "id": "song:6954",
-      "song_id": 6954,
+      "work_type": "Song",
+      "work_id": 6954,
       "title": "Masked Whispers of the Commedia",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +84,69 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 6959,
+          "name": "Xiulan Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0452683
+        },
+        {
+          "person_id": 6956,
+          "name": "Chao Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032513
+        },
+        {
+          "person_id": 6955,
+          "name": "Anka Spieß",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988569
+        },
+        {
+          "person_id": 6957,
+          "name": "Ming Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988569
+        },
+        {
+          "person_id": 6958,
+          "name": "Lei Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988569
+        }
       ]
     },
     {
       "id": "song:14987",
-      "song_id": 14987,
+      "work_type": "Song",
+      "work_id": 14987,
       "title": "The Idiot's Lament",
       "genre": "Doom Metal",
       "notable": true,
@@ -65,19 +164,31 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14988,
+          "name": "Ming Duan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3920386
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6954",
-      "target": "song:8231",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:14987",
       "target": "song:8231",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6954",
+      "target": "song:8231",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

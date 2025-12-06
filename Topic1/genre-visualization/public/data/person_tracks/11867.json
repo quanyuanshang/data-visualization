@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11866",
-      "song_id": 11866,
+      "work_type": "Song",
+      "work_id": 11866,
       "title": "Tales from the Pavilion",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11868,
+          "name": "Beverly Thompson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0803506
+        }
+      ]
     },
     {
       "id": "song:3559",
-      "song_id": 3559,
+      "work_type": "Song",
+      "work_id": 3559,
       "title": "Emotional Landscapes",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +56,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3560,
+          "name": "Hans-Joachim Seip",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981671
+        },
+        {
+          "person_id": 3561,
+          "name": "Max Brown",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980172
+        }
       ]
     },
     {
       "id": "song:10135",
-      "song_id": 10135,
+      "work_type": "Song",
+      "work_id": 10135,
       "title": "Another Year Unfolding",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -65,19 +100,39 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10137,
+          "name": "Olaf Dymarczyk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982232
+        },
+        {
+          "person_id": 10136,
+          "name": "Bianka Tabak",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980527
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:3559",
-      "target": "song:11866",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:10135",
       "target": "song:11866",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:3559",
+      "target": "song:11866",
+      "type": "CoverOf"
     }
   ]
 }

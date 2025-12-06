@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13794",
-      "song_id": 13794,
+      "work_type": "Song",
+      "work_id": 13794,
       "title": "Where Are My Bones?",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 13798,
       "artist_name": "Kristen Rice",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13795,
+          "name": "Dean Mullins",
+          "stage_name": " Frankie Vale",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996487
+        },
+        {
+          "person_id": 13796,
+          "name": "Valerie Stafford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996487
+        },
+        {
+          "person_id": 13797,
+          "name": "Ruy Villa Coloma",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996487
+        }
+      ]
+    },
+    {
+      "id": "album:8795",
+      "work_type": "Album",
+      "work_id": 8795,
+      "title": "Moonlight's Whisper in G Minor",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 8796,
+      "artist_name": "Ferdinando Nordio",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8799,
+          "name": "Eleanora Bersani",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0183384
+        },
+        {
+          "person_id": 8796,
+          "name": "Ferdinando Nordio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980966
+        },
+        {
+          "person_id": 8797,
+          "name": "Richard Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980966
+        },
+        {
+          "person_id": 8798,
+          "name": "Steven Calderon",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980966
+        },
+        {
+          "person_id": 8800,
+          "name": "Yvonne Morris",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980758
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8795",
+      "target": "song:13794",
+      "type": "InStyleOf"
+    }
+  ]
 }

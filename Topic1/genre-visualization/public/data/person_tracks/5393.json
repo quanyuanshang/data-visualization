@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5392",
-      "song_id": 5392,
+      "work_type": "Song",
+      "work_id": 5392,
       "title": "Postcards from the City I Left Behind",
       "genre": "Synthpop",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1013,
+          "name": "Lei Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.024717
+        }
+      ]
     },
     {
       "id": "song:7278",
-      "song_id": 7278,
+      "work_type": "Song",
+      "work_id": 7278,
       "title": "Requiem for a Fading Self",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +57,19 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        }
       ]
     }
   ],

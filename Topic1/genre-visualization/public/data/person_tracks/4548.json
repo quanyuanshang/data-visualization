@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4547",
-      "song_id": 4547,
+      "work_type": "Song",
+      "work_id": 4547,
       "title": "Concrete Crown",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 4548,
       "artist_name": "Juan Jin",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4550,
+          "name": "Aimée van Dijk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2558746
+        },
+        {
+          "person_id": 4551,
+          "name": "Sander Veenstra",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0521035
+        },
+        {
+          "person_id": 4549,
+          "name": "Ping Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399515
+        },
+        {
+          "person_id": 4552,
+          "name": "Guiying Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399515
+        },
+        {
+          "person_id": 4553,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399515
+        }
+      ]
     },
     {
       "id": "song:8667",
-      "song_id": 8667,
+      "work_type": "Song",
+      "work_id": 8667,
       "title": "Humble Heart's Echo",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -43,11 +93,160 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3496,
+          "name": "Xiulan Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393944
+        },
+        {
+          "person_id": 8671,
+          "name": "Guiying Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397891
+        },
+        {
+          "person_id": 8668,
+          "name": "Guiying Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977213
+        },
+        {
+          "person_id": 8669,
+          "name": "Qiang Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977213
+        },
+        {
+          "person_id": 8670,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977213
+        },
+        {
+          "person_id": 8672,
+          "name": "Min Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977213
+        },
+        {
+          "person_id": 8673,
+          "name": "Jun Su",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977213
+        }
+      ]
+    },
+    {
+      "id": "album:12313",
+      "work_type": "Album",
+      "work_id": 12313,
+      "title": "Falling Into Forever",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 4550,
+      "artist_name": "Aimée van Dijk",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4550,
+          "name": "Aimée van Dijk",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2558746
+        },
+        {
+          "person_id": 1232,
+          "name": "Li Gao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4307604
+        },
+        {
+          "person_id": 12312,
+          "name": "Wei Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.424569
+        },
+        {
+          "person_id": 5602,
+          "name": "Qiang Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4136279
+        },
+        {
+          "person_id": 12315,
+          "name": "Yan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988197
+        },
+        {
+          "person_id": 12314,
+          "name": "Xia Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39865
+        }
       ]
     },
     {
       "id": "song:13404",
-      "song_id": 13404,
+      "work_type": "Song",
+      "work_id": 13404,
       "title": "Voice Beyond the Line",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +264,99 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3866,
+          "name": "Yan Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6258197
+        },
+        {
+          "person_id": 13405,
+          "name": "Li Mo",
+          "stage_name": " $PECTRUM",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13406,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13407,
+          "name": "Wei Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13408,
+          "name": "Yang Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13409,
+          "name": "Xia Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13410,
+          "name": "Jun Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13411,
+          "name": "Yong Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:13404",
+      "source": "album:12313",
       "target": "song:4547",
-      "type": "InStyleOf"
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:8667",
       "target": "song:4547",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:13404",
+      "target": "song:4547",
+      "type": "InStyleOf"
     }
   ]
 }

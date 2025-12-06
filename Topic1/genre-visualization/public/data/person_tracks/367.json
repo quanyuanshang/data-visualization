@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:365",
-      "song_id": 365,
+      "work_type": "Song",
+      "work_id": 365,
       "title": "Footprints Beyond Tomorrow",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 368,
+          "name": "Juan Zhu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0359418
+        },
+        {
+          "person_id": 369,
+          "name": "Ping Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0359418
+        },
+        {
+          "person_id": 366,
+          "name": "Juan Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003122
+        }
+      ]
     },
     {
       "id": "song:391",
-      "song_id": 391,
+      "work_type": "Song",
+      "work_id": 391,
       "title": "Espresso Farewell",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +75,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 392,
+          "name": "Jing Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979704
+        },
+        {
+          "person_id": 394,
+          "name": "Min Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979704
+        },
+        {
+          "person_id": 393,
+          "name": "Xia Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3979497
+        }
       ]
     }
   ],

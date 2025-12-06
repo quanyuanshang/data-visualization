@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12004",
-      "song_id": 12004,
+      "work_type": "Song",
+      "work_id": 12004,
       "title": "Coronation of Courage",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12005,
+          "name": "Advik Singh",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983173
+        }
+      ]
     },
     {
       "id": "song:1185",
-      "song_id": 1185,
+      "work_type": "Song",
+      "work_id": 1185,
       "title": "Cobblestone Crown",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +57,36 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1187,
+          "name": "Scott Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977373
+        },
+        {
+          "person_id": 1188,
+          "name": "Taylor Poole",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977373
+        },
+        {
+          "person_id": 1186,
+          "name": "Kenneth Lopez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977165
+        }
       ]
     }
   ],

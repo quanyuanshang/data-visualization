@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16001",
-      "song_id": 16001,
-      "title": "The Unbound Forgiver",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 1996,
-      "single": true,
-      "own": true,
-      "artist_id": 16003,
-      "artist_name": "Steven Fox",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:16389",
-      "song_id": 16389,
+      "work_type": "Song",
+      "work_id": 16389,
       "title": "Silent Resilience",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +22,164 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16002,
+          "name": "Michael Hartman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0306768
+        },
+        {
+          "person_id": 16390,
+          "name": "Joseph Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4029672
+        },
+        {
+          "person_id": 16391,
+          "name": "Anaya Butala",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4028094
+        }
+      ]
+    },
+    {
+      "id": "song:16001",
+      "work_type": "Song",
+      "work_id": 16001,
+      "title": "The Unbound Forgiver",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1996,
+      "single": true,
+      "own": true,
+      "artist_id": 16003,
+      "artist_name": "Steven Fox",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16002,
+          "name": "Michael Hartman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0306768
+        }
+      ]
+    },
+    {
+      "id": "song:12923",
+      "work_type": "Song",
+      "work_id": 12923,
+      "title": "Clan of Shadows",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2002,
+      "single": true,
+      "own": false,
+      "artist_id": 12925,
+      "artist_name": "Alex Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12925,
+          "name": "Alex Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975487
+        },
+        {
+          "person_id": 12924,
+          "name": "Sydney Mack",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3971782
+        }
+      ]
+    },
+    {
+      "id": "song:16001",
+      "work_type": "Song",
+      "work_id": 16001,
+      "title": "The Unbound Forgiver",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1996,
+      "single": true,
+      "own": false,
+      "artist_id": 16002,
+      "artist_name": "Michael Hartman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16002,
+          "name": "Michael Hartman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0306768
+        },
+        {
+          "person_id": 16003,
+          "name": "Steven Fox",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0306768
+        }
+      ]
     },
     {
       "id": "song:16589",
-      "song_id": 16589,
+      "work_type": "Song",
+      "work_id": 16589,
       "title": "Machine Learning Melody",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -64,37 +198,40 @@
       "relation_types": [
         "DirectlySamples",
         "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:12923",
-      "song_id": 12923,
-      "title": "Clan of Shadows",
-      "genre": "Southern Gothic Rock",
-      "notable": false,
-      "release_year": 2002,
-      "single": true,
-      "own": false,
-      "artist_id": 12925,
-      "artist_name": "Alex Hernandez",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15746,
+          "name": "Natasha Mcdaniel",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0754194
+        },
+        {
+          "person_id": 5765,
+          "name": "Amanda Marquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0453289
+        },
+        {
+          "person_id": 5766,
+          "name": "Frederick Freeman",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0453289
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:16001",
-      "target": "song:16389",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:16589",
       "target": "song:16389",
@@ -102,6 +239,11 @@
     },
     {
       "source": "song:12923",
+      "target": "song:16389",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16001",
       "target": "song:16389",
       "type": "InStyleOf"
     },

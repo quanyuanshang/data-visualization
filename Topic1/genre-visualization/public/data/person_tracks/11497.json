@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11495",
-      "song_id": 11495,
+      "work_type": "Song",
+      "work_id": 11495,
       "title": "Whispers of a Blade",
       "genre": "Americana",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 11497,
       "artist_name": "Tao Mao",
-      "influence": 3,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
-        "style": 0
+        "reference": 2,
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 657,
+          "name": "Min Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.432408
+        },
+        {
+          "person_id": 8778,
+          "name": "Xiulan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4321976
+        },
+        {
+          "person_id": 7968,
+          "name": "Qiang Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0405822
+        },
+        {
+          "person_id": 11496,
+          "name": "Wei Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009843
+        },
+        {
+          "person_id": 11498,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009843
+        }
+      ]
     },
     {
       "id": "song:1269",
-      "song_id": 1269,
+      "work_type": "Song",
+      "work_id": 1269,
       "title": "Not Everyone's Convinced",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,12 +93,230 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1276,
+          "name": "Yong Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8724766
+        },
+        {
+          "person_id": 1275,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.5120125
+        },
+        {
+          "person_id": 1277,
+          "name": "Min Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.502258
+        },
+        {
+          "person_id": 1273,
+          "name": "Gang Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9360747
+        },
+        {
+          "person_id": 1270,
+          "name": "Fang Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4338887
+        },
+        {
+          "person_id": 1272,
+          "name": "Qiang Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380828
+        },
+        {
+          "person_id": 1274,
+          "name": "Xiulan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0357604
+        },
+        {
+          "person_id": 1271,
+          "name": "Yang Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4015656
+        }
+      ]
+    },
+    {
+      "id": "album:5616",
+      "work_type": "Album",
+      "work_id": 5616,
+      "title": "Invisible Strings",
+      "genre": "Space Rock",
+      "notable": false,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 5617,
+      "artist_name": "Kimberly Walker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5619,
+          "name": "Wei Han",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9414132
+        },
+        {
+          "person_id": 5617,
+          "name": "Kimberly Walker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991714
+        },
+        {
+          "person_id": 5618,
+          "name": "Heidi Dudley",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3991714
+        }
+      ]
+    },
+    {
+      "id": "album:13142",
+      "work_type": "Album",
+      "work_id": 13142,
+      "title": "The Ballad of Johnny's Journey",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1273,
+      "artist_name": "Gang Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1276,
+          "name": "Yong Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8724766
+        },
+        {
+          "person_id": 1275,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5120125
+        },
+        {
+          "person_id": 1277,
+          "name": "Min Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.502258
+        },
+        {
+          "person_id": 1273,
+          "name": "Gang Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9360747
+        },
+        {
+          "person_id": 1270,
+          "name": "Fang Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4338887
+        },
+        {
+          "person_id": 5395,
+          "name": "Yan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.061286
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:13142",
+      "target": "song:11495",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:1269",
+      "target": "song:11495",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:5616",
       "target": "song:11495",
       "type": "LyricalReferenceTo"
     }

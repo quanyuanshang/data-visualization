@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2838",
-      "song_id": 2838,
+      "work_type": "Song",
+      "work_id": 2838,
       "title": "The Silent Dialogue of Strings",
       "genre": "Dream Pop",
       "notable": false,
@@ -21,8 +22,86 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2842,
+          "name": "Claire Garner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4343798
+        },
+        {
+          "person_id": 2840,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.427711
+        },
+        {
+          "person_id": 2839,
+          "name": "Manuel Roberts",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.2526088
+        }
+      ]
+    },
+    {
+      "id": "album:16262",
+      "work_type": "Album",
+      "work_id": 16262,
+      "title": "Seventh Wave of Freedom",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 2841,
+      "artist_name": "Sheryl Massey",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2842,
+          "name": "Claire Garner",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4343798
+        },
+        {
+          "person_id": 16263,
+          "name": "Rhonda Knox",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.425734
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:2838",
+      "target": "album:16262",
+      "type": "InStyleOf"
+    }
+  ]
 }

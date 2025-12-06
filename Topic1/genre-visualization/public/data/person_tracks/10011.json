@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10010",
-      "song_id": 10010,
+      "work_type": "Song",
+      "work_id": 10010,
       "title": "Nightmares of Retribution",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,57 @@
       "own": true,
       "artist_id": 10011,
       "artist_name": "Lei Long",
-      "influence": 8,
+      "influence": 13,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
-        "style": 0
+        "reference": 2,
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10012,
+          "name": "Jing Song",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4009628
+        },
+        {
+          "person_id": 10013,
+          "name": "Juan Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009628
+        },
+        {
+          "person_id": 10014,
+          "name": "Alexandra Obrien",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009628
+        },
+        {
+          "person_id": 10015,
+          "name": "Wei Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009628
+        }
+      ]
     },
     {
       "id": "song:3282",
-      "song_id": 3282,
+      "work_type": "Song",
+      "work_id": 3282,
       "title": "Scarlet Promise",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +83,175 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3283,
+          "name": "Brittany Simon",
+          "stage_name": " Hart",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981662
+        },
+        {
+          "person_id": 3284,
+          "name": "Nancy Smith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981032
+        }
+      ]
+    },
+    {
+      "id": "album:12401",
+      "work_type": "Album",
+      "work_id": 12401,
+      "title": "Hidden Reflections",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 12402,
+      "artist_name": "Li Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 11856,
+          "name": "Xiulan Fu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0704613
+        },
+        {
+          "person_id": 12402,
+          "name": "Li Fan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983743
+        },
+        {
+          "person_id": 12403,
+          "name": "Kathryn Garcia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983743
+        },
+        {
+          "person_id": 12404,
+          "name": "Yong Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983743
+        },
+        {
+          "person_id": 12405,
+          "name": "Susan Holmes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983743
+        },
+        {
+          "person_id": 12406,
+          "name": "Xiulan Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983743
+        }
+      ]
+    },
+    {
+      "id": "album:14112",
+      "work_type": "Album",
+      "work_id": 14112,
+      "title": "Streetlights in Snow",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 14113,
+      "artist_name": "Cheryl Delgado",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14113,
+          "name": "Cheryl Delgado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0503
+        },
+        {
+          "person_id": 14115,
+          "name": "Barbara Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046977
+        },
+        {
+          "person_id": 14114,
+          "name": "Vittoria Mazzanti",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.046757
+        }
       ]
     },
     {
       "id": "song:14477",
-      "song_id": 14477,
+      "work_type": "Song",
+      "work_id": 14477,
       "title": "Hands Out",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,10 +269,36 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14478,
+          "name": "Phillip Dennis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982742
+        },
+        {
+          "person_id": 14479,
+          "name": "Timothy Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397736
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:14112",
+      "target": "song:10010",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:3282",
       "target": "song:10010",
@@ -78,6 +308,11 @@
       "source": "song:14477",
       "target": "song:10010",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:12401",
+      "target": "song:10010",
+      "type": "InStyleOf"
     }
   ]
 }

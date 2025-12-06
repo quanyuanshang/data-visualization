@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7891",
-      "song_id": 7891,
+      "work_type": "Song",
+      "work_id": 7891,
       "title": "Gravity of Desire",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,18 +15,83 @@
       "own": true,
       "artist_id": 7892,
       "artist_name": "Antoinette Bertin",
-      "influence": 4,
+      "influence": 9,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 2753,
+          "name": "Marcel Camus-Meunier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0460072
+        }
+      ]
+    },
+    {
+      "id": "album:12130",
+      "work_type": "Album",
+      "work_id": 12130,
+      "title": "Rage Like a Gentle Flame",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2417,
+      "artist_name": "Xiuying Ding",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8156,
+          "name": "Wei Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7062562
+        },
+        {
+          "person_id": 2417,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6785245
+        }
+      ]
     },
     {
       "id": "song:13832",
-      "song_id": 13832,
+      "work_type": "Song",
+      "work_id": 13832,
       "title": "The Dialect of Dreams",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,11 +109,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7533,
+          "name": "Marija Lehmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045203
+        },
+        {
+          "person_id": 13833,
+          "name": "Nathalie Striebitz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989727
+        }
       ]
     },
     {
       "id": "song:16248",
-      "song_id": 16248,
+      "work_type": "Song",
+      "work_id": 16248,
       "title": "Midnight's Melancholy Bow",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,19 +153,45 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8156,
+          "name": "Wei Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7062562
+        },
+        {
+          "person_id": 2417,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6785245
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:13832",
+      "target": "song:7891",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:16248",
       "target": "song:7891",
       "type": "InStyleOf"
     },
     {
-      "source": "song:13832",
+      "source": "album:12130",
       "target": "song:7891",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     }
   ]
 }

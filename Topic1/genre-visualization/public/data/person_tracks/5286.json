@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14074",
-      "song_id": 14074,
+      "work_type": "Song",
+      "work_id": 14074,
       "title": "Ancestral Winds and Ancient Stones",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,45 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:5285",
+      "work_type": "Album",
+      "work_id": 5285,
+      "title": "White Noise Between Us",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 5286,
+      "artist_name": "Amanda Hill ( R.E.D.)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5287,
+          "name": "Darshit Gandhi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004319
+        }
+      ]
     },
     {
       "id": "song:16452",
-      "song_id": 16452,
+      "work_type": "Song",
+      "work_id": 16452,
       "title": "Star of the Stable",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -41,11 +76,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 16453,
+          "name": "Laura Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993697
+        }
+      ]
     },
     {
       "id": "song:16452",
-      "song_id": 16452,
+      "work_type": "Song",
+      "work_id": 16452,
       "title": "Star of the Stable",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -63,6 +119,36 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 5286,
+          "name": "Amanda Hill",
+          "stage_name": " R.E.D.",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4383142
+        },
+        {
+          "person_id": 16453,
+          "name": "Laura Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993697
+        }
       ]
     }
   ],

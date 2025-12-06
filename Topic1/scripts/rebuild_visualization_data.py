@@ -4,9 +4,8 @@ import json
 from pathlib import Path
 from typing import Dict, List, Any
 
-THRESHOLD = 0.2
+THRESHOLD = 0.00001
 TOP_PREVIEW_COUNT = 100
-EXCLUDED_GENRES = {"Acoustic Folk", "Celtic Folk", "Sea Shanties"}
 
 ROOT = Path(__file__).resolve().parent.parent
 PERSON_SOURCE = ROOT / "data" / "person_evaluations_labeled.json"
@@ -15,22 +14,67 @@ PUBLIC_VIS_PATH = ROOT / "genre-visualization" / "public" / "data" / "visualizat
 
 
 def load_target_genres() -> List[str]:
-    """Get the ordered genre list, falling back to sorted keys from data."""
+    """Get the ordered genre list, ensuring every genre in the source data is kept."""
+    existing_order: List[str] | None = None
     for candidate in (DEFAULT_VIS_PATH, PUBLIC_VIS_PATH):
         if candidate.exists():
             with candidate.open("r", encoding="utf-8") as f:
                 data = json.load(f)
                 genres = data.get("genres")
                 if isinstance(genres, list) and genres:
-                    return [g for g in genres if g not in EXCLUDED_GENRES]
-    # Fallback: inspect the first person's genre_share keys
+                    existing_order = genres
+                    break
+
     with PERSON_SOURCE.open("r", encoding="utf-8") as f:
         persons = json.load(f)
+
+    genre_set = []
+    seen = set()
     for person in persons:
         share_map = person.get("genre_share")
-        if isinstance(share_map, dict) and share_map:
-            return [g for g in sorted(share_map.keys()) if g not in EXCLUDED_GENRES]
-    raise RuntimeError("Unable to determine target genres list")
+        if not isinstance(share_map, dict):
+            continue
+        for genre in share_map.keys():
+            if genre and genre not in seen:
+                seen.add(genre)
+                genre_set.append(genre)
+
+    if not genre_set:
+        raise RuntimeError("Unable to determine target genres list")
+
+    # If there is a previous order, keep it but append any newly found genres.
+    if existing_order:
+        ordered = list(existing_order)
+        ordered.extend(g for g in genre_set if g not in existing_order)
+        return ordered
+
+    return sorted(genre_set)
+
+
+def _derive_full_genre_share(person: Dict[str, Any]) -> Dict[str, float]:
+    """Recalculate genre shares so all work types (songs, albums, etc.) contribute."""
+    base_share = person.get("genre_share", {})
+    if not isinstance(base_share, dict):
+        base_share = {}
+
+    distribution = person.get("genre_distribution", {})
+    if not isinstance(distribution, dict):
+        return base_share
+
+    total = 0.0
+    normalized_counts: Dict[str, float] = {}
+    for genre, count in distribution.items():
+        if isinstance(count, (int, float)) and count > 0:
+            normalized_counts[genre] = float(count)
+            total += float(count)
+
+    if total <= 0:
+        return base_share
+
+    combined = dict(base_share)
+    for genre, count in normalized_counts.items():
+        combined[genre] = count / total
+    return combined
 
 
 def collect_artists_by_genre(genres: List[str]) -> Dict[str, List[Dict[str, Any]]]:
@@ -41,7 +85,7 @@ def collect_artists_by_genre(genres: List[str]) -> Dict[str, List[Dict[str, Any]
     buckets: Dict[str, List[Dict[str, Any]]] = {genre: [] for genre in genres}
 
     for person in persons:
-        share_map = person.get("genre_share", {})
+        share_map = _derive_full_genre_share(person)
         if not isinstance(share_map, dict):
             continue
         score = person.get("score", 0)

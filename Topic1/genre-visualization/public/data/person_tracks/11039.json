@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11037",
-      "song_id": 11037,
+      "work_type": "Song",
+      "work_id": 11037,
       "title": "Whispers from a New World",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,18 +15,59 @@
       "own": true,
       "artist_id": 11039,
       "artist_name": "Wei Shi",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8181,
+          "name": "Gang Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3214297
+        },
+        {
+          "person_id": 11040,
+          "name": "Chao Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0289605
+        },
+        {
+          "person_id": 11038,
+          "name": "Wei Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980176
+        },
+        {
+          "person_id": 11041,
+          "name": "Lei Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980176
+        }
+      ]
     },
     {
       "id": "song:12505",
-      "song_id": 12505,
+      "work_type": "Song",
+      "work_id": 12505,
       "title": "Zero Hesitation",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,8 +83,136 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2559,
+          "name": "Kimberly Stewart",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0464537
+        },
+        {
+          "person_id": 9047,
+          "name": "Li Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.041001
+        },
+        {
+          "person_id": 4762,
+          "name": "Edwin Hansen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9828448
+        },
+        {
+          "person_id": 12506,
+          "name": "Xiuying Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979933
+        },
+        {
+          "person_id": 12507,
+          "name": "Jennifer Olson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979933
+        }
+      ]
+    },
+    {
+      "id": "album:12508",
+      "work_type": "Album",
+      "work_id": 12508,
+      "title": "Silent Exclamation",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 8181,
+      "artist_name": "Gang Wan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12510,
+          "name": "Min Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4402542
+        },
+        {
+          "person_id": 8181,
+          "name": "Gang Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3214297
+        },
+        {
+          "person_id": 11040,
+          "name": "Chao Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0289605
+        },
+        {
+          "person_id": 12509,
+          "name": "Yang Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977697
+        },
+        {
+          "person_id": 12511,
+          "name": "Juan Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977697
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:12508",
+      "target": "song:11037",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

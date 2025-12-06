@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3433",
-      "song_id": 3433,
+      "work_type": "Song",
+      "work_id": 3433,
       "title": "Tonto's Whisper",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3437,
+          "name": "Qiang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.029727
+        },
+        {
+          "person_id": 3435,
+          "name": "Lei Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3939471
+        },
+        {
+          "person_id": 3436,
+          "name": "Anthony Navarro",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3939471
+        }
+      ]
     },
     {
       "id": "song:10903",
-      "song_id": 10903,
+      "work_type": "Song",
+      "work_id": 10903,
       "title": "Parallel Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +75,55 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10905,
+          "name": "Tao Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979287
+        },
+        {
+          "person_id": 10907,
+          "name": "Lei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397922
+        },
+        {
+          "person_id": 10908,
+          "name": "Wei Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397922
+        },
+        {
+          "person_id": 10904,
+          "name": "Ping Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978856
+        },
+        {
+          "person_id": 10906,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397879
+        }
       ]
     }
   ],

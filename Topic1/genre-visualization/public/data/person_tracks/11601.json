@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:11598",
-      "song_id": 11598,
-      "title": "When Darkness Amplifies",
-      "genre": "Lo-Fi Electronica",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": true,
-      "artist_id": 11601,
-      "artist_name": "Guiying Mo",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:16063",
-      "song_id": 16063,
+      "work_type": "Song",
+      "work_id": 16063,
       "title": "Beekeepers' Serenade in the Cotton State",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -34,18 +15,39 @@
       "own": true,
       "artist_id": 11601,
       "artist_name": "Guiying Mo",
-      "influence": 0,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 1,
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8700,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4221156
+        },
+        {
+          "person_id": 11599,
+          "name": "Lei Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0404193
+        }
+      ]
     },
     {
       "id": "song:16075",
-      "song_id": 16075,
+      "work_type": "Song",
+      "work_id": 16075,
       "title": "Freight Train Freedom",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -61,8 +63,196 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10902,
+          "name": "Wei Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0218909
+        },
+        {
+          "person_id": 16076,
+          "name": "Yang Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976617
+        },
+        {
+          "person_id": 16077,
+          "name": "Na Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976617
+        }
+      ]
+    },
+    {
+      "id": "song:11598",
+      "work_type": "Song",
+      "work_id": 11598,
+      "title": "When Darkness Amplifies",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 11601,
+      "artist_name": "Guiying Mo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8700,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4221156
+        },
+        {
+          "person_id": 11599,
+          "name": "Lei Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0404193
+        },
+        {
+          "person_id": 11600,
+          "name": "Gang Kong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399581
+        }
+      ]
+    },
+    {
+      "id": "album:16979",
+      "work_type": "Album",
+      "work_id": 16979,
+      "title": "Disco Apocalypse",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 16977,
+      "artist_name": "Mira Everly (Ivy Lux)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16977,
+          "name": "Mira Everly",
+          "stage_name": "Ivy Lux",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4330566
+        }
+      ]
+    },
+    {
+      "id": "album:17059",
+      "work_type": "Album",
+      "work_id": 17059,
+      "title": "Broken Anthems",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": 17057,
+      "artist_name": "Desert Echoes（成员：Jax Holloway｜预测 2.40、Riley Vex｜预测 2.40…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17054,
+          "name": "Jax Holloway",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4045684
+        },
+        {
+          "person_id": 17055,
+          "name": "Riley Vex",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4045684
+        },
+        {
+          "person_id": 17056,
+          "name": "Ash Mercer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3998055
+        },
+        {
+          "person_id": 17404,
+          "name": "The Hollow Vestige",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399268
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17059",
+      "target": "song:16063",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:16979",
+      "target": "song:16063",
+      "type": "InStyleOf"
+    }
+  ]
 }

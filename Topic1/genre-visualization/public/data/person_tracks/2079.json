@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2078",
-      "song_id": 2078,
+      "work_type": "Song",
+      "work_id": 2078,
       "title": "Dawning Breaths",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2080,
+          "name": "Ellen Ford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4679987
+        }
+      ]
     },
     {
       "id": "song:13799",
-      "song_id": 13799,
+      "work_type": "Song",
+      "work_id": 13799,
       "title": "Bread and Misery",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,6 +56,18 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6948,
+          "name": "Lori Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9119942
+        }
       ]
     }
   ],

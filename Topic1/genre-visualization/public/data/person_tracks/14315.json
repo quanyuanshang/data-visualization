@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14314",
-      "song_id": 14314,
+      "work_type": "Song",
+      "work_id": 14314,
       "title": "Midnight in the Machine Age",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 190,
+          "name": "Peter Haering",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.7093635
+        },
+        {
+          "person_id": 845,
+          "name": "Kläre Schacht-Mielcarek",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7012684
+        }
+      ]
     },
     {
       "id": "song:842",
-      "song_id": 842,
+      "work_type": "Song",
+      "work_id": 842,
       "title": "Diamond Dreams",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +65,46 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 190,
+          "name": "Peter Haering",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.7093635
+        },
+        {
+          "person_id": 844,
+          "name": "Tobias Etzold-Dörr",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8994334
+        },
+        {
+          "person_id": 845,
+          "name": "Kläre Schacht-Mielcarek",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7012684
+        },
+        {
+          "person_id": 843,
+          "name": "Konstantinos Wende",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398929
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15899",
-      "song_id": 15899,
+      "work_type": "Song",
+      "work_id": 15899,
       "title": "Speak Between Lines",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,128 @@
       "own": true,
       "artist_id": 15902,
       "artist_name": "Austin Perez",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 15221,
+          "name": "Miss Amy Harmon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0384717
+        },
+        {
+          "person_id": 15901,
+          "name": "Monica Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981326
+        },
+        {
+          "person_id": 15900,
+          "name": "Chad Gonzales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979628
+        }
+      ]
+    },
+    {
+      "id": "album:71",
+      "work_type": "Album",
+      "work_id": 71,
+      "title": "Forgotten Incantation",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 72,
+      "artist_name": "Amy Mejia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 75,
+          "name": "Juan Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9476163
+        },
+        {
+          "person_id": 76,
+          "name": "Ming Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9242806
+        },
+        {
+          "person_id": 72,
+          "name": "Amy Mejia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000113
+        },
+        {
+          "person_id": 73,
+          "name": "Yang Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000113
+        }
+      ]
     },
     {
       "id": "song:8344",
-      "song_id": 8344,
+      "work_type": "Song",
+      "work_id": 8344,
       "title": "Fragments of My Universe",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,10 +154,64 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8067,
+          "name": "Gang Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0865505
+        },
+        {
+          "person_id": 8066,
+          "name": "Lauren Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4753132
+        },
+        {
+          "person_id": 8345,
+          "name": "Patrick Bertin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3827274
+        },
+        {
+          "person_id": 8346,
+          "name": "Lindsey Jackson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3827274
+        },
+        {
+          "person_id": 8347,
+          "name": "Valeska Heinrich",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3827274
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:71",
+      "target": "song:15899",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:8344",
       "target": "song:15899",

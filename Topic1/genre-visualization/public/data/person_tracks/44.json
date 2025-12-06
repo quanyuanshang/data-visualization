@@ -4,8 +4,78 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:16171",
+      "work_type": "Song",
+      "work_id": 16171,
+      "title": "Silver in Her Palm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 44,
+      "artist_name": "Jennifer Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 43,
+          "name": "James Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7163863
+        },
+        {
+          "person_id": 45,
+          "name": "Kyle Anderson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380185
+        },
+        {
+          "person_id": 16172,
+          "name": "Michael Pineda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398809
+        },
+        {
+          "person_id": 16173,
+          "name": "Gregory Romero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398809
+        },
+        {
+          "person_id": 16174,
+          "name": "James Rice",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398809
+        }
+      ]
+    },
+    {
       "id": "song:42",
-      "song_id": 42,
+      "work_type": "Song",
+      "work_id": 42,
       "title": "Midnight Clarity",
       "genre": "Synthwave",
       "notable": true,
@@ -21,53 +91,33 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:16171",
-      "song_id": 16171,
-      "title": "Silver in Her Palm",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 44,
-      "artist_name": "Jennifer Smith",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:16171",
-      "song_id": 16171,
-      "title": "Silver in Her Palm",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": false,
-      "artist_id": 43,
-      "artist_name": "James Taylor",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 43,
+          "name": "James Taylor",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7163863
+        },
+        {
+          "person_id": 45,
+          "name": "Kyle Anderson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0380185
+        }
       ]
     },
     {
       "id": "song:16223",
-      "song_id": 16223,
+      "work_type": "Song",
+      "work_id": 16223,
       "title": "Midnight in Kos",
       "genre": "Indie Folk",
       "notable": true,
@@ -85,17 +135,38 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 43,
+          "name": "James Taylor",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7163863
+        },
+        {
+          "person_id": 16224,
+          "name": "Thomas Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994899
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16171",
+      "source": "song:16223",
       "target": "song:42",
       "type": "InStyleOf"
     },
     {
-      "source": "song:16223",
+      "source": "song:16171",
       "target": "song:42",
       "type": "InStyleOf"
     }

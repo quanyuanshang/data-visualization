@@ -1,0 +1,221 @@
+{
+  "person_id": 13247,
+  "name": "Jie Duan",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13246",
+      "work_type": "Album",
+      "work_id": 13246,
+      "title": "Petals Under My Heel",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 13247,
+      "artist_name": "Jie Duan",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2218,
+          "name": "Jing Chang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4351006
+        },
+        {
+          "person_id": 13248,
+          "name": "Ping Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3967679
+        }
+      ]
+    },
+    {
+      "id": "song:2596",
+      "work_type": "Song",
+      "work_id": 2596,
+      "title": "Marsh Echoes at Twilight",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2597,
+      "artist_name": "Min Sun",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2603,
+          "name": "Gang Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4197462
+        },
+        {
+          "person_id": 2597,
+          "name": "Min Sun",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980231
+        },
+        {
+          "person_id": 2598,
+          "name": "Tao Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980231
+        },
+        {
+          "person_id": 2599,
+          "name": "Jie Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980231
+        },
+        {
+          "person_id": 2600,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980231
+        },
+        {
+          "person_id": 2601,
+          "name": "Xia Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980231
+        },
+        {
+          "person_id": 2602,
+          "name": "Qiang Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980231
+        }
+      ]
+    },
+    {
+      "id": "album:3118",
+      "work_type": "Album",
+      "work_id": 3118,
+      "title": "The Ridges of Blood",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 891,
+      "artist_name": "Jie Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 891,
+          "name": "Jie Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9367123
+        },
+        {
+          "person_id": 3122,
+          "name": "Jing Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7180305
+        },
+        {
+          "person_id": 3119,
+          "name": "Yong Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979142
+        },
+        {
+          "person_id": 3120,
+          "name": "Gang Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979142
+        },
+        {
+          "person_id": 3121,
+          "name": "Yong Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979142
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:2596",
+      "target": "album:13246",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:3118",
+      "target": "album:13246",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

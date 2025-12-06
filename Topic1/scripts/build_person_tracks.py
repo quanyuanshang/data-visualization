@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import sys
 from collections import defaultdict
+import csv
 from pathlib import Path
 from typing import Dict, List, Tuple, Set, Any
 
@@ -17,6 +18,7 @@ GRAPH_PATH = ROOT / "data" / "Topic1_graph.json"
 PERSONS_PATH = ROOT / "data" / "person_evaluations_labeled.json"
 OUTPUT_DATA_PATH = ROOT / "data" / "person_tracks.json"
 PUBLIC_DIR = ROOT / "genre-visualization" / "public" / "data" / "person_tracks"
+PREDICTIONS_PATH = ROOT / "output" / "artist_success_predictions.csv"
 
 ROLES = {"PerformerOf", "ComposerOf", "LyricistOf", "ProducerOf"}
 TYPE_TO_KEY = {
@@ -46,91 +48,209 @@ def load_persons() -> List[Dict[str, Any]]:
         return json.load(f)
 
 
-def build_primary_artist(processor: MusicGraphProcessor, song_id: int) -> Tuple[int | None, str | None]:
-    """推断某首歌的“主要”音乐人，用于显示外部节点信息."""
-    candidates = []
-    for edge_type, source_id in processor.get_edges_to(song_id):
-        if edge_type in ROLES:
-            node = processor.get_node(source_id)
-            if not node or node.get("Node Type") != "Person":
+def load_predicted_scores() -> Dict[int, float]:
+    """Load AI-predicted scores (if available) for quick lookup."""
+    scores: Dict[int, float] = {}
+    if not PREDICTIONS_PATH.exists():
+        return scores
+    with PREDICTIONS_PATH.open("r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            try:
+                pid = int(row.get("person_id"))
+            except (TypeError, ValueError):
                 continue
-            stage = node.get("stage_name")
-            name = node.get("name")
-            display_name = f"{name} ({stage})" if stage else name
-            candidates.append((source_id, display_name))
+            try:
+                score = float(row.get("predicted_score"))
+            except (TypeError, ValueError):
+                score = None
+            if score is not None:
+                scores[pid] = score
+    return scores
+
+
+def build_primary_artist(
+    processor: MusicGraphProcessor,
+    work_id: int,
+    predicted_scores: Dict[int, float],
+) -> Tuple[int | None, str | None]:
+    """推断某首作品（歌曲/专辑）的“主要”音乐人."""
+    person_candidates: List[Tuple[int, str]] = []
+    group_candidates: List[Tuple[int, str]] = []
+
+    for edge_type, source_id in processor.get_edges_to(work_id):
+        if edge_type not in ROLES:
+            continue
+
+        node = processor.get_node(source_id)
+        if not node:
+            continue
+
+        node_type = node.get("Node Type")
+        if node_type == "Person":
+            display_name = format_display_name(node.get("name"), node.get("stage_name"))
+            person_candidates.append((source_id, display_name))
             if edge_type == "PerformerOf":
                 # Prefer performer
                 return source_id, display_name
-    return candidates[0] if candidates else (None, None)
+            continue
+
+        # 允许乐队/其他实体作为 owner
+        display_name = node.get("name") or node_type or "Unknown Artist"
+        if node_type == "MusicalGroup":
+            member_names: List[str] = []
+            for member_edge, member_id in processor.get_edges_to(source_id):
+                if member_edge != "MemberOf":
+                    continue
+                member_node = processor.get_node(member_id)
+                if member_node and member_node.get("Node Type") == "Person":
+                    member_display = format_display_name(
+                        member_node.get("name"),
+                        member_node.get("stage_name")
+                    )
+                    score = predicted_scores.get(member_id)
+                    if score is not None:
+                        member_display = f"{member_display}｜预测 {score:.2f}"
+                    member_names.append(member_display)
+            if member_names:
+                preview = "、".join(member_names[:2])
+                suffix = "…" if len(member_names) > 2 else ""
+                display_name = f"{display_name}（成员：{preview}{suffix}）"
+
+        group_candidates.append((source_id, display_name))
+        if edge_type == "PerformerOf":
+            return source_id, display_name
+
+    if person_candidates:
+        return person_candidates[0]
+    if group_candidates:
+        return group_candidates[0]
+    return None, None
 
 
-def build_person_tracks(processor: MusicGraphProcessor, person: Dict[str, Any]) -> Dict[str, Any] | None:
-    """
-    为单个音乐人生成包含“自有单曲 + 关联外部曲目 + 关系边”的网络结构.
-    """
+def gather_collaborators(
+    processor: MusicGraphProcessor,
+    work_id: int,
+    exclude_person: int | None,
+    predicted_scores: Dict[int, float],
+) -> List[Dict[str, Any]]:
+    roles_map: Dict[int, set] = defaultdict(set)
+    for edge_type, source_id in processor.get_edges_to(work_id):
+        if edge_type in ROLES and (exclude_person is None or source_id != exclude_person):
+            roles_map[source_id].add(edge_type)
+
+    collaborators: List[Dict[str, Any]] = []
+    for pid, roles in roles_map.items():
+        person_node = processor.get_node(pid)
+        if not person_node or person_node.get("Node Type") != "Person":
+            continue
+        collaborators.append({
+            "person_id": pid,
+            "name": person_node.get("name"),
+            "stage_name": person_node.get("stage_name"),
+            "roles": sorted(roles),
+            "predicted_score": predicted_scores.get(pid)
+        })
+
+    collaborators.sort(key=lambda item: item.get("predicted_score") or 0.0, reverse=True)
+    return collaborators
+
+
+def build_person_tracks(
+    processor: MusicGraphProcessor,
+    person: Dict[str, Any],
+    predicted_scores: Dict[int, float]
+) -> Dict[str, Any] | None:
+    """为单个音乐人生成包含歌曲/专辑及其引用关系的网络结构."""
     person_id = person["person_id"]
     works = processor.get_person_works(person_id)
-    song_nodes = {}
+    work_nodes: Dict[Tuple[str, int], Dict[str, Any]] = {}
     for role in ROLES:
         for node in works.get(role, []):
-            if node.get("Node Type") == "Song":
-                song_nodes[node["id"]] = node
+            node_type = node.get("Node Type")
+            if node_type in {"Song", "Album"}:
+                work_nodes[(node_type, node["id"])] = node
 
-    if not song_nodes:
-        return None
+    if not work_nodes:
+        return {
+            "person_id": person_id,
+            "name": person.get("name"),
+            "stage_name": person.get("stage_name"),
+            "nodes": [],
+            "links": []
+        }
 
     nodes: Dict[str, Dict[str, Any]] = {}
     external_nodes: Dict[str, Dict[str, Any]] = {}
     links_set: Set[Tuple[str, str, str]] = set()
 
-    for song_id, node in song_nodes.items():
-        node_key = f"song:{song_id}"
-        # 记录影响力的四种来源
+    for (node_type, work_id), node in work_nodes.items():
+        node_prefix = node_type.lower()
+        node_key = f"{node_prefix}:{work_id}"
         influence_counts = {"cover": 0, "sample": 0, "reference": 0, "style": 0}
         release_year = processor.extract_date(node)
         artist_entry = {
             "id": node_key,
-            "song_id": song_id,
+            "work_type": node_type,
+            "work_id": work_id,
             "title": node.get("name"),
             "genre": node.get("genre"),
             "notable": bool(node.get("notable")),
             "release_year": release_year,
-            "single": bool(node.get("single")),
+            "single": bool(node.get("single")) if node_type == "Song" else False,
             "own": True,
             "artist_id": person_id,
             "artist_name": format_display_name(person.get("name"), person.get("stage_name")),
             "influence": 0,
             "influence_breakdown": influence_counts.copy(),
-            "relation_types": []
+            "relation_types": [],
+            "collaborators": gather_collaborators(
+                processor,
+                work_id,
+                exclude_person=person_id,
+                predicted_scores=predicted_scores
+            )
         }
 
-        # 统计所有指向该歌曲的边（被谁翻唱/采样/引用/模仿）
-        for edge_type, source_id in processor.get_edges_to(song_id):
+        # 统计所有指向该作品（歌/专辑）的边
+        for edge_type, source_id in processor.get_edges_to(work_id):
             key = TYPE_TO_KEY.get(edge_type)
             if not key:
                 continue
             source_node = processor.get_node(source_id)
-            if not source_node or source_node.get("Node Type") != "Song":
+            if not source_node or source_node.get("Node Type") not in {"Song", "Album"}:
                 continue
             influence_counts[key] += 1
 
-            source_key = f"song:{source_id}"
+            source_prefix = source_node.get("Node Type").lower()
+            source_key = f"{source_prefix}:{source_id}"
             if source_key not in nodes and source_key not in external_nodes:
-                owner_id, owner_name = build_primary_artist(processor, source_id)
+                owner_id, owner_name = build_primary_artist(
+                    processor,
+                    source_id,
+                    predicted_scores
+                )
                 external_nodes[source_key] = {
                     "id": source_key,
-                    "song_id": source_id,
+                    "work_type": source_node.get("Node Type"),
+                    "work_id": source_id,
                     "title": source_node.get("name"),
                     "genre": source_node.get("genre"),
                     "notable": bool(source_node.get("notable")),
                     "release_year": processor.extract_date(source_node),
-                    "single": bool(source_node.get("single")),
+                    "single": bool(source_node.get("single")) if source_node.get("Node Type") == "Song" else False,
                     "own": owner_id == person_id,
                     "artist_id": owner_id,
                     "artist_name": owner_name,
                     "influence": 0,
                     "influence_breakdown": {"cover": 0, "sample": 0, "reference": 0, "style": 0},
-                    "relation_types": set()
+                    "relation_types": set(),
+                    "collaborators": gather_collaborators(
+                        processor,
+                        source_id,
+                        exclude_person=None,
+                        predicted_scores=predicted_scores
+                    )
                 }
             if source_key in external_nodes:
                 external_nodes[source_key]["relation_types"].add(edge_type)
@@ -181,9 +301,10 @@ def main() -> None:
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
 
     aggregate_data = {}
+    predicted_scores = load_predicted_scores()
     for person in persons:
-        result = build_person_tracks(processor, person)
-        if not result or not result.get("nodes"):
+        result = build_person_tracks(processor, person, predicted_scores)
+        if not result:
             continue
         person_id = result["person_id"]
         aggregate_data[person_id] = result

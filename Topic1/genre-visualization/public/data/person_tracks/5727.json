@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:5726",
-      "song_id": 5726,
-      "title": "The Path Unfolding",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 5727,
-      "artist_name": "Yasmin Verschut",
-      "influence": 14,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 1,
-        "reference": 1,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6210",
-      "song_id": 6210,
+      "work_type": "Song",
+      "work_id": 6210,
       "title": "The Gentle Frost of December",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,23 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5728,
+          "name": "Ryan Ford",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7062628
+        }
+      ]
     },
     {
       "id": "song:6735",
-      "song_id": 6735,
+      "work_type": "Song",
+      "work_id": 6735,
       "title": "Wisdom Wearing a Donkey's Saddle",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,11 +54,23 @@
         "reference": 5,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5728,
+          "name": "Ryan Ford",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7062628
+        }
+      ]
     },
     {
       "id": "song:11948",
-      "song_id": 11948,
+      "work_type": "Song",
+      "work_id": 11948,
       "title": "Rising Sun Renegades",
       "genre": "Alternative Rock",
       "notable": true,
@@ -81,31 +86,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:14269",
-      "song_id": 14269,
-      "title": "Arterial Intersection",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2031,
-      "single": true,
-      "own": true,
-      "artist_id": 5727,
-      "artist_name": "Yasmin Verschut",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5728,
+          "name": "Ryan Ford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7062628
+        }
+      ]
     },
     {
       "id": "song:15645",
-      "song_id": 15645,
+      "work_type": "Song",
+      "work_id": 15645,
       "title": "Winds of the Kazakh Plains",
       "genre": "Alternative Rock",
       "notable": true,
@@ -121,38 +118,60 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:3390",
-      "song_id": 3390,
-      "title": "Displaced Moment",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2014,
-      "single": false,
-      "own": false,
-      "artist_id": 3391,
-      "artist_name": "Diana Lewis",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf",
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14270,
+          "name": "Evelien Becht-Versluijs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0455208
+        }
       ]
     },
     {
-      "id": "song:6210",
-      "song_id": 6210,
-      "title": "The Gentle Frost of December",
+      "id": "song:5726",
+      "work_type": "Song",
+      "work_id": 5726,
+      "title": "The Path Unfolding",
       "genre": "Alternative Rock",
       "notable": true,
-      "release_year": 2022,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 5727,
+      "artist_name": "Yasmin Verschut",
+      "influence": 14,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5728,
+          "name": "Ryan Ford",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7062628
+        }
+      ]
+    },
+    {
+      "id": "song:14269",
+      "work_type": "Song",
+      "work_id": 14269,
+      "title": "Arterial Intersection",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2031,
       "single": true,
       "own": true,
       "artist_id": 5727,
@@ -164,14 +183,59 @@
         "reference": 0,
         "style": 0
       },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14270,
+          "name": "Evelien Becht-Versluijs",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0455208
+        }
+      ]
+    },
+    {
+      "id": "song:1810",
+      "work_type": "Song",
+      "work_id": 1810,
+      "title": "Undeniable Subtext",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1811,
+      "artist_name": "Nanami Sakamoto",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
       "relation_types": [
-        "CoverOf",
-        "DirectlySamples"
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1811,
+          "name": "Nanami Sakamoto",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3916945
+        }
       ]
     },
     {
       "id": "song:14269",
-      "song_id": 14269,
+      "work_type": "Song",
+      "work_id": 14269,
       "title": "Arterial Intersection",
       "genre": "Alternative Rock",
       "notable": true,
@@ -190,11 +254,33 @@
       "relation_types": [
         "CoverOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5727,
+          "name": "Yasmin Verschut",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0951853
+        },
+        {
+          "person_id": 14270,
+          "name": "Evelien Becht-Versluijs",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0455208
+        }
       ]
     },
     {
       "id": "song:15645",
-      "song_id": 15645,
+      "work_type": "Song",
+      "work_id": 15645,
       "title": "Winds of the Kazakh Plains",
       "genre": "Alternative Rock",
       "notable": true,
@@ -213,19 +299,41 @@
       "relation_types": [
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5727,
+          "name": "Yasmin Verschut",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0951853
+        },
+        {
+          "person_id": 14270,
+          "name": "Evelien Becht-Versluijs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0455208
+        }
       ]
     },
     {
-      "id": "song:1810",
-      "song_id": 1810,
-      "title": "Undeniable Subtext",
-      "genre": "Lo-Fi Electronica",
+      "id": "song:3390",
+      "work_type": "Song",
+      "work_id": 3390,
+      "title": "Displaced Moment",
+      "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2028,
-      "single": true,
+      "release_year": 2014,
+      "single": false,
       "own": false,
-      "artist_id": 1811,
-      "artist_name": "Nanami Sakamoto",
+      "artist_id": 3391,
+      "artist_name": "Diana Lewis",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -234,12 +342,88 @@
         "style": 0
       },
       "relation_types": [
-        "LyricalReferenceTo"
+        "CoverOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3391,
+          "name": "Diana Lewis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002986
+        },
+        {
+          "person_id": 3392,
+          "name": "Micheal Martin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002986
+        },
+        {
+          "person_id": 3393,
+          "name": "Michael Keller",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002986
+        }
+      ]
+    },
+    {
+      "id": "song:5726",
+      "work_type": "Song",
+      "work_id": 5726,
+      "title": "The Path Unfolding",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 5728,
+      "artist_name": "Ryan Ford",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5727,
+          "name": "Yasmin Verschut",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0951853
+        },
+        {
+          "person_id": 5728,
+          "name": "Ryan Ford",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7062628
+        }
       ]
     },
     {
       "id": "song:11948",
-      "song_id": 11948,
+      "work_type": "Song",
+      "work_id": 11948,
       "title": "Rising Sun Renegades",
       "genre": "Alternative Rock",
       "notable": true,
@@ -257,59 +441,40 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5727,
+          "name": "Yasmin Verschut",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0951853
+        },
+        {
+          "person_id": 5728,
+          "name": "Ryan Ford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7062628
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:5726",
-      "target": "song:6735",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:6210",
-      "target": "song:11948",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:6210",
-      "target": "song:6735",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:3390",
-      "target": "song:5726",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:15645",
-      "target": "song:5726",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:6210",
       "target": "song:5726",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:11948",
+      "source": "song:14269",
       "target": "song:6735",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:14269",
-      "target": "song:5726",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:14269",
-      "target": "song:15645",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:14269",
-      "target": "song:6210",
-      "type": "CoverOf"
     },
     {
       "source": "song:1810",
@@ -322,8 +487,33 @@
       "type": "InterpolatesFrom"
     },
     {
+      "source": "song:3390",
+      "target": "song:5726",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:14269",
+      "target": "song:5726",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11948",
       "target": "song:6735",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14269",
+      "target": "song:6210",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5726",
+      "target": "song:6735",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14269",
+      "target": "song:15645",
       "type": "LyricalReferenceTo"
     },
     {
@@ -335,6 +525,21 @@
       "source": "song:15645",
       "target": "song:6210",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:15645",
+      "target": "song:5726",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6210",
+      "target": "song:6735",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6210",
+      "target": "song:11948",
+      "type": "CoverOf"
     }
   ]
 }

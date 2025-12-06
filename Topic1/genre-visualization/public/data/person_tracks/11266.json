@@ -4,8 +4,59 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:11263",
+      "work_type": "Album",
+      "work_id": 11263,
+      "title": "The Drover's Lament",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 11266,
+      "artist_name": "Emily Nash",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11264,
+          "name": "Lindsay Williams",
+          "stage_name": " The Storm",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036272
+        },
+        {
+          "person_id": 11267,
+          "name": "Michael Wright",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3987377
+        },
+        {
+          "person_id": 11265,
+          "name": "Vanessa King",
+          "stage_name": "Sepia Rhapsody",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986943
+        }
+      ]
+    },
+    {
       "id": "song:15182",
-      "song_id": 15182,
+      "work_type": "Song",
+      "work_id": 15182,
       "title": "Wisdom's Lament",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,8 +72,80 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11264,
+          "name": "Lindsay Williams",
+          "stage_name": " The Storm",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.036272
+        },
+        {
+          "person_id": 15184,
+          "name": "Terry Adams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989184
+        },
+        {
+          "person_id": 15183,
+          "name": "Ryan Osborn",
+          "stage_name": " Josie Blue",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398875
+        }
+      ]
+    },
+    {
+      "id": "song:12001",
+      "work_type": "Song",
+      "work_id": 12001,
+      "title": "Phantom's Second Chance",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 12002,
+      "artist_name": "Caroline Lloyd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12002,
+          "name": "Caroline Lloyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396128
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:12001",
+      "target": "album:11263",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

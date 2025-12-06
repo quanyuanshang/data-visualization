@@ -1,0 +1,129 @@
+{
+  "person_id": 4431,
+  "name": "Janet Parks",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:4430",
+      "work_type": "Album",
+      "work_id": 4430,
+      "title": "Whispers of the Orange Grove",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 4431,
+      "artist_name": "Janet Parks",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:4430",
+      "work_type": "Album",
+      "work_id": 4430,
+      "title": "Whispers of the Orange Grove",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 4431,
+      "artist_name": "Janet Parks",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4431,
+          "name": "Janet Parks",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998575
+        }
+      ]
+    },
+    {
+      "id": "album:12788",
+      "work_type": "Album",
+      "work_id": 12788,
+      "title": "Bright Awakening",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 12790,
+      "artist_name": "Jamie Roberts",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12789,
+          "name": "Terry Baker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397473
+        },
+        {
+          "person_id": 12790,
+          "name": "Jamie Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397473
+        },
+        {
+          "person_id": 12791,
+          "name": "Madeline Gentry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397473
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:4430",
+      "target": "album:4430",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:12788",
+      "target": "album:4430",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

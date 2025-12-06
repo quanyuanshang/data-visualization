@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14569",
-      "song_id": 14569,
+      "work_type": "Song",
+      "work_id": 14569,
       "title": "Polka Echoes from Stockholm's Archipelago",
       "genre": "Synthpop",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 14570,
       "artist_name": "Richard Hill",
-      "influence": 24,
+      "influence": 27,
       "influence_breakdown": {
         "cover": 2,
         "sample": 1,
-        "reference": 2,
+        "reference": 3,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7516,
+          "name": "Laura Turner",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.258833
+        },
+        {
+          "person_id": 14571,
+          "name": "Michael Bell",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.400408
+        }
+      ]
     },
     {
       "id": "song:1888",
-      "song_id": 1888,
+      "work_type": "Song",
+      "work_id": 1888,
       "title": "Backroad FreedomCumhuriyet'in İzinde (On the Path of the Republic)",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +65,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1891,
+          "name": "Rachel Hill",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9302983
+        },
+        {
+          "person_id": 1889,
+          "name": "Lawrence Larson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994899
+        },
+        {
+          "person_id": 1890,
+          "name": "Rachel Hall",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3994899
+        }
       ]
     },
     {
       "id": "song:4675",
-      "song_id": 4675,
+      "work_type": "Song",
+      "work_id": 4675,
       "title": "Wha?",
       "genre": "Desert Rock",
       "notable": true,
@@ -65,11 +118,158 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1180,
+          "name": "Guiying Liao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2640724
+        },
+        {
+          "person_id": 1182,
+          "name": "Yan Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2640724
+        },
+        {
+          "person_id": 4678,
+          "name": "Jun Han",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4357004
+        },
+        {
+          "person_id": 4677,
+          "name": "Jie Fu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.427949
+        },
+        {
+          "person_id": 4676,
+          "name": "Nicholas Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0574236
+        },
+        {
+          "person_id": 4679,
+          "name": "Kristin Floyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0574236
+        }
+      ]
+    },
+    {
+      "id": "album:7080",
+      "work_type": "Album",
+      "work_id": 7080,
+      "title": "Celestial Conscience",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 6667,
+      "artist_name": "Ming Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6667,
+          "name": "Ming Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 6668,
+          "name": "Li Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 7085,
+          "name": "Wendy Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3945386
+        },
+        {
+          "person_id": 7084,
+          "name": "Yan Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0172927
+        },
+        {
+          "person_id": 7081,
+          "name": "Na Yuan",
+          "stage_name": "SAVVY G",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021635
+        },
+        {
+          "person_id": 7082,
+          "name": "Jing Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021635
+        },
+        {
+          "person_id": 7083,
+          "name": "Lei Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021635
+        }
       ]
     },
     {
       "id": "song:7133",
-      "song_id": 7133,
+      "work_type": "Song",
+      "work_id": 7133,
       "title": "Flicker's Last Breath",
       "genre": "Space Rock",
       "notable": true,
@@ -87,11 +287,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 7134,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.040878
+        },
+        {
+          "person_id": 7136,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0408216
+        },
+        {
+          "person_id": 7135,
+          "name": "Wei Liang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3998458
+        }
       ]
     },
     {
       "id": "song:12386",
-      "song_id": 12386,
+      "work_type": "Song",
+      "work_id": 12386,
       "title": "Wilderness Echoes: Sámi Violin Chronicles",
       "genre": "Indie Folk",
       "notable": true,
@@ -109,11 +349,79 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6667,
+          "name": "Ming Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 6668,
+          "name": "Li Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 7085,
+          "name": "Wendy Brown",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.3945386
+        },
+        {
+          "person_id": 6669,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0436125
+        },
+        {
+          "person_id": 7084,
+          "name": "Yan Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0172927
+        },
+        {
+          "person_id": 12387,
+          "name": "Fang He",
+          "stage_name": "Requiem",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978994
+        },
+        {
+          "person_id": 12388,
+          "name": "Chao Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397892
+        }
       ]
     },
     {
       "id": "song:14589",
-      "song_id": 14589,
+      "work_type": "Song",
+      "work_id": 14589,
       "title": "Digital Frontier",
       "genre": "Americana",
       "notable": true,
@@ -131,11 +439,41 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1093,
+          "name": "Li Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6390505
+        },
+        {
+          "person_id": 1094,
+          "name": "Xiulan Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4272726
+        },
+        {
+          "person_id": 10664,
+          "name": "Elizabeth Garcia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0239863
+        }
       ]
     },
     {
       "id": "song:16070",
-      "song_id": 16070,
+      "work_type": "Song",
+      "work_id": 16070,
       "title": "Wandering Wheels",
       "genre": "Space Rock",
       "notable": true,
@@ -153,11 +491,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16071,
+          "name": "Jing Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978968
+        },
+        {
+          "person_id": 16073,
+          "name": "Catherine Perez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978968
+        },
+        {
+          "person_id": 16074,
+          "name": "Wei Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978968
+        },
+        {
+          "person_id": 16072,
+          "name": "Steven Boyd",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397876
+        }
       ]
     },
     {
       "id": "song:16590",
-      "song_id": 16590,
+      "work_type": "Song",
+      "work_id": 16590,
       "title": "Nerd Nation",
       "genre": "Americana",
       "notable": true,
@@ -175,27 +553,69 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16596,
+          "name": "Xiuying Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979442
+        },
+        {
+          "person_id": 16591,
+          "name": "Yan Zou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16593,
+          "name": "Xiuying Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16594,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16595,
+          "name": "Chao Zhao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16592,
+          "name": "Xiuying Xu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975165
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12386",
-      "target": "song:14569",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:16070",
-      "target": "song:14569",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:4675",
-      "target": "song:14569",
-      "type": "DirectlySamples"
-    },
-    {
-      "source": "song:14589",
       "target": "song:14569",
       "type": "InStyleOf"
     },
@@ -210,9 +630,29 @@
       "type": "CoverOf"
     },
     {
+      "source": "song:14589",
+      "target": "song:14569",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12386",
+      "target": "song:14569",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:1888",
       "target": "song:14569",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:7080",
+      "target": "song:14569",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4675",
+      "target": "song:14569",
+      "type": "DirectlySamples"
     }
   ]
 }

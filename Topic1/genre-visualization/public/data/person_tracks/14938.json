@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14933",
-      "song_id": 14933,
+      "work_type": "Song",
+      "work_id": 14933,
       "title": "The Crown We Wear",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14934,
+          "name": "Miss Jennifer Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39537
+        },
+        {
+          "person_id": 14935,
+          "name": "William Robinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39537
+        },
+        {
+          "person_id": 14936,
+          "name": "Judy Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39537
+        },
+        {
+          "person_id": 14937,
+          "name": "Joanna Avery",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39537
+        }
+      ]
     },
     {
       "id": "song:8914",
-      "song_id": 8914,
+      "work_type": "Song",
+      "work_id": 8914,
       "title": "Heartbeat Hurdles",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,11 +84,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8916,
+          "name": "Emmanuel de Blot",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.427796
+        },
+        {
+          "person_id": 8917,
+          "name": "Bernard-André Rolland",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0303218
+        },
+        {
+          "person_id": 8918,
+          "name": "Christelle Grégoire",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0303218
+        },
+        {
+          "person_id": 8915,
+          "name": "Isabelle Baudry de Michel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.027824
+        }
       ]
     },
     {
       "id": "song:15101",
-      "song_id": 15101,
+      "work_type": "Song",
+      "work_id": 15101,
       "title": "When Wonder Breaks",
       "genre": "Blues Rock",
       "notable": true,
@@ -65,11 +146,25 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15102,
+          "name": "Jeffrey Middleton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000208
+        }
       ]
     },
     {
       "id": "song:17280",
-      "song_id": 17280,
+      "work_type": "Song",
+      "work_id": 17280,
       "title": "Electric Eel Love",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -87,6 +182,17 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],
@@ -97,14 +203,14 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:15101",
-      "target": "song:14933",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:17280",
       "target": "song:14933",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:15101",
+      "target": "song:14933",
+      "type": "InStyleOf"
     }
   ]
 }

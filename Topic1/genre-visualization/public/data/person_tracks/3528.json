@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3526",
-      "song_id": 3526,
+      "work_type": "Song",
+      "work_id": 3526,
       "title": "Sierra Winds and Jet Streams",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3529,
+          "name": "Gang Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9857156
+        },
+        {
+          "person_id": 3527,
+          "name": "Min Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399001
+        }
+      ]
     },
     {
       "id": "song:7118",
-      "song_id": 7118,
+      "work_type": "Song",
+      "work_id": 7118,
       "title": "Whispers of Pain",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +65,45 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7121,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.03509
+        },
+        {
+          "person_id": 7119,
+          "name": "Yan Yu",
+          "stage_name": " Sasha James",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998501
+        },
+        {
+          "person_id": 7122,
+          "name": "Yong Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998501
+        },
+        {
+          "person_id": 7120,
+          "name": "Xiulan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994687
+        }
       ]
     }
   ],

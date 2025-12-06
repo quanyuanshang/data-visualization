@@ -1,3 +1,4 @@
+
 <template>
   <div class="track-view">
     <header class="header">
@@ -49,6 +50,7 @@
             @mouseenter="handleNodeEnter($event, node)"
             @mouseleave="handleNodeLeave"
           >
+            <!-- 唱片/圆形节点 -->
             <circle
               v-if="node.own"
               class="track-circle"
@@ -56,7 +58,9 @@
               :fill="nodeFill(node)"
               :stroke="node.notable ? '#000000' : nodeStroke(node)"
               :stroke-width="node.notable ? 3 : 1.5"
+              :stroke-dasharray="hasCollaborators(node) ? '4,3' : 'none'"
             />
+            <!-- 外部/方形节点 -->
             <rect
               v-else
               class="external-rect"
@@ -68,6 +72,7 @@
               :fill="nodeFill(node)"
               :stroke="nodeStroke(node)"
               :stroke-width="node.notable ? 3 : 1.5"
+              :stroke-dasharray="hasCollaborators(node) ? '4,3' : 'none'"
             />
             <text class="node-label" text-anchor="middle" dominant-baseline="middle">{{ node.shortTitle }}</text>
           </g>
@@ -79,6 +84,13 @@
         <p v-if="hoveredNode.genre">流派：{{ hoveredNode.genre }}</p>
         <p v-if="hoveredNode.release_year">年份：{{ hoveredNode.release_year }}</p>
         <p>影响力：{{ hoveredNode.influence }}</p>
+        
+        <!-- 合作者显示 -->
+        <p v-if="hasCollaborators(hoveredNode)" class="collab-row">
+          <span class="icon">🤝</span> 
+          <span>合作者：{{ formatCollaborators(hoveredNode.collaborators) }}</span>
+        </p>
+
         <p>
           来源：翻唱 {{ hoveredNode.influence_breakdown?.cover ?? 0 }} ｜采样 {{ hoveredNode.influence_breakdown?.sample ?? 0 }} ｜引用 {{ hoveredNode.influence_breakdown?.reference ?? 0 }} ｜风格 {{ hoveredNode.influence_breakdown?.style ?? 0 }}
         </p>
@@ -96,12 +108,16 @@
           <span>方形：外部引用作品</span>
         </div>
         <div class="legend-item">
-          <span class="legend-line"></span>
-          <span>线条：翻唱 / 采样 / 引用 / 模仿</span>
+          <span class="legend-symbol dashed"></span>
+          <span>虚线描边：包含合作者</span>
         </div>
         <div class="legend-item">
           <span class="legend-symbol notable"></span>
           <span>黑色描边：成名曲</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-line"></span>
+          <span>线条：翻唱 / 采样 / 引用 / 模仿</span>
         </div>
       </div>
     </div>
@@ -224,6 +240,28 @@ function linkColor(type) {
   return map[type] || '#94a3b8'
 }
 
+function hasCollaborators(node) {
+  return node.collaborators && node.collaborators.length > 0
+}
+
+function formatCollaborators(list) {
+  if (!list || !list.length) return ''
+  return list
+    .map(item => {
+      if (!item) return ''
+      const displayName = item.stage_name || item.name || '未知音乐人'
+      const score = typeof item.predicted_score === 'number'
+        ? item.predicted_score.toFixed(2)
+        : '未评分'
+      const roles = Array.isArray(item.roles) && item.roles.length
+        ? `（${item.roles.join(' / ')}）`
+        : ''
+      return `${displayName}${roles}｜预测 ${score}`
+    })
+    .filter(Boolean)
+    .join('、')
+}
+
 function updateCanvasSize() {
   if (!containerRef.value) return
   width.value = containerRef.value.clientWidth || 1200
@@ -258,6 +296,7 @@ function initSimulation() {
       ...raw,
       influence_breakdown: raw.influence_breakdown || { cover: 0, sample: 0, reference: 0, style: 0 },
       relation_types: raw.relation_types || [],
+      collaborators: raw.collaborators || [], // 确保合作者数据传递
       radius: raw.own ? ownRadiusScale(raw.influence ?? 0) : 12,
       x: width.value / 2 + (Math.random() - 0.5) * 60,
       y: height.value / 2 + (Math.random() - 0.5) * 60,
@@ -481,6 +520,18 @@ svg {
   color: #f8fafc;
 }
 
+.collab-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  color: #667eea;
+  font-weight: 500;
+  background: rgba(102, 126, 234, 0.1);
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+
 .legend {
   position: absolute;
   right: 20px;
@@ -520,6 +571,11 @@ svg {
 
 .legend-symbol.notable {
   border: 2px solid #000;
+  background: transparent;
+}
+
+.legend-symbol.dashed {
+  border: 2px dashed #fff;
   background: transparent;
 }
 

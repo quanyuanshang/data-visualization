@@ -1,0 +1,140 @@
+{
+  "person_id": 4482,
+  "name": "Jeanne Perrin",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:4481",
+      "work_type": "Album",
+      "work_id": 4481,
+      "title": "The Fallibility of Me",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2001,
+      "single": false,
+      "own": true,
+      "artist_id": 4482,
+      "artist_name": "Jeanne Perrin",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9300425
+        }
+      ]
+    },
+    {
+      "id": "song:6189",
+      "work_type": "Song",
+      "work_id": 6189,
+      "title": "Riverstone Whispers",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 4483,
+      "artist_name": "Catherine Prévost",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
+      ]
+    },
+    {
+      "id": "song:9143",
+      "work_type": "Song",
+      "work_id": 9143,
+      "title": "Moment's Courage",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": false,
+      "artist_id": 4483,
+      "artist_name": "Catherine Prévost",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2752,
+          "name": "Thibault Potier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.259046
+        },
+        {
+          "person_id": 4483,
+          "name": "Catherine Prévost",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9300425
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6189",
+      "target": "album:4481",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9143",
+      "target": "album:4481",
+      "type": "CoverOf"
+    }
+  ]
+}

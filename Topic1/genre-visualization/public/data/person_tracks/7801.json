@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7799",
-      "song_id": 7799,
+      "work_type": "Song",
+      "work_id": 7799,
       "title": "Negadores Constantes",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7800,
+          "name": "Yui Fukuda",
+          "stage_name": " Charlie Gray",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4515338
+        },
+        {
+          "person_id": 7802,
+          "name": "Maaya Ishikawa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3862033
+        }
+      ]
     },
     {
       "id": "song:1190",
-      "song_id": 1190,
+      "work_type": "Song",
+      "work_id": 1190,
       "title": "Spinning Threads of Power",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +65,42 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1193,
+          "name": "Elizabeth Parker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040406
+        },
+        {
+          "person_id": 1192,
+          "name": "Brittany Harvey",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0350325
+        },
+        {
+          "person_id": 1191,
+          "name": "Amanda Cole",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982728
+        }
       ]
     },
     {
       "id": "song:14107",
-      "song_id": 14107,
+      "work_type": "Song",
+      "work_id": 14107,
       "title": "Folklore's Heartbeat",
       "genre": "Blues Rock",
       "notable": true,
@@ -65,11 +118,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12948,
+          "name": "Brooke Olson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0405242
+        },
+        {
+          "person_id": 14108,
+          "name": "Tao Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.416326
+        }
       ]
     },
     {
       "id": "song:16182",
-      "song_id": 16182,
+      "work_type": "Song",
+      "work_id": 16182,
       "title": "Coronela's Last Stand",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -87,6 +162,19 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7800,
+          "name": "Yui Fukuda",
+          "stage_name": " Charlie Gray",
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4515338
+        }
       ]
     }
   ],

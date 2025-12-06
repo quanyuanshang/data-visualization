@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3991",
-      "song_id": 3991,
+      "work_type": "Song",
+      "work_id": 3991,
       "title": "Instrument Failure",
       "genre": "Synthwave",
       "notable": false,
@@ -21,11 +22,62 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1493,
+          "name": "Lei Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.727368
+        },
+        {
+          "person_id": 1490,
+          "name": "Yong Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1491,
+          "name": "Yong Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1492,
+          "name": "Juan Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1494,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9724717
+        }
+      ]
     },
     {
       "id": "song:1076",
-      "song_id": 1076,
+      "work_type": "Song",
+      "work_id": 1076,
       "title": "Snapshot Shadows",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +95,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1079,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8661966
+        },
+        {
+          "person_id": 1077,
+          "name": "Kaylee Quinn",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0562105
+        },
+        {
+          "person_id": 1078,
+          "name": "Na Yan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400418
+        }
       ]
     },
     {
       "id": "song:5300",
-      "song_id": 5300,
+      "work_type": "Song",
+      "work_id": 5300,
       "title": "The Midnight Revue",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -65,11 +148,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5302,
+          "name": "Matthew Nichols",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0443265
+        },
+        {
+          "person_id": 5304,
+          "name": "Dustin Lopez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0443265
+        },
+        {
+          "person_id": 5301,
+          "name": "Leonard Phillips",
+          "stage_name": "TR1P LIT",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0436387
+        },
+        {
+          "person_id": 5303,
+          "name": "Latoya English",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.040808
+        },
+        {
+          "person_id": 5305,
+          "name": "Walter Bell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0394297
+        }
       ]
     },
     {
       "id": "song:11679",
-      "song_id": 11679,
+      "work_type": "Song",
+      "work_id": 11679,
       "title": "Snapshot of Forever",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -87,19 +219,68 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1493,
+          "name": "Lei Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.727368
+        },
+        {
+          "person_id": 1490,
+          "name": "Yong Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1491,
+          "name": "Yong Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1492,
+          "name": "Juan Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4276824
+        },
+        {
+          "person_id": 1494,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9724717
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11679",
-      "target": "song:3991",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:5300",
       "target": "song:3991",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11679",
+      "target": "song:3991",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:1076",

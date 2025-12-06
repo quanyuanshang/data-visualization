@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1635",
-      "song_id": 1635,
+      "work_type": "Song",
+      "work_id": 1635,
       "title": "Ruins of Imperial Passion",
       "genre": "Synthpop",
       "notable": true,
@@ -21,8 +22,85 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1636,
+          "name": "Gabrielle Richardson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0528424
+        },
+        {
+          "person_id": 1637,
+          "name": "Juan Hall",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.039749
+        },
+        {
+          "person_id": 1638,
+          "name": "Bryan Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.039749
+        }
+      ]
+    },
+    {
+      "id": "album:7947",
+      "work_type": "Album",
+      "work_id": 7947,
+      "title": "Celestial Tapestry",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 1639,
+      "artist_name": "Walfried Ernst",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 7948,
+          "name": "Paola Täsche",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.404312
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:1635",
+      "target": "album:7947",
+      "type": "InStyleOf"
+    }
+  ]
 }

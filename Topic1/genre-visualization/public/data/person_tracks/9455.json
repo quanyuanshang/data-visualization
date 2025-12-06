@@ -4,8 +4,60 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:9454",
+      "work_type": "Album",
+      "work_id": 9454,
+      "title": "Hannover's Heartbeat",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 9455,
+      "artist_name": "Kylie Clarke",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5382,
+          "name": "Yong Wang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1169157
+        },
+        {
+          "person_id": 9456,
+          "name": "Ashley Patton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0392275
+        },
+        {
+          "person_id": 9457,
+          "name": "Jessica Holmes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0392275
+        }
+      ]
+    },
+    {
       "id": "song:13480",
-      "song_id": 13480,
+      "work_type": "Song",
+      "work_id": 13480,
       "title": "Fault Lines of the Heart",
       "genre": "Synthwave",
       "notable": true,
@@ -21,33 +73,42 @@
         "reference": 3,
         "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:1483",
-      "song_id": 1483,
-      "title": "Fragments of a Drowned Landscape",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2027,
-      "single": true,
-      "own": false,
-      "artist_id": 1484,
-      "artist_name": "Adam Allen ( The Dawn)",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5382,
+          "name": "Yong Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1169157
+        },
+        {
+          "person_id": 9456,
+          "name": "Ashley Patton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0392275
+        },
+        {
+          "person_id": 9457,
+          "name": "Jessica Holmes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0392275
+        }
       ]
     },
     {
       "id": "song:2696",
-      "song_id": 2696,
+      "work_type": "Song",
+      "work_id": 2696,
       "title": "Celestial Gallop",
       "genre": "Doom Metal",
       "notable": true,
@@ -64,34 +125,53 @@
         "style": 0
       },
       "relation_types": [
+        "DirectlySamples",
         "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:10986",
-      "song_id": 10986,
-      "title": "Whispers of Milagros",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": false,
-      "artist_id": 10989,
-      "artist_name": "Yang Qiu",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1662,
+          "name": "Yan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2514086
+        },
+        {
+          "person_id": 1664,
+          "name": "Min Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.003228
+        },
+        {
+          "person_id": 1663,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0477953
+        },
+        {
+          "person_id": 2697,
+          "name": "Min Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983
+        }
       ]
     },
     {
       "id": "song:11824",
-      "song_id": 11824,
+      "work_type": "Song",
+      "work_id": 11824,
       "title": "Bass Blast Bonanza",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,6 +189,169 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1662,
+          "name": "Yan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2514086
+        },
+        {
+          "person_id": 5382,
+          "name": "Yong Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1169157
+        },
+        {
+          "person_id": 1664,
+          "name": "Min Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.003228
+        },
+        {
+          "person_id": 1942,
+          "name": "Yan Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.926998
+        },
+        {
+          "person_id": 11825,
+          "name": "Ming Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048501
+        }
+      ]
+    },
+    {
+      "id": "song:1483",
+      "work_type": "Song",
+      "work_id": 1483,
+      "title": "Fragments of a Drowned Landscape",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1484,
+      "artist_name": "Adam Allen ( The Dawn)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1485,
+          "name": "Janina Kałek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6986258
+        },
+        {
+          "person_id": 1484,
+          "name": "Adam Allen",
+          "stage_name": " The Dawn",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400332
+        },
+        {
+          "person_id": 1486,
+          "name": "Mary Walker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400332
+        },
+        {
+          "person_id": 1487,
+          "name": "Julie Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.400332
+        }
+      ]
+    },
+    {
+      "id": "song:10986",
+      "work_type": "Song",
+      "work_id": 10986,
+      "title": "Whispers of Milagros",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 10989,
+      "artist_name": "Yang Qiu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10987,
+          "name": "Jing Dong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960595
+        },
+        {
+          "person_id": 10988,
+          "name": "Xiulan Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3960595
+        },
+        {
+          "person_id": 10989,
+          "name": "Yang Qiu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960595
+        }
       ]
     }
   ],
@@ -125,6 +368,11 @@
     },
     {
       "source": "song:11824",
+      "target": "album:9454",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11824",
       "target": "song:13480",
       "type": "InterpolatesFrom"
     },
@@ -132,6 +380,11 @@
       "source": "song:1483",
       "target": "song:13480",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:2696",
+      "target": "album:9454",
+      "type": "DirectlySamples"
     }
   ]
 }

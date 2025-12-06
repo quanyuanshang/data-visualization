@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1539",
-      "song_id": 1539,
+      "work_type": "Song",
+      "work_id": 1539,
       "title": "Şans Eseri (By Chance)",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 1540,
       "artist_name": "Greca Matteotti-Jovinelli",
-      "influence": 14,
+      "influence": 18,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
+        "sample": 1,
         "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 1541,
+          "name": "Harro Trapp-Caspar",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9298913
+        }
+      ]
     },
     {
       "id": "song:7249",
-      "song_id": 7249,
+      "work_type": "Song",
+      "work_id": 7249,
       "title": "Vailla Toista (Without Another)",
       "genre": "Indie Pop",
       "notable": true,
@@ -43,11 +66,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
       ]
     },
     {
       "id": "song:10727",
-      "song_id": 10727,
+      "work_type": "Song",
+      "work_id": 10727,
       "title": "Innocence Untouched",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -65,11 +110,95 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 9809,
+          "name": "Guiying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4022245
+        }
+      ]
+    },
+    {
+      "id": "album:10740",
+      "work_type": "Album",
+      "work_id": 10740,
+      "title": "Marching with Jubilant Hearts",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2538,
+      "artist_name": "Angelika Osojca",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        }
       ]
     },
     {
       "id": "song:12161",
-      "song_id": 12161,
+      "work_type": "Song",
+      "work_id": 12161,
       "title": "Vocal Vibe",
       "genre": "Indie Pop",
       "notable": true,
@@ -87,11 +216,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3218,
+          "name": "Logan Rogers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3628404
+        },
+        {
+          "person_id": 7483,
+          "name": "Renee Lynch",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.034968
+        }
       ]
     },
     {
       "id": "song:14675",
-      "song_id": 14675,
+      "work_type": "Song",
+      "work_id": 14675,
       "title": "Whispers of the Classical Strings",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -109,6 +260,36 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        }
       ]
     }
   ],
@@ -119,11 +300,6 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:12161",
-      "target": "song:1539",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:7249",
       "target": "song:1539",
       "type": "CoverOf"
@@ -132,6 +308,16 @@
       "source": "song:14675",
       "target": "song:1539",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:10740",
+      "target": "song:1539",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:12161",
+      "target": "song:1539",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

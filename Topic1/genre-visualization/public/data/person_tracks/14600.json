@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14599",
-      "song_id": 14599,
+      "work_type": "Song",
+      "work_id": 14599,
       "title": "Encrypted Memories",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3399,
+          "name": "Jing Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7040498
+        },
+        {
+          "person_id": 14601,
+          "name": "Yang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986964
+        }
+      ]
     },
     {
       "id": "song:5394",
-      "song_id": 5394,
+      "work_type": "Song",
+      "work_id": 5394,
       "title": "Echoes of a Road Not Taken",
       "genre": "Americana",
       "notable": true,
@@ -43,11 +66,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 1275,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5120125
+        },
+        {
+          "person_id": 1273,
+          "name": "Gang Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9360747
+        },
+        {
+          "person_id": 5395,
+          "name": "Yan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.061286
+        }
       ]
     },
     {
       "id": "song:10175",
-      "song_id": 10175,
+      "work_type": "Song",
+      "work_id": 10175,
       "title": "The Cycle Never Breaks",
       "genre": "Doom Metal",
       "notable": true,
@@ -65,19 +127,58 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3447,
+          "name": "Li Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1020293
+        },
+        {
+          "person_id": 10178,
+          "name": "Ming Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054499
+        },
+        {
+          "person_id": 10176,
+          "name": "Dana Medina",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398061
+        },
+        {
+          "person_id": 10177,
+          "name": "Min Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398061
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10175",
-      "target": "song:14599",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:5394",
       "target": "song:14599",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:10175",
+      "target": "song:14599",
+      "type": "CoverOf"
     }
   ]
 }

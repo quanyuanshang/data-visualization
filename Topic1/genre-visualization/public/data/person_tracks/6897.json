@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6896",
-      "song_id": 6896,
+      "work_type": "Song",
+      "work_id": 6896,
       "title": "Awakening Grace",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 6897,
       "artist_name": "Crystal Sanders",
-      "influence": 3,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
+        "sample": 1,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6898,
+          "name": "Ronald Marshall",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3965619
+        }
+      ]
     },
     {
       "id": "song:7754",
-      "song_id": 7754,
+      "work_type": "Song",
+      "work_id": 7754,
       "title": "Polyphonic Prayers of the Harpsichord",
       "genre": "Synthwave",
       "notable": true,
@@ -41,11 +54,51 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7755,
+          "name": "Michelle Eaton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004462
+        },
+        {
+          "person_id": 7756,
+          "name": "Jessica Lucas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004462
+        },
+        {
+          "person_id": 7757,
+          "name": "Christopher Owens",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4004462
+        },
+        {
+          "person_id": 7758,
+          "name": "Jill Reynolds",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004462
+        }
+      ]
     },
     {
       "id": "song:11029",
-      "song_id": 11029,
+      "work_type": "Song",
+      "work_id": 11029,
       "title": "Tiny Heartbeat Symphony",
       "genre": "Synthwave",
       "notable": true,
@@ -63,11 +116,134 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3686,
+          "name": "Xia Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.930391
+        },
+        {
+          "person_id": 6956,
+          "name": "Chao Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032513
+        },
+        {
+          "person_id": 11031,
+          "name": "Jie Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397292
+        },
+        {
+          "person_id": 11032,
+          "name": "Ping Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972785
+        },
+        {
+          "person_id": 11030,
+          "name": "Jing Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972712
+        }
+      ]
+    },
+    {
+      "id": "album:16570",
+      "work_type": "Album",
+      "work_id": 16570,
+      "title": "Sunrise to Sunset Nowhere",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 5186,
+      "artist_name": "Ante Reinhardt-Hande",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5772,
+          "name": "Min Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7147346
+        },
+        {
+          "person_id": 5186,
+          "name": "Ante Reinhardt-Hande",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6661696
+        },
+        {
+          "person_id": 14917,
+          "name": "Ping Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0497177
+        },
+        {
+          "person_id": 6719,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.026773
+        },
+        {
+          "person_id": 16571,
+          "name": "Rhonda Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.402838
+        }
       ]
     },
     {
       "id": "song:14854",
-      "song_id": 14854,
+      "work_type": "Song",
+      "work_id": 14854,
       "title": "Whispers of Warm Winds",
       "genre": "Indie Rock",
       "notable": true,
@@ -85,6 +261,27 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1472,
+          "name": "Donald Choi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.93765
+        },
+        {
+          "person_id": 6424,
+          "name": "Cheryl Carter",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8186002
+        }
       ]
     }
   ],
@@ -97,6 +294,11 @@
     {
       "source": "song:14854",
       "target": "song:7754",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:16570",
+      "target": "song:6896",
       "type": "DirectlySamples"
     }
   ]

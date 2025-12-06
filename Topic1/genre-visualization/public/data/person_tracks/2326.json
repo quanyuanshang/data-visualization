@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8791",
-      "song_id": 8791,
-      "title": "The Pause Between Heartbeats",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2022,
-      "single": false,
-      "own": true,
-      "artist_id": 2326,
-      "artist_name": "Dominic Phillips",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:16211",
-      "song_id": 16211,
+      "work_type": "Song",
+      "work_id": 16211,
       "title": "Phantom Heartstrings",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +22,83 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4799,
+          "name": "Na Yin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7197526
+        },
+        {
+          "person_id": 8793,
+          "name": "Kevin Morrow",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0346515
+        }
+      ]
+    },
+    {
+      "id": "album:2323",
+      "work_type": "Album",
+      "work_id": 2323,
+      "title": "Harmonic Geometry",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 2326,
+      "artist_name": "Dominic Phillips",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2325,
+          "name": "Chao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.114213
+        },
+        {
+          "person_id": 1437,
+          "name": "Ping Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.715326
+        },
+        {
+          "person_id": 2324,
+          "name": "Xia Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0441904
+        }
+      ]
     },
     {
       "id": "song:15886",
-      "song_id": 15886,
+      "work_type": "Song",
+      "work_id": 15886,
       "title": "Intellectual Passion",
       "genre": "Desert Rock",
       "notable": true,
@@ -61,11 +114,122 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2325,
+          "name": "Chao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.114213
+        },
+        {
+          "person_id": 9334,
+          "name": "Ping Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0522506
+        },
+        {
+          "person_id": 8685,
+          "name": "Gang Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0459118
+        },
+        {
+          "person_id": 15887,
+          "name": "Chao Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982632
+        },
+        {
+          "person_id": 15888,
+          "name": "Fang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982632
+        }
+      ]
+    },
+    {
+      "id": "song:8791",
+      "work_type": "Song",
+      "work_id": 8791,
+      "title": "The Pause Between Heartbeats",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 2326,
+      "artist_name": "Dominic Phillips",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6914,
+          "name": "Xia Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3931077
+        },
+        {
+          "person_id": 8793,
+          "name": "Kevin Morrow",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0346515
+        },
+        {
+          "person_id": 8792,
+          "name": "Xiulan Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980296
+        },
+        {
+          "person_id": 8794,
+          "name": "Michael Montgomery",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980296
+        }
+      ]
     },
     {
       "id": "song:7672",
-      "song_id": 7672,
+      "work_type": "Song",
+      "work_id": 7672,
       "title": "Mineral Whispers",
       "genre": "Dream Pop",
       "notable": true,
@@ -83,10 +247,124 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7673,
+          "name": "Alicia Rice",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4000027
+        },
+        {
+          "person_id": 7674,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7675,
+          "name": "Fang Qin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7676,
+          "name": "Yan Qiu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7677,
+          "name": "Katherine Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7678,
+          "name": "Ming Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399833
+        }
+      ]
+    },
+    {
+      "id": "album:3683",
+      "work_type": "Album",
+      "work_id": 3683,
+      "title": "Liminal Light",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 3684,
+      "artist_name": "Xiuying Yao (Mirrored Silence)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3686,
+          "name": "Xia Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.930391
+        },
+        {
+          "person_id": 3684,
+          "name": "Xiuying Yao",
+          "stage_name": "Mirrored Silence",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398625
+        },
+        {
+          "person_id": 3685,
+          "name": "Min Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398625
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:3683",
+      "target": "album:2323",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:7672",
       "target": "song:16211",

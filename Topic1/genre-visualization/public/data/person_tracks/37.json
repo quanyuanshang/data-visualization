@@ -4,8 +4,41 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:35",
+      "work_type": "Album",
+      "work_id": 35,
+      "title": "Sober Streets",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 37,
+      "artist_name": "Hansh Ramanathan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 36,
+          "name": "Alexis Church",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397526
+        }
+      ]
+    },
+    {
       "id": "song:10799",
-      "song_id": 10799,
+      "work_type": "Song",
+      "work_id": 10799,
       "title": "Southern Redemption Highway",
       "genre": "Blues Rock",
       "notable": false,
@@ -21,11 +54,24 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        }
+      ]
     },
     {
       "id": "song:15769",
-      "song_id": 15769,
+      "work_type": "Song",
+      "work_id": 15769,
       "title": "Sovereign Soil",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,11 +87,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.283303
+        },
+        {
+          "person_id": 15770,
+          "name": "Yolanda Roy",
+          "stage_name": " M¥$TIC",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.384478
+        }
+      ]
     },
     {
       "id": "song:15769",
-      "song_id": 15769,
+      "work_type": "Song",
+      "work_id": 15769,
       "title": "Sovereign Soil",
       "genre": "Indie Pop",
       "notable": true,
@@ -63,6 +131,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.283303
+        },
+        {
+          "person_id": 37,
+          "name": "Hansh Ramanathan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0905833
+        },
+        {
+          "person_id": 15770,
+          "name": "Yolanda Roy",
+          "stage_name": " M¥$TIC",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.384478
+        }
       ]
     }
   ],

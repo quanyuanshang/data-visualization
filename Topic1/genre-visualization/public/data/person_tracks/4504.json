@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4501",
-      "song_id": 4501,
+      "work_type": "Song",
+      "work_id": 4501,
       "title": "Divine Elevation",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,72 @@
       "own": true,
       "artist_id": 4504,
       "artist_name": "Charles Delahaye",
-      "influence": 10,
+      "influence": 13,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4503,
+          "name": "Fredo Grossi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9326928
+        },
+        {
+          "person_id": 4502,
+          "name": "Kimberly Alvarez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4061198
+        }
+      ]
+    },
+    {
+      "id": "album:13568",
+      "work_type": "Album",
+      "work_id": 13568,
+      "title": "Prostrate Passion",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 4504,
+      "artist_name": "Charles Delahaye",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13569,
+          "name": "Amanda Frazier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397509
+        }
+      ]
     },
     {
       "id": "song:5519",
-      "song_id": 5519,
+      "work_type": "Song",
+      "work_id": 5519,
       "title": "Garden's Symphony",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +98,159 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 779,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3984494
+        },
+        {
+          "person_id": 40,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0523767
+        },
+        {
+          "person_id": 5520,
+          "name": "Lei Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985512
+        },
+        {
+          "person_id": 5521,
+          "name": "Matthew Burton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985512
+        },
+        {
+          "person_id": 5522,
+          "name": "Lindsey Simpson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985512
+        },
+        {
+          "person_id": 5523,
+          "name": "Yang Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985512
+        }
+      ]
+    },
+    {
+      "id": "album:7213",
+      "work_type": "Album",
+      "work_id": 7213,
+      "title": "Ephemeral Beauty's Embrace",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 7214,
+      "artist_name": "Fang Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7218,
+          "name": "Li Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4418204
+        },
+        {
+          "person_id": 7216,
+          "name": "Lei Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0639422
+        },
+        {
+          "person_id": 7214,
+          "name": "Fang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7215,
+          "name": "Jing Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7217,
+          "name": "Min Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0370033
+        },
+        {
+          "person_id": 7220,
+          "name": "Li Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0014687
+        },
+        {
+          "person_id": 7219,
+          "name": "Hannah Richards",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979735
+        }
       ]
     },
     {
       "id": "song:7511",
-      "song_id": 7511,
+      "work_type": "Song",
+      "work_id": 7511,
       "title": "Parallel Streams of Sentiment",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +268,71 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7516,
+          "name": "Laura Turner",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.258833
+        },
+        {
+          "person_id": 7513,
+          "name": "Matthew Griffin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9343436
+        },
+        {
+          "person_id": 1891,
+          "name": "Rachel Hill",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9302983
+        },
+        {
+          "person_id": 7515,
+          "name": "Samantha Herring",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4336274
+        },
+        {
+          "person_id": 7512,
+          "name": "Matthew Good",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985047
+        },
+        {
+          "person_id": 7514,
+          "name": "Katie Hartman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985047
+        }
       ]
     },
     {
       "id": "song:10081",
-      "song_id": 10081,
+      "work_type": "Song",
+      "work_id": 10081,
       "title": "Fragments of a Shattered Heart",
       "genre": "Doom Metal",
       "notable": true,
@@ -87,6 +350,124 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10083,
+          "name": "Brandi Riley",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0293417
+        },
+        {
+          "person_id": 10082,
+          "name": "Hortense Peron",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989778
+        }
+      ]
+    },
+    {
+      "id": "song:1384",
+      "work_type": "Song",
+      "work_id": 1384,
+      "title": "Mercy's Gentle Whisper",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1385,
+      "artist_name": "Xiulan Liu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1386,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982358
+        },
+        {
+          "person_id": 1385,
+          "name": "Xiulan Liu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398012
+        }
+      ]
+    },
+    {
+      "id": "song:1680",
+      "work_type": "Song",
+      "work_id": 1680,
+      "title": "Riddle of the Frozen Princess",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 1683,
+      "artist_name": "Jing Zhong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1681,
+          "name": "Lei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1682,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1683,
+          "name": "Jing Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981771
+        }
       ]
     }
   ],
@@ -97,8 +478,23 @@
       "type": "CoverOf"
     },
     {
+      "source": "song:1384",
+      "target": "album:13568",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:7213",
+      "target": "song:4501",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:5519",
       "target": "song:4501",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:1680",
+      "target": "album:13568",
       "type": "InStyleOf"
     },
     {

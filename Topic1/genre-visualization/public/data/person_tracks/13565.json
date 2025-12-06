@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13564",
-      "song_id": 13564,
+      "work_type": "Song",
+      "work_id": 13564,
       "title": "Genuflection of Love",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 13565,
       "artist_name": "Kelly Carpenter ( Vesper)",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13566,
+          "name": "Fang Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395417
+        }
+      ]
+    },
+    {
+      "id": "album:6390",
+      "work_type": "Album",
+      "work_id": 6390,
+      "title": "Fever of Your Memory",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 6391,
+      "artist_name": "Elizabeth Rivera",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,105 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6391,
+          "name": "Elizabeth Rivera",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998618
+        }
+      ]
+    },
+    {
+      "id": "album:10392",
+      "work_type": "Album",
+      "work_id": 10392,
+      "title": "Dreams Between the Lines",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 10393,
+      "artist_name": "Caleb Hunter",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10393,
+          "name": "Caleb Hunter",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987699
+        },
+        {
+          "person_id": 10394,
+          "name": "Debbie Edwards",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987699
+        },
+        {
+          "person_id": 10395,
+          "name": "Tiffany Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987699
+        },
+        {
+          "person_id": 10396,
+          "name": "Thomas Palmer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987699
+        },
+        {
+          "person_id": 10397,
+          "name": "Eric King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987699
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:6390",
+      "target": "song:13564",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10392",
+      "target": "song:13564",
+      "type": "DirectlySamples"
+    }
+  ]
 }

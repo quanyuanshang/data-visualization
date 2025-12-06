@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6672",
-      "song_id": 6672,
+      "work_type": "Song",
+      "work_id": 6672,
       "title": "Peach Pie and Sunday Smiles",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,28 @@
       "own": true,
       "artist_id": 6673,
       "artist_name": "Ping Lei",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:14855",
+      "work_type": "Album",
+      "work_id": 14855,
+      "title": "Solstice Serenade",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 14856,
+      "artist_name": "Yong Wan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +44,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14856,
+          "name": "Yong Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981366
+        },
+        {
+          "person_id": 14857,
+          "name": "Tao Guo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397911
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14855",
+      "target": "song:6672",
+      "type": "CoverOf"
+    }
+  ]
 }

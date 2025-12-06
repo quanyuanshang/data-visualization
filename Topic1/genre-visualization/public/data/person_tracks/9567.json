@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9566",
-      "song_id": 9566,
+      "work_type": "Song",
+      "work_id": 9566,
       "title": "Supplication's Last Breath",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 897,
+          "name": "Brian Johnson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1091757
+        },
+        {
+          "person_id": 3356,
+          "name": "Jacob Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0411327
+        }
+      ]
     },
     {
       "id": "song:3355",
-      "song_id": 3355,
+      "work_type": "Song",
+      "work_id": 3355,
       "title": "When Courage Whispers",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +65,37 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 897,
+          "name": "Brian Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1091757
+        },
+        {
+          "person_id": 3356,
+          "name": "Jacob Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0411327
+        }
       ]
     }
   ],

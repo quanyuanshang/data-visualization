@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12169",
-      "song_id": 12169,
+      "work_type": "Song",
+      "work_id": 12169,
       "title": "The Ballad of Forgotten Grace",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,58 @@
       "own": true,
       "artist_id": 12170,
       "artist_name": "Gregory Huffman",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11579,
+          "name": "Jie Wang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042907
+        },
+        {
+          "person_id": 12171,
+          "name": "Terry Clark",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397051
+        },
+        {
+          "person_id": 12172,
+          "name": "Timothy Lopez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397051
+        }
+      ]
+    },
+    {
+      "id": "album:14296",
+      "work_type": "Album",
+      "work_id": 14296,
+      "title": "The Long Way Home",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 14298,
+      "artist_name": "Na Ye",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +74,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14298,
+          "name": "Na Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0427785
+        },
+        {
+          "person_id": 14297,
+          "name": "Ming Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3992867
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14296",
+      "target": "song:12169",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

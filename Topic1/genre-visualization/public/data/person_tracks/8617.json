@@ -1,0 +1,108 @@
+{
+  "person_id": 8617,
+  "name": "Jun Lai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:8615",
+      "work_type": "Album",
+      "work_id": 8615,
+      "title": "Grace in Motion",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 8617,
+      "artist_name": "Jun Lai",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6187,
+          "name": "Lei Kang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.069603
+        },
+        {
+          "person_id": 8616,
+          "name": "Yong Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9892225
+        },
+        {
+          "person_id": 8618,
+          "name": "Juan Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393173
+        },
+        {
+          "person_id": 8619,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393173
+        }
+      ]
+    },
+    {
+      "id": "song:10941",
+      "work_type": "Song",
+      "work_id": 10941,
+      "title": "Familiar Strangers",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 10942,
+      "artist_name": "Gang Cai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10942,
+          "name": "Gang Cai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.362097
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10941",
+      "target": "album:8615",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

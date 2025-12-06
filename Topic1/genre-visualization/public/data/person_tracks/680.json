@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:673",
-      "song_id": 673,
+      "work_type": "Song",
+      "work_id": 673,
       "title": "Paternal Echoes",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,117 @@
       "own": true,
       "artist_id": 680,
       "artist_name": "Todd Maldonado",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 355,
+          "name": "Juan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659535
+        },
+        {
+          "person_id": 676,
+          "name": "Brandon Bartlett",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9328423
+        },
+        {
+          "person_id": 678,
+          "name": "Nathan Bryant",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9304025
+        },
+        {
+          "person_id": 679,
+          "name": "James Reyes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.214717
+        },
+        {
+          "person_id": 674,
+          "name": "Anna Shaw",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388246
+        },
+        {
+          "person_id": 677,
+          "name": "Kristin Miranda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0388246
+        },
+        {
+          "person_id": 675,
+          "name": "Jake Marchal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953183
+        }
+      ]
+    },
+    {
+      "id": "album:6100",
+      "work_type": "Album",
+      "work_id": 6100,
+      "title": "Perseus' Promise",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 680,
+      "artist_name": "Todd Maldonado",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6101,
+          "name": "Juan Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3781717
+        }
+      ]
     },
     {
       "id": "song:16424",
-      "song_id": 16424,
+      "work_type": "Song",
+      "work_id": 16424,
       "title": "Midnight's Daughter",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,14 +143,170 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5016,
+          "name": "Feliciana Figuerola Cruz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9170163
+        },
+        {
+          "person_id": 16204,
+          "name": "Ricarda Nélida Palmer Serra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0265226
+        },
+        {
+          "person_id": 16425,
+          "name": "Ibán Salazar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16426,
+          "name": "Aroa Coca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16427,
+          "name": "Fito Pacheco León",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16428,
+          "name": "Severo Gimenez Ródenas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        }
+      ]
+    },
+    {
+      "id": "album:17129",
+      "work_type": "Album",
+      "work_id": 17129,
+      "title": "The Silence Between Us",
+      "genre": "Avant-Garde Folk",
+      "notable": false,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 17126,
+      "artist_name": "Cassian Storm (Seraphina Vale)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17126,
+          "name": "Cassian Storm",
+          "stage_name": "Seraphina Vale",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7161832
+        }
+      ]
+    },
+    {
+      "id": "album:3302",
+      "work_type": "Album",
+      "work_id": 3302,
+      "title": "Urugum Ninaivugal (Melting Memories)",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1530,
+      "artist_name": "Deborah Lucas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 3303,
+          "name": "Kenneth Hall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973007
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:17129",
+      "target": "song:673",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:16424",
       "target": "song:673",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:3302",
+      "target": "album:6100",
+      "type": "InStyleOf"
     }
   ]
 }

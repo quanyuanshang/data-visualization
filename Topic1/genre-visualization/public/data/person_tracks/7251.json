@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7250",
-      "song_id": 7250,
+      "work_type": "Song",
+      "work_id": 7250,
       "title": "Pelkkä Sinä (Just You)",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,57 @@
       "own": true,
       "artist_id": 7251,
       "artist_name": "Hartmut Ruppert",
-      "influence": 11,
+      "influence": 14,
       "influence_breakdown": {
         "cover": 1,
         "sample": 1,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 7252,
+          "name": "Zachary Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1129127
+        },
+        {
+          "person_id": 1499,
+          "name": "Bernfried Stolze",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7190375
+        },
+        {
+          "person_id": 3333,
+          "name": "Janet Margraf",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.038832
+        }
+      ]
     },
     {
       "id": "song:2641",
-      "song_id": 2641,
+      "work_type": "Song",
+      "work_id": 2641,
       "title": "Generations of Stone",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,11 +83,60 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2646,
+          "name": "Yong Jia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968744
+        },
+        {
+          "person_id": 2642,
+          "name": "Gang Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960178
+        },
+        {
+          "person_id": 2643,
+          "name": "Wei Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960178
+        },
+        {
+          "person_id": 2644,
+          "name": "Charles White",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960178
+        },
+        {
+          "person_id": 2645,
+          "name": "Ming Yao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960178
+        }
       ]
     },
     {
       "id": "song:6130",
-      "song_id": 6130,
+      "work_type": "Song",
+      "work_id": 6130,
       "title": "Unfolding Path",
       "genre": "Doom Metal",
       "notable": true,
@@ -65,11 +154,141 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2607,
+          "name": "Lisa Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4387958
+        },
+        {
+          "person_id": 6131,
+          "name": "Thomas King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6135,
+          "name": "Lei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6134,
+          "name": "Richard Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.012966
+        },
+        {
+          "person_id": 6133,
+          "name": "Christina Soto",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39503
+        },
+        {
+          "person_id": 6136,
+          "name": "Valerio Carullo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3950093
+        },
+        {
+          "person_id": 6132,
+          "name": "Yan Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946984
+        }
+      ]
+    },
+    {
+      "id": "album:6854",
+      "work_type": "Album",
+      "work_id": 6854,
+      "title": "Whispers of the Woodland Realm",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 6855,
+      "artist_name": "Renee Walker (Valence)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6855,
+          "name": "Renee Walker",
+          "stage_name": "Valence",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983967
+        },
+        {
+          "person_id": 6856,
+          "name": "Sheila Flores",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983967
+        },
+        {
+          "person_id": 6858,
+          "name": "Larry Miller",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983967
+        },
+        {
+          "person_id": 6857,
+          "name": "Monica Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398376
+        }
       ]
     },
     {
       "id": "song:13436",
-      "song_id": 13436,
+      "work_type": "Song",
+      "work_id": 13436,
       "title": "Infinite Horizon",
       "genre": "Doom Metal",
       "notable": true,
@@ -87,10 +306,68 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5108,
+          "name": "Ping Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0475612
+        },
+        {
+          "person_id": 6131,
+          "name": "Thomas King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6135,
+          "name": "Lei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6134,
+          "name": "Richard Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.012966
+        },
+        {
+          "person_id": 13437,
+          "name": "Joann Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397667
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:6854",
+      "target": "song:7250",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2641",
+      "target": "song:7250",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:13436",
       "target": "song:7250",
@@ -100,11 +377,6 @@
       "source": "song:6130",
       "target": "song:7250",
       "type": "DirectlySamples"
-    },
-    {
-      "source": "song:2641",
-      "target": "song:7250",
-      "type": "InStyleOf"
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "person_id": 7115,
+  "name": "Ming Luo",
+  "stage_name": "Z-LO THE MYST",
+  "nodes": [
+    {
+      "id": "album:7114",
+      "work_type": "Album",
+      "work_id": 7114,
+      "title": "Shadows of Memory",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 7115,
+      "artist_name": "Ming Luo (Z-LO THE MYST)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:16624",
+      "work_type": "Song",
+      "work_id": 16624,
+      "title": "Unbreakable Crown",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 15273,
+      "artist_name": "Jing Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15273,
+          "name": "Jing Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046368
+        },
+        {
+          "person_id": 15274,
+          "name": "Xiulan Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.046368
+        },
+        {
+          "person_id": 16625,
+          "name": "Gina Lehmann-Süßebier",
+          "stage_name": "Lorien",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3973484
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16624",
+      "target": "album:7114",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

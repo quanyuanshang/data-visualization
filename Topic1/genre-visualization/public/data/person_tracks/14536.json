@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14535",
-      "song_id": 14535,
+      "work_type": "Song",
+      "work_id": 14535,
       "title": "Obsession's Melody",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.4058466
+        },
+        {
+          "person_id": 10849,
+          "name": "Lisa Crawford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.5238342
+        }
+      ]
     },
     {
       "id": "song:17085",
-      "song_id": 17085,
+      "work_type": "Song",
+      "work_id": 17085,
       "title": "Midnight Cathedral",
       "genre": "Darkwave",
       "notable": true,
@@ -43,6 +66,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17083,
+          "name": "Sylas Dune",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7134666
+        }
       ]
     }
   ],

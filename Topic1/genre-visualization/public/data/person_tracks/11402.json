@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11400",
-      "song_id": 11400,
+      "work_type": "Song",
+      "work_id": 11400,
       "title": "Whoa, Whoa! (Remix Edition)",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 11402,
       "artist_name": "Jason Lopez",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11403,
+          "name": "Chao Hao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.7149854
+        },
+        {
+          "person_id": 11401,
+          "name": "Patrick Carney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021456
+        }
+      ]
     },
     {
       "id": "song:581",
-      "song_id": 581,
+      "work_type": "Song",
+      "work_id": 581,
       "title": "Travel Plans (With You)",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +65,71 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 583,
+          "name": "Concetta Klotz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.05831
+        },
+        {
+          "person_id": 582,
+          "name": "Sophia Dippel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0483668
+        }
+      ]
+    },
+    {
+      "id": "album:12497",
+      "work_type": "Album",
+      "work_id": 12497,
+      "title": "Reverent Breath",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 583,
+      "artist_name": "Concetta Klotz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 583,
+          "name": "Concetta Klotz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.05831
+        },
+        {
+          "person_id": 582,
+          "name": "Sophia Dippel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0483668
+        }
       ]
     }
   ],
@@ -51,6 +138,11 @@
       "source": "song:581",
       "target": "song:11400",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:12497",
+      "target": "song:11400",
+      "type": "InStyleOf"
     }
   ]
 }

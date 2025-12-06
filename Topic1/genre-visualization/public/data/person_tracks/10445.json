@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10444",
-      "song_id": 10444,
+      "work_type": "Song",
+      "work_id": 10444,
       "title": "Your Time Has Come",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,157 @@
       "own": true,
       "artist_id": 10445,
       "artist_name": "Emily Taylor",
-      "influence": 10,
+      "influence": 13,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7516,
+          "name": "Laura Turner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.258833
+        },
+        {
+          "person_id": 7513,
+          "name": "Matthew Griffin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9343436
+        },
+        {
+          "person_id": 1891,
+          "name": "Rachel Hill",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9302983
+        },
+        {
+          "person_id": 7515,
+          "name": "Samantha Herring",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4336274
+        },
+        {
+          "person_id": 10446,
+          "name": "Christopher Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401386
+        }
+      ]
+    },
+    {
+      "id": "album:7080",
+      "work_type": "Album",
+      "work_id": 7080,
+      "title": "Celestial Conscience",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 6667,
+      "artist_name": "Ming Zhu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6667,
+          "name": "Ming Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 6668,
+          "name": "Li Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 7085,
+          "name": "Wendy Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3945386
+        },
+        {
+          "person_id": 7084,
+          "name": "Yan Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0172927
+        },
+        {
+          "person_id": 7081,
+          "name": "Na Yuan",
+          "stage_name": "SAVVY G",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021635
+        },
+        {
+          "person_id": 7082,
+          "name": "Jing Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021635
+        },
+        {
+          "person_id": 7083,
+          "name": "Lei Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021635
+        }
+      ]
     },
     {
       "id": "song:10142",
-      "song_id": 10142,
+      "work_type": "Song",
+      "work_id": 10142,
       "title": "Harmony of Heartache",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +183,25 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7774,
+          "name": "Claudia Lee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0258138
+        }
       ]
     },
     {
       "id": "song:12386",
-      "song_id": 12386,
+      "work_type": "Song",
+      "work_id": 12386,
       "title": "Wilderness Echoes: Sámi Violin Chronicles",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,11 +219,79 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6667,
+          "name": "Ming Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 6668,
+          "name": "Li Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4314773
+        },
+        {
+          "person_id": 7085,
+          "name": "Wendy Brown",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.3945386
+        },
+        {
+          "person_id": 6669,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0436125
+        },
+        {
+          "person_id": 7084,
+          "name": "Yan Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0172927
+        },
+        {
+          "person_id": 12387,
+          "name": "Fang He",
+          "stage_name": "Requiem",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978994
+        },
+        {
+          "person_id": 12388,
+          "name": "Chao Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397892
+        }
       ]
     },
     {
       "id": "song:16590",
-      "song_id": 16590,
+      "work_type": "Song",
+      "work_id": 16590,
       "title": "Nerd Nation",
       "genre": "Americana",
       "notable": true,
@@ -87,24 +309,86 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16596,
+          "name": "Xiuying Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979442
+        },
+        {
+          "person_id": 16591,
+          "name": "Yan Zou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16593,
+          "name": "Xiuying Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16594,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16595,
+          "name": "Chao Zhao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977745
+        },
+        {
+          "person_id": 16592,
+          "name": "Xiuying Xu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975165
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:16590",
-      "target": "song:10444",
-      "type": "CoverOf"
-    },
     {
       "source": "song:12386",
       "target": "song:10444",
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:16590",
+      "target": "song:10444",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:10142",
       "target": "song:10444",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:7080",
+      "target": "song:10444",
+      "type": "InterpolatesFrom"
     }
   ]
 }

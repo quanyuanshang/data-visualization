@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1121",
-      "song_id": 1121,
+      "work_type": "Song",
+      "work_id": 1121,
       "title": "The Tiny Toe's Journey",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 1123,
       "artist_name": "Ronnie Cook",
-      "influence": 9,
+      "influence": 16,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
-        "reference": 0,
+        "sample": 1,
+        "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1122,
+          "name": "Sherry Martin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.41556
+        }
+      ]
     },
     {
       "id": "song:4510",
-      "song_id": 4510,
+      "work_type": "Song",
+      "work_id": 4510,
       "title": "Celestial Sovereignty",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -41,11 +54,24 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3541,
+          "name": "Brandi Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9305558
+        }
+      ]
     },
     {
       "id": "song:4631",
-      "song_id": 4631,
+      "work_type": "Song",
+      "work_id": 4631,
       "title": "Botanical Echoes and Forgotten Rhythms",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -63,11 +89,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4633,
+          "name": "Juan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1070886
+        },
+        {
+          "person_id": 4632,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261239
+        }
       ]
     },
     {
       "id": "song:5361",
-      "song_id": 5361,
+      "work_type": "Song",
+      "work_id": 5361,
       "title": "Echoes of Adoration",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -85,11 +133,156 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        },
+        {
+          "person_id": 5363,
+          "name": "Jing Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9405258
+        }
+      ]
+    },
+    {
+      "id": "album:8115",
+      "work_type": "Album",
+      "work_id": 8115,
+      "title": "Switchboard Serenade",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": false,
+      "artist_id": 8116,
+      "artist_name": "Samar Sarma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 425,
+          "name": "Hazel Kara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9262712
+        },
+        {
+          "person_id": 4251,
+          "name": "Justin Thomas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0436146
+        },
+        {
+          "person_id": 8116,
+          "name": "Samar Sarma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        },
+        {
+          "person_id": 8117,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        }
+      ]
+    },
+    {
+      "id": "album:13196",
+      "work_type": "Album",
+      "work_id": 13196,
+      "title": "Frostbound Choreography",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 2668,
+      "artist_name": "Ping Tian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 9809,
+          "name": "Guiying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4022245
+        }
       ]
     },
     {
       "id": "song:15104",
-      "song_id": 15104,
+      "work_type": "Song",
+      "work_id": 15104,
       "title": "Silent Grace",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -107,11 +300,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.705118
+        },
+        {
+          "person_id": 341,
+          "name": "Dierk Bohlander",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293308
+        }
       ]
     },
     {
       "id": "song:2865",
-      "song_id": 2865,
+      "work_type": "Song",
+      "work_id": 2865,
       "title": "Choreographed Heartbeat",
       "genre": "Blues Rock",
       "notable": true,
@@ -129,11 +344,25 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2866,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974543
+        }
       ]
     },
     {
       "id": "song:5455",
-      "song_id": 5455,
+      "work_type": "Song",
+      "work_id": 5455,
       "title": "Quarantine Whispers",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -151,14 +380,54 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3541,
+          "name": "Brandi Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9305558
+        },
+        {
+          "person_id": 1021,
+          "name": "Przemysław Grupa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.726551
+        },
+        {
+          "person_id": 5456,
+          "name": "Matthew Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3870783
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15104",
+      "source": "album:8115",
       "target": "song:1121",
-      "type": "InStyleOf"
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5361",
+      "target": "song:1121",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:13196",
+      "target": "song:1121",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:2865",
@@ -166,19 +435,19 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:5455",
-      "target": "song:4510",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:4631",
       "target": "song:1121",
       "type": "InStyleOf"
     },
     {
-      "source": "song:5361",
+      "source": "song:5455",
+      "target": "song:4510",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15104",
       "target": "song:1121",
-      "type": "CoverOf"
+      "type": "InStyleOf"
     }
   ]
 }

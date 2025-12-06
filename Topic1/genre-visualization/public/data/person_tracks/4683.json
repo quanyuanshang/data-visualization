@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7052",
-      "song_id": 7052,
-      "title": "Borrowed Time in Bethlehem",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2013,
-      "single": true,
-      "own": true,
-      "artist_id": 4683,
-      "artist_name": "Laura Clark",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:10140",
-      "song_id": 10140,
+      "work_type": "Song",
+      "work_id": 10140,
       "title": "Circles Around the Sun",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 4682,
+          "name": "Amy Tate",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.425256
+        }
+      ]
     },
     {
       "id": "song:10825",
-      "song_id": 10825,
+      "work_type": "Song",
+      "work_id": 10825,
       "title": "Beats of Celebration",
       "genre": "Dream Pop",
       "notable": true,
@@ -61,13 +64,137 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 4682,
+          "name": "Amy Tate",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.425256
+        }
+      ]
+    },
+    {
+      "id": "song:7052",
+      "work_type": "Song",
+      "work_id": 7052,
+      "title": "Borrowed Time in Bethlehem",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": true,
+      "own": true,
+      "artist_id": 4683,
+      "artist_name": "Laura Clark",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 7053,
+          "name": "Carol Reid",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9642117
+        }
+      ]
+    },
+    {
+      "id": "album:4680",
+      "work_type": "Album",
+      "work_id": 4680,
+      "title": "Eh?",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 4683,
+      "artist_name": "Laura Clark",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3135,
+          "name": "Chelsea Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8745236
+        },
+        {
+          "person_id": 4682,
+          "name": "Amy Tate",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.425256
+        },
+        {
+          "person_id": 4681,
+          "name": "Erica Padilla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4020686
+        }
+      ]
     }
   ],
   "links": [
     {
       "source": "song:10140",
       "target": "song:10825",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10825",
+      "target": "album:4680",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10140",
+      "target": "album:4680",
       "type": "InStyleOf"
     }
   ]

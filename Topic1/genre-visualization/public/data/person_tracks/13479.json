@@ -1,0 +1,100 @@
+{
+  "person_id": 13479,
+  "name": "Laura Clark",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13476",
+      "work_type": "Album",
+      "work_id": 13476,
+      "title": "Scattered Pieces Mending",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 13479,
+      "artist_name": "Laura Clark",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13477,
+          "name": "Rebecca Austin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977761
+        },
+        {
+          "person_id": 13478,
+          "name": "Martin Frederick",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977761
+        }
+      ]
+    },
+    {
+      "id": "song:15282",
+      "work_type": "Song",
+      "work_id": 15282,
+      "title": "Crown and Timber",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 15284,
+      "artist_name": "Fang Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15283,
+          "name": "Fang Tao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398897
+        },
+        {
+          "person_id": 15284,
+          "name": "Fang Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987296
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15282",
+      "target": "album:13476",
+      "type": "CoverOf"
+    }
+  ]
+}

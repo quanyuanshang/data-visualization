@@ -1,0 +1,117 @@
+{
+  "person_id": 13022,
+  "name": "Fang Dai",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13019",
+      "work_type": "Album",
+      "work_id": 13019,
+      "title": "Chitinous Melt",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 13022,
+      "artist_name": "Fang Dai",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12337,
+          "name": "Li Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9436727
+        },
+        {
+          "person_id": 13020,
+          "name": "Xia Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.391236
+        },
+        {
+          "person_id": 13021,
+          "name": "Ming Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.391236
+        }
+      ]
+    },
+    {
+      "id": "song:1208",
+      "work_type": "Song",
+      "work_id": 1208,
+      "title": "Springtime Sonata",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1210,
+      "artist_name": "Guiying Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1211,
+          "name": "Fang Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9957726
+        },
+        {
+          "person_id": 1209,
+          "name": "Michelle Castro",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3947928
+        },
+        {
+          "person_id": 1210,
+          "name": "Guiying Duan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947928
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1208",
+      "target": "album:13019",
+      "type": "InStyleOf"
+    }
+  ]
+}

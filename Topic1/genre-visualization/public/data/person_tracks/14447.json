@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15129",
-      "song_id": 15129,
-      "title": "Inflection",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": true,
-      "artist_id": 14447,
-      "artist_name": "Paul Powell",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:14446",
-      "song_id": 14446,
+      "work_type": "Song",
+      "work_id": 14446,
       "title": "Scarlet Solidarity",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +22,101 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13141,
+          "name": "Wei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.458764
+        },
+        {
+          "person_id": 434,
+          "name": "Juan Gao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4466548
+        },
+        {
+          "person_id": 963,
+          "name": "Yang Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0398364
+        },
+        {
+          "person_id": 14448,
+          "name": "Jing Xia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4004202
+        }
+      ]
+    },
+    {
+      "id": "song:15129",
+      "work_type": "Song",
+      "work_id": 15129,
+      "title": "Inflection",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 14447,
+      "artist_name": "Paul Powell",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13141,
+          "name": "Wei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.458764
+        },
+        {
+          "person_id": 434,
+          "name": "Juan Gao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4466548
+        },
+        {
+          "person_id": 15130,
+          "name": "Yan Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.401802
+        }
+      ]
     },
     {
       "id": "song:7406",
-      "song_id": 7406,
+      "work_type": "Song",
+      "work_id": 7406,
       "title": "Straight and Narrow",
       "genre": "Doom Metal",
       "notable": true,
@@ -63,6 +134,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 43,
+          "name": "James Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7163863
+        },
+        {
+          "person_id": 7407,
+          "name": "Deborah Young",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991923
+        }
       ]
     }
   ],

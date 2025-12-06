@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15966",
-      "song_id": 15966,
+      "work_type": "Song",
+      "work_id": 15966,
       "title": "Damn Straight",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,19 +22,32 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15968,
+          "name": "Patrick Geisler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984249
+        }
+      ]
     },
     {
       "id": "song:985",
-      "song_id": 985,
+      "work_type": "Song",
+      "work_id": 985,
       "title": "Uncertain Heartlines",
       "genre": "Dream Pop",
       "notable": true,
       "release_year": 2025,
       "single": true,
       "own": false,
-      "artist_id": 707,
-      "artist_name": "Kelsey Campbell",
+      "artist_id": 16845,
+      "artist_name": "Bureaucracy（成员：Kelsey Campbell｜预测 4.11、Karl-Otto Käster｜预测 3.43）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -43,6 +57,35 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 707,
+          "name": "Kelsey Campbell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.107502
+        },
+        {
+          "person_id": 987,
+          "name": "Karl-Otto Käster",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4301465
+        },
+        {
+          "person_id": 986,
+          "name": "Carl Benjamin",
+          "stage_name": "DOLLAH V",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975372
+        }
       ]
     }
   ],

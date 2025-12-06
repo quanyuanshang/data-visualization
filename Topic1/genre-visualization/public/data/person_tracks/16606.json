@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16605",
-      "song_id": 16605,
+      "work_type": "Song",
+      "work_id": 16605,
       "title": "Motherboard Republic",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:2112",
-      "song_id": 2112,
+      "work_type": "Song",
+      "work_id": 2112,
       "title": "Solid Ground Anthem",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,6 +46,45 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2113,
+          "name": "Nicholas Morgan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397897
+        },
+        {
+          "person_id": 2114,
+          "name": "Kevin Richardson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397897
+        },
+        {
+          "person_id": 2115,
+          "name": "Henrik Seifert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397897
+        },
+        {
+          "person_id": 2116,
+          "name": "James Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397897
+        }
       ]
     }
   ],

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10337",
-      "song_id": 10337,
-      "title": "Tinsel Harmonies",
-      "genre": "Doom Metal",
-      "notable": false,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 2016,
-      "artist_name": "Juan Lai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2013",
-      "song_id": 2013,
+      "work_type": "Song",
+      "work_id": 2013,
       "title": "Shrapnel Memories",
       "genre": "Synthwave",
       "notable": true,
@@ -41,7 +22,87 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1877,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2593718
+        },
+        {
+          "person_id": 2014,
+          "name": "Jie Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3904712
+        },
+        {
+          "person_id": 2017,
+          "name": "Yang Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3904712
+        },
+        {
+          "person_id": 2015,
+          "name": "Fang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3903015
+        }
+      ]
+    },
+    {
+      "id": "song:10337",
+      "work_type": "Song",
+      "work_id": 10337,
+      "title": "Tinsel Harmonies",
+      "genre": "Doom Metal",
+      "notable": false,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 2016,
+      "artist_name": "Juan Lai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1982,
+          "name": "Travis Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7338414
+        },
+        {
+          "person_id": 5890,
+          "name": "Allison Patterson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7244172
+        }
+      ]
     }
   ],
   "links": []

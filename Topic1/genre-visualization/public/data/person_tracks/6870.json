@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6869",
-      "song_id": 6869,
+      "work_type": "Song",
+      "work_id": 6869,
       "title": "First Light of Tomorrow",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6871,
+          "name": "Carrie Cobb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3951
+        }
+      ]
     },
     {
       "id": "song:10063",
-      "song_id": 10063,
+      "work_type": "Song",
+      "work_id": 10063,
       "title": "Seven Year Itch (And I Can't Scratch)",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,11 +56,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10064,
+          "name": "Nicole Mccormick",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399898
+        },
+        {
+          "person_id": 10065,
+          "name": "Robert Cannon",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399898
+        },
+        {
+          "person_id": 10066,
+          "name": "Craig Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399898
+        }
       ]
     },
     {
       "id": "song:13632",
-      "song_id": 13632,
+      "work_type": "Song",
+      "work_id": 13632,
       "title": "The Dripping Diaries of Gerd",
       "genre": "Darkwave",
       "notable": true,
@@ -65,11 +109,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13633,
+          "name": "Erica Hernandez",
+          "stage_name": " Pete Castle",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399987
+        },
+        {
+          "person_id": 13634,
+          "name": "Kathy Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399987
+        },
+        {
+          "person_id": 13635,
+          "name": "Lee Butler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399987
+        },
+        {
+          "person_id": 13636,
+          "name": "Jules Paris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399987
+        },
+        {
+          "person_id": 13637,
+          "name": "Livia Blewanus",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399987
+        }
       ]
     },
     {
       "id": "song:14637",
-      "song_id": 14637,
+      "work_type": "Song",
+      "work_id": 14637,
       "title": "Yaranın İzleri",
       "genre": "Darkwave",
       "notable": true,
@@ -87,11 +180,32 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14639,
+          "name": "Shannon Schaefer",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981376
+        },
+        {
+          "person_id": 14638,
+          "name": "Alan Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981006
+        }
       ]
     },
     {
       "id": "song:16354",
-      "song_id": 16354,
+      "work_type": "Song",
+      "work_id": 16354,
       "title": "Farmland Titans",
       "genre": "Darkwave",
       "notable": true,
@@ -109,19 +223,44 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15794,
+          "name": "Ming Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054135
+        },
+        {
+          "person_id": 5151,
+          "name": "Linda Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393343
+        },
+        {
+          "person_id": 16355,
+          "name": "Robert King",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397444
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10063",
+      "source": "song:13632",
       "target": "song:6869",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:14637",
-      "target": "song:6869",
-      "type": "InterpolatesFrom"
+      "type": "CoverOf"
     },
     {
       "source": "song:16354",
@@ -129,9 +268,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:13632",
+      "source": "song:14637",
       "target": "song:6869",
-      "type": "CoverOf"
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10063",
+      "target": "song:6869",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

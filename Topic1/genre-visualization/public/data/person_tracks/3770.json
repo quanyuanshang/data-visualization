@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3766",
-      "song_id": 3766,
+      "work_type": "Song",
+      "work_id": 3766,
       "title": "Kompass",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,101 @@
       "own": true,
       "artist_id": 3770,
       "artist_name": "Paca Ema Mosquera Cepeda",
-      "influence": 11,
+      "influence": 14,
       "influence_breakdown": {
         "cover": 1,
         "sample": 1,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3767,
+          "name": "Rocío Rovira",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3947866
+        },
+        {
+          "person_id": 3769,
+          "name": "Ulises Gomila Morell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947866
+        },
+        {
+          "person_id": 3771,
+          "name": "Baudelio Naranjo Ríos",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3947866
+        },
+        {
+          "person_id": 3768,
+          "name": "Plinio Ribas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392851
+        }
+      ]
+    },
+    {
+      "id": "album:482",
+      "work_type": "Album",
+      "work_id": 482,
+      "title": "Thawing Hearts, Blooming Dreams",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 483,
+      "artist_name": "Wei Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 483,
+          "name": "Wei Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4170926
+        },
+        {
+          "person_id": 484,
+          "name": "Min Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988867
+        }
+      ]
     },
     {
       "id": "song:4859",
-      "song_id": 4859,
+      "work_type": "Song",
+      "work_id": 4859,
       "title": "Echoes of Marco's Streets",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +127,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 483,
+          "name": "Wei Su",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4170926
+        },
+        {
+          "person_id": 4860,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.040348
+        }
       ]
     },
     {
       "id": "song:15144",
-      "song_id": 15144,
+      "work_type": "Song",
+      "work_id": 15144,
       "title": "The Last Wave from Number 42",
       "genre": "Space Rock",
       "notable": true,
@@ -65,11 +171,59 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15145,
+          "name": "Li Hu",
+          "stage_name": " THA SAINT",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981423
+        },
+        {
+          "person_id": 15147,
+          "name": "Tao Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981423
+        },
+        {
+          "person_id": 15149,
+          "name": "Xiulan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981423
+        },
+        {
+          "person_id": 15148,
+          "name": "Wei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981245
+        },
+        {
+          "person_id": 15146,
+          "name": "Lei Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981216
+        }
       ]
     },
     {
       "id": "song:15212",
-      "song_id": 15212,
+      "work_type": "Song",
+      "work_id": 15212,
       "title": "Whispers of the Crane",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,10 +241,45 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 483,
+          "name": "Wei Su",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4170926
+        },
+        {
+          "person_id": 4860,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040348
+        },
+        {
+          "person_id": 15213,
+          "name": "Tao Xiang",
+          "stage_name": " Velvet Rook",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3970902
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:15212",
+      "target": "song:3766",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:15144",
       "target": "song:3766",
@@ -102,9 +291,9 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:15212",
+      "source": "album:482",
       "target": "song:3766",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     }
   ]
 }

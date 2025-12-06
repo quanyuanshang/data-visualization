@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2107",
-      "song_id": 2107,
+      "work_type": "Song",
+      "work_id": 2107,
       "title": "Bedrock Rebellion",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,74 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1247926
+        }
+      ]
+    },
+    {
+      "id": "album:4361",
+      "work_type": "Album",
+      "work_id": 4361,
+      "title": "Presente Imperfetto (Imperfect Present)",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 2109,
+      "artist_name": "Marcia Davis",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1247926
+        }
+      ]
     },
     {
       "id": "song:7128",
-      "song_id": 7128,
+      "work_type": "Song",
+      "work_id": 7128,
       "title": "Anguish Unfolding",
       "genre": "Dream Pop",
       "notable": true,
@@ -34,18 +98,90 @@
       "own": true,
       "artist_id": 2109,
       "artist_name": "Marcia Davis",
-      "influence": 9,
+      "influence": 12,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
-        "reference": 1,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 3498,
+          "name": "Lina Mendizábal Robledo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3844955
+        }
+      ]
+    },
+    {
+      "id": "album:3497",
+      "work_type": "Album",
+      "work_id": 3497,
+      "title": "Resilience of the Spirit",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 2109,
+      "artist_name": "Marcia Davis",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 3498,
+          "name": "Lina Mendizábal Robledo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3844955
+        },
+        {
+          "person_id": 3499,
+          "name": "John Rogers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.401705
+        }
+      ]
     },
     {
       "id": "song:16210",
-      "song_id": 16210,
+      "work_type": "Song",
+      "work_id": 16210,
       "title": "Echoes of What Could Be",
       "genre": "Dream Pop",
       "notable": true,
@@ -54,18 +190,41 @@
       "own": true,
       "artist_id": 2109,
       "artist_name": "Marcia Davis",
-      "influence": 4,
+      "influence": 9,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1247926
+        }
+      ]
     },
     {
       "id": "song:9474",
-      "song_id": 9474,
+      "work_type": "Song",
+      "work_id": 9474,
       "title": "Tread Defiant",
       "genre": "Dream Pop",
       "notable": true,
@@ -82,12 +241,123 @@
         "style": 0
       },
       "relation_types": [
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3313,
+          "name": "Lei Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9413583
+        },
+        {
+          "person_id": 9477,
+          "name": "Jing Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977313
+        },
+        {
+          "person_id": 9478,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977313
+        },
+        {
+          "person_id": 9476,
+          "name": "Jing Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397718
+        },
+        {
+          "person_id": 9475,
+          "name": "Min Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977106
+        }
+      ]
+    },
+    {
+      "id": "album:3497",
+      "work_type": "Album",
+      "work_id": 3497,
+      "title": "Resilience of the Spirit",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 2109,
+      "artist_name": "Marcia Davis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.88256
+        },
+        {
+          "person_id": 3498,
+          "name": "Lina Mendizábal Robledo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3844955
+        },
+        {
+          "person_id": 3499,
+          "name": "John Rogers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.401705
+        }
       ]
     },
     {
       "id": "song:9535",
-      "song_id": 9535,
+      "work_type": "Song",
+      "work_id": 9535,
       "title": "Radiant Refractions",
       "genre": "Indie Rock",
       "notable": true,
@@ -105,11 +375,50 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9537,
+          "name": "Flora Karz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.435403
+        },
+        {
+          "person_id": 9050,
+          "name": "Clara Seco-Pelayo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4251177
+        },
+        {
+          "person_id": 9536,
+          "name": "Bernardo Josep Mayol Manjón",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4066265
+        }
       ]
     },
     {
       "id": "song:14154",
-      "song_id": 14154,
+      "work_type": "Song",
+      "work_id": 14154,
       "title": "Fragments of a Mirror",
       "genre": "Dream Pop",
       "notable": true,
@@ -127,11 +436,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 14155,
+          "name": "Gary Wilson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3995368
+        }
       ]
     },
     {
       "id": "song:17131",
-      "song_id": 17131,
+      "work_type": "Song",
+      "work_id": 17131,
       "title": "Voices in the Timberline",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -149,11 +480,128 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17126,
+          "name": "Cassian Storm",
+          "stage_name": "Seraphina Vale",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7161832
+        }
+      ]
+    },
+    {
+      "id": "album:1817",
+      "work_type": "Album",
+      "work_id": 1817,
+      "title": "The Ballad of Billy's Bravado",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": false,
+      "artist_id": 1818,
+      "artist_name": "Sarah James",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1818,
+          "name": "Sarah James",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4280584
+        },
+        {
+          "person_id": 1820,
+          "name": "Susan Mcclain",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4246185
+        },
+        {
+          "person_id": 1819,
+          "name": "Michele Kim",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3998492
+        }
+      ]
+    },
+    {
+      "id": "song:5958",
+      "work_type": "Song",
+      "work_id": 5958,
+      "title": "Mending Pieces",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 1818,
+      "artist_name": "Sarah James",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1818,
+          "name": "Sarah James",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4280584
+        },
+        {
+          "person_id": 1820,
+          "name": "Susan Mcclain",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4246185
+        },
+        {
+          "person_id": 5959,
+          "name": "Megan Morrow",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0639293
+        }
       ]
     },
     {
       "id": "song:10773",
-      "song_id": 10773,
+      "work_type": "Song",
+      "work_id": 10773,
       "title": "Grandfather's Weathered Hands",
       "genre": "Indie Folk",
       "notable": true,
@@ -171,19 +619,53 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5908,
+          "name": "Georges Besnard",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.706773
+        },
+        {
+          "person_id": 10776,
+          "name": "Chloë de Gruil",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7201512
+        },
+        {
+          "person_id": 10775,
+          "name": "Bernard-Alain Parent",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3960226
+        },
+        {
+          "person_id": 10774,
+          "name": "Marvin Heuser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955774
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:17131",
-      "target": "song:7128",
+      "source": "song:9474",
+      "target": "album:4361",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:2107",
-      "target": "song:16210",
-      "type": "InStyleOf"
     },
     {
       "source": "song:9474",
@@ -191,9 +673,39 @@
       "type": "InterpolatesFrom"
     },
     {
+      "source": "song:10773",
+      "target": "song:16210",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:9535",
       "target": "song:7128",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:1817",
+      "target": "album:3497",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:2107",
+      "target": "song:16210",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:4361",
+      "target": "song:16210",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5958",
+      "target": "album:3497",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:17131",
+      "target": "song:7128",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:14154",
@@ -201,9 +713,9 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:10773",
-      "target": "song:16210",
-      "type": "InStyleOf"
+      "source": "album:3497",
+      "target": "song:7128",
+      "type": "InterpolatesFrom"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4880",
-      "song_id": 4880,
+      "work_type": "Song",
+      "work_id": 4880,
       "title": "Soft Sighs, Silent Storms",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2224,
+          "name": "Ewa Kucz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0274575
+        },
+        {
+          "person_id": 4882,
+          "name": "Diana Lledó Colomer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4024932
+        },
+        {
+          "person_id": 4883,
+          "name": "Justin Wyatt",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4024932
+        }
+      ]
     },
     {
       "id": "song:2223",
-      "song_id": 2223,
+      "work_type": "Song",
+      "work_id": 2223,
       "title": "Heartstrings and Promises",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +74,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2224,
+          "name": "Ewa Kucz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0274575
+        },
+        {
+          "person_id": 2225,
+          "name": "Georges Delorme",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001806
+        },
+        {
+          "person_id": 2226,
+          "name": "Dariusz Madera",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001806
+        }
       ]
     },
     {
       "id": "song:6279",
-      "song_id": 6279,
+      "work_type": "Song",
+      "work_id": 6279,
       "title": "Walk Away from Women",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,11 +128,50 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6281,
+          "name": "Stacey Christensen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993855
+        },
+        {
+          "person_id": 6282,
+          "name": "Li Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993855
+        },
+        {
+          "person_id": 6283,
+          "name": "Min Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993855
+        },
+        {
+          "person_id": 6280,
+          "name": "Lei Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993647
+        }
       ]
     },
     {
       "id": "song:14662",
-      "song_id": 14662,
+      "work_type": "Song",
+      "work_id": 14662,
       "title": "Loving You Hurts (But I Can't Stop)",
       "genre": "Alternative Rock",
       "notable": true,
@@ -87,19 +189,57 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4780,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4360526
+        },
+        {
+          "person_id": 14663,
+          "name": "Lisa Kirk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3984606
+        },
+        {
+          "person_id": 14664,
+          "name": "Yong Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984606
+        },
+        {
+          "person_id": 14665,
+          "name": "Debra Sims",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984606
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14662",
-      "target": "song:4880",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:2223",
       "target": "song:4880",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14662",
+      "target": "song:4880",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:6279",

@@ -4,8 +4,50 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:1012",
+      "work_type": "Album",
+      "work_id": 1012,
+      "title": "Sunset and Cigarettes",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 1013,
+      "artist_name": "Lei Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1014,
+          "name": "Li Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.702599
+        },
+        {
+          "person_id": 1015,
+          "name": "Xiuying Kang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398811
+        }
+      ]
+    },
+    {
       "id": "song:5392",
-      "song_id": 5392,
+      "work_type": "Song",
+      "work_id": 5392,
       "title": "Postcards from the City I Left Behind",
       "genre": "Synthpop",
       "notable": true,
@@ -21,11 +63,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5393,
+          "name": "Wei Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396009
+        }
+      ]
     },
     {
       "id": "song:7278",
-      "song_id": 7278,
+      "work_type": "Song",
+      "work_id": 7278,
       "title": "Requiem for a Fading Self",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +97,19 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        }
       ]
     }
   ],

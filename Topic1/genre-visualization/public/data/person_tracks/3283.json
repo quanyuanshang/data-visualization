@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3282",
-      "song_id": 3282,
+      "work_type": "Song",
+      "work_id": 3282,
       "title": "Scarlet Promise",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3284,
+          "name": "Nancy Smith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981032
+        }
+      ]
     },
     {
       "id": "song:12001",
-      "song_id": 12001,
+      "work_type": "Song",
+      "work_id": 12001,
       "title": "Phantom's Second Chance",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,6 +56,19 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12002,
+          "name": "Caroline Lloyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396128
+        }
       ]
     }
   ],

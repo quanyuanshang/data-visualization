@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14191",
-      "song_id": 14191,
+      "work_type": "Song",
+      "work_id": 14191,
       "title": "Viento y Marea",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,58 @@
       "own": true,
       "artist_id": 14193,
       "artist_name": "Guiying Gao",
-      "influence": 5,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
+        "sample": 1,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14192,
+          "name": "Ping Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980398
+        },
+        {
+          "person_id": 14194,
+          "name": "Ping Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980398
+        },
+        {
+          "person_id": 14195,
+          "name": "Min Guo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980398
+        },
+        {
+          "person_id": 14196,
+          "name": "Guiying Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980398
+        }
+      ]
     },
     {
       "id": "song:8081",
-      "song_id": 8081,
+      "work_type": "Song",
+      "work_id": 8081,
       "title": "The Droplet's Lament",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,10 +84,99 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8082,
+          "name": "Cindy Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981688
+        },
+        {
+          "person_id": 8084,
+          "name": "Kazuya Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981688
+        },
+        {
+          "person_id": 8083,
+          "name": "Xiulan Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981555
+        },
+        {
+          "person_id": 8085,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981137
+        }
+      ]
+    },
+    {
+      "id": "album:17363",
+      "work_type": "Album",
+      "work_id": 17363,
+      "title": "The Sunken Compass",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2035,
+      "single": false,
+      "own": false,
+      "artist_id": 17349,
+      "artist_name": "Beatrice Albright (Bea Azure)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17355,
+          "name": "Daniel O'Connell",
+          "stage_name": "Kael Storm",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.224527
+        },
+        {
+          "person_id": 17349,
+          "name": "Beatrice Albright",
+          "stage_name": "Bea Azure",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.194851
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:17363",
+      "target": "song:14191",
+      "type": "DirectlySamples"
+    },
     {
       "source": "song:8081",
       "target": "song:14191",

@@ -1,0 +1,153 @@
+{
+  "person_id": 12560,
+  "name": "Juan Chen",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:12558",
+      "work_type": "Album",
+      "work_id": 12558,
+      "title": "Dancing Through Life",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 12560,
+      "artist_name": "Juan Chen",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12559,
+          "name": "Xiuying Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12561,
+          "name": "Tao Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12562,
+          "name": "Yang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12563,
+          "name": "Qiang Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        }
+      ]
+    },
+    {
+      "id": "song:16679",
+      "work_type": "Song",
+      "work_id": 16679,
+      "title": "Stormborn Horizon",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 16682,
+      "artist_name": "Na Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16680,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3965058
+        },
+        {
+          "person_id": 16681,
+          "name": "Fang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3965058
+        },
+        {
+          "person_id": 16682,
+          "name": "Na Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965058
+        },
+        {
+          "person_id": 16683,
+          "name": "Xiuying Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965058
+        },
+        {
+          "person_id": 16684,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965058
+        },
+        {
+          "person_id": 16685,
+          "name": "Fang Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965058
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:16679",
+      "target": "album:12558",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9382",
-      "song_id": 9382,
+      "work_type": "Song",
+      "work_id": 9382,
       "title": "Eternal Chairman's March",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,31 +22,23 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:13236",
-      "song_id": 13236,
-      "title": "Curiosity's Blind Spot",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 1987,
-      "single": true,
-      "own": true,
-      "artist_id": 9383,
-      "artist_name": "Scott Richmond",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9384,
+          "name": "Paula Mercado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4185727
+        }
+      ]
     },
     {
       "id": "song:12345",
-      "song_id": 12345,
+      "work_type": "Song",
+      "work_id": 12345,
       "title": "Geisha's Midnight Melody",
       "genre": "Blues Rock",
       "notable": true,
@@ -61,11 +54,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9384,
+          "name": "Paula Mercado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185727
+        }
+      ]
+    },
+    {
+      "id": "song:13236",
+      "work_type": "Song",
+      "work_id": 13236,
+      "title": "Curiosity's Blind Spot",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 1987,
+      "single": true,
+      "own": true,
+      "artist_id": 9383,
+      "artist_name": "Scott Richmond",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9384,
+          "name": "Paula Mercado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4185727
+        }
+      ]
     },
     {
       "id": "song:12345",
-      "song_id": 12345,
+      "work_type": "Song",
+      "work_id": 12345,
       "title": "Geisha's Midnight Melody",
       "genre": "Blues Rock",
       "notable": true,
@@ -83,11 +121,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9383,
+          "name": "Scott Richmond",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.426586
+        },
+        {
+          "person_id": 9384,
+          "name": "Paula Mercado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185727
+        }
       ]
     },
     {
       "id": "song:13236",
-      "song_id": 13236,
+      "work_type": "Song",
+      "work_id": 13236,
       "title": "Curiosity's Blind Spot",
       "genre": "Blues Rock",
       "notable": true,
@@ -105,11 +165,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9383,
+          "name": "Scott Richmond",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.426586
+        },
+        {
+          "person_id": 9384,
+          "name": "Paula Mercado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4185727
+        }
       ]
     },
     {
       "id": "song:4204",
-      "song_id": 4204,
+      "work_type": "Song",
+      "work_id": 4204,
       "title": "Crimson Revival",
       "genre": "Blues Rock",
       "notable": true,
@@ -127,6 +208,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4205,
+          "name": "Janna Holt",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4015234
+        },
+        {
+          "person_id": 4206,
+          "name": "Amelie Roht",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010077
+        }
       ]
     }
   ],

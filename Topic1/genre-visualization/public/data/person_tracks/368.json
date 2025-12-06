@@ -4,8 +4,50 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:9893",
+      "work_type": "Album",
+      "work_id": 9893,
+      "title": "Warmth Between Shadows",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 368,
+      "artist_name": "Juan Zhu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 369,
+          "name": "Ping Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0359418
+        },
+        {
+          "person_id": 9894,
+          "name": "Tao Wei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3994615
+        }
+      ]
+    },
+    {
       "id": "song:365",
-      "song_id": 365,
+      "work_type": "Song",
+      "work_id": 365,
       "title": "Footprints Beyond Tomorrow",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +63,131 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 369,
+          "name": "Ping Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0359418
+        },
+        {
+          "person_id": 366,
+          "name": "Juan Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003122
+        },
+        {
+          "person_id": 367,
+          "name": "Tao Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001424
+        }
+      ]
+    },
+    {
+      "id": "song:10197",
+      "work_type": "Song",
+      "work_id": 10197,
+      "title": "Harmonies de la Route",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2455,
+      "artist_name": "Jing Yin ( Venice)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2458,
+          "name": "Xiuying Fang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.115797
+        },
+        {
+          "person_id": 2460,
+          "name": "Yang Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.129615
+        },
+        {
+          "person_id": 7605,
+          "name": "Min Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0449283
+        },
+        {
+          "person_id": 7606,
+          "name": "Chao Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0449283
+        },
+        {
+          "person_id": 2456,
+          "name": "Na Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0364254
+        },
+        {
+          "person_id": 2457,
+          "name": "Ming Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0364254
+        },
+        {
+          "person_id": 2455,
+          "name": "Jing Yin",
+          "stage_name": " Venice",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343907
+        }
+      ]
     },
     {
       "id": "song:391",
-      "song_id": 391,
+      "work_type": "Song",
+      "work_id": 391,
       "title": "Espresso Farewell",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,10 +205,45 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 392,
+          "name": "Jing Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979704
+        },
+        {
+          "person_id": 394,
+          "name": "Min Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979704
+        },
+        {
+          "person_id": 393,
+          "name": "Xia Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3979497
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:10197",
+      "target": "album:9893",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:391",
       "target": "song:365",

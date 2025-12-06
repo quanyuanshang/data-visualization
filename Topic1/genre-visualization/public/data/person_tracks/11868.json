@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11866",
-      "song_id": 11866,
+      "work_type": "Song",
+      "work_id": 11866,
       "title": "Tales from the Pavilion",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11867,
+          "name": "Catherine Bolton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4022706
+        }
+      ]
     },
     {
       "id": "song:16612",
-      "song_id": 16612,
+      "work_type": "Song",
+      "work_id": 16612,
       "title": "Whispers of a Broken Promise",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -34,18 +48,31 @@
       "own": true,
       "artist_id": 11868,
       "artist_name": "Beverly Thompson",
-      "influence": 7,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16613,
+          "name": "Brianna Norris",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3896937
+        }
+      ]
     },
     {
       "id": "song:3559",
-      "song_id": 3559,
+      "work_type": "Song",
+      "work_id": 3559,
       "title": "Emotional Landscapes",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -63,11 +90,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3560,
+          "name": "Hans-Joachim Seip",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981671
+        },
+        {
+          "person_id": 3561,
+          "name": "Max Brown",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980172
+        }
       ]
     },
     {
       "id": "song:10135",
-      "song_id": 10135,
+      "work_type": "Song",
+      "work_id": 10135,
       "title": "Another Year Unfolding",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -85,6 +134,62 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10137,
+          "name": "Olaf Dymarczyk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982232
+        },
+        {
+          "person_id": 10136,
+          "name": "Bianka Tabak",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980527
+        }
+      ]
+    },
+    {
+      "id": "album:15540",
+      "work_type": "Album",
+      "work_id": 15540,
+      "title": "Dawn's Promise",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 15541,
+      "artist_name": "Lei Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15541,
+          "name": "Lei Gong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3894405
+        }
       ]
     }
   ],
@@ -95,14 +200,19 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:10135",
-      "target": "song:11866",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:11866",
       "target": "song:16612",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:15540",
+      "target": "song:16612",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10135",
+      "target": "song:11866",
+      "type": "InStyleOf"
     },
     {
       "source": "song:10135",

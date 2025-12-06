@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7778",
-      "song_id": 7778,
+      "work_type": "Song",
+      "work_id": 7778,
       "title": "Coastal Convergence",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,50 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1474,
+          "name": "Tonya Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.11308
+        },
+        {
+          "person_id": 1472,
+          "name": "Donald Choi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.93765
+        },
+        {
+          "person_id": 7779,
+          "name": "José Berger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.720579
+        },
+        {
+          "person_id": 7781,
+          "name": "Henny Caspar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4032683
+        }
+      ]
     },
     {
       "id": "song:8678",
-      "song_id": 8678,
+      "work_type": "Song",
+      "work_id": 8678,
       "title": "Whispered Judgment",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +83,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2213,
+          "name": "Maria Tyler",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.429483
+        },
+        {
+          "person_id": 8679,
+          "name": "Sandra Reyes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4005084
+        }
       ]
     },
     {
       "id": "song:16312",
-      "song_id": 16312,
+      "work_type": "Song",
+      "work_id": 16312,
       "title": "Harvest Dance at Ler Valley",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -65,17 +127,38 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 16031,
+          "name": "Simone Säuberlich",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8678",
+      "source": "song:16312",
       "target": "song:7778",
       "type": "InStyleOf"
     },
     {
-      "source": "song:16312",
+      "source": "song:8678",
       "target": "song:7778",
       "type": "InStyleOf"
     }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16400",
-      "song_id": 16400,
+      "work_type": "Song",
+      "work_id": 16400,
       "title": "Aquatic Rebirth (1983)",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,69 @@
       "own": true,
       "artist_id": 16401,
       "artist_name": "Steven Goodman",
-      "influence": 5,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5861,
+          "name": "Lisa Hofmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.424785
+        },
+        {
+          "person_id": 5865,
+          "name": "Christine Ward",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.424785
+        },
+        {
+          "person_id": 5858,
+          "name": "Donald Medina",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0444345
+        },
+        {
+          "person_id": 5860,
+          "name": "Erik Mathews",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0444345
+        },
+        {
+          "person_id": 5863,
+          "name": "Joshua Orozco",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0444345
+        }
+      ]
     },
     {
       "id": "song:10903",
-      "song_id": 10903,
+      "work_type": "Song",
+      "work_id": 10903,
       "title": "Parallel Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +95,61 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10905,
+          "name": "Tao Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979287
+        },
+        {
+          "person_id": 10907,
+          "name": "Lei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397922
+        },
+        {
+          "person_id": 10908,
+          "name": "Wei Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397922
+        },
+        {
+          "person_id": 10904,
+          "name": "Ping Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978856
+        },
+        {
+          "person_id": 10906,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397879
+        }
       ]
     },
     {
       "id": "song:14220",
-      "song_id": 14220,
+      "work_type": "Song",
+      "work_id": 14220,
       "title": "Grip of Memory",
       "genre": "Oceanus Folk",
       "notable": false,
@@ -65,19 +167,107 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11338,
+          "name": "Ming Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0798712
+        },
+        {
+          "person_id": 14221,
+          "name": "Jonathan Morris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967938
+        },
+        {
+          "person_id": 14222,
+          "name": "Xiuying Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967938
+        }
+      ]
+    },
+    {
+      "id": "album:15989",
+      "work_type": "Album",
+      "work_id": 15989,
+      "title": "Reps and Rhythm",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 13090,
+      "artist_name": "Fang Wu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13090,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4196846
+        },
+        {
+          "person_id": 13091,
+          "name": "Sherry Powell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0439756
+        },
+        {
+          "person_id": 15990,
+          "name": "Debra Wolfe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396892
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14220",
+      "source": "album:15989",
       "target": "song:16400",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
     },
     {
       "source": "song:10903",
       "target": "song:16400",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:14220",
+      "target": "song:16400",
+      "type": "InterpolatesFrom"
     }
   ]
 }

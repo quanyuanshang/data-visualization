@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10071",
-      "song_id": 10071,
-      "title": "Shadows of Unbearable Silence",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2027,
-      "single": false,
-      "own": true,
-      "artist_id": 7463,
-      "artist_name": "Simone Parent",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:7461",
-      "song_id": 7461,
+      "work_type": "Song",
+      "work_id": 7461,
       "title": "Heartbeat's Embrace",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7462,
+          "name": "Colette-Jeannine Lemaître",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4420137
+        },
+        {
+          "person_id": 7464,
+          "name": "Raymond Chartier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4300158
+        }
+      ]
     },
     {
       "id": "song:9802",
-      "song_id": 9802,
+      "work_type": "Song",
+      "work_id": 9802,
       "title": "Hypothetical Heart",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,7 +63,177 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7462,
+          "name": "Colette-Jeannine Lemaître",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4420137
+        },
+        {
+          "person_id": 7464,
+          "name": "Raymond Chartier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4300158
+        }
+      ]
+    },
+    {
+      "id": "song:10071",
+      "work_type": "Song",
+      "work_id": 10071,
+      "title": "Shadows of Unbearable Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 7463,
+      "artist_name": "Simone Parent",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7462,
+          "name": "Colette-Jeannine Lemaître",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4420137
+        },
+        {
+          "person_id": 7464,
+          "name": "Raymond Chartier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4300158
+        },
+        {
+          "person_id": 10072,
+          "name": "Jérôme Blanchet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988838
+        },
+        {
+          "person_id": 10073,
+          "name": "Maurice Lacroix",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988838
+        },
+        {
+          "person_id": 10074,
+          "name": "Renée Tanguy-Henry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988838
+        }
+      ]
+    },
+    {
+      "id": "song:10071",
+      "work_type": "Song",
+      "work_id": 10071,
+      "title": "Shadows of Unbearable Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 7462,
+      "artist_name": "Colette-Jeannine Lemaître",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7462,
+          "name": "Colette-Jeannine Lemaître",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4420137
+        },
+        {
+          "person_id": 7464,
+          "name": "Raymond Chartier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4300158
+        },
+        {
+          "person_id": 7463,
+          "name": "Simone Parent",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4286776
+        },
+        {
+          "person_id": 10072,
+          "name": "Jérôme Blanchet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988838
+        },
+        {
+          "person_id": 10073,
+          "name": "Maurice Lacroix",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988838
+        },
+        {
+          "person_id": 10074,
+          "name": "Renée Tanguy-Henry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988838
+        }
+      ]
     }
   ],
   "links": [

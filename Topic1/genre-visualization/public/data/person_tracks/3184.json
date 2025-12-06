@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3183",
-      "song_id": 3183,
-      "title": "More Than Enough",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 3184,
-      "artist_name": "Dana Henk-Bachmann",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13680",
-      "song_id": 13680,
+      "work_type": "Song",
+      "work_id": 13680,
       "title": "Homefront Harmony",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,11 +22,84 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1251,
+          "name": "Eugenia Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.763411
+        },
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3600,
+          "name": "Lisa Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4226377
+        }
+      ]
+    },
+    {
+      "id": "song:3183",
+      "work_type": "Song",
+      "work_id": 3183,
+      "title": "More Than Enough",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 3184,
+      "artist_name": "Dana Henk-Bachmann",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1914,
+          "name": "Ewelina Jeszke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.405735
+        },
+        {
+          "person_id": 3185,
+          "name": "Tobiasz Kargol",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3948777
+        }
+      ]
     },
     {
       "id": "song:3080",
-      "song_id": 3080,
+      "work_type": "Song",
+      "work_id": 3080,
       "title": "Rescind the Instigator",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -63,6 +117,46 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3084,
+          "name": "Karen Wright",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2599564
+        },
+        {
+          "person_id": 3082,
+          "name": "Tiffany Gill",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6836832
+        },
+        {
+          "person_id": 3083,
+          "name": "Kamil Sura",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965285
+        },
+        {
+          "person_id": 3081,
+          "name": "Amber Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965077
+        }
       ]
     }
   ],

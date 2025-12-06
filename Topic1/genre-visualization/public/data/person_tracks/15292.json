@@ -5,11 +5,44 @@
   "nodes": [
     {
       "id": "song:15291",
-      "song_id": 15291,
+      "work_type": "Song",
+      "work_id": 15291,
       "title": "Bridging the Divide",
       "genre": "Alternative Rock",
       "notable": true,
       "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 15292,
+      "artist_name": "Ronald Brooks",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15293,
+          "name": "Yvonne Alexander",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0620327
+        }
+      ]
+    },
+    {
+      "id": "album:16145",
+      "work_type": "Album",
+      "work_id": 16145,
+      "title": "Praise and Glory",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2018,
       "single": false,
       "own": true,
       "artist_id": 15292,
@@ -21,8 +54,69 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15293,
+          "name": "Yvonne Alexander",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0620327
+        }
+      ]
+    },
+    {
+      "id": "album:16145",
+      "work_type": "Album",
+      "work_id": 16145,
+      "title": "Praise and Glory",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 15292,
+      "artist_name": "Ronald Brooks",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15293,
+          "name": "Yvonne Alexander",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0620327
+        },
+        {
+          "person_id": 15292,
+          "name": "Ronald Brooks",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0487378
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:16145",
+      "target": "song:15291",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

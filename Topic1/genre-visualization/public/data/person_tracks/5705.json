@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:5704",
-      "song_id": 5704,
-      "title": "The North Pole Transformation",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 1995,
-      "single": true,
-      "own": true,
-      "artist_id": 5705,
-      "artist_name": "Adam Davis",
-      "influence": 16,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 2,
-        "reference": 0,
-        "style": 4
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:14671",
-      "song_id": 14671,
+      "work_type": "Song",
+      "work_id": 14671,
       "title": "Whispers in Nearness",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -34,18 +15,31 @@
       "own": true,
       "artist_id": 5705,
       "artist_name": "Adam Davis",
-      "influence": 29,
+      "influence": 36,
       "influence_breakdown": {
-        "cover": 3,
+        "cover": 4,
         "sample": 0,
         "reference": 4,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2834263
+        }
+      ]
     },
     {
       "id": "song:6245",
-      "song_id": 6245,
+      "work_type": "Song",
+      "work_id": 6245,
       "title": "Andante in Amber",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -54,18 +48,30 @@
       "own": true,
       "artist_id": 5705,
       "artist_name": "Adam Davis",
-      "influence": 39,
+      "influence": 60,
       "influence_breakdown": {
-        "cover": 3,
+        "cover": 4,
         "sample": 0,
-        "reference": 6,
-        "style": 3
+        "reference": 8,
+        "style": 8
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        }
+      ]
     },
     {
       "id": "song:16215",
-      "song_id": 16215,
+      "work_type": "Song",
+      "work_id": 16215,
       "title": "Aegean Whispers",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -81,11 +87,177 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16216,
+          "name": "William Garner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398777
+        }
+      ]
+    },
+    {
+      "id": "song:5704",
+      "work_type": "Song",
+      "work_id": 5704,
+      "title": "The North Pole Transformation",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1995,
+      "single": true,
+      "own": true,
+      "artist_id": 5705,
+      "artist_name": "Adam Davis",
+      "influence": 18,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 2,
+        "reference": 0,
+        "style": 5
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2834263
+        }
+      ]
+    },
+    {
+      "id": "album:15983",
+      "work_type": "Album",
+      "work_id": 15983,
+      "title": "Letting Go of Yesterday",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 5705,
+      "artist_name": "Adam Davis",
+      "influence": 20,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 3,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2834263
+        }
+      ]
+    },
+    {
+      "id": "album:1096",
+      "work_type": "Album",
+      "work_id": 1096,
+      "title": "Kan ve Toprak Arasında (Between Blood and Land)",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 1099,
+      "artist_name": "Wei Ding",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1097,
+          "name": "Corey Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398525
+        }
+      ]
+    },
+    {
+      "id": "song:3626",
+      "work_type": "Song",
+      "work_id": 3626,
+      "title": "Quarantine of Souls",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
+      ]
     },
     {
       "id": "song:3793",
-      "song_id": 3793,
+      "work_type": "Song",
+      "work_id": 3793,
       "title": "Monsoon Memories",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -105,11 +277,69 @@
         "CoverOf",
         "DirectlySamples",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.4058466
+        },
+        {
+          "person_id": 3794,
+          "name": "Jennifer Flores",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962572
+        }
+      ]
+    },
+    {
+      "id": "song:5109",
+      "work_type": "Song",
+      "work_id": 5109,
+      "title": "Echoes from the Alpine Parting",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:5232",
-      "song_id": 5232,
+      "work_type": "Song",
+      "work_id": 5232,
       "title": "Whispers of Ancient Branches",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -128,19 +358,33 @@
       "relation_types": [
         "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
-      "id": "song:7194",
-      "song_id": 7194,
-      "title": "Hold Me Closer (Don't Let Go)",
+      "id": "song:6989",
+      "work_type": "Song",
+      "work_id": 6989,
+      "title": "Fever's Edge",
       "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2002,
+      "release_year": 2023,
       "single": true,
       "own": false,
-      "artist_id": 1098,
-      "artist_name": "Guiying Bai",
+      "artist_id": 1099,
+      "artist_name": "Wei Ding",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -149,12 +393,35 @@
         "style": 0
       },
       "relation_types": [
+        "DirectlySamples",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 3541,
+          "name": "Brandi Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9305558
+        }
       ]
     },
     {
       "id": "song:7311",
-      "song_id": 7311,
+      "work_type": "Song",
+      "work_id": 7311,
       "title": "Pathways Unspoken",
       "genre": "Blues Rock",
       "notable": true,
@@ -173,11 +440,89 @@
       "relation_types": [
         "CoverOf",
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2834263
+        },
+        {
+          "person_id": 7312,
+          "name": "Nikol Hrubá",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010544
+        }
+      ]
+    },
+    {
+      "id": "album:11449",
+      "work_type": "Album",
+      "work_id": 11449,
+      "title": "Concrete Exhaust",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:13557",
-      "song_id": 13557,
+      "work_type": "Song",
+      "work_id": 13557,
       "title": "Your Truth, My Reality",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -196,99 +541,33 @@
       "relation_types": [
         "InStyleOf",
         "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:14671",
-      "song_id": 14671,
-      "title": "Whispers in Nearness",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2002,
-      "single": true,
-      "own": false,
-      "artist_id": 1758,
-      "artist_name": "Michael Boyd",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "DirectlySamples"
-      ]
-    },
-    {
-      "id": "song:3626",
-      "song_id": 3626,
-      "title": "Quarantine of Souls",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2021,
-      "single": false,
-      "own": false,
-      "artist_id": 1098,
-      "artist_name": "Guiying Bai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:5109",
-      "song_id": 5109,
-      "title": "Echoes from the Alpine Parting",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": false,
-      "artist_id": 1098,
-      "artist_name": "Guiying Bai",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:6989",
-      "song_id": 6989,
-      "title": "Fever's Edge",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": false,
-      "artist_id": 1099,
-      "artist_name": "Wei Ding",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 3233,
+          "name": "Gang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.930688
+        }
       ]
     },
     {
       "id": "song:15496",
-      "song_id": 15496,
+      "work_type": "Song",
+      "work_id": 15496,
       "title": "Vegan Dessert Disco",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -306,11 +585,104 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 15498,
+          "name": "Bertrand-Robert Duval",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9273462
+        },
+        {
+          "person_id": 15497,
+          "name": "Brian Mcbride",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398555
+        },
+        {
+          "person_id": 15499,
+          "name": "Yan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398555
+        }
+      ]
+    },
+    {
+      "id": "album:5111",
+      "work_type": "Album",
+      "work_id": 5111,
+      "title": "Shattered Horizons",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2008,
+      "single": false,
+      "own": false,
+      "artist_id": 2719,
+      "artist_name": "Jing Zhao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 2719,
+          "name": "Jing Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0409315
+        }
       ]
     },
     {
       "id": "song:6397",
-      "song_id": 6397,
+      "work_type": "Song",
+      "work_id": 6397,
       "title": "Symptoms of Loving You",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -328,11 +700,227 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1148896
+        }
+      ]
+    },
+    {
+      "id": "album:8115",
+      "work_type": "Album",
+      "work_id": 8115,
+      "title": "Switchboard Serenade",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": false,
+      "artist_id": 8116,
+      "artist_name": "Samar Sarma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 425,
+          "name": "Hazel Kara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9262712
+        },
+        {
+          "person_id": 4251,
+          "name": "Justin Thomas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0436146
+        },
+        {
+          "person_id": 8116,
+          "name": "Samar Sarma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        },
+        {
+          "person_id": 8117,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        }
+      ]
+    },
+    {
+      "id": "album:8648",
+      "work_type": "Album",
+      "work_id": 8648,
+      "title": "Whispers of Melody",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 8649,
+      "artist_name": "Min Xiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 8649,
+          "name": "Min Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990402
+        }
+      ]
+    },
+    {
+      "id": "album:9473",
+      "work_type": "Album",
+      "work_id": 9473,
+      "title": "Footwear Revolution",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 141,
+      "artist_name": "Xia Wu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
+      ]
+    },
+    {
+      "id": "album:10294",
+      "work_type": "Album",
+      "work_id": 10294,
+      "title": "Canal Midnight",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2002,
+      "single": false,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        }
       ]
     },
     {
       "id": "song:10366",
-      "song_id": 10366,
+      "work_type": "Song",
+      "work_id": 10366,
       "title": "Saved by Light",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -350,11 +938,77 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
+      ]
+    },
+    {
+      "id": "album:10431",
+      "work_type": "Album",
+      "work_id": 10431,
+      "title": "Vague Silhouette",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 2535,
+      "artist_name": "John Wilkinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2537,
+          "name": "Gang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9519293
+        },
+        {
+          "person_id": 2535,
+          "name": "John Wilkinson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.073013
+        }
       ]
     },
     {
       "id": "song:11240",
-      "song_id": 11240,
+      "work_type": "Song",
+      "work_id": 11240,
       "title": "The Anchor Holds",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -372,11 +1026,25 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:11936",
-      "song_id": 11936,
+      "work_type": "Song",
+      "work_id": 11936,
       "title": "Tender Destruction",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -394,11 +1062,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 6484,
+          "name": "Wei Dong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7108517
+        },
+        {
+          "person_id": 1248,
+          "name": "Gang Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.424843
+        },
+        {
+          "person_id": 11937,
+          "name": "Ashley Mahoney",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993952
+        }
       ]
     },
     {
       "id": "song:11984",
-      "song_id": 11984,
+      "work_type": "Song",
+      "work_id": 11984,
       "title": "Pilgrim Hearts, Rejoicing Night",
       "genre": "Blues Rock",
       "notable": true,
@@ -416,11 +1124,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 4412,
+          "name": "Yuta Tanaka",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.705118
+        }
       ]
     },
     {
       "id": "song:14527",
-      "song_id": 14527,
+      "work_type": "Song",
+      "work_id": 14527,
       "title": "Madly Yours",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -438,11 +1177,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1148896
+        }
       ]
     },
     {
       "id": "song:15986",
-      "song_id": 15986,
+      "work_type": "Song",
+      "work_id": 15986,
       "title": "Sweat Equity",
       "genre": "Indie Pop",
       "notable": true,
@@ -460,11 +1221,43 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2151,
+          "name": "Vito Stroh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9143434
+        },
+        {
+          "person_id": 15987,
+          "name": "Kaitlyn Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4016223
+        },
+        {
+          "person_id": 15988,
+          "name": "Dustin Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4016223
+        }
       ]
     },
     {
       "id": "song:16297",
-      "song_id": 16297,
+      "work_type": "Song",
+      "work_id": 16297,
       "title": "Roadside Heartbreak Motel",
       "genre": "Emo/Pop Punk",
       "notable": false,
@@ -482,39 +1275,290 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1956,
+          "name": "Dominic Riehl",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6828003
+        }
+      ]
+    },
+    {
+      "id": "song:7194",
+      "work_type": "Song",
+      "work_id": 7194,
+      "title": "Hold Me Closer (Don't Let Go)",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2002,
+      "single": true,
+      "own": false,
+      "artist_id": 1098,
+      "artist_name": "Guiying Bai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4252396
+        }
+      ]
+    },
+    {
+      "id": "song:1757",
+      "work_type": "Song",
+      "work_id": 1757,
+      "title": "Whispers from Alexander's Chambers",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 1758,
+      "artist_name": "Michael Boyd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2834263
+        }
+      ]
+    },
+    {
+      "id": "album:3302",
+      "work_type": "Album",
+      "work_id": 3302,
+      "title": "Urugum Ninaivugal (Melting Memories)",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1530,
+      "artist_name": "Deborah Lucas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1530,
+          "name": "Deborah Lucas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.009274
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 3303,
+          "name": "Kenneth Hall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973007
+        }
+      ]
+    },
+    {
+      "id": "song:12920",
+      "work_type": "Song",
+      "work_id": 12920,
+      "title": "The MacGregor's Whisper",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 7989,
+      "artist_name": "Fabian Dłubak",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7989,
+          "name": "Fabian Dłubak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4218736
+        },
+        {
+          "person_id": 12921,
+          "name": "Adam Kroker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976965
+        },
+        {
+          "person_id": 12922,
+          "name": "Frank Green",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976965
+        }
+      ]
+    },
+    {
+      "id": "song:13053",
+      "work_type": "Song",
+      "work_id": 13053,
+      "title": "Shoreline Surrender",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2011,
+      "single": false,
+      "own": false,
+      "artist_id": 1758,
+      "artist_name": "Michael Boyd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2834263
+        },
+        {
+          "person_id": 13054,
+          "name": "Karina Gunpf",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0081923
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5232",
+      "source": "song:3793",
       "target": "song:14671",
-      "type": "LyricalReferenceTo"
+      "type": "CoverOf"
     },
     {
-      "source": "song:6397",
+      "source": "song:11240",
       "target": "song:6245",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
-      "source": "song:13557",
-      "target": "song:5704",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13557",
-      "target": "song:14671",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:5109",
-      "target": "song:14671",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:7194",
-      "target": "song:5704",
-      "type": "InStyleOf"
+      "source": "song:6989",
+      "target": "album:15983",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:15496",
@@ -522,8 +1566,43 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:6989",
+      "source": "song:1757",
+      "target": "album:15983",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:9473",
+      "target": "song:6245",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14527",
+      "target": "song:6245",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13557",
       "target": "song:14671",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:16297",
+      "target": "song:6245",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16215",
+      "target": "album:15983",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:1096",
+      "target": "song:14671",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:8648",
+      "target": "song:6245",
       "type": "InStyleOf"
     },
     {
@@ -532,18 +1611,38 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:14671",
+      "source": "album:11449",
       "target": "song:5704",
-      "type": "DirectlySamples"
+      "type": "InStyleOf"
     },
     {
-      "source": "song:15986",
+      "source": "song:3626",
+      "target": "song:14671",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11984",
       "target": "song:6245",
       "type": "CoverOf"
     },
     {
-      "source": "song:11936",
+      "source": "album:11449",
       "target": "song:6245",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6397",
+      "target": "song:6245",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:8115",
+      "target": "song:6245",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5109",
+      "target": "song:14671",
       "type": "LyricalReferenceTo"
     },
     {
@@ -552,14 +1651,84 @@
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:11936",
+      "target": "song:6245",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5232",
+      "target": "song:5704",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12920",
+      "target": "album:15983",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:5111",
+      "target": "song:6245",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7194",
+      "target": "song:5704",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:11449",
+      "target": "song:14671",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3793",
+      "target": "song:6245",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10431",
+      "target": "song:6245",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13053",
+      "target": "album:15983",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:7311",
       "target": "song:14671",
       "type": "CoverOf"
     },
     {
-      "source": "song:14527",
+      "source": "song:5109",
       "target": "song:6245",
-      "type": "CoverOf"
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:5232",
+      "target": "song:6245",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:1096",
+      "target": "song:6245",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:6989",
+      "target": "song:14671",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10294",
+      "target": "song:6245",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13557",
+      "target": "song:5704",
+      "type": "InStyleOf"
     },
     {
       "source": "song:10366",
@@ -572,49 +1741,24 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:5109",
-      "target": "song:6245",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:5232",
+      "source": "song:14671",
       "target": "song:5704",
-      "type": "InStyleOf"
+      "type": "DirectlySamples"
     },
     {
-      "source": "song:11240",
+      "source": "song:15986",
       "target": "song:6245",
-      "type": "InterpolatesFrom"
+      "type": "CoverOf"
     },
     {
-      "source": "song:3793",
-      "target": "song:6245",
-      "type": "InStyleOf"
+      "source": "album:3302",
+      "target": "album:15983",
+      "type": "CoverOf"
     },
     {
       "source": "song:5232",
-      "target": "song:6245",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:16297",
-      "target": "song:6245",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:3626",
       "target": "song:14671",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:3793",
-      "target": "song:14671",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:11984",
-      "target": "song:6245",
-      "type": "CoverOf"
     }
   ]
 }

@@ -4,8 +4,68 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:14781",
+      "work_type": "Album",
+      "work_id": 14781,
+      "title": "Unspoken Connection",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 1175,
+      "artist_name": "Mario Stumpf",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1173,
+          "name": "Lilian Gieß",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0510354
+        },
+        {
+          "person_id": 1176,
+          "name": "Marvin Holzapfel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510354
+        },
+        {
+          "person_id": 14782,
+          "name": "Herr Stephan Tschentscher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397739
+        },
+        {
+          "person_id": 14783,
+          "name": "Elfriede Reuter",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397739
+        }
+      ]
+    },
+    {
       "id": "song:1172",
-      "song_id": 1172,
+      "work_type": "Song",
+      "work_id": 1172,
       "title": "Crimson Stripes",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +81,86 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1173,
+          "name": "Lilian Gieß",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0510354
+        },
+        {
+          "person_id": 1176,
+          "name": "Marvin Holzapfel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510354
+        },
+        {
+          "person_id": 1174,
+          "name": "Herr Rudolph Schaaf",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977516
+        }
+      ]
+    },
+    {
+      "id": "song:7195",
+      "work_type": "Song",
+      "work_id": 7195,
+      "title": "Echoes of Empty Rooms",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 529,
+      "artist_name": "Mai Sato",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 529,
+          "name": "Mai Sato",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4303045
+        },
+        {
+          "person_id": 7196,
+          "name": "Kumiko Sato",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400567
+        }
+      ]
     },
     {
       "id": "song:16522",
-      "song_id": 16522,
+      "work_type": "Song",
+      "work_id": 16522,
       "title": "Puncture Point",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,10 +178,72 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13153,
+          "name": "Min Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4423532
+        },
+        {
+          "person_id": 10223,
+          "name": "Lei Lu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4346054
+        },
+        {
+          "person_id": 10224,
+          "name": "Xia Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4346054
+        },
+        {
+          "person_id": 15701,
+          "name": "Juan Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0438728
+        },
+        {
+          "person_id": 14122,
+          "name": "Ming Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.032164
+        },
+        {
+          "person_id": 16523,
+          "name": "Jing He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995943
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:7195",
+      "target": "album:14781",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:16522",
       "target": "song:1172",

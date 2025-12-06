@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7691",
-      "song_id": 7691,
+      "work_type": "Song",
+      "work_id": 7691,
       "title": "Crystalline Memory",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6622,
+          "name": "Xia Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.92736
+        },
+        {
+          "person_id": 6620,
+          "name": "Guiying Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.708163
+        },
+        {
+          "person_id": 3792,
+          "name": "Yong Shao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.410212
+        }
+      ]
     },
     {
       "id": "song:14182",
-      "song_id": 14182,
+      "work_type": "Song",
+      "work_id": 14182,
       "title": "The Spaces We Inhabit",
       "genre": "Dream Pop",
       "notable": false,
@@ -41,11 +72,52 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14183,
+          "name": "Yong Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14184,
+          "name": "Xia Ma",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14185,
+          "name": "James Weber",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14186,
+          "name": "Guiying Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974853
+        }
+      ]
     },
     {
       "id": "song:7949",
-      "song_id": 7949,
+      "work_type": "Song",
+      "work_id": 7949,
       "title": "Whispers of the Infinite",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +135,60 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7951,
+          "name": "Sonia Innocenti-Gasperi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399452
+        },
+        {
+          "person_id": 7950,
+          "name": "Fernanda Lamborghini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992822
+        },
+        {
+          "person_id": 7952,
+          "name": "Donatello Schiaparelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992822
+        },
+        {
+          "person_id": 7954,
+          "name": "Greco Duse-Liverotti",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992822
+        },
+        {
+          "person_id": 7953,
+          "name": "Paloma Merisi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992615
+        }
       ]
     },
     {
       "id": "song:11200",
-      "song_id": 11200,
+      "work_type": "Song",
+      "work_id": 11200,
       "title": "Nautical Whispers",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,17 +206,65 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 649,
+          "name": "Na Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7131028
+        },
+        {
+          "person_id": 11201,
+          "name": "Gang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11202,
+          "name": "Joseph Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11203,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11204,
+          "name": "Yong Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989823
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11200",
+      "source": "song:7949",
       "target": "song:7691",
       "type": "InStyleOf"
     },
     {
-      "source": "song:7949",
+      "source": "song:11200",
       "target": "song:7691",
       "type": "InStyleOf"
     }

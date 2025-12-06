@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13321",
-      "song_id": 13321,
+      "work_type": "Song",
+      "work_id": 13321,
       "title": "Rootless Heart",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 13322,
       "artist_name": "Danielle Martin",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13323,
+          "name": "Jonathan Vasquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993657
+        }
+      ]
+    },
+    {
+      "id": "album:810",
+      "work_type": "Album",
+      "work_id": 810,
+      "title": "Silence Between Heartbeats",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 811,
+      "artist_name": "Jun Jiang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,110 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 813,
+          "name": "Xia Du",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.435928
+        },
+        {
+          "person_id": 817,
+          "name": "Jing Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4223018
+        },
+        {
+          "person_id": 811,
+          "name": "Jun Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 812,
+          "name": "Xia Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 815,
+          "name": "Yan Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 816,
+          "name": "Ping Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 820,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 819,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362248
+        },
+        {
+          "person_id": 818,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396742
+        },
+        {
+          "person_id": 814,
+          "name": "Juan He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.396194
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:810",
+      "target": "song:13321",
+      "type": "InStyleOf"
+    }
+  ]
 }

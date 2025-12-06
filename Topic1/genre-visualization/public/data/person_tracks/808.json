@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:806",
-      "song_id": 806,
+      "work_type": "Song",
+      "work_id": 806,
       "title": "Holding Closer Than Words",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,65 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 807,
+          "name": "Megan Sandoval",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0411334
+        }
+      ]
+    },
+    {
+      "id": "album:8832",
+      "work_type": "Album",
+      "work_id": 8832,
+      "title": "Lunar Lunar Thirty",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 808,
+      "artist_name": "Pavlína Macháčková",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 8833,
+          "name": "Lori Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7165387
+        }
+      ]
     },
     {
       "id": "song:12933",
-      "song_id": 12933,
+      "work_type": "Song",
+      "work_id": 12933,
       "title": "Wherever Your Path Leads",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +96,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.2519994
+        }
+      ]
     },
     {
       "id": "song:2684",
-      "song_id": 2684,
+      "work_type": "Song",
+      "work_id": 2684,
       "title": "Echoes of a Falling Halo",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -62,15 +129,47 @@
         "style": 0
       },
       "relation_types": [
+        "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2685,
+          "name": "Na Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.706405
+        },
+        {
+          "person_id": 2686,
+          "name": "Xiulan Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3983374
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:2684",
+      "target": "album:8832",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:2684",
       "target": "song:806",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:806",
+      "target": "album:8832",
+      "type": "CoverOf"
     }
   ]
 }

@@ -1,0 +1,101 @@
+{
+  "person_id": 11265,
+  "name": "Vanessa King",
+  "stage_name": "Sepia Rhapsody",
+  "nodes": [
+    {
+      "id": "album:11263",
+      "work_type": "Album",
+      "work_id": 11263,
+      "title": "The Drover's Lament",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 11265,
+      "artist_name": "Vanessa King (Sepia Rhapsody)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11266,
+          "name": "Emily Nash",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0423315
+        },
+        {
+          "person_id": 11264,
+          "name": "Lindsay Williams",
+          "stage_name": " The Storm",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036272
+        },
+        {
+          "person_id": 11267,
+          "name": "Michael Wright",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3987377
+        }
+      ]
+    },
+    {
+      "id": "song:12001",
+      "work_type": "Song",
+      "work_id": 12001,
+      "title": "Phantom's Second Chance",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 12002,
+      "artist_name": "Caroline Lloyd",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12002,
+          "name": "Caroline Lloyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396128
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12001",
+      "target": "album:11263",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

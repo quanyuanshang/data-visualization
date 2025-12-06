@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3756",
-      "song_id": 3756,
+      "work_type": "Song",
+      "work_id": 3756,
       "title": "Come Closer",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 3758,
+          "name": "Mariusz Segebahn",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3998954
+        }
+      ]
     },
     {
       "id": "song:17015",
-      "song_id": 17015,
+      "work_type": "Song",
+      "work_id": 17015,
       "title": "Sacrificial Dawn",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +65,17 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17012,
+          "name": "Sienna Fox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9409828
+        }
       ]
     }
   ],

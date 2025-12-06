@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16189",
-      "song_id": 16189,
+      "work_type": "Song",
+      "work_id": 16189,
       "title": "Whispers of Curiosity",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7148,
+          "name": "Gang Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.453465
+        },
+        {
+          "person_id": 16190,
+          "name": "Austin Martin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3956175
+        }
+      ]
     },
     {
       "id": "song:9831",
-      "song_id": 9831,
+      "work_type": "Song",
+      "work_id": 9831,
       "title": "Wisdom's Edge",
       "genre": "Space Rock",
       "notable": true,
@@ -43,11 +65,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9832,
+          "name": "Herminia Vazquez-Sainz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979971
+        },
+        {
+          "person_id": 9833,
+          "name": "Itziar Mata Marqués",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978705
+        }
       ]
     },
     {
       "id": "song:15394",
-      "song_id": 15394,
+      "work_type": "Song",
+      "work_id": 15394,
       "title": "Whispers in the Meadow Green",
       "genre": "Synthwave",
       "notable": true,
@@ -65,6 +109,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1255,
+          "name": "Xiulan Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0676715
+        },
+        {
+          "person_id": 15395,
+          "name": "Xiulan Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977797
+        }
       ]
     }
   ],

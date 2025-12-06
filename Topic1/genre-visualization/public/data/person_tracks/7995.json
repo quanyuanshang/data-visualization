@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7994",
-      "song_id": 7994,
+      "work_type": "Song",
+      "work_id": 7994,
       "title": "Shout Into Silence",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,50 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 687,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.044944
+        },
+        {
+          "person_id": 7996,
+          "name": "Gang Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395888
+        },
+        {
+          "person_id": 7997,
+          "name": "Max Howard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395888
+        },
+        {
+          "person_id": 7998,
+          "name": "Min Sun",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.395888
+        }
+      ]
     },
     {
       "id": "song:12535",
-      "song_id": 12535,
+      "work_type": "Song",
+      "work_id": 12535,
       "title": "Whispers from the Fifty States",
       "genre": "Darkwave",
       "notable": true,
@@ -43,11 +83,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 12537,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049924
+        },
+        {
+          "person_id": 12536,
+          "name": "Monica Coleman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973176
+        }
       ]
     },
     {
       "id": "song:13735",
-      "song_id": 13735,
+      "work_type": "Song",
+      "work_id": 13735,
       "title": "Echoes in the Silent North",
       "genre": "Darkwave",
       "notable": true,
@@ -65,17 +136,55 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.022782
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12535",
+      "source": "song:13735",
       "target": "song:7994",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:13735",
+      "source": "song:12535",
       "target": "song:7994",
       "type": "InterpolatesFrom"
     }

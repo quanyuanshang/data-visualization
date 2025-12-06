@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:9406",
-      "song_id": 9406,
-      "title": "Teaching After the Silence",
-      "genre": "Darkwave",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": true,
-      "artist_id": 649,
-      "artist_name": "Na Pan",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:11200",
-      "song_id": 11200,
+      "work_type": "Song",
+      "work_id": 11200,
       "title": "Nautical Whispers",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,16 +22,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11201,
+          "name": "Gang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11202,
+          "name": "Joseph Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11203,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11204,
+          "name": "Yong Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989823
+        }
+      ]
     },
     {
-      "id": "song:11780",
-      "song_id": 11780,
-      "title": "Poison in Veins",
-      "genre": "Dream Pop",
+      "id": "album:642",
+      "work_type": "Album",
+      "work_id": 642,
+      "title": "Whispers to Steven",
+      "genre": "Darkwave",
       "notable": true,
-      "release_year": 2027,
-      "single": true,
+      "release_year": 2010,
+      "single": false,
       "own": true,
       "artist_id": 649,
       "artist_name": "Na Pan",
@@ -61,11 +82,198 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 648,
+          "name": "Jie Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4632857
+        },
+        {
+          "person_id": 647,
+          "name": "Jie Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.433982
+        },
+        {
+          "person_id": 644,
+          "name": "Qiang Shi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0622606
+        },
+        {
+          "person_id": 643,
+          "name": "Min Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986428
+        },
+        {
+          "person_id": 645,
+          "name": "Lei Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986428
+        },
+        {
+          "person_id": 646,
+          "name": "Hans-H. Jacobi Jäckel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986428
+        },
+        {
+          "person_id": 650,
+          "name": "Gang Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986428
+        }
+      ]
+    },
+    {
+      "id": "song:9406",
+      "work_type": "Song",
+      "work_id": 9406,
+      "title": "Teaching After the Silence",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 649,
+      "artist_name": "Na Pan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9407,
+          "name": "Jing Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003522
+        },
+        {
+          "person_id": 9408,
+          "name": "Gang Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003522
+        },
+        {
+          "person_id": 9409,
+          "name": "Juan Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003522
+        }
+      ]
+    },
+    {
+      "id": "song:11780",
+      "work_type": "Song",
+      "work_id": 11780,
+      "title": "Poison in Veins",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 649,
+      "artist_name": "Na Pan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 11781,
+          "name": "Tao Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        },
+        {
+          "person_id": 11782,
+          "name": "Tao Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        },
+        {
+          "person_id": 11783,
+          "name": "Guiying Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        },
+        {
+          "person_id": 11784,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        }
+      ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -83,10 +291,143 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
+      ]
+    },
+    {
+      "id": "album:1588",
+      "work_type": "Album",
+      "work_id": 1588,
+      "title": "Strategic Surrender",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1589,
+      "artist_name": "Juan Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1589,
+          "name": "Juan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1590,
+          "name": "Fang Du",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1591,
+          "name": "Fang Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1592,
+          "name": "Jie Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1593,
+          "name": "Qiang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1594,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976288
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:1588",
+      "target": "song:11780",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:3362",
       "target": "song:9406",

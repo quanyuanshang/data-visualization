@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12150",
-      "song_id": 12150,
+      "work_type": "Song",
+      "work_id": 12150,
       "title": "Sing Song Swing",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,58 @@
       "own": true,
       "artist_id": 12153,
       "artist_name": "Xiulan Liu",
-      "influence": 22,
+      "influence": 29,
       "influence_breakdown": {
         "cover": 3,
         "sample": 0,
-        "reference": 1,
-        "style": 2
+        "reference": 2,
+        "style": 4
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12152,
+          "name": "Tao Xu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0513644
+        },
+        {
+          "person_id": 12155,
+          "name": "Yang Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044382
+        },
+        {
+          "person_id": 12154,
+          "name": "Yan Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0374644
+        },
+        {
+          "person_id": 12151,
+          "name": "Chao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.40013
+        }
+      ]
     },
     {
       "id": "song:3037",
-      "song_id": 3037,
+      "work_type": "Song",
+      "work_id": 3037,
       "title": "Visions Beyond the Horizon",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,11 +84,95 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3038,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953676
+        },
+        {
+          "person_id": 3039,
+          "name": "Timothy Hansen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953676
+        },
+        {
+          "person_id": 3040,
+          "name": "Autumn Walker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3953676
+        }
+      ]
+    },
+    {
+      "id": "album:5883",
+      "work_type": "Album",
+      "work_id": 5883,
+      "title": "Altar of Devotion",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 5884,
+      "artist_name": "Li Wen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5884,
+          "name": "Li Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396787
+        },
+        {
+          "person_id": 5886,
+          "name": "Wei Qian",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396787
+        },
+        {
+          "person_id": 5885,
+          "name": "Steven Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3964207
+        }
       ]
     },
     {
       "id": "song:6513",
-      "song_id": 6513,
+      "work_type": "Song",
+      "work_id": 6513,
       "title": "Walls of Memory",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -65,11 +190,78 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6514,
+          "name": "Xiuying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957646
+        },
+        {
+          "person_id": 6515,
+          "name": "Jing Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957646
+        },
+        {
+          "person_id": 6517,
+          "name": "Li Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957646
+        },
+        {
+          "person_id": 6518,
+          "name": "Andrea Martin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957646
+        },
+        {
+          "person_id": 6520,
+          "name": "Qiang Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957646
+        },
+        {
+          "person_id": 6516,
+          "name": "Chao Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3957438
+        },
+        {
+          "person_id": 6519,
+          "name": "Lei Luo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3957438
+        }
       ]
     },
     {
       "id": "song:7395",
-      "song_id": 7395,
+      "work_type": "Song",
+      "work_id": 7395,
       "title": "Moral High Ground",
       "genre": "Synthwave",
       "notable": true,
@@ -87,11 +279,78 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 2592,
+          "name": "Ping Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3976326
+        },
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 2590,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.119318
+        },
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261718
+        },
+        {
+          "person_id": 7397,
+          "name": "Jing Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0693314
+        },
+        {
+          "person_id": 7396,
+          "name": "Chad Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3855686
+        }
       ]
     },
     {
       "id": "song:7457",
-      "song_id": 7457,
+      "work_type": "Song",
+      "work_id": 7457,
       "title": "Shelter from the Storm",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -109,11 +368,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1921,
+          "name": "Jonathan Marquez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0448697
+        },
+        {
+          "person_id": 7458,
+          "name": "Doris Hatfield",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398762
+        },
+        {
+          "person_id": 7459,
+          "name": "Sherry Mcdaniel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398762
+        },
+        {
+          "person_id": 7460,
+          "name": "Carolyn Morgan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398762
+        }
       ]
     },
     {
       "id": "song:10771",
-      "song_id": 10771,
+      "work_type": "Song",
+      "work_id": 10771,
       "title": "Whispers from His Workshop",
       "genre": "Synthwave",
       "notable": true,
@@ -131,11 +430,123 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3545,
+          "name": "Jonathan Diaz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2734904
+        },
+        {
+          "person_id": 3529,
+          "name": "Gang Tan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9857156
+        },
+        {
+          "person_id": 10772,
+          "name": "Yang Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3972862
+        }
+      ]
+    },
+    {
+      "id": "album:12301",
+      "work_type": "Album",
+      "work_id": 12301,
+      "title": "Heartbeat Horizon",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 12302,
+      "artist_name": "Ming Yao ( Indigo Storm)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12307,
+          "name": "Yan Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986437
+        },
+        {
+          "person_id": 12302,
+          "name": "Ming Yao",
+          "stage_name": " Indigo Storm",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398474
+        },
+        {
+          "person_id": 12303,
+          "name": "Fang Xiao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398474
+        },
+        {
+          "person_id": 12304,
+          "name": "Chao Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398474
+        },
+        {
+          "person_id": 12305,
+          "name": "Yang He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398474
+        },
+        {
+          "person_id": 12306,
+          "name": "Yan Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398474
+        }
       ]
     },
     {
       "id": "song:16259",
-      "song_id": 16259,
+      "work_type": "Song",
+      "work_id": 16259,
       "title": "Twilight of the Weekly Cycle",
       "genre": "Indie Folk",
       "notable": true,
@@ -153,14 +564,130 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5381,
+          "name": "Guiying Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4300647
+        },
+        {
+          "person_id": 3459,
+          "name": "Holly Valenzuela",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0396812
+        },
+        {
+          "person_id": 3460,
+          "name": "Xia Zhu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0396812
+        },
+        {
+          "person_id": 15313,
+          "name": "Erin Shah",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0355017
+        },
+        {
+          "person_id": 15314,
+          "name": "Yan Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0355017
+        },
+        {
+          "person_id": 16260,
+          "name": "Xia Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.407327
+        },
+        {
+          "person_id": 16261,
+          "name": "Damon Stewart",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.407327
+        }
+      ]
+    },
+    {
+      "id": "album:16508",
+      "work_type": "Album",
+      "work_id": 16508,
+      "title": "When Time Aligns",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 16509,
+      "artist_name": "Randy Stewart",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10212,
+          "name": "Robert Jenkins",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9731402
+        },
+        {
+          "person_id": 16509,
+          "name": "Randy Stewart",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003508
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10771",
+      "source": "song:7457",
       "target": "song:12150",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:16508",
+      "target": "song:12150",
+      "type": "InStyleOf"
     },
     {
       "source": "song:3037",
@@ -168,9 +695,9 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:7457",
+      "source": "song:16259",
       "target": "song:12150",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     },
     {
       "source": "song:6513",
@@ -178,14 +705,24 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:16259",
+      "source": "album:5883",
       "target": "song:12150",
-      "type": "CoverOf"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:12301",
+      "target": "song:12150",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:7395",
       "target": "song:12150",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:10771",
+      "target": "song:12150",
+      "type": "InterpolatesFrom"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10608",
-      "song_id": 10608,
+      "work_type": "Song",
+      "work_id": 10608,
       "title": "Sovereign Heartbeat",
       "genre": "Space Rock",
       "notable": true,
@@ -14,18 +15,120 @@
       "own": true,
       "artist_id": 10610,
       "artist_name": "Kenneth Knight",
-      "influence": 4,
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 3
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10117,
+          "name": "David Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0392017
+        },
+        {
+          "person_id": 10609,
+          "name": "Kathleen Carroll",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39079
+        },
+        {
+          "person_id": 10611,
+          "name": "Tiffany Lutz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39079
+        }
+      ]
+    },
+    {
+      "id": "album:3118",
+      "work_type": "Album",
+      "work_id": 3118,
+      "title": "The Ridges of Blood",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 891,
+      "artist_name": "Jie Fan",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 2
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 891,
+          "name": "Jie Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9367123
+        },
+        {
+          "person_id": 3122,
+          "name": "Jing Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7180305
+        },
+        {
+          "person_id": 3119,
+          "name": "Yong Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979142
+        },
+        {
+          "person_id": 3120,
+          "name": "Gang Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979142
+        },
+        {
+          "person_id": 3121,
+          "name": "Yong Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979142
+        }
+      ]
     },
     {
       "id": "song:7278",
-      "song_id": 7278,
+      "work_type": "Song",
+      "work_id": 7278,
       "title": "Requiem for a Fading Self",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +146,88 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        }
+      ]
+    },
+    {
+      "id": "album:7736",
+      "work_type": "Album",
+      "work_id": 7736,
+      "title": "Immolation of the Heart",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 6905,
+      "artist_name": "Ping Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 6905,
+          "name": "Ping Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0527425
+        },
+        {
+          "person_id": 7738,
+          "name": "Joshua Chase",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.038557
+        },
+        {
+          "person_id": 7737,
+          "name": "Yan Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3774397
+        }
       ]
     },
     {
       "id": "song:10116",
-      "song_id": 10116,
+      "work_type": "Song",
+      "work_id": 10116,
       "title": "Gateway to Infinity",
       "genre": "Synthwave",
       "notable": true,
@@ -65,17 +245,48 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10117,
+          "name": "David Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0392017
+        },
+        {
+          "person_id": 10118,
+          "name": "Miss Kathleen Price",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399106
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7278",
+      "source": "album:3118",
+      "target": "song:10608",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:7736",
       "target": "song:10608",
       "type": "InStyleOf"
     },
     {
       "source": "song:10116",
+      "target": "song:10608",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7278",
       "target": "song:10608",
       "type": "InStyleOf"
     }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12756",
-      "song_id": 12756,
+      "work_type": "Song",
+      "work_id": 12756,
       "title": "Wings Over the Aegean",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,38 @@
       "own": true,
       "artist_id": 12757,
       "artist_name": "Pari Chand",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12758,
+          "name": "Damini Datta",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398983
+        }
+      ]
+    },
+    {
+      "id": "album:11533",
+      "work_type": "Album",
+      "work_id": 11533,
+      "title": "Beneath the Green Cathedral",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 7240,
+      "artist_name": "Yan Zhou",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +54,63 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 7240,
+          "name": "Yan Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4393845
+        },
+        {
+          "person_id": 11534,
+          "name": "Brian Hamilton",
+          "stage_name": " Cyber Swan",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987684
+        },
+        {
+          "person_id": 11535,
+          "name": "Alexandra Montes",
+          "stage_name": " D.R. Stone",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987684
+        },
+        {
+          "person_id": 11536,
+          "name": "Scott Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987684
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11533",
+      "target": "song:12756",
+      "type": "InStyleOf"
+    }
+  ]
 }

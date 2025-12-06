@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15271",
-      "song_id": 15271,
-      "title": "Wrapped in Your Warmth",
-      "genre": "Oceanus Folk",
-      "notable": true,
-      "release_year": 2024,
-      "single": false,
-      "own": true,
-      "artist_id": 15273,
-      "artist_name": "Jing Luo",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:16624",
-      "song_id": 16624,
+      "work_type": "Song",
+      "work_id": 16624,
       "title": "Unbreakable Crown",
       "genre": "Desert Rock",
       "notable": true,
@@ -41,8 +22,130 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15274,
+          "name": "Xiulan Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.046368
+        },
+        {
+          "person_id": 16625,
+          "name": "Gina Lehmann-Süßebier",
+          "stage_name": "Lorien",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3973484
+        }
+      ]
+    },
+    {
+      "id": "song:15271",
+      "work_type": "Song",
+      "work_id": 15271,
+      "title": "Wrapped in Your Warmth",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 15273,
+      "artist_name": "Jing Luo",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15274,
+          "name": "Xiulan Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046368
+        },
+        {
+          "person_id": 15272,
+          "name": "Matthew Murphy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397789
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:5035",
+      "target": "song:15271",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

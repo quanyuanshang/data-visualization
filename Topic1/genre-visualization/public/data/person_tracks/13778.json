@@ -1,0 +1,119 @@
+{
+  "person_id": 13778,
+  "name": "Nakul Samra",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:13777",
+      "work_type": "Album",
+      "work_id": 13777,
+      "title": "Gravity's Anchor",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 13778,
+      "artist_name": "Nakul Samra",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13779,
+          "name": "Lagan Bhalla",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4096258
+        }
+      ]
+    },
+    {
+      "id": "song:10716",
+      "work_type": "Song",
+      "work_id": 10716,
+      "title": "Guardians of Honor",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 10717,
+      "artist_name": "Tao Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10717,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992038
+        },
+        {
+          "person_id": 10719,
+          "name": "Chao Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992038
+        },
+        {
+          "person_id": 10720,
+          "name": "Sean Rogers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3992038
+        },
+        {
+          "person_id": 10721,
+          "name": "Xiulan Shao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992038
+        },
+        {
+          "person_id": 10718,
+          "name": "Brian Hall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399183
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10716",
+      "target": "album:13777",
+      "type": "CoverOf"
+    }
+  ]
+}

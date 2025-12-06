@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8658",
-      "song_id": 8658,
+      "work_type": "Song",
+      "work_id": 8658,
       "title": "Fragments of Myself",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,8 +22,126 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8659,
+          "name": "Ping Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0511138
+        },
+        {
+          "person_id": 8660,
+          "name": "Edward Jacobs",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0446634
+        }
+      ]
+    },
+    {
+      "id": "album:12242",
+      "work_type": "Album",
+      "work_id": 12242,
+      "title": "Coastal Cantata",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 8661,
+      "artist_name": "Eric Wright",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12243,
+          "name": "Beverly Powell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395695
+        },
+        {
+          "person_id": 12244,
+          "name": "James Mcmahon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.395695
+        }
+      ]
+    },
+    {
+      "id": "album:10848",
+      "work_type": "Album",
+      "work_id": 10848,
+      "title": "Vykort från en Sommarö (Postcard from a Summer Island)",
+      "genre": "Indie Pop",
+      "notable": false,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 3086,
+      "artist_name": "Sean Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3086,
+          "name": "Sean Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.4058466
+        },
+        {
+          "person_id": 10849,
+          "name": "Lisa Crawford",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.5238342
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10848",
+      "target": "album:12242",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8658",
+      "target": "album:12242",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

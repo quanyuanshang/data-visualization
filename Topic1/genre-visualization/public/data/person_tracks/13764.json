@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13763",
-      "song_id": 13763,
+      "work_type": "Song",
+      "work_id": 13763,
       "title": "Tidal Memoir",
       "genre": "Desert Rock",
       "notable": false,
@@ -14,6 +15,58 @@
       "own": true,
       "artist_id": 13764,
       "artist_name": "Konrad Szpyt ( Luna Rey)",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13766,
+          "name": "Bobby Hester",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 0.03536477
+        },
+        {
+          "person_id": 13767,
+          "name": "Matthew Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 0.030966822
+        },
+        {
+          "person_id": 13765,
+          "name": "Jan Jaśko",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 0.030655991
+        }
+      ]
+    },
+    {
+      "id": "album:16166",
+      "work_type": "Album",
+      "work_id": 16166,
+      "title": "Copper Penny's Memory",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 12470,
+      "artist_name": "Tao Zhu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +74,91 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12470,
+          "name": "Tao Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0451996
+        },
+        {
+          "person_id": 12474,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0451996
+        },
+        {
+          "person_id": 12471,
+          "name": "Xiulan Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0415463
+        },
+        {
+          "person_id": 12472,
+          "name": "Jie Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041248
+        },
+        {
+          "person_id": 16170,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998058
+        },
+        {
+          "person_id": 16167,
+          "name": "Xia Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3997898
+        },
+        {
+          "person_id": 16168,
+          "name": "Jing Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997898
+        },
+        {
+          "person_id": 16169,
+          "name": "Thomas Gray",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997898
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:16166",
+      "target": "song:13763",
+      "type": "InStyleOf"
+    }
+  ]
 }

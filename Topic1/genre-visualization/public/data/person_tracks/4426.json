@@ -4,8 +4,42 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "song:11830",
+      "work_type": "Song",
+      "work_id": 11830,
+      "title": "Verses from a Silent Room",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 4426,
+      "artist_name": "Thierry Labbé",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5908,
+          "name": "Georges Besnard",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.706773
+        }
+      ]
+    },
+    {
       "id": "song:4425",
-      "song_id": 4425,
+      "work_type": "Song",
+      "work_id": 4425,
       "title": "The Sweetest Citrus",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,39 +55,41 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4427,
+          "name": "Thomas Clark",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.395214
+        },
+        {
+          "person_id": 4428,
+          "name": "Samuel Graham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395214
+        }
+      ]
     },
     {
-      "id": "song:11830",
-      "song_id": 11830,
-      "title": "Verses from a Silent Room",
-      "genre": "Synthwave",
+      "id": "song:4425",
+      "work_type": "Song",
+      "work_id": 4425,
+      "title": "The Sweetest Citrus",
+      "genre": "Indie Folk",
       "notable": true,
-      "release_year": 2000,
-      "single": false,
-      "own": true,
-      "artist_id": 4426,
-      "artist_name": "Thierry Labbé",
-      "influence": 8,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 2,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:17233",
-      "song_id": 17233,
-      "title": "Sunset Harmony",
-      "genre": "Oceanus Folk",
-      "notable": false,
-      "release_year": 2029,
+      "release_year": 2010,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 4428,
+      "artist_name": "Samuel Graham",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -63,11 +99,104 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4426,
+          "name": "Thierry Labbé",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0387323
+        },
+        {
+          "person_id": 4427,
+          "name": "Thomas Clark",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.395214
+        },
+        {
+          "person_id": 4428,
+          "name": "Samuel Graham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.395214
+        }
+      ]
+    },
+    {
+      "id": "album:10350",
+      "work_type": "Album",
+      "work_id": 10350,
+      "title": "Winterwind Refrain",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 5908,
+      "artist_name": "Georges Besnard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5908,
+          "name": "Georges Besnard",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.706773
+        },
+        {
+          "person_id": 5910,
+          "name": "Jeanne Guillou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9483147
+        },
+        {
+          "person_id": 10351,
+          "name": "Rémy Jourdan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959913
+        },
+        {
+          "person_id": 10352,
+          "name": "Brigitte Langlois",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3959913
+        }
       ]
     },
     {
       "id": "song:14567",
-      "song_id": 14567,
+      "work_type": "Song",
+      "work_id": 14567,
       "title": "Whispers of the Nordic Meadow",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,11 +214,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9558,
+          "name": "Larry Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278525
+        },
+        {
+          "person_id": 14568,
+          "name": "Dawn Kelly",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980784
+        }
       ]
     },
     {
       "id": "song:15642",
-      "song_id": 15642,
+      "work_type": "Song",
+      "work_id": 15642,
       "title": "Breathe Through the Storm",
       "genre": "Dream Pop",
       "notable": true,
@@ -107,7 +267,61 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 7867,
+          "name": "Frank Bonilla",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393202
+        }
       ]
+    },
+    {
+      "id": "song:17233",
+      "work_type": "Song",
+      "work_id": 17233,
+      "title": "Sunset Harmony",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 17230,
+      "artist_name": "The Wave Riders（成员：Kai Reynolds｜预测 2.80、Aiden Harper｜预测 2.96…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": []
     }
   ],
   "links": [
@@ -122,14 +336,19 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:4425",
+      "source": "album:10350",
       "target": "song:11830",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     },
     {
       "source": "song:14567",
       "target": "song:11830",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:4425",
+      "target": "song:11830",
+      "type": "InStyleOf"
     }
   ]
 }

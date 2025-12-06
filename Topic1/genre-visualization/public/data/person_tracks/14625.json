@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14622",
-      "song_id": 14622,
+      "work_type": "Song",
+      "work_id": 14622,
       "title": "Tigranes the Great: Shadows of Conquest",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -14,6 +15,56 @@
       "own": true,
       "artist_id": 14625,
       "artist_name": "Yan Zhu",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12246,
+          "name": "Juan Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4419076
+        },
+        {
+          "person_id": 14623,
+          "name": "Yong Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4007604
+        },
+        {
+          "person_id": 14624,
+          "name": "Guiying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007604
+        }
+      ]
+    },
+    {
+      "id": "album:8060",
+      "work_type": "Album",
+      "work_id": 8060,
+      "title": "Wide Open Waves",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2978,
+      "artist_name": "Guiying Gao",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +72,66 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2978,
+          "name": "Guiying Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.396549
+        },
+        {
+          "person_id": 8064,
+          "name": "Lei Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4161851
+        },
+        {
+          "person_id": 8063,
+          "name": "Na Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0518713
+        },
+        {
+          "person_id": 8061,
+          "name": "Nicole Bowers",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394519
+        },
+        {
+          "person_id": 8062,
+          "name": "Pam Cunningham",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394519
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8060",
+      "target": "song:14622",
+      "type": "InStyleOf"
+    }
+  ]
 }

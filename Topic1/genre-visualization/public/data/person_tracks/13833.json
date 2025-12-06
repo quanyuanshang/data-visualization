@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13832",
-      "song_id": 13832,
+      "work_type": "Song",
+      "work_id": 13832,
       "title": "The Dialect of Dreams",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 13833,
       "artist_name": "Nathalie Striebitz",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7533,
+          "name": "Marija Lehmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045203
+        }
+      ]
+    },
+    {
+      "id": "album:14828",
+      "work_type": "Album",
+      "work_id": 14828,
+      "title": "Barn Door Dialogues",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 8913,
+      "artist_name": "Richard Goodman",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,36 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8913,
+          "name": "Richard Goodman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0329998
+        },
+        {
+          "person_id": 14829,
+          "name": "Cynthia Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968341
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:14828",
+      "target": "song:13832",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

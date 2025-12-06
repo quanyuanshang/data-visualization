@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5146",
-      "song_id": 5146,
+      "work_type": "Song",
+      "work_id": 5146,
       "title": "Waste Management Waltz",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +22,61 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5147,
+          "name": "Yong Xia",
+          "stage_name": "Neon Solstice",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5148,
+          "name": "Matthew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5149,
+          "name": "Lei Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5150,
+          "name": "Kenneth Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        },
+        {
+          "person_id": 5152,
+          "name": "Jason Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969975
+        }
+      ]
     },
     {
       "id": "song:16354",
-      "song_id": 16354,
+      "work_type": "Song",
+      "work_id": 16354,
       "title": "Farmland Titans",
       "genre": "Darkwave",
       "notable": true,
@@ -34,18 +85,40 @@
       "own": true,
       "artist_id": 5151,
       "artist_name": "Linda Santos",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15794,
+          "name": "Ming Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054135
+        },
+        {
+          "person_id": 16355,
+          "name": "Robert King",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397444
+        }
+      ]
     },
     {
       "id": "song:16354",
-      "song_id": 16354,
+      "work_type": "Song",
+      "work_id": 16354,
       "title": "Farmland Titans",
       "genre": "Darkwave",
       "notable": true,
@@ -63,6 +136,90 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15794,
+          "name": "Ming Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054135
+        },
+        {
+          "person_id": 5151,
+          "name": "Linda Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393343
+        },
+        {
+          "person_id": 16355,
+          "name": "Robert King",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397444
+        }
+      ]
+    },
+    {
+      "id": "album:10098",
+      "work_type": "Album",
+      "work_id": 10098,
+      "title": "Symphonic Ecosystem",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 10099,
+      "artist_name": "Catalina Borja Barbero (Davin Tate)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10099,
+          "name": "Catalina Borja Barbero",
+          "stage_name": "Davin Tate",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965917
+        },
+        {
+          "person_id": 10101,
+          "name": "Rosenda Reyes Salazar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3965917
+        },
+        {
+          "person_id": 10100,
+          "name": "Graciana Sacristán Saura",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396571
+        }
       ]
     }
   ],
@@ -71,6 +228,11 @@
       "source": "song:16354",
       "target": "song:5146",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:10098",
+      "target": "song:16354",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

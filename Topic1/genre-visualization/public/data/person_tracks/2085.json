@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2082",
-      "song_id": 2082,
+      "work_type": "Song",
+      "work_id": 2082,
       "title": "Illuminated Moments",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 2085,
       "artist_name": "Jun He",
-      "influence": 0,
+      "influence": 5,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2083,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3992946
+        },
+        {
+          "person_id": 2084,
+          "name": "Ping Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991625
+        }
+      ]
     },
     {
       "id": "song:13144",
-      "song_id": 13144,
+      "work_type": "Song",
+      "work_id": 13144,
       "title": "Whispers from Jones Street",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,8 +64,77 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13145,
+          "name": "Lei Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398228
+        },
+        {
+          "person_id": 13146,
+          "name": "Yang Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398228
+        }
+      ]
+    },
+    {
+      "id": "album:17251",
+      "work_type": "Album",
+      "work_id": 17251,
+      "title": "Echos Below",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 17250,
+      "artist_name": "Siren's Call（成员：Mia Waters｜预测 3.00、Lila Rivers｜预测 2.98）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17248,
+          "name": "Mia Waters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0007997
+        },
+        {
+          "person_id": 17249,
+          "name": "Lila Rivers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.978334
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17251",
+      "target": "song:2082",
+      "type": "CoverOf"
+    }
+  ]
 }

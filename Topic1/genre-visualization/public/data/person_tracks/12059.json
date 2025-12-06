@@ -1,0 +1,99 @@
+{
+  "person_id": 12059,
+  "name": "Juliusz Kominiak",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:12058",
+      "work_type": "Album",
+      "work_id": 12058,
+      "title": "Ink and Intention",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 1990,
+      "single": false,
+      "own": true,
+      "artist_id": 12059,
+      "artist_name": "Juliusz Kominiak",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2674,
+          "name": "Lidia Szpyt",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4211178
+        }
+      ]
+    },
+    {
+      "id": "song:11091",
+      "work_type": "Song",
+      "work_id": 11091,
+      "title": "Stones and Pilgrims",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 1993,
+      "single": true,
+      "own": false,
+      "artist_id": 11092,
+      "artist_name": "Patrick Lindsey",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2674,
+          "name": "Lidia Szpyt",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4211178
+        },
+        {
+          "person_id": 2673,
+          "name": "Marcin Maksimowicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0682542
+        },
+        {
+          "person_id": 11092,
+          "name": "Patrick Lindsey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3841367
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11091",
+      "target": "album:12058",
+      "type": "InStyleOf"
+    }
+  ]
+}

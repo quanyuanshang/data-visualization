@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4077",
-      "song_id": 4077,
+      "work_type": "Song",
+      "work_id": 4077,
       "title": "Starlit Passion",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 4083,
       "artist_name": "Min Yi",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4078,
+          "name": "Meagan Hendrix",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395594
+        },
+        {
+          "person_id": 4079,
+          "name": "Chao Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395594
+        },
+        {
+          "person_id": 4080,
+          "name": "Yan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395594
+        },
+        {
+          "person_id": 4081,
+          "name": "Yan Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.395594
+        },
+        {
+          "person_id": 4082,
+          "name": "Ming Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395594
+        }
+      ]
     },
     {
       "id": "song:8676",
-      "song_id": 8676,
+      "work_type": "Song",
+      "work_id": 8676,
       "title": "Scales of Mercy",
       "genre": "Indie Folk",
       "notable": true,
@@ -41,8 +91,97 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1465,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6118836
+        },
+        {
+          "person_id": 7142,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4279048
+        },
+        {
+          "person_id": 7143,
+          "name": "Ming Xiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4043033
+        },
+        {
+          "person_id": 8677,
+          "name": "Tao Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.395711
+        }
+      ]
+    },
+    {
+      "id": "album:577",
+      "work_type": "Album",
+      "work_id": 577,
+      "title": "Roadmap to Your Heart",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 578,
+      "artist_name": "Wei Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 579,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4243224
+        },
+        {
+          "person_id": 578,
+          "name": "Wei Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996036
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:577",
+      "target": "song:4077",
+      "type": "InStyleOf"
+    }
+  ]
 }

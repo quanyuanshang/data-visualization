@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13027",
-      "song_id": 13027,
+      "work_type": "Song",
+      "work_id": 13027,
       "title": "Shadows Beneath the Palm",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,162 @@
       "own": true,
       "artist_id": 13029,
       "artist_name": "Michael Reyes",
-      "influence": 3,
+      "influence": 8,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13028,
+          "name": "Michael Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0380397
+        }
+      ]
+    },
+    {
+      "id": "album:14666",
+      "work_type": "Album",
+      "work_id": 14666,
+      "title": "Close Enough to Touch",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": true,
+      "artist_id": 13029,
+      "artist_name": "Michael Reyes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13028,
+          "name": "Michael Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0380397
+        },
+        {
+          "person_id": 14667,
+          "name": "Maurice Harrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        },
+        {
+          "person_id": 14668,
+          "name": "Scott Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        },
+        {
+          "person_id": 14669,
+          "name": "Devin Chan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        }
+      ]
+    },
+    {
+      "id": "album:14666",
+      "work_type": "Album",
+      "work_id": 14666,
+      "title": "Close Enough to Touch",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 13028,
+      "artist_name": "Michael Rivera",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13028,
+          "name": "Michael Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0380397
+        },
+        {
+          "person_id": 13029,
+          "name": "Michael Reyes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0380397
+        },
+        {
+          "person_id": 14667,
+          "name": "Maurice Harrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        },
+        {
+          "person_id": 14668,
+          "name": "Scott Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        },
+        {
+          "person_id": 14669,
+          "name": "Devin Chan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983471
+        }
+      ]
     },
     {
       "id": "song:15590",
-      "song_id": 15590,
+      "work_type": "Song",
+      "work_id": 15590,
       "title": "Beyond Moderation",
       "genre": "Indie Rock",
       "notable": false,
@@ -43,10 +188,46 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3754,
+          "name": "Annetta Passalacqua",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4334188
+        },
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:14666",
+      "target": "song:13027",
+      "type": "CoverOf"
+    },
     {
       "source": "song:15590",
       "target": "song:13027",

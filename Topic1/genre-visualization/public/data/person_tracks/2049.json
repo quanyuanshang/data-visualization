@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2048",
-      "song_id": 2048,
+      "work_type": "Song",
+      "work_id": 2048,
       "title": "Rare Kind of Grace",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2050,
+          "name": "Na Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.261977
+        },
+        {
+          "person_id": 2051,
+          "name": "Na Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988128
+        },
+        {
+          "person_id": 2052,
+          "name": "Lei Huang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988128
+        }
+      ]
     },
     {
       "id": "song:5238",
-      "song_id": 5238,
+      "work_type": "Song",
+      "work_id": 5238,
       "title": "Shadows of Forgotten Myths",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,6 +74,35 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5241,
+          "name": "Indranil Vala",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0556984
+        },
+        {
+          "person_id": 5239,
+          "name": "Prerak Keer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3969586
+        },
+        {
+          "person_id": 5240,
+          "name": "Gokul Konda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969586
+        }
       ]
     }
   ],

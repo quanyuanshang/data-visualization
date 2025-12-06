@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12428",
-      "song_id": 12428,
+      "work_type": "Song",
+      "work_id": 12428,
       "title": "Whispers of the Restless Heart",
       "genre": "Speed Metal",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 3140,
       "artist_name": "Jie Wei",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4465,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1116056
+        }
+      ]
     },
     {
       "id": "song:3139",
-      "song_id": 3139,
+      "work_type": "Song",
+      "work_id": 3139,
       "title": "Trust Nobody's Whispers",
       "genre": "Synthpop",
       "notable": true,
@@ -34,6 +47,47 @@
       "own": true,
       "artist_id": 3140,
       "artist_name": "Jie Wei",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3141,
+          "name": "April Crosby",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3788974
+        },
+        {
+          "person_id": 3142,
+          "name": "Jing Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3788974
+        }
+      ]
+    },
+    {
+      "id": "album:15252",
+      "work_type": "Album",
+      "work_id": 15252,
+      "title": "God Save Our Noble Realm",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 15253,
+      "artist_name": "Jeffrey Morgan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -41,8 +95,86 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1365,
+          "name": "Valerie Brown",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4297123
+        },
+        {
+          "person_id": 15253,
+          "name": "Jeffrey Morgan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978617
+        }
+      ]
+    },
+    {
+      "id": "album:4870",
+      "work_type": "Album",
+      "work_id": 4870,
+      "title": "Whispers of the Trembling Heart",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4871,
+      "artist_name": "Sharon Scott",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 4871,
+          "name": "Sharon Scott",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9787533
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4870",
+      "target": "song:3139",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:15252",
+      "target": "song:12428",
+      "type": "InStyleOf"
+    }
+  ]
 }

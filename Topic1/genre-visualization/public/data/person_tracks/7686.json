@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7680",
-      "song_id": 7680,
+      "work_type": "Song",
+      "work_id": 7680,
       "title": "Earthen Resonance",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,79 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 4670,
+          "name": "Tony Rhodes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0056522
+        },
+        {
+          "person_id": 7685,
+          "name": "Leslie Wagner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017973
+        },
+        {
+          "person_id": 7681,
+          "name": "Allison Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947415
+        },
+        {
+          "person_id": 7682,
+          "name": "Amber Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947415
+        },
+        {
+          "person_id": 7683,
+          "name": "Fang Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3947415
+        },
+        {
+          "person_id": 7684,
+          "name": "Ming Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947415
+        }
+      ]
     },
     {
       "id": "song:2906",
-      "song_id": 2906,
+      "work_type": "Song",
+      "work_id": 2906,
       "title": "Whispers to the Divine",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +112,87 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 936,
+          "name": "Fang Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7049956
+        },
+        {
+          "person_id": 2911,
+          "name": "Xiulan Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0007012
+        },
+        {
+          "person_id": 2907,
+          "name": "Wei Wang",
+          "stage_name": "Caleb Stone",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981276
+        },
+        {
+          "person_id": 2908,
+          "name": "Susan Meadows",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981276
+        },
+        {
+          "person_id": 2909,
+          "name": "Bryan Matthews",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981276
+        },
+        {
+          "person_id": 2912,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981276
+        },
+        {
+          "person_id": 2913,
+          "name": "Harold Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3981276
+        },
+        {
+          "person_id": 2910,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981068
+        }
       ]
     },
     {
       "id": "song:16360",
-      "song_id": 16360,
+      "work_type": "Song",
+      "work_id": 16360,
       "title": "Dissonant Symmetries",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +210,49 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6534,
+          "name": "Tao Yao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1218596
+        },
+        {
+          "person_id": 16362,
+          "name": "Jun Du",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981616
+        },
+        {
+          "person_id": 16361,
+          "name": "Juan Hou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398141
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16360",
-      "target": "song:7680",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:2906",
       "target": "song:7680",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16360",
+      "target": "song:7680",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

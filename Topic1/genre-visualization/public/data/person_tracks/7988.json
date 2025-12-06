@@ -1,0 +1,91 @@
+{
+  "person_id": 7988,
+  "name": "Noah Shaw",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:7987",
+      "work_type": "Album",
+      "work_id": 7987,
+      "title": "Pinup Pages",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": true,
+      "artist_id": 7988,
+      "artist_name": "Noah Shaw",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7989,
+          "name": "Fabian Dłubak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4218736
+        },
+        {
+          "person_id": 5008,
+          "name": "Fang Kong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0434918
+        }
+      ]
+    },
+    {
+      "id": "song:8058",
+      "work_type": "Song",
+      "work_id": 8058,
+      "title": "The Expansive Rhythm",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 8059,
+      "artist_name": "Amanda Powell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8059,
+          "name": "Amanda Powell",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397439
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:8058",
+      "target": "album:7987",
+      "type": "InStyleOf"
+    }
+  ]
+}

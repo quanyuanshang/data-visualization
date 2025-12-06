@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12106",
-      "song_id": 12106,
+      "work_type": "Song",
+      "work_id": 12106,
       "title": "Couture and Consequence",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,56 @@
       "own": true,
       "artist_id": 12108,
       "artist_name": "Chao Dong",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3012,
+          "name": "Jing Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0797546
+        },
+        {
+          "person_id": 4746,
+          "name": "Lei Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.00255
+        },
+        {
+          "person_id": 12107,
+          "name": "Ming He",
+          "stage_name": "Solstice Monologue",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3940969
+        }
+      ]
+    },
+    {
+      "id": "album:16385",
+      "work_type": "Album",
+      "work_id": 16385,
+      "title": "Unbroken Whispers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 16386,
+      "artist_name": "Ping Gong",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +72,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16386,
+          "name": "Ping Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16387,
+          "name": "Ming Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16388,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980315
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:16385",
+      "target": "song:12106",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16090",
-      "song_id": 16090,
+      "work_type": "Song",
+      "work_id": 16090,
       "title": "Neon Midnight Groove",
       "genre": "Synthpop",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8724,
+          "name": "Tao Wei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4258113
+        },
+        {
+          "person_id": 16092,
+          "name": "Ping Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3854566
+        }
+      ]
     },
     {
       "id": "song:1136",
-      "song_id": 1136,
+      "work_type": "Song",
+      "work_id": 1136,
       "title": "Solo Flight",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +65,41 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1139,
+          "name": "Crystal Cruz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4299731
+        },
+        {
+          "person_id": 1137,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.036071
+        },
+        {
+          "person_id": 1138,
+          "name": "Angela Wallace",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0358503
+        }
       ]
     },
     {
       "id": "song:8722",
-      "song_id": 8722,
+      "work_type": "Song",
+      "work_id": 8722,
       "title": "Whispers of Divine Stillness",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +117,67 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1512,
+          "name": "Craig Cameron",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.736801
+        },
+        {
+          "person_id": 8726,
+          "name": "Xia Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7202435
+        },
+        {
+          "person_id": 8724,
+          "name": "Tao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4258113
+        },
+        {
+          "person_id": 8723,
+          "name": "Wesley Ford",
+          "stage_name": " Treasure",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395202
+        },
+        {
+          "person_id": 8725,
+          "name": "Li Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395202
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:1136",
-      "target": "song:16090",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:8722",
       "target": "song:16090",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:1136",
+      "target": "song:16090",
+      "type": "InterpolatesFrom"
     }
   ]
 }

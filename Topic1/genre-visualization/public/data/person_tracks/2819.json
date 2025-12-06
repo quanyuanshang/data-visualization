@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2815",
-      "song_id": 2815,
+      "work_type": "Song",
+      "work_id": 2815,
       "title": "Misdirected",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2818,
+          "name": "Sonia Suda",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0364897
+        },
+        {
+          "person_id": 2816,
+          "name": "Anthony Erickson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39792
+        },
+        {
+          "person_id": 2817,
+          "name": "Virginia White",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39792
+        }
+      ]
     },
     {
       "id": "song:4606",
-      "song_id": 4606,
+      "work_type": "Song",
+      "work_id": 4606,
       "title": "Wooden Shoes and Accordion Dreams",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,6 +74,18 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4231,
+          "name": "Jonathan Poole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.128045
+        }
       ]
     }
   ],

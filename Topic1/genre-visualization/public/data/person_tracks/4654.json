@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4653",
-      "song_id": 4653,
+      "work_type": "Song",
+      "work_id": 4653,
       "title": "Healing in Hindsight",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 4654,
       "artist_name": "Ming Zhou",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4657,
+          "name": "Li Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.432538
+        },
+        {
+          "person_id": 4656,
+          "name": "Tracy Lawson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0351198
+        },
+        {
+          "person_id": 4655,
+          "name": "Melinda Vasquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984098
+        }
+      ]
     },
     {
       "id": "song:2555",
-      "song_id": 2555,
+      "work_type": "Song",
+      "work_id": 2555,
       "title": "The Lute's Whispers of Rebellion",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,10 +75,152 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 1752,
+          "name": "Tao Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168887
+        },
+        {
+          "person_id": 2559,
+          "name": "Kimberly Stewart",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0464537
+        },
+        {
+          "person_id": 2558,
+          "name": "Xiuying Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4015317
+        },
+        {
+          "person_id": 2556,
+          "name": "John Cortez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3943646
+        },
+        {
+          "person_id": 2557,
+          "name": "Fang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3943646
+        }
+      ]
+    },
+    {
+      "id": "album:12842",
+      "work_type": "Album",
+      "work_id": 12842,
+      "title": "Miles from My Horizon",
+      "genre": "Indie Folk",
+      "notable": false,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 12843,
+      "artist_name": "Yan Gao ( HE∆VEN)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8779,
+          "name": "Min Ding",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0362356
+        },
+        {
+          "person_id": 12844,
+          "name": "Xiulan Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4482627
+        },
+        {
+          "person_id": 12846,
+          "name": "Patricia Humphrey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974574
+        },
+        {
+          "person_id": 12845,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3341398
+        },
+        {
+          "person_id": 12843,
+          "name": "Yan Gao",
+          "stage_name": " HE∆VEN",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.33397
+        },
+        {
+          "person_id": 8143,
+          "name": "Min Yu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 0.03451924
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:12842",
+      "target": "song:4653",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:2555",
       "target": "song:4653",

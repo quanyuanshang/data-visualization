@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10105",
-      "song_id": 10105,
+      "work_type": "Song",
+      "work_id": 10105,
       "title": "Boundless Threshold",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10106,
+          "name": "Leif Bien",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.405108
+        },
+        {
+          "person_id": 10109,
+          "name": "Alexej Klotz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.405108
+        },
+        {
+          "person_id": 10108,
+          "name": "Elsbeth Löwer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4049296
+        }
+      ]
     },
     {
       "id": "song:5559",
-      "song_id": 5559,
+      "work_type": "Song",
+      "work_id": 5559,
       "title": "Infused Intentions",
       "genre": "Synthpop",
       "notable": true,
@@ -43,6 +74,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5560,
+          "name": "Bruce Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5561,
+          "name": "Donna Ellison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5562,
+          "name": "Mitchell Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968368
+        }
       ]
     }
   ],

@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10309",
-      "song_id": 10309,
-      "title": "Flickering Flames of Romance",
-      "genre": "Alternative Rock",
+      "id": "album:810",
+      "work_type": "Album",
+      "work_id": 810,
+      "title": "Silence Between Heartbeats",
+      "genre": "Space Rock",
       "notable": true,
-      "release_year": 2022,
-      "single": true,
+      "release_year": 2028,
+      "single": false,
       "own": true,
       "artist_id": 819,
       "artist_name": "Juan Xiao",
@@ -21,8 +22,201 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 813,
+          "name": "Xia Du",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.435928
+        },
+        {
+          "person_id": 817,
+          "name": "Jing Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4223018
+        },
+        {
+          "person_id": 811,
+          "name": "Jun Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 812,
+          "name": "Xia Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 815,
+          "name": "Yan Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 816,
+          "name": "Ping Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 820,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046458
+        },
+        {
+          "person_id": 818,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396742
+        },
+        {
+          "person_id": 814,
+          "name": "Juan He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.396194
+        }
+      ]
+    },
+    {
+      "id": "song:10309",
+      "work_type": "Song",
+      "work_id": 10309,
+      "title": "Flickering Flames of Romance",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": true,
+      "artist_id": 819,
+      "artist_name": "Juan Xiao",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 634,
+          "name": "Jie Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2982986
+        }
+      ]
+    },
+    {
+      "id": "album:17111",
+      "work_type": "Album",
+      "work_id": 17111,
+      "title": "Kingdoms of Dust",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2034,
+      "single": false,
+      "own": false,
+      "artist_id": 17110,
+      "artist_name": "The Hollow Monarchs（成员：Chloe Montgomery (Lane Taylor)｜预测 2.36、Nathaniel Brooks (David Cole)｜预测 2.36…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17406,
+          "name": "Ivy Steele",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4257202
+        },
+        {
+          "person_id": 17407,
+          "name": "Nate Wild",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4257202
+        },
+        {
+          "person_id": 17408,
+          "name": "Scarlett Moon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3744082
+        },
+        {
+          "person_id": 17402,
+          "name": "N.V. Blake",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.7431831
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17111",
+      "target": "song:10309",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

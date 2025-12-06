@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4281",
-      "song_id": 4281,
+      "work_type": "Song",
+      "work_id": 4281,
       "title": "Lunar Whispers",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:15075",
-      "song_id": 15075,
+      "work_type": "Song",
+      "work_id": 15075,
       "title": "Boarding the Coastal Express",
       "genre": "Alternative Rock",
       "notable": true,
@@ -34,6 +37,28 @@
       "own": true,
       "artist_id": 4282,
       "artist_name": "Becky Walters",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:8103",
+      "work_type": "Album",
+      "work_id": 8103,
+      "title": "Burning Strangers",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 8105,
+      "artist_name": "Nicolas Rodriguez",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -41,8 +66,45 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8104,
+          "name": "Hunter Green",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397409
+        },
+        {
+          "person_id": 8105,
+          "name": "Nicolas Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397409
+        },
+        {
+          "person_id": 8106,
+          "name": "Hailey Andrews",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397409
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8103",
+      "target": "song:15075",
+      "type": "CoverOf"
+    }
+  ]
 }

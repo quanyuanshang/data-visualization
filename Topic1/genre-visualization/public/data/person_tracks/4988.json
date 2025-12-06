@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4985",
-      "song_id": 4985,
+      "work_type": "Song",
+      "work_id": 4985,
       "title": "Dancing Through the Drums",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,85 @@
       "own": true,
       "artist_id": 4988,
       "artist_name": "Xiulan Meng",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4727,
+          "name": "Min Wei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0485852
+        },
+        {
+          "person_id": 4986,
+          "name": "Xia Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993337
+        },
+        {
+          "person_id": 4987,
+          "name": "Lei Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993337
+        },
+        {
+          "person_id": 4989,
+          "name": "Gang Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993337
+        },
+        {
+          "person_id": 4990,
+          "name": "Chao Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993337
+        },
+        {
+          "person_id": 4991,
+          "name": "Kristine Bullock",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993337
+        }
+      ]
+    },
+    {
+      "id": "album:17232",
+      "work_type": "Album",
+      "work_id": 17232,
+      "title": "Driftwood Dreams",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2032,
+      "single": false,
+      "own": false,
+      "artist_id": 17230,
+      "artist_name": "The Wave Riders（成员：Kai Reynolds｜预测 2.80、Aiden Harper｜预测 2.96…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +101,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17227,
+          "name": "Aiden Harper",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.96245
+        },
+        {
+          "person_id": 17229,
+          "name": "Skylar Brooks",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.96245
+        },
+        {
+          "person_id": 17228,
+          "name": "Finn Morgan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.946525
+        },
+        {
+          "person_id": 17226,
+          "name": "Kai Reynolds",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.7951815
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17232",
+      "target": "song:4985",
+      "type": "InStyleOf"
+    }
+  ]
 }

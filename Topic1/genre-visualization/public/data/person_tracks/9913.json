@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9912",
-      "song_id": 9912,
+      "work_type": "Song",
+      "work_id": 9912,
       "title": "Silent Eulogy at Your Feet",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,6 +15,49 @@
       "own": true,
       "artist_id": 9913,
       "artist_name": "Regina Davis (Q. DYNAMIK)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9915,
+          "name": "Na Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4566844
+        },
+        {
+          "person_id": 9914,
+          "name": "Jie Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396502
+        }
+      ]
+    },
+    {
+      "id": "album:1823",
+      "work_type": "Album",
+      "work_id": 1823,
+      "title": "Rebel Without a Pause",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1826,
+      "artist_name": "Ping Feng",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +65,63 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1827,
+          "name": "Donna Ryan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.029538
+        },
+        {
+          "person_id": 1824,
+          "name": "Li Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989136
+        },
+        {
+          "person_id": 1825,
+          "name": "Lei Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989136
+        },
+        {
+          "person_id": 1826,
+          "name": "Ping Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989136
+        },
+        {
+          "person_id": 1828,
+          "name": "Li Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989136
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:1823",
+      "target": "song:9912",
+      "type": "CoverOf"
+    }
+  ]
 }

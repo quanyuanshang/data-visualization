@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9165",
-      "song_id": 9165,
+      "work_type": "Song",
+      "work_id": 9165,
       "title": "Tracks of Forgotten Journeys",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 9169,
       "artist_name": "Wei Xue",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9167,
+          "name": "Chao Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978593
+        },
+        {
+          "person_id": 9166,
+          "name": "Xia Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397852
+        },
+        {
+          "person_id": 9168,
+          "name": "Xiulan Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397852
+        },
+        {
+          "person_id": 9170,
+          "name": "Ming Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397852
+        },
+        {
+          "person_id": 9171,
+          "name": "Xiuying Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397852
+        }
+      ]
     },
     {
       "id": "song:9834",
-      "song_id": 9834,
+      "work_type": "Song",
+      "work_id": 9834,
       "title": "Street-Smart Serenade",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +93,99 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9837,
+          "name": "Guiying Wei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988476
+        },
+        {
+          "person_id": 9838,
+          "name": "Juan Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988476
+        },
+        {
+          "person_id": 9836,
+          "name": "Yan Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976042
+        },
+        {
+          "person_id": 9835,
+          "name": "Yan Lu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975835
+        }
+      ]
+    },
+    {
+      "id": "album:16385",
+      "work_type": "Album",
+      "work_id": 16385,
+      "title": "Unbroken Whispers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 16386,
+      "artist_name": "Ping Gong",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16386,
+          "name": "Ping Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16387,
+          "name": "Ming Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16388,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980315
+        }
       ]
     }
   ],
@@ -51,6 +194,11 @@
       "source": "song:9834",
       "target": "song:9165",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:16385",
+      "target": "song:9165",
+      "type": "InterpolatesFrom"
     }
   ]
 }

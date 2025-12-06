@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4571",
-      "song_id": 4571,
+      "work_type": "Song",
+      "work_id": 4571,
       "title": "Healing Hours",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4574,
+          "name": "Margit Sölzer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        }
+      ]
     },
     {
       "id": "song:4613",
-      "song_id": 4613,
+      "work_type": "Song",
+      "work_id": 4613,
       "title": "Dancing Between the Oompah Notes",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +63,32 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4574,
+          "name": "Margit Sölzer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        }
+      ]
     },
     {
       "id": "song:11640",
-      "song_id": 11640,
+      "work_type": "Song",
+      "work_id": 11640,
       "title": "Echoes of Faded Sweetness",
       "genre": "Dream Pop",
       "notable": true,
@@ -61,11 +104,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4574,
+          "name": "Margit Sölzer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4302845
+        }
+      ]
     },
     {
       "id": "song:4613",
-      "song_id": 4613,
+      "work_type": "Song",
+      "work_id": 4613,
       "title": "Dancing Between the Oompah Notes",
       "genre": "Alternative Rock",
       "notable": true,
@@ -84,11 +148,41 @@
       "relation_types": [
         "DirectlySamples",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4572,
+          "name": "Janna Jäkel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4573,
+          "name": "Edit Hethur",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        },
+        {
+          "person_id": 4574,
+          "name": "Margit Sölzer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4302845
+        }
       ]
     },
     {
       "id": "song:17344",
-      "song_id": 17344,
+      "work_type": "Song",
+      "work_id": 17344,
       "title": "Riding the Moon's Reflection",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -106,10 +200,31 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17340,
+          "name": "Orla Seabloom",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.379677
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:4571",
+      "target": "song:11640",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:17344",
+      "target": "song:4613",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:4613",
       "target": "song:11640",
@@ -119,16 +234,6 @@
       "source": "song:4613",
       "target": "song:4571",
       "type": "DirectlySamples"
-    },
-    {
-      "source": "song:17344",
-      "target": "song:4613",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:4571",
-      "target": "song:11640",
-      "type": "CoverOf"
     }
   ]
 }

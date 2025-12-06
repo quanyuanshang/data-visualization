@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1125",
-      "song_id": 1125,
+      "work_type": "Song",
+      "work_id": 1125,
       "title": "Footprints of Innocence",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 304,
+          "name": "Belinda Knappe",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.873476
+        },
+        {
+          "person_id": 1128,
+          "name": "Sandra Peterson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0507596
+        },
+        {
+          "person_id": 1127,
+          "name": "Herr Ulrich Gieß",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398698
+        }
+      ]
     },
     {
       "id": "song:15911",
-      "song_id": 15911,
+      "work_type": "Song",
+      "work_id": 15911,
       "title": "Midnight in the Dormitory",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -43,6 +76,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2101,
+          "name": "Rebekka Lehmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168043
+        },
+        {
+          "person_id": 15912,
+          "name": "Claus-Dieter Werner-Haering",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988378
+        }
       ]
     }
   ],

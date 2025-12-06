@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5181",
-      "song_id": 5181,
+      "work_type": "Song",
+      "work_id": 5181,
       "title": "Dancing Through Numbered Paths",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,156 @@
       "own": true,
       "artist_id": 5183,
       "artist_name": "Madeleine Wulf",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1079,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8661966
+        },
+        {
+          "person_id": 5186,
+          "name": "Ante Reinhardt-Hande",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6661696
+        },
+        {
+          "person_id": 5187,
+          "name": "Guiying Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.415976
+        },
+        {
+          "person_id": 5182,
+          "name": "Rosalie Hörle",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003673
+        },
+        {
+          "person_id": 5184,
+          "name": "Baptist Gierschner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003673
+        },
+        {
+          "person_id": 5185,
+          "name": "Min Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003673
+        }
+      ]
+    },
+    {
+      "id": "album:6004",
+      "work_type": "Album",
+      "work_id": 6004,
+      "title": "Grace Beyond Measure",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 1074,
+      "artist_name": "Jing Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 1403,
+          "name": "Qiang Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041796
+        },
+        {
+          "person_id": 1404,
+          "name": "Richard Obrien",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041796
+        },
+        {
+          "person_id": 1405,
+          "name": "Wesley Walker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041796
+        },
+        {
+          "person_id": 1406,
+          "name": "Yang Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041796
+        },
+        {
+          "person_id": 6005,
+          "name": "Gang Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4286935
+        }
+      ]
     },
     {
       "id": "song:7955",
-      "song_id": 7955,
+      "work_type": "Song",
+      "work_id": 7955,
       "title": "Robed in Radiance",
       "genre": "Synthwave",
       "notable": true,
@@ -43,12 +182,65 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6889,
+          "name": "Xia Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.439679
+        },
+        {
+          "person_id": 6890,
+          "name": "Nicole Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4395657
+        },
+        {
+          "person_id": 6891,
+          "name": "Xia Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4387205
+        },
+        {
+          "person_id": 7956,
+          "name": "Jie Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0479836
+        },
+        {
+          "person_id": 7957,
+          "name": "Xia Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.03477
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:7955",
+      "target": "song:5181",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:6004",
       "target": "song:5181",
       "type": "InStyleOf"
     }

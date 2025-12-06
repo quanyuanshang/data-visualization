@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8634",
-      "song_id": 8634,
+      "work_type": "Song",
+      "work_id": 8634,
       "title": "Ancestral Whispers",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7731,
+          "name": "Astrid Gomes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0558999
+        },
+        {
+          "person_id": 8010,
+          "name": "Guy Martel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044573
+        }
+      ]
     },
     {
       "id": "song:17153",
-      "song_id": 17153,
+      "work_type": "Song",
+      "work_id": 17153,
       "title": "The Final Broadcast",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +65,17 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17146,
+          "name": "Julia Carter",
+          "stage_name": "Jude Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1046424
+        }
       ]
     }
   ],

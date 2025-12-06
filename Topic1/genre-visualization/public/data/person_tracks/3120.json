@@ -1,0 +1,154 @@
+{
+  "person_id": 3120,
+  "name": "Gang Qian",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:3118",
+      "work_type": "Album",
+      "work_id": 3118,
+      "title": "The Ridges of Blood",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 3120,
+      "artist_name": "Gang Qian",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 891,
+          "name": "Jie Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9367123
+        },
+        {
+          "person_id": 3122,
+          "name": "Jing Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7180305
+        },
+        {
+          "person_id": 3119,
+          "name": "Yong Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979142
+        },
+        {
+          "person_id": 3121,
+          "name": "Yong Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979142
+        }
+      ]
+    },
+    {
+      "id": "song:15369",
+      "work_type": "Song",
+      "work_id": 15369,
+      "title": "Cosmic Cartography",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1304,
+      "artist_name": "Rüdiger Graf",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1304,
+          "name": "Rüdiger Graf",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5105996
+        },
+        {
+          "person_id": 12510,
+          "name": "Min Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4402542
+        },
+        {
+          "person_id": 15224,
+          "name": "Juan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4282305
+        },
+        {
+          "person_id": 15225,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051812
+        },
+        {
+          "person_id": 15370,
+          "name": "Paige Mitchell",
+          "stage_name": "DRIP$ETTA",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3988938
+        },
+        {
+          "person_id": 15371,
+          "name": "Yong Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988938
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:15369",
+      "target": "album:3118",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7281",
-      "song_id": 7281,
+      "work_type": "Song",
+      "work_id": 7281,
       "title": "When Shadows Consume Me",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,58 @@
       "own": true,
       "artist_id": 7284,
       "artist_name": "Ela Dara",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7283,
+          "name": "Manikya Badal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953235
+        },
+        {
+          "person_id": 7282,
+          "name": "Zeeshan Kuruvilla",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953028
+        },
+        {
+          "person_id": 7285,
+          "name": "Daniel Harrington",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3953028
+        }
+      ]
+    },
+    {
+      "id": "album:8348",
+      "work_type": "Album",
+      "work_id": 8348,
+      "title": "Painted Solitude",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 8350,
+      "artist_name": "Lina Rensi",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +74,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8350,
+          "name": "Lina Rensi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988378
+        },
+        {
+          "person_id": 8349,
+          "name": "Rosa Flaiano",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398827
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8348",
+      "target": "song:7281",
+      "type": "InStyleOf"
+    }
+  ]
 }

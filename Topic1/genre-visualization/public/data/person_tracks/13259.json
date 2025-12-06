@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13258",
-      "song_id": 13258,
+      "work_type": "Song",
+      "work_id": 13258,
       "title": "Spontaneous Sonata",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1341,
+          "name": "Jessica Stewart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4388418
+        }
+      ]
     },
     {
       "id": "song:12031",
-      "song_id": 12031,
+      "work_type": "Song",
+      "work_id": 12031,
       "title": "Midnight Wings Over Bavarian Towers",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +57,37 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1341,
+          "name": "Jessica Stewart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4388418
+        },
+        {
+          "person_id": 12032,
+          "name": "Kayla Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396362
+        },
+        {
+          "person_id": 12033,
+          "name": "Thomas Mccoy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396362
+        }
       ]
     }
   ],

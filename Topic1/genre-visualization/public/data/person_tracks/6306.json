@@ -1,0 +1,176 @@
+{
+  "person_id": 6306,
+  "name": "Katie Oliver",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:6301",
+      "work_type": "Album",
+      "work_id": 6301,
+      "title": "The Weight of Understanding",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 6306,
+      "artist_name": "Katie Oliver",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6302,
+          "name": "Thérèse Guillou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397008
+        },
+        {
+          "person_id": 6303,
+          "name": "Stefanie Sullivan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397008
+        },
+        {
+          "person_id": 6304,
+          "name": "Alexandra Moreno",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397008
+        },
+        {
+          "person_id": 6305,
+          "name": "Yves Aubry",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397008
+        }
+      ]
+    },
+    {
+      "id": "song:391",
+      "work_type": "Song",
+      "work_id": 391,
+      "title": "Espresso Farewell",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 392,
+      "artist_name": "Jing Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 392,
+          "name": "Jing Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979704
+        },
+        {
+          "person_id": 394,
+          "name": "Min Jin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979704
+        },
+        {
+          "person_id": 393,
+          "name": "Xia Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3979497
+        }
+      ]
+    },
+    {
+      "id": "album:11175",
+      "work_type": "Album",
+      "work_id": 11175,
+      "title": "Unseen Playbook",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 11176,
+      "artist_name": "Juan Antonio Ferrando-Chico",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11177,
+          "name": "Moisés del Tirado",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3839889
+        },
+        {
+          "person_id": 11176,
+          "name": "Juan Antonio Ferrando-Chico",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.2636693
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:391",
+      "target": "album:6301",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:11175",
+      "target": "album:6301",
+      "type": "CoverOf"
+    }
+  ]
+}

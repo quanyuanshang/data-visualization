@@ -1,0 +1,223 @@
+{
+  "person_id": 3469,
+  "name": "Juan Qiu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:3467",
+      "work_type": "Album",
+      "work_id": 3467,
+      "title": "Breathless Longing",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 3469,
+      "artist_name": "Juan Qiu",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3478,
+          "name": "Tao Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448244
+        },
+        {
+          "person_id": 3474,
+          "name": "Fang Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0350137
+        },
+        {
+          "person_id": 3468,
+          "name": "Qiang Feng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        },
+        {
+          "person_id": 3470,
+          "name": "Yang Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        },
+        {
+          "person_id": 3471,
+          "name": "Li Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        },
+        {
+          "person_id": 3472,
+          "name": "Lei Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        },
+        {
+          "person_id": 3473,
+          "name": "Ming Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        },
+        {
+          "person_id": 3475,
+          "name": "Juan Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        },
+        {
+          "person_id": 3476,
+          "name": "Yong Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        },
+        {
+          "person_id": 3477,
+          "name": "Qiang Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973908
+        }
+      ]
+    },
+    {
+      "id": "song:5559",
+      "work_type": "Song",
+      "work_id": 5559,
+      "title": "Infused Intentions",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 5562,
+      "artist_name": "Mitchell Mcdonald",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5560,
+          "name": "Bruce Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5561,
+          "name": "Donna Ellison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968368
+        },
+        {
+          "person_id": 5562,
+          "name": "Mitchell Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968368
+        }
+      ]
+    },
+    {
+      "id": "song:7278",
+      "work_type": "Song",
+      "work_id": 7278,
+      "title": "Requiem for a Fading Self",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 7279,
+      "artist_name": "Keith Larsen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7278",
+      "target": "album:3467",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:5559",
+      "target": "album:3467",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

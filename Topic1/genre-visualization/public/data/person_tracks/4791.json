@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:4789",
-      "song_id": 4789,
-      "title": "Dance Floor Revolution",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2019,
-      "single": true,
-      "own": true,
-      "artist_id": 4791,
-      "artist_name": "Diana Elliott",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8352",
-      "song_id": 8352,
+      "work_type": "Song",
+      "work_id": 8352,
       "title": "Echoes of an Inner Landscape",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -41,11 +22,111 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4790,
+          "name": "Mary Barnes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0315528
+        },
+        {
+          "person_id": 4793,
+          "name": "Noah Frazier Jr.",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0230455
+        },
+        {
+          "person_id": 4792,
+          "name": "Bruce Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0186248
+        },
+        {
+          "person_id": 8353,
+          "name": "Donna Ryan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4013705
+        },
+        {
+          "person_id": 8354,
+          "name": "Zachary Ellis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4013705
+        }
+      ]
+    },
+    {
+      "id": "song:4789",
+      "work_type": "Song",
+      "work_id": 4789,
+      "title": "Dance Floor Revolution",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2019,
+      "single": true,
+      "own": true,
+      "artist_id": 4791,
+      "artist_name": "Diana Elliott",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4790,
+          "name": "Mary Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0315528
+        },
+        {
+          "person_id": 4793,
+          "name": "Noah Frazier Jr.",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0230455
+        },
+        {
+          "person_id": 4792,
+          "name": "Bruce Long",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0186248
+        }
+      ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -63,6 +144,53 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     }
   ],

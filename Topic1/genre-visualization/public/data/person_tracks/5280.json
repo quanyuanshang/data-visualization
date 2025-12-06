@@ -4,8 +4,41 @@
   "stage_name": "Horizon",
   "nodes": [
     {
+      "id": "album:16372",
+      "work_type": "Album",
+      "work_id": 16372,
+      "title": "Boundless Blue Symphony",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1989,
+      "single": false,
+      "own": true,
+      "artist_id": 5280,
+      "artist_name": "Cameron Faulkner (Horizon)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        }
+      ]
+    },
+    {
       "id": "song:5279",
-      "song_id": 5279,
+      "work_type": "Song",
+      "work_id": 5279,
       "title": "Silent Walls",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +47,163 @@
       "own": true,
       "artist_id": 5280,
       "artist_name": "Cameron Faulkner (Horizon)",
-      "influence": 4,
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 5281,
+          "name": "Ismet Heser",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.118744
+        }
+      ]
+    },
+    {
+      "id": "album:3115",
+      "work_type": "Album",
+      "work_id": 3115,
+      "title": "Trenches of Sorrow",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2008,
+      "single": false,
+      "own": false,
+      "artist_id": 2070,
+      "artist_name": "Jay Walters",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 2
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 3116,
+          "name": "Corey Stephens",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993351
+        },
+        {
+          "person_id": 3117,
+          "name": "Christina Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993351
+        }
+      ]
+    },
+    {
+      "id": "album:8115",
+      "work_type": "Album",
+      "work_id": 8115,
+      "title": "Switchboard Serenade",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1999,
+      "single": false,
+      "own": false,
+      "artist_id": 8116,
+      "artist_name": "Samar Sarma",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 425,
+          "name": "Hazel Kara",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9262712
+        },
+        {
+          "person_id": 4251,
+          "name": "Justin Thomas",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0436146
+        },
+        {
+          "person_id": 8116,
+          "name": "Samar Sarma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        },
+        {
+          "person_id": 8117,
+          "name": "Chao Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955903
+        }
+      ]
     },
     {
       "id": "song:8708",
-      "song_id": 8708,
+      "work_type": "Song",
+      "work_id": 8708,
       "title": "Canvas Whispers",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -43,11 +221,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        }
       ]
     },
     {
       "id": "song:13984",
-      "song_id": 13984,
+      "work_type": "Song",
+      "work_id": 13984,
       "title": "Whispers of a Poet's Ink",
       "genre": "Indie Pop",
       "notable": true,
@@ -65,14 +264,53 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.450733
+        },
+        {
+          "person_id": 5281,
+          "name": "Ismet Heser",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.118744
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:3115",
+      "target": "album:16372",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:13984",
       "target": "song:5279",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:8115",
+      "target": "song:5279",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:8708",

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7882",
-      "song_id": 7882,
-      "title": "Heartbeats in Slow Motion",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2018,
-      "single": true,
-      "own": true,
-      "artist_id": 7883,
-      "artist_name": "Rati Deo",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13519",
-      "song_id": 13519,
+      "work_type": "Song",
+      "work_id": 13519,
       "title": "Commitment's Embrace",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +22,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13520,
+          "name": "Kimaya Aggarwal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4006279
+        }
+      ]
     },
     {
       "id": "song:15970",
-      "song_id": 15970,
+      "work_type": "Song",
+      "work_id": 15970,
       "title": "Loud and Proud",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -61,11 +54,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7884,
+          "name": "Zeeshan Dora",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.042168
+        }
+      ]
+    },
+    {
+      "id": "song:7882",
+      "work_type": "Song",
+      "work_id": 7882,
+      "title": "Heartbeats in Slow Motion",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": true,
+      "artist_id": 7883,
+      "artist_name": "Rati Deo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7884,
+          "name": "Zeeshan Dora",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042168
+        }
+      ]
     },
     {
       "id": "song:16720",
-      "song_id": 16720,
+      "work_type": "Song",
+      "work_id": 16720,
       "title": "Silent Movements Unresolved",
       "genre": "Blues Rock",
       "notable": true,
@@ -83,6 +121,80 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16721,
+          "name": "Andrea Hamilton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975613
+        },
+        {
+          "person_id": 16722,
+          "name": "Sandra Hunter",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975613
+        },
+        {
+          "person_id": 16723,
+          "name": "Alexis Griffith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975613
+        }
+      ]
+    },
+    {
+      "id": "song:7882",
+      "work_type": "Song",
+      "work_id": 7882,
+      "title": "Heartbeats in Slow Motion",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 7884,
+      "artist_name": "Zeeshan Dora",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7883,
+          "name": "Rati Deo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4376454
+        },
+        {
+          "person_id": 7884,
+          "name": "Zeeshan Dora",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042168
+        }
       ]
     }
   ],

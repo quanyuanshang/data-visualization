@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10596",
-      "song_id": 10596,
+      "work_type": "Song",
+      "work_id": 10596,
       "title": "Roots Between Worlds",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 10597,
       "artist_name": "William Hansen",
-      "influence": 27,
+      "influence": 34,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
         "reference": 6,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10598,
+          "name": "Mark Martin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39484
+        },
+        {
+          "person_id": 10599,
+          "name": "Shawn Koch",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.393824
+        }
+      ]
     },
     {
       "id": "song:2099",
-      "song_id": 2099,
+      "work_type": "Song",
+      "work_id": 2099,
       "title": "Stone Cold Truth",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +66,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 2101,
+          "name": "Rebekka Lehmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168043
+        },
+        {
+          "person_id": 2100,
+          "name": "Traude Salz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992593
+        }
       ]
     },
     {
       "id": "song:6190",
-      "song_id": 6190,
+      "work_type": "Song",
+      "work_id": 6190,
       "title": "Borderline Currents",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +119,140 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2482,
+          "name": "Min Tan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0262227
+        },
+        {
+          "person_id": 2483,
+          "name": "Lei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0143523
+        },
+        {
+          "person_id": 2484,
+          "name": "Gang Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0143523
+        }
+      ]
+    },
+    {
+      "id": "album:6435",
+      "work_type": "Album",
+      "work_id": 6435,
+      "title": "Triumph's Embrace",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 6437,
+      "artist_name": "Na Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2603,
+          "name": "Gang Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4197462
+        },
+        {
+          "person_id": 6436,
+          "name": "Xiuying Ma",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6437,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6440,
+          "name": "Chao Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6441,
+          "name": "Li Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6442,
+          "name": "Lei Du",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.04741
+        },
+        {
+          "person_id": 6438,
+          "name": "Jun Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933666
+        },
+        {
+          "person_id": 6439,
+          "name": "Christine Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933666
+        }
       ]
     },
     {
       "id": "song:8877",
-      "song_id": 8877,
+      "work_type": "Song",
+      "work_id": 8877,
       "title": "Falling (In Love) with the Season",
       "genre": "Indie Folk",
       "notable": true,
@@ -87,11 +270,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 8878,
+          "name": "Lawrence Guzman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4006612
+        },
+        {
+          "person_id": 8879,
+          "name": "Yang Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4006405
+        }
       ]
     },
     {
       "id": "song:8881",
-      "song_id": 8881,
+      "work_type": "Song",
+      "work_id": 8881,
       "title": "Shylock's Shadows",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -109,11 +332,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8883,
+          "name": "Jun Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0413322
+        },
+        {
+          "person_id": 8884,
+          "name": "Chao Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0413322
+        },
+        {
+          "person_id": 8882,
+          "name": "Xiuying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396686
+        },
+        {
+          "person_id": 8885,
+          "name": "Karen Robinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396686
+        }
       ]
     },
     {
       "id": "song:9204",
-      "song_id": 9204,
+      "work_type": "Song",
+      "work_id": 9204,
       "title": "Spin Cycle Serenade",
       "genre": "Desert Rock",
       "notable": true,
@@ -131,11 +393,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 566,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.914547
+        },
+        {
+          "person_id": 567,
+          "name": "Juan Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.442312
+        },
+        {
+          "person_id": 564,
+          "name": "Yan Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.431904
+        },
+        {
+          "person_id": 565,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4247894
+        }
       ]
     },
     {
       "id": "song:9672",
-      "song_id": 9672,
+      "work_type": "Song",
+      "work_id": 9672,
       "title": "My First Teacher, My Mother",
       "genre": "Indie Folk",
       "notable": true,
@@ -153,11 +455,61 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4465,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1116056
+        },
+        {
+          "person_id": 9673,
+          "name": "Min Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398559
+        },
+        {
+          "person_id": 9674,
+          "name": "Li Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398559
+        },
+        {
+          "person_id": 9675,
+          "name": "Xia Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398559
+        },
+        {
+          "person_id": 9676,
+          "name": "Timothy Hall",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398559
+        }
       ]
     },
     {
       "id": "song:9788",
-      "song_id": 9788,
+      "work_type": "Song",
+      "work_id": 9788,
       "title": "Illusion Parade",
       "genre": "Synthwave",
       "notable": true,
@@ -175,11 +527,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9789,
+          "name": "Pierre David",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984792
+        },
+        {
+          "person_id": 9791,
+          "name": "Charlotte Marchand",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984792
+        },
+        {
+          "person_id": 9790,
+          "name": "Philippine du Pottier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984585
+        }
       ]
     },
     {
       "id": "song:14129",
-      "song_id": 14129,
+      "work_type": "Song",
+      "work_id": 14129,
       "title": "Quill and Ink",
       "genre": "Desert Rock",
       "notable": true,
@@ -197,11 +581,70 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8500,
+          "name": "Li Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4431477
+        },
+        {
+          "person_id": 8322,
+          "name": "Ming Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.353279
+        },
+        {
+          "person_id": 14131,
+          "name": "Dustin Newman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0484734
+        },
+        {
+          "person_id": 14133,
+          "name": "Jun Han",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0468256
+        },
+        {
+          "person_id": 14130,
+          "name": "Jing Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397235
+        },
+        {
+          "person_id": 14132,
+          "name": "Qiang Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397235
+        }
       ]
     },
     {
       "id": "song:15210",
-      "song_id": 15210,
+      "work_type": "Song",
+      "work_id": 15210,
       "title": "Escape Route",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -219,19 +662,132 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 7134,
+          "name": "Tao Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.040878
+        },
+        {
+          "person_id": 7136,
+          "name": "Wei Liu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0408216
+        },
+        {
+          "person_id": 15211,
+          "name": "Yong Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997643
+        }
+      ]
+    },
+    {
+      "id": "album:15760",
+      "work_type": "Album",
+      "work_id": 15760,
+      "title": "Existential Riddle",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 8319,
+      "artist_name": "Fang Tian",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8500,
+          "name": "Li Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4431477
+        },
+        {
+          "person_id": 8322,
+          "name": "Ming Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.353279
+        },
+        {
+          "person_id": 8319,
+          "name": "Fang Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510306
+        },
+        {
+          "person_id": 14131,
+          "name": "Dustin Newman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484734
+        },
+        {
+          "person_id": 14133,
+          "name": "Jun Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468256
+        },
+        {
+          "person_id": 15761,
+          "name": "Wei Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397342
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8877",
+      "source": "song:2099",
       "target": "song:10596",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:9672",
-      "target": "song:10596",
-      "type": "CoverOf"
     },
     {
       "source": "song:9204",
@@ -244,17 +800,22 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:6190",
+      "source": "album:15760",
       "target": "song:10596",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8877",
+      "target": "song:10596",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9672",
+      "target": "song:10596",
+      "type": "CoverOf"
     },
     {
       "source": "song:14129",
-      "target": "song:10596",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:9788",
       "target": "song:10596",
       "type": "InterpolatesFrom"
     },
@@ -264,9 +825,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:2099",
+      "source": "album:6435",
       "target": "song:10596",
-      "type": "LyricalReferenceTo"
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9788",
+      "target": "song:10596",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6190",
+      "target": "song:10596",
+      "type": "InterpolatesFrom"
     }
   ]
 }

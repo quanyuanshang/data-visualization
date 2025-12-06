@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15318",
-      "song_id": 15318,
+      "work_type": "Song",
+      "work_id": 15318,
       "title": "Inherited Freedom",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,61 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 897,
+          "name": "Brian Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1091757
+        },
+        {
+          "person_id": 959,
+          "name": "Qiang Fang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.106955
+        },
+        {
+          "person_id": 15320,
+          "name": "Scott Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972542
+        },
+        {
+          "person_id": 15321,
+          "name": "Danny Fitzgerald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972542
+        },
+        {
+          "person_id": 15322,
+          "name": "Mary Jacobs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972542
+        }
+      ]
     },
     {
       "id": "song:3228",
-      "song_id": 3228,
+      "work_type": "Song",
+      "work_id": 3228,
       "title": "Adriatic Hearts",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +94,61 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3233,
+          "name": "Gang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.930688
+        },
+        {
+          "person_id": 3230,
+          "name": "Juan Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7052958
+        },
+        {
+          "person_id": 3232,
+          "name": "Chao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484867
+        },
+        {
+          "person_id": 3231,
+          "name": "Ming Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9928157
+        },
+        {
+          "person_id": 3229,
+          "name": "Yong Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3940706
+        }
       ]
     },
     {
       "id": "song:6979",
-      "song_id": 6979,
+      "work_type": "Song",
+      "work_id": 6979,
       "title": "Wilting Love's Garden",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,11 +166,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2383,
+          "name": "Xavier Leclerc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9075449
+        },
+        {
+          "person_id": 6980,
+          "name": "Guiying Shao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3975356
+        },
+        {
+          "person_id": 6981,
+          "name": "Xia Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975356
+        },
+        {
+          "person_id": 6982,
+          "name": "Xia Long",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975356
+        }
       ]
     },
     {
       "id": "song:10008",
-      "song_id": 10008,
+      "work_type": "Song",
+      "work_id": 10008,
       "title": "The Vengeful Slumber",
       "genre": "Americana",
       "notable": true,
@@ -87,10 +228,54 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4633,
+          "name": "Juan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1070886
+        },
+        {
+          "person_id": 3233,
+          "name": "Gang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.930688
+        },
+        {
+          "person_id": 3230,
+          "name": "Juan Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7052958
+        },
+        {
+          "person_id": 10009,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3945763
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:10008",
+      "target": "song:15318",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:6979",
       "target": "song:15318",
@@ -100,11 +285,6 @@
       "source": "song:3228",
       "target": "song:15318",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:10008",
-      "target": "song:15318",
-      "type": "InterpolatesFrom"
     }
   ]
 }

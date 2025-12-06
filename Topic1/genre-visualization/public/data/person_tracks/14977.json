@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14976",
-      "song_id": 14976,
+      "work_type": "Song",
+      "work_id": 14976,
       "title": "Fool's Parade",
       "genre": "Speed Metal",
       "notable": true,
@@ -14,18 +15,155 @@
       "own": true,
       "artist_id": 14977,
       "artist_name": "Christopher Hernandez",
-      "influence": 14,
+      "influence": 24,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
-        "reference": 1,
+        "sample": 1,
+        "reference": 3,
         "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14978,
+          "name": "Michelle Ellis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.409406
+        }
+      ]
+    },
+    {
+      "id": "album:1880",
+      "work_type": "Album",
+      "work_id": 1880,
+      "title": "Escape Velocity",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 1881,
+      "artist_name": "Hridaan Kaur",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1882,
+          "name": "Rohan Shanker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4032745
+        },
+        {
+          "person_id": 1881,
+          "name": "Hridaan Kaur",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3744578
+        }
+      ]
+    },
+    {
+      "id": "album:6507",
+      "work_type": "Album",
+      "work_id": 6507,
+      "title": "Silk Street Swing",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4131,
+      "artist_name": "Kelsey Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 6508,
+          "name": "Alejandro Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985946
+        },
+        {
+          "person_id": 6509,
+          "name": "Eric Wallace",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985946
+        },
+        {
+          "person_id": 6510,
+          "name": "Charles Paul",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985946
+        },
+        {
+          "person_id": 6511,
+          "name": "Justin Allen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985946
+        }
+      ]
     },
     {
       "id": "song:8225",
-      "song_id": 8225,
+      "work_type": "Song",
+      "work_id": 8225,
       "title": "Windswept Borderlands",
       "genre": "Speed Metal",
       "notable": true,
@@ -43,11 +181,70 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 8226,
+          "name": "Edward Parker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        },
+        {
+          "person_id": 8227,
+          "name": "Christopher Pham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        },
+        {
+          "person_id": 8228,
+          "name": "John Bates",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        },
+        {
+          "person_id": 8229,
+          "name": "Emily Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        }
       ]
     },
     {
       "id": "song:9239",
-      "song_id": 9239,
+      "work_type": "Song",
+      "work_id": 9239,
       "title": "Horizon's Aftermath",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,11 +262,95 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 4871,
+          "name": "Sharon Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9787533
+        }
+      ]
+    },
+    {
+      "id": "album:9719",
+      "work_type": "Album",
+      "work_id": 9719,
+      "title": "Soldiers' Requiem",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4131,
+      "artist_name": "Kelsey Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 9721,
+          "name": "Hector Davis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.033686
+        },
+        {
+          "person_id": 9720,
+          "name": "Brianna Hopkins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982234
+        },
+        {
+          "person_id": 9722,
+          "name": "Amy Alexander",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982234
+        }
       ]
     },
     {
       "id": "song:14239",
-      "song_id": 14239,
+      "work_type": "Song",
+      "work_id": 14239,
       "title": "Threads of Persistence",
       "genre": "Speed Metal",
       "notable": true,
@@ -87,11 +368,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1882,
+          "name": "Rohan Shanker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4032745
+        },
+        {
+          "person_id": 1881,
+          "name": "Hridaan Kaur",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3744578
+        }
       ]
     },
     {
       "id": "song:15532",
-      "song_id": 15532,
+      "work_type": "Song",
+      "work_id": 15532,
       "title": "Evening's Delicate Petal",
       "genre": "Speed Metal",
       "notable": true,
@@ -109,11 +412,70 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 9721,
+          "name": "Hector Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.033686
+        },
+        {
+          "person_id": 15533,
+          "name": "Anthony Adams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988936
+        },
+        {
+          "person_id": 15534,
+          "name": "Daniel Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988936
+        },
+        {
+          "person_id": 15535,
+          "name": "Hector Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988936
+        }
       ]
     },
     {
       "id": "song:16335",
-      "song_id": 16335,
+      "work_type": "Song",
+      "work_id": 16335,
       "title": "Divine Permutations",
       "genre": "Speed Metal",
       "notable": true,
@@ -131,17 +493,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1882,
+          "name": "Rohan Shanker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4032745
+        },
+        {
+          "person_id": 1881,
+          "name": "Hridaan Kaur",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3744578
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:9239",
+      "target": "song:14976",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:14239",
       "target": "song:14976",
       "type": "InStyleOf"
     },
     {
+      "source": "song:8225",
+      "target": "song:14976",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:15532",
+      "target": "song:14976",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:9719",
       "target": "song:14976",
       "type": "InterpolatesFrom"
     },
@@ -151,14 +548,14 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:9239",
+      "source": "album:1880",
       "target": "song:14976",
-      "type": "InStyleOf"
+      "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:8225",
+      "source": "album:6507",
       "target": "song:14976",
-      "type": "CoverOf"
+      "type": "DirectlySamples"
     }
   ]
 }

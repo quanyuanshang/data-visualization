@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11174",
-      "song_id": 11174,
+      "work_type": "Song",
+      "work_id": 11174,
       "title": "Bench Whispers",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,7 +22,49 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:2009",
+      "work_type": "Album",
+      "work_id": 2009,
+      "title": "The Wisdom of Weathered Seasons",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 2012,
+      "artist_name": "Jing Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2010,
+          "name": "Yong Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984401
+        },
+        {
+          "person_id": 2011,
+          "name": "Xiulan Fu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984194
+        }
+      ]
     }
   ],
   "links": []

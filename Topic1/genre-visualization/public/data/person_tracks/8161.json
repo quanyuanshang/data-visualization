@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8159",
-      "song_id": 8159,
+      "work_type": "Song",
+      "work_id": 8159,
       "title": "Echoes of the Dark",
       "genre": "Americana",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8160,
+          "name": "Fang Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982613
+        },
+        {
+          "person_id": 8162,
+          "name": "Tao Wei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982613
+        }
+      ]
     },
     {
       "id": "song:2567",
-      "song_id": 2567,
+      "work_type": "Song",
+      "work_id": 2567,
       "title": "Ballad of the Noble Wanderer",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,6 +66,45 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2568,
+          "name": "Ping Cai",
+          "stage_name": " Tessa Blake",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2569,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2570,
+          "name": "Yong Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3914247
+        },
+        {
+          "person_id": 2571,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3914247
+        }
       ]
     }
   ],

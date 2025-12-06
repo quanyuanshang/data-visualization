@@ -4,8 +4,31 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:3339",
+      "work_type": "Album",
+      "work_id": 3339,
+      "title": "Last Breath Protocol",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 3340,
+      "artist_name": "Marianna Polaszek",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
       "id": "song:15656",
-      "song_id": 15656,
+      "work_type": "Song",
+      "work_id": 15656,
       "title": "Secrets Spilled at Midnight",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +37,38 @@
       "own": true,
       "artist_id": 3340,
       "artist_name": "Marianna Polaszek",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15657,
+          "name": "Anna Maria Michel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4008303
+        }
+      ]
+    },
+    {
+      "id": "album:17140",
+      "work_type": "Album",
+      "work_id": 17140,
+      "title": "Symphony for the Lost",
+      "genre": "Symphonic Metal",
+      "notable": false,
+      "release_year": 2032,
+      "single": false,
+      "own": false,
+      "artist_id": 17138,
+      "artist_name": "Iron Cathedral（成员：Benjamin Clark (Ben Ryder)｜预测 3.20、Sophia Brooks (Kaelan Frost)｜预测 3.21…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +76,50 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17136,
+          "name": "Sophia Brooks",
+          "stage_name": "Kaelan Frost",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2149103
+        },
+        {
+          "person_id": 17137,
+          "name": "Maximus Grey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2100575
+        },
+        {
+          "person_id": 17135,
+          "name": "Benjamin Clark",
+          "stage_name": "Ben Ryder",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.2029715
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:17140",
+      "target": "album:3339",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:3339",
+      "target": "song:15656",
+      "type": "CoverOf"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3531",
-      "song_id": 3531,
+      "work_type": "Song",
+      "work_id": 3531,
       "title": "Fence Line Whispers",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,138 @@
       "own": true,
       "artist_id": 3534,
       "artist_name": "Jody Lopez",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1449,
+          "name": "Amanda Blake",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.419296
+        },
+        {
+          "person_id": 3535,
+          "name": "Reginald Wallace",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0493107
+        },
+        {
+          "person_id": 3532,
+          "name": "Alexandria Spencer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023876
+        },
+        {
+          "person_id": 3533,
+          "name": "William Stone",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4023876
+        }
+      ]
+    },
+    {
+      "id": "album:3879",
+      "work_type": "Album",
+      "work_id": 3879,
+      "title": "Palabras del Corazón",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 594,
+      "artist_name": "Na Fan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 594,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.100683
+        },
+        {
+          "person_id": 2426,
+          "name": "Guiying Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.449281
+        },
+        {
+          "person_id": 1433,
+          "name": "Justin King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.446718
+        },
+        {
+          "person_id": 2427,
+          "name": "Juan Kong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.037461
+        },
+        {
+          "person_id": 3880,
+          "name": "Gang Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947048
+        }
+      ]
     },
     {
       "id": "song:16323",
-      "song_id": 16323,
+      "work_type": "Song",
+      "work_id": 16323,
       "title": "Sacrifice My Heart",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +164,71 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9375,
+          "name": "Biju Swamy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0484865
+        },
+        {
+          "person_id": 9373,
+          "name": "Shaan Jaggi",
+          "stage_name": " Mila Dawn",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0458088
+        },
+        {
+          "person_id": 9376,
+          "name": "Elakshi Venkataraman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0447204
+        },
+        {
+          "person_id": 9374,
+          "name": "Keya Kota",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0445564
+        },
+        {
+          "person_id": 16325,
+          "name": "Alberto Durante-Depero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990214
+        },
+        {
+          "person_id": 16324,
+          "name": "Farhan Bava",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988516
+        },
+        {
+          "person_id": 16326,
+          "name": "Eva Morosini-Procacci",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988516
+        }
       ]
     }
   ],
@@ -51,6 +237,11 @@
       "source": "song:16323",
       "target": "song:3531",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:3879",
+      "target": "song:3531",
+      "type": "InStyleOf"
     }
   ]
 }

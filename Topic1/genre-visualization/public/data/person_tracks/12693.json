@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12692",
-      "song_id": 12692,
+      "work_type": "Song",
+      "work_id": 12692,
       "title": "Steel and Green: A Biscayan Tale",
       "genre": "Speed Metal",
       "notable": false,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:11826",
-      "song_id": 11826,
+      "work_type": "Song",
+      "work_id": 11826,
       "title": "Whispers of Ink and Memory",
       "genre": "Speed Metal",
       "notable": true,
@@ -43,6 +46,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11827,
+          "name": "David Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983514
+        },
+        {
+          "person_id": 11828,
+          "name": "Jeff Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980083
+        }
       ]
     }
   ],

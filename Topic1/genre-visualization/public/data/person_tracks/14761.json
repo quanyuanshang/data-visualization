@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14760",
-      "song_id": 14760,
+      "work_type": "Song",
+      "work_id": 14760,
       "title": "Nymph's Embrace",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 14761,
       "artist_name": "Kendra Spears",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2834263
+        }
+      ]
+    },
+    {
+      "id": "album:16295",
+      "work_type": "Album",
+      "work_id": 16295,
+      "title": "Rent-A-Tear",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 6686,
+      "artist_name": "Tracey Jordan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,28 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6686,
+          "name": "Tracey Jordan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4283667
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:16295",
+      "target": "song:14760",
+      "type": "InStyleOf"
+    }
+  ]
 }

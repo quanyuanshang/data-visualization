@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7488",
-      "song_id": 7488,
+      "work_type": "Song",
+      "work_id": 7488,
       "title": "Cellular Goodbye",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 7491,
       "artist_name": "Franco Angeli",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7490,
+          "name": "Domenico Gasperi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4292352
+        },
+        {
+          "person_id": 7489,
+          "name": "Torquato Fantini",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0323143
+        }
+      ]
     },
     {
       "id": "song:15735",
-      "song_id": 15735,
+      "work_type": "Song",
+      "work_id": 15735,
       "title": "Stolen Glances, Spinning Hearts",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +63,42 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7490,
+          "name": "Domenico Gasperi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4292352
+        },
+        {
+          "person_id": 15736,
+          "name": "Nadia Mazzanti",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992298
+        },
+        {
+          "person_id": 15737,
+          "name": "Gioffre Garobbio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992298
+        }
+      ]
     },
     {
       "id": "song:13112",
-      "song_id": 13112,
+      "work_type": "Song",
+      "work_id": 13112,
       "title": "Paris Nights and Banana Skirts",
       "genre": "Synthwave",
       "notable": true,
@@ -63,11 +116,111 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3589,
+          "name": "Laetitia Bertrand-Becker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.264468
+        },
+        {
+          "person_id": 13113,
+          "name": "Clara Weitzel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975139
+        },
+        {
+          "person_id": 13114,
+          "name": "Gianfrancesco Merisi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975139
+        },
+        {
+          "person_id": 13116,
+          "name": "Bryan Laffray-Recers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975139
+        },
+        {
+          "person_id": 13115,
+          "name": "Mercedes Salata",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974931
+        }
+      ]
+    },
+    {
+      "id": "album:17244",
+      "work_type": "Album",
+      "work_id": 17244,
+      "title": "Harbor Lights",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 17243,
+      "artist_name": "Mariner's Refrain（成员：Leo Hamilton｜预测 2.93、Noah Bennett｜预测 2.93…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17241,
+          "name": "Noah Bennett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9343176
+        },
+        {
+          "person_id": 17240,
+          "name": "Leo Hamilton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9308178
+        },
+        {
+          "person_id": 17242,
+          "name": "Ella Parker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.5092478
+        }
       ]
     },
     {
       "id": "song:11371",
-      "song_id": 11371,
+      "work_type": "Song",
+      "work_id": 11371,
       "title": "Spotlight on a Sweetheart",
       "genre": "Space Rock",
       "notable": true,
@@ -85,18 +238,81 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1465,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6118836
+        },
+        {
+          "person_id": 11375,
+          "name": "Jie Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0485618
+        },
+        {
+          "person_id": 11372,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966985
+        },
+        {
+          "person_id": 11373,
+          "name": "Wei Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966985
+        },
+        {
+          "person_id": 11374,
+          "name": "Guiying Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966985
+        },
+        {
+          "person_id": 11376,
+          "name": "Na Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966985
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11371",
-      "target": "song:15735",
+      "source": "album:17244",
+      "target": "song:7488",
       "type": "InStyleOf"
     },
     {
       "source": "song:13112",
       "target": "song:7488",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11371",
+      "target": "song:15735",
       "type": "InStyleOf"
     }
   ]

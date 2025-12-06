@@ -4,8 +4,50 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:7563",
+      "work_type": "Album",
+      "work_id": 7563,
+      "title": "Blade of Sorrow's Embrace",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 7565,
+      "artist_name": "Arne Baum",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 7564,
+          "name": "Ryan Cohen",
+          "stage_name": "JUXX 100",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4205143
+        }
+      ]
+    },
+    {
       "id": "song:15406",
-      "song_id": 15406,
+      "work_type": "Song",
+      "work_id": 15406,
       "title": "Ethereal Nuptials",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,8 +63,166 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 7564,
+          "name": "Ryan Cohen",
+          "stage_name": "JUXX 100",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4205143
+        },
+        {
+          "person_id": 15407,
+          "name": "Beverly Pham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39981
+        }
+      ]
+    },
+    {
+      "id": "song:8243",
+      "work_type": "Song",
+      "work_id": 8243,
+      "title": "Memories Packed in Silent Suitcases",
+      "genre": "Doom Metal",
+      "notable": false,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1066,
+      "artist_name": "Franck Hernandez Le Leclerc",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1066,
+          "name": "Franck Hernandez Le Leclerc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9391227
+        },
+        {
+          "person_id": 4438,
+          "name": "William Roux",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4343023
+        },
+        {
+          "person_id": 8244,
+          "name": "Dominique Letellier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3868299
+        }
+      ]
+    },
+    {
+      "id": "song:15406",
+      "work_type": "Song",
+      "work_id": 15406,
+      "title": "Ethereal Nuptials",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 5554,
+      "artist_name": "Gordon Cox",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5554,
+          "name": "Gordon Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136886
+        },
+        {
+          "person_id": 7564,
+          "name": "Ryan Cohen",
+          "stage_name": "JUXX 100",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4205143
+        },
+        {
+          "person_id": 7565,
+          "name": "Arne Baum",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343714
+        },
+        {
+          "person_id": 15407,
+          "name": "Beverly Pham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39981
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:8243",
+      "target": "album:7563",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15406",
+      "target": "album:7563",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

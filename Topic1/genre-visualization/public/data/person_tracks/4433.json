@@ -4,28 +4,9 @@
   "stage_name": " Marble Wolf",
   "nodes": [
     {
-      "id": "song:7826",
-      "song_id": 7826,
-      "title": "Silver Screen Ghosts",
-      "genre": "Speed Metal",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 4433,
-      "artist_name": "Dhanuk Hari ( Marble Wolf)",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:4432",
-      "song_id": 4432,
+      "work_type": "Song",
+      "work_id": 4432,
       "title": "Clementine's Lament",
       "genre": "Speed Metal",
       "notable": true,
@@ -41,11 +22,32 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4435,
+          "name": "Yakshit Toor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0528316
+        }
+      ]
     },
     {
       "id": "song:10434",
-      "song_id": 10434,
+      "work_type": "Song",
+      "work_id": 10434,
       "title": "Whispers Through the Cracks",
       "genre": "Speed Metal",
       "notable": true,
@@ -54,18 +56,178 @@
       "own": true,
       "artist_id": 4433,
       "artist_name": "Dhanuk Hari ( Marble Wolf)",
-      "influence": 10,
+      "influence": 13,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4435,
+          "name": "Yakshit Toor",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0528316
+        }
+      ]
+    },
+    {
+      "id": "album:15270",
+      "work_type": "Album",
+      "work_id": 15270,
+      "title": "Soft Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 4433,
+      "artist_name": "Dhanuk Hari ( Marble Wolf)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 7827,
+          "name": "Ritvik Raman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.051411
+        }
+      ]
+    },
+    {
+      "id": "song:7826",
+      "work_type": "Song",
+      "work_id": 7826,
+      "title": "Silver Screen Ghosts",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 4433,
+      "artist_name": "Dhanuk Hari ( Marble Wolf)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 7827,
+          "name": "Ritvik Raman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051411
+        }
+      ]
+    },
+    {
+      "id": "song:7826",
+      "work_type": "Song",
+      "work_id": 7826,
+      "title": "Silver Screen Ghosts",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 4434,
+      "artist_name": "Hansh Sidhu (Evoque)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf",
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4433,
+          "name": "Dhanuk Hari",
+          "stage_name": " Marble Wolf",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 7827,
+          "name": "Ritvik Raman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051411
+        }
+      ]
     },
     {
       "id": "song:10434",
-      "song_id": 10434,
+      "work_type": "Song",
+      "work_id": 10434,
       "title": "Whispers Through the Cracks",
       "genre": "Speed Metal",
       "notable": true,
@@ -83,11 +245,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4433,
+          "name": "Dhanuk Hari",
+          "stage_name": " Marble Wolf",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4435,
+          "name": "Yakshit Toor",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0528316
+        }
       ]
     },
     {
       "id": "song:7630",
-      "song_id": 7630,
+      "work_type": "Song",
+      "work_id": 7630,
       "title": "The Stinky Chore Shuffle",
       "genre": "Speed Metal",
       "notable": true,
@@ -105,11 +299,24 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7631,
+          "name": "Marianna Polasik",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3427083
+        }
       ]
     },
     {
       "id": "song:11826",
-      "song_id": 11826,
+      "work_type": "Song",
+      "work_id": 11826,
       "title": "Whispers of Ink and Memory",
       "genre": "Speed Metal",
       "notable": true,
@@ -127,11 +334,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11827,
+          "name": "David Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983514
+        },
+        {
+          "person_id": 11828,
+          "name": "Jeff Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980083
+        }
       ]
     },
     {
       "id": "song:12692",
-      "song_id": 12692,
+      "work_type": "Song",
+      "work_id": 12692,
       "title": "Steel and Green: A Biscayan Tale",
       "genre": "Speed Metal",
       "notable": false,
@@ -149,22 +378,89 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12693,
+          "name": "Jennifer Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3859327
+        }
+      ]
+    },
+    {
+      "id": "album:15270",
+      "work_type": "Album",
+      "work_id": 15270,
+      "title": "Soft Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 4433,
+      "artist_name": "Dhanuk Hari ( Marble Wolf)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4433,
+          "name": "Dhanuk Hari",
+          "stage_name": " Marble Wolf",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 4434,
+          "name": "Hansh Sidhu",
+          "stage_name": "Evoque",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.714668
+        },
+        {
+          "person_id": 7827,
+          "name": "Ritvik Raman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.051411
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:7826",
+      "target": "song:4432",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:12692",
       "target": "song:10434",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:10434",
-      "target": "song:4432",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:11826",
+      "source": "album:15270",
       "target": "song:10434",
       "type": "InterpolatesFrom"
     },
@@ -174,7 +470,12 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:7826",
+      "source": "song:11826",
+      "target": "song:10434",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10434",
       "target": "song:4432",
       "type": "InterpolatesFrom"
     },

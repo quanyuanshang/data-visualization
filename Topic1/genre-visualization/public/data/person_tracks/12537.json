@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15473",
-      "song_id": 15473,
-      "title": "Baroque Fragments",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2024,
-      "single": false,
-      "own": true,
-      "artist_id": 12537,
-      "artist_name": "Guiying Yao",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:12535",
-      "song_id": 12535,
+      "work_type": "Song",
+      "work_id": 12535,
       "title": "Whispers from the Fifty States",
       "genre": "Darkwave",
       "notable": true,
@@ -41,11 +22,75 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 12536,
+          "name": "Monica Coleman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973176
+        }
+      ]
+    },
+    {
+      "id": "song:15473",
+      "work_type": "Song",
+      "work_id": 15473,
+      "title": "Baroque Fragments",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 12537,
+      "artist_name": "Guiying Yao",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1650,
+          "name": "Daniel Lyons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6096396
+        },
+        {
+          "person_id": 15474,
+          "name": "Xiuying Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.402802
+        }
+      ]
     },
     {
       "id": "song:14003",
-      "song_id": 14003,
+      "work_type": "Song",
+      "work_id": 14003,
       "title": "Breathe Through This",
       "genre": "Synthwave",
       "notable": true,
@@ -63,6 +108,36 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14004,
+          "name": "Ping He",
+          "stage_name": "KING PROPH",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983095
+        },
+        {
+          "person_id": 14005,
+          "name": "Ming Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983095
+        },
+        {
+          "person_id": 14006,
+          "name": "Li Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3983095
+        }
       ]
     }
   ],

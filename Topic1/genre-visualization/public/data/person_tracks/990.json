@@ -4,8 +4,61 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:988",
+      "work_type": "Album",
+      "work_id": 988,
+      "title": "Between Yes and No",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 990,
+      "artist_name": "Elizabeth Johnson",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 989,
+          "name": "Matthew Moss",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0458527
+        },
+        {
+          "person_id": 991,
+          "name": "Dale Stewart",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39442
+        },
+        {
+          "person_id": 992,
+          "name": "Robert Jennings",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3943992
+        }
+      ]
+    },
+    {
       "id": "song:13620",
-      "song_id": 13620,
+      "work_type": "Song",
+      "work_id": 13620,
       "title": "Sacred Soil of Home",
       "genre": "Space Rock",
       "notable": true,
@@ -21,8 +74,87 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 989,
+          "name": "Matthew Moss",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0458527
+        },
+        {
+          "person_id": 13621,
+          "name": "Stephanie Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985393
+        }
+      ]
+    },
+    {
+      "id": "song:13620",
+      "work_type": "Song",
+      "work_id": 13620,
+      "title": "Sacred Soil of Home",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 990,
+      "artist_name": "Elizabeth Johnson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 990,
+          "name": "Elizabeth Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0476503
+        },
+        {
+          "person_id": 989,
+          "name": "Matthew Moss",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0458527
+        },
+        {
+          "person_id": 13621,
+          "name": "Stephanie Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985393
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:13620",
+      "target": "album:988",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

@@ -4,13 +4,55 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:6743",
-      "song_id": 6743,
-      "title": "Epochs in Motion",
-      "genre": "Dream Pop",
+      "id": "album:13008",
+      "work_type": "Album",
+      "work_id": 13008,
+      "title": "The Puppet's Promise",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 6155,
+      "artist_name": "Joann Johnson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 13009,
+          "name": "Charles Spears",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980162
+        }
+      ]
+    },
+    {
+      "id": "song:6154",
+      "work_type": "Song",
+      "work_id": 6154,
+      "title": "Eclipse of Emotion",
+      "genre": "Desert Rock",
       "notable": true,
       "release_year": 2020,
-      "single": false,
+      "single": true,
       "own": true,
       "artist_id": 6155,
       "artist_name": "Joann Johnson",
@@ -21,55 +63,86 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 4284,
+          "name": "Tarini Hans",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.130689
+        }
+      ]
     },
     {
-      "id": "song:6154",
-      "song_id": 6154,
-      "title": "Eclipse of Emotion",
-      "genre": "Desert Rock",
+      "id": "song:6743",
+      "work_type": "Song",
+      "work_id": 6743,
+      "title": "Epochs in Motion",
+      "genre": "Dream Pop",
       "notable": true,
       "release_year": 2020,
-      "single": true,
+      "single": false,
       "own": true,
       "artist_id": 6155,
       "artist_name": "Joann Johnson",
-      "influence": 0,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:6154",
-      "song_id": 6154,
-      "title": "Eclipse of Emotion",
-      "genre": "Desert Rock",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": false,
-      "artist_id": 4284,
-      "artist_name": "Tarini Hans",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4285,
+          "name": "Navya Sastry",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.615619
+        },
+        {
+          "person_id": 6744,
+          "name": "Wei He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3815506
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:13008",
+      "target": "song:6743",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:6154",
       "target": "song:6743",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:13008",
+      "target": "song:6154",
       "type": "InStyleOf"
     }
   ]

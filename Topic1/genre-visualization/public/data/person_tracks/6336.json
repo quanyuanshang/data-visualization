@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:6333",
-      "song_id": 6333,
-      "title": "Lumières de la Ville",
-      "genre": "Jazz Surf Rock",
-      "notable": true,
-      "release_year": 2012,
-      "single": true,
-      "own": true,
-      "artist_id": 6336,
-      "artist_name": "Fang Hao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6967",
-      "song_id": 6967,
+      "work_type": "Song",
+      "work_id": 6967,
       "title": "Pierrot's Lonely Carnival",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -41,11 +22,84 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 1336,
+          "name": "Yong Lu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4374611
+        }
+      ]
+    },
+    {
+      "id": "song:6333",
+      "work_type": "Song",
+      "work_id": 6333,
+      "title": "Lumières de la Ville",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 6336,
+      "artist_name": "Fang Hao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 6334,
+          "name": "Ming Huang",
+          "stage_name": " Dom Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987806
+        },
+        {
+          "person_id": 6335,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987806
+        }
+      ]
     },
     {
       "id": "song:4738",
-      "song_id": 4738,
+      "work_type": "Song",
+      "work_id": 4738,
       "title": "Scent of Desire",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,11 +117,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4740,
+          "name": "Victoria Higgins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0374432
+        },
+        {
+          "person_id": 4739,
+          "name": "Gang Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980832
+        },
+        {
+          "person_id": 4741,
+          "name": "Guiying Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979135
+        }
       ]
     },
     {
       "id": "song:5216",
-      "song_id": 5216,
+      "work_type": "Song",
+      "work_id": 5216,
       "title": "Twilight's Gypsy Memories",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -85,6 +170,99 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 5217,
+          "name": "Yang Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960042
+        }
+      ]
+    },
+    {
+      "id": "song:6333",
+      "work_type": "Song",
+      "work_id": 6333,
+      "title": "Lumières de la Ville",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 1335,
+      "artist_name": "Ming Long",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 6336,
+          "name": "Fang Hao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.035254
+        },
+        {
+          "person_id": 6334,
+          "name": "Ming Huang",
+          "stage_name": " Dom Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987806
+        },
+        {
+          "person_id": 6335,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987806
+        }
       ]
     }
   ],

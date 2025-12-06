@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6556",
-      "song_id": 6556,
+      "work_type": "Song",
+      "work_id": 6556,
       "title": "La Última Jugada (The Last Move)",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 6559,
       "artist_name": "Wei Shen",
-      "influence": 7,
+      "influence": 12,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 1,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6558,
+          "name": "Lotte Arens",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0397391
+        },
+        {
+          "person_id": 1005,
+          "name": "Ping Tan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393157
+        },
+        {
+          "person_id": 6557,
+          "name": "Wei Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398959
+        }
+      ]
     },
     {
       "id": "song:1515",
-      "song_id": 1515,
+      "work_type": "Song",
+      "work_id": 1515,
       "title": "Regal Harmonies of the Palace",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +75,113 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 1516,
+          "name": "Juan Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397374
+        },
+        {
+          "person_id": 1517,
+          "name": "Brandon Banks",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397374
+        },
+        {
+          "person_id": 1518,
+          "name": "Juan Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973532
+        }
+      ]
+    },
+    {
+      "id": "album:4112",
+      "work_type": "Album",
+      "work_id": 4112,
+      "title": "One More Word",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 4113,
+      "artist_name": "Ping Song",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4113,
+          "name": "Ping Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985598
+        },
+        {
+          "person_id": 4114,
+          "name": "Juan Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985598
+        },
+        {
+          "person_id": 4115,
+          "name": "George Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985598
+        },
+        {
+          "person_id": 4116,
+          "name": "Tao Tao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985598
+        }
       ]
     },
     {
       "id": "song:15114",
-      "song_id": 15114,
+      "work_type": "Song",
+      "work_id": 15114,
       "title": "Twitch and Tap",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -65,19 +199,71 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14960,
+          "name": "Jie Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.5475314
+        },
+        {
+          "person_id": 14954,
+          "name": "Jun Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4221823
+        },
+        {
+          "person_id": 15115,
+          "name": "Juan Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986769
+        },
+        {
+          "person_id": 15116,
+          "name": "Lori Bowers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398507
+        },
+        {
+          "person_id": 15117,
+          "name": "Yan Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398507
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15114",
+      "source": "album:4112",
       "target": "song:6556",
-      "type": "DirectlySamples"
+      "type": "CoverOf"
     },
     {
       "source": "song:1515",
       "target": "song:6556",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:15114",
+      "target": "song:6556",
+      "type": "DirectlySamples"
     }
   ]
 }

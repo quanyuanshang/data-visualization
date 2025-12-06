@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15156",
-      "song_id": 15156,
+      "work_type": "Song",
+      "work_id": 15156,
       "title": "Memories in Her Windowsill",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15159,
+          "name": "Gianluca Barberini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980596
+        },
+        {
+          "person_id": 15157,
+          "name": "Lucia Corradi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3976064
+        }
+      ]
     },
     {
       "id": "song:9788",
-      "song_id": 9788,
+      "work_type": "Song",
+      "work_id": 9788,
       "title": "Illusion Parade",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +65,37 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9789,
+          "name": "Pierre David",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984792
+        },
+        {
+          "person_id": 9791,
+          "name": "Charlotte Marchand",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984792
+        },
+        {
+          "person_id": 9790,
+          "name": "Philippine du Pottier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984585
+        }
       ]
     }
   ],

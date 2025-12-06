@@ -1,0 +1,90 @@
+{
+  "person_id": 9663,
+  "name": "Sara Roman",
+  "stage_name": "Zenara",
+  "nodes": [
+    {
+      "id": "album:9662",
+      "work_type": "Album",
+      "work_id": 9662,
+      "title": "Lessons from Her Hands",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 9663,
+      "artist_name": "Sara Roman (Zenara)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9664,
+          "name": "Zachary Rojas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969588
+        },
+        {
+          "person_id": 9665,
+          "name": "Jeremy Martinez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969588
+        }
+      ]
+    },
+    {
+      "id": "song:17342",
+      "work_type": "Song",
+      "work_id": 17342,
+      "title": "Beneath the Whispering Waves",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 17340,
+      "artist_name": "Orla Seabloom",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17340,
+          "name": "Orla Seabloom",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.379677
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:17342",
+      "target": "album:9662",
+      "type": "CoverOf"
+    }
+  ]
+}

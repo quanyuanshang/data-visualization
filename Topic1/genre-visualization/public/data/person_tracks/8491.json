@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8487",
-      "song_id": 8487,
+      "work_type": "Song",
+      "work_id": 8487,
       "title": "Eternal Embrace",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,84 @@
       "own": true,
       "artist_id": 8491,
       "artist_name": "Andrew Williamson",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6726,
+          "name": "Nicholas Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0430803
+        },
+        {
+          "person_id": 8488,
+          "name": "Peter Banks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952982
+        },
+        {
+          "person_id": 8489,
+          "name": "Edward Matthews",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3952982
+        },
+        {
+          "person_id": 8490,
+          "name": "Robert Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952982
+        },
+        {
+          "person_id": 8492,
+          "name": "Tim Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952982
+        },
+        {
+          "person_id": 8493,
+          "name": "Frank Osborne",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952982
+        }
+      ]
+    },
+    {
+      "id": "album:8900",
+      "work_type": "Album",
+      "work_id": 8900,
+      "title": "Harvest's Tender Embrace",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 8902,
+      "artist_name": "Miss Stephanie Middleton",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +100,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8901,
+          "name": "Aaron Livingston",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3970451
+        },
+        {
+          "person_id": 8902,
+          "name": "Miss Stephanie Middleton",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970451
+        },
+        {
+          "person_id": 8903,
+          "name": "Nidia Menéndez Mateo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970451
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:8900",
+      "target": "song:8487",
+      "type": "DirectlySamples"
+    }
+  ]
 }

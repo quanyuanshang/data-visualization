@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:3337",
-      "song_id": 3337,
-      "title": "Flatline Farewell",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": true,
-      "artist_id": 1485,
-      "artist_name": "Janina Kałek",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1483",
-      "song_id": 1483,
+      "work_type": "Song",
+      "work_id": 1483,
       "title": "Fragments of a Drowned Landscape",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -41,11 +22,74 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1484,
+          "name": "Adam Allen",
+          "stage_name": " The Dawn",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400332
+        },
+        {
+          "person_id": 1486,
+          "name": "Mary Walker",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400332
+        },
+        {
+          "person_id": 1487,
+          "name": "Julie Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.400332
+        }
+      ]
+    },
+    {
+      "id": "song:3337",
+      "work_type": "Song",
+      "work_id": 3337,
+      "title": "Flatline Farewell",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 1485,
+      "artist_name": "Janina Kałek",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3338,
+          "name": "Justin Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0301597
+        }
+      ]
     },
     {
       "id": "song:12574",
-      "song_id": 12574,
+      "work_type": "Song",
+      "work_id": 12574,
       "title": "Analog Affection Anthem",
       "genre": "Doom Metal",
       "notable": true,
@@ -61,11 +105,93 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3338,
+          "name": "Justin Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0301597
+        },
+        {
+          "person_id": 12575,
+          "name": "Jun Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.400141
+        },
+        {
+          "person_id": 12576,
+          "name": "Jun Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400141
+        }
+      ]
+    },
+    {
+      "id": "album:16107",
+      "work_type": "Album",
+      "work_id": 16107,
+      "title": "Distant Horizons, Familiar Dreams",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 1485,
+      "artist_name": "Janina Kałek",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16108,
+          "name": "Alan Bray",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010708
+        },
+        {
+          "person_id": 16110,
+          "name": "Theodore Simmons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010708
+        },
+        {
+          "person_id": 16109,
+          "name": "Deborah Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.40105
+        }
+      ]
     },
     {
       "id": "song:461",
-      "song_id": 461,
+      "work_type": "Song",
+      "work_id": 461,
       "title": "Hands That Weave Existence",
       "genre": "Americana",
       "notable": true,
@@ -83,19 +209,59 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 464,
+          "name": "Alma Vollbrecht",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399041
+        },
+        {
+          "person_id": 463,
+          "name": "Alexei Gotthard",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988712
+        },
+        {
+          "person_id": 465,
+          "name": "Ildiko Wesack",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988712
+        },
+        {
+          "person_id": 462,
+          "name": "Marie-Louise Wesack",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398194
+        }
       ]
     },
     {
       "id": "song:17067",
-      "song_id": 17067,
+      "work_type": "Song",
+      "work_id": 17067,
       "title": "The Getaway Route",
       "genre": "Jazz Surf Rock",
       "notable": true,
       "release_year": 2036,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17063,
+      "artist_name": "The Phantom Operators（成员：Juno Ray｜预测 2.72、Savannah Teal｜预测 2.72）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -105,19 +271,20 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
     {
-      "source": "song:461",
-      "target": "song:3337",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:17067",
       "target": "song:12574",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:461",
+      "target": "song:3337",
+      "type": "InterpolatesFrom"
     }
   ]
 }

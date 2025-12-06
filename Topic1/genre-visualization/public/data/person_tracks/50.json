@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:48",
-      "song_id": 48,
+      "work_type": "Song",
+      "work_id": 48,
       "title": "Arcane Whispers",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,57 @@
       "own": true,
       "artist_id": 50,
       "artist_name": "Tao Zeng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 52,
+          "name": "Na Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9340434
+        },
+        {
+          "person_id": 49,
+          "name": "Xia Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3947456
+        },
+        {
+          "person_id": 51,
+          "name": "Guiying Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947456
+        }
+      ]
+    },
+    {
+      "id": "album:9893",
+      "work_type": "Album",
+      "work_id": 9893,
+      "title": "Warmth Between Shadows",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 368,
+      "artist_name": "Juan Zhu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +73,45 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 368,
+          "name": "Juan Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0359418
+        },
+        {
+          "person_id": 369,
+          "name": "Ping Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0359418
+        },
+        {
+          "person_id": 9894,
+          "name": "Tao Wei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3994615
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:9893",
+      "target": "song:48",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13094",
-      "song_id": 13094,
+      "work_type": "Song",
+      "work_id": 13094,
       "title": "Descent into Darkness",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,61 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13095,
+          "name": "John Price",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397252
+        },
+        {
+          "person_id": 13097,
+          "name": "Jeffrey Tate",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397252
+        },
+        {
+          "person_id": 13098,
+          "name": "Wayne Perkins",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397252
+        },
+        {
+          "person_id": 13099,
+          "name": "Tao Mao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397252
+        },
+        {
+          "person_id": 13100,
+          "name": "Larry Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397252
+        }
+      ]
     },
     {
       "id": "song:2867",
-      "song_id": 2867,
+      "work_type": "Song",
+      "work_id": 2867,
       "title": "Requiem on the Red Square",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +94,61 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2872,
+          "name": "Jadwiga Gertz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2628565
+        },
+        {
+          "person_id": 2868,
+          "name": "Ralf Budig",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970025
+        },
+        {
+          "person_id": 2869,
+          "name": "Janette Schleich",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970025
+        },
+        {
+          "person_id": 2870,
+          "name": "Marcel Kreusel",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3970025
+        },
+        {
+          "person_id": 2871,
+          "name": "Darryl Curtis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970025
+        }
       ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -65,19 +166,66 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:2867",
-      "target": "song:13094",
-      "type": "CoverOf"
-    },
-    {
       "source": "song:3362",
       "target": "song:13094",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:2867",
+      "target": "song:13094",
+      "type": "CoverOf"
     }
   ]
 }

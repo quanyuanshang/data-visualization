@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4169",
-      "song_id": 4169,
+      "work_type": "Song",
+      "work_id": 4169,
       "title": "Stranger's Silhouette",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4170,
+          "name": "Na Zhu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0401847
+        }
+      ]
     },
     {
       "id": "song:7929",
-      "song_id": 7929,
+      "work_type": "Song",
+      "work_id": 7929,
       "title": "Urzeczenie",
       "genre": "Americana",
       "notable": true,
@@ -41,31 +54,61 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:16697",
-      "song_id": 16697,
-      "title": "Fluorescent Vigil",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 4171,
-      "artist_name": "Yong Yao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7930,
+          "name": "Fang Ma",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980515
+        },
+        {
+          "person_id": 7931,
+          "name": "Lei Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980515
+        },
+        {
+          "person_id": 7932,
+          "name": "Ming Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980515
+        },
+        {
+          "person_id": 7933,
+          "name": "Xiuying Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980515
+        },
+        {
+          "person_id": 7934,
+          "name": "Gang Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980515
+        }
+      ]
     },
     {
       "id": "song:15150",
-      "song_id": 15150,
+      "work_type": "Song",
+      "work_id": 15150,
       "title": "Farewell to the Corner House",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -81,11 +124,64 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15151,
+          "name": "Shannon Thompson",
+          "stage_name": "The Hollow Vestige",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980157
+        },
+        {
+          "person_id": 15152,
+          "name": "Wei Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980157
+        }
+      ]
+    },
+    {
+      "id": "song:16697",
+      "work_type": "Song",
+      "work_id": 16697,
+      "title": "Fluorescent Vigil",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 4171,
+      "artist_name": "Yong Yao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16698,
+          "name": "Lei Yao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398791
+        }
+      ]
     },
     {
       "id": "song:15150",
-      "song_id": 15150,
+      "work_type": "Song",
+      "work_id": 15150,
       "title": "Farewell to the Corner House",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -103,11 +199,41 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4171,
+          "name": "Yong Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7117558
+        },
+        {
+          "person_id": 15151,
+          "name": "Shannon Thompson",
+          "stage_name": "The Hollow Vestige",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980157
+        },
+        {
+          "person_id": 15152,
+          "name": "Wei Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980157
+        }
       ]
     },
     {
       "id": "song:16697",
-      "song_id": 16697,
+      "work_type": "Song",
+      "work_id": 16697,
       "title": "Fluorescent Vigil",
       "genre": "Alternative Rock",
       "notable": true,
@@ -126,6 +252,27 @@
       "relation_types": [
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4171,
+          "name": "Yong Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7117558
+        },
+        {
+          "person_id": 16698,
+          "name": "Lei Yao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398791
+        }
       ]
     }
   ],

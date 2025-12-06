@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4406",
-      "song_id": 4406,
+      "work_type": "Song",
+      "work_id": 4406,
       "title": "Staircase to Silence",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4408,
+          "name": "Adam Harmon",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3984473
+        },
+        {
+          "person_id": 4409,
+          "name": "Tracy Williamson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984473
+        }
+      ]
     },
     {
       "id": "song:17150",
-      "song_id": 17150,
+      "work_type": "Song",
+      "work_id": 17150,
       "title": "Signals in the Static",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +65,17 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17146,
+          "name": "Julia Carter",
+          "stage_name": "Jude Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1046424
+        }
       ]
     }
   ],

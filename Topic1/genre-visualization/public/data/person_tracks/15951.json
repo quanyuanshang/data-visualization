@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15950",
-      "song_id": 15950,
+      "work_type": "Song",
+      "work_id": 15950,
       "title": "Whispers of Proximity",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15952,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983684
+        },
+        {
+          "person_id": 15953,
+          "name": "Gang Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3983684
+        }
+      ]
     },
     {
       "id": "song:9458",
-      "song_id": 9458,
+      "work_type": "Song",
+      "work_id": 9458,
       "title": "Storks and Meadows",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,6 +65,45 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9460,
+          "name": "Raunak Rana",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398688
+        },
+        {
+          "person_id": 9459,
+          "name": "Chirag Bahri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398685
+        },
+        {
+          "person_id": 9461,
+          "name": "Dhanush Baria",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398685
+        },
+        {
+          "person_id": 9462,
+          "name": "Manikya Toor",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986642
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1106",
-      "song_id": 1106,
+      "work_type": "Song",
+      "work_id": 1106,
       "title": "Destiny's Dice",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1109,
+          "name": "Eric Shaw",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959959
+        },
+        {
+          "person_id": 1108,
+          "name": "Sophie Lebrun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3909397
+        },
+        {
+          "person_id": 1110,
+          "name": "Benoît Blanc",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3909397
+        }
+      ]
     },
     {
       "id": "song:6541",
-      "song_id": 6541,
+      "work_type": "Song",
+      "work_id": 6541,
       "title": "Pasture Party",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +75,35 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 2648,
+          "name": "Friedo Dobes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.419136
+        },
+        {
+          "person_id": 6542,
+          "name": "Klaus-Werner Löchel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997
+        }
       ]
     }
   ],

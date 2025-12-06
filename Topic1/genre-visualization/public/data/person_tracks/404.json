@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:402",
-      "song_id": 402,
-      "title": "The Final Brew",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2011,
-      "single": true,
-      "own": true,
-      "artist_id": 404,
-      "artist_name": "Eckehard Wagner",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:2445",
-      "song_id": 2445,
-      "title": "Vulnerable Architecture",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 404,
-      "artist_name": "Eckehard Wagner",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:543",
-      "song_id": 543,
+      "work_type": "Song",
+      "work_id": 543,
       "title": "Lonesome Till Dawn",
       "genre": "Doom Metal",
       "notable": true,
@@ -61,33 +22,134 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 547,
+          "name": "Hilmar Hänel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6791608
+        },
+        {
+          "person_id": 545,
+          "name": "Herr Heinz-Walter Scheuermann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4592464
+        },
+        {
+          "person_id": 546,
+          "name": "Emmy Bonbach",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4592464
+        },
+        {
+          "person_id": 544,
+          "name": "Gisa Hettner-Adler",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398548
+        }
+      ]
     },
     {
-      "id": "song:3519",
-      "song_id": 3519,
-      "title": "Wings of Castilla",
-      "genre": "Doom Metal",
+      "id": "song:402",
+      "work_type": "Song",
+      "work_id": 402,
+      "title": "The Final Brew",
+      "genre": "Synthwave",
       "notable": true,
-      "release_year": 2018,
+      "release_year": 2011,
       "single": true,
-      "own": false,
-      "artist_id": 405,
-      "artist_name": "Leyla Graf-Gotthard",
-      "influence": 0,
+      "own": true,
+      "artist_id": 404,
+      "artist_name": "Eckehard Wagner",
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 403,
+          "name": "Dunja Reinhardt",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9097195
+        }
+      ]
+    },
+    {
+      "id": "song:2445",
+      "work_type": "Song",
+      "work_id": 2445,
+      "title": "Vulnerable Architecture",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 404,
+      "artist_name": "Eckehard Wagner",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.08331
+        }
       ]
     },
     {
       "id": "song:187",
-      "song_id": 187,
+      "work_type": "Song",
+      "work_id": 187,
       "title": "Echoes of a Springtime Past",
       "genre": "Indie Folk",
       "notable": true,
@@ -105,11 +167,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 190,
+          "name": "Peter Haering",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7093635
+        },
+        {
+          "person_id": 189,
+          "name": "Alma Davids",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.047134
+        },
+        {
+          "person_id": 188,
+          "name": "Cecilia Scholz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39736
+        }
       ]
     },
     {
       "id": "song:5059",
-      "song_id": 5059,
+      "work_type": "Song",
+      "work_id": 5059,
       "title": "Neon Nights and Velvet Dreams",
       "genre": "Doom Metal",
       "notable": false,
@@ -127,6 +220,204 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 547,
+          "name": "Hilmar Hänel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6791608
+        },
+        {
+          "person_id": 545,
+          "name": "Herr Heinz-Walter Scheuermann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4592464
+        },
+        {
+          "person_id": 546,
+          "name": "Emmy Bonbach",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4592464
+        },
+        {
+          "person_id": 5060,
+          "name": "Doris Klemt-Junck",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979528
+        }
+      ]
+    },
+    {
+      "id": "song:3519",
+      "work_type": "Song",
+      "work_id": 3519,
+      "title": "Wings of Castilla",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 405,
+      "artist_name": "Leyla Graf-Gotthard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 403,
+          "name": "Dunja Reinhardt",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9097195
+        }
+      ]
+    },
+    {
+      "id": "album:8215",
+      "work_type": "Album",
+      "work_id": 8215,
+      "title": "Retrograde Love",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 405,
+      "artist_name": "Leyla Graf-Gotthard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 405,
+          "name": "Leyla Graf-Gotthard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.08331
+        },
+        {
+          "person_id": 2958,
+          "name": "Greta Löchel-Neureuther",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4398322
+        }
+      ]
+    },
+    {
+      "id": "album:16200",
+      "work_type": "Album",
+      "work_id": 16200,
+      "title": "Unspoken Wonders",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 202,
+      "artist_name": "Guiying Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2591,
+          "name": "Theresa Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.397802
+        },
+        {
+          "person_id": 202,
+          "name": "Guiying Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.051494
+        },
+        {
+          "person_id": 6814,
+          "name": "Na Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0502255
+        },
+        {
+          "person_id": 16201,
+          "name": "Jun Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973932
+        }
       ]
     }
   ],
@@ -137,9 +428,19 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:5059",
-      "target": "song:543",
-      "type": "InterpolatesFrom"
+      "source": "song:3519",
+      "target": "song:402",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:8215",
+      "target": "song:2445",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:8215",
+      "target": "song:402",
+      "type": "InStyleOf"
     },
     {
       "source": "song:402",
@@ -147,9 +448,14 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:3519",
-      "target": "song:402",
+      "source": "album:16200",
+      "target": "song:2445",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:5059",
+      "target": "song:543",
+      "type": "InterpolatesFrom"
     }
   ]
 }

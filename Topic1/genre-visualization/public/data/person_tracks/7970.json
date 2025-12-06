@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7969",
-      "song_id": 7969,
+      "work_type": "Song",
+      "work_id": 7969,
       "title": "Secrets Unspoken",
       "genre": "Indie Pop",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3352,
+          "name": "Marcus Spence",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.7961016
+        },
+        {
+          "person_id": 3742,
+          "name": "David Wilcox",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2791696
+        }
+      ]
     },
     {
       "id": "song:4509",
-      "song_id": 4509,
+      "work_type": "Song",
+      "work_id": 4509,
       "title": "Transcendent Might",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -43,6 +66,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3352,
+          "name": "Marcus Spence",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7961016
+        },
+        {
+          "person_id": 3742,
+          "name": "David Wilcox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2791696
+        }
       ]
     }
   ],

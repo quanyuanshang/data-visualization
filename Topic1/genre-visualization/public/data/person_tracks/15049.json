@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15048",
-      "song_id": 15048,
+      "work_type": "Song",
+      "work_id": 15048,
       "title": "Fire digte om kærlighed og sorg",
       "genre": "Desert Rock",
       "notable": true,
@@ -14,18 +15,129 @@
       "own": true,
       "artist_id": 15049,
       "artist_name": "Ping Lei",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3849,
+          "name": "Wayne Malone",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0684562
+        },
+        {
+          "person_id": 15050,
+          "name": "Li Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3829215
+        },
+        {
+          "person_id": 15051,
+          "name": "Ming Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3829215
+        },
+        {
+          "person_id": 15052,
+          "name": "Sean James",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3829215
+        }
+      ]
+    },
+    {
+      "id": "album:3205",
+      "work_type": "Album",
+      "work_id": 3205,
+      "title": "Whispers of the Moonlit Ensemble",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 74,
+      "artist_name": "Min Hu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 74,
+          "name": "Min Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1127563
+        },
+        {
+          "person_id": 3209,
+          "name": "Wei Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7120821
+        },
+        {
+          "person_id": 3208,
+          "name": "Yang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0441458
+        },
+        {
+          "person_id": 3207,
+          "name": "Kenneth Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971016
+        },
+        {
+          "person_id": 3206,
+          "name": "Sarah Gray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3970044
+        }
+      ]
     },
     {
       "id": "song:11130",
-      "song_id": 11130,
+      "work_type": "Song",
+      "work_id": 11130,
       "title": "Denali's Whisper",
       "genre": "Space Rock",
       "notable": true,
@@ -43,6 +155,54 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11132,
+          "name": "Xia Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11134,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11131,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11133,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11135,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960795
+        }
       ]
     }
   ],
@@ -51,6 +211,11 @@
       "source": "song:11130",
       "target": "song:15048",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:3205",
+      "target": "song:15048",
+      "type": "InStyleOf"
     }
   ]
 }

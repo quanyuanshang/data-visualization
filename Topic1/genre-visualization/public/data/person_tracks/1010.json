@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1007",
-      "song_id": 1007,
+      "work_type": "Song",
+      "work_id": 1007,
       "title": "Nicotine Memories",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,6 +15,48 @@
       "own": true,
       "artist_id": 1010,
       "artist_name": "Belén de Trillo",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1008,
+          "name": "Valerio Zapata-Rico",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398311
+        },
+        {
+          "person_id": 1009,
+          "name": "Cecilia Parejo Carrillo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398311
+        }
+      ]
+    },
+    {
+      "id": "album:4945",
+      "work_type": "Album",
+      "work_id": 4945,
+      "title": "Beyond the Price Tag",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 4946,
+      "artist_name": "Christopher Conway",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +64,45 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4947,
+          "name": "Samantha Mcneil",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4948,
+          "name": "Isaac Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4946,
+          "name": "Christopher Conway",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961337
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4945",
+      "target": "song:1007",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

@@ -4,8 +4,41 @@
   "stage_name": "The Radiant Dirge",
   "nodes": [
     {
+      "id": "album:6367",
+      "work_type": "Album",
+      "work_id": 6367,
+      "title": "Lips Like Silk",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": true,
+      "artist_id": 4840,
+      "artist_name": "David Silva (The Radiant Dirge)",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4841,
+          "name": "Anthony Cox",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0368817
+        }
+      ]
+    },
+    {
       "id": "song:4839",
-      "song_id": 4839,
+      "work_type": "Song",
+      "work_id": 4839,
       "title": "Crossing the Tay Bridge at Twilight",
       "genre": "Americana",
       "notable": true,
@@ -21,8 +54,193 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4841,
+          "name": "Anthony Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0368817
+        }
+      ]
+    },
+    {
+      "id": "song:4839",
+      "work_type": "Song",
+      "work_id": 4839,
+      "title": "Crossing the Tay Bridge at Twilight",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 4841,
+      "artist_name": "Anthony Cox",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4840,
+          "name": "David Silva",
+          "stage_name": "The Radiant Dirge",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0465386
+        },
+        {
+          "person_id": 4841,
+          "name": "Anthony Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0368817
+        }
+      ]
+    },
+    {
+      "id": "song:7313",
+      "work_type": "Song",
+      "work_id": 7313,
+      "title": "Cosmic Corridor Cadence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7314,
+      "artist_name": "Jacob Ramirez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7314,
+          "name": "Jacob Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39927
+        },
+        {
+          "person_id": 7315,
+          "name": "Margaret Vargas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39927
+        },
+        {
+          "person_id": 7317,
+          "name": "Chris Ward",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985343
+        },
+        {
+          "person_id": 7318,
+          "name": "Gemma Gentilini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985343
+        },
+        {
+          "person_id": 7316,
+          "name": "Terri Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978572
+        }
+      ]
+    },
+    {
+      "id": "song:16615",
+      "work_type": "Song",
+      "work_id": 16615,
+      "title": "The Revenge We Never Spoke Of",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 10311,
+      "artist_name": "Siya Sahni",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10311,
+          "name": "Siya Sahni",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0523303
+        },
+        {
+          "person_id": 10312,
+          "name": "Ishita Bahri",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0520613
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:7313",
+      "target": "album:6367",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4839",
+      "target": "album:6367",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16615",
+      "target": "album:6367",
+      "type": "InStyleOf"
+    }
+  ]
 }

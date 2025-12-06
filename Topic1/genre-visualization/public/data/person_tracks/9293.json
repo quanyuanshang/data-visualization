@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9290",
-      "song_id": 9290,
+      "work_type": "Song",
+      "work_id": 9290,
       "title": "Granite Whispers",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 9293,
       "artist_name": "Ming Du",
-      "influence": 6,
+      "influence": 11,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9291,
+          "name": "Jun Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982205
+        },
+        {
+          "person_id": 9292,
+          "name": "Jie Mao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982205
+        }
+      ]
     },
     {
       "id": "song:7414",
-      "song_id": 7414,
+      "work_type": "Song",
+      "work_id": 7414,
       "title": "Whispers Nobody Heard",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +65,114 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7416,
+          "name": "Stephanie Horton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0374277
+        },
+        {
+          "person_id": 4710,
+          "name": "Qiang Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9755197
+        },
+        {
+          "person_id": 7415,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.7844315
+        }
+      ]
+    },
+    {
+      "id": "album:8782",
+      "work_type": "Album",
+      "work_id": 8782,
+      "title": "Patience's Whisper",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1606,
+      "artist_name": "Jun Zheng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1606,
+          "name": "Jun Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4191923
+        },
+        {
+          "person_id": 4456,
+          "name": "Yang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.039169
+        },
+        {
+          "person_id": 3915,
+          "name": "Xiuying Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9838166
+        },
+        {
+          "person_id": 8784,
+          "name": "Jun Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971062
+        },
+        {
+          "person_id": 8783,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969364
+        }
       ]
     },
     {
       "id": "song:17134",
-      "song_id": 17134,
+      "work_type": "Song",
+      "work_id": 17134,
       "title": "The Dance of the Forgotten",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -65,17 +190,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17126,
+          "name": "Cassian Storm",
+          "stage_name": "Seraphina Vale",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7161832
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:17134",
+      "source": "album:8782",
+      "target": "song:9290",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7414",
       "target": "song:9290",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:7414",
+      "source": "song:17134",
       "target": "song:9290",
       "type": "InterpolatesFrom"
     }

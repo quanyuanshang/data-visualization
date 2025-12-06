@@ -4,8 +4,42 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:5764",
+      "work_type": "Album",
+      "work_id": 5764,
+      "title": "Toxic From the Start",
+      "genre": "Avant-Garde Folk",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": true,
+      "artist_id": 5766,
+      "artist_name": "Frederick Freeman",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5765,
+          "name": "Amanda Marquez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0453289
+        }
+      ]
+    },
+    {
       "id": "song:16589",
-      "song_id": 16589,
+      "work_type": "Song",
+      "work_id": 16589,
       "title": "Machine Learning Melody",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -14,6 +48,48 @@
       "own": true,
       "artist_id": 5766,
       "artist_name": "Frederick Freeman",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15746,
+          "name": "Natasha Mcdaniel",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0754194
+        },
+        {
+          "person_id": 5765,
+          "name": "Amanda Marquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0453289
+        }
+      ]
+    },
+    {
+      "id": "song:7739",
+      "work_type": "Song",
+      "work_id": 7739,
+      "title": "Corações em Chamas (Hearts on Fire)",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 16744,
+      "artist_name": "Quattro Voci（成员：Andrew Williams｜预测 5.45、Jay Walters｜预测 5.85）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +97,104 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2070,
+          "name": "Jay Walters",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.845913
+        },
+        {
+          "person_id": 2069,
+          "name": "Andrew Williams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.450733
+        }
+      ]
+    },
+    {
+      "id": "album:3801",
+      "work_type": "Album",
+      "work_id": 3801,
+      "title": "Sovereign Dust",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 3802,
+      "artist_name": "Brett Terry",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3802,
+          "name": "Brett Terry",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396794
+        },
+        {
+          "person_id": 3804,
+          "name": "Micheal Welch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396794
+        },
+        {
+          "person_id": 3803,
+          "name": "Regina Beck",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967807
+        },
+        {
+          "person_id": 3805,
+          "name": "Michael Mccullough",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967807
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:3801",
+      "target": "song:16589",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7739",
+      "target": "album:5764",
+      "type": "CoverOf"
+    }
+  ]
 }

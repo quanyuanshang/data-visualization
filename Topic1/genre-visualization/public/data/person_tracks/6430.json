@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6428",
-      "song_id": 6428,
+      "work_type": "Song",
+      "work_id": 6428,
       "title": "Echoes of Joy",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,110 @@
       "own": true,
       "artist_id": 6430,
       "artist_name": "Min Bai",
-      "influence": 6,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 0,
         "sample": 1,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6433,
+          "name": "Guiying Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0277905
+        },
+        {
+          "person_id": 6429,
+          "name": "Jie Li",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3967047
+        },
+        {
+          "person_id": 6431,
+          "name": "Ming Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967047
+        },
+        {
+          "person_id": 6432,
+          "name": "Yang Dai",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3967047
+        }
+      ]
+    },
+    {
+      "id": "album:5035",
+      "work_type": "Album",
+      "work_id": 5035,
+      "title": "Skogens Fortelling (The Forest's Tale)",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5038,
+      "artist_name": "Min He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5038,
+          "name": "Min He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.6157937
+        },
+        {
+          "person_id": 5036,
+          "name": "Qiang Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002912
+        },
+        {
+          "person_id": 5037,
+          "name": "Xiuying Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4002912
+        }
+      ]
     },
     {
       "id": "song:11808",
-      "song_id": 11808,
+      "work_type": "Song",
+      "work_id": 11808,
       "title": "Negotiator's Lament",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +136,51 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11809,
+          "name": "April Mills",
+          "stage_name": "THE MVRK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952217
+        },
+        {
+          "person_id": 11810,
+          "name": "Dominique Delacruz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3952217
+        },
+        {
+          "person_id": 11812,
+          "name": "David Maddox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952217
+        },
+        {
+          "person_id": 11811,
+          "name": "Stephanie Fowler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395201
+        }
       ]
     },
     {
       "id": "song:13260",
-      "song_id": 13260,
+      "work_type": "Song",
+      "work_id": 13260,
       "title": "Whispers of Harvest Stillness",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,6 +198,54 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4418,
+          "name": "Jun Fang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.256413
+        },
+        {
+          "person_id": 10914,
+          "name": "Min Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7164886
+        },
+        {
+          "person_id": 6807,
+          "name": "Min Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0465977
+        },
+        {
+          "person_id": 1073,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.949374
+        },
+        {
+          "person_id": 13261,
+          "name": "Chao Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393542
+        }
       ]
     }
   ],
@@ -73,6 +254,11 @@
       "source": "song:11808",
       "target": "song:6428",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:5035",
+      "target": "song:6428",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:13260",

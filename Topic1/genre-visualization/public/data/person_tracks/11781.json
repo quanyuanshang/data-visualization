@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11780",
-      "song_id": 11780,
+      "work_type": "Song",
+      "work_id": 11780,
       "title": "Poison in Veins",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,74 @@
       "own": true,
       "artist_id": 11781,
       "artist_name": "Tao Xu",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 649,
+          "name": "Na Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7131028
+        },
+        {
+          "person_id": 11782,
+          "name": "Tao Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        },
+        {
+          "person_id": 11783,
+          "name": "Guiying Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        },
+        {
+          "person_id": 11784,
+          "name": "Chao Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        }
+      ]
+    },
+    {
+      "id": "album:1588",
+      "work_type": "Album",
+      "work_id": 1588,
+      "title": "Strategic Surrender",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1589,
+      "artist_name": "Juan Yao",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +90,74 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1589,
+          "name": "Juan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1590,
+          "name": "Fang Du",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1591,
+          "name": "Fang Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1592,
+          "name": "Jie Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1593,
+          "name": "Qiang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980014
+        },
+        {
+          "person_id": 1594,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976288
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:1588",
+      "target": "song:11780",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

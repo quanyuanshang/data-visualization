@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3390",
-      "song_id": 3390,
+      "work_type": "Song",
+      "work_id": 3390,
       "title": "Displaced Moment",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3391,
+          "name": "Diana Lewis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002986
+        },
+        {
+          "person_id": 3392,
+          "name": "Micheal Martin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4002986
+        }
+      ]
     },
     {
       "id": "song:6210",
-      "song_id": 6210,
+      "work_type": "Song",
+      "work_id": 6210,
       "title": "The Gentle Frost of December",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +66,27 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5727,
+          "name": "Yasmin Verschut",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0951853
+        },
+        {
+          "person_id": 5728,
+          "name": "Ryan Ford",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7062628
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7226",
-      "song_id": 7226,
+      "work_type": "Song",
+      "work_id": 7226,
       "title": "Silhouette of a Memory",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,68 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7228,
+          "name": "Andrew Morrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 7230,
+          "name": "James Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 7231,
+          "name": "Jessica Baxter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 7232,
+          "name": "Hannah Elliott",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 7227,
+          "name": "Patrick Lewis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4008114
+        },
+        {
+          "person_id": 7229,
+          "name": "Brian Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4008114
+        }
+      ]
     },
     {
       "id": "song:9545",
-      "song_id": 9545,
+      "work_type": "Song",
+      "work_id": 9545,
       "title": "Arrival of the Cherished Stranger",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,8 +99,130 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9468,
+          "name": "Erin Welch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.411863
+        },
+        {
+          "person_id": 9467,
+          "name": "Chad Booker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9471,
+          "name": "Gabriel Nash",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9546,
+          "name": "Gabriel Rosales",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4009013
+        }
+      ]
+    },
+    {
+      "id": "album:15995",
+      "work_type": "Album",
+      "work_id": 15995,
+      "title": "Pardoning Wilderness",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 7233,
+      "artist_name": "Kenneth Crosby",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7228,
+          "name": "Andrew Morrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 7230,
+          "name": "James Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 7231,
+          "name": "Jessica Baxter",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 7232,
+          "name": "Hannah Elliott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041886
+        },
+        {
+          "person_id": 15996,
+          "name": "Cesar Mcpherson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399383
+        },
+        {
+          "person_id": 15997,
+          "name": "Amy Frazier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399383
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:7226",
+      "target": "album:15995",
+      "type": "DirectlySamples"
+    }
+  ]
 }

@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:5782",
+      "work_type": "Album",
+      "work_id": 5782,
+      "title": "The Uniform That Speaks Volumes",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 5783,
+      "artist_name": "Mark Beck",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5784,
+          "name": "Mary Brooks",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0396225
+        },
+        {
+          "person_id": 5785,
+          "name": "Odette-Inès Lelièvre",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0375788
+        }
+      ]
+    },
+    {
       "id": "song:8845",
-      "song_id": 8845,
+      "work_type": "Song",
+      "work_id": 8845,
       "title": "Whispers in the Christmas Lights",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,7 +64,28 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5784,
+          "name": "Mary Brooks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0396225
+        },
+        {
+          "person_id": 5785,
+          "name": "Odette-Inès Lelièvre",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0375788
+        }
+      ]
     }
   ],
   "links": []

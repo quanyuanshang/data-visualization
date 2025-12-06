@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9500",
-      "song_id": 9500,
+      "work_type": "Song",
+      "work_id": 9500,
       "title": "Courage Unbroken",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9501,
+          "name": "Stephen Thompson",
+          "stage_name": "Eclipse Etude",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000332
+        }
+      ]
     },
     {
       "id": "song:10035",
-      "song_id": 10035,
+      "work_type": "Song",
+      "work_id": 10035,
       "title": "Whispers from the Ecclesiastical Shadows",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,6 +57,81 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4465,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1116056
+        },
+        {
+          "person_id": 10036,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10037,
+          "name": "Ping Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10038,
+          "name": "Chao Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10039,
+          "name": "Jun Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10040,
+          "name": "Jing Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10041,
+          "name": "Ming Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10042,
+          "name": "Gang Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986707
+        }
       ]
     }
   ],

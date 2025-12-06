@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9559",
-      "song_id": 9559,
+      "work_type": "Song",
+      "work_id": 9559,
       "title": "Perfectly Aligned",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -14,18 +15,120 @@
       "own": true,
       "artist_id": 9563,
       "artist_name": "Robby Schmiedecke",
-      "influence": 13,
+      "influence": 16,
       "influence_breakdown": {
         "cover": 2,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2044,
+          "name": "Silvia Sölzer-van der Dussen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4410307
+        },
+        {
+          "person_id": 9560,
+          "name": "Valerie Levine",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021053
+        },
+        {
+          "person_id": 9561,
+          "name": "Birger Gutknecht",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021053
+        },
+        {
+          "person_id": 9562,
+          "name": "Holm Segebahn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4021053
+        }
+      ]
+    },
+    {
+      "id": "album:2034",
+      "work_type": "Album",
+      "work_id": 2034,
+      "title": "Hearts Like Honey",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 2035,
+      "artist_name": "Maryse-Margaux Pinto",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2036,
+          "name": "Guy Arnaud",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977182
+        },
+        {
+          "person_id": 2037,
+          "name": "Rico Weimer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977182
+        },
+        {
+          "person_id": 2035,
+          "name": "Maryse-Margaux Pinto",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976974
+        },
+        {
+          "person_id": 2038,
+          "name": "Todd Lopez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976974
+        }
+      ]
     },
     {
       "id": "song:9061",
-      "song_id": 9061,
+      "work_type": "Song",
+      "work_id": 9061,
       "title": "Silvered Leaves, Softly Singing",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,11 +146,25 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
       ]
     },
     {
       "id": "song:11354",
-      "song_id": 11354,
+      "work_type": "Song",
+      "work_id": 11354,
       "title": "Bleeding Hearts and Razor Blades",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -65,11 +182,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11355,
+          "name": "Erin Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398387
+        },
+        {
+          "person_id": 11356,
+          "name": "Teresa Bohlander",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980827
+        }
       ]
     },
     {
       "id": "song:12202",
-      "song_id": 12202,
+      "work_type": "Song",
+      "work_id": 12202,
       "title": "The Invisible Thread",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -87,22 +226,48 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8833,
+          "name": "Lori Lee",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7165387
+        },
+        {
+          "person_id": 12203,
+          "name": "Joe Mccarthy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980837
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:2034",
+      "target": "song:9559",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:11354",
       "target": "song:9559",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:12202",
+      "source": "song:9061",
       "target": "song:9559",
       "type": "CoverOf"
     },
     {
-      "source": "song:9061",
+      "source": "song:12202",
       "target": "song:9559",
       "type": "CoverOf"
     }

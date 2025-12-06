@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4926",
-      "song_id": 4926,
+      "work_type": "Song",
+      "work_id": 4926,
       "title": "Street Corner Serenade",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4930,
+          "name": "Bianca Weber",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4326284
+        },
+        {
+          "person_id": 4927,
+          "name": "Victoria Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3964179
+        },
+        {
+          "person_id": 4928,
+          "name": "Gloria Lewis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3964179
+        }
+      ]
     },
     {
       "id": "song:5469",
-      "song_id": 5469,
+      "work_type": "Song",
+      "work_id": 5469,
       "title": "Windowpane Secrets",
       "genre": "Indie Pop",
       "notable": true,
@@ -43,6 +76,46 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4930,
+          "name": "Bianca Weber",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4326284
+        },
+        {
+          "person_id": 5471,
+          "name": "Gerald Collins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959396
+        },
+        {
+          "person_id": 5470,
+          "name": "Ruben Watkins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957987
+        },
+        {
+          "person_id": 5472,
+          "name": "Amanda Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3954463
+        }
       ]
     }
   ],

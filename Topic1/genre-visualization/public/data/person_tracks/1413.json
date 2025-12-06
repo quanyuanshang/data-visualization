@@ -4,28 +4,9 @@
   "stage_name": " M¥TH",
   "nodes": [
     {
-      "id": "song:1412",
-      "song_id": 1412,
-      "title": "Miles Beyond Yesterday",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 1984,
-      "single": true,
-      "own": true,
-      "artist_id": 1413,
-      "artist_name": "Feliciano Noguera-Vallejo ( M¥TH)",
-      "influence": 6,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 2,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2174",
-      "song_id": 2174,
+      "work_type": "Song",
+      "work_id": 2174,
       "title": "Crimson Signal, Silent Warning",
       "genre": "Indie Pop",
       "notable": false,
@@ -41,33 +22,56 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1414,
+          "name": "Diya Swamy",
+          "stage_name": "VYBE LORD",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0637617
+        }
+      ]
     },
     {
-      "id": "song:2174",
-      "song_id": 2174,
-      "title": "Crimson Signal, Silent Warning",
+      "id": "song:1412",
+      "work_type": "Song",
+      "work_id": 1412,
+      "title": "Miles Beyond Yesterday",
       "genre": "Indie Pop",
-      "notable": false,
-      "release_year": 1990,
+      "notable": true,
+      "release_year": 1984,
       "single": true,
       "own": true,
       "artist_id": 1413,
       "artist_name": "Feliciano Noguera-Vallejo ( M¥TH)",
-      "influence": 0,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": [
-        "LyricalReferenceTo"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1414,
+          "name": "Diya Swamy",
+          "stage_name": "VYBE LORD",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0637617
+        }
       ]
     },
     {
       "id": "song:15825",
-      "song_id": 15825,
+      "work_type": "Song",
+      "work_id": 15825,
       "title": "Nectar's Dance",
       "genre": "Alternative Rock",
       "notable": true,
@@ -86,6 +90,27 @@
       "relation_types": [
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1414,
+          "name": "Diya Swamy",
+          "stage_name": "VYBE LORD",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0637617
+        },
+        {
+          "person_id": 12980,
+          "name": "Justin Doyle",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0422766
+        }
       ]
     }
   ],

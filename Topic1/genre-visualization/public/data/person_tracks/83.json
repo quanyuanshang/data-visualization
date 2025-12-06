@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:81",
-      "song_id": 81,
+      "work_type": "Song",
+      "work_id": 81,
       "title": "Elektronische Schritte Mit Italienern",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +15,63 @@
       "own": true,
       "artist_id": 83,
       "artist_name": "Loretta Roberts",
-      "influence": 8,
+      "influence": 11,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 82,
+          "name": "Min Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8973236
+        }
+      ]
+    },
+    {
+      "id": "album:15389",
+      "work_type": "Album",
+      "work_id": 15389,
+      "title": "Pentatonic Whispers from Kyoto",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 83,
+      "artist_name": "Loretta Roberts",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 82,
+          "name": "Min Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8973236
+        }
+      ]
     },
     {
       "id": "song:15789",
-      "song_id": 15789,
+      "work_type": "Song",
+      "work_id": 15789,
       "title": "Speak Between The Lines",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +87,64 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 82,
+          "name": "Min Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8973236
+        },
+        {
+          "person_id": 15790,
+          "name": "Ronald Esparza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984077
+        }
+      ]
+    },
+    {
+      "id": "album:16162",
+      "work_type": "Album",
+      "work_id": 16162,
+      "title": "Midnight on the Embankment",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 1996,
+      "single": false,
+      "own": true,
+      "artist_id": 83,
+      "artist_name": "Loretta Roberts",
+      "influence": 25,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 3,
+        "style": 3
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 82,
+          "name": "Min Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8973236
+        }
+      ]
     },
     {
       "id": "song:9958",
-      "song_id": 9958,
+      "work_type": "Song",
+      "work_id": 9958,
       "title": "Fragments of Unspoken Harmony",
       "genre": "Indie Rock",
       "notable": true,
@@ -63,11 +162,94 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2172,
+          "name": "Monica Nelson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9315295
+        },
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9261718
+        },
+        {
+          "person_id": 9960,
+          "name": "Li Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.024069
+        },
+        {
+          "person_id": 9959,
+          "name": "Wei Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4057126
+        }
+      ]
+    },
+    {
+      "id": "album:15389",
+      "work_type": "Album",
+      "work_id": 15389,
+      "title": "Pentatonic Whispers from Kyoto",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 82,
+      "artist_name": "Min Ye",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 82,
+          "name": "Min Ye",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8973236
+        },
+        {
+          "person_id": 83,
+          "name": "Loretta Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7084074
+        }
       ]
     },
     {
       "id": "song:15789",
-      "song_id": 15789,
+      "work_type": "Song",
+      "work_id": 15789,
       "title": "Speak Between The Lines",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -85,6 +267,506 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 82,
+          "name": "Min Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8973236
+        },
+        {
+          "person_id": 83,
+          "name": "Loretta Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7084074
+        },
+        {
+          "person_id": 15790,
+          "name": "Ronald Esparza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984077
+        }
+      ]
+    },
+    {
+      "id": "song:632",
+      "work_type": "Song",
+      "work_id": 632,
+      "title": "Brewing Heritage",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 633,
+      "artist_name": "Guiying Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 634,
+          "name": "Jie Hu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.2982986
+        }
+      ]
+    },
+    {
+      "id": "song:3094",
+      "work_type": "Song",
+      "work_id": 3094,
+      "title": "Longing on the Line",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 1327,
+      "artist_name": "Fang Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 3097,
+          "name": "Xiulan Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6890514
+        },
+        {
+          "person_id": 3096,
+          "name": "Wei Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0163338
+        },
+        {
+          "person_id": 3095,
+          "name": "Wanda Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980165
+        }
+      ]
+    },
+    {
+      "id": "song:6778",
+      "work_type": "Song",
+      "work_id": 6778,
+      "title": "Wheel of Fortune",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 633,
+      "artist_name": "Guiying Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 6779,
+          "name": "Chao Zhong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.09626
+        }
+      ]
+    },
+    {
+      "id": "song:7222",
+      "work_type": "Song",
+      "work_id": 7222,
+      "title": "Echoes of Julianne",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 3097,
+      "artist_name": "Xiulan Jiang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 3097,
+          "name": "Xiulan Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6890514
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.02
+        }
+      ]
+    },
+    {
+      "id": "album:10045",
+      "work_type": "Album",
+      "work_id": 10045,
+      "title": "Echoes of a Hallowed Namesake",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 633,
+      "artist_name": "Guiying Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 6779,
+          "name": "Chao Zhong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.09626
+        },
+        {
+          "person_id": 634,
+          "name": "Jie Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2982986
+        }
+      ]
+    },
+    {
+      "id": "song:10309",
+      "work_type": "Song",
+      "work_id": 10309,
+      "title": "Flickering Flames of Romance",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2022,
+      "single": true,
+      "own": false,
+      "artist_id": 633,
+      "artist_name": "Guiying Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 633,
+          "name": "Guiying Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3940263
+        },
+        {
+          "person_id": 634,
+          "name": "Jie Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.2982986
+        },
+        {
+          "person_id": 819,
+          "name": "Juan Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362248
+        }
+      ]
+    },
+    {
+      "id": "song:14429",
+      "work_type": "Song",
+      "work_id": 14429,
+      "title": "Sweethearts of the Midwest",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": true,
+      "own": false,
+      "artist_id": 3098,
+      "artist_name": "Ping Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 7223,
+          "name": "Robert Norris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.02
+        },
+        {
+          "person_id": 14430,
+          "name": "Xia Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        },
+        {
+          "person_id": 14431,
+          "name": "Ethan Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976
+        }
+      ]
+    },
+    {
+      "id": "song:16551",
+      "work_type": "Song",
+      "work_id": 16551,
+      "title": "Number 1 Elevation",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 3098,
+      "artist_name": "Ping Luo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 3098,
+          "name": "Ping Luo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.407085
+        },
+        {
+          "person_id": 3097,
+          "name": "Xiulan Jiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.6890514
+        },
+        {
+          "person_id": 8067,
+          "name": "Gang Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0865505
+        },
+        {
+          "person_id": 5662,
+          "name": "Min Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0399978
+        }
       ]
     }
   ],
@@ -95,8 +777,53 @@
       "type": "CoverOf"
     },
     {
+      "source": "album:10045",
+      "target": "album:16162",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:9958",
       "target": "song:81",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:632",
+      "target": "album:16162",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6778",
+      "target": "album:16162",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:15389",
+      "target": "song:81",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10309",
+      "target": "album:16162",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:3094",
+      "target": "album:16162",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16551",
+      "target": "album:16162",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:7222",
+      "target": "album:16162",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14429",
+      "target": "album:16162",
       "type": "LyricalReferenceTo"
     }
   ]

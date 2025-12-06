@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3660",
-      "song_id": 3660,
+      "work_type": "Song",
+      "work_id": 3660,
       "title": "Cosmo and Wanda's Chaos",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        }
+      ]
     },
     {
       "id": "song:7872",
-      "song_id": 7872,
+      "work_type": "Song",
+      "work_id": 7872,
       "title": "The Monotony of Breath",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,11 +54,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        }
+      ]
     },
     {
       "id": "song:10994",
-      "song_id": 10994,
+      "work_type": "Song",
+      "work_id": 10994,
       "title": "Forgotten Grace: A Milagros Tale",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -63,6 +89,27 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3662,
+          "name": "David Wilkerson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.283303
+        },
+        {
+          "person_id": 10995,
+          "name": "Michael Lin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398688
+        }
       ]
     }
   ],

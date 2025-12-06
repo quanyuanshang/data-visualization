@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6363",
-      "song_id": 6363,
+      "work_type": "Song",
+      "work_id": 6363,
       "title": "Cascading Tenderness",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,48 @@
       "own": true,
       "artist_id": 6030,
       "artist_name": "Carlo Mazzacurati",
-      "influence": 3,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
+        "sample": 1,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6032,
+          "name": "Rosaria Pedersoli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4316032
+        },
+        {
+          "person_id": 6029,
+          "name": "Wally Beckmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0474234
+        },
+        {
+          "person_id": 6031,
+          "name": "Benvenuto Lerner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468855
+        }
+      ]
     },
     {
       "id": "song:14840",
-      "song_id": 14840,
+      "work_type": "Song",
+      "work_id": 14840,
       "title": "Completely Completely",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +72,152 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6032,
+          "name": "Rosaria Pedersoli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4316032
+        },
+        {
+          "person_id": 14842,
+          "name": "Nicoletta Soffici",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3975353
+        },
+        {
+          "person_id": 14841,
+          "name": "Melania Filangieri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975146
+        }
+      ]
+    },
+    {
+      "id": "album:6028",
+      "work_type": "Album",
+      "work_id": 6028,
+      "title": "Vocal Liberation",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1990,
+      "single": false,
+      "own": true,
+      "artist_id": 6030,
+      "artist_name": "Carlo Mazzacurati",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6032,
+          "name": "Rosaria Pedersoli",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4316032
+        },
+        {
+          "person_id": 6029,
+          "name": "Wally Beckmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0474234
+        },
+        {
+          "person_id": 6031,
+          "name": "Benvenuto Lerner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468855
+        }
+      ]
+    },
+    {
+      "id": "album:6028",
+      "work_type": "Album",
+      "work_id": 6028,
+      "title": "Vocal Liberation",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1990,
+      "single": false,
+      "own": false,
+      "artist_id": 6029,
+      "artist_name": "Wally Beckmann",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6030,
+          "name": "Carlo Mazzacurati",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4318006
+        },
+        {
+          "person_id": 6032,
+          "name": "Rosaria Pedersoli",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4316032
+        },
+        {
+          "person_id": 6029,
+          "name": "Wally Beckmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0474234
+        },
+        {
+          "person_id": 6031,
+          "name": "Benvenuto Lerner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468855
+        }
+      ]
     },
     {
       "id": "song:14840",
-      "song_id": 14840,
+      "work_type": "Song",
+      "work_id": 14840,
       "title": "Completely Completely",
       "genre": "Dream Pop",
       "notable": true,
@@ -62,15 +234,64 @@
         "style": 0
       },
       "relation_types": [
+        "CoverOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6030,
+          "name": "Carlo Mazzacurati",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4318006
+        },
+        {
+          "person_id": 6032,
+          "name": "Rosaria Pedersoli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4316032
+        },
+        {
+          "person_id": 14842,
+          "name": "Nicoletta Soffici",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3975353
+        },
+        {
+          "person_id": 14841,
+          "name": "Melania Filangieri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975146
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:14840",
+      "target": "album:6028",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14840",
       "target": "song:6363",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:6028",
+      "target": "song:6363",
+      "type": "DirectlySamples"
     }
   ]
 }

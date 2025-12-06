@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8207",
-      "song_id": 8207,
+      "work_type": "Song",
+      "work_id": 8207,
       "title": "Echoes of Forgotten Light",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,108 @@
       "own": true,
       "artist_id": 8208,
       "artist_name": "Igor Dyś",
-      "influence": 2,
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:4167",
+      "work_type": "Album",
+      "work_id": 4167,
+      "title": "The Interest Rises",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 4168,
+          "name": "Jeremi Kazberuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0350873
+        }
+      ]
+    },
+    {
+      "id": "album:15909",
+      "work_type": "Album",
+      "work_id": 15909,
+      "title": "Silent Confessions",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 15910,
+      "artist_name": "Maks Grębowiec",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2491,
+          "name": "Franciszek Filusz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0568464
+        },
+        {
+          "person_id": 15910,
+          "name": "Maks Grębowiec",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988562
+        }
+      ]
     },
     {
       "id": "song:17285",
-      "song_id": 17285,
+      "work_type": "Song",
+      "work_id": 17285,
       "title": "Driftwood Lullaby",
       "genre": "Oceanus Folk",
       "notable": false,
@@ -43,14 +134,35 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:15909",
+      "target": "song:8207",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:17285",
       "target": "song:8207",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:4167",
+      "target": "song:8207",
+      "type": "InterpolatesFrom"
     }
   ]
 }

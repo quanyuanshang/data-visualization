@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:11431",
-      "song_id": 11431,
-      "title": "Silhouettes of a Moment",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
+      "id": "album:9441",
+      "work_type": "Album",
+      "work_id": 9441,
+      "title": "Precision in Minor",
+      "genre": "Indie Rock",
+      "notable": false,
+      "release_year": 2030,
+      "single": false,
       "own": true,
       "artist_id": 9442,
       "artist_name": "Michel Fournier-Robert",
@@ -21,8 +22,234 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9444,
+          "name": "Adrien Gérard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.081539
+        },
+        {
+          "person_id": 9443,
+          "name": "Anne Lefebvre",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3965375
+        }
+      ]
+    },
+    {
+      "id": "album:10282",
+      "work_type": "Album",
+      "work_id": 10282,
+      "title": "Future's Echo",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 9442,
+      "artist_name": "Michel Fournier-Robert",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9444,
+          "name": "Adrien Gérard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.081539
+        }
+      ]
+    },
+    {
+      "id": "song:11431",
+      "work_type": "Song",
+      "work_id": 11431,
+      "title": "Silhouettes of a Moment",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": true,
+      "artist_id": 9442,
+      "artist_name": "Michel Fournier-Robert",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9444,
+          "name": "Adrien Gérard",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.081539
+        }
+      ]
+    },
+    {
+      "id": "song:7313",
+      "work_type": "Song",
+      "work_id": 7313,
+      "title": "Cosmic Corridor Cadence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 7314,
+      "artist_name": "Jacob Ramirez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7314,
+          "name": "Jacob Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39927
+        },
+        {
+          "person_id": 7315,
+          "name": "Margaret Vargas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39927
+        },
+        {
+          "person_id": 7317,
+          "name": "Chris Ward",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985343
+        },
+        {
+          "person_id": 7318,
+          "name": "Gemma Gentilini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985343
+        },
+        {
+          "person_id": 7316,
+          "name": "Terri Johnson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978572
+        }
+      ]
+    },
+    {
+      "id": "song:10310",
+      "work_type": "Song",
+      "work_id": 10310,
+      "title": "Reels and Revelry",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 10311,
+      "artist_name": "Siya Sahni",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10311,
+          "name": "Siya Sahni",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0523303
+        },
+        {
+          "person_id": 10312,
+          "name": "Ishita Bahri",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0520613
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:10282",
+      "target": "song:11431",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10310",
+      "target": "album:10282",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7313",
+      "target": "album:10282",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:9441",
+      "target": "album:10282",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:9441",
+      "target": "song:11431",
+      "type": "InStyleOf"
+    }
+  ]
 }

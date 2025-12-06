@@ -1,0 +1,108 @@
+{
+  "person_id": 12724,
+  "name": "Gang Sun",
+  "stage_name": " Ivory Hawk",
+  "nodes": [
+    {
+      "id": "album:12723",
+      "work_type": "Album",
+      "work_id": 12723,
+      "title": "Liquid Gold Lament",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 12724,
+      "artist_name": "Gang Sun ( Ivory Hawk)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12725,
+          "name": "Chao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975592
+        },
+        {
+          "person_id": 12726,
+          "name": "Xia Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3975592
+        }
+      ]
+    },
+    {
+      "id": "song:14397",
+      "work_type": "Song",
+      "work_id": 14397,
+      "title": "Move Your Feet",
+      "genre": "Synthpop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 14399,
+      "artist_name": "Brian Moody",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14398,
+          "name": "Andrea White",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962185
+        },
+        {
+          "person_id": 14399,
+          "name": "Brian Moody",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3962185
+        },
+        {
+          "person_id": 14400,
+          "name": "Monica Mason",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3962185
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14397",
+      "target": "album:12723",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

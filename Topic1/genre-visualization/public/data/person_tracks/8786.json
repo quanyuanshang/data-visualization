@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8785",
-      "song_id": 8785,
+      "work_type": "Song",
+      "work_id": 8785,
       "title": "Waiting in the Wings",
       "genre": "Americana",
       "notable": true,
@@ -14,6 +15,75 @@
       "own": true,
       "artist_id": 8786,
       "artist_name": "Jennifer Cox",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 76,
+          "name": "Ming Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9242806
+        },
+        {
+          "person_id": 5049,
+          "name": "Robert Knight",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8666625
+        },
+        {
+          "person_id": 5048,
+          "name": "Dennis Bush",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4416642
+        },
+        {
+          "person_id": 5050,
+          "name": "Xiuying Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0469975
+        },
+        {
+          "person_id": 5047,
+          "name": "Jie Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0469844
+        }
+      ]
+    },
+    {
+      "id": "album:5046",
+      "work_type": "Album",
+      "work_id": 5046,
+      "title": "Høstens Melodi (Autumn's Melody)",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 76,
+      "artist_name": "Ming Ren",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +91,65 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 76,
+          "name": "Ming Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9242806
+        },
+        {
+          "person_id": 5049,
+          "name": "Robert Knight",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8666625
+        },
+        {
+          "person_id": 5048,
+          "name": "Dennis Bush",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4416642
+        },
+        {
+          "person_id": 5050,
+          "name": "Xiuying Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0469975
+        },
+        {
+          "person_id": 5047,
+          "name": "Jie Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0469844
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:5046",
+      "target": "song:8785",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

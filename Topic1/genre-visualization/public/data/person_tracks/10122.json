@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10121",
-      "song_id": 10121,
+      "work_type": "Song",
+      "work_id": 10121,
       "title": "Consume and Crave",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,43 @@
         "reference": 1,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5646,
+          "name": "Fang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9316685
+        },
+        {
+          "person_id": 5644,
+          "name": "Li Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0160332
+        },
+        {
+          "person_id": 10123,
+          "name": "Larry Mendez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.390504
+        }
+      ]
     },
     {
       "id": "song:1466",
-      "song_id": 1466,
+      "work_type": "Song",
+      "work_id": 1466,
       "title": "Waterlogged Memories",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -43,11 +76,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1467,
+          "name": "Yan Long",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2650585
+        },
+        {
+          "person_id": 1468,
+          "name": "Ping Tao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4002388
+        }
       ]
     },
     {
       "id": "song:4316",
-      "song_id": 4316,
+      "work_type": "Song",
+      "work_id": 4316,
       "title": "Otra oportunidad (Another chance)",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -65,11 +120,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4317,
+          "name": "Juan Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.436183
+        },
+        {
+          "person_id": 4319,
+          "name": "Xiulan Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.436183
+        },
+        {
+          "person_id": 4320,
+          "name": "Ming Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0313866
+        },
+        {
+          "person_id": 4318,
+          "name": "Ming Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993173
+        }
       ]
     },
     {
       "id": "song:5643",
-      "song_id": 5643,
+      "work_type": "Song",
+      "work_id": 5643,
       "title": "Farewell, My Heartache",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -87,11 +183,41 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5646,
+          "name": "Fang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9316685
+        },
+        {
+          "person_id": 5645,
+          "name": "Wei Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.413427
+        },
+        {
+          "person_id": 5644,
+          "name": "Li Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0160332
+        }
       ]
     },
     {
       "id": "song:15570",
-      "song_id": 15570,
+      "work_type": "Song",
+      "work_id": 15570,
       "title": "Philosopher's Midnight Experiment",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -109,15 +235,40 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5646,
+          "name": "Fang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9316685
+        },
+        {
+          "person_id": 5645,
+          "name": "Wei Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.413427
+        },
+        {
+          "person_id": 13483,
+          "name": "Guiying Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.477013
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:1466",
-      "target": "song:10121",
-      "type": "LyricalReferenceTo"
-    },
     {
       "source": "song:15570",
       "target": "song:10121",
@@ -132,6 +283,11 @@
       "source": "song:5643",
       "target": "song:10121",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:1466",
+      "target": "song:10121",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2676",
-      "song_id": 2676,
-      "title": "Groove Ascension",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 2677,
-      "artist_name": "Christine Lam",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:14672",
-      "song_id": 14672,
-      "title": "Inches from Infinity",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 2677,
-      "artist_name": "Christine Lam",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3668",
-      "song_id": 3668,
+      "work_type": "Song",
+      "work_id": 3668,
       "title": "Whispers at the Threshold",
       "genre": "Doom Metal",
       "notable": true,
@@ -61,11 +22,156 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2872,
+          "name": "Jadwiga Gertz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2628565
+        },
+        {
+          "person_id": 3669,
+          "name": "Klaus-Werner Gerlach",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4051545
+        },
+        {
+          "person_id": 3670,
+          "name": "Heinz-Günter Schmiedecke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4051545
+        },
+        {
+          "person_id": 3671,
+          "name": "Ming Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4051545
+        }
+      ]
+    },
+    {
+      "id": "album:6830",
+      "work_type": "Album",
+      "work_id": 6830,
+      "title": "When Memories Dissolve",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 2677,
+      "artist_name": "Christine Lam",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6831,
+          "name": "James Gibbs",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397767
+        }
+      ]
+    },
+    {
+      "id": "song:14672",
+      "work_type": "Song",
+      "work_id": 14672,
+      "title": "Inches from Infinity",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 2677,
+      "artist_name": "Christine Lam",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14673,
+          "name": "Calogero Zamorani",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399948
+        },
+        {
+          "person_id": 14674,
+          "name": "Maurizio Curatoli",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399948
+        }
+      ]
+    },
+    {
+      "id": "song:2676",
+      "work_type": "Song",
+      "work_id": 2676,
+      "title": "Groove Ascension",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 2677,
+      "artist_name": "Christine Lam",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2678,
+          "name": "Lisa Shaffer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510085
+        }
+      ]
     },
     {
       "id": "song:2212",
-      "song_id": 2212,
+      "work_type": "Song",
+      "work_id": 2212,
       "title": "Whispers of Scandal",
       "genre": "Doom Metal",
       "notable": true,
@@ -83,11 +189,33 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2213,
+          "name": "Maria Tyler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.429483
+        },
+        {
+          "person_id": 2214,
+          "name": "Vincent Morrison",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0321643
+        }
       ]
     },
     {
       "id": "song:6721",
-      "song_id": 6721,
+      "work_type": "Song",
+      "work_id": 6721,
       "title": "Tales of the Wise Fool",
       "genre": "Indie Folk",
       "notable": true,
@@ -105,11 +233,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6722,
+          "name": "Jan Zadworny",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980136
+        },
+        {
+          "person_id": 6723,
+          "name": "Julita Łuszczak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980136
+        },
+        {
+          "person_id": 6724,
+          "name": "Tadeusz Gemza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980136
+        }
       ]
     },
     {
       "id": "song:13747",
-      "song_id": 13747,
+      "work_type": "Song",
+      "work_id": 13747,
       "title": "Echoes of a Departure",
       "genre": "Doom Metal",
       "notable": true,
@@ -127,6 +286,79 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13748,
+          "name": "Kerry Henry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3775754
+        },
+        {
+          "person_id": 13749,
+          "name": "Michele Sharp",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3586156
+        }
+      ]
+    },
+    {
+      "id": "song:14672",
+      "work_type": "Song",
+      "work_id": 14672,
+      "title": "Inches from Infinity",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": false,
+      "artist_id": 14673,
+      "artist_name": "Calogero Zamorani",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2677,
+          "name": "Christine Lam",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7025228
+        },
+        {
+          "person_id": 14673,
+          "name": "Calogero Zamorani",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399948
+        },
+        {
+          "person_id": 14674,
+          "name": "Maurizio Curatoli",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399948
+        }
       ]
     }
   ],
@@ -137,18 +369,23 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:13747",
-      "target": "song:3668",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:6721",
       "target": "song:3668",
       "type": "CoverOf"
     },
     {
+      "source": "song:13747",
+      "target": "song:3668",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:2212",
       "target": "song:3668",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:6830",
+      "target": "song:14672",
       "type": "DirectlySamples"
     }
   ]

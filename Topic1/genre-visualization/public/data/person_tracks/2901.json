@@ -1,0 +1,221 @@
+{
+  "person_id": 2901,
+  "name": "Xia Yao",
+  "stage_name": "Zephara",
+  "nodes": [
+    {
+      "id": "album:2899",
+      "work_type": "Album",
+      "work_id": 2899,
+      "title": "Unspoken Truth",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 2901,
+      "artist_name": "Xia Yao (Zephara)",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2900,
+          "name": "Li Yi",
+          "stage_name": " Quinn Atlas",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4007416
+        },
+        {
+          "person_id": 2902,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007416
+        },
+        {
+          "person_id": 2903,
+          "name": "Xiuying Wang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4007416
+        }
+      ]
+    },
+    {
+      "id": "album:2391",
+      "work_type": "Album",
+      "work_id": 2391,
+      "title": "Concrete Legacy",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2393,
+      "artist_name": "Xia Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2394,
+          "name": "Kristi Bowers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0451233
+        },
+        {
+          "person_id": 2396,
+          "name": "Jing Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0451233
+        },
+        {
+          "person_id": 2393,
+          "name": "Xia Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0377593
+        },
+        {
+          "person_id": 2392,
+          "name": "Yang Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990335
+        },
+        {
+          "person_id": 2395,
+          "name": "Yan Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990335
+        },
+        {
+          "person_id": 2397,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990335
+        }
+      ]
+    },
+    {
+      "id": "song:11130",
+      "work_type": "Song",
+      "work_id": 11130,
+      "title": "Denali's Whisper",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 11131,
+      "artist_name": "Li Yang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11132,
+          "name": "Xia Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11134,
+          "name": "Fang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961003
+        },
+        {
+          "person_id": 11131,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11133,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960795
+        },
+        {
+          "person_id": 11135,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960795
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:2391",
+      "target": "album:2899",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11130",
+      "target": "album:2899",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

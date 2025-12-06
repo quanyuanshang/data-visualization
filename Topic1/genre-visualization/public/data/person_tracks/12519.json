@@ -1,0 +1,120 @@
+{
+  "person_id": 12519,
+  "name": "Trevor Weiss",
+  "stage_name": " Quest",
+  "nodes": [
+    {
+      "id": "album:12518",
+      "work_type": "Album",
+      "work_id": 12518,
+      "title": "Scales and Streetlights",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 12519,
+      "artist_name": "Trevor Weiss ( Quest)",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 4657,
+          "name": "Li Zhao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.432538
+        },
+        {
+          "person_id": 6370,
+          "name": "Jun Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0372517
+        },
+        {
+          "person_id": 12520,
+          "name": "Jing Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3725357
+        }
+      ]
+    },
+    {
+      "id": "song:7540",
+      "work_type": "Song",
+      "work_id": 7540,
+      "title": "Midnight's Pale Feast",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": false,
+      "artist_id": 7542,
+      "artist_name": "Li Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7542,
+          "name": "Li Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983433
+        },
+        {
+          "person_id": 7541,
+          "name": "Jeffrey Garrett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398139
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7540",
+      "target": "album:12518",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7140",
-      "song_id": 7140,
+      "work_type": "Song",
+      "work_id": 7140,
       "title": "Waves of Longing",
       "genre": "Desert Rock",
       "notable": true,
@@ -21,8 +22,186 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1238,
+          "name": "Yan Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7063375
+        },
+        {
+          "person_id": 7142,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4279048
+        },
+        {
+          "person_id": 7143,
+          "name": "Ming Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4043033
+        },
+        {
+          "person_id": 7146,
+          "name": "Ming Sun",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997333
+        },
+        {
+          "person_id": 7141,
+          "name": "Fang Cheng",
+          "stage_name": "Quantum Waltz",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995636
+        },
+        {
+          "person_id": 7144,
+          "name": "Tao Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3995636
+        }
+      ]
+    },
+    {
+      "id": "album:13961",
+      "work_type": "Album",
+      "work_id": 13961,
+      "title": "Twilight of Infinite Endings",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 7145,
+      "artist_name": "Chao Dai",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1877,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2593718
+        },
+        {
+          "person_id": 1878,
+          "name": "Wei Gao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7111735
+        },
+        {
+          "person_id": 13962,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956432
+        },
+        {
+          "person_id": 13963,
+          "name": "Yan Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956432
+        }
+      ]
+    },
+    {
+      "id": "song:16458",
+      "work_type": "Song",
+      "work_id": 16458,
+      "title": "Shepherds' Journey",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 16459,
+      "artist_name": "Alexis Hart ( Lexi Hart)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16459,
+          "name": "Alexis Hart",
+          "stage_name": " Lexi Hart",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968718
+        },
+        {
+          "person_id": 16460,
+          "name": "Yan Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968718
+        },
+        {
+          "person_id": 16461,
+          "name": "Yong Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968718
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:16458",
+      "target": "album:13961",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

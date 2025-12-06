@@ -1,0 +1,192 @@
+{
+  "person_id": 7911,
+  "name": "Qiang Li",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:7908",
+      "work_type": "Album",
+      "work_id": 7908,
+      "title": "Aerial Echoes of Freedom",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 7911,
+      "artist_name": "Qiang Li",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2861,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4371288
+        },
+        {
+          "person_id": 7909,
+          "name": "Tao Feng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7910,
+          "name": "Ming Fang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7912,
+          "name": "Jie Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3940048
+        }
+      ]
+    },
+    {
+      "id": "song:12347",
+      "work_type": "Song",
+      "work_id": 12347,
+      "title": "Broken Generation",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 2861,
+      "artist_name": "Jie Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2861,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4371288
+        },
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 12348,
+          "name": "Ming Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        },
+        {
+          "person_id": 12349,
+          "name": "Jing Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        }
+      ]
+    },
+    {
+      "id": "song:16354",
+      "work_type": "Song",
+      "work_id": 16354,
+      "title": "Farmland Titans",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 5151,
+      "artist_name": "Linda Santos",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15794,
+          "name": "Ming Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054135
+        },
+        {
+          "person_id": 5151,
+          "name": "Linda Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393343
+        },
+        {
+          "person_id": 16355,
+          "name": "Robert King",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397444
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12347",
+      "target": "album:7908",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16354",
+      "target": "album:7908",
+      "type": "CoverOf"
+    }
+  ]
+}

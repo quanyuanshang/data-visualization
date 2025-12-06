@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4123",
-      "song_id": 4123,
+      "work_type": "Song",
+      "work_id": 4123,
       "title": "Whispers of the Virtuoso's Bow",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1220,
+          "name": "Jie Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4555035
+        },
+        {
+          "person_id": 1219,
+          "name": "Yan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3809786
+        },
+        {
+          "person_id": 3413,
+          "name": "Tao Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1085143
+        },
+        {
+          "person_id": 4125,
+          "name": "Tao Zhang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.702504
+        }
+      ]
     },
     {
       "id": "song:14606",
-      "song_id": 14606,
+      "work_type": "Song",
+      "work_id": 14606,
       "title": "The Number That Haunts Me",
       "genre": "Synthwave",
       "notable": true,
@@ -41,11 +82,51 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1220,
+          "name": "Jie Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4555035
+        },
+        {
+          "person_id": 1219,
+          "name": "Yan Cai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3809786
+        },
+        {
+          "person_id": 14607,
+          "name": "Karen Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979208
+        },
+        {
+          "person_id": 14608,
+          "name": "Lei Qiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979208
+        }
+      ]
     },
     {
       "id": "song:9644",
-      "song_id": 9644,
+      "work_type": "Song",
+      "work_id": 9644,
       "title": "Brisk Passage in B Major",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -63,6 +144,18 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9645,
+          "name": "Christopher Glover",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970318
+        }
       ]
     }
   ],

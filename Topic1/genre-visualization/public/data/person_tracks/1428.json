@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:8945",
-      "song_id": 8945,
-      "title": "Emerald Shadows of Her Name",
-      "genre": "Speed Metal",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 1428,
-      "artist_name": "Fang Pan",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1425",
-      "song_id": 1425,
+      "work_type": "Song",
+      "work_id": 1425,
       "title": "Sunlit Laughter",
       "genre": "Doom Metal",
       "notable": true,
@@ -41,7 +22,88 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1429,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7063024
+        },
+        {
+          "person_id": 1426,
+          "name": "Susan Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973398
+        },
+        {
+          "person_id": 1427,
+          "name": "Miss Cynthia Myers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973398
+        }
+      ]
+    },
+    {
+      "id": "song:8945",
+      "work_type": "Song",
+      "work_id": 8945,
+      "title": "Emerald Shadows of Her Name",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 1428,
+      "artist_name": "Fang Pan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8948,
+          "name": "Jing Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.434054
+        },
+        {
+          "person_id": 8946,
+          "name": "Yang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0508552
+        },
+        {
+          "person_id": 8947,
+          "name": "Na Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3970106
+        }
+      ]
     }
   ],
   "links": []

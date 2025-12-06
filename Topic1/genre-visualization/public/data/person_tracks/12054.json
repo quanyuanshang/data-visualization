@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12052",
-      "song_id": 12052,
+      "work_type": "Song",
+      "work_id": 12052,
       "title": "Chapters Yet Unwritten",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12055,
+          "name": "Francisco Krein-Möchlichen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4213994
+        },
+        {
+          "person_id": 12056,
+          "name": "Michael Maddox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4204335
+        },
+        {
+          "person_id": 12053,
+          "name": "Sarah Gardner",
+          "stage_name": " Bishop",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4193928
+        }
+      ]
     },
     {
       "id": "song:13711",
-      "song_id": 13711,
+      "work_type": "Song",
+      "work_id": 13711,
       "title": "Puddle Waltz",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +75,41 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12056,
+          "name": "Michael Maddox",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4204335
+        },
+        {
+          "person_id": 12053,
+          "name": "Sarah Gardner",
+          "stage_name": " Bishop",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4193928
+        },
+        {
+          "person_id": 13712,
+          "name": "Ferenc Mälzer",
+          "stage_name": "The Paper Empires",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397894
+        }
       ]
     },
     {
       "id": "song:16614",
-      "song_id": 16614,
+      "work_type": "Song",
+      "work_id": 16614,
       "title": "Tonight, You'll Remember My Name",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,17 +127,47 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12055,
+          "name": "Francisco Krein-Möchlichen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4213994
+        },
+        {
+          "person_id": 12056,
+          "name": "Michael Maddox",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4204335
+        },
+        {
+          "person_id": 12053,
+          "name": "Sarah Gardner",
+          "stage_name": " Bishop",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4193928
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16614",
+      "source": "song:13711",
       "target": "song:12052",
       "type": "InStyleOf"
     },
     {
-      "source": "song:13711",
+      "source": "song:16614",
       "target": "song:12052",
       "type": "InStyleOf"
     }

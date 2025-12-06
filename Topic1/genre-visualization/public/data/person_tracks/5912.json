@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:5911",
-      "song_id": 5911,
-      "title": "Sleepless Memories",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2024,
-      "single": false,
-      "own": true,
-      "artist_id": 5912,
-      "artist_name": "Xia Xue",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6396",
-      "song_id": 6396,
+      "work_type": "Song",
+      "work_id": 6396,
       "title": "Contagious Heartache",
       "genre": "Indie Rock",
       "notable": true,
@@ -34,18 +15,203 @@
       "own": true,
       "artist_id": 5912,
       "artist_name": "Xia Xue",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        }
+      ]
+    },
+    {
+      "id": "song:5911",
+      "work_type": "Song",
+      "work_id": 5911,
+      "title": "Sleepless Memories",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": true,
+      "artist_id": 5912,
+      "artist_name": "Xia Xue",
+      "influence": 14,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1272407
+        }
+      ]
+    },
+    {
+      "id": "song:5911",
+      "work_type": "Song",
+      "work_id": 5911,
+      "title": "Sleepless Memories",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 878,
+      "artist_name": "Jing Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 5912,
+          "name": "Xia Xue",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0053184
+        }
+      ]
+    },
+    {
+      "id": "album:14828",
+      "work_type": "Album",
+      "work_id": 14828,
+      "title": "Barn Door Dialogues",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 8913,
+      "artist_name": "Richard Goodman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom",
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8913,
+          "name": "Richard Goodman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0329998
+        },
+        {
+          "person_id": 14829,
+          "name": "Cynthia Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968341
+        }
+      ]
+    },
+    {
+      "id": "album:5699",
+      "work_type": "Album",
+      "work_id": 5699,
+      "title": "Nomad's Embrace",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 5700,
+      "artist_name": "Ping Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5701,
+          "name": "Xiuying Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980012
+        },
+        {
+          "person_id": 5700,
+          "name": "Ping Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968039
+        },
+        {
+          "person_id": 5702,
+          "name": "Qiang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968039
+        }
+      ]
     },
     {
       "id": "song:7936",
-      "song_id": 7936,
+      "work_type": "Song",
+      "work_id": 7936,
       "title": "Olśnienie",
       "genre": "Indie Rock",
       "notable": true,
@@ -63,10 +229,90 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7937,
+          "name": "Na Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2594504
+        },
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9371912
+        }
+      ]
+    },
+    {
+      "id": "album:10333",
+      "work_type": "Album",
+      "work_id": 10333,
+      "title": "Threads of Nomadic Heritage",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 10335,
+      "artist_name": "Na Qin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10335,
+          "name": "Na Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981686
+        },
+        {
+          "person_id": 10334,
+          "name": "Ming Shao",
+          "stage_name": " Terra",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3979914
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:14828",
+      "target": "song:6396",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:5699",
+      "target": "song:5911",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:14828",
+      "target": "song:5911",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:7936",
       "target": "song:5911",
@@ -76,6 +322,11 @@
       "source": "song:5911",
       "target": "song:6396",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:10333",
+      "target": "song:5911",
+      "type": "DirectlySamples"
     }
   ]
 }

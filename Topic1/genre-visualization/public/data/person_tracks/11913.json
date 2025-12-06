@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11911",
-      "song_id": 11911,
+      "work_type": "Song",
+      "work_id": 11911,
       "title": "Time's Running Out",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11403,
+          "name": "Chao Hao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.7149854
+        },
+        {
+          "person_id": 11912,
+          "name": "Guiying Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980095
+        }
+      ]
     },
     {
       "id": "song:16336",
-      "song_id": 16336,
+      "work_type": "Song",
+      "work_id": 16336,
       "title": "Pantheon's Echo",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,19 +65,50 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 16337,
+          "name": "Xia Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955705
+        },
+        {
+          "person_id": 16338,
+          "name": "Meghan Cortez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3955705
+        }
       ]
     },
     {
       "id": "song:17050",
-      "song_id": 17050,
+      "work_type": "Song",
+      "work_id": 17050,
       "title": "Star-Touched Tides",
       "genre": "Oceanus Folk",
       "notable": true,
       "release_year": 2034,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17046,
+      "artist_name": "The Brine Choir（成员：Arlo Sterling｜预测 3.42、Lyra Blaze｜预测 3.36…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -65,19 +118,20 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
-      ]
+      ],
+      "collaborators": []
     }
   ],
   "links": [
     {
-      "source": "song:16336",
-      "target": "song:11911",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:17050",
       "target": "song:11911",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:16336",
+      "target": "song:11911",
+      "type": "DirectlySamples"
     }
   ]
 }

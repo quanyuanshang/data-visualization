@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10996",
-      "song_id": 10996,
+      "work_type": "Song",
+      "work_id": 10996,
       "title": "Echoes from the Vocal Shrine",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,98 +15,20 @@
       "own": true,
       "artist_id": 3820,
       "artist_name": "Melanie Jimenez",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:6787",
-      "song_id": 6787,
-      "title": "Spin Cycle",
-      "genre": "Americana",
-      "notable": true,
-      "release_year": 1997,
-      "single": false,
-      "own": true,
-      "artist_id": 3820,
-      "artist_name": "Melanie Jimenez",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:7165",
-      "song_id": 7165,
-      "title": "Canine Warning Signals",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2003,
-      "single": false,
-      "own": true,
-      "artist_id": 3820,
-      "artist_name": "Melanie Jimenez",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:8687",
-      "song_id": 8687,
-      "title": "Strangers with Open Doors",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 1997,
-      "single": true,
-      "own": true,
-      "artist_id": 3820,
-      "artist_name": "Melanie Jimenez",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
         "sample": 0,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:11875",
-      "song_id": 11875,
-      "title": "Brilliant Affection",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 1994,
-      "single": false,
-      "own": true,
-      "artist_id": 3820,
-      "artist_name": "Melanie Jimenez",
-      "influence": 6,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 2,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:16230",
-      "song_id": 16230,
+      "work_type": "Song",
+      "work_id": 16230,
       "title": "Concrete and Clay Symphony",
       "genre": "Synthwave",
       "notable": true,
@@ -121,11 +44,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16231,
+          "name": "Dale Bell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4000762
+        },
+        {
+          "person_id": 16232,
+          "name": "Raymond Gates",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000762
+        }
+      ]
     },
     {
       "id": "song:3819",
-      "song_id": 3819,
+      "work_type": "Song",
+      "work_id": 3819,
       "title": "Dominion's Twilight",
       "genre": "Synthwave",
       "notable": true,
@@ -141,11 +85,205 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3821,
+          "name": "Steven Buchanan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6999068
+        }
+      ]
+    },
+    {
+      "id": "song:8687",
+      "work_type": "Song",
+      "work_id": 8687,
+      "title": "Strangers with Open Doors",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 1997,
+      "single": true,
+      "own": true,
+      "artist_id": 3820,
+      "artist_name": "Melanie Jimenez",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3821,
+          "name": "Steven Buchanan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6999068
+        }
+      ]
+    },
+    {
+      "id": "song:11875",
+      "work_type": "Song",
+      "work_id": 11875,
+      "title": "Brilliant Affection",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1994,
+      "single": false,
+      "own": true,
+      "artist_id": 3820,
+      "artist_name": "Melanie Jimenez",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11876,
+          "name": "Nicholas Burns",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398808
+        },
+        {
+          "person_id": 11877,
+          "name": "Bianca Singleton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398808
+        }
+      ]
+    },
+    {
+      "id": "song:6787",
+      "work_type": "Song",
+      "work_id": 6787,
+      "title": "Spin Cycle",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": true,
+      "artist_id": 3820,
+      "artist_name": "Melanie Jimenez",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3821,
+          "name": "Steven Buchanan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6999068
+        }
+      ]
+    },
+    {
+      "id": "song:7165",
+      "work_type": "Song",
+      "work_id": 7165,
+      "title": "Canine Warning Signals",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2003,
+      "single": false,
+      "own": true,
+      "artist_id": 3820,
+      "artist_name": "Melanie Jimenez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3821,
+          "name": "Steven Buchanan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6999068
+        }
+      ]
+    },
+    {
+      "id": "album:14798",
+      "work_type": "Album",
+      "work_id": 14798,
+      "title": "Delicate Interludes of the Heart",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 1838,
+      "artist_name": "Carolyn Schultz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 1839,
+          "name": "Miguel Johnston",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7364244
+        }
+      ]
     },
     {
       "id": "song:16230",
-      "song_id": 16230,
+      "work_type": "Song",
+      "work_id": 16230,
       "title": "Concrete and Clay Symphony",
       "genre": "Synthwave",
       "notable": true,
@@ -163,19 +301,50 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3820,
+          "name": "Melanie Jimenez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659273
+        },
+        {
+          "person_id": 16231,
+          "name": "Dale Bell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4000762
+        },
+        {
+          "person_id": 16232,
+          "name": "Raymond Gates",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000762
+        }
       ]
     },
     {
-      "id": "song:7165",
-      "song_id": 7165,
-      "title": "Canine Warning Signals",
-      "genre": "Synthwave",
+      "id": "album:12976",
+      "work_type": "Album",
+      "work_id": 12976,
+      "title": "Longing Between the Streetlights",
+      "genre": "Doom Metal",
       "notable": true,
-      "release_year": 2003,
+      "release_year": 2015,
       "single": false,
-      "own": true,
-      "artist_id": 3820,
-      "artist_name": "Melanie Jimenez",
+      "own": false,
+      "artist_id": 12977,
+      "artist_name": "Sara Levy",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -185,19 +354,40 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12978,
+          "name": "Gregory Evans",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3961027
+        },
+        {
+          "person_id": 12977,
+          "name": "Sara Levy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960457
+        }
       ]
     },
     {
-      "id": "song:3819",
-      "song_id": 3819,
-      "title": "Dominion's Twilight",
+      "id": "song:7165",
+      "work_type": "Song",
+      "work_id": 7165,
+      "title": "Canine Warning Signals",
       "genre": "Synthwave",
       "notable": true,
-      "release_year": 1997,
+      "release_year": 2003,
       "single": false,
-      "own": true,
-      "artist_id": 3820,
-      "artist_name": "Melanie Jimenez",
+      "own": false,
+      "artist_id": 16799,
+      "artist_name": "Crossroads & Cipher（成员：Melanie Jimenez｜预测 4.27、Steven Buchanan｜预测 3.70）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -206,11 +396,56 @@
         "style": 0
       },
       "relation_types": [
-        "LyricalReferenceTo"
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3820,
+          "name": "Melanie Jimenez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.2659273
+        },
+        {
+          "person_id": 3821,
+          "name": "Steven Buchanan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6999068
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:10996",
+      "target": "song:11875",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14798",
+      "target": "song:10996",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:3819",
+      "target": "song:11875",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:7165",
+      "target": "song:6787",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:12976",
+      "target": "song:11875",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:16230",
       "target": "song:10996",
@@ -220,21 +455,6 @@
       "source": "song:10996",
       "target": "song:8687",
       "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:7165",
-      "target": "song:6787",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:10996",
-      "target": "song:11875",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:3819",
-      "target": "song:11875",
-      "type": "LyricalReferenceTo"
     }
   ]
 }

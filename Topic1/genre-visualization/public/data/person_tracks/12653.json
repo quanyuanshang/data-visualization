@@ -1,0 +1,108 @@
+{
+  "person_id": 12653,
+  "name": "Lei Li",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:12652",
+      "work_type": "Album",
+      "work_id": 12652,
+      "title": "Primal Court of Reckoning",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": true,
+      "artist_id": 12653,
+      "artist_name": "Lei Li",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1897,
+          "name": "Li Shao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0441093
+        },
+        {
+          "person_id": 12654,
+          "name": "Xiulan Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.39841
+        },
+        {
+          "person_id": 12655,
+          "name": "Xia Meng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982403
+        }
+      ]
+    },
+    {
+      "id": "song:1895",
+      "work_type": "Song",
+      "work_id": 1895,
+      "title": "Yeni Doğan Devrim (Newborn Revolution)",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 1896,
+      "artist_name": "Na Tao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1897,
+          "name": "Li Shao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0441093
+        },
+        {
+          "person_id": 1896,
+          "name": "Na Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990657
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1895",
+      "target": "album:12652",
+      "type": "CoverOf"
+    }
+  ]
+}

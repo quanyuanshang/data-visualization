@@ -1,0 +1,109 @@
+{
+  "person_id": 1930,
+  "name": "Nitya Dass",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:1927",
+      "work_type": "Album",
+      "work_id": 1927,
+      "title": "Footprints in Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2011,
+      "single": false,
+      "own": true,
+      "artist_id": 1930,
+      "artist_name": "Nitya Dass",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1932,
+          "name": "Shaan Sanghvi",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.791139
+        },
+        {
+          "person_id": 1929,
+          "name": "Rhea Wali",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7036529
+        },
+        {
+          "person_id": 1928,
+          "name": "Zara Trivedi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3671927
+        },
+        {
+          "person_id": 1931,
+          "name": "Anahi Sachdeva",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392466
+        }
+      ]
+    },
+    {
+      "id": "album:16979",
+      "work_type": "Album",
+      "work_id": 16979,
+      "title": "Disco Apocalypse",
+      "genre": "Southern Gothic Rock",
+      "notable": false,
+      "release_year": 2033,
+      "single": false,
+      "own": false,
+      "artist_id": 16977,
+      "artist_name": "Mira Everly (Ivy Lux)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16977,
+          "name": "Mira Everly",
+          "stage_name": "Ivy Lux",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4330566
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:16979",
+      "target": "album:1927",
+      "type": "CoverOf"
+    }
+  ]
+}

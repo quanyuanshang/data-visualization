@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:12045",
-      "song_id": 12045,
-      "title": "Crayon of Destiny",
-      "genre": "Psychedelic Rock",
-      "notable": true,
-      "release_year": 2024,
-      "single": true,
-      "own": true,
-      "artist_id": 2706,
-      "artist_name": "Zachary Francis",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9649",
-      "song_id": 9649,
+      "work_type": "Song",
+      "work_id": 9649,
       "title": "Rhythmic Ascent in B",
       "genre": "Synthwave",
       "notable": true,
@@ -41,11 +22,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:2704",
-      "song_id": 2704,
+      "work_type": "Song",
+      "work_id": 2704,
       "title": "Theatrical Tempest",
       "genre": "Americana",
       "notable": true,
@@ -61,11 +44,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2707,
+          "name": "Robert Woods",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4413185
+        },
+        {
+          "person_id": 2705,
+          "name": "Jeremiah Love",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0207887
+        }
+      ]
     },
     {
       "id": "song:10534",
-      "song_id": 10534,
+      "work_type": "Song",
+      "work_id": 10534,
       "title": "Twelve Bells of Augsburg",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -81,33 +86,85 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2707,
+          "name": "Robert Woods",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4413185
+        },
+        {
+          "person_id": 2705,
+          "name": "Jeremiah Love",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0207887
+        }
+      ]
     },
     {
-      "id": "song:2260",
-      "song_id": 2260,
-      "title": "Inherited Arguments",
-      "genre": "Symphonic Metal",
+      "id": "song:12045",
+      "work_type": "Song",
+      "work_id": 12045,
+      "title": "Crayon of Destiny",
+      "genre": "Psychedelic Rock",
       "notable": true,
-      "release_year": 2029,
+      "release_year": 2024,
       "single": true,
-      "own": false,
-      "artist_id": 2261,
-      "artist_name": "Chao Gao (Solar Arcadia)",
-      "influence": 0,
+      "own": true,
+      "artist_id": 2706,
+      "artist_name": "Zachary Francis",
+      "influence": 5,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12046,
+          "name": "David Higgins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.381441
+        },
+        {
+          "person_id": 12047,
+          "name": "Thomas Stephens",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.381441
+        },
+        {
+          "person_id": 12048,
+          "name": "Patrick Davenport",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.381441
+        }
       ]
     },
     {
       "id": "song:10534",
-      "song_id": 10534,
+      "work_type": "Song",
+      "work_id": 10534,
       "title": "Twelve Bells of Augsburg",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -125,11 +182,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2706,
+          "name": "Zachary Francis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7104144
+        },
+        {
+          "person_id": 2707,
+          "name": "Robert Woods",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4413185
+        },
+        {
+          "person_id": 2705,
+          "name": "Jeremiah Love",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0207887
+        }
       ]
     },
     {
       "id": "song:17280",
-      "song_id": 17280,
+      "work_type": "Song",
+      "work_id": 17280,
       "title": "Electric Eel Love",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -147,6 +236,90 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        }
+      ]
+    },
+    {
+      "id": "song:2260",
+      "work_type": "Song",
+      "work_id": 2260,
+      "title": "Inherited Arguments",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 2261,
+      "artist_name": "Chao Gao (Solar Arcadia)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2261,
+          "name": "Chao Gao",
+          "stage_name": "Solar Arcadia",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2263,
+          "name": "Fang Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2264,
+          "name": "Fang Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2265,
+          "name": "William Ball",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397398
+        },
+        {
+          "person_id": 2262,
+          "name": "Jie Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3973906
+        }
       ]
     }
   ],
@@ -157,14 +330,14 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:17280",
-      "target": "song:10534",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:2260",
       "target": "song:12045",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:17280",
+      "target": "song:10534",
+      "type": "InStyleOf"
     }
   ]
 }

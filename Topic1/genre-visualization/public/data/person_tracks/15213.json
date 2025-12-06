@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15212",
-      "song_id": 15212,
+      "work_type": "Song",
+      "work_id": 15212,
       "title": "Whispers of the Crane",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 483,
+          "name": "Wei Su",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4170926
+        },
+        {
+          "person_id": 4860,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.040348
+        }
+      ]
     },
     {
       "id": "song:15144",
-      "song_id": 15144,
+      "work_type": "Song",
+      "work_id": 15144,
       "title": "The Last Wave from Number 42",
       "genre": "Space Rock",
       "notable": true,
@@ -43,6 +66,53 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15145,
+          "name": "Li Hu",
+          "stage_name": " THA SAINT",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981423
+        },
+        {
+          "person_id": 15147,
+          "name": "Tao Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981423
+        },
+        {
+          "person_id": 15149,
+          "name": "Xiulan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981423
+        },
+        {
+          "person_id": 15148,
+          "name": "Wei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981245
+        },
+        {
+          "person_id": 15146,
+          "name": "Lei Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981216
+        }
       ]
     }
   ],

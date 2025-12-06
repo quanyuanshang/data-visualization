@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8495",
-      "song_id": 8495,
+      "work_type": "Song",
+      "work_id": 8495,
       "title": "Soulmates Through Time",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8497,
+          "name": "Paul Sanders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.022024
+        }
+      ]
     },
     {
       "id": "song:9557",
-      "song_id": 9557,
+      "work_type": "Song",
+      "work_id": 9557,
       "title": "Unbreakable Journey",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +56,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 9558,
+          "name": "Larry Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278525
+        }
       ]
     },
     {
       "id": "song:14567",
-      "song_id": 14567,
+      "work_type": "Song",
+      "work_id": 14567,
       "title": "Whispers of the Nordic Meadow",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +109,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9558,
+          "name": "Larry Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278525
+        },
+        {
+          "person_id": 14568,
+          "name": "Dawn Kelly",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980784
+        }
       ]
     },
     {
       "id": "song:15642",
-      "song_id": 15642,
+      "work_type": "Song",
+      "work_id": 15642,
       "title": "Breathe Through the Storm",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,10 +162,45 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 7867,
+          "name": "Frank Bonilla",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0393202
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:15642",
+      "target": "song:8495",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:14567",
       "target": "song:8495",
@@ -100,11 +210,6 @@
       "source": "song:9557",
       "target": "song:8495",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:15642",
-      "target": "song:8495",
-      "type": "LyricalReferenceTo"
     }
   ]
 }

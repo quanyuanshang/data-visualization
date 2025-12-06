@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12142",
-      "song_id": 12142,
+      "work_type": "Song",
+      "work_id": 12142,
       "title": "Refuge Beyond Horizons",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12144,
+          "name": "Ming Duan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.045056
+        },
+        {
+          "person_id": 12145,
+          "name": "Guiying Xiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.045056
+        }
+      ]
     },
     {
       "id": "song:15998",
-      "song_id": 15998,
+      "work_type": "Song",
+      "work_id": 15998,
       "title": "Compassion Beyond Measure",
       "genre": "Alternative Rock",
       "notable": true,
@@ -34,18 +56,111 @@
       "own": true,
       "artist_id": 12143,
       "artist_name": "Robert Nunez (LO KEYZ)",
-      "influence": 5,
+      "influence": 7,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12144,
+          "name": "Ming Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045056
+        },
+        {
+          "person_id": 12145,
+          "name": "Guiying Xiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.045056
+        },
+        {
+          "person_id": 15999,
+          "name": "Gang Du",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3837113
+        },
+        {
+          "person_id": 16000,
+          "name": "Xiulan Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3837113
+        }
+      ]
+    },
+    {
+      "id": "album:1310",
+      "work_type": "Album",
+      "work_id": 1310,
+      "title": "Alleys and Ambition",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 753,
+      "artist_name": "Lei Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1312,
+          "name": "Barbara Weitzel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158084
+        },
+        {
+          "person_id": 1311,
+          "name": "Juan Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398836
+        }
+      ]
     },
     {
       "id": "song:13623",
-      "song_id": 13623,
+      "work_type": "Song",
+      "work_id": 13623,
       "title": "Echoes of Ancestral Ground",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,10 +178,64 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 1312,
+          "name": "Barbara Weitzel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7158084
+        },
+        {
+          "person_id": 11747,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0360928
+        },
+        {
+          "person_id": 6853,
+          "name": "Xiulan Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.034648
+        },
+        {
+          "person_id": 13624,
+          "name": "Wei Gu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974886
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:1310",
+      "target": "song:15998",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:13623",
       "target": "song:15998",

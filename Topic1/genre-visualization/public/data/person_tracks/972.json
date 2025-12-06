@@ -4,8 +4,31 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:13707",
+      "work_type": "Album",
+      "work_id": 13707,
+      "title": "Delightful",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 972,
+      "artist_name": "Robin Jones",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
       "id": "song:12534",
-      "song_id": 12534,
+      "work_type": "Song",
+      "work_id": 12534,
       "title": "Cradle of Echoes",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +44,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:970",
-      "song_id": 970,
+      "work_type": "Song",
+      "work_id": 970,
       "title": "Wooden Heart",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +66,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 971,
+          "name": "Andrea Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984873
+        }
+      ]
     },
     {
       "id": "song:6386",
-      "song_id": 6386,
+      "work_type": "Song",
+      "work_id": 6386,
       "title": "Almost Touched",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,7 +98,37 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6388,
+          "name": "Xia Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398164
+        },
+        {
+          "person_id": 6389,
+          "name": "Jie Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980138
+        },
+        {
+          "person_id": 6387,
+          "name": "William Shields",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977418
+        }
+      ]
     }
   ],
   "links": []

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10379",
-      "song_id": 10379,
+      "work_type": "Song",
+      "work_id": 10379,
       "title": "Steps Through Time",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10380,
+          "name": "Elizabeth Hill",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986733
+        },
+        {
+          "person_id": 10381,
+          "name": "Christie Woods",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986733
+        }
+      ]
     },
     {
       "id": "song:15603",
-      "song_id": 15603,
+      "work_type": "Song",
+      "work_id": 15603,
       "title": "Windswept Memories",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,6 +65,19 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15604,
+          "name": "Terry Olson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.389677
+        }
       ]
     }
   ],

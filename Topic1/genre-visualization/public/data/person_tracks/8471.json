@@ -4,8 +4,42 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:8469",
+      "work_type": "Album",
+      "work_id": 8469,
+      "title": "One More Day Till Freedom",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 8471,
+      "artist_name": "Andrew Richard",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8470,
+          "name": "Michael Ross",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185722
+        }
+      ]
+    },
+    {
       "id": "song:10141",
-      "song_id": 10141,
+      "work_type": "Song",
+      "work_id": 10141,
       "title": "Melody in Melancholy",
       "genre": "Speed Metal",
       "notable": true,
@@ -14,18 +48,31 @@
       "own": true,
       "artist_id": 8471,
       "artist_name": "Andrew Richard",
-      "influence": 2,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8470,
+          "name": "Michael Ross",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185722
+        }
+      ]
     },
     {
       "id": "song:14700",
-      "song_id": 14700,
+      "work_type": "Song",
+      "work_id": 14700,
       "title": "Particulate Resonance",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,10 +90,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3272,
+          "name": "Christian Mcpherson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.707522
+        },
+        {
+          "person_id": 8470,
+          "name": "Michael Ross",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185722
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:8469",
+      "target": "song:10141",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:14700",
       "target": "song:10141",

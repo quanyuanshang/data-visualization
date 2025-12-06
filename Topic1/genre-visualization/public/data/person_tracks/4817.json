@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4814",
-      "song_id": 4814,
+      "work_type": "Song",
+      "work_id": 4814,
       "title": "Solitude's Symphony",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,67 @@
       "own": true,
       "artist_id": 4817,
       "artist_name": "Li Qin",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2591,
+          "name": "Theresa Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.397802
+        },
+        {
+          "person_id": 1241,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0206723
+        },
+        {
+          "person_id": 4816,
+          "name": "Xia Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.427732
+        },
+        {
+          "person_id": 4815,
+          "name": "Ping Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3957665
+        }
+      ]
+    },
+    {
+      "id": "album:2480",
+      "work_type": "Album",
+      "work_id": 2480,
+      "title": "Boundless Resonance",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2481,
+      "artist_name": "Yong Kang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +83,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2482,
+          "name": "Min Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0262227
+        },
+        {
+          "person_id": 2483,
+          "name": "Lei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0143523
+        },
+        {
+          "person_id": 2484,
+          "name": "Gang Chang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0143523
+        },
+        {
+          "person_id": 2481,
+          "name": "Yong Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998485
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:2480",
+      "target": "song:4814",
+      "type": "InStyleOf"
+    }
+  ]
 }

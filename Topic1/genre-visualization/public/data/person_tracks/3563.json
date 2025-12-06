@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3562",
-      "song_id": 3562,
+      "work_type": "Song",
+      "work_id": 3562,
       "title": "Fragments of Introspection",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3564,
+          "name": "Jillian Crane",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975086
+        },
+        {
+          "person_id": 3565,
+          "name": "Kevin Wells",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3975086
+        }
+      ]
     },
     {
       "id": "song:11369",
-      "song_id": 11369,
+      "work_type": "Song",
+      "work_id": 11369,
       "title": "Down the Hatch",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -41,11 +63,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11370,
+          "name": "Jessica Garcia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976703
+        }
+      ]
     },
     {
       "id": "song:11369",
-      "song_id": 11369,
+      "work_type": "Song",
+      "work_id": 11369,
       "title": "Down the Hatch",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -63,6 +98,27 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3563,
+          "name": "Robert Lynn",
+          "stage_name": " RVGE",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041177
+        },
+        {
+          "person_id": 11370,
+          "name": "Jessica Garcia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976703
+        }
       ]
     }
   ],

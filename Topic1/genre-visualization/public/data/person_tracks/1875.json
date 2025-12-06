@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1874",
-      "song_id": 1874,
+      "work_type": "Song",
+      "work_id": 1874,
       "title": "Dusty Miles",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,60 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1877,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2593718
+        },
+        {
+          "person_id": 274,
+          "name": "Li Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7142708
+        },
+        {
+          "person_id": 1878,
+          "name": "Wei Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7111735
+        },
+        {
+          "person_id": 273,
+          "name": "Tao Zou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0304613
+        },
+        {
+          "person_id": 1876,
+          "name": "Ming Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4020576
+        }
+      ]
     },
     {
       "id": "song:16582",
-      "song_id": 16582,
+      "work_type": "Song",
+      "work_id": 16582,
       "title": "Drowning in Denial",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -41,11 +91,50 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1877,
+          "name": "Xiulan Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2593718
+        },
+        {
+          "person_id": 274,
+          "name": "Li Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7142708
+        },
+        {
+          "person_id": 1878,
+          "name": "Wei Gao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7111735
+        },
+        {
+          "person_id": 16583,
+          "name": "Li Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986897
+        }
+      ]
     },
     {
       "id": "song:3580",
-      "song_id": 3580,
+      "work_type": "Song",
+      "work_id": 3580,
       "title": "Shadows of Unexpressed Feelings",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,19 +152,40 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3582,
+          "name": "Jie Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980353
+        },
+        {
+          "person_id": 3581,
+          "name": "Jun Gu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977013
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:1874",
-      "target": "song:16582",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:3580",
       "target": "song:1874",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:1874",
+      "target": "song:16582",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

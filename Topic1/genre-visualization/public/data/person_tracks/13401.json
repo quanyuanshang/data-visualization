@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13399",
-      "song_id": 13399,
+      "work_type": "Song",
+      "work_id": 13399,
       "title": "Ringtone Requiem",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,52 @@
         "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 8330,
+          "name": "Jie Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9638188
+        },
+        {
+          "person_id": 13400,
+          "name": "Tao Liao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397773
+        }
+      ]
     },
     {
       "id": "song:6344",
-      "song_id": 6344,
+      "work_type": "Song",
+      "work_id": 6344,
       "title": "Uptown Swagger",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,11 +85,70 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6348,
+          "name": "Tao Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7172916
+        },
+        {
+          "person_id": 801,
+          "name": "Yan Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4402952
+        },
+        {
+          "person_id": 6349,
+          "name": "Yan Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0439124
+        },
+        {
+          "person_id": 6347,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9642444
+        },
+        {
+          "person_id": 6345,
+          "name": "Wei Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982096
+        },
+        {
+          "person_id": 6346,
+          "name": "Chao Gu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982096
+        }
       ]
     },
     {
       "id": "song:8328",
-      "song_id": 8328,
+      "work_type": "Song",
+      "work_id": 8328,
       "title": "The Geography of Me",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +166,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 1942,
+          "name": "Yan Han",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.926998
+        },
+        {
+          "person_id": 8330,
+          "name": "Jie Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9638188
+        },
+        {
+          "person_id": 8329,
+          "name": "Jing Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979008
+        }
       ]
     },
     {
       "id": "song:10415",
-      "song_id": 10415,
+      "work_type": "Song",
+      "work_id": 10415,
       "title": "Sinking Serenade",
       "genre": "Indie Folk",
       "notable": true,
@@ -87,6 +237,36 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 3696,
+          "name": "Lei Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4390416
+        },
+        {
+          "person_id": 10416,
+          "name": "Chao Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0524786
+        }
       ]
     }
   ],
@@ -97,14 +277,14 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:10415",
-      "target": "song:13399",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:8328",
       "target": "song:13399",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10415",
+      "target": "song:13399",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7450",
-      "song_id": 7450,
+      "work_type": "Song",
+      "work_id": 7450,
       "title": "Starlit Summer Phantasm",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 7451,
       "artist_name": "Angela Porter",
-      "influence": 2,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 0,
+        "sample": 1,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1128,
+          "name": "Sandra Peterson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0507596
+        }
+      ]
     },
     {
       "id": "song:1571",
-      "song_id": 1571,
+      "work_type": "Song",
+      "work_id": 1571,
       "title": "Twilight's Harmonic Descent",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +57,170 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1579,
+          "name": "Liliana Heidrich",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7047064
+        },
+        {
+          "person_id": 1575,
+          "name": "Joseph Dixon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4414177
+        },
+        {
+          "person_id": 1572,
+          "name": "Ryan Kala",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047261
+        },
+        {
+          "person_id": 1573,
+          "name": "Rosalia Bloch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047261
+        },
+        {
+          "person_id": 1574,
+          "name": "Heinz-Joachim Anders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047261
+        },
+        {
+          "person_id": 1578,
+          "name": "Rita Hänel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047261
+        },
+        {
+          "person_id": 1580,
+          "name": "Sharon Delgado",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.047261
+        },
+        {
+          "person_id": 1581,
+          "name": "Alexandra Sauer-Ditschlerin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047261
+        },
+        {
+          "person_id": 1576,
+          "name": "Edward Hamilton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3951638
+        },
+        {
+          "person_id": 1577,
+          "name": "Megan Diaz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394994
+        },
+        {
+          "person_id": 1582,
+          "name": "Alex Mathis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394994
+        }
+      ]
+    },
+    {
+      "id": "album:1920",
+      "work_type": "Album",
+      "work_id": 1920,
+      "title": "Whispers of Laughter",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 1921,
+      "artist_name": "Jonathan Marquez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1924,
+          "name": "Ida Hentschel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0996885
+        },
+        {
+          "person_id": 1921,
+          "name": "Jonathan Marquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0448697
+        },
+        {
+          "person_id": 1922,
+          "name": "Matthäus Hendriks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979743
+        },
+        {
+          "person_id": 1923,
+          "name": "Giesela Kuhl",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979743
+        }
       ]
     }
   ],
@@ -51,6 +229,11 @@
       "source": "song:1571",
       "target": "song:7450",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:1920",
+      "target": "song:7450",
+      "type": "DirectlySamples"
     }
   ]
 }

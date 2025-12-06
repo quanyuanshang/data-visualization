@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12599",
-      "song_id": 12599,
+      "work_type": "Song",
+      "work_id": 12599,
       "title": "Whispers of the Siberian Pines",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1467,
+          "name": "Yan Long",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2650585
+        },
+        {
+          "person_id": 10251,
+          "name": "Fang Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6976554
+        },
+        {
+          "person_id": 10250,
+          "name": "Li Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046281
+        },
+        {
+          "person_id": 12601,
+          "name": "Andrew Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991945
+        }
+      ]
     },
     {
       "id": "song:14609",
-      "song_id": 14609,
+      "work_type": "Song",
+      "work_id": 14609,
       "title": "Protocol 212",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +84,18 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10251,
+          "name": "Fang Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6976554
+        }
       ]
     }
   ],

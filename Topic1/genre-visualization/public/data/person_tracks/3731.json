@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3730",
-      "song_id": 3730,
+      "work_type": "Song",
+      "work_id": 3730,
       "title": "First Breath of Desire",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,93 @@
       "own": true,
       "artist_id": 3731,
       "artist_name": "Ming Wan (Echo Dominion)",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3732,
+          "name": "Qiang He",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979754
+        },
+        {
+          "person_id": 3733,
+          "name": "Qiang Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979754
+        }
+      ]
+    },
+    {
+      "id": "album:1859",
+      "work_type": "Album",
+      "work_id": 1859,
+      "title": "Shadows of the Minor Scale",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1860,
+      "artist_name": "Xia Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1862,
+          "name": "Na Zhong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0111563
+        },
+        {
+          "person_id": 1860,
+          "name": "Xia Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3962064
+        },
+        {
+          "person_id": 1861,
+          "name": "Xiulan Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3962064
+        }
+      ]
     },
     {
       "id": "song:2260",
-      "song_id": 2260,
+      "work_type": "Song",
+      "work_id": 2260,
       "title": "Inherited Arguments",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -43,12 +119,67 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2261,
+          "name": "Chao Gao",
+          "stage_name": "Solar Arcadia",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2263,
+          "name": "Fang Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2264,
+          "name": "Fang Yi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974113
+        },
+        {
+          "person_id": 2265,
+          "name": "William Ball",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397398
+        },
+        {
+          "person_id": 2262,
+          "name": "Jie Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3973906
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:2260",
+      "target": "song:3730",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:1859",
       "target": "song:3730",
       "type": "InStyleOf"
     }

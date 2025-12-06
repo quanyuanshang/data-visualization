@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14851",
-      "song_id": 14851,
+      "work_type": "Song",
+      "work_id": 14851,
       "title": "Golden Horizon",
       "genre": "Blues Rock",
       "notable": true,
@@ -14,18 +15,111 @@
       "own": true,
       "artist_id": 14853,
       "artist_name": "Caleb Williamson",
-      "influence": 6,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 332,
+          "name": "David Hayes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136254
+        },
+        {
+          "person_id": 6332,
+          "name": "Karl-Heinz Bruder",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046983
+        },
+        {
+          "person_id": 14852,
+          "name": "Donald Bradley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39277
+        }
+      ]
+    },
+    {
+      "id": "album:6329",
+      "work_type": "Album",
+      "work_id": 6329,
+      "title": "Café Couleurs",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2000,
+      "single": false,
+      "own": false,
+      "artist_id": 332,
+      "artist_name": "David Hayes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 332,
+          "name": "David Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7136254
+        },
+        {
+          "person_id": 6332,
+          "name": "Karl-Heinz Bruder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.046983
+        },
+        {
+          "person_id": 6330,
+          "name": "Gianpaolo Sibilia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0424068
+        },
+        {
+          "person_id": 6331,
+          "name": "Cecilia Cusano-Squarcione",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0424068
+        }
+      ]
     },
     {
       "id": "song:7157",
-      "song_id": 7157,
+      "work_type": "Song",
+      "work_id": 7157,
       "title": "Salt and Silence",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,11 +137,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3861,
+          "name": "Matthäus Ladeck",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.1577482
+        },
+        {
+          "person_id": 7158,
+          "name": "Bartek Krzysiek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        },
+        {
+          "person_id": 7159,
+          "name": "Michael Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        },
+        {
+          "person_id": 7160,
+          "name": "Franck Gillet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965256
+        }
       ]
     },
     {
       "id": "song:11896",
-      "song_id": 11896,
+      "work_type": "Song",
+      "work_id": 11896,
       "title": "Skyscrapers in Retreat",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,17 +199,60 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1444,
+          "name": "Martine Normand",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.105801
+        },
+        {
+          "person_id": 1443,
+          "name": "Sayuri Sato",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4428253
+        },
+        {
+          "person_id": 11897,
+          "name": "Nino Veneziano",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39905
+        },
+        {
+          "person_id": 11898,
+          "name": "Lando Parri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39905
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11896",
+      "source": "song:7157",
       "target": "song:14851",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:7157",
+      "source": "album:6329",
+      "target": "song:14851",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:11896",
       "target": "song:14851",
       "type": "LyricalReferenceTo"
     }

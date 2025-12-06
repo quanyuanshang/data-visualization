@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:16101",
-      "song_id": 16101,
+      "work_type": "Song",
+      "work_id": 16101,
       "title": "Borderless Heart",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,60 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14832,
+          "name": "Guiying Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0348513
+        },
+        {
+          "person_id": 16102,
+          "name": "Guiying Qiu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39704
+        },
+        {
+          "person_id": 16103,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39704
+        },
+        {
+          "person_id": 16105,
+          "name": "Fang Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39704
+        },
+        {
+          "person_id": 16106,
+          "name": "Jun Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39704
+        }
+      ]
     },
     {
       "id": "song:10215",
-      "song_id": 10215,
+      "work_type": "Song",
+      "work_id": 10215,
       "title": "Whispers Across the Water",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +93,23 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10216,
+          "name": "Gang Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974705
+        }
       ]
     },
     {
       "id": "song:15776",
-      "song_id": 15776,
+      "work_type": "Song",
+      "work_id": 15776,
       "title": "Hands of Fragrant Memory",
       "genre": "Synthwave",
       "notable": true,
@@ -65,19 +127,50 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1275,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5120125
+        },
+        {
+          "person_id": 15777,
+          "name": "Juan Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952897
+        },
+        {
+          "person_id": 15778,
+          "name": "Guiying Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952897
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10215",
-      "target": "song:16101",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:15776",
       "target": "song:16101",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:10215",
+      "target": "song:16101",
+      "type": "InStyleOf"
     }
   ]
 }

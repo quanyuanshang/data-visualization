@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5178",
-      "song_id": 5178,
+      "work_type": "Song",
+      "work_id": 5178,
       "title": "Rhythm of Seven Steps",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:16336",
-      "song_id": 16336,
+      "work_type": "Song",
+      "work_id": 16336,
       "title": "Pantheon's Echo",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +46,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 16337,
+          "name": "Xia Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955705
+        },
+        {
+          "person_id": 16338,
+          "name": "Meghan Cortez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3955705
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13197",
-      "song_id": 13197,
+      "work_type": "Song",
+      "work_id": 13197,
       "title": "Crystalline Pirouette",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2681,
+          "name": "Kazuya Aoki",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.428512
+        },
+        {
+          "person_id": 13199,
+          "name": "Yuta Sato",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3996618
+        },
+        {
+          "person_id": 13200,
+          "name": "Maaya Tanaka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996618
+        }
+      ]
     },
     {
       "id": "song:2679",
-      "song_id": 2679,
+      "work_type": "Song",
+      "work_id": 2679,
       "title": "Wingless Dreams",
       "genre": "Blues Rock",
       "notable": true,
@@ -43,11 +74,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2681,
+          "name": "Kazuya Aoki",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.428512
+        },
+        {
+          "person_id": 2680,
+          "name": "Satomi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0352416
+        }
       ]
     },
     {
       "id": "song:14378",
-      "song_id": 14378,
+      "work_type": "Song",
+      "work_id": 14378,
       "title": "Cash and Promises",
       "genre": "Blues Rock",
       "notable": true,
@@ -65,19 +118,40 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2681,
+          "name": "Kazuya Aoki",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.428512
+        },
+        {
+          "person_id": 2680,
+          "name": "Satomi Kobayashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0352416
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:2679",
-      "target": "song:13197",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:14378",
       "target": "song:13197",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:2679",
+      "target": "song:13197",
+      "type": "InterpolatesFrom"
     }
   ]
 }

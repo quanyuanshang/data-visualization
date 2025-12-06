@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3219",
-      "song_id": 3219,
+      "work_type": "Song",
+      "work_id": 3219,
       "title": "Crystalline Interlude for Ethereal Voices",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3222,
+          "name": "Auguste-Alexandre Delattre",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0369482
+        },
+        {
+          "person_id": 3223,
+          "name": "Victoire Morvan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036622
+        },
+        {
+          "person_id": 3220,
+          "name": "Madison Rodriguez",
+          "stage_name": "Glass Parable",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4002886
+        }
+      ]
     },
     {
       "id": "song:10699",
-      "song_id": 10699,
+      "work_type": "Song",
+      "work_id": 10699,
       "title": "Echoes of a Forgotten Name",
       "genre": "Indie Folk",
       "notable": true,
@@ -34,6 +65,48 @@
       "own": true,
       "artist_id": 3221,
       "artist_name": "Christiane Langlois",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3222,
+          "name": "Auguste-Alexandre Delattre",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0369482
+        },
+        {
+          "person_id": 3223,
+          "name": "Victoire Morvan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036622
+        }
+      ]
+    },
+    {
+      "id": "album:16577",
+      "work_type": "Album",
+      "work_id": 16577,
+      "title": "Bottled Memories",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 3447,
+      "artist_name": "Li Gu",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -41,8 +114,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3447,
+          "name": "Li Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1020293
+        },
+        {
+          "person_id": 10178,
+          "name": "Ming Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054499
+        },
+        {
+          "person_id": 16578,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980641
+        },
+        {
+          "person_id": 16579,
+          "name": "John May",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980641
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:16577",
+      "target": "song:10699",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

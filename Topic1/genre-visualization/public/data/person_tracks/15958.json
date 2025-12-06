@@ -1,0 +1,156 @@
+{
+  "person_id": 15958,
+  "name": "Grzegorz Rorat",
+  "stage_name": "Grzegorz",
+  "nodes": [
+    {
+      "id": "album:15957",
+      "work_type": "Album",
+      "work_id": 15957,
+      "title": "The Space Between Us",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 15958,
+      "artist_name": "Grzegorz Rorat (Grzegorz)",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14365,
+          "name": "Karina Bąbel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4341516
+        },
+        {
+          "person_id": 4611,
+          "name": "Kamila Ornat",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.037111
+        }
+      ]
+    },
+    {
+      "id": "song:8423",
+      "work_type": "Song",
+      "work_id": 8423,
+      "title": "Chromium Pulse",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 8424,
+      "artist_name": "Kevin Baker",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8425,
+          "name": "Ryohei Nakajima",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3961797
+        },
+        {
+          "person_id": 8424,
+          "name": "Kevin Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39601
+        },
+        {
+          "person_id": 8426,
+          "name": "Rebecca Byrd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39601
+        }
+      ]
+    },
+    {
+      "id": "album:16082",
+      "work_type": "Album",
+      "work_id": 16082,
+      "title": "Capoeira's Rhythm",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 14365,
+      "artist_name": "Karina Bąbel",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14365,
+          "name": "Karina Bąbel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4341516
+        },
+        {
+          "person_id": 16083,
+          "name": "Marianna Drózd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399274
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:16082",
+      "target": "album:15957",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:8423",
+      "target": "album:15957",
+      "type": "CoverOf"
+    }
+  ]
+}

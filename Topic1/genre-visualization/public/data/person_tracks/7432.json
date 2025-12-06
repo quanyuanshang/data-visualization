@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7431",
-      "song_id": 7431,
-      "title": "My Absolute Best",
-      "genre": "Indie Folk",
-      "notable": true,
-      "release_year": 2017,
-      "single": true,
-      "own": true,
-      "artist_id": 7432,
-      "artist_name": "Mikayla Cook",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8655",
-      "song_id": 8655,
+      "work_type": "Song",
+      "work_id": 8655,
       "title": "Small Shadows",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -41,11 +22,66 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8657,
+          "name": "Xiulan Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0406814
+        },
+        {
+          "person_id": 8656,
+          "name": "Justin Berry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0239432
+        }
+      ]
+    },
+    {
+      "id": "song:7431",
+      "work_type": "Song",
+      "work_id": 7431,
+      "title": "My Absolute Best",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": true,
+      "artist_id": 7432,
+      "artist_name": "Mikayla Cook",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7433,
+          "name": "Nathaniel Fisher",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987982
+        }
+      ]
     },
     {
       "id": "song:13521",
-      "song_id": 13521,
+      "work_type": "Song",
+      "work_id": 13521,
       "title": "Sacred Echoes",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -61,7 +97,27 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8656,
+          "name": "Justin Berry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0239432
+        },
+        {
+          "person_id": 13522,
+          "name": "Kyle Lawrence",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399228
+        }
+      ]
     }
   ],
   "links": []

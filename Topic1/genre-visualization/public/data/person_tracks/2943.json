@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2942",
-      "song_id": 2942,
+      "work_type": "Song",
+      "work_id": 2942,
       "title": "Khwabon Ki Malika",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 2943,
       "artist_name": "Dawid Golda",
-      "influence": 14,
+      "influence": 16,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 4,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
     },
     {
       "id": "song:8899",
-      "song_id": 8899,
+      "work_type": "Song",
+      "work_id": 8899,
       "title": "Warm Ceramic Whispers",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,11 +57,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 2222,
+          "name": "Nela Melcer",
+          "stage_name": " The Empress",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.720661
+        }
       ]
     },
     {
       "id": "song:10194",
-      "song_id": 10194,
+      "work_type": "Song",
+      "work_id": 10194,
       "title": "Symphonie du Voyage",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -65,11 +101,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 10195,
+          "name": "Natan Molka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978977
+        },
+        {
+          "person_id": 10196,
+          "name": "Grzegorz Pacocha",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978977
+        }
       ]
     },
     {
       "id": "song:14497",
-      "song_id": 14497,
+      "work_type": "Song",
+      "work_id": 14497,
       "title": "Decoding Silence",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -87,11 +154,77 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8880,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1050963
+        },
+        {
+          "person_id": 11478,
+          "name": "Min Liang",
+          "stage_name": "Tyler Sage",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0568004
+        }
+      ]
+    },
+    {
+      "id": "album:14510",
+      "work_type": "Album",
+      "work_id": 14510,
+      "title": "Pastoral Tiara",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 14511,
+          "name": "Aniela Mijas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4229927
+        }
       ]
     },
     {
       "id": "song:15323",
-      "song_id": 15323,
+      "work_type": "Song",
+      "work_id": 15323,
       "title": "Roots of Belonging",
       "genre": "Indie Folk",
       "notable": true,
@@ -109,11 +242,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 627,
+          "name": "Liwia Olbrych",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9380534
+        },
+        {
+          "person_id": 628,
+          "name": "Nicole Sudak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4625864
+        },
+        {
+          "person_id": 1610,
+          "name": "Marianna Stefanik",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.410784
+        },
+        {
+          "person_id": 15324,
+          "name": "Kacper Panasewicz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986983
+        }
       ]
     },
     {
       "id": "song:15420",
-      "song_id": 15420,
+      "work_type": "Song",
+      "work_id": 15420,
       "title": "Bridges to the Other Side",
       "genre": "Indie Folk",
       "notable": true,
@@ -131,19 +304,62 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 627,
+          "name": "Liwia Olbrych",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9380534
+        },
+        {
+          "person_id": 628,
+          "name": "Nicole Sudak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4625864
+        },
+        {
+          "person_id": 629,
+          "name": "Marcelina Ogłaza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.020131
+        },
+        {
+          "person_id": 15421,
+          "name": "Sylwia Skowyra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981757
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:10194",
+      "source": "album:14510",
       "target": "song:2942",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
     },
     {
       "source": "song:8899",
       "target": "song:2942",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:15323",
+      "target": "song:2942",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:15420",
@@ -156,9 +372,9 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:15323",
+      "source": "song:10194",
       "target": "song:2942",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     }
   ]
 }

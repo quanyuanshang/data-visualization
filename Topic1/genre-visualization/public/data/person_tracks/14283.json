@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14281",
-      "song_id": 14281,
+      "work_type": "Song",
+      "work_id": 14281,
       "title": "Automated Internal Navigation",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,92 @@
       "own": true,
       "artist_id": 14283,
       "artist_name": "Grant Coleman",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14282,
+          "name": "Alex Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978012
+        },
+        {
+          "person_id": 14284,
+          "name": "Yang Long",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978012
+        }
+      ]
+    },
+    {
+      "id": "album:2889",
+      "work_type": "Album",
+      "work_id": 2889,
+      "title": "Silent Secrets",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 2891,
+      "artist_name": "Qiang Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2890,
+          "name": "Yan Ma",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982425
+        },
+        {
+          "person_id": 2891,
+          "name": "Qiang Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982217
+        },
+        {
+          "person_id": 2892,
+          "name": "Fang Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982217
+        }
+      ]
     },
     {
       "id": "song:3316",
-      "song_id": 3316,
+      "work_type": "Song",
+      "work_id": 3316,
       "title": "Degrees of Freedom",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,10 +118,81 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1953,
+          "name": "Xiuying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7739844
+        },
+        {
+          "person_id": 3318,
+          "name": "Li Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3320,
+          "name": "Xia Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3322,
+          "name": "Wei Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3317,
+          "name": "Na Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989158
+        },
+        {
+          "person_id": 3319,
+          "name": "Guiying Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989158
+        },
+        {
+          "person_id": 3321,
+          "name": "Juan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989158
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:2889",
+      "target": "song:14281",
+      "type": "CoverOf"
+    },
     {
       "source": "song:3316",
       "target": "song:14281",

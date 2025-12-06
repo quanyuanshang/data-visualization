@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11378",
-      "song_id": 11378,
+      "work_type": "Song",
+      "work_id": 11378,
       "title": "Teenage Dream Machine",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11379,
+          "name": "Lioba Vollbrecht",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.401179
+        }
+      ]
     },
     {
       "id": "song:15017",
-      "song_id": 15017,
+      "work_type": "Song",
+      "work_id": 15017,
       "title": "Echoes of the Puszta: Chamber Variations",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,11 +56,86 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1843,
+          "name": "Chao Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9250677
+        },
+        {
+          "person_id": 12152,
+          "name": "Tao Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0513644
+        },
+        {
+          "person_id": 15018,
+          "name": "Qiang Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975265
+        },
+        {
+          "person_id": 15019,
+          "name": "Fang Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975265
+        },
+        {
+          "person_id": 15020,
+          "name": "Jun Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3975265
+        },
+        {
+          "person_id": 15022,
+          "name": "Li Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975265
+        },
+        {
+          "person_id": 15023,
+          "name": "Qiang Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975265
+        },
+        {
+          "person_id": 15021,
+          "name": "Jing Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975058
+        }
       ]
     },
     {
       "id": "song:16397",
-      "song_id": 16397,
+      "work_type": "Song",
+      "work_id": 16397,
       "title": "Depths Beyond Memory",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,19 +153,49 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14303,
+          "name": "Hansjürgen Pechel",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.040112
+        },
+        {
+          "person_id": 16398,
+          "name": "Karl Bruder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997989
+        },
+        {
+          "person_id": 16399,
+          "name": "Hilmar Budig-Seip",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997989
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15017",
-      "target": "song:11378",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:16397",
       "target": "song:11378",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:15017",
+      "target": "song:11378",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

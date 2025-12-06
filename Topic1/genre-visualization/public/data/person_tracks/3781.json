@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3779",
-      "song_id": 3779,
+      "work_type": "Song",
+      "work_id": 3779,
       "title": "Broken Wings, Brave Heart",
       "genre": "Blues Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3780,
+          "name": "Krzysztof Linda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0440607
+        }
+      ]
     },
     {
       "id": "song:5284",
-      "song_id": 5284,
+      "work_type": "Song",
+      "work_id": 5284,
       "title": "Read Receipts and Regrets",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +63,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 3780,
+          "name": "Krzysztof Linda",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0440607
+        }
+      ]
     },
     {
       "id": "song:3626",
-      "song_id": 3626,
+      "work_type": "Song",
+      "work_id": 3626,
       "title": "Quarantine of Souls",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -63,11 +107,24 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:5109",
-      "song_id": 5109,
+      "work_type": "Song",
+      "work_id": 5109,
       "title": "Echoes from the Alpine Parting",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -85,11 +142,25 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:5232",
-      "song_id": 5232,
+      "work_type": "Song",
+      "work_id": 5232,
       "title": "Whispers of Ancient Branches",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -107,11 +178,25 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:6245",
-      "song_id": 6245,
+      "work_type": "Song",
+      "work_id": 6245,
       "title": "Andante in Amber",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -129,11 +214,32 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3126,
+          "name": "Maik Mude",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2519994
+        },
+        {
+          "person_id": 5705,
+          "name": "Adam Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9406157
+        }
       ]
     },
     {
       "id": "song:1170",
-      "song_id": 1170,
+      "work_type": "Song",
+      "work_id": 1170,
       "title": "Camouflage Courage",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -151,20 +257,31 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 415,
+          "name": "Denise Bell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4360912
+        },
+        {
+          "person_id": 1171,
+          "name": "Ivana Vávrová",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0341313
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:5109",
-      "target": "song:3779",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:5232",
-      "target": "song:3779",
-      "type": "CoverOf"
-    },
     {
       "source": "song:6245",
       "target": "song:3779",
@@ -174,6 +291,16 @@
       "source": "song:3626",
       "target": "song:3779",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:5109",
+      "target": "song:3779",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5232",
+      "target": "song:3779",
+      "type": "CoverOf"
     },
     {
       "source": "song:1170",

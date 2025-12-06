@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9085",
-      "song_id": 9085,
+      "work_type": "Song",
+      "work_id": 9085,
       "title": "Unspoken Melody",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,18 +15,39 @@
       "own": true,
       "artist_id": 9087,
       "artist_name": "John Bradley",
-      "influence": 17,
+      "influence": 22,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 5,
-        "style": 1
+        "reference": 6,
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7779,
+          "name": "José Berger",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.720579
+        },
+        {
+          "person_id": 9086,
+          "name": "Karl-Ludwig Kensy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.985041
+        }
+      ]
     },
     {
       "id": "song:6130",
-      "song_id": 6130,
+      "work_type": "Song",
+      "work_id": 6130,
       "title": "Unfolding Path",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +65,78 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2607,
+          "name": "Lisa Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4387958
+        },
+        {
+          "person_id": 6131,
+          "name": "Thomas King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6135,
+          "name": "Lei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6134,
+          "name": "Richard Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.012966
+        },
+        {
+          "person_id": 6133,
+          "name": "Christina Soto",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39503
+        },
+        {
+          "person_id": 6136,
+          "name": "Valerio Carullo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3950093
+        },
+        {
+          "person_id": 6132,
+          "name": "Yan Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3946984
+        }
       ]
     },
     {
       "id": "song:7406",
-      "song_id": 7406,
+      "work_type": "Song",
+      "work_id": 7406,
       "title": "Straight and Narrow",
       "genre": "Doom Metal",
       "notable": true,
@@ -65,11 +154,86 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 43,
+          "name": "James Taylor",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7163863
+        },
+        {
+          "person_id": 7407,
+          "name": "Deborah Young",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991923
+        }
+      ]
+    },
+    {
+      "id": "album:10183",
+      "work_type": "Album",
+      "work_id": 10183,
+      "title": "Rewind and Replay",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 190,
+      "artist_name": "Peter Haering",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 190,
+          "name": "Peter Haering",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7093635
+        },
+        {
+          "person_id": 347,
+          "name": "Frau Marianna Wernecke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4266212
+        },
+        {
+          "person_id": 10184,
+          "name": "Curt Wieloch",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397975
+        }
       ]
     },
     {
       "id": "song:13040",
-      "song_id": 13040,
+      "work_type": "Song",
+      "work_id": 13040,
       "title": "Blessed Beneath the Surface",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,11 +251,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 3575,
+          "name": "Juan Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4279497
+        },
+        {
+          "person_id": 13041,
+          "name": "Xiulan Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985016
+        }
       ]
     },
     {
       "id": "song:13436",
-      "song_id": 13436,
+      "work_type": "Song",
+      "work_id": 13436,
       "title": "Infinite Horizon",
       "genre": "Doom Metal",
       "notable": true,
@@ -109,11 +305,60 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5108,
+          "name": "Ping Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0475612
+        },
+        {
+          "person_id": 6131,
+          "name": "Thomas King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6135,
+          "name": "Lei Luo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0388849
+        },
+        {
+          "person_id": 6134,
+          "name": "Richard Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.012966
+        },
+        {
+          "person_id": 13437,
+          "name": "Joann Smith",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397667
+        }
       ]
     },
     {
       "id": "song:13528",
-      "song_id": 13528,
+      "work_type": "Song",
+      "work_id": 13528,
       "title": "Sparks of Liberty",
       "genre": "Synthwave",
       "notable": true,
@@ -131,11 +376,96 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2591,
+          "name": "Theresa Rivera",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.397802
+        },
+        {
+          "person_id": 1241,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0206723
+        },
+        {
+          "person_id": 13330,
+          "name": "Li He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0653636
+        },
+        {
+          "person_id": 13529,
+          "name": "Yong Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396452
+        }
+      ]
+    },
+    {
+      "id": "album:14296",
+      "work_type": "Album",
+      "work_id": 14296,
+      "title": "The Long Way Home",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 14298,
+      "artist_name": "Na Ye",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14298,
+          "name": "Na Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0427785
+        },
+        {
+          "person_id": 14297,
+          "name": "Ming Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3992867
+        }
       ]
     },
     {
       "id": "song:14346",
-      "song_id": 14346,
+      "work_type": "Song",
+      "work_id": 14346,
       "title": "The Unfinished Gaze",
       "genre": "Doom Metal",
       "notable": true,
@@ -153,12 +483,38 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7779,
+          "name": "José Berger",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.720579
+        },
+        {
+          "person_id": 9086,
+          "name": "Karl-Ludwig Kensy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.985041
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:14346",
+      "source": "song:13528",
+      "target": "song:9085",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:10183",
       "target": "song:9085",
       "type": "InterpolatesFrom"
     },
@@ -173,7 +529,12 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6130",
+      "source": "album:14296",
+      "target": "song:9085",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14346",
       "target": "song:9085",
       "type": "InterpolatesFrom"
     },
@@ -183,9 +544,9 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:13528",
+      "source": "song:6130",
       "target": "song:9085",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     }
   ]
 }

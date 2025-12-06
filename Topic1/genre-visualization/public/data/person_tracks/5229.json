@@ -1,0 +1,154 @@
+{
+  "person_id": 5229,
+  "name": "Janet Cunningham",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:5224",
+      "work_type": "Album",
+      "work_id": 5224,
+      "title": "Echoes of a Romany Farewell",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 5229,
+      "artist_name": "Janet Cunningham",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5226,
+          "name": "Puccio Bixio-Gatto",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.380024
+        },
+        {
+          "person_id": 5225,
+          "name": "Alfredo Ajello",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0340083
+        },
+        {
+          "person_id": 5228,
+          "name": "Vittorio Tamburello",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.6879597
+        },
+        {
+          "person_id": 5227,
+          "name": "Sonia Porzio",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3808465
+        }
+      ]
+    },
+    {
+      "id": "song:12633",
+      "work_type": "Song",
+      "work_id": 12633,
+      "title": "Tectonic Lullaby",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 3504,
+      "artist_name": "Zacharie Martins",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3504,
+          "name": "Zacharie Martins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.395865
+        },
+        {
+          "person_id": 11716,
+          "name": "Inès Collet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4313834
+        },
+        {
+          "person_id": 11930,
+          "name": "Stéphane Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0477982
+        },
+        {
+          "person_id": 11932,
+          "name": "Nicolas Blanc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0461323
+        },
+        {
+          "person_id": 11934,
+          "name": "Élisabeth Vasseur",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0461323
+        },
+        {
+          "person_id": 11931,
+          "name": "Zoé Roux",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0421915
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:12633",
+      "target": "album:5224",
+      "type": "DirectlySamples"
+    }
+  ]
+}

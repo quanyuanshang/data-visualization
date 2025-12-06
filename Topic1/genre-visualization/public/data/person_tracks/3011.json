@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3008",
-      "song_id": 3008,
+      "work_type": "Song",
+      "work_id": 3008,
       "title": "Resonance Between Silence",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 3011,
       "artist_name": "Shannon Smith",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3012,
+          "name": "Jing Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0797546
+        },
+        {
+          "person_id": 3009,
+          "name": "Mark Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4371247
+        },
+        {
+          "person_id": 3010,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4371247
+        }
+      ]
     },
     {
       "id": "song:13873",
-      "song_id": 13873,
+      "work_type": "Song",
+      "work_id": 13873,
       "title": "Iron Tracks",
       "genre": "Synthwave",
       "notable": false,
@@ -41,11 +73,41 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3012,
+          "name": "Jing Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0797546
+        },
+        {
+          "person_id": 3009,
+          "name": "Mark Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4371247
+        },
+        {
+          "person_id": 3010,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4371247
+        }
+      ]
     },
     {
       "id": "song:7971",
-      "song_id": 7971,
+      "work_type": "Song",
+      "work_id": 7971,
       "title": "Blind to the Truth",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +125,140 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1941,
+          "name": "Yang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7043383
+        },
+        {
+          "person_id": 7976,
+          "name": "Wei Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4515436
+        },
+        {
+          "person_id": 7974,
+          "name": "Tao Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3965597
+        },
+        {
+          "person_id": 7972,
+          "name": "Bradley Small",
+          "stage_name": " Brooks",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396539
+        },
+        {
+          "person_id": 7973,
+          "name": "Na Guo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396539
+        },
+        {
+          "person_id": 7975,
+          "name": "Miki Kondo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396539
+        }
+      ]
+    },
+    {
+      "id": "album:12558",
+      "work_type": "Album",
+      "work_id": 12558,
+      "title": "Dancing Through Life",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 12560,
+      "artist_name": "Juan Chen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12559,
+          "name": "Xiuying Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12560,
+          "name": "Juan Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12561,
+          "name": "Tao Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12562,
+          "name": "Yang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        },
+        {
+          "person_id": 12563,
+          "name": "Qiang Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400357
+        }
       ]
     },
     {
       "id": "song:12393",
-      "song_id": 12393,
+      "work_type": "Song",
+      "work_id": 12393,
       "title": "Everywhere But Home",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,10 +276,63 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 592,
+          "name": "Xiulan Shen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2561255
+        },
+        {
+          "person_id": 594,
+          "name": "Na Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.100683
+        },
+        {
+          "person_id": 595,
+          "name": "Chao Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0376546
+        },
+        {
+          "person_id": 12394,
+          "name": "Ming Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392815
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:12558",
+      "target": "song:3008",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:7971",
       "target": "song:3008",

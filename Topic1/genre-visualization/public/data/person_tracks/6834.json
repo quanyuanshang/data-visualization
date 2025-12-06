@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6833",
-      "song_id": 6833,
+      "work_type": "Song",
+      "work_id": 6833,
       "title": "The Last Sweet Moment",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4096,
+          "name": "Tao Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6932614
+        },
+        {
+          "person_id": 6835,
+          "name": "Tao Sun",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985107
+        },
+        {
+          "person_id": 6836,
+          "name": "Stacey Martin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985107
+        }
+      ]
     },
     {
       "id": "song:6065",
-      "song_id": 6065,
+      "work_type": "Song",
+      "work_id": 6065,
       "title": "Push Through the Doubt",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +74,69 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2355,
+          "name": "Qiang Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7207756
+        },
+        {
+          "person_id": 6067,
+          "name": "Yong Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.042643
+        },
+        {
+          "person_id": 6066,
+          "name": "Jun Qiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0409074
+        },
+        {
+          "person_id": 4298,
+          "name": "Qiang Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0224628
+        },
+        {
+          "person_id": 6069,
+          "name": "Jun Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990526
+        },
+        {
+          "person_id": 6068,
+          "name": "Tao Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990319
+        }
       ]
     },
     {
       "id": "song:7876",
-      "song_id": 7876,
+      "work_type": "Song",
+      "work_id": 7876,
       "title": "Falling Without a Parachute",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -65,19 +154,67 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7878,
+          "name": "Morgan Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484502
+        },
+        {
+          "person_id": 7879,
+          "name": "Ping Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484502
+        },
+        {
+          "person_id": 7881,
+          "name": "Patricia Pope",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484502
+        },
+        {
+          "person_id": 7880,
+          "name": "Yang Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0340793
+        },
+        {
+          "person_id": 7877,
+          "name": "Ming Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992243
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:6065",
-      "target": "song:6833",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:7876",
       "target": "song:6833",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:6065",
+      "target": "song:6833",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

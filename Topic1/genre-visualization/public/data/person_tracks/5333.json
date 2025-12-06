@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5331",
-      "song_id": 5331,
+      "work_type": "Song",
+      "work_id": 5331,
       "title": "Toilet Titan",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5334,
+          "name": "Hans Josef Haering",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0446174
+        },
+        {
+          "person_id": 5332,
+          "name": "Jolanta Schlosser",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009762
+        }
+      ]
     },
     {
       "id": "song:2099",
-      "song_id": 2099,
+      "work_type": "Song",
+      "work_id": 2099,
       "title": "Stone Cold Truth",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +66,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 305,
+          "name": "Bekir Bruder",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.948416
+        },
+        {
+          "person_id": 2101,
+          "name": "Rebekka Lehmann",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7168043
+        },
+        {
+          "person_id": 2100,
+          "name": "Traude Salz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992593
+        }
       ]
     }
   ],

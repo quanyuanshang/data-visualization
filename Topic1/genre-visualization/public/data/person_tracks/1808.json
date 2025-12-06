@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:1807",
-      "song_id": 1807,
-      "title": "Clearly Complicated",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2009,
-      "single": true,
-      "own": true,
-      "artist_id": 1808,
-      "artist_name": "Renato Holsten",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:5689",
-      "song_id": 5689,
+      "work_type": "Song",
+      "work_id": 5689,
       "title": "Midnight Getaway",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -41,7 +22,95 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5690,
+          "name": "Hannes Cichorius-Seifert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967566
+        }
+      ]
+    },
+    {
+      "id": "song:1807",
+      "work_type": "Song",
+      "work_id": 1807,
+      "title": "Clearly Complicated",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": true,
+      "artist_id": 1808,
+      "artist_name": "Renato Holsten",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1809,
+          "name": "Ottomar Spieß",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978817
+        }
+      ]
+    },
+    {
+      "id": "song:1807",
+      "work_type": "Song",
+      "work_id": 1807,
+      "title": "Clearly Complicated",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 1809,
+      "artist_name": "Ottomar Spieß",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1808,
+          "name": "Renato Holsten",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0479372
+        },
+        {
+          "person_id": 1809,
+          "name": "Ottomar Spieß",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978817
+        }
+      ]
     }
   ],
   "links": [

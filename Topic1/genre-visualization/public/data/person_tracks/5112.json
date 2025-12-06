@@ -4,88 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10521",
-      "song_id": 10521,
-      "title": "Uncork My Heart",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2029,
-      "single": true,
-      "own": true,
-      "artist_id": 5112,
-      "artist_name": "Lei Wang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:11878",
-      "song_id": 11878,
-      "title": "Glowing Connection",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 5112,
-      "artist_name": "Lei Wang",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:5361",
-      "song_id": 5361,
-      "title": "Echoes of Adoration",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 5112,
-      "artist_name": "Lei Wang",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:14262",
-      "song_id": 14262,
-      "title": "Mediterranean Blood",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 5112,
-      "artist_name": "Lei Wang",
-      "influence": 13,
-      "influence_breakdown": {
-        "cover": 2,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15332",
-      "song_id": 15332,
+      "work_type": "Song",
+      "work_id": 15332,
       "title": "Moderate Momentum",
       "genre": "Indie Pop",
       "notable": true,
@@ -101,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2210,
+          "name": "Lei Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0498252
+        },
+        {
+          "person_id": 3628,
+          "name": "Xiulan Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4454014
+        }
+      ]
     },
     {
       "id": "song:8209",
-      "song_id": 8209,
+      "work_type": "Song",
+      "work_id": 8209,
       "title": "Pale Silhouettes",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -121,19 +64,40 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7169764
+        }
+      ]
     },
     {
-      "id": "song:5361",
-      "song_id": 5361,
-      "title": "Echoes of Adoration",
+      "id": "album:8930",
+      "work_type": "Album",
+      "work_id": 8930,
+      "title": "Tears of Mortal Surrender",
       "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": false,
-      "artist_id": 5362,
-      "artist_name": "Yong Su",
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -141,17 +105,36 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7169764
+        }
       ]
     },
     {
-      "id": "song:8209",
-      "song_id": 8209,
-      "title": "Pale Silhouettes",
-      "genre": "Southern Gothic Rock",
+      "id": "song:10521",
+      "work_type": "Song",
+      "work_id": 10521,
+      "title": "Uncork My Heart",
+      "genre": "Emo/Pop Punk",
       "notable": true,
-      "release_year": 2027,
+      "release_year": 2029,
       "single": true,
       "own": true,
       "artist_id": 5112,
@@ -163,13 +146,230 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "InterpolatesFrom"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        },
+        {
+          "person_id": 10522,
+          "name": "Qiang Dai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969154
+        }
+      ]
+    },
+    {
+      "id": "song:14262",
+      "work_type": "Song",
+      "work_id": 14262,
+      "title": "Mediterranean Blood",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 13,
+      "influence_breakdown": {
+        "cover": 2,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 14263,
+          "name": "Ping Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975494
+        }
+      ]
+    },
+    {
+      "id": "album:14661",
+      "work_type": "Album",
+      "work_id": 14661,
+      "title": "Poison in My Veins",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7169764
+        }
+      ]
+    },
+    {
+      "id": "song:5361",
+      "work_type": "Song",
+      "work_id": 5361,
+      "title": "Echoes of Adoration",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        },
+        {
+          "person_id": 5363,
+          "name": "Jing Yin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9405258
+        }
+      ]
+    },
+    {
+      "id": "album:5111",
+      "work_type": "Album",
+      "work_id": 5111,
+      "title": "Shattered Horizons",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2008,
+      "single": false,
+      "own": true,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2719,
+          "name": "Jing Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0409315
+        }
+      ]
+    },
+    {
+      "id": "song:11878",
+      "work_type": "Song",
+      "work_id": 11878,
+      "title": "Glowing Connection",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 5112,
+      "artist_name": "Lei Wang",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        },
+        {
+          "person_id": 11879,
+          "name": "Jing Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961942
+        }
       ]
     },
     {
       "id": "song:11438",
-      "song_id": 11438,
+      "work_type": "Song",
+      "work_id": 11438,
       "title": "Whispers of Carmela",
       "genre": "Indie Pop",
       "notable": true,
@@ -187,11 +387,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2538,
+          "name": "Angelika Osojca",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.564087
+        },
+        {
+          "person_id": 2668,
+          "name": "Ping Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.4815354
+        },
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        }
       ]
     },
     {
       "id": "song:6794",
-      "song_id": 6794,
+      "work_type": "Song",
+      "work_id": 6794,
       "title": "Whispers of Carmentea",
       "genre": "Alternative Rock",
       "notable": true,
@@ -209,20 +440,137 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1650,
+          "name": "Daniel Lyons",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6096396
+        },
+        {
+          "person_id": 6795,
+          "name": "Na Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981042
+        }
+      ]
+    },
+    {
+      "id": "song:11878",
+      "work_type": "Song",
+      "work_id": 11878,
+      "title": "Glowing Connection",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 5362,
+      "artist_name": "Yong Su",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5112,
+          "name": "Lei Wang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5026183
+        },
+        {
+          "person_id": 5362,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4146953
+        },
+        {
+          "person_id": 11879,
+          "name": "Jing Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961942
+        }
+      ]
+    },
+    {
+      "id": "album:1096",
+      "work_type": "Album",
+      "work_id": 1096,
+      "title": "Kan ve Toprak Arasında (Between Blood and Land)",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 1099,
+      "artist_name": "Wei Ding",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1097,
+          "name": "Corey Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398525
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:6794",
-      "target": "song:8209",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:8209",
-      "target": "song:14262",
-      "type": "InterpolatesFrom"
-    },
     {
       "source": "song:10521",
       "target": "song:14262",
@@ -234,6 +582,11 @@
       "type": "CoverOf"
     },
     {
+      "source": "song:6794",
+      "target": "song:8209",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:11878",
       "target": "song:14262",
       "type": "CoverOf"
@@ -242,6 +595,16 @@
       "source": "song:11438",
       "target": "song:15332",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:1096",
+      "target": "album:14661",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:8209",
+      "target": "song:14262",
+      "type": "InterpolatesFrom"
     }
   ]
 }

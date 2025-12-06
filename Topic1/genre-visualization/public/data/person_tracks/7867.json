@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:7866",
-      "song_id": 7866,
-      "title": "Whispers of Weariness",
-      "genre": "Alternative Rock",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 7867,
-      "artist_name": "Frank Bonilla",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:15642",
-      "song_id": 15642,
+      "work_type": "Song",
+      "work_id": 15642,
       "title": "Breathe Through the Storm",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +22,82 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1247926
+        }
+      ]
+    },
+    {
+      "id": "song:7866",
+      "work_type": "Song",
+      "work_id": 7866,
+      "title": "Whispers of Weariness",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 7867,
+      "artist_name": "Frank Bonilla",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 7868,
+          "name": "Robert Jefferson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987918
+        },
+        {
+          "person_id": 7869,
+          "name": "Sabrina Marquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987918
+        }
+      ]
     },
     {
       "id": "song:9557",
-      "song_id": 9557,
+      "work_type": "Song",
+      "work_id": 9557,
       "title": "Unbreakable Journey",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +115,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2108,
+          "name": "Ryan Doyle",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1247926
+        },
+        {
+          "person_id": 9558,
+          "name": "Larry Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278525
+        }
       ]
     },
     {
       "id": "song:14567",
-      "song_id": 14567,
+      "work_type": "Song",
+      "work_id": 14567,
       "title": "Whispers of the Nordic Meadow",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,6 +168,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9558,
+          "name": "Larry Walters",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0278525
+        },
+        {
+          "person_id": 14568,
+          "name": "Dawn Kelly",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980784
+        }
       ]
     }
   ],

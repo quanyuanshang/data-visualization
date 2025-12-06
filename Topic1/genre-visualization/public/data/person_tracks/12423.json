@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12422",
-      "song_id": 12422,
+      "work_type": "Song",
+      "work_id": 12422,
       "title": "Emerald Eyes of Possession",
       "genre": "Synthwave",
       "notable": true,
@@ -21,8 +22,195 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3399,
+          "name": "Jing Jin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7040498
+        },
+        {
+          "person_id": 12424,
+          "name": "Qiang Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516064
+        },
+        {
+          "person_id": 5433,
+          "name": "Jennifer Gibson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.972747
+        }
+      ]
+    },
+    {
+      "id": "album:14557",
+      "work_type": "Album",
+      "work_id": 14557,
+      "title": "Echoes from the Heart of El Salvador",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2016,
+      "single": false,
+      "own": true,
+      "artist_id": 12423,
+      "artist_name": "Qiang Qian",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 3399,
+          "name": "Jing Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7040498
+        },
+        {
+          "person_id": 12424,
+          "name": "Qiang Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516064
+        },
+        {
+          "person_id": 2911,
+          "name": "Xiulan Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0007012
+        },
+        {
+          "person_id": 14558,
+          "name": "Jing Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.376961
+        }
+      ]
+    },
+    {
+      "id": "song:7271",
+      "work_type": "Song",
+      "work_id": 7271,
+      "title": "Surrender to the Silence",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 4255,
+      "artist_name": "Guiying Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4259,
+          "name": "Jie Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2570076
+        },
+        {
+          "person_id": 4258,
+          "name": "Lei Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7324066
+        },
+        {
+          "person_id": 4255,
+          "name": "Guiying Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7200646
+        },
+        {
+          "person_id": 4257,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.426748
+        },
+        {
+          "person_id": 4256,
+          "name": "Ming Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.42026
+        },
+        {
+          "person_id": 7272,
+          "name": "Yan Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.382957
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:7271",
+      "target": "album:14557",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

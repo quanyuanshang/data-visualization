@@ -1,0 +1,196 @@
+{
+  "person_id": 15072,
+  "name": "Jun Tao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:15071",
+      "work_type": "Album",
+      "work_id": 15071,
+      "title": "Voices of the Frontier",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 15072,
+      "artist_name": "Jun Tao",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9633,
+          "name": "Bryan Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4291606
+        },
+        {
+          "person_id": 9635,
+          "name": "Ronald Kennedy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4291606
+        },
+        {
+          "person_id": 9990,
+          "name": "Gregory Williams",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4286969
+        },
+        {
+          "person_id": 15073,
+          "name": "Sean King",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975346
+        },
+        {
+          "person_id": 15074,
+          "name": "Wei Dai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975346
+        }
+      ]
+    },
+    {
+      "id": "song:746",
+      "work_type": "Song",
+      "work_id": 746,
+      "title": "Let Me Go, Let Me Rise",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 748,
+      "artist_name": "Xiuying Liang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 747,
+          "name": "Yang Gong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980951
+        },
+        {
+          "person_id": 748,
+          "name": "Xiuying Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978684
+        }
+      ]
+    },
+    {
+      "id": "song:15441",
+      "work_type": "Song",
+      "work_id": 15441,
+      "title": "Choreography of Forbidden Passion",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": true,
+      "own": false,
+      "artist_id": 9633,
+      "artist_name": "Bryan Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9633,
+          "name": "Bryan Smith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4291606
+        },
+        {
+          "person_id": 9635,
+          "name": "Ronald Kennedy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4291606
+        },
+        {
+          "person_id": 9990,
+          "name": "Gregory Williams",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4286969
+        },
+        {
+          "person_id": 15442,
+          "name": "Emily Jackson",
+          "stage_name": " R.J. West",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.1381965
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:746",
+      "target": "album:15071",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15441",
+      "target": "album:15071",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

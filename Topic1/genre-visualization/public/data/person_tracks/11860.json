@@ -1,0 +1,177 @@
+{
+  "person_id": 11860,
+  "name": "Paul Dunn",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11859",
+      "work_type": "Album",
+      "work_id": 11859,
+      "title": "Caught in the Cricket Crease",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2014,
+      "single": false,
+      "own": true,
+      "artist_id": 11860,
+      "artist_name": "Paul Dunn",
+      "influence": 7,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 829,
+          "name": "Xiulan Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7195547
+        }
+      ]
+    },
+    {
+      "id": "song:4368",
+      "work_type": "Song",
+      "work_id": 4368,
+      "title": "Vacancy of Memories",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 4369,
+      "artist_name": "Manuel Morrison",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4369,
+          "name": "Manuel Morrison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979309
+        },
+        {
+          "person_id": 4370,
+          "name": "Allison Williams",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979309
+        },
+        {
+          "person_id": 4371,
+          "name": "Nancy Myers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39791
+        }
+      ]
+    },
+    {
+      "id": "song:5058",
+      "work_type": "Song",
+      "work_id": 5058,
+      "title": "Rhythm of the Heated Skies",
+      "genre": "Lo-Fi Electronica",
+      "notable": false,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 1839,
+      "artist_name": "Miguel Johnston",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 1839,
+          "name": "Miguel Johnston",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7364244
+        }
+      ]
+    },
+    {
+      "id": "song:17270",
+      "work_type": "Song",
+      "work_id": 17270,
+      "title": "Salt-Kissed Rhymes",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 17260,
+      "artist_name": "Ivy Echos（成员：Sailor Shift｜预测 5.27、Maya Jensen｜预测 3.93…）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": []
+    }
+  ],
+  "links": [
+    {
+      "source": "song:4368",
+      "target": "album:11859",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:17270",
+      "target": "album:11859",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5058",
+      "target": "album:11859",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -4,28 +4,31 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:15590",
-      "song_id": 15590,
-      "title": "Beyond Moderation",
-      "genre": "Indie Rock",
-      "notable": false,
-      "release_year": 2027,
-      "single": true,
+      "id": "album:8257",
+      "work_type": "Album",
+      "work_id": 8257,
+      "title": "Nyanyian Pembangunan Purbalingga",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
       "own": true,
       "artist_id": 3754,
       "artist_name": "Annetta Passalacqua",
-      "influence": 0,
+      "influence": 8,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:6793",
-      "song_id": 6793,
+      "work_type": "Song",
+      "work_id": 6793,
       "title": "Stones and Shadows of Brittany",
       "genre": "Doom Metal",
       "notable": true,
@@ -41,11 +44,41 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3753,
+          "name": "Graziella Saffi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1033416
+        },
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
+      ]
     },
     {
       "id": "song:3750",
-      "song_id": 3750,
+      "work_type": "Song",
+      "work_id": 3750,
       "title": "Cotton and Nostalgia",
       "genre": "Space Rock",
       "notable": true,
@@ -61,8 +94,217 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3753,
+          "name": "Graziella Saffi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1033416
+        },
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
+      ]
+    },
+    {
+      "id": "song:15590",
+      "work_type": "Song",
+      "work_id": 15590,
+      "title": "Beyond Moderation",
+      "genre": "Indie Rock",
+      "notable": false,
+      "release_year": 2027,
+      "single": true,
+      "own": true,
+      "artist_id": 3754,
+      "artist_name": "Annetta Passalacqua",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
+      ]
+    },
+    {
+      "id": "song:3750",
+      "work_type": "Song",
+      "work_id": 3750,
+      "title": "Cotton and Nostalgia",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 3751,
+      "artist_name": "Imelda Zaguri (YUNG DUSK)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3753,
+          "name": "Graziella Saffi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1033416
+        },
+        {
+          "person_id": 3754,
+          "name": "Annetta Passalacqua",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4334188
+        },
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
+      ]
+    },
+    {
+      "id": "song:6793",
+      "work_type": "Song",
+      "work_id": 6793,
+      "title": "Stones and Shadows of Brittany",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3751,
+      "artist_name": "Imelda Zaguri (YUNG DUSK)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3753,
+          "name": "Graziella Saffi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1033416
+        },
+        {
+          "person_id": 3754,
+          "name": "Annetta Passalacqua",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4334188
+        },
+        {
+          "person_id": 3751,
+          "name": "Imelda Zaguri",
+          "stage_name": "YUNG DUSK",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0762165
+        },
+        {
+          "person_id": 3752,
+          "name": "Nanni Telesio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0529504
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:3750",
+      "target": "album:8257",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6793",
+      "target": "album:8257",
+      "type": "CoverOf"
+    }
+  ]
 }

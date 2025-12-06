@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3609",
-      "song_id": 3609,
+      "work_type": "Song",
+      "work_id": 3609,
       "title": "Contracts Before Commitment",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,146 @@
       "own": true,
       "artist_id": 3611,
       "artist_name": "Na Zou",
-      "influence": 3,
+      "influence": 6,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3613,
+          "name": "Xiulan Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.11822
+        },
+        {
+          "person_id": 3610,
+          "name": "Yan Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984962
+        },
+        {
+          "person_id": 3612,
+          "name": "Min Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984962
+        },
+        {
+          "person_id": 3614,
+          "name": "Yang He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984962
+        },
+        {
+          "person_id": 3615,
+          "name": "Jun Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981507
+        }
+      ]
+    },
+    {
+      "id": "album:1080",
+      "work_type": "Album",
+      "work_id": 1080,
+      "title": "Trapped in the Border",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1081,
+      "artist_name": "Ping He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 1084,
+          "name": "Qiang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179704
+        },
+        {
+          "person_id": 1083,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054744
+        },
+        {
+          "person_id": 1081,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0521207
+        },
+        {
+          "person_id": 1082,
+          "name": "Juan Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958273
+        }
+      ]
     },
     {
       "id": "song:6529",
-      "song_id": 6529,
+      "work_type": "Song",
+      "work_id": 6529,
       "title": "Echoes from the Eighteenth Floor",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,12 +172,75 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6534,
+          "name": "Tao Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1218596
+        },
+        {
+          "person_id": 2312,
+          "name": "Chao Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7090461
+        },
+        {
+          "person_id": 6530,
+          "name": "Yang Zhong",
+          "stage_name": " M.K. Ultra",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975308
+        },
+        {
+          "person_id": 6531,
+          "name": "Guiying Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975308
+        },
+        {
+          "person_id": 6533,
+          "name": "Qiang Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975308
+        },
+        {
+          "person_id": 6532,
+          "name": "Kana Ito",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39751
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:6529",
+      "target": "song:3609",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:1080",
       "target": "song:3609",
       "type": "LyricalReferenceTo"
     }

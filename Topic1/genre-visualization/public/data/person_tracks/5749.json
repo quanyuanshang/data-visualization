@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5746",
-      "song_id": 5746,
+      "work_type": "Song",
+      "work_id": 5746,
       "title": "Roadmap to Myself",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5750,
+          "name": "Dominique Ramos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0430882
+        },
+        {
+          "person_id": 5747,
+          "name": "Bryan Sandoval",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3949325
+        },
+        {
+          "person_id": 5748,
+          "name": "Sarah Harrison",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3949325
+        }
+      ]
     },
     {
       "id": "song:5958",
-      "song_id": 5958,
+      "work_type": "Song",
+      "work_id": 5958,
       "title": "Mending Pieces",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,6 +75,35 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1818,
+          "name": "Sarah James",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4280584
+        },
+        {
+          "person_id": 1820,
+          "name": "Susan Mcclain",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4246185
+        },
+        {
+          "person_id": 5959,
+          "name": "Megan Morrow",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0639293
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15276",
-      "song_id": 15276,
+      "work_type": "Song",
+      "work_id": 15276,
       "title": "Regal Shadows of the Castle",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15277,
+          "name": "Heidi Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3995478
+        },
+        {
+          "person_id": 15278,
+          "name": "James Hopkins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3995478
+        }
+      ]
     },
     {
       "id": "song:9465",
-      "song_id": 9465,
+      "work_type": "Song",
+      "work_id": 9465,
       "title": "Lace Up and Rise",
       "genre": "Synthwave",
       "notable": true,
@@ -41,11 +64,61 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9467,
+          "name": "Chad Booker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9471,
+          "name": "Gabriel Nash",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9466,
+          "name": "Heidi Bradley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973613
+        },
+        {
+          "person_id": 9469,
+          "name": "Jeremy Rodriguez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3973613
+        },
+        {
+          "person_id": 9470,
+          "name": "Kari Dillon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973613
+        }
+      ]
     },
     {
       "id": "song:9545",
-      "song_id": 9545,
+      "work_type": "Song",
+      "work_id": 9545,
       "title": "Arrival of the Cherished Stranger",
       "genre": "Dream Pop",
       "notable": true,
@@ -61,11 +134,51 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7233,
+          "name": "Kenneth Crosby",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4266882
+        },
+        {
+          "person_id": 9467,
+          "name": "Chad Booker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9471,
+          "name": "Gabriel Nash",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9546,
+          "name": "Gabriel Rosales",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4009013
+        }
+      ]
     },
     {
       "id": "song:9545",
-      "song_id": 9545,
+      "work_type": "Song",
+      "work_id": 9545,
       "title": "Arrival of the Cherished Stranger",
       "genre": "Dream Pop",
       "notable": true,
@@ -84,19 +197,67 @@
       "relation_types": [
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7233,
+          "name": "Kenneth Crosby",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4266882
+        },
+        {
+          "person_id": 9468,
+          "name": "Erin Welch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.411863
+        },
+        {
+          "person_id": 9467,
+          "name": "Chad Booker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9471,
+          "name": "Gabriel Nash",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0530152
+        },
+        {
+          "person_id": 9546,
+          "name": "Gabriel Rosales",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4009013
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:9545",
-      "target": "song:15276",
-      "type": "InterpolatesFrom"
+      "target": "song:9465",
+      "type": "InStyleOf"
     },
     {
       "source": "song:9545",
-      "target": "song:9465",
-      "type": "InStyleOf"
+      "target": "song:15276",
+      "type": "InterpolatesFrom"
     }
   ]
 }

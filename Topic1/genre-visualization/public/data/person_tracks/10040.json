@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10035",
-      "song_id": 10035,
+      "work_type": "Song",
+      "work_id": 10035,
       "title": "Whispers from the Ecclesiastical Shadows",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -21,11 +22,78 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4465,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1116056
+        },
+        {
+          "person_id": 10036,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10037,
+          "name": "Ping Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10038,
+          "name": "Chao Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10039,
+          "name": "Jun Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10041,
+          "name": "Ming Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10042,
+          "name": "Gang Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986707
+        }
+      ]
     },
     {
       "id": "song:1680",
-      "song_id": 1680,
+      "work_type": "Song",
+      "work_id": 1680,
       "title": "Riddle of the Frozen Princess",
       "genre": "Space Rock",
       "notable": true,
@@ -43,11 +111,42 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1681,
+          "name": "Lei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1682,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1683,
+          "name": "Jing Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981771
+        }
       ]
     },
     {
       "id": "song:7584",
-      "song_id": 7584,
+      "work_type": "Song",
+      "work_id": 7584,
       "title": "Riverside Echoes of Jaguaribe",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +164,57 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7585,
+          "name": "Tao Cui",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3971329
+        },
+        {
+          "person_id": 7586,
+          "name": "Gang Mao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3971329
+        },
+        {
+          "person_id": 7587,
+          "name": "Xia Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971329
+        },
+        {
+          "person_id": 7588,
+          "name": "Guiying Ma",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3971329
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7584",
-      "target": "song:10035",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:1680",
       "target": "song:10035",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:7584",
+      "target": "song:10035",
+      "type": "InStyleOf"
     }
   ]
 }

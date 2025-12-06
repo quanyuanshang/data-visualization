@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11805",
-      "song_id": 11805,
+      "work_type": "Song",
+      "work_id": 11805,
       "title": "The Go-Between",
       "genre": "Americana",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 11807,
       "artist_name": "Charo Perez Castillo",
-      "influence": 3,
+      "influence": 8,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11806,
+          "name": "Maite Cuevas Caballero",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3912652
+        }
+      ]
     },
     {
       "id": "song:11885",
-      "song_id": 11885,
+      "work_type": "Song",
+      "work_id": 11885,
       "title": "Whispers of the Danish Countryside",
       "genre": "Americana",
       "notable": true,
@@ -41,11 +55,94 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11887,
+          "name": "Sosimo Donaire Marí",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9828694
+        },
+        {
+          "person_id": 11886,
+          "name": "Ildefonso Aragón Guerra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4009027
+        }
+      ]
+    },
+    {
+      "id": "album:1416",
+      "work_type": "Album",
+      "work_id": 1416,
+      "title": "Clean Slate",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 1417,
+      "artist_name": "Mohamed Sastre Godoy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1417,
+          "name": "Mohamed Sastre Godoy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468009
+        },
+        {
+          "person_id": 1418,
+          "name": "Baudelio Anglada-Valenzuela",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0468009
+        },
+        {
+          "person_id": 1419,
+          "name": "Lauren Powell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468009
+        },
+        {
+          "person_id": 1420,
+          "name": "Prudencio Nilo Arjona Huguet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0402646
+        }
+      ]
     },
     {
       "id": "song:6022",
-      "song_id": 6022,
+      "work_type": "Song",
+      "work_id": 6022,
       "title": "Melody of My Soul",
       "genre": "Americana",
       "notable": true,
@@ -63,10 +160,63 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1417,
+          "name": "Mohamed Sastre Godoy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0468009
+        },
+        {
+          "person_id": 1418,
+          "name": "Baudelio Anglada-Valenzuela",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468009
+        },
+        {
+          "person_id": 1419,
+          "name": "Lauren Powell",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0468009
+        },
+        {
+          "person_id": 1420,
+          "name": "Prudencio Nilo Arjona Huguet",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0402646
+        },
+        {
+          "person_id": 6023,
+          "name": "Sean Jackson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396267
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:1416",
+      "target": "song:11805",
+      "type": "CoverOf"
+    },
     {
       "source": "song:6022",
       "target": "song:11805",

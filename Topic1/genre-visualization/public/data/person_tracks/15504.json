@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15503",
-      "song_id": 15503,
+      "work_type": "Song",
+      "work_id": 15503,
       "title": "Grumpy's Revenge",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 2434,
+          "name": "Lei Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7158253
+        },
+        {
+          "person_id": 15505,
+          "name": "Xiuying Zeng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3969033
+        }
+      ]
     },
     {
       "id": "song:12034",
-      "song_id": 12034,
+      "work_type": "Song",
+      "work_id": 12034,
       "title": "Shadowy Exodus: A Raven's Urban Escape",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +75,36 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 2434,
+          "name": "Lei Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7158253
+        },
+        {
+          "person_id": 12035,
+          "name": "Yan Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.396848
+        }
       ]
     }
   ],

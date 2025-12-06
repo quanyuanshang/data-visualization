@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16211",
-      "song_id": 16211,
-      "title": "Phantom Heartstrings",
-      "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2023,
-      "single": true,
-      "own": true,
-      "artist_id": 8793,
-      "artist_name": "Kevin Morrow",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:8791",
-      "song_id": 8791,
+      "work_type": "Song",
+      "work_id": 8791,
       "title": "The Pause Between Heartbeats",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +22,93 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2326,
+          "name": "Dominic Phillips",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6758654
+        },
+        {
+          "person_id": 6914,
+          "name": "Xia Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3931077
+        },
+        {
+          "person_id": 8792,
+          "name": "Xiulan Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980296
+        },
+        {
+          "person_id": 8794,
+          "name": "Michael Montgomery",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980296
+        }
+      ]
+    },
+    {
+      "id": "song:16211",
+      "work_type": "Song",
+      "work_id": 16211,
+      "title": "Phantom Heartstrings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 8793,
+      "artist_name": "Kevin Morrow",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4799,
+          "name": "Na Yin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7197526
+        },
+        {
+          "person_id": 2326,
+          "name": "Dominic Phillips",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6758654
+        }
+      ]
     },
     {
       "id": "song:7672",
-      "song_id": 7672,
+      "work_type": "Song",
+      "work_id": 7672,
       "title": "Mineral Whispers",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,6 +126,63 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7673,
+          "name": "Alicia Rice",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4000027
+        },
+        {
+          "person_id": 7674,
+          "name": "Juan Jia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7675,
+          "name": "Fang Qin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7676,
+          "name": "Yan Qiu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7677,
+          "name": "Katherine Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399833
+        },
+        {
+          "person_id": 7678,
+          "name": "Ming Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399833
+        }
       ]
     }
   ],

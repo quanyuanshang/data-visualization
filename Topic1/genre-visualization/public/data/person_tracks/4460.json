@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4459",
-      "song_id": 4459,
+      "work_type": "Song",
+      "work_id": 4459,
       "title": "Neon Bootstraps",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4461,
+          "name": "Ping Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0306332
+        },
+        {
+          "person_id": 4462,
+          "name": "Li Xue",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0306332
+        },
+        {
+          "person_id": 4463,
+          "name": "Juan Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0306332
+        }
+      ]
     },
     {
       "id": "song:4288",
-      "song_id": 4288,
+      "work_type": "Song",
+      "work_id": 4288,
       "title": "Silver Serenade",
       "genre": "Desert Rock",
       "notable": true,
@@ -43,11 +75,52 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4290,
+          "name": "Gang Hu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0384743
+        },
+        {
+          "person_id": 4291,
+          "name": "Tao Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0384743
+        },
+        {
+          "person_id": 4289,
+          "name": "Xiuying Ye",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4000475
+        },
+        {
+          "person_id": 4292,
+          "name": "Jing Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000475
+        }
       ]
     },
     {
       "id": "song:8448",
-      "song_id": 8448,
+      "work_type": "Song",
+      "work_id": 8448,
       "title": "The Deputy's Revenge",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -65,11 +138,52 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8449,
+          "name": "Jing Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399007
+        },
+        {
+          "person_id": 8451,
+          "name": "Wei Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399007
+        },
+        {
+          "person_id": 8452,
+          "name": "Na Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399007
+        },
+        {
+          "person_id": 8450,
+          "name": "Lei Yi",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986483
+        }
       ]
     },
     {
       "id": "song:11972",
-      "song_id": 11972,
+      "work_type": "Song",
+      "work_id": 11972,
       "title": "Ignite the Horizon",
       "genre": "Desert Rock",
       "notable": true,
@@ -87,14 +201,63 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11973,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396834
+        },
+        {
+          "person_id": 11974,
+          "name": "Jun Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396834
+        },
+        {
+          "person_id": 11975,
+          "name": "Donald Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396834
+        },
+        {
+          "person_id": 11976,
+          "name": "Na Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396834
+        },
+        {
+          "person_id": 11977,
+          "name": "Xiulan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396834
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11972",
+      "source": "song:8448",
       "target": "song:4459",
-      "type": "InterpolatesFrom"
+      "type": "DirectlySamples"
     },
     {
       "source": "song:4288",
@@ -102,9 +265,9 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:8448",
+      "source": "song:11972",
       "target": "song:4459",
-      "type": "DirectlySamples"
+      "type": "InterpolatesFrom"
     }
   ]
 }

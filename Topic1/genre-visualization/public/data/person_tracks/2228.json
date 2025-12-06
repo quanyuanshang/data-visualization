@@ -4,8 +4,59 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:2227",
+      "work_type": "Album",
+      "work_id": 2227,
+      "title": "Devotion's Flame",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": true,
+      "artist_id": 2228,
+      "artist_name": "Gang Hou",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2231,
+          "name": "Chao Yan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0528278
+        },
+        {
+          "person_id": 2230,
+          "name": "Yong Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0518274
+        },
+        {
+          "person_id": 2229,
+          "name": "Roger Walsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991787
+        }
+      ]
+    },
+    {
       "id": "song:7380",
-      "song_id": 7380,
+      "work_type": "Song",
+      "work_id": 7380,
       "title": "Beyond Comparison",
       "genre": "Space Rock",
       "notable": true,
@@ -21,11 +72,88 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2231,
+          "name": "Chao Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0528278
+        },
+        {
+          "person_id": 2230,
+          "name": "Yong Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0518274
+        }
+      ]
+    },
+    {
+      "id": "song:7380",
+      "work_type": "Song",
+      "work_id": 7380,
+      "title": "Beyond Comparison",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": true,
+      "artist_id": 2228,
+      "artist_name": "Gang Hou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2228,
+          "name": "Gang Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0528278
+        },
+        {
+          "person_id": 2231,
+          "name": "Chao Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0528278
+        },
+        {
+          "person_id": 2230,
+          "name": "Yong Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0518274
+        }
+      ]
     },
     {
       "id": "song:6024",
-      "song_id": 6024,
+      "work_type": "Song",
+      "work_id": 6024,
       "title": "Unsilenced Whispers",
       "genre": "Space Rock",
       "notable": true,
@@ -43,6 +171,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6026,
+          "name": "Gang Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982146
+        },
+        {
+          "person_id": 6025,
+          "name": "Xia Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39821
+        }
       ]
     }
   ],
@@ -51,6 +200,11 @@
       "source": "song:6024",
       "target": "song:7380",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:7380",
+      "target": "album:2227",
+      "type": "InterpolatesFrom"
     }
   ]
 }

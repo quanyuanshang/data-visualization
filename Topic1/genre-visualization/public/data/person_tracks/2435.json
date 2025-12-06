@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2433",
-      "song_id": 2433,
+      "work_type": "Song",
+      "work_id": 2433,
       "title": "Weekend Escape",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 2434,
+          "name": "Lei Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7158253
+        }
+      ]
     },
     {
       "id": "song:8846",
-      "song_id": 8846,
+      "work_type": "Song",
+      "work_id": 8846,
       "title": "Undecorated (A Solitary Night)",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +66,70 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5011,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4540932
+        },
+        {
+          "person_id": 8851,
+          "name": "Jun Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0445716
+        },
+        {
+          "person_id": 8847,
+          "name": "Wei Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989215
+        },
+        {
+          "person_id": 8848,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989215
+        },
+        {
+          "person_id": 8849,
+          "name": "Yong Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989215
+        },
+        {
+          "person_id": 8850,
+          "name": "Xia Dai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989215
+        }
       ]
     },
     {
       "id": "song:12034",
-      "song_id": 12034,
+      "work_type": "Song",
+      "work_id": 12034,
       "title": "Shadowy Exodus: A Raven's Urban Escape",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,19 +147,49 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1346,
+          "name": "Xiuying Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.709481
+        },
+        {
+          "person_id": 2434,
+          "name": "Lei Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7158253
+        },
+        {
+          "person_id": 12035,
+          "name": "Yan Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.396848
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12034",
-      "target": "song:2433",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:8846",
       "target": "song:2433",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:12034",
+      "target": "song:2433",
+      "type": "InStyleOf"
     }
   ]
 }

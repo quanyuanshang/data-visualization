@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14610",
-      "song_id": 14610,
-      "title": "Denial's Embrace",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 1991,
-      "single": true,
-      "own": true,
-      "artist_id": 3410,
-      "artist_name": "Xia Deng",
-      "influence": 9,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 3,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3407",
-      "song_id": 3407,
+      "work_type": "Song",
+      "work_id": 3407,
       "title": "Splitting the Difference",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -34,18 +15,40 @@
       "own": true,
       "artist_id": 3410,
       "artist_name": "Xia Deng",
-      "influence": 24,
+      "influence": 26,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
         "reference": 5,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 3408,
+          "name": "Qiang Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.1402628
+        }
+      ]
     },
     {
       "id": "song:4890",
-      "song_id": 4890,
+      "work_type": "Song",
+      "work_id": 4890,
       "title": "Naked Spectrum",
       "genre": "Desert Rock",
       "notable": true,
@@ -61,11 +64,266 @@
         "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1953,
+          "name": "Xiuying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7739844
+        },
+        {
+          "person_id": 4891,
+          "name": "Jing Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.050012
+        },
+        {
+          "person_id": 3318,
+          "name": "Li Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3320,
+          "name": "Xia Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3322,
+          "name": "Wei Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        }
+      ]
+    },
+    {
+      "id": "song:14610",
+      "work_type": "Song",
+      "work_id": 14610,
+      "title": "Denial's Embrace",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 3410,
+      "artist_name": "Xia Deng",
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 3,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1135287
+        }
+      ]
+    },
+    {
+      "id": "song:449",
+      "work_type": "Song",
+      "work_id": 449,
+      "title": "Dancing Stones of Memory",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 451,
+      "artist_name": "Gang Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0568504
+        },
+        {
+          "person_id": 451,
+          "name": "Gang Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4326167
+        },
+        {
+          "person_id": 452,
+          "name": "Juan Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.401169
+        }
+      ]
+    },
+    {
+      "id": "song:5283",
+      "work_type": "Song",
+      "work_id": 5283,
+      "title": "Dial Tone Goodbye",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2003,
+      "single": true,
+      "own": false,
+      "artist_id": 450,
+      "artist_name": "Jun Cao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0568504
+        },
+        {
+          "person_id": 4632,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261239
+        },
+        {
+          "person_id": 451,
+          "name": "Gang Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4326167
+        }
+      ]
+    },
+    {
+      "id": "song:6875",
+      "work_type": "Song",
+      "work_id": 6875,
+      "title": "Midnight's Promise",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": false,
+      "artist_id": 6876,
+      "artist_name": "Na Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6876,
+          "name": "Na Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6877,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6878,
+          "name": "Ming Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6879,
+          "name": "Li Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6880,
+          "name": "Juan Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989391
+        }
+      ]
     },
     {
       "id": "song:9284",
-      "song_id": 9284,
+      "work_type": "Song",
+      "work_id": 9284,
       "title": "Echoes of Elation",
       "genre": "Blues Rock",
       "notable": true,
@@ -84,11 +342,32 @@
       "relation_types": [
         "InterpolatesFrom",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6036,
+          "name": "Yan Kang",
+          "stage_name": "Vesper Illusion",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9247656
+        }
       ]
     },
     {
       "id": "song:10600",
-      "song_id": 10600,
+      "work_type": "Song",
+      "work_id": 10600,
       "title": "Voices of the Motherland",
       "genre": "Alternative Rock",
       "notable": true,
@@ -107,11 +386,172 @@
       "relation_types": [
         "CoverOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0568504
+        },
+        {
+          "person_id": 6036,
+          "name": "Yan Kang",
+          "stage_name": "Vesper Illusion",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9247656
+        }
+      ]
+    },
+    {
+      "id": "album:12616",
+      "work_type": "Album",
+      "work_id": 12616,
+      "title": "Weightless Consequence",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 16791,
+      "artist_name": "Operatic Insurgence（成员：Fang Tan｜预测 3.72、Fang Yin｜预测 4.10）",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7181127
+        }
+      ]
+    },
+    {
+      "id": "song:13930",
+      "work_type": "Song",
+      "work_id": 13930,
+      "title": "Silk and Stirrups",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": false,
+      "artist_id": 6037,
+      "artist_name": "Fang Tan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7181127
+        }
+      ]
+    },
+    {
+      "id": "song:14610",
+      "work_type": "Song",
+      "work_id": 14610,
+      "title": "Denial's Embrace",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 3410,
+      "artist_name": "Xia Deng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3409,
+          "name": "Janice Lamb",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1135287
+        },
+        {
+          "person_id": 3410,
+          "name": "Xia Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4275756
+        }
       ]
     },
     {
       "id": "song:16617",
-      "song_id": 16617,
+      "work_type": "Song",
+      "work_id": 16617,
       "title": "Static and Soul",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -130,99 +570,52 @@
       "relation_types": [
         "InterpolatesFrom",
         "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:449",
-      "song_id": 449,
-      "title": "Dancing Stones of Memory",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2004,
-      "single": true,
-      "own": false,
-      "artist_id": 451,
-      "artist_name": "Gang Lei",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
-      ]
-    },
-    {
-      "id": "song:5283",
-      "song_id": 5283,
-      "title": "Dial Tone Goodbye",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2003,
-      "single": true,
-      "own": false,
-      "artist_id": 450,
-      "artist_name": "Jun Cao",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:6875",
-      "song_id": 6875,
-      "title": "Midnight's Promise",
-      "genre": "Blues Rock",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": false,
-      "artist_id": 6876,
-      "artist_name": "Na Tan",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "InStyleOf"
-      ]
-    },
-    {
-      "id": "song:13930",
-      "song_id": 13930,
-      "title": "Silk and Stirrups",
-      "genre": "Southern Gothic Rock",
-      "notable": true,
-      "release_year": 2009,
-      "single": false,
-      "own": false,
-      "artist_id": 6037,
-      "artist_name": "Fang Tan",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6036,
+          "name": "Yan Kang",
+          "stage_name": "Vesper Illusion",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9247656
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7181127
+        },
+        {
+          "person_id": 6038,
+          "name": "Jie Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0346477
+        }
       ]
     },
     {
       "id": "song:3316",
-      "song_id": 3316,
+      "work_type": "Song",
+      "work_id": 3316,
       "title": "Degrees of Freedom",
       "genre": "Desert Rock",
       "notable": true,
@@ -240,11 +633,78 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1953,
+          "name": "Xiuying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7739844
+        },
+        {
+          "person_id": 3318,
+          "name": "Li Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3320,
+          "name": "Xia Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3322,
+          "name": "Wei Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.047606
+        },
+        {
+          "person_id": 3317,
+          "name": "Na Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3989158
+        },
+        {
+          "person_id": 3319,
+          "name": "Guiying Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989158
+        },
+        {
+          "person_id": 3321,
+          "name": "Juan Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989158
+        }
       ]
     },
     {
       "id": "song:3485",
-      "song_id": 3485,
+      "work_type": "Song",
+      "work_id": 3485,
       "title": "Through Every Storm We Rise",
       "genre": "Dream Pop",
       "notable": true,
@@ -262,11 +722,69 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1785,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.475672
+        },
+        {
+          "person_id": 3486,
+          "name": "Jing Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048528
+        },
+        {
+          "person_id": 3490,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047809
+        },
+        {
+          "person_id": 3487,
+          "name": "Jing Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990943
+        },
+        {
+          "person_id": 3488,
+          "name": "Yan Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990943
+        },
+        {
+          "person_id": 3489,
+          "name": "Wei Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399081
+        }
       ]
     },
     {
       "id": "song:9204",
-      "song_id": 9204,
+      "work_type": "Song",
+      "work_id": 9204,
       "title": "Spin Cycle Serenade",
       "genre": "Desert Rock",
       "notable": true,
@@ -284,11 +802,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 566,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.914547
+        },
+        {
+          "person_id": 567,
+          "name": "Juan Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.442312
+        },
+        {
+          "person_id": 564,
+          "name": "Yan Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.431904
+        },
+        {
+          "person_id": 565,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4247894
+        }
       ]
     },
     {
       "id": "song:15512",
-      "song_id": 15512,
+      "work_type": "Song",
+      "work_id": 15512,
       "title": "Tropical Daydream in Frost",
       "genre": "Dream Pop",
       "notable": true,
@@ -306,38 +864,73 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 495,
+          "name": "Qiang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.431209
+        },
+        {
+          "person_id": 4891,
+          "name": "Jing Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.050012
+        },
+        {
+          "person_id": 15513,
+          "name": "Li Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3951006
+        },
+        {
+          "person_id": 15514,
+          "name": "Xiulan Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3951006
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:16617",
+      "source": "album:12616",
+      "target": "song:14610",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:15512",
+      "target": "song:4890",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14610",
       "target": "song:3407",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6875",
+      "source": "song:449",
       "target": "song:3407",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:9204",
-      "target": "song:4890",
-      "type": "InterpolatesFrom"
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:10600",
       "target": "song:3407",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:9284",
-      "target": "song:14610",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:3316",
-      "target": "song:4890",
       "type": "CoverOf"
     },
     {
@@ -346,13 +939,8 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:16617",
+      "source": "song:10600",
       "target": "song:14610",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:449",
-      "target": "song:3407",
       "type": "LyricalReferenceTo"
     },
     {
@@ -361,7 +949,12 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:15512",
+      "source": "song:16617",
+      "target": "song:14610",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:9204",
       "target": "song:4890",
       "type": "InterpolatesFrom"
     },
@@ -371,17 +964,32 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:10600",
-      "target": "song:14610",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:14610",
+      "source": "song:16617",
       "target": "song:3407",
       "type": "LyricalReferenceTo"
     },
     {
+      "source": "song:3316",
+      "target": "song:4890",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:9284",
+      "target": "song:14610",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6875",
+      "target": "song:3407",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:5283",
+      "target": "song:3407",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:12616",
       "target": "song:3407",
       "type": "InStyleOf"
     }

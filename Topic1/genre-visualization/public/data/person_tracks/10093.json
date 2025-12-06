@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10091",
-      "song_id": 10091,
+      "work_type": "Song",
+      "work_id": 10091,
       "title": "Whispers of the Wild",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,6 +15,39 @@
       "own": true,
       "artist_id": 10093,
       "artist_name": "William de la Valentin",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10092,
+          "name": "Xavier Pierre",
+          "stage_name": "Xavier",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3994167
+        }
+      ]
+    },
+    {
+      "id": "album:9579",
+      "work_type": "Album",
+      "work_id": 9579,
+      "title": "Tundra Whispers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 9580,
+      "artist_name": "Ana Sager (Chromatic Drift)",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +55,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9582,
+          "name": "Alicia Koch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991585
+        },
+        {
+          "person_id": 9580,
+          "name": "Ana Sager",
+          "stage_name": "Chromatic Drift",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398614
+        },
+        {
+          "person_id": 9581,
+          "name": "Godofredo Franch Sanabria",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986073
+        },
+        {
+          "person_id": 9583,
+          "name": "Roswita Weinhold",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986073
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:9579",
+      "target": "song:10091",
+      "type": "InStyleOf"
+    }
+  ]
 }

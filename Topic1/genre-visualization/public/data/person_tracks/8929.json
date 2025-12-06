@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12163",
-      "song_id": 12163,
+      "work_type": "Song",
+      "work_id": 12163,
       "title": "Annie's Unbroken Vow",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +15,52 @@
       "own": true,
       "artist_id": 8929,
       "artist_name": "Timothy Rios",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:8927",
+      "work_type": "Album",
+      "work_id": 8927,
+      "title": "Sorrow's Final Breath",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 8929,
+      "artist_name": "Timothy Rios",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8928,
+          "name": "Anthony Farmer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017344
+        }
+      ]
     },
     {
       "id": "song:10232",
-      "song_id": 10232,
+      "work_type": "Song",
+      "work_id": 10232,
       "title": "Tonernas Samtal: En Barytons Bekännelse",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,11 +76,190 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10233,
+          "name": "Natasha Duncan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007509
+        },
+        {
+          "person_id": 10234,
+          "name": "Jason Baker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4007509
+        }
+      ]
+    },
+    {
+      "id": "album:11078",
+      "work_type": "Album",
+      "work_id": 11078,
+      "title": "Whispers Between Souls",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1227,
+      "artist_name": "Jun Xia",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1227,
+          "name": "Jun Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5173717
+        },
+        {
+          "person_id": 6062,
+          "name": "Ping Mao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.995449
+        },
+        {
+          "person_id": 6063,
+          "name": "Jun Xiong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.995449
+        },
+        {
+          "person_id": 11079,
+          "name": "Mackenzie Murray",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.402693
+        }
+      ]
+    },
+    {
+      "id": "song:14007",
+      "work_type": "Song",
+      "work_id": 14007,
+      "title": "Tiny Seeds, Endless Horizons",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2021,
+      "single": true,
+      "own": false,
+      "artist_id": 12667,
+      "artist_name": "Carsten Fritsch",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12667,
+          "name": "Carsten Fritsch",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.032013
+        },
+        {
+          "person_id": 14008,
+          "name": "Eckard Werner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14009,
+          "name": "Zbigniew Stey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3983915
+        },
+        {
+          "person_id": 14010,
+          "name": "Milo Hendriks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983915
+        }
+      ]
+    },
+    {
+      "id": "song:14802",
+      "work_type": "Song",
+      "work_id": 14802,
+      "title": "Whispers in the Keep",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 14803,
+      "artist_name": "Joan Taylor",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14803,
+          "name": "Joan Taylor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396663
+        }
+      ]
     },
     {
       "id": "song:7361",
-      "song_id": 7361,
+      "work_type": "Song",
+      "work_id": 7361,
       "title": "Resonance Chamber",
       "genre": "Alternative Rock",
       "notable": true,
@@ -63,10 +277,54 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7362,
+          "name": "Takuma Shimizu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3995454
+        },
+        {
+          "person_id": 7363,
+          "name": "Michael Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995454
+        },
+        {
+          "person_id": 7364,
+          "name": "Mikako Saito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995454
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:14007",
+      "target": "album:8927",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:11078",
+      "target": "song:12163",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:14802",
+      "target": "album:8927",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:7361",
       "target": "song:10232",

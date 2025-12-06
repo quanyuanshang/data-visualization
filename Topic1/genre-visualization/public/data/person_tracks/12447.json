@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12445",
-      "song_id": 12445,
+      "work_type": "Song",
+      "work_id": 12445,
       "title": "The Infinite Melody",
       "genre": "Synthpop",
       "notable": true,
@@ -21,11 +22,60 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5381,
+          "name": "Guiying Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4300647
+        },
+        {
+          "person_id": 12446,
+          "name": "Nicholas Harris",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993473
+        },
+        {
+          "person_id": 12448,
+          "name": "Matthew Lara",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993473
+        },
+        {
+          "person_id": 12449,
+          "name": "Yan Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993473
+        },
+        {
+          "person_id": 12450,
+          "name": "Laura Mejia",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3993473
+        }
+      ]
     },
     {
       "id": "song:6827",
-      "song_id": 6827,
+      "work_type": "Song",
+      "work_id": 6827,
       "title": "Fading Echoes",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,11 +93,68 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 2607,
+          "name": "Lisa Hart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4387958
+        },
+        {
+          "person_id": 20,
+          "name": "Xiuying Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0806165
+        },
+        {
+          "person_id": 2606,
+          "name": "Xiulan Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036191
+        },
+        {
+          "person_id": 6828,
+          "name": "Li Qian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397213
+        },
+        {
+          "person_id": 6829,
+          "name": "Lei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397213
+        }
       ]
     },
     {
       "id": "song:8858",
-      "song_id": 8858,
+      "work_type": "Song",
+      "work_id": 8858,
       "title": "Chromatic Reflections on a Theme",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -65,19 +172,49 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8859,
+          "name": "Ryan Mcguire",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3981957
+        },
+        {
+          "person_id": 8860,
+          "name": "Stephen Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981957
+        },
+        {
+          "person_id": 8861,
+          "name": "Eric Hopkins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3981957
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:8858",
-      "target": "song:12445",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:6827",
       "target": "song:12445",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:8858",
+      "target": "song:12445",
+      "type": "DirectlySamples"
     }
   ]
 }

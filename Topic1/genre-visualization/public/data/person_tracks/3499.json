@@ -1,0 +1,175 @@
+{
+  "person_id": 3499,
+  "name": "John Rogers",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:3497",
+      "work_type": "Album",
+      "work_id": 3497,
+      "title": "Resilience of the Spirit",
+      "genre": "Synthwave",
+      "notable": false,
+      "release_year": 2000,
+      "single": false,
+      "own": true,
+      "artist_id": 3499,
+      "artist_name": "John Rogers",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.88256
+        },
+        {
+          "person_id": 3498,
+          "name": "Lina Mendizábal Robledo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.3844955
+        }
+      ]
+    },
+    {
+      "id": "album:1817",
+      "work_type": "Album",
+      "work_id": 1817,
+      "title": "The Ballad of Billy's Bravado",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1997,
+      "single": false,
+      "own": false,
+      "artist_id": 1818,
+      "artist_name": "Sarah James",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1818,
+          "name": "Sarah James",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4280584
+        },
+        {
+          "person_id": 1820,
+          "name": "Susan Mcclain",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4246185
+        },
+        {
+          "person_id": 1819,
+          "name": "Michele Kim",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3998492
+        }
+      ]
+    },
+    {
+      "id": "song:5958",
+      "work_type": "Song",
+      "work_id": 5958,
+      "title": "Mending Pieces",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 1818,
+      "artist_name": "Sarah James",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1818,
+          "name": "Sarah James",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4280584
+        },
+        {
+          "person_id": 1820,
+          "name": "Susan Mcclain",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4246185
+        },
+        {
+          "person_id": 5959,
+          "name": "Megan Morrow",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0639293
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:1817",
+      "target": "album:3497",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:5958",
+      "target": "album:3497",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

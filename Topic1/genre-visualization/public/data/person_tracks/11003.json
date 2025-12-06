@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11002",
-      "song_id": 11002,
+      "work_type": "Song",
+      "work_id": 11002,
       "title": "The Maestro's Unsung Wisdom",
       "genre": "Indie Rock",
       "notable": true,
@@ -14,18 +15,31 @@
       "own": true,
       "artist_id": 11003,
       "artist_name": "Andrzej Kamyszek",
-      "influence": 3,
+      "influence": 8,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11004,
+          "name": "Franciszek Wieja",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982766
+        }
+      ]
     },
     {
       "id": "song:13229",
-      "song_id": 13229,
+      "work_type": "Song",
+      "work_id": 13229,
       "title": "Throne and Tears",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,10 +57,99 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4403,
+          "name": "Mariah Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7198555
+        },
+        {
+          "person_id": 4401,
+          "name": "Malwina Penar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.711405
+        },
+        {
+          "person_id": 10377,
+          "name": "Przemysław Szałkiewicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0350602
+        },
+        {
+          "person_id": 13230,
+          "name": "Dagmara Pasztaleniec",
+          "stage_name": "Troy Maxwell",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4015384
+        },
+        {
+          "person_id": 13231,
+          "name": "Melissa Soto",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4015384
+        }
+      ]
+    },
+    {
+      "id": "album:16972",
+      "work_type": "Album",
+      "work_id": 16972,
+      "title": "Glass Horizons",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2039,
+      "single": false,
+      "own": false,
+      "artist_id": 16971,
+      "artist_name": "Jasper Quinn",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16971,
+          "name": "Jasper Quinn",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.416962
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:16972",
+      "target": "song:11002",
+      "type": "CoverOf"
+    },
     {
       "source": "song:13229",
       "target": "song:11002",

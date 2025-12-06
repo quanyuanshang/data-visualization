@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14469",
-      "song_id": 14469,
+      "work_type": "Song",
+      "work_id": 14469,
       "title": "Take It All",
       "genre": "Space Rock",
       "notable": true,
@@ -14,6 +15,56 @@
       "own": true,
       "artist_id": 14471,
       "artist_name": "Gang Fan",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14470,
+          "name": "Min Qin",
+          "stage_name": " Crystal Dove",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398108
+        },
+        {
+          "person_id": 14472,
+          "name": "Ming Qiu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398108
+        },
+        {
+          "person_id": 14473,
+          "name": "Ping Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398108
+        }
+      ]
+    },
+    {
+      "id": "album:2633",
+      "work_type": "Album",
+      "work_id": 2633,
+      "title": "Stoop Stories",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2634,
+      "artist_name": "Chao Li",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +72,54 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:2633",
+      "target": "song:14469",
+      "type": "DirectlySamples"
+    }
+  ]
 }

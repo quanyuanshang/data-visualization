@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13627",
-      "song_id": 13627,
+      "work_type": "Song",
+      "work_id": 13627,
       "title": "Roots and Resonance",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13038,
+          "name": "Lisa Wolfe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0501926
+        }
+      ]
     },
     {
       "id": "song:13035",
-      "song_id": 13035,
+      "work_type": "Song",
+      "work_id": 13035,
       "title": "Mirage of Midnight Sands",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,11 +55,33 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13038,
+          "name": "Lisa Wolfe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0501926
+        },
+        {
+          "person_id": 13036,
+          "name": "Julia Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4001036
+        }
+      ]
     },
     {
       "id": "song:6699",
-      "song_id": 6699,
+      "work_type": "Song",
+      "work_id": 6699,
       "title": "Beside Me",
       "genre": "Indie Rock",
       "notable": true,
@@ -63,19 +99,40 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6700,
+          "name": "Tara Ghose",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3981051
+        },
+        {
+          "person_id": 6701,
+          "name": "Tiya Desai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976176
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:13627",
-      "target": "song:13035",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:6699",
       "target": "song:13035",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:13627",
+      "target": "song:13035",
+      "type": "InStyleOf"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13421",
-      "song_id": 13421,
+      "work_type": "Song",
+      "work_id": 13421,
       "title": "Misunderstood, Not Misguided",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,83 @@
       "own": true,
       "artist_id": 13422,
       "artist_name": "Rozalia Ciepluch",
-      "influence": 41,
+      "influence": 69,
       "influence_breakdown": {
-        "cover": 2,
-        "sample": 1,
-        "reference": 5,
-        "style": 6
+        "cover": 4,
+        "sample": 2,
+        "reference": 7,
+        "style": 10
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
+    },
+    {
+      "id": "album:1804",
+      "work_type": "Album",
+      "work_id": 1804,
+      "title": "Midsummer Memories",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 1805,
+      "artist_name": "Vedika Dar",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1806,
+          "name": "Ahana Babu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3999395
+        },
+        {
+          "person_id": 1805,
+          "name": "Vedika Dar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999221
+        }
+      ]
     },
     {
       "id": "song:3151",
-      "song_id": 3151,
+      "work_type": "Song",
+      "work_id": 3151,
       "title": "Smoke and Mirrors",
       "genre": "Alternative Rock",
       "notable": true,
@@ -43,11 +109,182 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.076866
+        },
+        {
+          "person_id": 3152,
+          "name": "Stacy Hendricks",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516133
+        }
+      ]
+    },
+    {
+      "id": "album:4602",
+      "work_type": "Album",
+      "work_id": 4602,
+      "title": "Moonlit Surrender",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 1839,
+      "artist_name": "Miguel Johnston",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 1839,
+          "name": "Miguel Johnston",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7364244
+        },
+        {
+          "person_id": 4603,
+          "name": "Tammy Fields",
+          "stage_name": " Ruby Chase",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0306346
+        }
+      ]
+    },
+    {
+      "id": "album:5074",
+      "work_type": "Album",
+      "work_id": 5074,
+      "title": "Mirror Ball Memories",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.076866
+        }
+      ]
+    },
+    {
+      "id": "album:5285",
+      "work_type": "Album",
+      "work_id": 5285,
+      "title": "White Noise Between Us",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 5287,
+      "artist_name": "Darshit Gandhi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5286,
+          "name": "Amanda Hill",
+          "stage_name": " R.E.D.",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4383142
+        },
+        {
+          "person_id": 5287,
+          "name": "Darshit Gandhi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004319
+        }
       ]
     },
     {
       "id": "song:5773",
-      "song_id": 5773,
+      "work_type": "Song",
+      "work_id": 5773,
       "title": "Blood and Honor's Path",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +302,43 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5774,
+          "name": "Nicholas Rasmussen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965445
+        },
+        {
+          "person_id": 5775,
+          "name": "Joseph Escobar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965445
+        },
+        {
+          "person_id": 5776,
+          "name": "Edward Collier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3965445
+        }
       ]
     },
     {
       "id": "song:6342",
-      "song_id": 6342,
+      "work_type": "Song",
+      "work_id": 6342,
       "title": "High Society Strut",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,11 +356,43 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2511,
+          "name": "Kavya Agrawal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185855
+        },
+        {
+          "person_id": 6343,
+          "name": "Devansh Seshadri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4755256
+        }
       ]
     },
     {
       "id": "song:6658",
-      "song_id": 6658,
+      "work_type": "Song",
+      "work_id": 6658,
       "title": "Sweet Tea and Porch Swing Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,11 +410,104 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.937547
+        },
+        {
+          "person_id": 6660,
+          "name": "Adrian Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4005046
+        }
+      ]
+    },
+    {
+      "id": "album:7101",
+      "work_type": "Album",
+      "work_id": 7101,
+      "title": "Whispers in the Echoes",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 7102,
+      "artist_name": "Mannat Edwin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7102,
+          "name": "Mannat Edwin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7103,
+          "name": "Mahika Basu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7104,
+          "name": "Manjari Bobal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        },
+        {
+          "person_id": 7105,
+          "name": "Nakul Gole",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981695
+        }
       ]
     },
     {
       "id": "song:7999",
-      "song_id": 7999,
+      "work_type": "Song",
+      "work_id": 7999,
       "title": "Unheard Frequencies",
       "genre": "Alternative Rock",
       "notable": true,
@@ -131,11 +525,104 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8000,
+          "name": "Rania Chadha",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.397991
+        },
+        {
+          "person_id": 8001,
+          "name": "Saksham Borra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979566
+        },
+        {
+          "person_id": 8003,
+          "name": "Chelsea Blake",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979566
+        },
+        {
+          "person_id": 8002,
+          "name": "Amy Bright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979359
+        }
+      ]
+    },
+    {
+      "id": "album:8815",
+      "work_type": "Album",
+      "work_id": 8815,
+      "title": "Shadows in Minor",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1996,
+      "single": false,
+      "own": false,
+      "artist_id": 2511,
+      "artist_name": "Kavya Agrawal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2511,
+          "name": "Kavya Agrawal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185855
+        },
+        {
+          "person_id": 2512,
+          "name": "Emir Yohannan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0640676
+        }
       ]
     },
     {
       "id": "song:9237",
-      "song_id": 9237,
+      "work_type": "Song",
+      "work_id": 9237,
       "title": "Nautical Whispers of the North Sea",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -153,11 +640,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 753,
+          "name": "Lei Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.704227
+        },
+        {
+          "person_id": 9238,
+          "name": "Jing Xie",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4120512
+        }
       ]
     },
     {
       "id": "song:9387",
-      "song_id": 9387,
+      "work_type": "Song",
+      "work_id": 9387,
       "title": "Pyongyang's Immortal Son",
       "genre": "Dream Pop",
       "notable": true,
@@ -175,11 +693,130 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.937547
+        }
+      ]
+    },
+    {
+      "id": "album:9871",
+      "work_type": "Album",
+      "work_id": 9871,
+      "title": "Crossroads of Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.937547
+        },
+        {
+          "person_id": 9872,
+          "name": "Jordan Collins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.045954
+        }
+      ]
+    },
+    {
+      "id": "album:10155",
+      "work_type": "Album",
+      "work_id": 10155,
+      "title": "Emerald Canopy Sings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2660,
+      "artist_name": "Christopher Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.076866
+        }
       ]
     },
     {
       "id": "song:11357",
-      "song_id": 11357,
+      "work_type": "Song",
+      "work_id": 11357,
       "title": "Sharp Edge of Desire",
       "genre": "Alternative Rock",
       "notable": true,
@@ -197,11 +834,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 11358,
+          "name": "Ronald Warner",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4003086
+        }
       ]
     },
     {
       "id": "song:11905",
-      "song_id": 11905,
+      "work_type": "Song",
+      "work_id": 11905,
       "title": "Dinner Party Diplomacy",
       "genre": "Alternative Rock",
       "notable": true,
@@ -219,11 +878,77 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 11906,
+          "name": "Katrina Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4424434
+        }
+      ]
+    },
+    {
+      "id": "album:12130",
+      "work_type": "Album",
+      "work_id": 12130,
+      "title": "Rage Like a Gentle Flame",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2417,
+      "artist_name": "Xiuying Ding",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8156,
+          "name": "Wei Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7062562
+        },
+        {
+          "person_id": 2417,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6785245
+        }
       ]
     },
     {
       "id": "song:13208",
-      "song_id": 13208,
+      "work_type": "Song",
+      "work_id": 13208,
       "title": "Checkmarks and Crossouts",
       "genre": "Dream Pop",
       "notable": true,
@@ -241,11 +966,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.937547
+        }
       ]
     },
     {
       "id": "song:14210",
-      "song_id": 14210,
+      "work_type": "Song",
+      "work_id": 14210,
       "title": "Sacred Reverence",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -263,11 +1009,33 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 9872,
+          "name": "Jordan Collins",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.045954
+        }
       ]
     },
     {
       "id": "song:14893",
-      "song_id": 14893,
+      "work_type": "Song",
+      "work_id": 14893,
       "title": "Twilight's Threshold",
       "genre": "Synthwave",
       "notable": true,
@@ -285,11 +1053,51 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1335,
+          "name": "Ming Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.391745
+        },
+        {
+          "person_id": 1336,
+          "name": "Yong Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4374611
+        },
+        {
+          "person_id": 14894,
+          "name": "Kimberly Estrada",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3815455
+        },
+        {
+          "person_id": 14895,
+          "name": "Fang Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3815455
+        }
       ]
     },
     {
       "id": "song:16209",
-      "song_id": 16209,
+      "work_type": "Song",
+      "work_id": 16209,
       "title": "The Void Inside",
       "genre": "Dream Pop",
       "notable": true,
@@ -307,11 +1115,24 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7552,
+          "name": "Elizabeth Willis",
+          "stage_name": "Lizzy West",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0422177
+        }
       ]
     },
     {
       "id": "song:16248",
-      "song_id": 16248,
+      "work_type": "Song",
+      "work_id": 16248,
       "title": "Midnight's Melancholy Bow",
       "genre": "Alternative Rock",
       "notable": true,
@@ -329,22 +1150,63 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8156,
+          "name": "Wei Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7062562
+        },
+        {
+          "person_id": 2417,
+          "name": "Xiuying Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6785245
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:6342",
-      "target": "song:13421",
-      "type": "LyricalReferenceTo"
-    },
     {
       "source": "song:14210",
       "target": "song:13421",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:16248",
+      "source": "album:8815",
+      "target": "song:13421",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:9871",
+      "target": "song:13421",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:6658",
+      "target": "song:13421",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6342",
+      "target": "song:13421",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:4602",
+      "target": "song:13421",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14893",
       "target": "song:13421",
       "type": "InStyleOf"
     },
@@ -354,14 +1216,24 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:14893",
+      "source": "album:10155",
       "target": "song:13421",
       "type": "InStyleOf"
     },
     {
-      "source": "song:3151",
+      "source": "album:7101",
       "target": "song:13421",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:5285",
+      "target": "song:13421",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16209",
+      "target": "song:13421",
+      "type": "CoverOf"
     },
     {
       "source": "song:9387",
@@ -369,14 +1241,29 @@
       "type": "CoverOf"
     },
     {
+      "source": "song:9237",
+      "target": "song:13421",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:1804",
+      "target": "song:13421",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:11905",
       "target": "song:13421",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:9237",
+      "source": "song:3151",
       "target": "song:13421",
-      "type": "InStyleOf"
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:5074",
+      "target": "song:13421",
+      "type": "DirectlySamples"
     },
     {
       "source": "song:13208",
@@ -384,12 +1271,7 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:11357",
-      "target": "song:13421",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:16209",
+      "source": "album:12130",
       "target": "song:13421",
       "type": "CoverOf"
     },
@@ -399,9 +1281,14 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6658",
+      "source": "song:16248",
       "target": "song:13421",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:11357",
+      "target": "song:13421",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

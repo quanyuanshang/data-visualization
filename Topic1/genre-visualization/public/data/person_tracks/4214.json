@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4212",
-      "song_id": 4212,
+      "work_type": "Song",
+      "work_id": 4212,
       "title": "Pulse of Retribution",
       "genre": "Space Rock",
       "notable": true,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4213,
+          "name": "Anna Coleman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974118
+        },
+        {
+          "person_id": 4215,
+          "name": "Deborah Odonnell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974118
+        }
+      ]
     },
     {
       "id": "song:5818",
-      "song_id": 5818,
+      "work_type": "Song",
+      "work_id": 5818,
       "title": "Two Souls, One Rhythm",
       "genre": "Synthwave",
       "notable": true,
@@ -43,6 +66,64 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1649,
+          "name": "Lei He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938424
+        },
+        {
+          "person_id": 5822,
+          "name": "Wei Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0590332
+        },
+        {
+          "person_id": 5819,
+          "name": "Sara Ramirez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5820,
+          "name": "Ping Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5821,
+          "name": "Xia Chang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397952
+        },
+        {
+          "person_id": 5823,
+          "name": "Lei Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3979313
+        }
       ]
     }
   ],

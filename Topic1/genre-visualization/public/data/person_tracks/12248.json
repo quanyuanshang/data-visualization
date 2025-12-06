@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12245",
-      "song_id": 12245,
+      "work_type": "Song",
+      "work_id": 12245,
       "title": "Harbor Harmony",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,101 @@
       "own": true,
       "artist_id": 12248,
       "artist_name": "Thomas Walsh",
-      "influence": 25,
+      "influence": 28,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 6,
+        "reference": 7,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12246,
+          "name": "Juan Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4419076
+        },
+        {
+          "person_id": 8254,
+          "name": "Joseph Alvarado",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.42533
+        },
+        {
+          "person_id": 12247,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0432365
+        }
+      ]
+    },
+    {
+      "id": "album:13279",
+      "work_type": "Album",
+      "work_id": 13279,
+      "title": "Stacks and Status",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 12248,
+      "artist_name": "Thomas Walsh",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12246,
+          "name": "Juan Yang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4419076
+        },
+        {
+          "person_id": 8254,
+          "name": "Joseph Alvarado",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.42533
+        },
+        {
+          "person_id": 12247,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0432365
+        }
+      ]
     },
     {
       "id": "song:1849",
-      "song_id": 1849,
+      "work_type": "Song",
+      "work_id": 1849,
       "title": "Waves Beneath My Feet",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,11 +127,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1802,
+          "name": "Chao Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9427521
+        },
+        {
+          "person_id": 1851,
+          "name": "Gang Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.914687
+        },
+        {
+          "person_id": 1850,
+          "name": "Ping Sun",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0381074
+        }
       ]
     },
     {
       "id": "song:3931",
-      "song_id": 3931,
+      "work_type": "Song",
+      "work_id": 3931,
       "title": "Wrinkles and Wisdom",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,11 +180,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1802,
+          "name": "Chao Wan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9427521
+        },
+        {
+          "person_id": 1851,
+          "name": "Gang Pan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.914687
+        }
       ]
     },
     {
       "id": "song:5492",
-      "song_id": 5492,
+      "work_type": "Song",
+      "work_id": 5492,
       "title": "The Covenant We Share",
       "genre": "Indie Folk",
       "notable": true,
@@ -87,11 +224,151 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.197894
+        },
+        {
+          "person_id": 5502,
+          "name": "Fang Lu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4340284
+        },
+        {
+          "person_id": 5330,
+          "name": "Oscar Marshall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4226832
+        },
+        {
+          "person_id": 5497,
+          "name": "Jie Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0550466
+        },
+        {
+          "person_id": 5495,
+          "name": "Ming Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0528173
+        },
+        {
+          "person_id": 5504,
+          "name": "Yong Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0491836
+        },
+        {
+          "person_id": 5496,
+          "name": "Ping Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049041
+        },
+        {
+          "person_id": 5498,
+          "name": "Susan Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396497
+        },
+        {
+          "person_id": 5493,
+          "name": "Gang Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963273
+        },
+        {
+          "person_id": 5494,
+          "name": "Chao Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963273
+        },
+        {
+          "person_id": 5499,
+          "name": "Olivia Steinberg",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963273
+        },
+        {
+          "person_id": 5500,
+          "name": "Min Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963273
+        },
+        {
+          "person_id": 5501,
+          "name": "Yong Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963273
+        },
+        {
+          "person_id": 5503,
+          "name": "Li Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963273
+        },
+        {
+          "person_id": 5505,
+          "name": "Gang Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963273
+        }
       ]
     },
     {
       "id": "song:6087",
-      "song_id": 6087,
+      "work_type": "Song",
+      "work_id": 6087,
       "title": "Celestial Maiden's Lament",
       "genre": "Doom Metal",
       "notable": true,
@@ -109,11 +386,70 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1410,
+          "name": "Guiying Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.384091
+        },
+        {
+          "person_id": 3197,
+          "name": "Guiying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4226694
+        },
+        {
+          "person_id": 6089,
+          "name": "Jie Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0424864
+        },
+        {
+          "person_id": 6090,
+          "name": "Chao Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4180067
+        },
+        {
+          "person_id": 6088,
+          "name": "Yang Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.390036
+        },
+        {
+          "person_id": 6091,
+          "name": "Ming Fan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.390036
+        }
       ]
     },
     {
       "id": "song:9696",
-      "song_id": 9696,
+      "work_type": "Song",
+      "work_id": 9696,
       "title": "Resolute Path",
       "genre": "Synthwave",
       "notable": true,
@@ -131,11 +467,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9698,
+          "name": "Jie Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0446942
+        },
+        {
+          "person_id": 9699,
+          "name": "Ming Chen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0446942
+        },
+        {
+          "person_id": 9701,
+          "name": "Maria Shea",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0446942
+        },
+        {
+          "person_id": 9697,
+          "name": "Na Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4026968
+        },
+        {
+          "person_id": 9700,
+          "name": "Jaime Watkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4026968
+        }
       ]
     },
     {
       "id": "song:9759",
-      "song_id": 9759,
+      "work_type": "Song",
+      "work_id": 9759,
       "title": "Radiant Spirit",
       "genre": "Synthwave",
       "notable": true,
@@ -153,11 +538,186 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 163,
+          "name": "Regina Hesse",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.753936
+        },
+        {
+          "person_id": 3061,
+          "name": "Xiuying Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2639856
+        },
+        {
+          "person_id": 6939,
+          "name": "Jie Jiang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.112975
+        },
+        {
+          "person_id": 8210,
+          "name": "Léon Pasquier",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7169764
+        },
+        {
+          "person_id": 8623,
+          "name": "Jun Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.426428
+        },
+        {
+          "person_id": 2678,
+          "name": "Lisa Shaffer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510085
+        },
+        {
+          "person_id": 9764,
+          "name": "Juan Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.041423
+        },
+        {
+          "person_id": 9761,
+          "name": "Dawn Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.995125
+        },
+        {
+          "person_id": 9765,
+          "name": "Wei Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.995125
+        },
+        {
+          "person_id": 9760,
+          "name": "Jie Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983421
+        },
+        {
+          "person_id": 9762,
+          "name": "Yang Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983421
+        },
+        {
+          "person_id": 9763,
+          "name": "Christopher Nelson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983421
+        }
+      ]
+    },
+    {
+      "id": "album:13279",
+      "work_type": "Album",
+      "work_id": 13279,
+      "title": "Stacks and Status",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 12247,
+      "artist_name": "Min Lei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12246,
+          "name": "Juan Yang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4419076
+        },
+        {
+          "person_id": 8254,
+          "name": "Joseph Alvarado",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.42533
+        },
+        {
+          "person_id": 12247,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0432365
+        },
+        {
+          "person_id": 12248,
+          "name": "Thomas Walsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0432365
+        }
       ]
     },
     {
       "id": "song:15192",
-      "song_id": 15192,
+      "work_type": "Song",
+      "work_id": 15192,
       "title": "Waiting for Alfie",
       "genre": "Dream Pop",
       "notable": true,
@@ -175,11 +735,70 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12400,
+          "name": "Wei Liao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.059232
+        },
+        {
+          "person_id": 508,
+          "name": "Tao He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0221422
+        },
+        {
+          "person_id": 15193,
+          "name": "Qiang Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980017
+        },
+        {
+          "person_id": 15195,
+          "name": "Jun Huang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980017
+        },
+        {
+          "person_id": 15196,
+          "name": "Tyler Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980017
+        },
+        {
+          "person_id": 15194,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976636
+        }
       ]
     },
     {
       "id": "song:16632",
-      "song_id": 16632,
+      "work_type": "Song",
+      "work_id": 16632,
       "title": "Surrender to My Heart",
       "genre": "Dream Pop",
       "notable": true,
@@ -197,22 +816,75 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1519,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.7067556
+        },
+        {
+          "person_id": 1802,
+          "name": "Chao Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9427521
+        },
+        {
+          "person_id": 1851,
+          "name": "Gang Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.914687
+        },
+        {
+          "person_id": 1850,
+          "name": "Ping Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0381074
+        },
+        {
+          "person_id": 16633,
+          "name": "Guiying Jin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399333
+        },
+        {
+          "person_id": 16634,
+          "name": "Ming Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399333
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:9759",
-      "target": "song:12245",
-      "type": "InterpolatesFrom"
-    },
     {
       "source": "song:5492",
       "target": "song:12245",
       "type": "InStyleOf"
     },
     {
-      "source": "song:3931",
+      "source": "song:9696",
       "target": "song:12245",
       "type": "InterpolatesFrom"
     },
@@ -222,24 +894,34 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:16632",
-      "target": "song:12245",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:15192",
       "target": "song:12245",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:9696",
+      "source": "album:13279",
       "target": "song:12245",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:16632",
+      "target": "song:12245",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:1849",
       "target": "song:12245",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9759",
+      "target": "song:12245",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3931",
+      "target": "song:12245",
+      "type": "InterpolatesFrom"
     }
   ]
 }

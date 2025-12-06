@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10503",
-      "song_id": 10503,
+      "work_type": "Song",
+      "work_id": 10503,
       "title": "Healing Between the Battles",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,31 +22,13 @@
         "reference": 3,
         "style": 3
       },
-      "relation_types": []
-    },
-    {
-      "id": "song:6504",
-      "song_id": 6504,
-      "title": "Huangpu Hustle",
-      "genre": "Indie Pop",
-      "notable": true,
-      "release_year": 2010,
-      "single": false,
-      "own": true,
-      "artist_id": 2222,
-      "artist_name": "Nela Melcer ( The Empress)",
-      "influence": 3,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 1,
-        "style": 0
-      },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:8899",
-      "song_id": 8899,
+      "work_type": "Song",
+      "work_id": 8899,
       "title": "Warm Ceramic Whispers",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -54,18 +37,31 @@
       "own": true,
       "artist_id": 2222,
       "artist_name": "Nela Melcer ( The Empress)",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
     },
     {
       "id": "song:2221",
-      "song_id": 2221,
+      "work_type": "Song",
+      "work_id": 2221,
       "title": "Legacy of Shadows",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -81,11 +77,55 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
+    },
+    {
+      "id": "song:6504",
+      "work_type": "Song",
+      "work_id": 6504,
+      "title": "Huangpu Hustle",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 2222,
+      "artist_name": "Nela Melcer ( The Empress)",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
+      ]
     },
     {
       "id": "song:1933",
-      "song_id": 1933,
+      "work_type": "Song",
+      "work_id": 1933,
       "title": "Wandering Miles",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -103,11 +143,24 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
       ]
     },
     {
       "id": "song:3386",
-      "song_id": 3386,
+      "work_type": "Song",
+      "work_id": 3386,
       "title": "Temporal Dissonance",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -125,11 +178,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
       ]
     },
     {
       "id": "song:6503",
-      "song_id": 6503,
+      "work_type": "Song",
+      "work_id": 6503,
       "title": "Bund Boogie",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -147,11 +222,24 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
       ]
     },
     {
       "id": "song:7740",
-      "song_id": 7740,
+      "work_type": "Song",
+      "work_id": 7740,
       "title": "Amor Sem Limites (Love Without Limits)",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -169,11 +257,32 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 1934,
+          "name": "Aleksander Przybyś",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9418242
+        }
       ]
     },
     {
       "id": "song:7958",
-      "song_id": 7958,
+      "work_type": "Song",
+      "work_id": 7958,
       "title": "Symphonies of the Creator",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -191,11 +300,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 7959,
+          "name": "Kaja Juroszek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4365463
+        },
+        {
+          "person_id": 7960,
+          "name": "Dagmara Smorąg",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3935301
+        }
       ]
     },
     {
       "id": "song:9061",
-      "song_id": 9061,
+      "work_type": "Song",
+      "work_id": 9061,
       "title": "Silvered Leaves, Softly Singing",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -213,11 +354,25 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        }
       ]
     },
     {
       "id": "song:10279",
-      "song_id": 10279,
+      "work_type": "Song",
+      "work_id": 10279,
       "title": "Epochs of Progress",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -236,11 +391,33 @@
       "relation_types": [
         "InStyleOf",
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 10280,
+          "name": "Szymon Pazik",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.399843
+        }
       ]
     },
     {
       "id": "song:11159",
-      "song_id": 11159,
+      "work_type": "Song",
+      "work_id": 11159,
       "title": "Harmony's Whisper",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -258,10 +435,193 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 11160,
+          "name": "Kornelia Pędzik",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977542
+        }
+      ]
+    },
+    {
+      "id": "album:3449",
+      "work_type": "Album",
+      "work_id": 3449,
+      "title": "Shadows of What We Pretend",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 3450,
+          "name": "Julianna Mytnik",
+          "stage_name": "Runaway Orchestra",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3962605
+        }
+      ]
+    },
+    {
+      "id": "song:6504",
+      "work_type": "Song",
+      "work_id": 6504,
+      "title": "Huangpu Hustle",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 2222,
+      "artist_name": "Nela Melcer ( The Empress)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 2222,
+          "name": "Nela Melcer",
+          "stage_name": " The Empress",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.720661
+        }
+      ]
+    },
+    {
+      "id": "album:14510",
+      "work_type": "Album",
+      "work_id": 14510,
+      "title": "Pastoral Tiara",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2018,
+      "single": false,
+      "own": false,
+      "artist_id": 551,
+      "artist_name": "Szymon Pyć",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 551,
+          "name": "Szymon Pyć",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.5574746
+        },
+        {
+          "person_id": 14511,
+          "name": "Aniela Mijas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4229927
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:9061",
+      "target": "song:10503",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10279",
+      "target": "song:2221",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:14510",
+      "target": "song:6504",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:10279",
+      "target": "song:10503",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10279",
+      "target": "song:6504",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:3449",
+      "target": "song:8899",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:6503",
       "target": "song:10503",
@@ -273,24 +633,14 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:11159",
-      "target": "song:10503",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:10279",
-      "target": "song:6504",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:10279",
-      "target": "song:2221",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:6504",
       "target": "song:2221",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3386",
+      "target": "song:10503",
+      "type": "InStyleOf"
     },
     {
       "source": "song:7958",
@@ -303,19 +653,9 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:10279",
+      "source": "song:11159",
       "target": "song:10503",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:3386",
-      "target": "song:10503",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:9061",
-      "target": "song:10503",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9040",
-      "song_id": 9040,
+      "work_type": "Song",
+      "work_id": 9040,
       "title": "Meridian Drift",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,41 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 9042,
+          "name": "Emilie Rudolph",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0383308
+        }
+      ]
     },
     {
       "id": "song:7797",
-      "song_id": 7797,
+      "work_type": "Song",
+      "work_id": 7797,
       "title": "Mercy Beyond Measure",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,11 +74,24 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
       ]
     },
     {
       "id": "song:11562",
-      "song_id": 11562,
+      "work_type": "Song",
+      "work_id": 11562,
       "title": "Courtly Shadows and Silk",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -65,19 +109,58 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6316,
+          "name": "Dennis Lee",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 6317,
+          "name": "Bradley Hayes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.398348
+        },
+        {
+          "person_id": 8446,
+          "name": "Stephanie Robinson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7064111
+        },
+        {
+          "person_id": 11563,
+          "name": "Michelle Atkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39891
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7797",
-      "target": "song:9040",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:11562",
       "target": "song:9040",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:7797",
+      "target": "song:9040",
+      "type": "InterpolatesFrom"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1915",
-      "song_id": 1915,
+      "work_type": "Song",
+      "work_id": 1915,
       "title": "Fragments of Joy",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,130 @@
       "own": true,
       "artist_id": 1916,
       "artist_name": "Benjamin Lee (Logan Drake)",
-      "influence": 2,
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1716,
+          "name": "Kimberly Snyder",
+          "stage_name": " Slate",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.605675
+        },
+        {
+          "person_id": 1719,
+          "name": "Gerald Mullins",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.9433923
+        },
+        {
+          "person_id": 1718,
+          "name": "Joshua Herring",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.849857
+        },
+        {
+          "person_id": 1918,
+          "name": "Kelly Stewart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.397415
+        },
+        {
+          "person_id": 1919,
+          "name": "Tina Hobbs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4348292
+        },
+        {
+          "person_id": 1917,
+          "name": "Taylor Reed",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.392346
+        }
+      ]
+    },
+    {
+      "id": "album:10098",
+      "work_type": "Album",
+      "work_id": 10098,
+      "title": "Symphonic Ecosystem",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 10099,
+      "artist_name": "Catalina Borja Barbero (Davin Tate)",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10099,
+          "name": "Catalina Borja Barbero",
+          "stage_name": "Davin Tate",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3965917
+        },
+        {
+          "person_id": 10101,
+          "name": "Rosenda Reyes Salazar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3965917
+        },
+        {
+          "person_id": 10100,
+          "name": "Graciana Sacristán Saura",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396571
+        }
+      ]
     },
     {
       "id": "song:17150",
-      "song_id": 17150,
+      "work_type": "Song",
+      "work_id": 17150,
       "title": "Signals in the Static",
       "genre": "Indie Rock",
       "notable": true,
@@ -43,10 +156,26 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17146,
+          "name": "Julia Carter",
+          "stage_name": "Jude Rivers",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1046424
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:10098",
+      "target": "song:1915",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:17150",
       "target": "song:1915",

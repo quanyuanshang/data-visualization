@@ -1,0 +1,89 @@
+{
+  "person_id": 9898,
+  "name": "Ming Wang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:9897",
+      "work_type": "Album",
+      "work_id": 9897,
+      "title": "Waves and Whispers",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 9898,
+      "artist_name": "Ming Wang",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:9683",
+      "work_type": "Song",
+      "work_id": 9683,
+      "title": "Terra's Tender Breath",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 5221,
+      "artist_name": "Ping Qiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5221,
+          "name": "Ping Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0385313
+        },
+        {
+          "person_id": 5223,
+          "name": "Jun Xiong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0385313
+        },
+        {
+          "person_id": 9684,
+          "name": "Tao Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.40098
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9683",
+      "target": "album:9897",
+      "type": "InStyleOf"
+    }
+  ]
+}

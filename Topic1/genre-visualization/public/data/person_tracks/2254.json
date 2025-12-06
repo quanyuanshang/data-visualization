@@ -1,0 +1,144 @@
+{
+  "person_id": 2254,
+  "name": "Guiying Peng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2250",
+      "work_type": "Album",
+      "work_id": 2250,
+      "title": "Dinner Table Warfare",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 2254,
+      "artist_name": "Guiying Peng",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2255,
+          "name": "Min Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3959363
+        },
+        {
+          "person_id": 2251,
+          "name": "Jing Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957665
+        },
+        {
+          "person_id": 2252,
+          "name": "Wei Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957665
+        },
+        {
+          "person_id": 2253,
+          "name": "Juan Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957458
+        }
+      ]
+    },
+    {
+      "id": "song:6577",
+      "work_type": "Song",
+      "work_id": 6577,
+      "title": "Currents of Homeland",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 3714,
+      "artist_name": "Chao Xiao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3717,
+          "name": "Albert Miller",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9215956
+        },
+        {
+          "person_id": 3714,
+          "name": "Chao Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4323912
+        },
+        {
+          "person_id": 6579,
+          "name": "Lei Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0510845
+        },
+        {
+          "person_id": 6578,
+          "name": "Xiuying Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396959
+        },
+        {
+          "person_id": 6580,
+          "name": "Jun Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396959
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:6577",
+      "target": "album:2250",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

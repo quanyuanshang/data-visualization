@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14401",
-      "song_id": 14401,
+      "work_type": "Song",
+      "work_id": 14401,
       "title": "Floor Fever",
       "genre": "Darkwave",
       "notable": true,
@@ -14,18 +15,119 @@
       "own": true,
       "artist_id": 14405,
       "artist_name": "Cheryl Martinez",
-      "influence": 4,
+      "influence": 11,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14402,
+          "name": "Nicolas Gosselin du Robert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977542
+        },
+        {
+          "person_id": 14403,
+          "name": "Tracy Bennett",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977542
+        },
+        {
+          "person_id": 14404,
+          "name": "Alan Mcgee",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977542
+        }
+      ]
+    },
+    {
+      "id": "album:1773",
+      "work_type": "Album",
+      "work_id": 1773,
+      "title": "Slumber's Burden",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 1774,
+      "artist_name": "Paula Wilson",
+      "influence": 0,
       "influence_breakdown": {
         "cover": 0,
-        "sample": 1,
+        "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1774,
+          "name": "Paula Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 1775,
+          "name": "Steven Branch",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 1777,
+          "name": "Judith Hunter",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 1778,
+          "name": "Rachel Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.430488
+        },
+        {
+          "person_id": 1776,
+          "name": "Brittany Wright",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398647
+        }
+      ]
     },
     {
       "id": "song:8640",
-      "song_id": 8640,
+      "work_type": "Song",
+      "work_id": 8640,
       "title": "Sacred Soil's Lament",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,6 +145,125 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7398,
+          "name": "Charles Vazquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261718
+        },
+        {
+          "person_id": 8641,
+          "name": "Jun Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8642,
+          "name": "Min Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8643,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8644,
+          "name": "Yan Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8645,
+          "name": "Fang Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968868
+        },
+        {
+          "person_id": 8646,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968868
+        }
+      ]
+    },
+    {
+      "id": "album:16205",
+      "work_type": "Album",
+      "work_id": 16205,
+      "title": "Incomplete Puzzle",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 16206,
+      "artist_name": "Pedro Mitschke",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16206,
+          "name": "Pedro Mitschke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976824
+        },
+        {
+          "person_id": 16207,
+          "name": "Natalija Täsche",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976824
+        },
+        {
+          "person_id": 16208,
+          "name": "Marcella Dobes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3976824
+        }
       ]
     }
   ],
@@ -51,6 +272,16 @@
       "source": "song:8640",
       "target": "song:14401",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "album:1773",
+      "target": "song:14401",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:16205",
+      "target": "song:14401",
+      "type": "InStyleOf"
     }
   ]
 }

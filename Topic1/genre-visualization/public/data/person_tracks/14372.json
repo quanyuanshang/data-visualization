@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14369",
-      "song_id": 14369,
+      "work_type": "Song",
+      "work_id": 14369,
       "title": "Silk and Sand",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4108,
+          "name": "Tyler Watson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.9311914
+        },
+        {
+          "person_id": 4109,
+          "name": "Jason Green",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9118354
+        },
+        {
+          "person_id": 14370,
+          "name": "Eliana Marini",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990486
+        },
+        {
+          "person_id": 14371,
+          "name": "Casey Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990486
+        }
+      ]
     },
     {
       "id": "song:4107",
-      "song_id": 4107,
+      "work_type": "Song",
+      "work_id": 4107,
       "title": "Bottled Up",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +84,37 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4108,
+          "name": "Tyler Watson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9311914
+        },
+        {
+          "person_id": 4109,
+          "name": "Jason Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9118354
+        },
+        {
+          "person_id": 4110,
+          "name": "Christina Dalton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986473
+        }
       ]
     }
   ],

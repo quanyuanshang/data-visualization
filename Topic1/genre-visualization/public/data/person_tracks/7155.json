@@ -5,11 +5,44 @@
   "nodes": [
     {
       "id": "song:14435",
-      "song_id": 14435,
+      "work_type": "Song",
+      "work_id": 14435,
       "title": "Echoes of Ancestral Soil",
       "genre": "Indie Pop",
       "notable": true,
       "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 7155,
+      "artist_name": "Jacqueline Fields",
+      "influence": 12,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7156,
+          "name": "Michaela Kelley",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8459632
+        }
+      ]
+    },
+    {
+      "id": "album:7153",
+      "work_type": "Album",
+      "work_id": 7153,
+      "title": "Maritime Memories",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
       "single": false,
       "own": true,
       "artist_id": 7155,
@@ -21,8 +54,217 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7156,
+          "name": "Michaela Kelley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8459632
+        },
+        {
+          "person_id": 7154,
+          "name": "Gregg Fuentes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.06709
+        }
+      ]
+    },
+    {
+      "id": "album:8560",
+      "work_type": "Album",
+      "work_id": 8560,
+      "title": "Unpacked and Uncharted",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 7155,
+      "artist_name": "Jacqueline Fields",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7156,
+          "name": "Michaela Kelley",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8459632
+        }
+      ]
+    },
+    {
+      "id": "album:7153",
+      "work_type": "Album",
+      "work_id": 7153,
+      "title": "Maritime Memories",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 7154,
+      "artist_name": "Gregg Fuentes",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7156,
+          "name": "Michaela Kelley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8459632
+        },
+        {
+          "person_id": 7155,
+          "name": "Jacqueline Fields",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4210398
+        },
+        {
+          "person_id": 7154,
+          "name": "Gregg Fuentes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.06709
+        }
+      ]
+    },
+    {
+      "id": "album:8560",
+      "work_type": "Album",
+      "work_id": 8560,
+      "title": "Unpacked and Uncharted",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 7156,
+      "artist_name": "Michaela Kelley",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7156,
+          "name": "Michaela Kelley",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8459632
+        },
+        {
+          "person_id": 7155,
+          "name": "Jacqueline Fields",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4210398
+        }
+      ]
+    },
+    {
+      "id": "album:8855",
+      "work_type": "Album",
+      "work_id": 8855,
+      "title": "Divergent Movements in D Minor",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 3351,
+      "artist_name": "Nicole Robinson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3351,
+          "name": "Nicole Robinson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.971384
+        },
+        {
+          "person_id": 8856,
+          "name": "Melanie Browning PhD",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.393509
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:7153",
+      "target": "song:14435",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:8560",
+      "target": "song:14435",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:8855",
+      "target": "song:14435",
+      "type": "DirectlySamples"
+    }
+  ]
 }

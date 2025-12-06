@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:13304",
-      "song_id": 13304,
-      "title": "Endorphin Sunrise",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2021,
-      "single": true,
-      "own": true,
-      "artist_id": 451,
-      "artist_name": "Gang Lei",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:449",
-      "song_id": 449,
+      "work_type": "Song",
+      "work_id": 449,
       "title": "Dancing Stones of Memory",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +22,32 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0568504
+        },
+        {
+          "person_id": 452,
+          "name": "Juan Luo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.401169
+        }
+      ]
     },
     {
       "id": "song:5283",
-      "song_id": 5283,
+      "work_type": "Song",
+      "work_id": 5283,
       "title": "Dial Tone Goodbye",
       "genre": "Indie Pop",
       "notable": true,
@@ -61,33 +63,93 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0568504
+        },
+        {
+          "person_id": 4632,
+          "name": "Tao Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9261239
+        }
+      ]
     },
     {
-      "id": "song:3362",
-      "song_id": 3362,
-      "title": "Rising From the Shadows",
-      "genre": "Synthwave",
+      "id": "song:13304",
+      "work_type": "Song",
+      "work_id": 13304,
+      "title": "Endorphin Sunrise",
+      "genre": "Doom Metal",
       "notable": true,
-      "release_year": 2022,
-      "single": false,
-      "own": false,
-      "artist_id": 3364,
-      "artist_name": "Jun Lin",
-      "influence": 0,
+      "release_year": 2021,
+      "single": true,
+      "own": true,
+      "artist_id": 451,
+      "artist_name": "Gang Lei",
+      "influence": 5,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "CoverOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13307,
+          "name": "Yong Ren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.024032
+        },
+        {
+          "person_id": 13305,
+          "name": "Ming Chen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3952146
+        },
+        {
+          "person_id": 13306,
+          "name": "Jie Duan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952146
+        },
+        {
+          "person_id": 13308,
+          "name": "Xia Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3952146
+        }
       ]
     },
     {
       "id": "song:13930",
-      "song_id": 13930,
+      "work_type": "Song",
+      "work_id": 13930,
       "title": "Silk and Stirrups",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -105,11 +167,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7181127
+        }
       ]
     },
     {
       "id": "song:6875",
-      "song_id": 6875,
+      "work_type": "Song",
+      "work_id": 6875,
       "title": "Midnight's Promise",
       "genre": "Blues Rock",
       "notable": true,
@@ -127,11 +210,59 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6876,
+          "name": "Na Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6877,
+          "name": "Min Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6878,
+          "name": "Ming Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6879,
+          "name": "Li Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989391
+        },
+        {
+          "person_id": 6880,
+          "name": "Juan Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989391
+        }
       ]
     },
     {
       "id": "song:7658",
-      "song_id": 7658,
+      "work_type": "Song",
+      "work_id": 7658,
       "title": "Battles Within",
       "genre": "Alternative Rock",
       "notable": true,
@@ -149,11 +280,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4380,
+          "name": "Carolyn Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7174106
+        },
+        {
+          "person_id": 7661,
+          "name": "Kristina Boyer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398595
+        },
+        {
+          "person_id": 7659,
+          "name": "Morgan Shelton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        },
+        {
+          "person_id": 7660,
+          "name": "Ryan Morales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        }
       ]
     },
     {
       "id": "song:16617",
-      "song_id": 16617,
+      "work_type": "Song",
+      "work_id": 16617,
       "title": "Static and Soul",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -171,25 +342,120 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6036,
+          "name": "Yan Kang",
+          "stage_name": "Vesper Illusion",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9247656
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7181127
+        },
+        {
+          "person_id": 6038,
+          "name": "Jie Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0346477
+        }
+      ]
+    },
+    {
+      "id": "song:3362",
+      "work_type": "Song",
+      "work_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:16617",
-      "target": "song:5283",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:3362",
-      "target": "song:13304",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:13930",
-      "target": "song:449",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:6875",
       "target": "song:5283",
@@ -199,6 +465,21 @@
       "source": "song:7658",
       "target": "song:5283",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3362",
+      "target": "song:13304",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16617",
+      "target": "song:5283",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:13930",
+      "target": "song:449",
+      "type": "InStyleOf"
     }
   ]
 }

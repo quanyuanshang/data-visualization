@@ -4,13 +4,14 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:2182",
-      "song_id": 2182,
-      "title": "Red Line Rebellion",
+      "id": "album:1213",
+      "work_type": "Album",
+      "work_id": 1213,
+      "title": "Blossoming Crescendo",
       "genre": "Dream Pop",
-      "notable": false,
+      "notable": true,
       "release_year": 1991,
-      "single": true,
+      "single": false,
       "own": true,
       "artist_id": 1214,
       "artist_name": "Chad Garcia",
@@ -21,8 +22,68 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1215,
+          "name": "Shawn Saunders",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3935668
+        }
+      ]
+    },
+    {
+      "id": "song:2182",
+      "work_type": "Song",
+      "work_id": 2182,
+      "title": "Red Line Rebellion",
+      "genre": "Dream Pop",
+      "notable": false,
+      "release_year": 1991,
+      "single": true,
+      "own": true,
+      "artist_id": 1214,
+      "artist_name": "Chad Garcia",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2183,
+          "name": "James Palmer",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3472762
+        },
+        {
+          "person_id": 2184,
+          "name": "Robert Hughes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3472762
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:1213",
+      "target": "song:2182",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6194",
-      "song_id": 6194,
+      "work_type": "Song",
+      "work_id": 6194,
       "title": "Snowflakes and Silent Nights",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,6 +15,65 @@
       "own": true,
       "artist_id": 6197,
       "artist_name": "Ming He",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6198,
+          "name": "Xiuying Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.928244
+        },
+        {
+          "person_id": 6195,
+          "name": "Min Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0298395
+        },
+        {
+          "person_id": 6196,
+          "name": "Phillip Martinez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974223
+        },
+        {
+          "person_id": 6199,
+          "name": "Juan Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974223
+        }
+      ]
+    },
+    {
+      "id": "album:16385",
+      "work_type": "Album",
+      "work_id": 16385,
+      "title": "Unbroken Whispers",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 16386,
+      "artist_name": "Ping Gong",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +81,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16386,
+          "name": "Ping Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16387,
+          "name": "Ming Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980315
+        },
+        {
+          "person_id": 16388,
+          "name": "Chao Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980315
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:16385",
+      "target": "song:6194",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

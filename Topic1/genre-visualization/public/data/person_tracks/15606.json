@@ -1,0 +1,141 @@
+{
+  "person_id": 15606,
+  "name": "Daniela Scholtz",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:15605",
+      "work_type": "Album",
+      "work_id": 15605,
+      "title": "Quiet Surrender",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": true,
+      "artist_id": 15606,
+      "artist_name": "Daniela Scholtz",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9108,
+          "name": "Karina Hess",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9376242
+        }
+      ]
+    },
+    {
+      "id": "song:11010",
+      "work_type": "Song",
+      "work_id": 11010,
+      "title": "Japari's Endless Adventure",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 11011,
+      "artist_name": "Honoré Leduc",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11011,
+          "name": "Honoré Leduc",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972144
+        },
+        {
+          "person_id": 11012,
+          "name": "Jules Lemonnier",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3972144
+        },
+        {
+          "person_id": 11013,
+          "name": "Aurore Leroux",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3971937
+        }
+      ]
+    },
+    {
+      "id": "song:16616",
+      "work_type": "Song",
+      "work_id": 16616,
+      "title": "Amplified Whispers",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": false,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 10594,
+      "artist_name": "Edward Morgan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10594,
+          "name": "Edward Morgan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4319913
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11010",
+      "target": "album:15605",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16616",
+      "target": "album:15605",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4362",
-      "song_id": 4362,
+      "work_type": "Song",
+      "work_id": 4362,
       "title": "Sussurri Della Notte (Whispers of the Night)",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 4365,
       "artist_name": "Douglas Gonzalez",
-      "influence": 12,
+      "influence": 16,
       "influence_breakdown": {
         "cover": 1,
-        "sample": 1,
+        "sample": 2,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4363,
+          "name": "Troy Ruiz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3788033
+        },
+        {
+          "person_id": 4364,
+          "name": "Joseph Beltran",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3788033
+        }
+      ]
     },
     {
       "id": "song:799",
-      "song_id": 799,
+      "work_type": "Song",
+      "work_id": 799,
       "title": "Sanctuary of Maternal Warmth",
       "genre": "Space Rock",
       "notable": true,
@@ -43,11 +66,33 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 801,
+          "name": "Yan Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4402952
+        },
+        {
+          "person_id": 800,
+          "name": "Qiang Lai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398226
+        }
       ]
     },
     {
       "id": "song:2284",
-      "song_id": 2284,
+      "work_type": "Song",
+      "work_id": 2284,
       "title": "Whispers of the Breeze",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +110,158 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2285,
+          "name": "Brett Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988242
+        },
+        {
+          "person_id": 2288,
+          "name": "Alexander Curry Jr.",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3988242
+        },
+        {
+          "person_id": 2289,
+          "name": "Brian Pratt",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988242
+        },
+        {
+          "person_id": 2286,
+          "name": "Dylan Rice",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988035
+        },
+        {
+          "person_id": 2287,
+          "name": "Cindy Zamora",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988035
+        }
+      ]
+    },
+    {
+      "id": "album:11300",
+      "work_type": "Album",
+      "work_id": 11300,
+      "title": "Flipped Frontier",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 8130,
+      "artist_name": "Samuel Gutierrez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10914,
+          "name": "Min Wen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.7164886
+        },
+        {
+          "person_id": 8130,
+          "name": "Samuel Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7082348
+        },
+        {
+          "person_id": 8129,
+          "name": "Juan Fu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.5314474
+        },
+        {
+          "person_id": 8134,
+          "name": "Wulf Lübs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.441221
+        },
+        {
+          "person_id": 8136,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4290316
+        },
+        {
+          "person_id": 10912,
+          "name": "Guiying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.018536
+        },
+        {
+          "person_id": 11301,
+          "name": "Jared Mercer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3889794
+        },
+        {
+          "person_id": 11302,
+          "name": "Kim Knight",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3889794
+        }
       ]
     },
     {
       "id": "song:12751",
-      "song_id": 12751,
+      "work_type": "Song",
+      "work_id": 12751,
       "title": "Echoes of Suffering's Symphony",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,14 +279,44 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12754,
+          "name": "Sharon Roberts",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983574
+        },
+        {
+          "person_id": 12753,
+          "name": "Jason Robles",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983366
+        },
+        {
+          "person_id": 12752,
+          "name": "Nancy Franklin",
+          "stage_name": "Prysm",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397077
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:799",
+      "source": "song:12751",
       "target": "song:4362",
-      "type": "DirectlySamples"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:2284",
@@ -102,9 +324,14 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:12751",
+      "source": "song:799",
       "target": "song:4362",
-      "type": "InterpolatesFrom"
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:11300",
+      "target": "song:4362",
+      "type": "DirectlySamples"
     }
   ]
 }

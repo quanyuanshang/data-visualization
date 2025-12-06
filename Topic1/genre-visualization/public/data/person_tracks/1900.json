@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:13755",
-      "song_id": 13755,
-      "title": "Before You Walk Away",
-      "genre": "Synthwave",
-      "notable": true,
-      "release_year": 2026,
-      "single": true,
-      "own": true,
-      "artist_id": 1900,
-      "artist_name": "Jun Guo",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:1898",
-      "song_id": 1898,
+      "work_type": "Song",
+      "work_id": 1898,
       "title": "Atatürk'ün Sesi (The Voice of Atatürk)",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,7 +22,70 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1899,
+          "name": "Juan Xue",
+          "stage_name": "Velvet Alibi",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986287
+        },
+        {
+          "person_id": 1901,
+          "name": "Lei Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986287
+        }
+      ]
+    },
+    {
+      "id": "song:13755",
+      "work_type": "Song",
+      "work_id": 13755,
+      "title": "Before You Walk Away",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": true,
+      "artist_id": 1900,
+      "artist_name": "Jun Guo",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13756,
+          "name": "Li He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983681
+        },
+        {
+          "person_id": 13757,
+          "name": "Yang Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983474
+        }
+      ]
     }
   ],
   "links": []

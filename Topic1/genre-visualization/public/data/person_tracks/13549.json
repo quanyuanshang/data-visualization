@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13546",
-      "song_id": 13546,
+      "work_type": "Song",
+      "work_id": 13546,
       "title": "When Darkness Breaks",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13550,
+          "name": "Li Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0496097
+        },
+        {
+          "person_id": 13547,
+          "name": "Jun Shi",
+          "stage_name": " Mars",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394955
+        },
+        {
+          "person_id": 13548,
+          "name": "Nicole Bass",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.394955
+        }
+      ]
     },
     {
       "id": "song:7520",
-      "song_id": 7520,
+      "work_type": "Song",
+      "work_id": 7520,
       "title": "Echoes of the Forest Guardian",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +75,50 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7524,
+          "name": "Yang Deng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399913
+        },
+        {
+          "person_id": 7521,
+          "name": "Juan Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997433
+        },
+        {
+          "person_id": 7522,
+          "name": "Ping Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3997433
+        },
+        {
+          "person_id": 7523,
+          "name": "Jun Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997433
+        }
       ]
     },
     {
       "id": "song:15394",
-      "song_id": 15394,
+      "work_type": "Song",
+      "work_id": 15394,
       "title": "Whispers in the Meadow Green",
       "genre": "Synthwave",
       "notable": true,
@@ -65,19 +136,40 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1255,
+          "name": "Xiulan Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0676715
+        },
+        {
+          "person_id": 15395,
+          "name": "Xiulan Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977797
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15394",
-      "target": "song:13546",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:7520",
       "target": "song:13546",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:15394",
+      "target": "song:13546",
+      "type": "DirectlySamples"
     }
   ]
 }

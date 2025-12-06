@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7707",
-      "song_id": 7707,
+      "work_type": "Song",
+      "work_id": 7707,
       "title": "Disconnected Hearts",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -21,11 +22,13 @@
         "reference": 1,
         "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:3506",
-      "song_id": 3506,
+      "work_type": "Song",
+      "work_id": 3506,
       "title": "Flamenco Nights",
       "genre": "Indie Pop",
       "notable": true,
@@ -43,11 +46,24 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3507,
+          "name": "Alex Steele",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4013743
+        }
       ]
     },
     {
       "id": "song:4557",
-      "song_id": 4557,
+      "work_type": "Song",
+      "work_id": 4557,
       "title": "Tears Left Unshed",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -65,11 +81,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 4558,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3666587
+        }
       ]
     },
     {
       "id": "song:7842",
-      "song_id": 7842,
+      "work_type": "Song",
+      "work_id": 7842,
       "title": "Lifted High, His Name Divine",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -87,11 +125,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 7843,
+          "name": "Jun Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9450507
+        }
       ]
     },
     {
       "id": "song:13610",
-      "song_id": 13610,
+      "work_type": "Song",
+      "work_id": 13610,
       "title": "Shadows of Doubt",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -109,11 +169,32 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 697,
+          "name": "Yong Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.1583548
+        },
+        {
+          "person_id": 7843,
+          "name": "Jun Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9450507
+        }
       ]
     },
     {
       "id": "song:15258",
-      "song_id": 15258,
+      "work_type": "Song",
+      "work_id": 15258,
       "title": "Sovereign Melody of Britannia",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -131,6 +212,35 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15259,
+          "name": "Jacqueline Monroe",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.043209
+        },
+        {
+          "person_id": 5969,
+          "name": "Kristiane Stadelmann",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0422142
+        },
+        {
+          "person_id": 15260,
+          "name": "Steve Schottin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982573
+        }
       ]
     }
   ],
@@ -141,7 +251,12 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:15258",
+      "source": "song:7842",
+      "target": "song:7707",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4557",
       "target": "song:7707",
       "type": "InStyleOf"
     },
@@ -151,12 +266,7 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:7842",
-      "target": "song:7707",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:4557",
+      "source": "song:15258",
       "target": "song:7707",
       "type": "InStyleOf"
     }

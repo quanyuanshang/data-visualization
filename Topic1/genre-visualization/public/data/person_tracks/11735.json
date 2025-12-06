@@ -1,0 +1,202 @@
+{
+  "person_id": 11735,
+  "name": "William Miller",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11730",
+      "work_type": "Album",
+      "work_id": 11730,
+      "title": "Whispers of Guenerina",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": true,
+      "artist_id": 11735,
+      "artist_name": "William Miller",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6906,
+          "name": "Susan Anderson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4187682
+        },
+        {
+          "person_id": 11731,
+          "name": "David Jenkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997602
+        },
+        {
+          "person_id": 11732,
+          "name": "James Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997602
+        },
+        {
+          "person_id": 11733,
+          "name": "Edward Clark",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997602
+        },
+        {
+          "person_id": 11734,
+          "name": "Robert Boone",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997602
+        }
+      ]
+    },
+    {
+      "id": "song:10944",
+      "work_type": "Song",
+      "work_id": 10944,
+      "title": "Homebound Heart",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 10945,
+      "artist_name": "Pamela Moran (Seraphine)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10946,
+          "name": "William Fritz",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.397942
+        },
+        {
+          "person_id": 10945,
+          "name": "Pamela Moran",
+          "stage_name": "Seraphine",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397726
+        }
+      ]
+    },
+    {
+      "id": "album:11533",
+      "work_type": "Album",
+      "work_id": 11533,
+      "title": "Beneath the Green Cathedral",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 7240,
+      "artist_name": "Yan Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 7240,
+          "name": "Yan Zhou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4393845
+        },
+        {
+          "person_id": 11534,
+          "name": "Brian Hamilton",
+          "stage_name": " Cyber Swan",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987684
+        },
+        {
+          "person_id": 11535,
+          "name": "Alexandra Montes",
+          "stage_name": " D.R. Stone",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987684
+        },
+        {
+          "person_id": 11536,
+          "name": "Scott Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3987684
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:10944",
+      "target": "album:11730",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:11533",
+      "target": "album:11730",
+      "type": "LyricalReferenceTo"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13525",
-      "song_id": 13525,
+      "work_type": "Song",
+      "work_id": 13525,
       "title": "Jubilee Rising",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 13526,
       "artist_name": "Daniel Smith",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13527,
+          "name": "Ludovico Sgarbi-Interminei",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.40359
+        }
+      ]
     },
     {
       "id": "song:15092",
-      "song_id": 15092,
+      "work_type": "Song",
+      "work_id": 15092,
       "title": "Echoes in Ivory and Ebony",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,8 +54,70 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3051,
+          "name": "Amy Moore",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0486379
+        }
+      ]
+    },
+    {
+      "id": "album:3049",
+      "work_type": "Album",
+      "work_id": 3049,
+      "title": "Whispers of Uncharted Worlds",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 1996,
+      "single": false,
+      "own": false,
+      "artist_id": 3050,
+      "artist_name": "Lisa Hines",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3051,
+          "name": "Amy Moore",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0486379
+        },
+        {
+          "person_id": 3050,
+          "name": "Lisa Hines",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399267
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:3049",
+      "target": "song:13525",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

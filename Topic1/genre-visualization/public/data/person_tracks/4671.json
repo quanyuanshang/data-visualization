@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4666",
-      "song_id": 4666,
+      "work_type": "Song",
+      "work_id": 4666,
       "title": "Aftermath of a Broken Heart",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,70 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 4670,
+          "name": "Tony Rhodes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0056522
+        },
+        {
+          "person_id": 4667,
+          "name": "Matthew Fields",
+          "stage_name": " $ILVER",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3933146
+        },
+        {
+          "person_id": 4668,
+          "name": "Edwin Binner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933146
+        },
+        {
+          "person_id": 4669,
+          "name": "Ian Jüttner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933146
+        },
+        {
+          "person_id": 4672,
+          "name": "Joseph Parsons",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3932939
+        }
+      ]
     },
     {
       "id": "song:1286",
-      "song_id": 1286,
+      "work_type": "Song",
+      "work_id": 1286,
       "title": "They're Not Entirely Sure",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +103,60 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 316,
+          "name": "Lei Xue",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9232433
+        },
+        {
+          "person_id": 1287,
+          "name": "Justin Ellison",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980396
+        },
+        {
+          "person_id": 1288,
+          "name": "Xiulan Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980396
+        },
+        {
+          "person_id": 1289,
+          "name": "Juan Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980396
+        },
+        {
+          "person_id": 1290,
+          "name": "Na Wang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3980396
+        }
       ]
     },
     {
       "id": "song:7680",
-      "song_id": 7680,
+      "work_type": "Song",
+      "work_id": 7680,
       "title": "Earthen Resonance",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,19 +174,96 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 617,
+          "name": "Tao Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.6239543
+        },
+        {
+          "person_id": 4670,
+          "name": "Tony Rhodes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0056522
+        },
+        {
+          "person_id": 7685,
+          "name": "Leslie Wagner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017973
+        },
+        {
+          "person_id": 7681,
+          "name": "Allison Johnson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947415
+        },
+        {
+          "person_id": 7682,
+          "name": "Amber Franklin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947415
+        },
+        {
+          "person_id": 7683,
+          "name": "Fang Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3947415
+        },
+        {
+          "person_id": 7684,
+          "name": "Ming Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947415
+        },
+        {
+          "person_id": 7686,
+          "name": "Ming Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3947208
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:1286",
-      "target": "song:4666",
-      "type": "InterpolatesFrom"
-    },
-    {
       "source": "song:7680",
       "target": "song:4666",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:1286",
+      "target": "song:4666",
+      "type": "InterpolatesFrom"
     }
   ]
 }

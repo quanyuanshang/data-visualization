@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:14364",
-      "song_id": 14364,
+      "work_type": "Song",
+      "work_id": 14364,
       "title": "Desert Throne",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,6 +15,56 @@
       "own": true,
       "artist_id": 14366,
       "artist_name": "Marcelina Kosno",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14365,
+          "name": "Karina Bąbel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4341516
+        },
+        {
+          "person_id": 14367,
+          "name": "Rafał Raba",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4089057
+        },
+        {
+          "person_id": 14368,
+          "name": "Anastazja Łuczyk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4089057
+        }
+      ]
+    },
+    {
+      "id": "album:15957",
+      "work_type": "Album",
+      "work_id": 15957,
+      "title": "The Space Between Us",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2010,
+      "single": false,
+      "own": false,
+      "artist_id": 4611,
+      "artist_name": "Kamila Ornat",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +72,46 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14365,
+          "name": "Karina Bąbel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4341516
+        },
+        {
+          "person_id": 4611,
+          "name": "Kamila Ornat",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.037111
+        },
+        {
+          "person_id": 15958,
+          "name": "Grzegorz Rorat",
+          "stage_name": "Grzegorz",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3996768
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:15957",
+      "target": "song:14364",
+      "type": "InStyleOf"
+    }
+  ]
 }

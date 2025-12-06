@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3773",
-      "song_id": 3773,
+      "work_type": "Song",
+      "work_id": 3773,
       "title": "Kindred OdysseyFragile Lola",
       "genre": "Synthwave",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3774,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4085824
+        }
+      ]
     },
     {
       "id": "song:6376",
-      "song_id": 6376,
+      "work_type": "Song",
+      "work_id": 6376,
       "title": "Temptation's Edge",
       "genre": "Dream Pop",
       "notable": true,
@@ -34,18 +47,30 @@
       "own": true,
       "artist_id": 3775,
       "artist_name": "Yang Cui",
-      "influence": 0,
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3774,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4085824
+        }
+      ]
     },
     {
       "id": "song:8019",
-      "song_id": 8019,
+      "work_type": "Song",
+      "work_id": 8019,
       "title": "Building Bones",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -61,11 +86,51 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8020,
+          "name": "Xiulan Ma",
+          "stage_name": "Luca West",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978047
+        },
+        {
+          "person_id": 8021,
+          "name": "Qiang Du",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978047
+        },
+        {
+          "person_id": 8022,
+          "name": "Qiang Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978047
+        },
+        {
+          "person_id": 8023,
+          "name": "Qiang Tang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978047
+        }
+      ]
     },
     {
       "id": "song:14021",
-      "song_id": 14021,
+      "work_type": "Song",
+      "work_id": 14021,
       "title": "The Quiet Spark",
       "genre": "Dream Pop",
       "notable": true,
@@ -81,11 +146,96 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3774,
+          "name": "Jun Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4085824
+        },
+        {
+          "person_id": 14022,
+          "name": "Fang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3987615
+        }
+      ]
+    },
+    {
+      "id": "album:5577",
+      "work_type": "Album",
+      "work_id": 5577,
+      "title": "Destiny's Whisper",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 5578,
+      "artist_name": "Juan Zhou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5580,
+          "name": "Gang Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3966079
+        },
+        {
+          "person_id": 5579,
+          "name": "Jie Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964381
+        },
+        {
+          "person_id": 5578,
+          "name": "Juan Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963315
+        },
+        {
+          "person_id": 5581,
+          "name": "Gang He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963315
+        }
+      ]
     },
     {
       "id": "song:3362",
-      "song_id": 3362,
+      "work_type": "Song",
+      "work_id": 3362,
       "title": "Rising From the Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -103,10 +253,62 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:6376",
+      "target": "song:14021",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:3773",
       "target": "song:14021",
@@ -118,9 +320,9 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:6376",
-      "target": "song:14021",
-      "type": "InterpolatesFrom"
+      "source": "album:5577",
+      "target": "song:6376",
+      "type": "InStyleOf"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:912",
-      "song_id": 912,
+      "work_type": "Song",
+      "work_id": 912,
       "title": "Footsteps of Men",
       "genre": "Indie Folk",
       "notable": false,
@@ -21,11 +22,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 913,
+          "name": "Seth Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3876684
+        },
+        {
+          "person_id": 915,
+          "name": "Deborah Hayes",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3876684
+        }
+      ]
     },
     {
       "id": "song:11200",
-      "song_id": 11200,
+      "work_type": "Song",
+      "work_id": 11200,
       "title": "Nautical Whispers",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +66,60 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 649,
+          "name": "Na Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7131028
+        },
+        {
+          "person_id": 11201,
+          "name": "Gang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11202,
+          "name": "Joseph Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11203,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11204,
+          "name": "Yong Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989823
+        }
       ]
     },
     {
       "id": "song:12196",
-      "song_id": 12196,
+      "work_type": "Song",
+      "work_id": 12196,
       "title": "Ringing Through Silence",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +137,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12198,
+          "name": "Ryan Howard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980834
+        },
+        {
+          "person_id": 12197,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977664
+        }
       ]
     },
     {
       "id": "song:16615",
-      "song_id": 16615,
+      "work_type": "Song",
+      "work_id": 16615,
       "title": "The Revenge We Never Spoke Of",
       "genre": "Dream Pop",
       "notable": true,
@@ -87,12 +181,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10311,
+          "name": "Siya Sahni",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0523303
+        },
+        {
+          "person_id": 10312,
+          "name": "Ishita Bahri",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0520613
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11200",
+      "source": "song:12196",
       "target": "song:912",
       "type": "CoverOf"
     },
@@ -102,7 +217,7 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:12196",
+      "source": "song:11200",
       "target": "song:912",
       "type": "CoverOf"
     }

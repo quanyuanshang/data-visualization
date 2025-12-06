@@ -4,28 +4,9 @@
   "stage_name": "Vesper Illusion",
   "nodes": [
     {
-      "id": "song:16617",
-      "song_id": 16617,
-      "title": "Static and Soul",
-      "genre": "Emo/Pop Punk",
-      "notable": true,
-      "release_year": 2010,
-      "single": true,
-      "own": true,
-      "artist_id": 6036,
-      "artist_name": "Yan Kang (Vesper Illusion)",
-      "influence": 4,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 1,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:6035",
-      "song_id": 6035,
+      "work_type": "Song",
+      "work_id": 6035,
       "title": "Echoes from Within",
       "genre": "Indie Pop",
       "notable": true,
@@ -41,11 +22,42 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7181127
+        },
+        {
+          "person_id": 6038,
+          "name": "Jie Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0346477
+        }
+      ]
     },
     {
       "id": "song:10600",
-      "song_id": 10600,
+      "work_type": "Song",
+      "work_id": 10600,
       "title": "Voices of the Motherland",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,11 +73,32 @@
         "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0568504
+        }
+      ]
     },
     {
       "id": "song:9284",
-      "song_id": 9284,
+      "work_type": "Song",
+      "work_id": 9284,
       "title": "Echoes of Elation",
       "genre": "Blues Rock",
       "notable": true,
@@ -81,33 +114,106 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.0983653
+        }
+      ]
     },
     {
-      "id": "song:6035",
-      "song_id": 6035,
-      "title": "Echoes from Within",
-      "genre": "Indie Pop",
+      "id": "album:10674",
+      "work_type": "Album",
+      "work_id": 10674,
+      "title": "Stones and Shadows",
+      "genre": "Speed Metal",
       "notable": true,
-      "release_year": 2017,
+      "release_year": 2024,
       "single": false,
       "own": true,
       "artist_id": 6036,
       "artist_name": "Yan Kang (Vesper Illusion)",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10675,
+          "name": "Gang He",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4008584
+        }
+      ]
+    },
+    {
+      "id": "song:16617",
+      "work_type": "Song",
+      "work_id": 16617,
+      "title": "Static and Soul",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 6036,
+      "artist_name": "Yan Kang (Vesper Illusion)",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
         "reference": 0,
         "style": 0
       },
-      "relation_types": [
-        "DirectlySamples"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7181127
+        },
+        {
+          "person_id": 6038,
+          "name": "Jie Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0346477
+        }
       ]
     },
     {
       "id": "song:7658",
-      "song_id": 7658,
+      "work_type": "Song",
+      "work_id": 7658,
       "title": "Battles Within",
       "genre": "Alternative Rock",
       "notable": true,
@@ -125,11 +231,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4380,
+          "name": "Carolyn Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7174106
+        },
+        {
+          "person_id": 7661,
+          "name": "Kristina Boyer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398595
+        },
+        {
+          "person_id": 7659,
+          "name": "Morgan Shelton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        },
+        {
+          "person_id": 7660,
+          "name": "Ryan Morales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        }
       ]
     },
     {
       "id": "song:9284",
-      "song_id": 9284,
+      "work_type": "Song",
+      "work_id": 9284,
       "title": "Echoes of Elation",
       "genre": "Blues Rock",
       "notable": true,
@@ -147,11 +293,32 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6036,
+          "name": "Yan Kang",
+          "stage_name": "Vesper Illusion",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9247656
+        }
       ]
     },
     {
       "id": "song:13930",
-      "song_id": 13930,
+      "work_type": "Song",
+      "work_id": 13930,
       "title": "Silk and Stirrups",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -169,14 +336,160 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7181127
+        }
+      ]
+    },
+    {
+      "id": "song:16617",
+      "work_type": "Song",
+      "work_id": 16617,
+      "title": "Static and Soul",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2010,
+      "single": true,
+      "own": true,
+      "artist_id": 6036,
+      "artist_name": "Yan Kang (Vesper Illusion)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6036,
+          "name": "Yan Kang",
+          "stage_name": "Vesper Illusion",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9247656
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7181127
+        },
+        {
+          "person_id": 6038,
+          "name": "Jie Tian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0346477
+        }
+      ]
+    },
+    {
+      "id": "song:16336",
+      "work_type": "Song",
+      "work_id": 16336,
+      "title": "Pantheon's Echo",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": true,
+      "own": false,
+      "artist_id": 1327,
+      "artist_name": "Fang Zou",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1327,
+          "name": "Fang Zou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.795131
+        },
+        {
+          "person_id": 16337,
+          "name": "Xia Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955705
+        },
+        {
+          "person_id": 16338,
+          "name": "Meghan Cortez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3955705
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:13930",
+      "target": "song:10600",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:7658",
       "target": "song:10600",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:9284",
+      "target": "song:10600",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:6035",
@@ -184,19 +497,14 @@
       "type": "DirectlySamples"
     },
     {
-      "source": "song:13930",
-      "target": "song:10600",
-      "type": "InterpolatesFrom"
+      "source": "song:16336",
+      "target": "album:10674",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:16617",
       "target": "song:10600",
       "type": "CoverOf"
-    },
-    {
-      "source": "song:9284",
-      "target": "song:10600",
-      "type": "InterpolatesFrom"
     }
   ]
 }

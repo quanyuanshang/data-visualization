@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9186",
-      "song_id": 9186,
+      "work_type": "Song",
+      "work_id": 9186,
       "title": "Landscape Echoes",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,57 @@
       "own": true,
       "artist_id": 9187,
       "artist_name": "Luciano Chindamo",
-      "influence": 2,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4566,
+          "name": "Nicola Bernetti",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1139727
+        },
+        {
+          "person_id": 4567,
+          "name": "Vincentio Gentili",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1139727
+        },
+        {
+          "person_id": 4568,
+          "name": "Guglielmo Canetta",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1139727
+        },
+        {
+          "person_id": 4569,
+          "name": "Serena Lettiere",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1139727
+        }
+      ]
     },
     {
       "id": "song:5276",
-      "song_id": 5276,
+      "work_type": "Song",
+      "work_id": 5276,
       "title": "Windborne Dialogues of Three Horns",
       "genre": "Indie Folk",
       "notable": true,
@@ -43,6 +83,108 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5277,
+          "name": "Joseph Adams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985493
+        },
+        {
+          "person_id": 5278,
+          "name": "Heather Davis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982885
+        }
+      ]
+    },
+    {
+      "id": "album:10055",
+      "work_type": "Album",
+      "work_id": 10055,
+      "title": "Lights, Camera, Heartbreak",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 10056,
+      "artist_name": "Tiziano Bianchi ( Mona Rey)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10056,
+          "name": "Tiziano Bianchi",
+          "stage_name": " Mona Rey",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10057,
+          "name": "Anthony Scott",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10058,
+          "name": "Vincenza Tropea",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10059,
+          "name": "Luigina Lattuada-Carfagna",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10060,
+          "name": "Marina Giradello-Pellegrini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10061,
+          "name": "Matilda Gottardi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397585
+        }
       ]
     }
   ],
@@ -51,6 +193,11 @@
       "source": "song:5276",
       "target": "song:9186",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:10055",
+      "target": "song:9186",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

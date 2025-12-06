@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:1949",
-      "song_id": 1949,
+      "work_type": "Song",
+      "work_id": 1949,
       "title": "Royal Celestial Blessing",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -14,6 +15,65 @@
       "own": true,
       "artist_id": 1951,
       "artist_name": "Baptist Adolph",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 1954,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.9428082
+        },
+        {
+          "person_id": 1953,
+          "name": "Xiuying Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7739844
+        },
+        {
+          "person_id": 1950,
+          "name": "Xiulan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017797
+        }
+      ]
+    },
+    {
+      "id": "album:11586",
+      "work_type": "Album",
+      "work_id": 11586,
+      "title": "Secrets She Carries",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 5811,
+      "artist_name": "Samantha Mills",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +81,56 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5811,
+          "name": "Samantha Mills",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0377085
+        },
+        {
+          "person_id": 11587,
+          "name": "Fang Tian",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3963287
+        },
+        {
+          "person_id": 11589,
+          "name": "Li Lu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963287
+        },
+        {
+          "person_id": 11588,
+          "name": "Ping Deng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396308
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11586",
+      "target": "song:1949",
+      "type": "InStyleOf"
+    }
+  ]
 }

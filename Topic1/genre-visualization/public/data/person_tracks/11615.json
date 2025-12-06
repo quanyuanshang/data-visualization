@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13131",
-      "song_id": 13131,
+      "work_type": "Song",
+      "work_id": 13131,
       "title": "Midnight's Ritual",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8752,
+          "name": "Anita Hamerla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7124157
+        }
+      ]
     },
     {
       "id": "song:13223",
-      "song_id": 13223,
+      "work_type": "Song",
+      "work_id": 13223,
       "title": "Cradle of Betrayal",
       "genre": "Alternative Rock",
       "notable": true,
@@ -41,11 +54,24 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8752,
+          "name": "Anita Hamerla",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7124157
+        }
+      ]
     },
     {
       "id": "song:11614",
-      "song_id": 11614,
+      "work_type": "Song",
+      "work_id": 11614,
       "title": "Between Innocence and Ember",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,19 +87,31 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8752,
+          "name": "Anita Hamerla",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7124157
+        }
+      ]
     },
     {
       "id": "song:17050",
-      "song_id": 17050,
+      "work_type": "Song",
+      "work_id": 17050,
       "title": "Star-Touched Tides",
       "genre": "Oceanus Folk",
       "notable": true,
       "release_year": 2034,
       "single": true,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17046,
+      "artist_name": "The Brine Choir（成员：Arlo Sterling｜预测 3.42、Lyra Blaze｜预测 3.36…）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -83,11 +121,13 @@
       },
       "relation_types": [
         "InterpolatesFrom"
-      ]
+      ],
+      "collaborators": []
     },
     {
       "id": "song:8751",
-      "song_id": 8751,
+      "work_type": "Song",
+      "work_id": 8751,
       "title": "Syncopated Dreams",
       "genre": "Alternative Rock",
       "notable": true,
@@ -105,13 +145,25 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8752,
+          "name": "Anita Hamerla",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7124157
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:17050",
-      "target": "song:13131",
+      "source": "song:13131",
+      "target": "song:13223",
       "type": "InterpolatesFrom"
     },
     {
@@ -120,8 +172,8 @@
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:13131",
-      "target": "song:13223",
+      "source": "song:17050",
+      "target": "song:13131",
       "type": "InterpolatesFrom"
     },
     {

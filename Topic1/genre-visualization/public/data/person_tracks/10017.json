@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10016",
-      "song_id": 10016,
+      "work_type": "Song",
+      "work_id": 10016,
       "title": "Dreamscape of Judgment",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 10017,
       "artist_name": "Ping Liao",
-      "influence": 2,
+      "influence": 7,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10018,
+          "name": "Trevor Bass",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399376
+        },
+        {
+          "person_id": 10019,
+          "name": "Xiuying Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399376
+        },
+        {
+          "person_id": 10020,
+          "name": "Xia Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399376
+        },
+        {
+          "person_id": 10021,
+          "name": "Sandra Burke",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399376
+        },
+        {
+          "person_id": 10022,
+          "name": "Yan Li",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399376
+        }
+      ]
     },
     {
       "id": "song:901",
-      "song_id": 901,
+      "work_type": "Song",
+      "work_id": 901,
       "title": "Approaching Silhouettes",
       "genre": "Space Rock",
       "notable": false,
@@ -43,6 +93,99 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 355,
+          "name": "Juan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659535
+        },
+        {
+          "person_id": 905,
+          "name": "Daniel Mitchell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0144453
+        },
+        {
+          "person_id": 904,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.454734
+        },
+        {
+          "person_id": 902,
+          "name": "Min Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3803794
+        },
+        {
+          "person_id": 903,
+          "name": "Xia Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3803794
+        }
+      ]
+    },
+    {
+      "id": "album:17350",
+      "work_type": "Album",
+      "work_id": 17350,
+      "title": "Tidesworn Ballads",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2031,
+      "single": false,
+      "own": false,
+      "artist_id": 17255,
+      "artist_name": "Sailor Shift",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17255,
+          "name": "Sailor Shift",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.271183
+        },
+        {
+          "person_id": 17349,
+          "name": "Beatrice Albright",
+          "stage_name": "Bea Azure",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.194851
+        }
       ]
     }
   ],
@@ -51,6 +194,11 @@
       "source": "song:901",
       "target": "song:10016",
       "type": "InStyleOf"
+    },
+    {
+      "source": "album:17350",
+      "target": "song:10016",
+      "type": "CoverOf"
     }
   ]
 }

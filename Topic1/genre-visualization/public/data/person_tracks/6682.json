@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:6680",
+      "work_type": "Album",
+      "work_id": 6680,
+      "title": "Famn av nåd (Embrace of Grace)",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 6682,
+      "artist_name": "Vicki Morgan",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6681,
+          "name": "Mariola Häring",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977463
+        },
+        {
+          "person_id": 6683,
+          "name": "Deborah White",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977463
+        }
+      ]
+    },
+    {
       "id": "song:14311",
-      "song_id": 14311,
+      "work_type": "Song",
+      "work_id": 14311,
       "title": "Silent Monuments",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +64,85 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14312,
+          "name": "Beverly Lloyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992472
+        },
+        {
+          "person_id": 14313,
+          "name": "Richard Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992472
+        }
+      ]
+    },
+    {
+      "id": "song:14311",
+      "work_type": "Song",
+      "work_id": 14311,
+      "title": "Silent Monuments",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": true,
+      "artist_id": 6682,
+      "artist_name": "Vicki Morgan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6682,
+          "name": "Vicki Morgan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0406227
+        },
+        {
+          "person_id": 14312,
+          "name": "Beverly Lloyd",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992472
+        },
+        {
+          "person_id": 14313,
+          "name": "Richard Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992472
+        }
+      ]
     },
     {
       "id": "song:6406",
-      "song_id": 6406,
+      "work_type": "Song",
+      "work_id": 6406,
       "title": "Celestial Whispers: Ninth Ecclesiastical Composition",
       "genre": "Dream Pop",
       "notable": false,
@@ -43,10 +160,74 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1563,
+          "name": "Michael Snow",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.7776997
+        },
+        {
+          "person_id": 6408,
+          "name": "Maria Rubio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3878002
+        },
+        {
+          "person_id": 6411,
+          "name": "Bradley Valencia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3878002
+        },
+        {
+          "person_id": 6407,
+          "name": "Benjamin Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3877795
+        },
+        {
+          "person_id": 6409,
+          "name": "Timothy Sanchez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3877795
+        },
+        {
+          "person_id": 6410,
+          "name": "Patrick Wall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3877795
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "song:14311",
+      "target": "album:6680",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:6406",
       "target": "song:14311",

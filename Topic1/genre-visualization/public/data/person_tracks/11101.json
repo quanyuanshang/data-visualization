@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11097",
-      "song_id": 11097,
+      "work_type": "Song",
+      "work_id": 11097,
       "title": "Where the Horizons Whisper",
       "genre": "Darkwave",
       "notable": true,
@@ -14,18 +15,67 @@
       "own": true,
       "artist_id": 11101,
       "artist_name": "Li Han",
-      "influence": 36,
+      "influence": 55,
       "influence_breakdown": {
-        "cover": 3,
+        "cover": 4,
         "sample": 1,
-        "reference": 3,
-        "style": 4
+        "reference": 7,
+        "style": 5
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11099,
+          "name": "Kenneth Fox",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035336
+        },
+        {
+          "person_id": 11098,
+          "name": "Jun Xu",
+          "stage_name": " Cassie Day",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4036694
+        },
+        {
+          "person_id": 11100,
+          "name": "Thomas Massey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4036694
+        },
+        {
+          "person_id": 11102,
+          "name": "Guiying Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4036694
+        },
+        {
+          "person_id": 11103,
+          "name": "Marcus Douglas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4036694
+        }
+      ]
     },
     {
       "id": "song:1680",
-      "song_id": 1680,
+      "work_type": "Song",
+      "work_id": 1680,
       "title": "Riddle of the Frozen Princess",
       "genre": "Space Rock",
       "notable": true,
@@ -43,11 +93,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1681,
+          "name": "Lei Dong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1682,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3982213
+        },
+        {
+          "person_id": 1683,
+          "name": "Jing Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3981771
+        }
       ]
     },
     {
       "id": "song:2775",
-      "song_id": 2775,
+      "work_type": "Song",
+      "work_id": 2775,
       "title": "Percussive Cadence",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +146,147 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2777,
+          "name": "Jie Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398408
+        },
+        {
+          "person_id": 2776,
+          "name": "Yan Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981717
+        }
+      ]
+    },
+    {
+      "id": "album:5489",
+      "work_type": "Album",
+      "work_id": 5489,
+      "title": "Sealed with Unspoken Words",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 5490,
+      "artist_name": "Joseph Contreras",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5490,
+          "name": "Joseph Contreras",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.39819
+        },
+        {
+          "person_id": 5491,
+          "name": "Ana Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398132
+        }
+      ]
+    },
+    {
+      "id": "album:7908",
+      "work_type": "Album",
+      "work_id": 7908,
+      "title": "Aerial Echoes of Freedom",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 2861,
+      "artist_name": "Jie Zhang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2861,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4371288
+        },
+        {
+          "person_id": 7909,
+          "name": "Tao Feng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7910,
+          "name": "Ming Fang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7911,
+          "name": "Qiang Li",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3940048
+        },
+        {
+          "person_id": 7912,
+          "name": "Jie Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3940048
+        }
       ]
     },
     {
       "id": "song:8401",
-      "song_id": 8401,
+      "work_type": "Song",
+      "work_id": 8401,
       "title": "The White Lie Syndrome",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -87,11 +304,59 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8406,
+          "name": "Kayla Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977826
+        },
+        {
+          "person_id": 8402,
+          "name": "Aaron Carter",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397567
+        },
+        {
+          "person_id": 8403,
+          "name": "Aneta Mies-Fritsch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397567
+        },
+        {
+          "person_id": 8404,
+          "name": "Gertraud Franke-Trupp",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397567
+        },
+        {
+          "person_id": 8405,
+          "name": "Ronald Parks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397567
+        }
       ]
     },
     {
       "id": "song:8837",
-      "song_id": 8837,
+      "work_type": "Song",
+      "work_id": 8837,
       "title": "The Unfolding: Thirty Breaths",
       "genre": "Darkwave",
       "notable": true,
@@ -109,11 +374,94 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8839,
+          "name": "Lori Schmidt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982437
+        },
+        {
+          "person_id": 8838,
+          "name": "Nathan Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980384
+        }
+      ]
+    },
+    {
+      "id": "album:9749",
+      "work_type": "Album",
+      "work_id": 9749,
+      "title": "The Silence Between Heartbeats",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2021,
+      "single": false,
+      "own": false,
+      "artist_id": 9752,
+      "artist_name": "Chao Wei",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        }
       ]
     },
     {
       "id": "song:10035",
-      "song_id": 10035,
+      "work_type": "Song",
+      "work_id": 10035,
       "title": "Whispers from the Ecclesiastical Shadows",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -131,11 +479,87 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4465,
+          "name": "Qiang Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.1116056
+        },
+        {
+          "person_id": 10036,
+          "name": "Xiulan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10037,
+          "name": "Ping Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10038,
+          "name": "Chao Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10039,
+          "name": "Jun Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10040,
+          "name": "Jing Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10041,
+          "name": "Ming Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986707
+        },
+        {
+          "person_id": 10042,
+          "name": "Gang Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3986707
+        }
       ]
     },
     {
       "id": "song:11200",
-      "song_id": 11200,
+      "work_type": "Song",
+      "work_id": 11200,
       "title": "Nautical Whispers",
       "genre": "Dream Pop",
       "notable": true,
@@ -153,11 +577,104 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 649,
+          "name": "Na Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.7131028
+        },
+        {
+          "person_id": 11201,
+          "name": "Gang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11202,
+          "name": "Joseph Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11203,
+          "name": "Lei Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989823
+        },
+        {
+          "person_id": 11204,
+          "name": "Yong Tian",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3989823
+        }
+      ]
+    },
+    {
+      "id": "album:11998",
+      "work_type": "Album",
+      "work_id": 11998,
+      "title": "Reborn from Ashes",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 12000,
+      "artist_name": "Angelica Ruiz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11999,
+          "name": "Chelsea Mata",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982227
+        },
+        {
+          "person_id": 12000,
+          "name": "Angelica Ruiz",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977864
+        }
       ]
     },
     {
       "id": "song:12347",
-      "song_id": 12347,
+      "work_type": "Song",
+      "work_id": 12347,
       "title": "Broken Generation",
       "genre": "Darkwave",
       "notable": true,
@@ -175,11 +692,50 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2861,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4371288
+        },
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 12348,
+          "name": "Ming Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        },
+        {
+          "person_id": 12349,
+          "name": "Jing Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4000854
+        }
       ]
     },
     {
       "id": "song:12535",
-      "song_id": 12535,
+      "work_type": "Song",
+      "work_id": 12535,
       "title": "Whispers from the Fifty States",
       "genre": "Darkwave",
       "notable": true,
@@ -197,11 +753,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10430,
+          "name": "Jörg Niemeier",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9389503
+        },
+        {
+          "person_id": 12537,
+          "name": "Guiying Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.049924
+        },
+        {
+          "person_id": 12536,
+          "name": "Monica Coleman",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973176
+        }
       ]
     },
     {
       "id": "song:13457",
-      "song_id": 13457,
+      "work_type": "Song",
+      "work_id": 13457,
       "title": "Nature's Tender Embrace",
       "genre": "Dream Pop",
       "notable": true,
@@ -219,11 +806,41 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2826,
+          "name": "Dana Ferrell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362523
+        },
+        {
+          "person_id": 11099,
+          "name": "Kenneth Fox",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.035336
+        },
+        {
+          "person_id": 13458,
+          "name": "Xiuying Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3901658
+        }
       ]
     },
     {
       "id": "song:13735",
-      "song_id": 13735,
+      "work_type": "Song",
+      "work_id": 13735,
       "title": "Echoes in the Silent North",
       "genre": "Darkwave",
       "notable": true,
@@ -241,11 +858,102 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9753,
+          "name": "Yan Gong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.2956872
+        },
+        {
+          "person_id": 9752,
+          "name": "Chao Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0229487
+        },
+        {
+          "person_id": 9750,
+          "name": "Ping Cheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.022782
+        },
+        {
+          "person_id": 9751,
+          "name": "Xiulan Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.022782
+        }
+      ]
+    },
+    {
+      "id": "album:13813",
+      "work_type": "Album",
+      "work_id": 13813,
+      "title": "Wrapped Around Her Wishes",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 13814,
+      "artist_name": "Jing Cui",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 13814,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980188
+        },
+        {
+          "person_id": 13816,
+          "name": "Jie Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980188
+        },
+        {
+          "person_id": 13815,
+          "name": "Jing Hu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980055
+        }
       ]
     },
     {
       "id": "song:14182",
-      "song_id": 14182,
+      "work_type": "Song",
+      "work_id": 14182,
       "title": "The Spaces We Inhabit",
       "genre": "Dream Pop",
       "notable": false,
@@ -263,6 +971,117 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7692,
+          "name": "Juan Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.452628
+        },
+        {
+          "person_id": 14183,
+          "name": "Yong Zhong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14184,
+          "name": "Xia Ma",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14185,
+          "name": "James Weber",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3974853
+        },
+        {
+          "person_id": 14186,
+          "name": "Guiying Qian",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974853
+        }
+      ]
+    },
+    {
+      "id": "album:16577",
+      "work_type": "Album",
+      "work_id": 16577,
+      "title": "Bottled Memories",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 3447,
+      "artist_name": "Li Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3447,
+          "name": "Li Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1020293
+        },
+        {
+          "person_id": 10178,
+          "name": "Ming Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054499
+        },
+        {
+          "person_id": 16578,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980641
+        },
+        {
+          "person_id": 16579,
+          "name": "John May",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980641
+        }
       ]
     }
   ],
@@ -271,16 +1090,6 @@
       "source": "song:1680",
       "target": "song:11097",
       "type": "CoverOf"
-    },
-    {
-      "source": "song:8401",
-      "target": "song:11097",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:10035",
-      "target": "song:11097",
-      "type": "InStyleOf"
     },
     {
       "source": "song:2775",
@@ -293,19 +1102,19 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:12347",
-      "target": "song:11097",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:11200",
+      "source": "song:10035",
       "target": "song:11097",
       "type": "InStyleOf"
     },
     {
-      "source": "song:12535",
+      "source": "album:9749",
       "target": "song:11097",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:8401",
+      "target": "song:11097",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:13457",
@@ -313,14 +1122,54 @@
       "type": "InStyleOf"
     },
     {
+      "source": "song:13735",
+      "target": "song:11097",
+      "type": "DirectlySamples"
+    },
+    {
       "source": "song:14182",
       "target": "song:11097",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:13735",
+      "source": "album:7908",
       "target": "song:11097",
-      "type": "DirectlySamples"
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12535",
+      "target": "song:11097",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:11200",
+      "target": "song:11097",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12347",
+      "target": "song:11097",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:13813",
+      "target": "song:11097",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:5489",
+      "target": "song:11097",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:11998",
+      "target": "song:11097",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:16577",
+      "target": "song:11097",
+      "type": "InterpolatesFrom"
     }
   ]
 }

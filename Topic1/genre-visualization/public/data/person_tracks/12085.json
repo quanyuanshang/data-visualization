@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12081",
-      "song_id": 12081,
+      "work_type": "Song",
+      "work_id": 12081,
       "title": "Boží Stopy v Pramenech Existence",
       "genre": "Doom Metal",
       "notable": false,
@@ -14,18 +15,77 @@
       "own": true,
       "artist_id": 12085,
       "artist_name": "Lolita Speri",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8262,
+          "name": "Lorenzo Morabito",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0861514
+        },
+        {
+          "person_id": 12082,
+          "name": "Rolando Gagliardi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.081246
+        },
+        {
+          "person_id": 12083,
+          "name": "Vanessa Leon",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3821404
+        },
+        {
+          "person_id": 12084,
+          "name": "Annalisa Saragat-Pininfarina",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3821404
+        },
+        {
+          "person_id": 12086,
+          "name": "Christian Scott",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3821404
+        },
+        {
+          "person_id": 12087,
+          "name": "Adrian Bridges",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3821404
+        }
+      ]
     },
     {
       "id": "song:8258",
-      "song_id": 8258,
+      "work_type": "Song",
+      "work_id": 8258,
       "title": "Semangat Rantau, Harapan Daerah",
       "genre": "Synthwave",
       "notable": true,
@@ -43,12 +103,99 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8262,
+          "name": "Lorenzo Morabito",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0861514
+        },
+        {
+          "person_id": 8259,
+          "name": "Roman Doria",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3937302
+        },
+        {
+          "person_id": 8260,
+          "name": "Greca Canali",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3937302
+        },
+        {
+          "person_id": 8261,
+          "name": "Dana Baker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3937094
+        }
+      ]
+    },
+    {
+      "id": "album:12623",
+      "work_type": "Album",
+      "work_id": 12623,
+      "title": "Echoes of Consciousness",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 12082,
+      "artist_name": "Rolando Gagliardi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12082,
+          "name": "Rolando Gagliardi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.081246
+        },
+        {
+          "person_id": 12624,
+          "name": "Jacob Harris",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0307264
+        }
       ]
     }
   ],
   "links": [
     {
       "source": "song:8258",
+      "target": "song:12081",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:12623",
       "target": "song:12081",
       "type": "InStyleOf"
     }

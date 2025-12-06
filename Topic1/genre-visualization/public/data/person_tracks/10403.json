@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10402",
-      "song_id": 10402,
+      "work_type": "Song",
+      "work_id": 10402,
       "title": "Cradle of Uncertain Fate",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 10403,
       "artist_name": "Elizabeth Nguyen",
-      "influence": 5,
+      "influence": 10,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 0,
-        "style": 0
+        "reference": 1,
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
     },
     {
       "id": "song:15046",
-      "song_id": 15046,
+      "work_type": "Song",
+      "work_id": 15046,
       "title": "Lipstick and Celluloid",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +54,76 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3549385
+        }
+      ]
+    },
+    {
+      "id": "album:1804",
+      "work_type": "Album",
+      "work_id": 1804,
+      "title": "Midsummer Memories",
+      "genre": "Indie Folk",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 1805,
+      "artist_name": "Vedika Dar",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1535,
+          "name": "Chad Hampton",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.60809
+        },
+        {
+          "person_id": 1806,
+          "name": "Ahana Babu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3999395
+        },
+        {
+          "person_id": 1805,
+          "name": "Vedika Dar",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3999221
+        }
+      ]
     },
     {
       "id": "song:6473",
-      "song_id": 6473,
+      "work_type": "Song",
+      "work_id": 6473,
       "title": "Stockholm Serenade",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,6 +141,89 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.076866
+        },
+        {
+          "person_id": 3152,
+          "name": "Stacy Hendricks",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0516133
+        }
+      ]
+    },
+    {
+      "id": "album:9871",
+      "work_type": "Album",
+      "work_id": 9871,
+      "title": "Crossroads of Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": false,
+      "artist_id": 2659,
+      "artist_name": "Matthew Hancock (Lunar Tapestry)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.937547
+        },
+        {
+          "person_id": 9872,
+          "name": "Jordan Collins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.045954
+        }
       ]
     }
   ],
@@ -71,6 +232,16 @@
       "source": "song:6473",
       "target": "song:10402",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:9871",
+      "target": "song:10402",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:1804",
+      "target": "song:10402",
+      "type": "InStyleOf"
     }
   ]
 }

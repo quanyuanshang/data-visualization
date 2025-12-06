@@ -1,0 +1,203 @@
+{
+  "person_id": 1462,
+  "name": "Li Qiu",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:1461",
+      "work_type": "Album",
+      "work_id": 1461,
+      "title": "Hellbound Harmony",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 1991,
+      "single": false,
+      "own": true,
+      "artist_id": 1462,
+      "artist_name": "Li Qiu",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1465,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6118836
+        },
+        {
+          "person_id": 1463,
+          "name": "Yan Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957858
+        },
+        {
+          "person_id": 1464,
+          "name": "Yong Tian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957858
+        }
+      ]
+    },
+    {
+      "id": "song:9513",
+      "work_type": "Song",
+      "work_id": 9513,
+      "title": "Synthetic Heartbeat",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": true,
+      "own": false,
+      "artist_id": 1465,
+      "artist_name": "Lei Duan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1465,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6118836
+        },
+        {
+          "person_id": 9515,
+          "name": "Yang Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9341893
+        },
+        {
+          "person_id": 9514,
+          "name": "Yang Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4012952
+        }
+      ]
+    },
+    {
+      "id": "album:14025",
+      "work_type": "Album",
+      "work_id": 14025,
+      "title": "Waterlines and Ridge Shadows",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 3704,
+      "artist_name": "Qiang Xu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3704,
+          "name": "Qiang Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7210002
+        },
+        {
+          "person_id": 9515,
+          "name": "Yang Cheng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9341893
+        },
+        {
+          "person_id": 14026,
+          "name": "Derek Baxter",
+          "stage_name": " DR3AM",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399495
+        },
+        {
+          "person_id": 14027,
+          "name": "Renee Matthews",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.399495
+        },
+        {
+          "person_id": 14028,
+          "name": "Qiang Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.399495
+        },
+        {
+          "person_id": 14029,
+          "name": "Tao Fang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399495
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9513",
+      "target": "album:1461",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:14025",
+      "target": "album:1461",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13413",
-      "song_id": 13413,
+      "work_type": "Song",
+      "work_id": 13413,
       "title": "Snowbound Hearts",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 13416,
       "artist_name": "Áurea Escobar-Jara",
-      "influence": 25,
+      "influence": 33,
       "influence_breakdown": {
-        "cover": 3,
+        "cover": 4,
         "sample": 0,
-        "reference": 2,
+        "reference": 3,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 13414,
+          "name": "Dhruv Mall",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017816
+        },
+        {
+          "person_id": 13415,
+          "name": "Audrey Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4017816
+        }
+      ]
     },
     {
       "id": "song:358",
-      "song_id": 358,
+      "work_type": "Song",
+      "work_id": 358,
       "title": "Endless Horizon",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -43,11 +66,52 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 361,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4429567
+        },
+        {
+          "person_id": 360,
+          "name": "Wei Xiao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0407915
+        },
+        {
+          "person_id": 362,
+          "name": "Yong Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0407915
+        },
+        {
+          "person_id": 359,
+          "name": "Wei Mao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.401129
+        }
       ]
     },
     {
       "id": "song:1907",
-      "song_id": 1907,
+      "work_type": "Song",
+      "work_id": 1907,
       "title": "Echoes of Mirth",
       "genre": "Synthwave",
       "notable": true,
@@ -65,11 +129,122 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1912,
+          "name": "Yan Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7187116
+        },
+        {
+          "person_id": 1908,
+          "name": "Yong Cao",
+          "stage_name": "H3X MOBB",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1909,
+          "name": "Ming Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1910,
+          "name": "Min Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        },
+        {
+          "person_id": 1911,
+          "name": "Min Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985567
+        }
+      ]
+    },
+    {
+      "id": "album:2959",
+      "work_type": "Album",
+      "work_id": 2959,
+      "title": "Sitaron Ki Kahani",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 2383,
+      "artist_name": "Xavier Leclerc",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2383,
+          "name": "Xavier Leclerc",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9075449
+        },
+        {
+          "person_id": 2960,
+          "name": "Qiang Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977144
+        },
+        {
+          "person_id": 2961,
+          "name": "Xiulan Yin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977144
+        },
+        {
+          "person_id": 2962,
+          "name": "Hannah Hopkins",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977144
+        }
       ]
     },
     {
       "id": "song:3813",
-      "song_id": 3813,
+      "work_type": "Song",
+      "work_id": 3813,
       "title": "Fallen Crowns",
       "genre": "Darkwave",
       "notable": true,
@@ -87,11 +262,60 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3814,
+          "name": "Qiang Feng",
+          "stage_name": " The Ghost",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973024
+        },
+        {
+          "person_id": 3815,
+          "name": "Brittney Rivera",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973024
+        },
+        {
+          "person_id": 3816,
+          "name": "Daniel Kent",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973024
+        },
+        {
+          "person_id": 3817,
+          "name": "Tommy Murphy",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3973024
+        },
+        {
+          "person_id": 3818,
+          "name": "Qiang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3973024
+        }
       ]
     },
     {
       "id": "song:4920",
-      "song_id": 4920,
+      "work_type": "Song",
+      "work_id": 4920,
       "title": "Comedic Conflict",
       "genre": "Darkwave",
       "notable": true,
@@ -109,11 +333,51 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4922,
+          "name": "Jeanette Bass",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3956008
+        },
+        {
+          "person_id": 4924,
+          "name": "Devon White",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956008
+        },
+        {
+          "person_id": 4921,
+          "name": "Nicholas Mckinney",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3954499
+        },
+        {
+          "person_id": 4923,
+          "name": "Jennifer Allen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3954499
+        }
       ]
     },
     {
       "id": "song:14406",
-      "song_id": 14406,
+      "work_type": "Song",
+      "work_id": 14406,
       "title": "Groove Ignition",
       "genre": "Dream Pop",
       "notable": true,
@@ -131,11 +395,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14408,
+          "name": "Robert Fernandez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397769
+        },
+        {
+          "person_id": 14409,
+          "name": "James Taylor",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397769
+        },
+        {
+          "person_id": 14407,
+          "name": "Jennifer Tate",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977482
+        }
       ]
     },
     {
       "id": "song:15121",
-      "song_id": 15121,
+      "work_type": "Song",
+      "work_id": 15121,
       "title": "Tangent",
       "genre": "Post-Apocalyptic Folk",
       "notable": true,
@@ -153,11 +448,50 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15123,
+          "name": "Tao Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397896
+        },
+        {
+          "person_id": 15124,
+          "name": "Fang Su",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978622
+        },
+        {
+          "person_id": 15125,
+          "name": "Xia Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978622
+        },
+        {
+          "person_id": 15122,
+          "name": "Juan Xiang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3977475
+        }
       ]
     },
     {
       "id": "song:15584",
-      "song_id": 15584,
+      "work_type": "Song",
+      "work_id": 15584,
       "title": "The Saturation Point",
       "genre": "Dream Pop",
       "notable": true,
@@ -175,12 +509,191 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8130,
+          "name": "Samuel Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7082348
+        },
+        {
+          "person_id": 8136,
+          "name": "Li Yang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4290316
+        },
+        {
+          "person_id": 15585,
+          "name": "Xiulan Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982148
+        },
+        {
+          "person_id": 15586,
+          "name": "Li Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982148
+        },
+        {
+          "person_id": 15587,
+          "name": "Na Xue",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982148
+        },
+        {
+          "person_id": 15589,
+          "name": "Li Gong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982148
+        },
+        {
+          "person_id": 15588,
+          "name": "Chao Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398194
+        }
+      ]
+    },
+    {
+      "id": "album:16597",
+      "work_type": "Album",
+      "work_id": 16597,
+      "title": "Silicon Citizen",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2032,
+      "single": false,
+      "own": false,
+      "artist_id": 15477,
+      "artist_name": "Ping Zeng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1493,
+          "name": "Lei Jin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.727368
+        },
+        {
+          "person_id": 15477,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0419238
+        },
+        {
+          "person_id": 16599,
+          "name": "Juan Fang",
+          "stage_name": "Atlas & The Echoes",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933177
+        },
+        {
+          "person_id": 16600,
+          "name": "Yan Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933177
+        },
+        {
+          "person_id": 16601,
+          "name": "Ebony Acevedo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3933177
+        },
+        {
+          "person_id": 16598,
+          "name": "Guiying Meng",
+          "stage_name": " Mia Stone",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393297
+        },
+        {
+          "person_id": 16602,
+          "name": "Elizabeth Spence",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393297
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:4920",
+      "target": "song:13413",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:1907",
+      "target": "song:13413",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14406",
+      "target": "song:13413",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:15121",
+      "target": "song:13413",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:2959",
+      "target": "song:13413",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:15584",
       "target": "song:13413",
       "type": "CoverOf"
     },
@@ -190,24 +703,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:1907",
-      "target": "song:13413",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:4920",
+      "source": "album:16597",
       "target": "song:13413",
       "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:15584",
-      "target": "song:13413",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:14406",
-      "target": "song:13413",
-      "type": "InStyleOf"
     },
     {
       "source": "song:358",

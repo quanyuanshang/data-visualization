@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2687",
-      "song_id": 2687,
+      "work_type": "Song",
+      "work_id": 2687,
       "title": "Gravity of Grace",
       "genre": "Space Rock",
       "notable": true,
@@ -14,18 +15,92 @@
       "own": true,
       "artist_id": 2688,
       "artist_name": "David Williams",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2689,
+          "name": "Nicole Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986137
+        }
+      ]
+    },
+    {
+      "id": "album:2633",
+      "work_type": "Album",
+      "work_id": 2633,
+      "title": "Stoop Stories",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 2634,
+      "artist_name": "Chao Li",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
         "sample": 0,
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        }
+      ]
     },
     {
       "id": "song:12622",
-      "song_id": 12622,
+      "work_type": "Song",
+      "work_id": 12622,
       "title": "Levitating Beyond Contact",
       "genre": "Darkwave",
       "notable": true,
@@ -43,6 +118,53 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2634,
+          "name": "Chao Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2635,
+          "name": "Wei Mo",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2636,
+          "name": "Chao Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 2637,
+          "name": "Juan Lei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.439322
+        },
+        {
+          "person_id": 9941,
+          "name": "Juan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9924505
+        }
       ]
     }
   ],
@@ -51,6 +173,11 @@
       "source": "song:12622",
       "target": "song:2687",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:2633",
+      "target": "song:2687",
+      "type": "InterpolatesFrom"
     }
   ]
 }

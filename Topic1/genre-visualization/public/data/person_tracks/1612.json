@@ -4,48 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:1611",
-      "song_id": 1611,
-      "title": "Philosophical Brew",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2015,
-      "single": false,
-      "own": true,
-      "artist_id": 1612,
-      "artist_name": "Rita Iannucci",
-      "influence": 53,
-      "influence_breakdown": {
-        "cover": 4,
-        "sample": 1,
-        "reference": 7,
-        "style": 4
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:3536",
-      "song_id": 3536,
-      "title": "The Third House Down",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 1612,
-      "artist_name": "Rita Iannucci",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:5055",
-      "song_id": 5055,
+      "work_type": "Song",
+      "work_id": 5055,
       "title": "Ephemeral Chorus",
       "genre": "Indie Rock",
       "notable": true,
@@ -61,11 +22,91 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1614,
+          "name": "Michelangelo Nolcini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8841014
+        },
+        {
+          "person_id": 1615,
+          "name": "Nada Pechel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6959946
+        },
+        {
+          "person_id": 5056,
+          "name": "Thomas Carter",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981347
+        }
+      ]
+    },
+    {
+      "id": "album:6365",
+      "work_type": "Album",
+      "work_id": 6365,
+      "title": "Whisper Your Desire",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 1612,
+      "artist_name": "Rita Iannucci",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1614,
+          "name": "Michelangelo Nolcini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8841014
+        },
+        {
+          "person_id": 1615,
+          "name": "Nada Pechel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6959946
+        },
+        {
+          "person_id": 6366,
+          "name": "Ricciotti Traetta",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0326083
+        }
+      ]
     },
     {
       "id": "song:12631",
-      "song_id": 12631,
+      "work_type": "Song",
+      "work_id": 12631,
       "title": "Fragments of Being",
       "genre": "Doom Metal",
       "notable": true,
@@ -81,11 +122,163 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1614,
+          "name": "Michelangelo Nolcini",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.8841014
+        },
+        {
+          "person_id": 5596,
+          "name": "Hans-Josef Steckel-Harloff",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0358725
+        },
+        {
+          "person_id": 6366,
+          "name": "Ricciotti Traetta",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0326083
+        },
+        {
+          "person_id": 12632,
+          "name": "Zaira Verga-Cannizzaro",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977458
+        }
+      ]
+    },
+    {
+      "id": "song:1611",
+      "work_type": "Song",
+      "work_id": 1611,
+      "title": "Philosophical Brew",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": true,
+      "artist_id": 1612,
+      "artist_name": "Rita Iannucci",
+      "influence": 63,
+      "influence_breakdown": {
+        "cover": 5,
+        "sample": 1,
+        "reference": 8,
+        "style": 5
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1614,
+          "name": "Michelangelo Nolcini",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8841014
+        },
+        {
+          "person_id": 1615,
+          "name": "Nada Pechel",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6959946
+        },
+        {
+          "person_id": 1613,
+          "name": "Luciana Iacovelli",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4033835
+        }
+      ]
+    },
+    {
+      "id": "song:3536",
+      "work_type": "Song",
+      "work_id": 3536,
+      "title": "The Third House Down",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 1612,
+      "artist_name": "Rita Iannucci",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1614,
+          "name": "Michelangelo Nolcini",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8841014
+        },
+        {
+          "person_id": 1615,
+          "name": "Nada Pechel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6959946
+        },
+        {
+          "person_id": 3537,
+          "name": "Sophia Zaguri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399499
+        },
+        {
+          "person_id": 3538,
+          "name": "Fabienne Klemm-Kade",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399499
+        }
+      ]
     },
     {
       "id": "song:2461",
-      "song_id": 2461,
+      "work_type": "Song",
+      "work_id": 2461,
       "title": "Warmth Beyond Cobblestones",
       "genre": "Doom Metal",
       "notable": true,
@@ -103,11 +296,61 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2463,
+          "name": "Kyle Mason",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976607
+        },
+        {
+          "person_id": 2466,
+          "name": "Kathleen Duran",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3976424
+        },
+        {
+          "person_id": 2462,
+          "name": "David Hughes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397491
+        },
+        {
+          "person_id": 2464,
+          "name": "David Chandler",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397491
+        },
+        {
+          "person_id": 2465,
+          "name": "Matthew Howell",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3974702
+        }
       ]
     },
     {
       "id": "song:3536",
-      "song_id": 3536,
+      "work_type": "Song",
+      "work_id": 3536,
       "title": "The Third House Down",
       "genre": "Doom Metal",
       "notable": true,
@@ -125,19 +368,68 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1612,
+          "name": "Rita Iannucci",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.8841014
+        },
+        {
+          "person_id": 1614,
+          "name": "Michelangelo Nolcini",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8841014
+        },
+        {
+          "person_id": 1615,
+          "name": "Nada Pechel",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6959946
+        },
+        {
+          "person_id": 3537,
+          "name": "Sophia Zaguri",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399499
+        },
+        {
+          "person_id": 3538,
+          "name": "Fabienne Klemm-Kade",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399499
+        }
       ]
     },
     {
-      "id": "song:5055",
-      "song_id": 5055,
-      "title": "Ephemeral Chorus",
-      "genre": "Indie Rock",
+      "id": "album:4872",
+      "work_type": "Album",
+      "work_id": 4872,
+      "title": "Breath Between Heartbeats",
+      "genre": "Dream Pop",
       "notable": true,
-      "release_year": 2029,
+      "release_year": 2020,
       "single": false,
-      "own": true,
-      "artist_id": 1612,
-      "artist_name": "Rita Iannucci",
+      "own": false,
+      "artist_id": 4873,
+      "artist_name": "Stephen Pope",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -146,12 +438,71 @@
         "style": 0
       },
       "relation_types": [
-        "InStyleOf"
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4874,
+          "name": "Paul Castro",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3914473
+        },
+        {
+          "person_id": 4877,
+          "name": "Mark Trujillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.053754
+        },
+        {
+          "person_id": 4878,
+          "name": "David Armstrong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.046041
+        },
+        {
+          "person_id": 4873,
+          "name": "Stephen Pope",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991961
+        },
+        {
+          "person_id": 4875,
+          "name": "Kathy Castro",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3991961
+        },
+        {
+          "person_id": 4876,
+          "name": "Karen Sanchez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3991961
+        }
       ]
     },
     {
       "id": "song:5113",
-      "song_id": 5113,
+      "work_type": "Song",
+      "work_id": 5113,
       "title": "Gravity of Collapse",
       "genre": "Indie Rock",
       "notable": true,
@@ -169,11 +520,69 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5114,
+          "name": "Evelyn Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5117,
+          "name": "Kevin Baker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 5118,
+          "name": "Kathryn Sherman",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.3861861
+        },
+        {
+          "person_id": 622,
+          "name": "Andrew Snyder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.1768644
+        },
+        {
+          "person_id": 5115,
+          "name": "Adam Nelson",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0197237
+        },
+        {
+          "person_id": 5116,
+          "name": "James Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0197237
+        }
       ]
     },
     {
       "id": "song:5165",
-      "song_id": 5165,
+      "work_type": "Song",
+      "work_id": 5165,
       "title": "Praise Be to My Traveling Soul",
       "genre": "Doom Metal",
       "notable": true,
@@ -191,11 +600,70 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5166,
+          "name": "Carlos Davis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960273
+        },
+        {
+          "person_id": 5167,
+          "name": "Rebecca Thompson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3960273
+        },
+        {
+          "person_id": 5168,
+          "name": "Elizabeth Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960273
+        },
+        {
+          "person_id": 5169,
+          "name": "Adam Reid",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960273
+        },
+        {
+          "person_id": 5170,
+          "name": "Ashley Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960273
+        },
+        {
+          "person_id": 5171,
+          "name": "Nichole Dean",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960273
+        }
       ]
     },
     {
       "id": "song:5614",
-      "song_id": 5614,
+      "work_type": "Song",
+      "work_id": 5614,
       "title": "Echoes of Your Memory",
       "genre": "Synthwave",
       "notable": true,
@@ -213,11 +681,87 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5615,
+          "name": "Derek Cline",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0411105
+        }
+      ]
+    },
+    {
+      "id": "album:6854",
+      "work_type": "Album",
+      "work_id": 6854,
+      "title": "Whispers of the Woodland Realm",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 6855,
+      "artist_name": "Renee Walker (Valence)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6855,
+          "name": "Renee Walker",
+          "stage_name": "Valence",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3983967
+        },
+        {
+          "person_id": 6856,
+          "name": "Sheila Flores",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983967
+        },
+        {
+          "person_id": 6858,
+          "name": "Larry Miller",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983967
+        },
+        {
+          "person_id": 6857,
+          "name": "Monica Ramirez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398376
+        }
       ]
     },
     {
       "id": "song:6940",
-      "song_id": 6940,
+      "work_type": "Song",
+      "work_id": 6940,
       "title": "Sacred Triad",
       "genre": "Darkwave",
       "notable": true,
@@ -235,11 +779,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5955,
+          "name": "Christopher Rice",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4497163
+        },
+        {
+          "person_id": 5615,
+          "name": "Derek Cline",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0411105
+        }
       ]
     },
     {
       "id": "song:7918",
-      "song_id": 7918,
+      "work_type": "Song",
+      "work_id": 7918,
       "title": "Liberty's Complicated Heartbeat",
       "genre": "Darkwave",
       "notable": false,
@@ -257,11 +823,42 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 178,
+          "name": "Li Mo",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.064971
+        },
+        {
+          "person_id": 6288,
+          "name": "Gang Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.478643
+        },
+        {
+          "person_id": 7919,
+          "name": "Qiang Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3844128
+        }
       ]
     },
     {
       "id": "song:9855",
-      "song_id": 9855,
+      "work_type": "Song",
+      "work_id": 9855,
       "title": "Deadlock",
       "genre": "Indie Folk",
       "notable": true,
@@ -279,11 +876,69 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1848,
+          "name": "Ulrike Ziegert",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0387707
+        },
+        {
+          "person_id": 9856,
+          "name": "Kunigunda Losekann",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39782
+        },
+        {
+          "person_id": 9857,
+          "name": "Isidor Hethur",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39782
+        },
+        {
+          "person_id": 9858,
+          "name": "Annelise Heidrich",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.39782
+        },
+        {
+          "person_id": 9859,
+          "name": "Darko Kambs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39782
+        },
+        {
+          "person_id": 9860,
+          "name": "Rolf Pölitz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39782
+        }
       ]
     },
     {
       "id": "song:12196",
-      "song_id": 12196,
+      "work_type": "Song",
+      "work_id": 12196,
       "title": "Ringing Through Silence",
       "genre": "Dream Pop",
       "notable": true,
@@ -301,33 +956,33 @@
       },
       "relation_types": [
         "InterpolatesFrom"
-      ]
-    },
-    {
-      "id": "song:12631",
-      "song_id": 12631,
-      "title": "Fragments of Being",
-      "genre": "Doom Metal",
-      "notable": true,
-      "release_year": 2022,
-      "single": true,
-      "own": true,
-      "artist_id": 1612,
-      "artist_name": "Rita Iannucci",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": [
-        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12198,
+          "name": "Ryan Howard",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980834
+        },
+        {
+          "person_id": 12197,
+          "name": "Michelle Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977664
+        }
       ]
     },
     {
       "id": "song:14143",
-      "song_id": 14143,
+      "work_type": "Song",
+      "work_id": 14143,
       "title": "The Crusader's Lament",
       "genre": "Darkwave",
       "notable": true,
@@ -345,11 +1000,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1498,
+          "name": "Silvana Radisch",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.412688
+        },
+        {
+          "person_id": 14144,
+          "name": "Emmi Biggen",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.403508
+        },
+        {
+          "person_id": 14145,
+          "name": "Maike Trubin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.403508
+        }
       ]
     },
     {
       "id": "song:14304",
-      "song_id": 14304,
+      "work_type": "Song",
+      "work_id": 14304,
       "title": "Shadows of Valor",
       "genre": "Indie Rock",
       "notable": true,
@@ -367,11 +1053,52 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14305,
+          "name": "Calcedonio Abbagnale",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3910406
+        },
+        {
+          "person_id": 14306,
+          "name": "Amanda Boitani",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3910406
+        },
+        {
+          "person_id": 14307,
+          "name": "Nino Carfagna-Totino",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3910406
+        },
+        {
+          "person_id": 14308,
+          "name": "Annetta Dallapé",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3910406
+        }
       ]
     },
     {
       "id": "song:14615",
-      "song_id": 14615,
+      "work_type": "Song",
+      "work_id": 14615,
       "title": "Resistance of the Heart",
       "genre": "Space Rock",
       "notable": true,
@@ -389,11 +1116,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4210,
+          "name": "Barbara Mckee",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4454446
+        },
+        {
+          "person_id": 4209,
+          "name": "Justin Wagner",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0184498
+        },
+        {
+          "person_id": 14616,
+          "name": "Heather Velasquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986263
+        },
+        {
+          "person_id": 14617,
+          "name": "Danny Lindsey",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986263
+        }
       ]
     },
     {
       "id": "song:15817",
-      "song_id": 15817,
+      "work_type": "Song",
+      "work_id": 15817,
       "title": "Ridges of Romance",
       "genre": "Americana",
       "notable": true,
@@ -411,11 +1178,24 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6424,
+          "name": "Cheryl Carter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8186002
+        }
       ]
     },
     {
       "id": "song:16424",
-      "song_id": 16424,
+      "work_type": "Song",
+      "work_id": 16424,
       "title": "Midnight's Daughter",
       "genre": "Doom Metal",
       "notable": true,
@@ -433,39 +1213,77 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5016,
+          "name": "Feliciana Figuerola Cruz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9170163
+        },
+        {
+          "person_id": 16204,
+          "name": "Ricarda Nélida Palmer Serra",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0265226
+        },
+        {
+          "person_id": 16425,
+          "name": "Ibán Salazar",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16426,
+          "name": "Aroa Coca",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16427,
+          "name": "Fito Pacheco León",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        },
+        {
+          "person_id": 16428,
+          "name": "Severo Gimenez Ródenas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990476
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:5113",
-      "target": "song:1611",
-      "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:2461",
-      "target": "song:1611",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:6940",
-      "target": "song:1611",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:16424",
-      "target": "song:1611",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:3536",
+      "source": "album:4872",
       "target": "song:1611",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:14615",
+      "source": "song:12631",
       "target": "song:1611",
-      "type": "LyricalReferenceTo"
+      "type": "CoverOf"
     },
     {
       "source": "song:7918",
@@ -473,12 +1291,22 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:9855",
+      "source": "song:6940",
+      "target": "song:1611",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:14304",
+      "target": "song:1611",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5113",
       "target": "song:1611",
       "type": "InterpolatesFrom"
     },
     {
-      "source": "song:14304",
+      "source": "song:5055",
       "target": "song:1611",
       "type": "InStyleOf"
     },
@@ -498,24 +1326,54 @@
       "type": "InStyleOf"
     },
     {
+      "source": "song:9855",
+      "target": "song:1611",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:5614",
       "target": "song:1611",
       "type": "DirectlySamples"
     },
     {
-      "source": "song:12631",
+      "source": "song:2461",
+      "target": "song:1611",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:3536",
+      "target": "song:1611",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:14615",
+      "target": "song:1611",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:6854",
       "target": "song:1611",
       "type": "CoverOf"
     },
     {
-      "source": "song:5055",
+      "source": "song:16424",
       "target": "song:1611",
-      "type": "InStyleOf"
+      "type": "CoverOf"
     },
     {
       "source": "song:15817",
       "target": "song:1611",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:6854",
+      "target": "song:3536",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:6365",
+      "target": "song:1611",
+      "type": "InStyleOf"
     }
   ]
 }

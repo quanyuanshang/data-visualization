@@ -4,8 +4,93 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:12058",
+      "work_type": "Album",
+      "work_id": 12058,
+      "title": "Ink and Intention",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 1990,
+      "single": false,
+      "own": true,
+      "artist_id": 2674,
+      "artist_name": "Lidia Szpyt",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12059,
+          "name": "Juliusz Kominiak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.389751
+        }
+      ]
+    },
+    {
+      "id": "album:2670",
+      "work_type": "Album",
+      "work_id": 2670,
+      "title": "Electric Motion",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 2674,
+      "artist_name": "Lidia Szpyt",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2672,
+          "name": "Cyprian Ziniewicz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8169837
+        },
+        {
+          "person_id": 2673,
+          "name": "Marcin Maksimowicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0682542
+        },
+        {
+          "person_id": 2671,
+          "name": "Ignacy Henke",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993437
+        }
+      ]
+    },
+    {
       "id": "song:11091",
-      "song_id": 11091,
+      "work_type": "Song",
+      "work_id": 11091,
       "title": "Stones and Pilgrims",
       "genre": "Darkwave",
       "notable": true,
@@ -21,11 +106,148 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2673,
+          "name": "Marcin Maksimowicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0682542
+        },
+        {
+          "person_id": 11092,
+          "name": "Patrick Lindsey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3841367
+        }
+      ]
+    },
+    {
+      "id": "song:11091",
+      "work_type": "Song",
+      "work_id": 11091,
+      "title": "Stones and Pilgrims",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 1993,
+      "single": true,
+      "own": false,
+      "artist_id": 11092,
+      "artist_name": "Patrick Lindsey",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2674,
+          "name": "Lidia Szpyt",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4211178
+        },
+        {
+          "person_id": 2673,
+          "name": "Marcin Maksimowicz",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0682542
+        },
+        {
+          "person_id": 11092,
+          "name": "Patrick Lindsey",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3841367
+        }
+      ]
+    },
+    {
+      "id": "song:5923",
+      "work_type": "Song",
+      "work_id": 5923,
+      "title": "Kurashiki Blues",
+      "genre": "Darkwave",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 5924,
+      "artist_name": "Na Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5924,
+          "name": "Na Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5925,
+          "name": "Jie Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5926,
+          "name": "Lei Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        },
+        {
+          "person_id": 5927,
+          "name": "Megan Marsh",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397946
+        }
+      ]
     },
     {
       "id": "song:9777",
-      "song_id": 9777,
+      "work_type": "Song",
+      "work_id": 9777,
       "title": "Melancholy in Miniature",
       "genre": "Darkwave",
       "notable": true,
@@ -43,6 +265,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9779,
+          "name": "Katie Johnston",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007003
+        },
+        {
+          "person_id": 9778,
+          "name": "Margaret Woods",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988903
+        }
       ]
     }
   ],
@@ -51,6 +294,16 @@
       "source": "song:9777",
       "target": "song:11091",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11091",
+      "target": "album:12058",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5923",
+      "target": "album:2670",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12408",
-      "song_id": 12408,
+      "work_type": "Song",
+      "work_id": 12408,
       "title": "Fragments of Self",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9108,
+          "name": "Karina Hess",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9376242
+        }
+      ]
     },
     {
       "id": "song:7450",
-      "song_id": 7450,
+      "work_type": "Song",
+      "work_id": 7450,
       "title": "Starlit Summer Phantasm",
       "genre": "Doom Metal",
       "notable": true,
@@ -43,6 +56,27 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1128,
+          "name": "Sandra Peterson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0507596
+        },
+        {
+          "person_id": 7451,
+          "name": "Angela Porter",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4024959
+        }
       ]
     }
   ],

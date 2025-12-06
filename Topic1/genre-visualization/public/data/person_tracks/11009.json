@@ -1,0 +1,109 @@
+{
+  "person_id": 11009,
+  "name": "Danielle Ball",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11008",
+      "work_type": "Album",
+      "work_id": 11008,
+      "title": "Friends of the Wild Preserve",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 1990,
+      "single": false,
+      "own": true,
+      "artist_id": 11009,
+      "artist_name": "Danielle Ball",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8833,
+          "name": "Lori Lee",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7165387
+        }
+      ]
+    },
+    {
+      "id": "song:7658",
+      "work_type": "Song",
+      "work_id": 7658,
+      "title": "Battles Within",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": false,
+      "artist_id": 4380,
+      "artist_name": "Carolyn Hall",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4380,
+          "name": "Carolyn Hall",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7174106
+        },
+        {
+          "person_id": 7661,
+          "name": "Kristina Boyer",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.398595
+        },
+        {
+          "person_id": 7659,
+          "name": "Morgan Shelton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        },
+        {
+          "person_id": 7660,
+          "name": "Ryan Morales",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985744
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7658",
+      "target": "album:11008",
+      "type": "CoverOf"
+    }
+  ]
+}

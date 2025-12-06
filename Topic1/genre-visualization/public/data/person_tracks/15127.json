@@ -1,0 +1,225 @@
+{
+  "person_id": 15127,
+  "name": "Xiulan Zhou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:15126",
+      "work_type": "Album",
+      "work_id": 15126,
+      "title": "Asymptote",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": true,
+      "artist_id": 15127,
+      "artist_name": "Xiulan Zhou",
+      "influence": 8,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15128,
+          "name": "Xia Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3995683
+        }
+      ]
+    },
+    {
+      "id": "song:6054",
+      "work_type": "Song",
+      "work_id": 6054,
+      "title": "Colorful Traditions",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 1304,
+      "artist_name": "Rüdiger Graf",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1304,
+          "name": "Rüdiger Graf",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5105996
+        },
+        {
+          "person_id": 6055,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 6056,
+          "name": "Xiulan Qin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 6060,
+          "name": "Xiulan Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0449867
+        },
+        {
+          "person_id": 6057,
+          "name": "Anthony Hancock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0446894
+        },
+        {
+          "person_id": 6058,
+          "name": "Li Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986783
+        },
+        {
+          "person_id": 6059,
+          "name": "Brandon Kirby",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986783
+        }
+      ]
+    },
+    {
+      "id": "song:7089",
+      "work_type": "Song",
+      "work_id": 7089,
+      "title": "Divine Restraint",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 3868,
+      "artist_name": "Xiulan Lu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6055,
+          "name": "Yong Fu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 6056,
+          "name": "Xiulan Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4343328
+        },
+        {
+          "person_id": 3868,
+          "name": "Xiulan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.407993
+        },
+        {
+          "person_id": 6057,
+          "name": "Anthony Hancock",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0446894
+        },
+        {
+          "person_id": 7090,
+          "name": "Yan Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004812
+        },
+        {
+          "person_id": 7091,
+          "name": "Jie Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004812
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:7089",
+      "target": "album:15126",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:6054",
+      "target": "album:15126",
+      "type": "CoverOf"
+    }
+  ]
+}

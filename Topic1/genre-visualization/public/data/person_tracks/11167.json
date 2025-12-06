@@ -1,0 +1,136 @@
+{
+  "person_id": 11167,
+  "name": "Min Hou",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11166",
+      "work_type": "Album",
+      "work_id": 11166,
+      "title": "Voices Without Walls",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 11167,
+      "artist_name": "Min Hou",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11170,
+          "name": "Yong Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0343082
+        },
+        {
+          "person_id": 11168,
+          "name": "Chao Feng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11169,
+          "name": "Maria Fletcher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978205
+        },
+        {
+          "person_id": 11171,
+          "name": "Chao Zhao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978205
+        }
+      ]
+    },
+    {
+      "id": "song:9834",
+      "work_type": "Song",
+      "work_id": 9834,
+      "title": "Street-Smart Serenade",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 9836,
+      "artist_name": "Yan Lai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9837,
+          "name": "Guiying Wei",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988476
+        },
+        {
+          "person_id": 9838,
+          "name": "Juan Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988476
+        },
+        {
+          "person_id": 9836,
+          "name": "Yan Lai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976042
+        },
+        {
+          "person_id": 9835,
+          "name": "Yan Lu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975835
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9834",
+      "target": "album:11166",
+      "type": "CoverOf"
+    }
+  ]
+}

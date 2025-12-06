@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4973",
-      "song_id": 4973,
+      "work_type": "Song",
+      "work_id": 4973,
       "title": "Rhythm of Rio's Soul",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,71 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4980,
+          "name": "Guiying Yuan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4294171
+        },
+        {
+          "person_id": 4976,
+          "name": "Xiulan Hao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0495422
+        },
+        {
+          "person_id": 4974,
+          "name": "Juan Tao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398311
+        },
+        {
+          "person_id": 4975,
+          "name": "Jun Hao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398311
+        },
+        {
+          "person_id": 4977,
+          "name": "Xiuying Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398311
+        },
+        {
+          "person_id": 4978,
+          "name": "Aaron Horton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398311
+        }
+      ]
     },
     {
       "id": "song:11608",
-      "song_id": 11608,
+      "work_type": "Song",
+      "work_id": 11608,
       "title": "Childhood's Horizon",
       "genre": "Americana",
       "notable": true,
@@ -34,14 +95,132 @@
       "own": true,
       "artist_id": 4979,
       "artist_name": "Xiuying Ye",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4976,
+          "name": "Xiulan Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0495422
+        },
+        {
+          "person_id": 11609,
+          "name": "Gang Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985243
+        },
+        {
+          "person_id": 11610,
+          "name": "Ping Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985243
+        },
+        {
+          "person_id": 11611,
+          "name": "Annette Mckee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985243
+        }
+      ]
+    },
+    {
+      "id": "album:1080",
+      "work_type": "Album",
+      "work_id": 1080,
+      "title": "Trapped in the Border",
+      "genre": "Post-Apocalyptic Folk",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1081,
+      "artist_name": "Ping He",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1085,
+          "name": "Lupe Miró",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.514692
+        },
+        {
+          "person_id": 1086,
+          "name": "Chao Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.250271
+        },
+        {
+          "person_id": 1084,
+          "name": "Qiang Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7179704
+        },
+        {
+          "person_id": 1083,
+          "name": "Ping Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054744
+        },
+        {
+          "person_id": 1081,
+          "name": "Ping He",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0521207
+        },
+        {
+          "person_id": 1082,
+          "name": "Juan Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3958273
+        }
+      ]
     }
   ],
   "links": [
@@ -49,6 +228,11 @@
       "source": "song:4973",
       "target": "song:11608",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:1080",
+      "target": "song:11608",
+      "type": "InStyleOf"
     }
   ]
 }

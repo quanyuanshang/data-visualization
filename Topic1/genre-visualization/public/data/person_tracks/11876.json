@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11875",
-      "song_id": 11875,
+      "work_type": "Song",
+      "work_id": 11875,
       "title": "Brilliant Affection",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,40 @@
       "own": true,
       "artist_id": 11876,
       "artist_name": "Nicholas Burns",
-      "influence": 6,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 2,
-        "style": 0
+        "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3820,
+          "name": "Melanie Jimenez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659273
+        },
+        {
+          "person_id": 11877,
+          "name": "Bianca Singleton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398808
+        }
+      ]
     },
     {
       "id": "song:3819",
-      "song_id": 3819,
+      "work_type": "Song",
+      "work_id": 3819,
       "title": "Dominion's Twilight",
       "genre": "Synthwave",
       "notable": true,
@@ -43,11 +66,32 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3820,
+          "name": "Melanie Jimenez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659273
+        },
+        {
+          "person_id": 3821,
+          "name": "Steven Buchanan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.6999068
+        }
       ]
     },
     {
       "id": "song:10996",
-      "song_id": 10996,
+      "work_type": "Song",
+      "work_id": 10996,
       "title": "Echoes from the Vocal Shrine",
       "genre": "Alternative Rock",
       "notable": true,
@@ -65,6 +109,62 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3820,
+          "name": "Melanie Jimenez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2659273
+        }
+      ]
+    },
+    {
+      "id": "album:12976",
+      "work_type": "Album",
+      "work_id": 12976,
+      "title": "Longing Between the Streetlights",
+      "genre": "Doom Metal",
+      "notable": true,
+      "release_year": 2015,
+      "single": false,
+      "own": false,
+      "artist_id": 12977,
+      "artist_name": "Sara Levy",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12978,
+          "name": "Gregory Evans",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3961027
+        },
+        {
+          "person_id": 12977,
+          "name": "Sara Levy",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960457
+        }
       ]
     }
   ],
@@ -78,6 +178,11 @@
       "source": "song:3819",
       "target": "song:11875",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:12976",
+      "target": "song:11875",
+      "type": "InStyleOf"
     }
   ]
 }

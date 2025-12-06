@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10515",
-      "song_id": 10515,
+      "work_type": "Song",
+      "work_id": 10515,
       "title": "The Weight of Inaction",
       "genre": "Indie Pop",
       "notable": true,
@@ -14,18 +15,84 @@
       "own": true,
       "artist_id": 10516,
       "artist_name": "Adira Chaudhuri",
-      "influence": 20,
+      "influence": 23,
       "influence_breakdown": {
         "cover": 3,
         "sample": 0,
-        "reference": 1,
+        "reference": 2,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3326,
+          "name": "Laurie Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7034187
+        }
+      ]
+    },
+    {
+      "id": "album:1096",
+      "work_type": "Album",
+      "work_id": 1096,
+      "title": "Kan ve Toprak Arasında (Between Blood and Land)",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2019,
+      "single": false,
+      "own": false,
+      "artist_id": 1099,
+      "artist_name": "Wei Ding",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.4252396
+        },
+        {
+          "person_id": 1097,
+          "name": "Corey Ramirez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398525
+        }
+      ]
     },
     {
       "id": "song:3626",
-      "song_id": 3626,
+      "work_type": "Song",
+      "work_id": 3626,
       "title": "Quarantine of Souls",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -43,11 +110,24 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:5232",
-      "song_id": 5232,
+      "work_type": "Song",
+      "work_id": 5232,
       "title": "Whispers of Ancient Branches",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -65,11 +145,25 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:7194",
-      "song_id": 7194,
+      "work_type": "Song",
+      "work_id": 7194,
       "title": "Hold Me Closer (Don't Let Go)",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -87,11 +181,32 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 1099,
+          "name": "Wei Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.4252396
+        }
       ]
     },
     {
       "id": "song:11240",
-      "song_id": 11240,
+      "work_type": "Song",
+      "work_id": 11240,
       "title": "The Anchor Holds",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -109,11 +224,25 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        }
       ]
     },
     {
       "id": "song:13557",
-      "song_id": 13557,
+      "work_type": "Song",
+      "work_id": 13557,
       "title": "Your Truth, My Reality",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -131,14 +260,35 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1098,
+          "name": "Guiying Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.9502964
+        },
+        {
+          "person_id": 3233,
+          "name": "Gang Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.930688
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:7194",
+      "source": "song:3626",
       "target": "song:10515",
-      "type": "LyricalReferenceTo"
+      "type": "CoverOf"
     },
     {
       "source": "song:13557",
@@ -146,14 +296,19 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:3626",
+      "source": "album:1096",
       "target": "song:10515",
-      "type": "CoverOf"
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:11240",
       "target": "song:10515",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:7194",
+      "target": "song:10515",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:5232",

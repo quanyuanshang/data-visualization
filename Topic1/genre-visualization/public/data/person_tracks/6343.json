@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6342",
-      "song_id": 6342,
+      "work_type": "Song",
+      "work_id": 6342,
       "title": "High Society Strut",
       "genre": "Dream Pop",
       "notable": true,
@@ -14,18 +15,41 @@
       "own": true,
       "artist_id": 6343,
       "artist_name": "Devansh Seshadri",
-      "influence": 10,
+      "influence": 12,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 2,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2511,
+          "name": "Kavya Agrawal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4185855
+        }
+      ]
     },
     {
       "id": "song:2658",
-      "song_id": 2658,
+      "work_type": "Song",
+      "work_id": 2658,
       "title": "Echoes of the Sacred Town",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +67,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.076866
+        }
       ]
     },
     {
       "id": "song:6658",
-      "song_id": 6658,
+      "work_type": "Song",
+      "work_id": 6658,
       "title": "Sweet Tea and Porch Swing Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -65,11 +111,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 6659,
+          "name": "Helen Simon",
+          "stage_name": " The Shadow",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.937547
+        },
+        {
+          "person_id": 6660,
+          "name": "Adrian Miller",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4005046
+        }
       ]
     },
     {
       "id": "song:7100",
-      "song_id": 7100,
+      "work_type": "Song",
+      "work_id": 7100,
       "title": "Hillside Harmony",
       "genre": "Alternative Rock",
       "notable": true,
@@ -87,11 +164,77 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.076866
+        }
+      ]
+    },
+    {
+      "id": "album:10155",
+      "work_type": "Album",
+      "work_id": 10155,
+      "title": "Emerald Canopy Sings",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 2660,
+      "artist_name": "Christopher Smith",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 2660,
+          "name": "Christopher Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.076866
+        }
       ]
     },
     {
       "id": "song:15046",
-      "song_id": 15046,
+      "work_type": "Song",
+      "work_id": 15046,
       "title": "Lipstick and Celluloid",
       "genre": "Dream Pop",
       "notable": true,
@@ -109,6 +252,27 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2659,
+          "name": "Matthew Hancock",
+          "stage_name": "Lunar Tapestry",
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3549385
+        },
+        {
+          "person_id": 10403,
+          "name": "Elizabeth Nguyen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0664647
+        }
       ]
     }
   ],
@@ -119,12 +283,12 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:6658",
+      "source": "album:10155",
       "target": "song:6342",
       "type": "InStyleOf"
     },
     {
-      "source": "song:15046",
+      "source": "song:6658",
       "target": "song:6342",
       "type": "InStyleOf"
     },
@@ -132,6 +296,11 @@
       "source": "song:2658",
       "target": "song:6342",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "song:15046",
+      "target": "song:6342",
+      "type": "InStyleOf"
     }
   ]
 }

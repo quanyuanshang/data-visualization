@@ -1,0 +1,137 @@
+{
+  "person_id": 14488,
+  "name": "Qiang Yang",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:14485",
+      "work_type": "Album",
+      "work_id": 14485,
+      "title": "Whispers in the Rearview",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": true,
+      "artist_id": 14488,
+      "artist_name": "Qiang Yang",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 14487,
+          "name": "Thomas Ball",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0397766
+        },
+        {
+          "person_id": 14486,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.401919
+        }
+      ]
+    },
+    {
+      "id": "song:14120",
+      "work_type": "Song",
+      "work_id": 14120,
+      "title": "Detroit Metal Rhythm",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 5329,
+      "artist_name": "Yang Gu",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5329,
+          "name": "Yang Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0477345
+        },
+        {
+          "person_id": 1240,
+          "name": "Tao Gao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0456398
+        },
+        {
+          "person_id": 5454,
+          "name": "Xia Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0443597
+        },
+        {
+          "person_id": 14122,
+          "name": "Ming Xiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.032164
+        },
+        {
+          "person_id": 14121,
+          "name": "Chao Chen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974767
+        },
+        {
+          "person_id": 14123,
+          "name": "Jing Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974767
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14120",
+      "target": "album:14485",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3464",
-      "song_id": 3464,
+      "work_type": "Song",
+      "work_id": 3464,
       "title": "Haunting Your Heart",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 3466,
+          "name": "Leslie Flynn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3934588
+        }
+      ]
     },
     {
       "id": "song:5394",
-      "song_id": 5394,
+      "work_type": "Song",
+      "work_id": 5394,
       "title": "Echoes of a Road Not Taken",
       "genre": "Americana",
       "notable": true,
@@ -43,6 +56,44 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1074,
+          "name": "Jing Cui",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2513514
+        },
+        {
+          "person_id": 1275,
+          "name": "Gang Shen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5120125
+        },
+        {
+          "person_id": 1273,
+          "name": "Gang Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9360747
+        },
+        {
+          "person_id": 5395,
+          "name": "Yan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.061286
+        }
       ]
     }
   ],

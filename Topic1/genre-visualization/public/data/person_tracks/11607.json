@@ -4,8 +4,59 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:11603",
+      "work_type": "Album",
+      "work_id": 11603,
+      "title": "Shadows Grow Longer After Sunset",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": true,
+      "artist_id": 11607,
+      "artist_name": "Jason Roberts",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11604,
+          "name": "Kristin Barber",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4035733
+        },
+        {
+          "person_id": 11605,
+          "name": "Chris Tate",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4035733
+        },
+        {
+          "person_id": 11606,
+          "name": "Deborah Wright",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4035733
+        }
+      ]
+    },
+    {
       "id": "song:16603",
-      "song_id": 16603,
+      "work_type": "Song",
+      "work_id": 16603,
       "title": "Byte Americana",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -21,8 +72,162 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16604,
+          "name": "Kelly Briggs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3998582
+        }
+      ]
+    },
+    {
+      "id": "song:12903",
+      "work_type": "Song",
+      "work_id": 12903,
+      "title": "Dreams Beyond Reach",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 8158,
+      "artist_name": "Jie Yan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8158,
+          "name": "Jie Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4259365
+        },
+        {
+          "person_id": 12904,
+          "name": "Chao Cheng",
+          "stage_name": "XPLICIT KAI",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956451
+        },
+        {
+          "person_id": 12905,
+          "name": "Dawn Allen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3956451
+        },
+        {
+          "person_id": 12906,
+          "name": "Nathan Carrillo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956451
+        },
+        {
+          "person_id": 12907,
+          "name": "Tammy Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956451
+        },
+        {
+          "person_id": 12908,
+          "name": "Jennifer Parker",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3956451
+        },
+        {
+          "person_id": 12909,
+          "name": "Shannon Allen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3956244
+        }
+      ]
+    },
+    {
+      "id": "song:16603",
+      "work_type": "Song",
+      "work_id": 16603,
+      "title": "Byte Americana",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": true,
+      "artist_id": 11607,
+      "artist_name": "Jason Roberts",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11607,
+          "name": "Jason Roberts",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0232775
+        },
+        {
+          "person_id": 16604,
+          "name": "Kelly Briggs",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3998582
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:16603",
+      "target": "album:11603",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:12903",
+      "target": "album:11603",
+      "type": "InStyleOf"
+    }
+  ]
 }

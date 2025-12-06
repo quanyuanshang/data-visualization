@@ -4,8 +4,51 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:14023",
+      "work_type": "Album",
+      "work_id": 14023,
+      "title": "Whispers of Stone Peaks",
+      "genre": "Speed Metal",
+      "notable": false,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 5794,
+      "artist_name": "Frederic Margraf",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 2,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1148896
+        }
+      ]
+    },
+    {
       "id": "song:5790",
-      "song_id": 5790,
+      "work_type": "Song",
+      "work_id": 5790,
       "title": "Riverside Memories",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +64,60 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5795,
+          "name": "Li Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4190419
+        },
+        {
+          "person_id": 2443,
+          "name": "Lei Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4102592
+        },
+        {
+          "person_id": 5791,
+          "name": "Ming Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3976126
+        },
+        {
+          "person_id": 5792,
+          "name": "Yan Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976126
+        },
+        {
+          "person_id": 5793,
+          "name": "Xiulan Cao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3976126
+        }
+      ]
     },
     {
       "id": "song:6216",
-      "song_id": 6216,
+      "work_type": "Song",
+      "work_id": 6216,
       "title": "Trembling Hands, Reaching Higher",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -41,11 +133,147 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 6217,
+          "name": "Tao Duan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3978856
+        }
+      ]
+    },
+    {
+      "id": "song:139",
+      "work_type": "Song",
+      "work_id": 139,
+      "title": "Whispers from the Rocking Chair",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 140,
+      "artist_name": "Min Pan (Oblivion Rhapsody)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1148896
+        },
+        {
+          "person_id": 140,
+          "name": "Min Pan",
+          "stage_name": "Oblivion Rhapsody",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983932
+        }
+      ]
+    },
+    {
+      "id": "song:8945",
+      "work_type": "Song",
+      "work_id": 8945,
+      "title": "Emerald Shadows of Her Name",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 8946,
+      "artist_name": "Yang Yi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8948,
+          "name": "Jing Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.434054
+        },
+        {
+          "person_id": 8946,
+          "name": "Yang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0508552
+        },
+        {
+          "person_id": 1428,
+          "name": "Fang Pan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9880037
+        },
+        {
+          "person_id": 8947,
+          "name": "Na Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3970106
+        }
+      ]
     },
     {
       "id": "song:16211",
-      "song_id": 16211,
+      "work_type": "Song",
+      "work_id": 16211,
       "title": "Phantom Heartstrings",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +291,42 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4799,
+          "name": "Na Yin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7197526
+        },
+        {
+          "person_id": 2326,
+          "name": "Dominic Phillips",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6758654
+        },
+        {
+          "person_id": 8793,
+          "name": "Kevin Morrow",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0346515
+        }
       ]
     },
     {
       "id": "song:9463",
-      "song_id": 9463,
+      "work_type": "Song",
+      "work_id": 9463,
       "title": "Echoes of the Green Landscape",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -85,14 +344,54 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 8946,
+          "name": "Yang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0508552
+        },
+        {
+          "person_id": 9464,
+          "name": "Xia Gu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3989713
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "song:139",
+      "target": "album:14023",
+      "type": "InterpolatesFrom"
+    },
+    {
       "source": "song:9463",
       "target": "song:6216",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:8945",
+      "target": "album:14023",
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:16211",

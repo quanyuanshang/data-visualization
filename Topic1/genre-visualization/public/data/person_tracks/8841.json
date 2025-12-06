@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:8840",
-      "song_id": 8840,
+      "work_type": "Song",
+      "work_id": 8840,
       "title": "Silent Snowfall and Empty Chairs",
       "genre": "Indie Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8842,
+          "name": "Viktor Švec",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398932
+        },
+        {
+          "person_id": 8843,
+          "name": "Jan Hruška",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.398932
+        }
+      ]
     },
     {
       "id": "song:14575",
-      "song_id": 14575,
+      "work_type": "Song",
+      "work_id": 14575,
       "title": "Neon Brotherhood",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,6 +65,45 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14576,
+          "name": "Kamil Bílek",
+          "stage_name": " Tommy Steele",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986614
+        },
+        {
+          "person_id": 14577,
+          "name": "Oto Macháček",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986614
+        },
+        {
+          "person_id": 14578,
+          "name": "Stanislav Prokop",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986614
+        },
+        {
+          "person_id": 14579,
+          "name": "Milada Svobodová",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985412
+        }
       ]
     }
   ],

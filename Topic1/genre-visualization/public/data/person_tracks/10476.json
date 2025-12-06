@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10475",
-      "song_id": 10475,
-      "title": "Blooming Duality",
-      "genre": "Speed Metal",
-      "notable": true,
-      "release_year": 2020,
-      "single": true,
-      "own": true,
-      "artist_id": 10476,
-      "artist_name": "Norbert Flisek",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:13545",
-      "song_id": 13545,
+      "work_type": "Song",
+      "work_id": 13545,
       "title": "Gleaming Hope's Horizon",
       "genre": "Speed Metal",
       "notable": true,
@@ -41,7 +22,122 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 10477,
+          "name": "Monika Przewłoka",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.03211
+        }
+      ]
+    },
+    {
+      "id": "song:10475",
+      "work_type": "Song",
+      "work_id": 10475,
+      "title": "Blooming Duality",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": true,
+      "artist_id": 10476,
+      "artist_name": "Norbert Flisek",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 10477,
+          "name": "Monika Przewłoka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.03211
+        }
+      ]
+    },
+    {
+      "id": "song:10475",
+      "work_type": "Song",
+      "work_id": 10475,
+      "title": "Blooming Duality",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 30,
+      "artist_name": "Megan Bennett",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 10477,
+          "name": "Monika Przewłoka",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.03211
+        },
+        {
+          "person_id": 10476,
+          "name": "Norbert Flisek",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.023517
+        }
+      ]
     }
   ],
   "links": [

@@ -1,0 +1,233 @@
+{
+  "person_id": 1267,
+  "name": "Wei Cao",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:1265",
+      "work_type": "Album",
+      "work_id": 1265,
+      "title": "Opinions May Vary",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2001,
+      "single": false,
+      "own": true,
+      "artist_id": 1267,
+      "artist_name": "Wei Cao",
+      "influence": 10,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 927,
+          "name": "Na Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4561121
+        },
+        {
+          "person_id": 1266,
+          "name": "Xia Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3926342
+        }
+      ]
+    },
+    {
+      "id": "song:1140",
+      "work_type": "Song",
+      "work_id": 1140,
+      "title": "Party of One",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2018,
+      "single": true,
+      "own": false,
+      "artist_id": 1141,
+      "artist_name": "Tamara Solis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1141,
+          "name": "Tamara Solis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4404511
+        },
+        {
+          "person_id": 1143,
+          "name": "Michelle Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4368358
+        },
+        {
+          "person_id": 1142,
+          "name": "Sandra Green",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4358308
+        }
+      ]
+    },
+    {
+      "id": "song:8773",
+      "work_type": "Song",
+      "work_id": 8773,
+      "title": "Blooming Love's Embrace",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2027,
+      "single": true,
+      "own": false,
+      "artist_id": 114,
+      "artist_name": "Jie Long",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 115,
+          "name": "Ping Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.0131726
+        },
+        {
+          "person_id": 114,
+          "name": "Jie Long",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.435698
+        },
+        {
+          "person_id": 8775,
+          "name": "Jessica Peck",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4113777
+        },
+        {
+          "person_id": 8774,
+          "name": "Ming Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398499
+        }
+      ]
+    },
+    {
+      "id": "song:14439",
+      "work_type": "Song",
+      "work_id": 14439,
+      "title": "First Contact",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 1141,
+      "artist_name": "Tamara Solis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1141,
+          "name": "Tamara Solis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4404511
+        },
+        {
+          "person_id": 1143,
+          "name": "Michelle Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4368358
+        },
+        {
+          "person_id": 1142,
+          "name": "Sandra Green",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4358308
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:1140",
+      "target": "album:1265",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:8773",
+      "target": "album:1265",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:14439",
+      "target": "album:1265",
+      "type": "InterpolatesFrom"
+    }
+  ]
+}

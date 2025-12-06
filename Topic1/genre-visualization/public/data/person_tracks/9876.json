@@ -4,30 +4,11 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:10684",
-      "song_id": 10684,
-      "title": "Winter Vespers in Prague",
+      "id": "album:9875",
+      "work_type": "Album",
+      "work_id": 9875,
+      "title": "Yolun Kararı (The Road's Decision)",
       "genre": "Dream Pop",
-      "notable": true,
-      "release_year": 2007,
-      "single": true,
-      "own": true,
-      "artist_id": 9876,
-      "artist_name": "Kristýna Horváthová",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
-      "id": "song:13643",
-      "song_id": 13643,
-      "title": "Thorns and Tender",
-      "genre": "Blues Rock",
       "notable": true,
       "release_year": 2007,
       "single": false,
@@ -41,11 +22,57 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:10684",
+      "work_type": "Song",
+      "work_id": 10684,
+      "title": "Winter Vespers in Prague",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2007,
+      "single": true,
+      "own": true,
+      "artist_id": 9876,
+      "artist_name": "Kristýna Horváthová",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:13643",
+      "work_type": "Song",
+      "work_id": 13643,
+      "title": "Thorns and Tender",
+      "genre": "Blues Rock",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": true,
+      "artist_id": 9876,
+      "artist_name": "Kristýna Horváthová",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:15759",
-      "song_id": 15759,
+      "work_type": "Song",
+      "work_id": 15759,
       "title": "Undefined",
       "genre": "Blues Rock",
       "notable": true,
@@ -61,11 +88,13 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
     },
     {
       "id": "song:15759",
-      "song_id": 15759,
+      "work_type": "Song",
+      "work_id": 15759,
       "title": "Undefined",
       "genre": "Blues Rock",
       "notable": true,
@@ -83,10 +112,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9876,
+          "name": "Kristýna Horváthová",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.704813
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:9875",
+      "target": "song:13643",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:9875",
+      "target": "song:10684",
+      "type": "InterpolatesFrom"
+    },
     {
       "source": "song:15759",
       "target": "song:10684",

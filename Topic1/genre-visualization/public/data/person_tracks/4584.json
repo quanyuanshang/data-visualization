@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:4583",
-      "song_id": 4583,
+      "work_type": "Song",
+      "work_id": 4583,
       "title": "Wellness Manifesto",
       "genre": "Speed Metal",
       "notable": true,
@@ -14,18 +15,30 @@
       "own": true,
       "artist_id": 4584,
       "artist_name": "Szymon Piguła",
-      "influence": 43,
+      "influence": 68,
       "influence_breakdown": {
-        "cover": 4,
-        "sample": 0,
+        "cover": 7,
+        "sample": 2,
         "reference": 5,
-        "style": 4
+        "style": 5
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4585,
+          "name": "Cindy Smith",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393031
+        }
+      ]
     },
     {
       "id": "song:139",
-      "song_id": 139,
+      "work_type": "Song",
+      "work_id": 139,
       "title": "Whispers from the Rocking Chair",
       "genre": "Speed Metal",
       "notable": true,
@@ -43,11 +56,41 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.1148896
+        },
+        {
+          "person_id": 140,
+          "name": "Min Pan",
+          "stage_name": "Oblivion Rhapsody",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983932
+        }
       ]
     },
     {
       "id": "song:1364",
-      "song_id": 1364,
+      "work_type": "Song",
+      "work_id": 1364,
       "title": "Echoes of a Puppet State",
       "genre": "Speed Metal",
       "notable": true,
@@ -65,11 +108,43 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1365,
+          "name": "Valerie Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4297123
+        },
+        {
+          "person_id": 1367,
+          "name": "Cheryl Malone",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0364668
+        },
+        {
+          "person_id": 1366,
+          "name": "Julie Griffin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3977888
+        }
       ]
     },
     {
       "id": "song:3139",
-      "song_id": 3139,
+      "work_type": "Song",
+      "work_id": 3139,
       "title": "Trust Nobody's Whispers",
       "genre": "Synthpop",
       "notable": true,
@@ -87,11 +162,182 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3140,
+          "name": "Jie Wei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0289788
+        },
+        {
+          "person_id": 3141,
+          "name": "April Crosby",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3788974
+        },
+        {
+          "person_id": 3142,
+          "name": "Jing Meng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3788974
+        }
+      ]
+    },
+    {
+      "id": "album:4126",
+      "work_type": "Album",
+      "work_id": 4126,
+      "title": "Echoes from Vienna's Symphonic Heart",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4127,
+      "artist_name": "William Carter ( Jade)",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 4127,
+          "name": "William Carter",
+          "stage_name": " Jade",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972375
+        },
+        {
+          "person_id": 4128,
+          "name": "Michael Pratt",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972375
+        },
+        {
+          "person_id": 4129,
+          "name": "Lisa Shaw",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3972375
+        },
+        {
+          "person_id": 4130,
+          "name": "Mark Barr",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3972375
+        },
+        {
+          "person_id": 4132,
+          "name": "Jonathan Avila",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972375
+        },
+        {
+          "person_id": 4133,
+          "name": "Lori Williams",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972375
+        }
+      ]
+    },
+    {
+      "id": "album:4870",
+      "work_type": "Album",
+      "work_id": 4870,
+      "title": "Whispers of the Trembling Heart",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 4871,
+      "artist_name": "Sharon Scott",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 4871,
+          "name": "Sharon Scott",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9787533
+        }
       ]
     },
     {
       "id": "song:5921",
-      "song_id": 5921,
+      "work_type": "Song",
+      "work_id": 5921,
       "title": "Peach Blossoms of the Kibi Plain",
       "genre": "Speed Metal",
       "notable": true,
@@ -109,11 +355,114 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 480,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7072566
+        },
+        {
+          "person_id": 5922,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054455
+        }
+      ]
+    },
+    {
+      "id": "album:6507",
+      "work_type": "Album",
+      "work_id": 6507,
+      "title": "Silk Street Swing",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4131,
+      "artist_name": "Kelsey Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 6508,
+          "name": "Alejandro Barnes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985946
+        },
+        {
+          "person_id": 6509,
+          "name": "Eric Wallace",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985946
+        },
+        {
+          "person_id": 6510,
+          "name": "Charles Paul",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985946
+        },
+        {
+          "person_id": 6511,
+          "name": "Justin Allen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985946
+        }
       ]
     },
     {
       "id": "song:7033",
-      "song_id": 7033,
+      "work_type": "Song",
+      "work_id": 7033,
       "title": "Mi Propio Camino",
       "genre": "Speed Metal",
       "notable": true,
@@ -131,11 +480,33 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 480,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7072566
+        },
+        {
+          "person_id": 5922,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.054455
+        }
       ]
     },
     {
       "id": "song:8225",
-      "song_id": 8225,
+      "work_type": "Song",
+      "work_id": 8225,
       "title": "Windswept Borderlands",
       "genre": "Speed Metal",
       "notable": true,
@@ -153,11 +524,70 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 8226,
+          "name": "Edward Parker",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        },
+        {
+          "person_id": 8227,
+          "name": "Christopher Pham",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        },
+        {
+          "person_id": 8228,
+          "name": "John Bates",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        },
+        {
+          "person_id": 8229,
+          "name": "Emily Gonzalez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983152
+        }
       ]
     },
     {
       "id": "song:8945",
-      "song_id": 8945,
+      "work_type": "Song",
+      "work_id": 8945,
       "title": "Emerald Shadows of Her Name",
       "genre": "Speed Metal",
       "notable": true,
@@ -175,11 +605,51 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8948,
+          "name": "Jing Deng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.434054
+        },
+        {
+          "person_id": 8946,
+          "name": "Yang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0508552
+        },
+        {
+          "person_id": 1428,
+          "name": "Fang Pan",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.9880037
+        },
+        {
+          "person_id": 8947,
+          "name": "Na Meng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3970106
+        }
       ]
     },
     {
       "id": "song:9239",
-      "song_id": 9239,
+      "work_type": "Song",
+      "work_id": 9239,
       "title": "Horizon's Aftermath",
       "genre": "Alternative Rock",
       "notable": true,
@@ -197,11 +667,147 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 30,
+          "name": "Megan Bennett",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3522286
+        },
+        {
+          "person_id": 4871,
+          "name": "Sharon Scott",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9787533
+        }
+      ]
+    },
+    {
+      "id": "album:9719",
+      "work_type": "Album",
+      "work_id": 9719,
+      "title": "Soldiers' Requiem",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 4131,
+      "artist_name": "Kelsey Hernandez",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 9721,
+          "name": "Hector Davis",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.033686
+        },
+        {
+          "person_id": 9720,
+          "name": "Brianna Hopkins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982234
+        },
+        {
+          "person_id": 9722,
+          "name": "Amy Alexander",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982234
+        }
+      ]
+    },
+    {
+      "id": "album:10840",
+      "work_type": "Album",
+      "work_id": 10840,
+      "title": "The Mystery of Mariele's Heart",
+      "genre": "Speed Metal",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 10841,
+      "artist_name": "Leslie Moore",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10841,
+          "name": "Leslie Moore",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9917715
+        },
+        {
+          "person_id": 10842,
+          "name": "Julie Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984885
+        },
+        {
+          "person_id": 10843,
+          "name": "Daniel Watson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3984678
+        }
       ]
     },
     {
       "id": "song:11617",
-      "song_id": 11617,
+      "work_type": "Song",
+      "work_id": 11617,
       "title": "Adolescent Echoes",
       "genre": "Speed Metal",
       "notable": true,
@@ -219,11 +825,80 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 11618,
+          "name": "Lisa Ramos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997433
+        },
+        {
+          "person_id": 11619,
+          "name": "Zachary Estes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997433
+        },
+        {
+          "person_id": 11620,
+          "name": "Jose Harmon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997433
+        },
+        {
+          "person_id": 11621,
+          "name": "Lindsey Terry",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997433
+        },
+        {
+          "person_id": 11622,
+          "name": "Alexis Dixon",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997433
+        }
       ]
     },
     {
       "id": "song:13228",
-      "song_id": 13228,
+      "work_type": "Song",
+      "work_id": 13228,
       "title": "Whispers in the Royal Nursery",
       "genre": "Speed Metal",
       "notable": true,
@@ -241,11 +916,77 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 480,
+          "name": "Jun Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7072566
+        }
+      ]
+    },
+    {
+      "id": "album:14023",
+      "work_type": "Album",
+      "work_id": 14023,
+      "title": "Whispers of Stone Peaks",
+      "genre": "Speed Metal",
+      "notable": false,
+      "release_year": 2020,
+      "single": false,
+      "own": false,
+      "artist_id": 142,
+      "artist_name": "Wei Tang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 141,
+          "name": "Xia Wu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.5115666
+        },
+        {
+          "person_id": 142,
+          "name": "Wei Tang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1148896
+        },
+        {
+          "person_id": 5794,
+          "name": "Frederic Margraf",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.089374
+        }
       ]
     },
     {
       "id": "song:14976",
-      "song_id": 14976,
+      "work_type": "Song",
+      "work_id": 14976,
       "title": "Fool's Parade",
       "genre": "Speed Metal",
       "notable": true,
@@ -263,11 +1004,33 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14978,
+          "name": "Michelle Ellis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.409406
+        },
+        {
+          "person_id": 14977,
+          "name": "Christopher Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4047484
+        }
       ]
     },
     {
       "id": "song:15532",
-      "song_id": 15532,
+      "work_type": "Song",
+      "work_id": 15532,
       "title": "Evening's Delicate Petal",
       "genre": "Speed Metal",
       "notable": true,
@@ -285,11 +1048,70 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4131,
+          "name": "Kelsey Hernandez",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.108125
+        },
+        {
+          "person_id": 4134,
+          "name": "Dwayne Wilson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.938391
+        },
+        {
+          "person_id": 9721,
+          "name": "Hector Davis",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.033686
+        },
+        {
+          "person_id": 15533,
+          "name": "Anthony Adams",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3988936
+        },
+        {
+          "person_id": 15534,
+          "name": "Daniel Campbell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988936
+        },
+        {
+          "person_id": 15535,
+          "name": "Hector Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3988936
+        }
       ]
     },
     {
       "id": "song:16724",
-      "song_id": 16724,
+      "work_type": "Song",
+      "work_id": 16724,
       "title": "Sole Survivor",
       "genre": "Speed Metal",
       "notable": true,
@@ -307,34 +1129,67 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10841,
+          "name": "Leslie Moore",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.9917715
+        },
+        {
+          "person_id": 2656,
+          "name": "Brandon Santos",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.517714
+        },
+        {
+          "person_id": 16726,
+          "name": "Christopher Martinez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3357594
+        },
+        {
+          "person_id": 16725,
+          "name": "Russell Blake",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.267805
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:14023",
+      "target": "song:4583",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:14976",
+      "target": "song:4583",
+      "type": "CoverOf"
+    },
+    {
+      "source": "album:6507",
+      "target": "song:4583",
+      "type": "CoverOf"
+    },
+    {
       "source": "song:7033",
       "target": "song:4583",
       "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:8225",
-      "target": "song:4583",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:13228",
-      "target": "song:4583",
-      "type": "LyricalReferenceTo"
-    },
-    {
-      "source": "song:5921",
-      "target": "song:4583",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:16724",
-      "target": "song:4583",
-      "type": "InStyleOf"
     },
     {
       "source": "song:11617",
@@ -342,12 +1197,22 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:8945",
+      "source": "album:10840",
       "target": "song:4583",
-      "type": "LyricalReferenceTo"
+      "type": "InStyleOf"
     },
     {
-      "source": "song:3139",
+      "source": "song:5921",
+      "target": "song:4583",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8225",
+      "target": "song:4583",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:4870",
       "target": "song:4583",
       "type": "CoverOf"
     },
@@ -357,9 +1222,39 @@
       "type": "CoverOf"
     },
     {
+      "source": "song:1364",
+      "target": "song:4583",
+      "type": "InStyleOf"
+    },
+    {
       "source": "song:15532",
       "target": "song:4583",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:3139",
+      "target": "song:4583",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:16724",
+      "target": "song:4583",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:8945",
+      "target": "song:4583",
+      "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:4126",
+      "target": "song:4583",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:13228",
+      "target": "song:4583",
+      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:139",
@@ -367,14 +1262,9 @@
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:1364",
+      "source": "album:9719",
       "target": "song:4583",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:14976",
-      "target": "song:4583",
-      "type": "CoverOf"
+      "type": "DirectlySamples"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13941",
-      "song_id": 13941,
+      "work_type": "Song",
+      "work_id": 13941,
       "title": "Melody of Shared Understanding",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,119 @@
       "own": true,
       "artist_id": 13942,
       "artist_name": "Juan Zhao",
-      "influence": 8,
+      "influence": 14,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 1,
+        "reference": 3,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9371912
+        },
+        {
+          "person_id": 3226,
+          "name": "Jie Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4248035
+        },
+        {
+          "person_id": 13943,
+          "name": "Ping Jiang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977377
+        },
+        {
+          "person_id": 13944,
+          "name": "Gang Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977377
+        }
+      ]
+    },
+    {
+      "id": "album:917",
+      "work_type": "Album",
+      "work_id": 917,
+      "title": "Shifting Horizons",
+      "genre": "Psychedelic Rock",
+      "notable": true,
+      "release_year": 2017,
+      "single": false,
+      "own": false,
+      "artist_id": 918,
+      "artist_name": "Mark Thomas",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 921,
+          "name": "Michael Dean",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0305583
+        },
+        {
+          "person_id": 919,
+          "name": "Alexandra Levy",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.030358
+        },
+        {
+          "person_id": 918,
+          "name": "Mark Thomas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4010465
+        },
+        {
+          "person_id": 920,
+          "name": "Antonio Fuentes",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4010465
+        }
+      ]
     },
     {
       "id": "song:3008",
-      "song_id": 3008,
+      "work_type": "Song",
+      "work_id": 3008,
       "title": "Resonance Between Silence",
       "genre": "Dream Pop",
       "notable": true,
@@ -43,11 +145,104 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3012,
+          "name": "Jing Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0797546
+        },
+        {
+          "person_id": 3009,
+          "name": "Mark Garcia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4371247
+        },
+        {
+          "person_id": 3010,
+          "name": "Juan Mo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4371247
+        },
+        {
+          "person_id": 3011,
+          "name": "Shannon Smith",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4371247
+        }
+      ]
+    },
+    {
+      "id": "album:3224",
+      "work_type": "Album",
+      "work_id": 3224,
+      "title": "Flames of Zagreb",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2013,
+      "single": false,
+      "own": false,
+      "artist_id": 3227,
+      "artist_name": "Ming Dai",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3226,
+          "name": "Jie Ding",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.4248035
+        },
+        {
+          "person_id": 3225,
+          "name": "Emma Ruiz",
+          "stage_name": " Storm Scout",
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.396787
+        },
+        {
+          "person_id": 3227,
+          "name": "Ming Dai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396787
+        }
       ]
     },
     {
       "id": "song:15574",
-      "song_id": 15574,
+      "work_type": "Song",
+      "work_id": 15574,
       "title": "Shadows of a Forbidden Embrace",
       "genre": "Indie Folk",
       "notable": true,
@@ -65,12 +260,69 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3226,
+          "name": "Jie Ding",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4248035
+        },
+        {
+          "person_id": 11892,
+          "name": "Tao Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.024622
+        },
+        {
+          "person_id": 15575,
+          "name": "Tao Mo",
+          "stage_name": "Halogen Visions",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957129
+        },
+        {
+          "person_id": 15576,
+          "name": "Xiuying Li",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3957129
+        },
+        {
+          "person_id": 15577,
+          "name": "Emily Sullivan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3957129
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:917",
+      "target": "song:13941",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:3008",
+      "target": "song:13941",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:3224",
       "target": "song:13941",
       "type": "InterpolatesFrom"
     },

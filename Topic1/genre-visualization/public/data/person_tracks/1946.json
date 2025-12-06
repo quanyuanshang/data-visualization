@@ -1,0 +1,126 @@
+{
+  "person_id": 1946,
+  "name": "Guiying Tian",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:1943",
+      "work_type": "Album",
+      "work_id": 1943,
+      "title": "Throne of Mercy",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 1946,
+      "artist_name": "Guiying Tian",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1248,
+          "name": "Gang Cao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.424843
+        },
+        {
+          "person_id": 1944,
+          "name": "Na Zhong",
+          "stage_name": " P.K. Steel",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982506
+        },
+        {
+          "person_id": 1945,
+          "name": "Jie Shi",
+          "stage_name": " WXNDER",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982506
+        },
+        {
+          "person_id": 1947,
+          "name": "Juan Shi",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982506
+        }
+      ]
+    },
+    {
+      "id": "song:11453",
+      "work_type": "Song",
+      "work_id": 11453,
+      "title": "Asphalt Breath",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": true,
+      "own": false,
+      "artist_id": 3716,
+      "artist_name": "Qiang Xie",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3716,
+          "name": "Qiang Xie",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7220554
+        },
+        {
+          "person_id": 11454,
+          "name": "Lucas Hurley",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.392894
+        },
+        {
+          "person_id": 11455,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.392894
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:11453",
+      "target": "album:1943",
+      "type": "DirectlySamples"
+    }
+  ]
+}

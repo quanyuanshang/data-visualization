@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14460",
-      "song_id": 14460,
-      "title": "Weightless in Blue",
-      "genre": "Americana",
-      "notable": true,
-      "release_year": 2019,
-      "single": false,
-      "own": true,
-      "artist_id": 11044,
-      "artist_name": "Sarah Fernandez",
-      "influence": 2,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 1
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:11042",
-      "song_id": 11042,
+      "work_type": "Song",
+      "work_id": 11042,
       "title": "Amor's Victorious March",
       "genre": "Americana",
       "notable": true,
@@ -41,33 +22,84 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11046,
+          "name": "Gang Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4750962
+        },
+        {
+          "person_id": 11043,
+          "name": "Xiulan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0396166
+        },
+        {
+          "person_id": 11045,
+          "name": "Jie Feng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979094
+        }
+      ]
     },
     {
-      "id": "song:3362",
-      "song_id": 3362,
-      "title": "Rising From the Shadows",
-      "genre": "Synthwave",
+      "id": "song:14460",
+      "work_type": "Song",
+      "work_id": 14460,
+      "title": "Weightless in Blue",
+      "genre": "Americana",
       "notable": true,
-      "release_year": 2022,
+      "release_year": 2019,
       "single": false,
-      "own": false,
-      "artist_id": 3364,
-      "artist_name": "Jun Lin",
-      "influence": 0,
+      "own": true,
+      "artist_id": 11044,
+      "artist_name": "Sarah Fernandez",
+      "influence": 2,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 0
+        "style": 1
       },
-      "relation_types": [
-        "InStyleOf"
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 11046,
+          "name": "Gang Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4750962
+        },
+        {
+          "person_id": 11043,
+          "name": "Xiulan Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0396166
+        }
       ]
     },
     {
       "id": "song:6675",
-      "song_id": 6675,
+      "work_type": "Song",
+      "work_id": 6675,
       "title": "Vägen hem (The Way Home)",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -85,6 +117,105 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6676,
+          "name": "Anthony Salas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0304399
+        },
+        {
+          "person_id": 6677,
+          "name": "Nicole Williamson",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0304399
+        },
+        {
+          "person_id": 6678,
+          "name": "Katrina Guzman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3970854
+        }
+      ]
+    },
+    {
+      "id": "song:3362",
+      "work_type": "Song",
+      "work_id": 3362,
+      "title": "Rising From the Shadows",
+      "genre": "Synthwave",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 3364,
+      "artist_name": "Jun Lin",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3366,
+          "name": "Xiuying Yao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.396558
+        },
+        {
+          "person_id": 593,
+          "name": "Li Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.262294
+        },
+        {
+          "person_id": 3363,
+          "name": "Xiuying Xie",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4327526
+        },
+        {
+          "person_id": 3364,
+          "name": "Jun Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0178626
+        },
+        {
+          "person_id": 3365,
+          "name": "Gang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3995497
+        }
       ]
     }
   ],

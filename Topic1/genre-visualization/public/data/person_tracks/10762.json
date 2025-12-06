@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10761",
-      "song_id": 10761,
+      "work_type": "Song",
+      "work_id": 10761,
       "title": "Echoes in the Distance",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -14,18 +15,58 @@
       "own": true,
       "artist_id": 10762,
       "artist_name": "Chao Shi",
-      "influence": 0,
+      "influence": 3,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 1942,
+          "name": "Yan Han",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.926998
+        },
+        {
+          "person_id": 10763,
+          "name": "Gang Gong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3975523
+        },
+        {
+          "person_id": 10764,
+          "name": "Michael Buchanan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975523
+        }
+      ]
     },
     {
       "id": "song:14324",
-      "song_id": 14324,
+      "work_type": "Song",
+      "work_id": 14324,
       "title": "Chrome and Promises",
       "genre": "Symphonic Metal",
       "notable": true,
@@ -34,6 +75,65 @@
       "own": true,
       "artist_id": 10762,
       "artist_name": "Chao Shi",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1952,
+          "name": "Yang Wan",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.4412723
+        },
+        {
+          "person_id": 2589,
+          "name": "Lei Yuan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.937194
+        },
+        {
+          "person_id": 7075,
+          "name": "Fang Hou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4017737
+        },
+        {
+          "person_id": 14325,
+          "name": "Jie Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3972507
+        }
+      ]
+    },
+    {
+      "id": "album:2009",
+      "work_type": "Album",
+      "work_id": 2009,
+      "title": "The Wisdom of Weathered Seasons",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 2012,
+      "artist_name": "Jing Tan",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -41,8 +141,113 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2012,
+          "name": "Jing Tan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.036113
+        },
+        {
+          "person_id": 2010,
+          "name": "Yong Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3984401
+        },
+        {
+          "person_id": 2011,
+          "name": "Xiulan Fu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3984194
+        }
+      ]
+    },
+    {
+      "id": "album:4112",
+      "work_type": "Album",
+      "work_id": 4112,
+      "title": "One More Word",
+      "genre": "Symphonic Metal",
+      "notable": true,
+      "release_year": 2029,
+      "single": false,
+      "own": false,
+      "artist_id": 4113,
+      "artist_name": "Ping Song",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4113,
+          "name": "Ping Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3985598
+        },
+        {
+          "person_id": 4114,
+          "name": "Juan Xia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985598
+        },
+        {
+          "person_id": 4115,
+          "name": "George Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3985598
+        },
+        {
+          "person_id": 4116,
+          "name": "Tao Tao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3985598
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:4112",
+      "target": "song:14324",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:2009",
+      "target": "song:10761",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

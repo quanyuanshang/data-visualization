@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6721",
-      "song_id": 6721,
+      "work_type": "Song",
+      "work_id": 6721,
       "title": "Tales of the Wise Fool",
       "genre": "Indie Folk",
       "notable": true,
@@ -14,6 +15,47 @@
       "own": true,
       "artist_id": 6722,
       "artist_name": "Jan Zadworny",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6723,
+          "name": "Julita Łuszczak",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980136
+        },
+        {
+          "person_id": 6724,
+          "name": "Tadeusz Gemza",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980136
+        }
+      ]
+    },
+    {
+      "id": "album:6805",
+      "work_type": "Album",
+      "work_id": 6805,
+      "title": "Prophecy's Maiden",
+      "genre": "Space Rock",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": false,
+      "artist_id": 6807,
+      "artist_name": "Min Shao",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +63,55 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4418,
+          "name": "Jun Fang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.256413
+        },
+        {
+          "person_id": 6808,
+          "name": "Jie Zhu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4251888
+        },
+        {
+          "person_id": 6807,
+          "name": "Min Shao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0465977
+        },
+        {
+          "person_id": 6806,
+          "name": "Ming He",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.39771
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:6805",
+      "target": "song:6721",
+      "type": "InterpolatesFrom"
+    }
+  ]
 }

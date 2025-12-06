@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6588",
-      "song_id": 6588,
+      "work_type": "Song",
+      "work_id": 6588,
       "title": "Closing Time Conscience",
       "genre": "Alternative Rock",
       "notable": true,
@@ -21,11 +22,51 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 109,
+          "name": "Audrey-Camille Nicolas",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.269391
+        },
+        {
+          "person_id": 108,
+          "name": "Brandon Vasquez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.707629
+        },
+        {
+          "person_id": 6590,
+          "name": "Étienne Bruneau",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.9683666
+        },
+        {
+          "person_id": 6589,
+          "name": "Laura Badoglio",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3765728
+        }
+      ]
     },
     {
       "id": "song:106",
-      "song_id": 106,
+      "work_type": "Song",
+      "work_id": 106,
       "title": "Borderless Horizons",
       "genre": "Blues Rock",
       "notable": true,
@@ -41,11 +82,32 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 109,
+          "name": "Audrey-Camille Nicolas",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.269391
+        },
+        {
+          "person_id": 108,
+          "name": "Brandon Vasquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.707629
+        }
+      ]
     },
     {
       "id": "song:15309",
-      "song_id": 15309,
+      "work_type": "Song",
+      "work_id": 15309,
       "title": "Sister's Lament",
       "genre": "Alternative Rock",
       "notable": true,
@@ -61,11 +123,23 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 109,
+          "name": "Audrey-Camille Nicolas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.269391
+        }
+      ]
     },
     {
       "id": "song:15309",
-      "song_id": 15309,
+      "work_type": "Song",
+      "work_id": 15309,
       "title": "Sister's Lament",
       "genre": "Alternative Rock",
       "notable": true,
@@ -83,19 +157,39 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 109,
+          "name": "Audrey-Camille Nicolas",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 4.269391
+        },
+        {
+          "person_id": 107,
+          "name": "Pompeo Turchi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.1343005
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15309",
-      "target": "song:106",
-      "type": "LyricalReferenceTo"
-    },
-    {
       "source": "song:6588",
       "target": "song:106",
       "type": "DirectlySamples"
+    },
+    {
+      "source": "song:15309",
+      "target": "song:106",
+      "type": "LyricalReferenceTo"
     }
   ]
 }

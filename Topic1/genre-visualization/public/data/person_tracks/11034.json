@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:11033",
-      "song_id": 11033,
+      "work_type": "Song",
+      "work_id": 11033,
       "title": "Cradle of Infinite Promise",
       "genre": "Doom Metal",
       "notable": true,
@@ -21,11 +22,42 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 8468,
+          "name": "David Lopez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6952436
+        },
+        {
+          "person_id": 11036,
+          "name": "Kayla Scott",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4327042
+        },
+        {
+          "person_id": 11035,
+          "name": "Cynthia Reed",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3868551
+        }
+      ]
     },
     {
       "id": "song:13062",
-      "song_id": 13062,
+      "work_type": "Song",
+      "work_id": 13062,
       "title": "Rhythmic Undertow",
       "genre": "Doom Metal",
       "notable": true,
@@ -34,18 +66,66 @@
       "own": true,
       "artist_id": 11034,
       "artist_name": "Michael Sexton",
-      "influence": 16,
+      "influence": 21,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 2,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 99,
+          "name": "Miki Hayashi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.263342
+        },
+        {
+          "person_id": 5049,
+          "name": "Robert Knight",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8666625
+        },
+        {
+          "person_id": 5048,
+          "name": "Dennis Bush",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4416642
+        },
+        {
+          "person_id": 11036,
+          "name": "Kayla Scott",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4327042
+        },
+        {
+          "person_id": 13063,
+          "name": "Yan Qin",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.392174
+        }
+      ]
     },
     {
       "id": "song:1661",
-      "song_id": 1661,
+      "work_type": "Song",
+      "work_id": 1661,
       "title": "Bristle and Grunt",
       "genre": "Doom Metal",
       "notable": true,
@@ -63,11 +143,43 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1662,
+          "name": "Yan Wen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2514086
+        },
+        {
+          "person_id": 1664,
+          "name": "Min Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.003228
+        },
+        {
+          "person_id": 1663,
+          "name": "Xiulan Zhao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0477953
+        }
       ]
     },
     {
       "id": "song:2292",
-      "song_id": 2292,
+      "work_type": "Song",
+      "work_id": 2292,
       "title": "Vagrant's Horizon",
       "genre": "Indie Folk",
       "notable": true,
@@ -85,11 +197,61 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2296,
+          "name": "Jordan Baxter",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.394767
+        },
+        {
+          "person_id": 2293,
+          "name": "Xia Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0487053
+        },
+        {
+          "person_id": 2294,
+          "name": "Xiuying Bai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0487053
+        },
+        {
+          "person_id": 2297,
+          "name": "Ping Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0487053
+        },
+        {
+          "person_id": 2295,
+          "name": "Min Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3960972
+        }
       ]
     },
     {
       "id": "song:11824",
-      "song_id": 11824,
+      "work_type": "Song",
+      "work_id": 11824,
       "title": "Bass Blast Bonanza",
       "genre": "Dream Pop",
       "notable": true,
@@ -107,11 +269,60 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1662,
+          "name": "Yan Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2514086
+        },
+        {
+          "person_id": 5382,
+          "name": "Yong Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1169157
+        },
+        {
+          "person_id": 1664,
+          "name": "Min Jia",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.003228
+        },
+        {
+          "person_id": 1942,
+          "name": "Yan Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.926998
+        },
+        {
+          "person_id": 11825,
+          "name": "Ming Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.048501
+        }
       ]
     },
     {
       "id": "song:13480",
-      "song_id": 13480,
+      "work_type": "Song",
+      "work_id": 13480,
       "title": "Fault Lines of the Heart",
       "genre": "Synthwave",
       "notable": true,
@@ -129,11 +340,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5382,
+          "name": "Yong Wang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.1169157
+        },
+        {
+          "person_id": 9455,
+          "name": "Kylie Clarke",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0392275
+        },
+        {
+          "person_id": 9456,
+          "name": "Ashley Patton",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0392275
+        },
+        {
+          "person_id": 9457,
+          "name": "Jessica Holmes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0392275
+        }
       ]
     },
     {
       "id": "song:1869",
-      "song_id": 1869,
+      "work_type": "Song",
+      "work_id": 1869,
       "title": "Echoes from the Dark Chord",
       "genre": "Indie Rock",
       "notable": true,
@@ -151,11 +402,51 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1873,
+          "name": "Li Ma",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9371912
+        },
+        {
+          "person_id": 1871,
+          "name": "Jie Cai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.424265
+        },
+        {
+          "person_id": 1870,
+          "name": "Fang Xie",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968053
+        },
+        {
+          "person_id": 1872,
+          "name": "Yang Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968053
+        }
       ]
     },
     {
       "id": "song:3697",
-      "song_id": 3697,
+      "work_type": "Song",
+      "work_id": 3697,
       "title": "Whispers at Sunset",
       "genre": "Darkwave",
       "notable": true,
@@ -173,11 +464,151 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3704,
+          "name": "Qiang Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7210002
+        },
+        {
+          "person_id": 3698,
+          "name": "Ming Zhao",
+          "stage_name": " FVDE",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3699,
+          "name": "Lei Duan",
+          "stage_name": "Static Hymn",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3700,
+          "name": "Yan Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3701,
+          "name": "Chao Jia",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3702,
+          "name": "Jun Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3986638
+        },
+        {
+          "person_id": 3703,
+          "name": "Wei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986638
+        }
+      ]
+    },
+    {
+      "id": "album:5046",
+      "work_type": "Album",
+      "work_id": 5046,
+      "title": "Høstens Melodi (Autumn's Melody)",
+      "genre": "Americana",
+      "notable": true,
+      "release_year": 2007,
+      "single": false,
+      "own": false,
+      "artist_id": 76,
+      "artist_name": "Ming Ren",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 76,
+          "name": "Ming Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9242806
+        },
+        {
+          "person_id": 5049,
+          "name": "Robert Knight",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8666625
+        },
+        {
+          "person_id": 5048,
+          "name": "Dennis Bush",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4416642
+        },
+        {
+          "person_id": 5050,
+          "name": "Xiuying Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0469975
+        },
+        {
+          "person_id": 5047,
+          "name": "Jie Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0469844
+        }
       ]
     },
     {
       "id": "song:8785",
-      "song_id": 8785,
+      "work_type": "Song",
+      "work_id": 8785,
       "title": "Waiting in the Wings",
       "genre": "Americana",
       "notable": true,
@@ -195,11 +626,69 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 76,
+          "name": "Ming Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9242806
+        },
+        {
+          "person_id": 5049,
+          "name": "Robert Knight",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8666625
+        },
+        {
+          "person_id": 5048,
+          "name": "Dennis Bush",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4416642
+        },
+        {
+          "person_id": 5050,
+          "name": "Xiuying Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0469975
+        },
+        {
+          "person_id": 5047,
+          "name": "Jie Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0469844
+        },
+        {
+          "person_id": 8786,
+          "name": "Jennifer Cox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3955693
+        }
       ]
     },
     {
       "id": "song:10941",
-      "song_id": 10941,
+      "work_type": "Song",
+      "work_id": 10941,
       "title": "Familiar Strangers",
       "genre": "Indie Rock",
       "notable": true,
@@ -217,29 +706,26 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10942,
+          "name": "Gang Cai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.362097
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:1869",
-      "target": "song:13062",
-      "type": "CoverOf"
-    },
-    {
-      "source": "song:11824",
-      "target": "song:11033",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:2292",
       "target": "song:11033",
       "type": "InStyleOf"
-    },
-    {
-      "source": "song:10941",
-      "target": "song:13062",
-      "type": "InterpolatesFrom"
     },
     {
       "source": "song:8785",
@@ -252,13 +738,33 @@
       "type": "DirectlySamples"
     },
     {
+      "source": "song:1661",
+      "target": "song:11033",
+      "type": "InterpolatesFrom"
+    },
+    {
+      "source": "song:11824",
+      "target": "song:11033",
+      "type": "DirectlySamples"
+    },
+    {
       "source": "song:13480",
       "target": "song:11033",
       "type": "CoverOf"
     },
     {
-      "source": "song:1661",
-      "target": "song:11033",
+      "source": "album:5046",
+      "target": "song:13062",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:1869",
+      "target": "song:13062",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:10941",
+      "target": "song:13062",
       "type": "InterpolatesFrom"
     }
   ]

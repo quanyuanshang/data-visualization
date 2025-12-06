@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:7876",
-      "song_id": 7876,
+      "work_type": "Song",
+      "work_id": 7876,
       "title": "Falling Without a Parachute",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,58 @@
       "own": true,
       "artist_id": 7879,
       "artist_name": "Ping Shao",
-      "influence": 2,
+      "influence": 4,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 0,
-        "style": 1
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7878,
+          "name": "Morgan Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484502
+        },
+        {
+          "person_id": 7881,
+          "name": "Patricia Pope",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484502
+        },
+        {
+          "person_id": 7880,
+          "name": "Yang Liang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0340793
+        },
+        {
+          "person_id": 7877,
+          "name": "Ming Du",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3992243
+        }
+      ]
     },
     {
       "id": "song:15285",
-      "song_id": 15285,
+      "work_type": "Song",
+      "work_id": 15285,
       "title": "Harmonious Compromise",
       "genre": "Dream Pop",
       "notable": true,
@@ -41,11 +82,112 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2850,
+          "name": "Min Fu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.6156697
+        },
+        {
+          "person_id": 7878,
+          "name": "Morgan Hernandez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484502
+        },
+        {
+          "person_id": 7881,
+          "name": "Patricia Pope",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0484502
+        },
+        {
+          "person_id": 7922,
+          "name": "Chao Jin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0136836
+        },
+        {
+          "person_id": 15286,
+          "name": "Li Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.393381
+        }
+      ]
+    },
+    {
+      "id": "album:4945",
+      "work_type": "Album",
+      "work_id": 4945,
+      "title": "Beyond the Price Tag",
+      "genre": "Desert Rock",
+      "notable": false,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 4946,
+      "artist_name": "Christopher Conway",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4947,
+          "name": "Samantha Mcneil",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4948,
+          "name": "Isaac Brown",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3964925
+        },
+        {
+          "person_id": 4946,
+          "name": "Christopher Conway",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3961337
+        }
+      ]
     },
     {
       "id": "song:13404",
-      "song_id": 13404,
+      "work_type": "Song",
+      "work_id": 13404,
       "title": "Voice Beyond the Line",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,10 +205,90 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3866,
+          "name": "Yan Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.6258197
+        },
+        {
+          "person_id": 13405,
+          "name": "Li Mo",
+          "stage_name": " $PECTRUM",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13406,
+          "name": "Jing Han",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13407,
+          "name": "Wei Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13408,
+          "name": "Yang Sun",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13409,
+          "name": "Xia Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13410,
+          "name": "Jun Meng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        },
+        {
+          "person_id": 13411,
+          "name": "Yong Liang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978167
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:4945",
+      "target": "song:7876",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:7876",
       "target": "song:15285",

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:14124",
-      "song_id": 14124,
-      "title": "Welded Dreams",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 1986,
-      "single": true,
-      "own": true,
-      "artist_id": 9049,
-      "artist_name": "Stephen Obrien",
-      "influence": 5,
-      "influence_breakdown": {
-        "cover": 1,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:9048",
-      "song_id": 9048,
+      "work_type": "Song",
+      "work_id": 9048,
       "title": "Crossroads at Sunset",
       "genre": "Indie Rock",
       "notable": true,
@@ -41,11 +22,67 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9050,
+          "name": "Clara Seco-Pelayo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4251177
+        }
+      ]
+    },
+    {
+      "id": "song:14124",
+      "work_type": "Song",
+      "work_id": 14124,
+      "title": "Welded Dreams",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1986,
+      "single": true,
+      "own": true,
+      "artist_id": 9049,
+      "artist_name": "Stephen Obrien",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        }
+      ]
     },
     {
       "id": "song:7128",
-      "song_id": 7128,
+      "work_type": "Song",
+      "work_id": 7128,
       "title": "Anguish Unfolding",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,6 +100,80 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 2109,
+          "name": "Marcia Davis",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.88256
+        },
+        {
+          "person_id": 3498,
+          "name": "Lina Mendizábal Robledo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.3844955
+        }
+      ]
+    },
+    {
+      "id": "song:14124",
+      "work_type": "Song",
+      "work_id": 14124,
+      "title": "Welded Dreams",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 1986,
+      "single": true,
+      "own": false,
+      "artist_id": 2110,
+      "artist_name": "Catherine Clay",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2110,
+          "name": "Catherine Clay",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.3499722
+        },
+        {
+          "person_id": 9049,
+          "name": "Stephen Obrien",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0506802
+        }
       ]
     }
   ],
@@ -73,13 +184,13 @@
       "type": "CoverOf"
     },
     {
-      "source": "song:7128",
-      "target": "song:14124",
+      "source": "song:14124",
+      "target": "song:9048",
       "type": "CoverOf"
     },
     {
-      "source": "song:14124",
-      "target": "song:9048",
+      "source": "song:7128",
+      "target": "song:14124",
       "type": "CoverOf"
     }
   ]

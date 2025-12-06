@@ -1,0 +1,213 @@
+{
+  "person_id": 10061,
+  "name": "Matilda Gottardi",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:10055",
+      "work_type": "Album",
+      "work_id": 10055,
+      "title": "Lights, Camera, Heartbreak",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 10061,
+      "artist_name": "Matilda Gottardi",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10056,
+          "name": "Tiziano Bianchi",
+          "stage_name": " Mona Rey",
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10057,
+          "name": "Anthony Scott",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10058,
+          "name": "Vincenza Tropea",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10059,
+          "name": "Luigina Lattuada-Carfagna",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397585
+        },
+        {
+          "person_id": 10060,
+          "name": "Marina Giradello-Pellegrini",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397585
+        }
+      ]
+    },
+    {
+      "id": "album:683",
+      "work_type": "Album",
+      "work_id": 683,
+      "title": "Whispers of a Father's Heart",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 684,
+      "artist_name": "Gang Zhao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 687,
+          "name": "Gang Chen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044944
+        },
+        {
+          "person_id": 685,
+          "name": "Fang Wu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.044094
+        },
+        {
+          "person_id": 684,
+          "name": "Gang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 686,
+          "name": "Yang Zheng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.035521
+        },
+        {
+          "person_id": 688,
+          "name": "Ming Xiao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3997517
+        }
+      ]
+    },
+    {
+      "id": "song:16452",
+      "work_type": "Song",
+      "work_id": 16452,
+      "title": "Star of the Stable",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2024,
+      "single": true,
+      "own": false,
+      "artist_id": 1838,
+      "artist_name": "Carolyn Schultz",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1838,
+          "name": "Carolyn Schultz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9644623
+        },
+        {
+          "person_id": 5286,
+          "name": "Amanda Hill",
+          "stage_name": " R.E.D.",
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4383142
+        },
+        {
+          "person_id": 16453,
+          "name": "Laura Carson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3993697
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "album:683",
+      "target": "album:10055",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16452",
+      "target": "album:10055",
+      "type": "InStyleOf"
+    }
+  ]
+}

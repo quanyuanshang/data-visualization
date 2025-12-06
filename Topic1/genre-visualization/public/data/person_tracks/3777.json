@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16352",
-      "song_id": 16352,
-      "title": "Shoulders of Strength",
-      "genre": "Jazz Surf Rock",
-      "notable": true,
-      "release_year": 2012,
-      "single": true,
-      "own": true,
-      "artist_id": 3777,
-      "artist_name": "Douglas Lewis",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:3776",
-      "song_id": 3776,
+      "work_type": "Song",
+      "work_id": 3776,
       "title": "Lola's Lament",
       "genre": "Space Rock",
       "notable": true,
@@ -41,7 +22,84 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "song:16352",
+      "work_type": "Song",
+      "work_id": 16352,
+      "title": "Shoulders of Strength",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 3777,
+      "artist_name": "Douglas Lewis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 16353,
+          "name": "Amanda Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985224
+        }
+      ]
+    },
+    {
+      "id": "song:16352",
+      "work_type": "Song",
+      "work_id": 16352,
+      "title": "Shoulders of Strength",
+      "genre": "Jazz Surf Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": true,
+      "own": true,
+      "artist_id": 3777,
+      "artist_name": "Douglas Lewis",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 3777,
+          "name": "Douglas Lewis",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0248063
+        },
+        {
+          "person_id": 16353,
+          "name": "Amanda Mcdonald",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985224
+        }
+      ]
     }
   ],
   "links": [

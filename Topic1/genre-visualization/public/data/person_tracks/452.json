@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:449",
-      "song_id": 449,
+      "work_type": "Song",
+      "work_id": 449,
       "title": "Dancing Stones of Memory",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 450,
+          "name": "Jun Cao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.0568504
+        },
+        {
+          "person_id": 451,
+          "name": "Gang Lei",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4326167
+        }
+      ]
     },
     {
       "id": "song:13930",
-      "song_id": 13930,
+      "work_type": "Song",
+      "work_id": 13930,
       "title": "Silk and Stirrups",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,6 +65,26 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 6039,
+          "name": "Fang Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.0983653
+        },
+        {
+          "person_id": 6037,
+          "name": "Fang Tan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7181127
+        }
       ]
     }
   ],

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10859",
-      "song_id": 10859,
+      "work_type": "Song",
+      "work_id": 10859,
       "title": "Bortglömd Brevlåda vid Landsvägen (Forgotten Mailbox by the Road)",
       "genre": "Doom Metal",
       "notable": true,
@@ -14,6 +15,67 @@
       "own": true,
       "artist_id": 10860,
       "artist_name": "Roksana Kurzyna",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 10303,
+          "name": "Konrad Meissner",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4265566
+        },
+        {
+          "person_id": 10306,
+          "name": "Natasza Dydo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.4265091
+        },
+        {
+          "person_id": 10304,
+          "name": "Ida Ryfa",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        },
+        {
+          "person_id": 10307,
+          "name": "Klara Parkitna",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0484104
+        }
+      ]
+    },
+    {
+      "id": "album:13254",
+      "work_type": "Album",
+      "work_id": 13254,
+      "title": "Pristine Falling Apart",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": false,
+      "artist_id": 126,
+      "artist_name": "Miloš Pokorný",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +83,29 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 126,
+          "name": "Miloš Pokorný",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.019742
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:13254",
+      "target": "song:10859",
+      "type": "InStyleOf"
+    }
+  ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12923",
-      "song_id": 12923,
+      "work_type": "Song",
+      "work_id": 12923,
       "title": "Clan of Shadows",
       "genre": "Southern Gothic Rock",
       "notable": false,
@@ -21,11 +22,24 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12925,
+          "name": "Alex Hernandez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3975487
+        }
+      ]
     },
     {
       "id": "song:16589",
-      "song_id": 16589,
+      "work_type": "Song",
+      "work_id": 16589,
       "title": "Machine Learning Melody",
       "genre": "Emo/Pop Punk",
       "notable": true,
@@ -43,6 +57,36 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15746,
+          "name": "Natasha Mcdaniel",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0754194
+        },
+        {
+          "person_id": 5765,
+          "name": "Amanda Marquez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0453289
+        },
+        {
+          "person_id": 5766,
+          "name": "Frederick Freeman",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0453289
+        }
       ]
     }
   ],

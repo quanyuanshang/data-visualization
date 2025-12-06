@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5004",
-      "song_id": 5004,
+      "work_type": "Song",
+      "work_id": 5004,
       "title": "Harmonic Septet in Amber",
       "genre": "Synthwave",
       "notable": true,
@@ -14,18 +15,101 @@
       "own": true,
       "artist_id": 5008,
       "artist_name": "Fang Kong",
-      "influence": 5,
+      "influence": 10,
       "influence_breakdown": {
-        "cover": 0,
+        "cover": 1,
         "sample": 0,
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2024,
+          "name": "Juan Zou",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9287055
+        },
+        {
+          "person_id": 5006,
+          "name": "Tao Kang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.05601
+        },
+        {
+          "person_id": 5005,
+          "name": "Na Kong",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3969805
+        },
+        {
+          "person_id": 5007,
+          "name": "Yang Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3969805
+        }
+      ]
+    },
+    {
+      "id": "album:7987",
+      "work_type": "Album",
+      "work_id": 7987,
+      "title": "Pinup Pages",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2009,
+      "single": false,
+      "own": true,
+      "artist_id": 5008,
+      "artist_name": "Fang Kong",
+      "influence": 2,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7989,
+          "name": "Fabian Dłubak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.4218736
+        },
+        {
+          "person_id": 7988,
+          "name": "Noah Shaw",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3979735
+        }
+      ]
     },
     {
       "id": "song:9967",
-      "song_id": 9967,
+      "work_type": "Song",
+      "work_id": 9967,
       "title": "Inheritance of Hope",
       "genre": "Jazz Surf Rock",
       "notable": true,
@@ -43,11 +127,70 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9968,
+          "name": "Jing Kong",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3982587
+        },
+        {
+          "person_id": 9969,
+          "name": "Jun Jia",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982587
+        },
+        {
+          "person_id": 9970,
+          "name": "Juan Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982587
+        },
+        {
+          "person_id": 9971,
+          "name": "Li Deng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3982587
+        },
+        {
+          "person_id": 9972,
+          "name": "Mark Martinez",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982587
+        },
+        {
+          "person_id": 9973,
+          "name": "Cathrin Bruder",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3982587
+        }
       ]
     },
     {
       "id": "song:12250",
-      "song_id": 12250,
+      "work_type": "Song",
+      "work_id": 12250,
       "title": "Mediterranean Melody",
       "genre": "Americana",
       "notable": true,
@@ -65,19 +208,175 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12252,
+          "name": "Juan Song",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.396522
+        },
+        {
+          "person_id": 12255,
+          "name": "Fang Yi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.396522
+        },
+        {
+          "person_id": 12251,
+          "name": "Min Xu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963523
+        },
+        {
+          "person_id": 12253,
+          "name": "Chao Ren",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963523
+        },
+        {
+          "person_id": 12254,
+          "name": "Qiang Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3963523
+        },
+        {
+          "person_id": 12256,
+          "name": "Xia Chang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963523
+        },
+        {
+          "person_id": 12257,
+          "name": "Xiuying Ye",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963523
+        },
+        {
+          "person_id": 12258,
+          "name": "Lei Qiu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3963523
+        }
+      ]
+    },
+    {
+      "id": "album:16253",
+      "work_type": "Album",
+      "work_id": 16253,
+      "title": "Weekend Wanderer",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 16254,
+      "artist_name": "Michał Flasza",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 16254,
+          "name": "Michał Flasza",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3981085
+        }
+      ]
+    },
+    {
+      "id": "song:8058",
+      "work_type": "Song",
+      "work_id": 8058,
+      "title": "The Expansive Rhythm",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 8059,
+      "artist_name": "Amanda Powell",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8059,
+          "name": "Amanda Powell",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.397439
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:12250",
-      "target": "song:5004",
-      "type": "InStyleOf"
-    },
-    {
       "source": "song:9967",
       "target": "song:5004",
       "type": "LyricalReferenceTo"
+    },
+    {
+      "source": "album:16253",
+      "target": "song:5004",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:8058",
+      "target": "album:7987",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12250",
+      "target": "song:5004",
+      "type": "InStyleOf"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:2822",
-      "song_id": 2822,
+      "work_type": "Song",
+      "work_id": 2822,
       "title": "Whispers Between the Keys",
       "genre": "Alternative Rock",
       "notable": true,
@@ -14,6 +15,58 @@
       "own": true,
       "artist_id": 2823,
       "artist_name": "Thomas Miranda",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2826,
+          "name": "Dana Ferrell",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0362523
+        },
+        {
+          "person_id": 2824,
+          "name": "James Dudley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.38939
+        },
+        {
+          "person_id": 2825,
+          "name": "Ann Petersen",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3893766
+        }
+      ]
+    },
+    {
+      "id": "album:7153",
+      "work_type": "Album",
+      "work_id": 7153,
+      "title": "Maritime Memories",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": false,
+      "artist_id": 7154,
+      "artist_name": "Gregg Fuentes",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +74,45 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7156,
+          "name": "Michaela Kelley",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.8459632
+        },
+        {
+          "person_id": 7155,
+          "name": "Jacqueline Fields",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4210398
+        },
+        {
+          "person_id": 7154,
+          "name": "Gregg Fuentes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.06709
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:7153",
+      "target": "song:2822",
+      "type": "LyricalReferenceTo"
+    }
+  ]
 }

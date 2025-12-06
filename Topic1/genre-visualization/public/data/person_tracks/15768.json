@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:15766",
-      "song_id": 15766,
+      "work_type": "Song",
+      "work_id": 15766,
       "title": "Union Jack Heart",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,23 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15767,
+          "name": "Jennifer Collins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.051605
+        }
+      ]
     },
     {
       "id": "song:16289",
-      "song_id": 16289,
+      "work_type": "Song",
+      "work_id": 16289,
       "title": "Calibrated Pulse",
       "genre": "Synthwave",
       "notable": true,
@@ -41,11 +54,33 @@
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 15767,
+          "name": "Jennifer Collins",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.051605
+        },
+        {
+          "person_id": 13442,
+          "name": "Jun Pan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0468895
+        }
+      ]
     },
     {
       "id": "song:773",
-      "song_id": 773,
+      "work_type": "Song",
+      "work_id": 773,
       "title": "Whispers in Mother's Arms",
       "genre": "Indie Folk",
       "notable": true,
@@ -63,11 +98,68 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 779,
+          "name": "Yang Zhao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.3984494
+        },
+        {
+          "person_id": 777,
+          "name": "Xiulan Qiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0273669
+        },
+        {
+          "person_id": 774,
+          "name": "Tao Liu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        },
+        {
+          "person_id": 775,
+          "name": "Virginia Stuart",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        },
+        {
+          "person_id": 776,
+          "name": "David Hebert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        },
+        {
+          "person_id": 778,
+          "name": "Yong Su",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985357
+        }
       ]
     },
     {
       "id": "song:11942",
-      "song_id": 11942,
+      "work_type": "Song",
+      "work_id": 11942,
       "title": "Tokyo Nights and Neon Lights",
       "genre": "Indie Folk",
       "notable": true,
@@ -85,11 +177,41 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11944,
+          "name": "Ming Luo",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.0550194
+        },
+        {
+          "person_id": 9071,
+          "name": "Ashley Brooks",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0434558
+        },
+        {
+          "person_id": 11943,
+          "name": "Min Yin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990843
+        }
       ]
     },
     {
       "id": "song:9488",
-      "song_id": 9488,
+      "work_type": "Song",
+      "work_id": 9488,
       "title": "Imperial Shadows",
       "genre": "Synthwave",
       "notable": true,
@@ -107,15 +229,30 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8595,
+          "name": "Vera Rivero Palomo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035341
+        },
+        {
+          "person_id": 8594,
+          "name": "Yolanda Barroso Pineda",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.002035
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:773",
-      "target": "song:15766",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:9488",
       "target": "song:16289",
@@ -125,6 +262,11 @@
       "source": "song:11942",
       "target": "song:15766",
       "type": "CoverOf"
+    },
+    {
+      "source": "song:773",
+      "target": "song:15766",
+      "type": "InStyleOf"
     }
   ]
 }

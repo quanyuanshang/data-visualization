@@ -1,0 +1,184 @@
+{
+  "person_id": 2692,
+  "name": "Juan Zeng",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:2691",
+      "work_type": "Album",
+      "work_id": 2691,
+      "title": "Mythical Mane",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 1992,
+      "single": false,
+      "own": true,
+      "artist_id": 2692,
+      "artist_name": "Juan Zeng",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2693,
+          "name": "Juan Pan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4119976
+        }
+      ]
+    },
+    {
+      "id": "song:8148",
+      "work_type": "Song",
+      "work_id": 8148,
+      "title": "Shadows in Sleep",
+      "genre": "Oceanus Folk",
+      "notable": false,
+      "release_year": 2009,
+      "single": true,
+      "own": false,
+      "artist_id": 8149,
+      "artist_name": "Lori Young",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8149,
+          "name": "Lori Young",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4008007
+        },
+        {
+          "person_id": 8150,
+          "name": "Lauren Steele",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4008007
+        },
+        {
+          "person_id": 8151,
+          "name": "Jennifer Alexander",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.4008007
+        },
+        {
+          "person_id": 8152,
+          "name": "Sean Riggs",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4008007
+        }
+      ]
+    },
+    {
+      "id": "song:14652",
+      "work_type": "Song",
+      "work_id": 14652,
+      "title": "Alphabet Anarchy",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": true,
+      "own": false,
+      "artist_id": 14653,
+      "artist_name": "Michael Jefferson",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 14654,
+          "name": "Andrew Lee",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967564
+        },
+        {
+          "person_id": 14656,
+          "name": "Abigail Hawkins",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3967564
+        },
+        {
+          "person_id": 14657,
+          "name": "Michael Gregory",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967564
+        },
+        {
+          "person_id": 14655,
+          "name": "Jenna York",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3967333
+        },
+        {
+          "person_id": 14653,
+          "name": "Michael Jefferson",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959968
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:14652",
+      "target": "album:2691",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "song:8148",
+      "target": "album:2691",
+      "type": "InStyleOf"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:3485",
-      "song_id": 3485,
+      "work_type": "Song",
+      "work_id": 3485,
       "title": "Through Every Storm We Rise",
       "genre": "Dream Pop",
       "notable": true,
@@ -21,11 +22,60 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1785,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.475672
+        },
+        {
+          "person_id": 3490,
+          "name": "Tao Ren",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.047809
+        },
+        {
+          "person_id": 3487,
+          "name": "Jing Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990943
+        },
+        {
+          "person_id": 3488,
+          "name": "Yan Lin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3990943
+        },
+        {
+          "person_id": 3489,
+          "name": "Wei Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.399081
+        }
+      ]
     },
     {
       "id": "song:5029",
-      "song_id": 5029,
+      "work_type": "Song",
+      "work_id": 5029,
       "title": "Landsbyens Drøm (Village's Dream)",
       "genre": "Desert Rock",
       "notable": true,
@@ -41,11 +91,62 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1785,
+          "name": "Ping Zeng",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.475672
+        },
+        {
+          "person_id": 5033,
+          "name": "Fang Lin",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0496407
+        },
+        {
+          "person_id": 5030,
+          "name": "Wei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398608
+        },
+        {
+          "person_id": 5031,
+          "name": "Jing Wang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.398608
+        },
+        {
+          "person_id": 5032,
+          "name": "Richard Reyes",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3985872
+        }
+      ]
     },
     {
       "id": "song:11851",
-      "song_id": 11851,
+      "work_type": "Song",
+      "work_id": 11851,
       "title": "Sunrise at the Sacred Gathering",
       "genre": "Dream Pop",
       "notable": true,
@@ -63,11 +164,42 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11852,
+          "name": "Guiying Lei",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978925
+        },
+        {
+          "person_id": 11853,
+          "name": "Xia Tang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978925
+        },
+        {
+          "person_id": 11854,
+          "name": "Li Wen",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978925
+        }
       ]
     },
     {
       "id": "song:12061",
-      "song_id": 12061,
+      "work_type": "Song",
+      "work_id": 12061,
       "title": "Echoes of Loyalty",
       "genre": "Dream Pop",
       "notable": true,
@@ -85,17 +217,56 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12064,
+          "name": "Gang He",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3978481
+        },
+        {
+          "person_id": 12065,
+          "name": "Lei Liu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3978481
+        },
+        {
+          "person_id": 12062,
+          "name": "Ming Yao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977604
+        },
+        {
+          "person_id": 12063,
+          "name": "Ping Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3977396
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:11851",
+      "source": "song:12061",
       "target": "song:5029",
       "type": "LyricalReferenceTo"
     },
     {
-      "source": "song:12061",
+      "source": "song:11851",
       "target": "song:5029",
       "type": "LyricalReferenceTo"
     }

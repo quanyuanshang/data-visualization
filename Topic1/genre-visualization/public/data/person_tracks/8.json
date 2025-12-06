@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:5",
-      "song_id": 5,
+      "work_type": "Song",
+      "work_id": 5,
       "title": "Unshackled Heart",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -21,11 +22,32 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 6,
+          "name": "Luke Payne",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3949904
+        }
+      ]
     },
     {
       "id": "song:7054",
-      "song_id": 7054,
+      "work_type": "Song",
+      "work_id": 7054,
       "title": "Whispers of the Caravan",
       "genre": "Lo-Fi Electronica",
       "notable": false,
@@ -41,8 +63,111 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 7055,
+          "name": "Lei Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.786564
+        }
+      ]
+    },
+    {
+      "id": "album:13567",
+      "work_type": "Album",
+      "work_id": 13567,
+      "title": "Lowered Expectations",
+      "genre": "Lo-Fi Electronica",
+      "notable": true,
+      "release_year": 2025,
+      "single": false,
+      "own": true,
+      "artist_id": 8,
+      "artist_name": "David Franklin",
+      "influence": 5,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2590513
+        }
+      ]
+    },
+    {
+      "id": "song:14175",
+      "work_type": "Song",
+      "work_id": 14175,
+      "title": "Our Unwritten Story",
+      "genre": "Emo/Pop Punk",
+      "notable": true,
+      "release_year": 2031,
+      "single": true,
+      "own": false,
+      "artist_id": 14176,
+      "artist_name": "Fang Ren",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7,
+          "name": "Xiulan Zeng",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2590513
+        },
+        {
+          "person_id": 14176,
+          "name": "Fang Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3959937
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "song:14175",
+      "target": "album:13567",
+      "type": "CoverOf"
+    }
+  ]
 }

@@ -1,0 +1,145 @@
+{
+  "person_id": 8652,
+  "name": "Jing Wei",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:8651",
+      "work_type": "Album",
+      "work_id": 8651,
+      "title": "Resonant Tongue",
+      "genre": "Oceanus Folk",
+      "notable": true,
+      "release_year": 2020,
+      "single": false,
+      "own": true,
+      "artist_id": 8652,
+      "artist_name": "Jing Wei",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 7240,
+          "name": "Yan Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4393845
+        },
+        {
+          "person_id": 5107,
+          "name": "Tao Yao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0245712
+        },
+        {
+          "person_id": 2840,
+          "name": "Gang Bai",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.427711
+        }
+      ]
+    },
+    {
+      "id": "song:9861",
+      "work_type": "Song",
+      "work_id": 9861,
+      "title": "Stalemate",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": true,
+      "own": false,
+      "artist_id": 9863,
+      "artist_name": "Qiang Gao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4185,
+          "name": "Na Ren",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.2553897
+        },
+        {
+          "person_id": 9863,
+          "name": "Qiang Gao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0360744
+        },
+        {
+          "person_id": 9866,
+          "name": "Ping Wan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0360744
+        },
+        {
+          "person_id": 9862,
+          "name": "Ronald Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3990157
+        },
+        {
+          "person_id": 9864,
+          "name": "Ping Qian",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3990157
+        },
+        {
+          "person_id": 9865,
+          "name": "Ping Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3990157
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:9861",
+      "target": "album:8651",
+      "type": "DirectlySamples"
+    }
+  ]
+}

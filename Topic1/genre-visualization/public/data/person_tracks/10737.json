@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:10736",
-      "song_id": 10736,
+      "work_type": "Song",
+      "work_id": 10736,
       "title": "Pure Heart's Dance",
       "genre": "Space Rock",
       "notable": true,
@@ -14,6 +15,56 @@
       "own": true,
       "artist_id": 10737,
       "artist_name": "Yan Xiong",
+      "influence": 9,
+      "influence_breakdown": {
+        "cover": 1,
+        "sample": 1,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 4098,
+          "name": "Guiying Liao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2504196
+        },
+        {
+          "person_id": 10738,
+          "name": "Jun Ding",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0360386
+        },
+        {
+          "person_id": 10739,
+          "name": "Na Yu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3036647
+        }
+      ]
+    },
+    {
+      "id": "album:2030",
+      "work_type": "Album",
+      "work_id": 2030,
+      "title": "Aftershock Silence",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 1139,
+      "artist_name": "Crystal Cruz",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -21,8 +72,123 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1201,
+          "name": "Xiuying Fan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.2639523
+        },
+        {
+          "person_id": 1139,
+          "name": "Crystal Cruz",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4299731
+        },
+        {
+          "person_id": 2031,
+          "name": "Yan Yang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4017503
+        },
+        {
+          "person_id": 2032,
+          "name": "Jie Song",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4004483
+        },
+        {
+          "person_id": 2033,
+          "name": "Xiuying Kong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4004483
+        }
+      ]
+    },
+    {
+      "id": "album:11072",
+      "work_type": "Album",
+      "work_id": 11072,
+      "title": "Braided Bonds",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2024,
+      "single": false,
+      "own": false,
+      "artist_id": 4098,
+      "artist_name": "Guiying Liao",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4098,
+          "name": "Guiying Liao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2504196
+        },
+        {
+          "person_id": 10738,
+          "name": "Jun Ding",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0360386
+        },
+        {
+          "person_id": 11073,
+          "name": "Jing Yang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993502
+        }
+      ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "album:11072",
+      "target": "song:10736",
+      "type": "DirectlySamples"
+    },
+    {
+      "source": "album:2030",
+      "target": "song:10736",
+      "type": "CoverOf"
+    }
+  ]
 }

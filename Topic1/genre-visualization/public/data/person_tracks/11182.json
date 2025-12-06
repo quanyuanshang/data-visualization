@@ -1,0 +1,159 @@
+{
+  "person_id": 11182,
+  "name": "Ronald Ramirez",
+  "stage_name": null,
+  "nodes": [
+    {
+      "id": "album:11179",
+      "work_type": "Album",
+      "work_id": 11179,
+      "title": "Backup's Lament",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 11182,
+      "artist_name": "Ronald Ramirez",
+      "influence": 4,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 2
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 217,
+          "name": "Honoré Foucher",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7349598
+        },
+        {
+          "person_id": 11180,
+          "name": "Jennifer Alvarez",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3993692
+        },
+        {
+          "person_id": 11181,
+          "name": "Laurent-Léon Morvan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993692
+        },
+        {
+          "person_id": 11183,
+          "name": "Philippe Carre de la Humbert",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3993692
+        }
+      ]
+    },
+    {
+      "id": "song:216",
+      "work_type": "Song",
+      "work_id": 216,
+      "title": "Spurs and Wedding Rings",
+      "genre": "Alternative Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 217,
+      "artist_name": "Honoré Foucher",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 217,
+          "name": "Honoré Foucher",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7349598
+        }
+      ]
+    },
+    {
+      "id": "song:12494",
+      "work_type": "Song",
+      "work_id": 12494,
+      "title": "Echoes from the Sacred",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2022,
+      "single": false,
+      "own": false,
+      "artist_id": 217,
+      "artist_name": "Honoré Foucher",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 217,
+          "name": "Honoré Foucher",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.7349598
+        },
+        {
+          "person_id": 12495,
+          "name": "Marguerite Faure",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4023752
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "song:216",
+      "target": "album:11179",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12494",
+      "target": "album:11179",
+      "type": "InStyleOf"
+    }
+  ]
+}

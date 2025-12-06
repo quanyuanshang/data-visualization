@@ -4,8 +4,63 @@
   "stage_name": null,
   "nodes": [
     {
+      "id": "album:16295",
+      "work_type": "Album",
+      "work_id": 16295,
+      "title": "Rent-A-Tear",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2027,
+      "single": false,
+      "own": true,
+      "artist_id": 6686,
+      "artist_name": "Tracey Jordan",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": []
+    },
+    {
+      "id": "album:6685",
+      "work_type": "Album",
+      "work_id": 6685,
+      "title": "Kallelsens sång (Song of Calling)",
+      "genre": "Indie Pop",
+      "notable": true,
+      "release_year": 2012,
+      "single": false,
+      "own": true,
+      "artist_id": 6686,
+      "artist_name": "Tracey Jordan",
+      "influence": 3,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 1,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 5967,
+          "name": "Richard Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.436504
+        }
+      ]
+    },
+    {
       "id": "song:14863",
-      "song_id": 14863,
+      "work_type": "Song",
+      "work_id": 14863,
       "title": "Evening's Soft Cadence",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +69,39 @@
       "own": true,
       "artist_id": 6686,
       "artist_name": "Tracey Jordan",
-      "influence": 5,
+      "influence": 8,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 0,
+        "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1956,
+          "name": "Dominic Riehl",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.6828003
+        },
+        {
+          "person_id": 5967,
+          "name": "Richard Gutierrez",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.436504
+        }
+      ]
     },
     {
       "id": "song:14760",
-      "song_id": 14760,
+      "work_type": "Song",
+      "work_id": 14760,
       "title": "Nymph's Embrace",
       "genre": "Indie Pop",
       "notable": true,
@@ -43,14 +119,45 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1758,
+          "name": "Michael Boyd",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.2834263
+        },
+        {
+          "person_id": 14761,
+          "name": "Kendra Spears",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.395795
+        }
       ]
     }
   ],
   "links": [
     {
+      "source": "album:16295",
+      "target": "album:6685",
+      "type": "LyricalReferenceTo"
+    },
+    {
       "source": "song:14760",
       "target": "song:14863",
       "type": "CoverOf"
+    },
+    {
+      "source": "album:16295",
+      "target": "song:14863",
+      "type": "InterpolatesFrom"
     }
   ]
 }

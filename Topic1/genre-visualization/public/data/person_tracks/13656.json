@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:13654",
-      "song_id": 13654,
+      "work_type": "Song",
+      "work_id": 13654,
       "title": "Blueprints of Hope",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -14,18 +15,49 @@
       "own": true,
       "artist_id": 13656,
       "artist_name": "Gustaw Reich",
-      "influence": 7,
+      "influence": 9,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
-        "style": 2
+        "style": 3
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 13655,
+          "name": "Leon Misiurek",
+          "stage_name": " Stellar Crow",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4029436
+        },
+        {
+          "person_id": 13657,
+          "name": "Jerzy Bochnak",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4029436
+        }
+      ]
     },
     {
       "id": "song:7669",
-      "song_id": 7669,
+      "work_type": "Song",
+      "work_id": 7669,
       "title": "Seaside Promise",
       "genre": "Southern Gothic Rock",
       "notable": true,
@@ -43,11 +75,23 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7670,
+          "name": "Tadeusz Kieszek",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.403985
+        }
       ]
     },
     {
       "id": "song:10759",
-      "song_id": 10759,
+      "work_type": "Song",
+      "work_id": 10759,
       "title": "Whispers of Your Memory",
       "genre": "Avant-Garde Folk",
       "notable": true,
@@ -65,11 +109,33 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 5.2392383
+        },
+        {
+          "person_id": 10760,
+          "name": "Cyprian Goss",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.400252
+        }
       ]
     },
     {
       "id": "song:14216",
-      "song_id": 14216,
+      "work_type": "Song",
+      "work_id": 14216,
       "title": "Hallowed Whispers",
       "genre": "Alternative Rock",
       "notable": true,
@@ -87,15 +153,66 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8950,
+          "name": "Carolyn Donovan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4422855
+        },
+        {
+          "person_id": 13403,
+          "name": "Charles Wallace",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0574858
+        }
+      ]
+    },
+    {
+      "id": "album:14658",
+      "work_type": "Album",
+      "work_id": 14658,
+      "title": "Addicted to Your Heartache",
+      "genre": "Southern Gothic Rock",
+      "notable": true,
+      "release_year": 2004,
+      "single": false,
+      "own": false,
+      "artist_id": 1294,
+      "artist_name": "Urszula Stochmal",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 1294,
+          "name": "Urszula Stochmal",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 5.2392383
+        }
       ]
     }
   ],
   "links": [
-    {
-      "source": "song:10759",
-      "target": "song:13654",
-      "type": "InStyleOf"
-    },
     {
       "source": "song:14216",
       "target": "song:13654",
@@ -103,6 +220,16 @@
     },
     {
       "source": "song:7669",
+      "target": "song:13654",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:14658",
+      "target": "song:13654",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:10759",
       "target": "song:13654",
       "type": "InStyleOf"
     }

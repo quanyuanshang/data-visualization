@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:6941",
-      "song_id": 6941,
+      "work_type": "Song",
+      "work_id": 6941,
       "title": "Echoes of Devotion",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -14,18 +15,148 @@
       "own": true,
       "artist_id": 6942,
       "artist_name": "Eric Bartlett",
-      "influence": 3,
+      "influence": 5,
       "influence_breakdown": {
         "cover": 0,
         "sample": 0,
         "reference": 1,
+        "style": 1
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 6622,
+          "name": "Xia Zeng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.92736
+        },
+        {
+          "person_id": 6943,
+          "name": "Min Yan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4006028
+        },
+        {
+          "person_id": 6944,
+          "name": "Gang Zhu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.4006028
+        },
+        {
+          "person_id": 6945,
+          "name": "Ming Yu",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.4006028
+        }
+      ]
+    },
+    {
+      "id": "album:7441",
+      "work_type": "Album",
+      "work_id": 7441,
+      "title": "Nothing Left Untried",
+      "genre": "Desert Rock",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 959,
+      "artist_name": "Qiang Fang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 959,
+          "name": "Qiang Fang",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 4.106955
+        },
+        {
+          "person_id": 5781,
+          "name": "Fang Xiong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.43545
+        },
+        {
+          "person_id": 7442,
+          "name": "Yan Liu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974514
+        },
+        {
+          "person_id": 7444,
+          "name": "Lei Shi",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974514
+        },
+        {
+          "person_id": 7445,
+          "name": "Xiuying Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974514
+        },
+        {
+          "person_id": 7446,
+          "name": "Jing Guo",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974514
+        },
+        {
+          "person_id": 7443,
+          "name": "Wei Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3974307
+        }
+      ]
     },
     {
       "id": "song:9090",
-      "song_id": 9090,
+      "work_type": "Song",
+      "work_id": 9090,
       "title": "Palms of Passage",
       "genre": "Oceanus Folk",
       "notable": true,
@@ -43,10 +174,63 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 9094,
+          "name": "Yang Zhang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0359056
+        },
+        {
+          "person_id": 9095,
+          "name": "Guiying Jin",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0359056
+        },
+        {
+          "person_id": 9091,
+          "name": "Xiulan Zhou",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986948
+        },
+        {
+          "person_id": 9093,
+          "name": "Chao Fang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3986948
+        },
+        {
+          "person_id": 9092,
+          "name": "Nicholas Moss",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.398674
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:7441",
+      "target": "song:6941",
+      "type": "InStyleOf"
+    },
     {
       "source": "song:9090",
       "target": "song:6941",

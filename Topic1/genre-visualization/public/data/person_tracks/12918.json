@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:12916",
-      "song_id": 12916,
+      "work_type": "Song",
+      "work_id": 12916,
       "title": "Highland Outlaw's Lament",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -21,11 +22,24 @@
         "reference": 2,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12917,
+          "name": "Christopher Rosales",
+          "stage_name": "Chris Rosales",
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.0367627
+        }
+      ]
     },
     {
       "id": "song:15419",
-      "song_id": 15419,
+      "work_type": "Song",
+      "work_id": 15419,
       "title": "Echoes from the Silent Valley",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -34,18 +48,30 @@
       "own": true,
       "artist_id": 12918,
       "artist_name": "Tara Jennings",
-      "influence": 8,
+      "influence": 13,
       "influence_breakdown": {
-        "cover": 1,
+        "cover": 2,
         "sample": 0,
         "reference": 1,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 12917,
+          "name": "Christopher Rosales",
+          "stage_name": "Chris Rosales",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0367627
+        }
+      ]
     },
     {
       "id": "song:7278",
-      "song_id": 7278,
+      "work_type": "Song",
+      "work_id": 7278,
       "title": "Requiem for a Fading Self",
       "genre": "Synthwave",
       "notable": true,
@@ -63,11 +89,25 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 7279,
+          "name": "Keith Larsen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.4293177
+        }
       ]
     },
     {
       "id": "song:15419",
-      "song_id": 15419,
+      "work_type": "Song",
+      "work_id": 15419,
       "title": "Echoes from the Silent Valley",
       "genre": "Psychedelic Rock",
       "notable": true,
@@ -85,11 +125,32 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 12917,
+          "name": "Christopher Rosales",
+          "stage_name": "Chris Rosales",
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0367627
+        },
+        {
+          "person_id": 12918,
+          "name": "Tara Jennings",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.0290177
+        }
       ]
     },
     {
       "id": "song:283",
-      "song_id": 283,
+      "work_type": "Song",
+      "work_id": 283,
       "title": "Unbreakable Bond",
       "genre": "Dream Pop",
       "notable": true,
@@ -107,11 +168,169 @@
       },
       "relation_types": [
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 288,
+          "name": "Gerlind Sager-Ortmann",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0980625
+        },
+        {
+          "person_id": 284,
+          "name": "Liza Rijcken",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998919
+        },
+        {
+          "person_id": 285,
+          "name": "Ben Ponci",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3998919
+        },
+        {
+          "person_id": 286,
+          "name": "Liza Mahieu-Groenestein",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3998919
+        },
+        {
+          "person_id": 287,
+          "name": "Ryan van 't Houteveen-Luboch",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3998919
+        },
+        {
+          "person_id": 289,
+          "name": "Liam de Vrome",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3998919
+        }
+      ]
+    },
+    {
+      "id": "album:10046",
+      "work_type": "Album",
+      "work_id": 10046,
+      "title": "Blonde Ambition",
+      "genre": "Dream Pop",
+      "notable": true,
+      "release_year": 2030,
+      "single": false,
+      "own": false,
+      "artist_id": 10048,
+      "artist_name": "Min Peng",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 10047,
+          "name": "Chao Xu",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3971908
+        },
+        {
+          "person_id": 10048,
+          "name": "Min Peng",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971908
+        },
+        {
+          "person_id": 10049,
+          "name": "Jun Duan",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971908
+        },
+        {
+          "person_id": 10050,
+          "name": "Xiulan Gu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971908
+        },
+        {
+          "person_id": 10051,
+          "name": "Ping Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971908
+        },
+        {
+          "person_id": 10054,
+          "name": "Juan Xie",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971908
+        },
+        {
+          "person_id": 10052,
+          "name": "Yong Lai",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39717
+        },
+        {
+          "person_id": 10053,
+          "name": "Qiang Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39717
+        }
       ]
     },
     {
       "id": "song:15310",
-      "song_id": 15310,
+      "work_type": "Song",
+      "work_id": 15310,
       "title": "Barrio Nights",
       "genre": "Desert Rock",
       "notable": true,
@@ -129,10 +348,69 @@
       },
       "relation_types": [
         "CoverOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15313,
+          "name": "Erin Shah",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0355017
+        },
+        {
+          "person_id": 15314,
+          "name": "Yan Lu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0355017
+        },
+        {
+          "person_id": 6093,
+          "name": "Na Cao",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.035463
+        },
+        {
+          "person_id": 15311,
+          "name": "Jing Zheng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3997774
+        },
+        {
+          "person_id": 15312,
+          "name": "Xiuying Zhou",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3997774
+        }
       ]
     }
   ],
   "links": [
+    {
+      "source": "album:10046",
+      "target": "song:15419",
+      "type": "CoverOf"
+    },
+    {
+      "source": "song:7278",
+      "target": "song:12916",
+      "type": "LyricalReferenceTo"
+    },
     {
       "source": "song:283",
       "target": "song:15419",
@@ -142,11 +420,6 @@
       "source": "song:15419",
       "target": "song:12916",
       "type": "InterpolatesFrom"
-    },
-    {
-      "source": "song:7278",
-      "target": "song:12916",
-      "type": "LyricalReferenceTo"
     },
     {
       "source": "song:15310",

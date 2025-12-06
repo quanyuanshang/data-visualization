@@ -5,7 +5,8 @@
   "nodes": [
     {
       "id": "song:9489",
-      "song_id": 9489,
+      "work_type": "Song",
+      "work_id": 9489,
       "title": "Echoes of the Grande Armée",
       "genre": "Indie Folk",
       "notable": true,
@@ -21,11 +22,52 @@
         "reference": 0,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9255,
+          "name": "Lei Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7122939
+        },
+        {
+          "person_id": 2312,
+          "name": "Chao Wu",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7090461
+        },
+        {
+          "person_id": 9490,
+          "name": "Guiying Zhang",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978865
+        },
+        {
+          "person_id": 9492,
+          "name": "Jeremy Hahn",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3978865
+        }
+      ]
     },
     {
       "id": "song:10589",
-      "song_id": 10589,
+      "work_type": "Song",
+      "work_id": 10589,
       "title": "Branches of Ancestral Memory",
       "genre": "Americana",
       "notable": true,
@@ -41,11 +83,51 @@
         "reference": 0,
         "style": 0
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 9255,
+          "name": "Lei Hu",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.7122939
+        },
+        {
+          "person_id": 10590,
+          "name": "Qiang Dong",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971558
+        },
+        {
+          "person_id": 10591,
+          "name": "Jun Hao",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971558
+        },
+        {
+          "person_id": 10592,
+          "name": "Yan Xiao",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3971558
+        }
+      ]
     },
     {
       "id": "song:17017",
-      "song_id": 17017,
+      "work_type": "Song",
+      "work_id": 17017,
       "title": "Writ in Blood",
       "genre": "Indie Rock",
       "notable": true,
@@ -63,11 +145,23 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 17012,
+          "name": "Sienna Fox",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9409828
+        }
       ]
     },
     {
       "id": "song:15630",
-      "song_id": 15630,
+      "work_type": "Song",
+      "work_id": 15630,
       "title": "Beyond the Resolution",
       "genre": "Desert Rock",
       "notable": true,
@@ -85,19 +179,30 @@
       },
       "relation_types": [
         "DirectlySamples"
+      ],
+      "collaborators": [
+        {
+          "person_id": 15631,
+          "name": "Susan Jones",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.39855
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:15630",
-      "target": "song:10589",
-      "type": "DirectlySamples"
-    },
-    {
       "source": "song:17017",
       "target": "song:9489",
       "type": "InStyleOf"
+    },
+    {
+      "source": "song:15630",
+      "target": "song:10589",
+      "type": "DirectlySamples"
     }
   ]
 }

@@ -4,28 +4,9 @@
   "stage_name": null,
   "nodes": [
     {
-      "id": "song:16484",
-      "song_id": 16484,
-      "title": "Sacred Branches of Knowledge",
-      "genre": "Indie Rock",
-      "notable": true,
-      "release_year": 2023,
-      "single": false,
-      "own": true,
-      "artist_id": 2361,
-      "artist_name": "Xiulan Shi",
-      "influence": 0,
-      "influence_breakdown": {
-        "cover": 0,
-        "sample": 0,
-        "reference": 0,
-        "style": 0
-      },
-      "relation_types": []
-    },
-    {
       "id": "song:2360",
-      "song_id": 2360,
+      "work_type": "Song",
+      "work_id": 2360,
       "title": "Fragments of What I Mean",
       "genre": "Indie Rock",
       "notable": true,
@@ -34,18 +15,39 @@
       "own": true,
       "artist_id": 2361,
       "artist_name": "Xiulan Shi",
-      "influence": 13,
+      "influence": 18,
       "influence_breakdown": {
         "cover": 1,
         "sample": 0,
-        "reference": 2,
-        "style": 1
+        "reference": 3,
+        "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 3.947515
+        }
+      ]
     },
     {
       "id": "song:9088",
-      "song_id": 9088,
+      "work_type": "Song",
+      "work_id": 9088,
       "title": "Whispers Without Words",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -61,11 +63,41 @@
         "reference": 1,
         "style": 1
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 3290,
+          "name": "Jie Yan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9197183
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9107525
+        }
+      ]
     },
     {
       "id": "song:9807",
-      "song_id": 9807,
+      "work_type": "Song",
+      "work_id": 9807,
       "title": "White Picket Prison",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -81,11 +113,115 @@
         "reference": 0,
         "style": 2
       },
-      "relation_types": []
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.9107525
+        }
+      ]
+    },
+    {
+      "id": "album:2683",
+      "work_type": "Album",
+      "work_id": 2683,
+      "title": "Celestial Whispers",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 2361,
+      "artist_name": "Xiulan Shi",
+      "influence": 6,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 3
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
+      ]
+    },
+    {
+      "id": "song:16484",
+      "work_type": "Song",
+      "work_id": 16484,
+      "title": "Sacred Branches of Knowledge",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2023,
+      "single": false,
+      "own": true,
+      "artist_id": 2361,
+      "artist_name": "Xiulan Shi",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
+      ]
     },
     {
       "id": "song:4959",
-      "song_id": 4959,
+      "work_type": "Song",
+      "work_id": 4959,
       "title": "Whispers of Minor Keys",
       "genre": "Indie Rock",
       "notable": true,
@@ -103,11 +239,77 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 4960,
+          "name": "Michael Perkins",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.4007626
+        }
+      ]
+    },
+    {
+      "id": "album:5699",
+      "work_type": "Album",
+      "work_id": 5699,
+      "title": "Nomad's Embrace",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2026,
+      "single": false,
+      "own": false,
+      "artist_id": 5700,
+      "artist_name": "Ping Shen",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 5701,
+          "name": "Xiuying Ren",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3980012
+        },
+        {
+          "person_id": 5700,
+          "name": "Ping Shen",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3968039
+        },
+        {
+          "person_id": 5702,
+          "name": "Qiang Zhong",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.3968039
+        }
       ]
     },
     {
       "id": "song:11911",
-      "song_id": 11911,
+      "work_type": "Song",
+      "work_id": 11911,
       "title": "Time's Running Out",
       "genre": "Blues Rock",
       "notable": true,
@@ -125,11 +327,85 @@
       },
       "relation_types": [
         "InterpolatesFrom"
+      ],
+      "collaborators": [
+        {
+          "person_id": 11403,
+          "name": "Chao Hao",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 2.7149854
+        },
+        {
+          "person_id": 11912,
+          "name": "Guiying Fan",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3980095
+        },
+        {
+          "person_id": 11913,
+          "name": "Guiying Peng",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3980095
+        }
+      ]
+    },
+    {
+      "id": "album:14828",
+      "work_type": "Album",
+      "work_id": 14828,
+      "title": "Barn Door Dialogues",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2028,
+      "single": false,
+      "own": false,
+      "artist_id": 8913,
+      "artist_name": "Richard Goodman",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 8913,
+          "name": "Richard Goodman",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 3.0329998
+        },
+        {
+          "person_id": 14829,
+          "name": "Cynthia Johnson",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf"
+          ],
+          "predicted_score": 2.3968341
+        }
       ]
     },
     {
       "id": "song:16494",
-      "song_id": 16494,
+      "work_type": "Song",
+      "work_id": 16494,
       "title": "Whispers from the Northern Town",
       "genre": "Indie Rock",
       "notable": false,
@@ -146,20 +422,43 @@
         "style": 0
       },
       "relation_types": [
-        "CoverOf"
+        "CoverOf",
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "LyricistOf",
+            "PerformerOf"
+          ],
+          "predicted_score": 3.947515
+        }
       ]
     },
     {
       "id": "song:17068",
-      "song_id": 17068,
+      "work_type": "Song",
+      "work_id": 17068,
       "title": "Classified Groove",
       "genre": "Jazz Surf Rock",
       "notable": true,
       "release_year": 2036,
       "single": false,
       "own": false,
-      "artist_id": -1,
-      "artist_name": "Unknown Artist",
+      "artist_id": 17063,
+      "artist_name": "The Phantom Operators（成员：Juno Ray｜预测 2.72、Savannah Teal｜预测 2.72）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -169,19 +468,21 @@
       },
       "relation_types": [
         "InStyleOf"
-      ]
+      ],
+      "collaborators": []
     },
     {
       "id": "song:12750",
-      "song_id": 12750,
+      "work_type": "Song",
+      "work_id": 12750,
       "title": "Lamentation in Minor Key",
       "genre": "Lo-Fi Electronica",
       "notable": true,
       "release_year": 2019,
       "single": false,
       "own": false,
-      "artist_id": 2363,
-      "artist_name": "Daniël Reijers",
+      "artist_id": 16766,
+      "artist_name": "Synaptic Collapse（成员：Daniël Reijers｜预测 4.88、Michelle Vallenduuk｜预测 3.91）",
       "influence": 0,
       "influence_breakdown": {
         "cover": 0,
@@ -191,11 +492,32 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ProducerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9107525
+        }
       ]
     },
     {
       "id": "song:15775",
-      "song_id": 15775,
+      "work_type": "Song",
+      "work_id": 15775,
       "title": "Wildflower Whispers",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -214,11 +536,33 @@
       "relation_types": [
         "InStyleOf",
         "LyricalReferenceTo"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.9107525
+        }
       ]
     },
     {
       "id": "song:4774",
-      "song_id": 4774,
+      "work_type": "Song",
+      "work_id": 4774,
       "title": "Title of Power",
       "genre": "Lo-Fi Electronica",
       "notable": true,
@@ -236,14 +580,161 @@
       },
       "relation_types": [
         "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 4776,
+          "name": "Michelle Vallenduuk",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 3.9107525
+        },
+        {
+          "person_id": 4775,
+          "name": "Sven Oude Heer",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf"
+          ],
+          "predicted_score": 2.3983092
+        }
+      ]
+    },
+    {
+      "id": "song:5980",
+      "work_type": "Song",
+      "work_id": 5980,
+      "title": "Sacred Resonance",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2025,
+      "single": true,
+      "own": false,
+      "artist_id": 2362,
+      "artist_name": "Kristi Crane",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 2363,
+          "name": "Daniël Reijers",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 4.8816247
+        },
+        {
+          "person_id": 2362,
+          "name": "Kristi Crane",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 3.947515
+        }
+      ]
+    },
+    {
+      "id": "song:6337",
+      "work_type": "Song",
+      "work_id": 6337,
+      "title": "Dressed to the Nines",
+      "genre": "Indie Rock",
+      "notable": true,
+      "release_year": 2029,
+      "single": true,
+      "own": false,
+      "artist_id": 878,
+      "artist_name": "Jing Kang",
+      "influence": 0,
+      "influence_breakdown": {
+        "cover": 0,
+        "sample": 0,
+        "reference": 0,
+        "style": 0
+      },
+      "relation_types": [
+        "InStyleOf"
+      ],
+      "collaborators": [
+        {
+          "person_id": 878,
+          "name": "Jing Kang",
+          "stage_name": null,
+          "roles": [
+            "PerformerOf",
+            "ProducerOf"
+          ],
+          "predicted_score": 5.1272407
+        },
+        {
+          "person_id": 6338,
+          "name": "Juan Qin",
+          "stage_name": null,
+          "roles": [
+            "ComposerOf"
+          ],
+          "predicted_score": 2.3977122
+        }
       ]
     }
   ],
   "links": [
     {
-      "source": "song:4959",
+      "source": "song:17068",
       "target": "song:2360",
-      "type": "InterpolatesFrom"
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:12750",
+      "target": "song:9088",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:4774",
+      "target": "song:9807",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:5980",
+      "target": "album:2683",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:6337",
+      "target": "album:2683",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "album:14828",
+      "target": "song:2360",
+      "type": "InStyleOf"
+    },
+    {
+      "source": "song:16494",
+      "target": "album:2683",
+      "type": "InStyleOf"
     },
     {
       "source": "song:15775",
@@ -256,19 +747,9 @@
       "type": "InStyleOf"
     },
     {
-      "source": "song:17068",
+      "source": "song:4959",
       "target": "song:2360",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:4774",
-      "target": "song:9807",
-      "type": "InStyleOf"
-    },
-    {
-      "source": "song:12750",
-      "target": "song:9088",
-      "type": "InStyleOf"
+      "type": "InterpolatesFrom"
     },
     {
       "source": "song:16494",
@@ -279,6 +760,11 @@
       "source": "song:11911",
       "target": "song:2360",
       "type": "InterpolatesFrom"
+    },
+    {
+      "source": "album:5699",
+      "target": "song:2360",
+      "type": "LyricalReferenceTo"
     }
   ]
 }
